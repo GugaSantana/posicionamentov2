@@ -17,7 +17,7 @@ class CreateInstrumento12sTable extends Migration
             $table->id();
             $table->bigInteger('user_id')->unsigned()->index();
             $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade')->onDelete('cascade');
-            $table->json('respostas');
+            $table->text('respostas');
             $table->integer('sim');
             $table->integer('nao');
             $table->boolean('done')->default(false);

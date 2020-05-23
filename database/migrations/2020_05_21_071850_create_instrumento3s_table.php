@@ -17,8 +17,8 @@ class CreateInstrumento3sTable extends Migration
             $table->id();
             $table->bigInteger('user_id')->unsigned()->index();
             $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade')->onDelete('cascade');
-            $table->json('retorno');
-            $table->json('diferenca');
+            $table->text('retorno');
+            $table->text('diferenca');
             $table->boolean('done')->default(false);
             $table->timestamps();
         });

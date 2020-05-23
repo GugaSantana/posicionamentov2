@@ -17,9 +17,9 @@ class CreateInstrumento14sTable extends Migration
             $table->id();
             $table->bigInteger('user_id')->unsigned()->index();
             $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade')->onDelete('cascade');
-            $table->json('resultado');
-            $table->json('clientes');
-            $table->json('cores');
+            $table->text('resultado');
+            $table->text('clientes');
+            $table->text('cores');
             $table->boolean('done')->default(false);
             $table->timestamps();
         });

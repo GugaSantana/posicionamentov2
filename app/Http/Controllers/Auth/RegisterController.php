@@ -55,7 +55,7 @@ class RegisterController extends Controller
             'password' => ['required', 'string', 'min:8', 'confirmed'],
             'cpf' => ['required', 'string', 'min:11', 'max:11'],
             'nascimento' => ['required', 'string', 'max:255'],
-            'fone' => ['required', 'string', 'min:11', 'max:11'],
+            'fone' => ['required', 'string', 'min:8', 'max:14'],
             'cep' => ['required', 'string', 'min:8', 'max:8'],
             'address' => ['required', 'string', 'max:255'],
             'quarter' => ['required', 'string', 'max:255'],

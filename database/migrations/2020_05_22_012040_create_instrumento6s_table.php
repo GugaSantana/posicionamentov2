@@ -17,8 +17,8 @@ class CreateInstrumento6sTable extends Migration
             $table->id();
             $table->bigInteger('user_id')->unsigned()->index();
             $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade')->onDelete('cascade');
-            $table->json('att');
-            $table->json('desvios');
+            $table->text('att');
+            $table->text('desvios');
             $table->decimal('mediaVolume', 5, 3);
             $table->decimal('mediaProdutividade', 5, 3);
             $table->boolean('done')->default(false);

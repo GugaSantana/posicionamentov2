@@ -17,9 +17,9 @@ class CreateInstrumento2sTable extends Migration
             $table->id();
             $table->bigInteger('user_id')->unsigned()->index();
             $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade')->onDelete('cascade');
-            $table->json('retorno');
-            $table->json('retornoOld');
-            $table->json('cores');
+            $table->text('retorno');
+            $table->text('retornoOld');
+            $table->text('cores');
             $table->boolean('done')->default(false);
             $table->timestamps();
         });
