@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>Título da página</title>
+    <style>
+        .flex-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }
+
+        .container-box {
+        background-color: #35408f;
+        height: 300px;
+        }
+
+        .content-box {
+        color: white;
+        text-align: center;
+        width: 18em;
+        font-size: 34px;
+        font-weight: bold;
+        }
+
+        #rodape {
+        width: 34%;
+        position: absolute;
+        bottom: 0;
+        left: 60%;
+        }
+
+        #rodape img {
+            width: 100%;
+            height: 100px;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            object-fit: cover; /* classe pra deixa a imagem com a proporção correta e não ficar achatada */
+        }
+
+        /* Flex */
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+
+/* Flex Item */
+.item {
+	margin: 5px;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.container {
+	max-width: 880px;
+	margin: 0 auto;
+	
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+body {
+	font-family: monospace;
+	color: #333;
+}
+
+      
+    </style>
+  </head>
+  <body style=" background-color: #35408f;background-repeat: no-repeat;
+  background-attachment: fixed;background-size: 100% 100%;">@include('estilo') <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="flex-box container-box">
+      <section class="container flex">
+        <div class="item" style="align-self: center;color: white;text-align: end;font-size: 40px;font-weight: bold;margin-right: 6%;">SOMOS
+          CONSULTORES EM COMPETITIVIDADE SISTÊMICA</div>
+        <div class="item" style="align-self: center;color: white;text-align: start;font-size: 18px;">A
+          Posicionamento está no mercado desde 1986, atendendo empresas de
+          diferentes setores da economia, tanto no Brasil como no
+          exterior. Por meio de <b>metodologias inovadoras</b>, integradas de
+          maneira sistêmica aos processos empresariais, temos contribuído com o
+          desenvolvimento da competitividade de importantes marcas, gerando para
+          elas <b>resultados concretos</b>, em bases objetivas e
+          quantificáveis.</div>
+      </section>
+    </div>
+    <div id="rodape"> <a href="slide3" style="float:right; margin-right: 1%; color:white"
+        class="seta-dir"><i></i></a> <a href="slide1" style="float:right; margin-right: 1%; color:white"
+        class="seta-esq"><i></i></a> </div>
+  </body>
+</html>
