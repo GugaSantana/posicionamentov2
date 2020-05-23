@@ -48,7 +48,7 @@
                     <div>
                         
                         <table class="table table-bordered align-items-center">
-                            <thead class="thead-light">
+                            <thead class="bg-primary">
                                 <tr class="fonte18">
                                     <th scope="col-8">
                                         Responda <b>sim</b> ou <b>não</b> às seguintes questões:
@@ -84,16 +84,16 @@
                                                 {{$questions[$i-1]}}
                                             </div>
                                         </td>
-                                        <td class="yes">
+                                        <td class="yes center">
                                             <div class="custom-control custom-radio mb-3">
                                                 <input name="radio{{$i}}" value="Y" class="custom-control-input" id="radioY{{$i}}" type="radio">
-                                                <label class="custom-control-label" for="radioY{{$i}}"></label>
+                                                <label style="cursor: pointer;" class="custom-control-label" for="radioY{{$i}}"></label>
                                             </div>
                                         </td>
-                                        <td class="no">
+                                        <td class="no center">
                                             <div class="custom-control custom-radio mb-3">
                                                 <input name="radio{{$i}}" value="N" class="custom-control-input" id="radioN{{$i}}" type="radio">
-                                                <label class="custom-control-label" for="radioN{{$i}}"></label>
+                                                <label style="cursor: pointer;" class="custom-control-label" for="radioN{{$i}}"></label>
                                             </div>
                                         </td>
                                     </tr>
@@ -120,8 +120,8 @@
 
         <div class="table-responsive">
             <div>
-                <table class="table align-items-center">
-                    <thead class="thead-light">
+                <table class="table table-bordered table-hover center align-items-center">
+                    <thead class="bg-primary">
                         <tr class="fonte18">
                             <th scope="col-2">
                                 1
@@ -161,7 +161,7 @@
                             @for($i=1; $i<=10; $i++) <td class="1-1">
                                 <div class="custom-control custom-radio mb-3">
                                     <input name="radioPt2" value="{{$i}}" class="custom-control-input" id="radio{{$i}}-1" type="radio">
-                                    <label class="custom-control-label" for="radio{{$i}}-1"></label>
+                                    <label style="cursor: pointer;" class="custom-control-label" for="radio{{$i}}-1"></label>
                                 </div>
                                 </td>
                                 @endfor
@@ -177,7 +177,7 @@
 
         <br>
         <div class="col-8">
-            <button class="btn btn-icon btn-3 btn-primary" type="submit">
+            <button class="btn btn-icon btn-3 btn-primary fonte18" type="submit">
                 <span class="btn-inner--icon"><i class="fa fa-paper-plane"></i></span>
                 <span class="btn-inner--text">Enviar formulário</span>
             </button>

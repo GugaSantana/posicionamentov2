@@ -3,12 +3,6 @@
 @section('content')
 
 <style>
-    .card .table td,
-    .card .table th {
-        white-space: normal;
-    }
-</style>
-<style>
     input[type=number]::-webkit-inner-spin-button,
     input[type=number]::-webkit-outer-spin-button {
         -webkit-appearance: none;
@@ -123,13 +117,15 @@
                     <br>
                     <div class="row">
                         <div class="col-12" style="overflow: auto;">
-                            <table class="table table-bordered">
-                                <tr>
-                                    <th style="font-size: 18px;">PROBLEMAS</th>
-                                    <th style="font-size: 18px; text-align: center; width: 100px">G</th>
-                                    <th style="font-size: 18px; text-align: center; width: 100px">U</th>
-                                    <th style="font-size: 18px; text-align: center; width: 100px">T</th>
+                            <table class="table table-hover table-bordered fonte18">
+                                <thead class="bg-primary">
+                                <tr class="center">
+                                    <th>PROBLEMAS</th>
+                                    <th style="width: 100px">G</th>
+                                    <th style="width: 100px">U</th>
+                                    <th style="width: 100px">T</th>
                                 </tr>
+                                </thead>
                                 @for($i=1;$i<=5;$i++) <tr>
                                     <td id="problemaTexto{{$i}}"></td>
                                     <div class="form-group">
@@ -146,7 +142,7 @@
                     </div>
                     <br>
                     <div class="col-8">
-                        <button class="btn btn-icon btn-3 btn-primary" type="submit">
+                        <button class="btn btn-icon btn-3 btn-primary fonte18" type="submit">
                             <span class="btn-inner--icon"><i class="fa fa-paper-plane"></i></span>
                             <span class="btn-inner--text">Enviar formulário</span>
                         </button>

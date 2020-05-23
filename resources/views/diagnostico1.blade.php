@@ -3,11 +3,6 @@
 @section('content')
 
 <style>
-    .card .table td,
-    .card .table th {
-        white-space: normal;
-    }
-
     #bola {
         background: radial-gradient(ellipse at center, #f00 0%, #f00 0%, #f00 30%, rgba(0, 0, 0, 0) 40%);
     }
@@ -121,10 +116,10 @@
 
             <div class="row">
                 <div class="col-12" style="">
-                    <table class="tg">
+                    <table class="table table-bordered fonte18">
                         <tr>
                             <td rowspan=2 style="font-size: 18px; vertical-align: middle; width: 20%; text-align: center; border: none;margin:0%;padding:0%;">Nível de Visão</td>
-                            @for($i=1; $i <= 10; $i++) <td style="font-size: 18px; vertical-align: middle; text-align: center; border-bottom: none;margin:0%;padding:0%;">{{$i}}</td>
+                            @for($i=1; $i <= 10; $i++) <td class="bg-primary" style="font-size: 18px; vertical-align: middle; text-align: center; border-bottom: none;margin:0%;padding:0%;">{{$i}}</td>
                                 @endfor
                         </tr>
                         <tr>
@@ -140,10 +135,10 @@
 
             <div class="row">
                 <div class="col-12" style="">
-                    <table class="tg">
+                <table class="table table-bordered fonte18">
                         <tr>
                             <td rowspan=2 style="font-size: 18px; vertical-align: middle; width: 20%; text-align: center; border: none;margin:0%;padding:0%;">Nível de Ação</td>
-                            @for($i=1; $i <= 10; $i++) <td style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center; border-bottom: none;margin:0%;padding:0%;">{{$i}}</td>
+                            @for($i=1; $i <= 10; $i++) <td class="bg-primary" style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center; border-bottom: none;margin:0%;padding:0%;">{{$i}}</td>
                                 @endfor
                         </tr>
                         <tr>
