@@ -64,6 +64,14 @@
                     {{ __('adminlte::menu.profile') }}
                 </a>
             @endif
+            @if(Auth::User()->role_id == 1)
+            <a class="btn btn-default btn-flat float-right @if(!$profile_url) btn-block @endif"
+               href="/user/list">
+                <i class="fa fa-fw fa-edit"></i>
+                Permissões de usuários
+            </a>
+            @endif
+            
             <a class="btn btn-default btn-flat float-right @if(!$profile_url) btn-block @endif"
                href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
                 <i class="fa fa-fw fa-power-off"></i>

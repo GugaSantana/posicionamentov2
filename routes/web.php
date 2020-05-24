@@ -19,7 +19,6 @@ Route::get('/', function () {
 
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/teste', 'HomeController@teste');
 
 Auth::routes();
 
@@ -104,3 +103,10 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 	
 
 });
+
+	//Users
+	Route::group(['prefix' => 'user', "middleware" => "auth"], function() {
+        Route::post('/enable', 'UserController@enableUser');
+		Route::post('/disable', 'UserController@disableUser');
+		Route::get('/list', 'UserController@listUser');
+	});

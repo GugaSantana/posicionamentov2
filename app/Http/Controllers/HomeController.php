@@ -42,18 +42,13 @@ class HomeController extends Controller
      * @return \Illuminate\Contracts\Support\Renderable
      */
 
-    public function teste(){
-        $users = User::get();
-        return view('list_users')->with(compact('users'));
-    }
-
     public function index()
     {
         return view('dashboard');
     }
     public function instrumento1(){
         $instrumento = Instrumento1::where('user_id', Auth::User()->id)->first();
-        if(empty($instrumento)){
+        if(empty($instrumento) || Auth::User()->role_id == 1){
             return view('instrumento1');
         }
         else{
@@ -64,7 +59,7 @@ class HomeController extends Controller
     public function instrumento2()
     {
         $instrumento = Instrumento2::where('user_id', Auth::User()->id)->first();
-        if(empty($instrumento)){
+        if(empty($instrumento) || Auth::User()->role_id == 1){
             return view('instrumento2');
         }
         else{
@@ -75,7 +70,7 @@ class HomeController extends Controller
     public function instrumento3()
     {
         $instrumento = Instrumento3::where('user_id', Auth::User()->id)->first();
-        if(empty($instrumento)){
+        if(empty($instrumento) || Auth::User()->role_id == 1){
             return view('instrumento3');
         }
         else{
@@ -86,7 +81,7 @@ class HomeController extends Controller
     public function instrumento4()
     {
         $instrumento = Instrumento4::where('user_id', Auth::User()->id)->first();
-        if(empty($instrumento)){
+        if(empty($instrumento) || Auth::User()->role_id == 1){
             return view('instrumento4');
         }
         else{
@@ -97,7 +92,7 @@ class HomeController extends Controller
     public function instrumento5()
     {
         $instrumento = Instrumento5::where('user_id', Auth::User()->id)->first();
-        if(empty($instrumento)){
+        if(empty($instrumento) || Auth::User()->role_id == 1){
             return view('instrumento5');
         }
         else{
@@ -108,7 +103,7 @@ class HomeController extends Controller
     public function instrumento6()
     {
         $instrumento = Instrumento6::where('user_id', Auth::User()->id)->first();
-        if(empty($instrumento)){
+        if(empty($instrumento) || Auth::User()->role_id == 1){
             return view('instrumento6');
         }
         else{
@@ -119,7 +114,7 @@ class HomeController extends Controller
     public function instrumento7()
     {
         $instrumento = Instrumento7::where('user_id', Auth::User()->id)->first();
-        if(empty($instrumento)){
+        if(empty($instrumento) || Auth::User()->role_id == 1){
             return view('instrumento7');
         }
         else{
@@ -130,7 +125,7 @@ class HomeController extends Controller
     public function instrumento8()
     {
         $instrumento = Instrumento8::where('user_id', Auth::User()->id)->first();
-        if(empty($instrumento)){
+        if(empty($instrumento) || Auth::User()->role_id == 1){
             return view('instrumento8');
         }
         else{
@@ -141,7 +136,7 @@ class HomeController extends Controller
     public function instrumento9()
     {
         $instrumento = Instrumento9::where('user_id', Auth::User()->id)->first();
-        if(empty($instrumento)){
+        if(empty($instrumento) || Auth::User()->role_id == 1){
             return view('instrumento9');
         }
         else{
@@ -152,7 +147,7 @@ class HomeController extends Controller
     public function instrumento10()
     {
         $instrumento = Instrumento10::where('user_id', Auth::User()->id)->first();
-        if(empty($instrumento)){
+        if(empty($instrumento) || Auth::User()->role_id == 1){
             return view('instrumento10');
         }
         else{
@@ -163,7 +158,7 @@ class HomeController extends Controller
     public function instrumento11()
     {
         $instrumento = Instrumento11::where('user_id', Auth::User()->id)->first();
-        if(empty($instrumento)){
+        if(empty($instrumento) || Auth::User()->role_id == 1){
             return view('instrumento11');
         }
         else{
@@ -174,7 +169,7 @@ class HomeController extends Controller
     public function instrumento12()
     {
         $instrumento = Instrumento12::where('user_id', Auth::User()->id)->first();
-        if(empty($instrumento)){
+        if(empty($instrumento) || Auth::User()->role_id == 1){
             return view('instrumento12');
         }
         else{
@@ -185,7 +180,7 @@ class HomeController extends Controller
     public function instrumento13()
     {
         $instrumento = Instrumento13::where('user_id', Auth::User()->id)->first();
-        if(empty($instrumento)){
+        if(empty($instrumento) || Auth::User()->role_id == 1){
             return view('instrumento13');
         }
         else{
@@ -196,7 +191,7 @@ class HomeController extends Controller
     public function instrumento14()
     {
         $instrumento = Instrumento14::where('user_id', Auth::User()->id)->first();
-        if(empty($instrumento)){
+        if(empty($instrumento) || Auth::User()->role_id == 1){
             return view('instrumento14');
         }
         else{
@@ -215,7 +210,7 @@ class HomeController extends Controller
     public function instrumento17()
     {
         $instrumento = Instrumento17::where('user_id', Auth::User()->id)->first();
-        if(empty($instrumento)){
+        if(empty($instrumento) || Auth::User()->role_id == 1){
             return view('instrumento17');
         }
         else{
@@ -226,7 +221,7 @@ class HomeController extends Controller
     public function instrumento18()
     {
         $instrumento = Instrumento18::where('user_id', Auth::User()->id)->first();
-        if(empty($instrumento)){
+        if(empty($instrumento) || Auth::User()->role_id == 1){
             return view('instrumento18');
         }
         else{
@@ -237,7 +232,7 @@ class HomeController extends Controller
     public function instrumento19()
     {
         $instrumento = Instrumento19::where('user_id', Auth::User()->id)->first();
-        if(empty($instrumento)){
+        if(empty($instrumento) || Auth::User()->role_id == 1){
             return view('instrumento19');
         }
         else{
@@ -248,7 +243,7 @@ class HomeController extends Controller
     public function instrumento20()
     {
         $instrumento = Instrumento20::where('user_id', Auth::User()->id)->first();
-        if(empty($instrumento)){
+        if(empty($instrumento) || Auth::User()->role_id == 1){
             return view('instrumento20');
         }
         else{

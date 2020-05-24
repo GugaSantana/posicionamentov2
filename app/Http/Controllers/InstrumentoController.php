@@ -44,7 +44,7 @@ class InstrumentoController extends Controller
             'acao' => $acao,
             'done' =>true
         ];
-        Instrumento1::create($dataBd);
+        if(Auth::User()->role_id != 1) Instrumento1::create($dataBd);
 
         return $this->instrumento1($visao, $acao);
     }
@@ -241,7 +241,7 @@ class InstrumentoController extends Controller
             'cores' => $cores,
             'done' => true,
         ];
-        Instrumento2::create($dataBd);
+        if(Auth::User()->role_id != 1) Instrumento2::create($dataBd);
 
         return $this->instrumento2($retorno, $retornoOld, $cores);
         // dd(($retornoOld));
@@ -275,7 +275,7 @@ class InstrumentoController extends Controller
             'diferenca' => $diferenca,
             'done' => true
         ];
-        Instrumento3::create($dataBd);
+        if(Auth::User()->role_id != 1) Instrumento3::create($dataBd);
 
         return $this->instrumento3($retorno, $diferenca);
     }
@@ -323,7 +323,7 @@ class InstrumentoController extends Controller
             'media' => $media,
             'done' => true
         ];
-        Instrumento4::create($dataBd);
+        if(Auth::User()->role_id != 1) Instrumento4::create($dataBd);
 
         return $this->instrumento4($retorno, $intervalos, $media);
     }
@@ -372,7 +372,7 @@ class InstrumentoController extends Controller
             'media' => $media,
             'done' => true
         ];
-        Instrumento5::create($dataBd);
+        if(Auth::User()->role_id != 1) Instrumento5::create($dataBd);
 
         return $this->instrumento5($retorno, $intervalos, $media);
     }
@@ -461,7 +461,7 @@ class InstrumentoController extends Controller
             'mediaProdutividade' => $mediaProdutividade,
             'done' => true
         ];
-        Instrumento6::create($dataBd);
+        if(Auth::User()->role_id != 1) Instrumento6::create($dataBd);
 
         return $this->instrumento6($att, $mediaVolume, $mediaProdutividade, $desvios);
     }
@@ -567,7 +567,7 @@ class InstrumentoController extends Controller
             'crianca' => $retCrianca,
             'done' => true
         ];
-        Instrumento7::create($dataBd);
+        if(Auth::User()->role_id != 1) Instrumento7::create($dataBd);
 
         //dd($pai,$retPai, $adulto, $retAdulto, $crianca, $retCrianca);
         return $this->instrumento7($retPai, $retAdulto, $retCrianca);
@@ -637,7 +637,7 @@ class InstrumentoController extends Controller
             'feedback' => $retFeed,
             'done' => true
         ];
-        Instrumento8::create($dataBd);
+        if(Auth::User()->role_id != 1) Instrumento8::create($dataBd);
 
         return $this->instrumento8($retExpo, $retFeed);
     }
@@ -681,7 +681,7 @@ class InstrumentoController extends Controller
             'cinestesico' => $cinestesico,
             'done' => true
         ];
-        Instrumento9::create($dataBd);
+        if(Auth::User()->role_id != 1) Instrumento9::create($dataBd);
 
         return $this->instrumento9($visual, $auditivo, $cinestesico);
     }
@@ -706,7 +706,7 @@ class InstrumentoController extends Controller
             'total' => $total,
             'done' => true
         ];
-        Instrumento10::create($dataBd);        
+        if(Auth::User()->role_id != 1) Instrumento10::create($dataBd);        
         
         //dd($total, $diagnostico, $inicio, $fim);
         return $this->instrumento10($total);
@@ -758,7 +758,7 @@ class InstrumentoController extends Controller
             'data' => $data,
             'done' => true
         ];
-        Instrumento11::create($dataBd); 
+        if(Auth::User()->role_id != 1) Instrumento11::create($dataBd); 
 
         return $this->instrumento11($data);
     }
@@ -786,7 +786,7 @@ class InstrumentoController extends Controller
             'done' => true
         ];
 
-        Instrumento12::create($dataBd); 
+        if(Auth::User()->role_id != 1) Instrumento12::create($dataBd); 
 
         return $this->instrumento12($s, $n, $resposta);
     }
@@ -894,7 +894,7 @@ class InstrumentoController extends Controller
             'done' => true
         ];
 
-        Instrumento13::create($dataBd); 
+        if(Auth::User()->role_id != 1) Instrumento13::create($dataBd); 
 
         return $this->instrumento13($retorno);
     }
@@ -925,7 +925,7 @@ class InstrumentoController extends Controller
             'done' => true
         ];
 
-        Instrumento14::create($dataBd); 
+        if(Auth::User()->role_id != 1) Instrumento14::create($dataBd); 
 
         return $this->instrumento14($cliRes, $clientes, $returnCores);
     }
@@ -988,7 +988,7 @@ class InstrumentoController extends Controller
             'done' => true
         ];
 
-        Instrumento17::create($dataBd); 
+        if(Auth::User()->role_id != 1) Instrumento17::create($dataBd); 
 
         return $this->instrumento17($hard, $soft);
     }
@@ -1015,7 +1015,7 @@ class InstrumentoController extends Controller
             'done' => true
         ];
 
-        Instrumento18::create($dataBd); 
+        if(Auth::User()->role_id != 1) Instrumento18::create($dataBd); 
         
         return $this->instrumento18($a, $b, $c, $d);
     }
@@ -1043,7 +1043,7 @@ class InstrumentoController extends Controller
             'done' => true
         ];
 
-        Instrumento19::create($dataBd); 
+        if(Auth::User()->role_id != 1) Instrumento19::create($dataBd); 
 
         return $this->instrumento19($retorno, $ordem);
     }
@@ -1067,7 +1067,7 @@ class InstrumentoController extends Controller
             'done' => true
         ];
 
-        Instrumento20::create($dataBd); 
+        if(Auth::User()->role_id != 1) Instrumento20::create($dataBd); 
 
         return $this->instrumento20($retorno);
     }

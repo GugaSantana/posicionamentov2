@@ -4,19 +4,23 @@
 
 <div class="card card-primary">
     <div class="card-header">
-        <h3 class="card-title">Lista de Usuários</h3>
+        <h3>
+            <center>LISTA DE USUÁRIOS</center>
+        </h3>
     </div>
     <div class="card-body">
         
-    <div class="table-responsive p-0" style="height: 300px;">
-        <table class="table table-head-fixed text-nowrap">
-            <thead>
+    <div class="table-responsive p-0">
+        <table class="table table-head-fixed fonte18">
+            <thead class="center">
             <tr>
-                <th>ID</th>
-                <th>Nome</th>
-                <th>Email</th>
-                <th>Data Cadastro</th>
-                <th>Ações</th>
+                <th style="vertical-align: middle">ID</th>
+                <th style="vertical-align: middle">Nome</th>
+                <th style="vertical-align: middle">Email</th>
+                <th style="vertical-align: middle">Data Cadastro</th>
+                <th style="vertical-align: middle">Nível de acesso</th>
+                <th style="vertical-align: middle">Ativo</th>
+                <th style="vertical-align: middle">Ações</th>
             </tr>
             </thead>
             <tbody>
@@ -26,22 +30,40 @@
                     <td>{{$user->name}}</td>
                     <td>{{$user->email}}</td>
                     <td>{{$user->created_at}}</td>
+                    <td>{{$user->role->name}}</td>
+                    <td>{{$user->enable == 1 ? 'Sim' : 'Não'}}</td>
                     <td>
-                        <a class="btn btn-info btn-sm" href="#">
+                        @if($user->enable == 0)
+                        <form method="post" action="enable">
+                        {!! csrf_field() !!}
+                        <input hidden name="user_id" value="{{$user->id}}">
+                        <button class="btn btn-info btn-sm" href="#">
                             <i class="fas fa-check">
                             </i>
-                            Autorizar
-                        </a>
-                        <a class="btn btn-danger btn-sm" href="#">
+                            Ativar
+                        </button>
+                        </form>
+                        @else
+                        <form method="post" action="disable">
+                        {!! csrf_field() !!}
+                        <input hidden name="user_id" value="{{$user->id}}">
+                        <button class="btn btn-danger btn-sm" href="#">
                             <i class="fas fa-trash">
                             </i>
-                            Bloquear
-                        </a>
+                            Desativar
+                        </button>
+                        </form>
+                        @endif
                     </td>
                 </tr>
                 @endforeach
             </tbody>
         </table>
+
+        <div class="card-footer clearfix">
+              {{$users->render()}}
+              </div>
+
         </div>
     
     </div>
@@ -86,12 +108,6 @@
 
 @section('css')
     <link rel="stylesheet" href="/css/admin_custom.css">
-    <style>
-        p {
-            font-size: 18px;
-            font-family: Arial, Helvetica, sans-serif;
-        }
-        </style>
 @stop
 
 @section('js')
