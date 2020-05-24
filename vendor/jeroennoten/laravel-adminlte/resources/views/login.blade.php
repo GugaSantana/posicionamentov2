@@ -29,6 +29,22 @@
 @endif
 
 @section('body')
+@if(isset($alert))
+<div class="alert alert-warning alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+    <h5><i class="icon fas fa-exclamation-triangle"></i> Alerta!</h5>
+    Seu acesso ainda não foi liberado.
+</div>
+@endif
+
+@if(isset($info))
+<div class="alert alert-info alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+    <h5><i class="icon fas fa-info"></i> Aviso!</h5>
+    Seu cadastro foi criado com sucesso, aguarde a liberação do seu acesso.
+</div>
+@endif
+
     <div class="login-box">
         <div class="login-logo">
             <a href="{{ $dashboard_url }}">{!! config('adminlte.logo', '<b>Admin</b>LTE') !!}</a>

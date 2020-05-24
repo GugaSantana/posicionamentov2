@@ -39,11 +39,13 @@ trait AuthenticatesUsers
         if (method_exists($this, 'hasTooManyLoginAttempts') &&
             $this->hasTooManyLoginAttempts($request)) {
             $this->fireLockoutEvent($request);
-
             return $this->sendLockoutResponse($request);
         }
 
         if ($this->attemptLogin($request)) {
+            if(Auth::User()->enable == 0){
+                return $this->logoutDisable($request);
+            }
             return $this->sendLoginResponse($request);
         }
 
@@ -143,6 +145,13 @@ trait AuthenticatesUsers
         ]);
     }
 
+    protected function sendFailedEnabledLoginResponse(Request $request)
+    {
+        throw ValidationException::withMessages([
+            $this->username() => [trans('Usuário Bloqueado!')],
+        ]);
+    }
+
     /**
      * Get the login username to be used by the controller.
      *
@@ -174,6 +183,21 @@ trait AuthenticatesUsers
         return $request->wantsJson()
             ? new Response('', 204)
             : redirect('/');
+    }
+
+    public function logoutDisable(Request $request)
+    {
+        $this->guard()->logout();
+
+        $request->session()->invalidate();
+
+        $request->session()->regenerateToken();
+
+        if ($response = $this->loggedOut($request)) {
+            return $response;
+        }
+
+        return view('auth.login')->with('alert', true);
     }
 
     /**
