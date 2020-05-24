@@ -108,5 +108,5 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 	Route::group(['prefix' => 'user', "middleware" => "auth"], function() {
         Route::post('/enable', 'UserController@enableUser');
 		Route::post('/disable', 'UserController@disableUser');
-		Route::get('/list', 'UserController@listUser');
+		Route::get('/list', 'UserController@listUser')->middleware('admin');
 	});
