@@ -35,7 +35,7 @@
                 </p>
             </a>
             @if (isset($item['submenu']))
-                <ul class="nav nav-treeview">
+                <ul class="nav nav-treeview" style="display: block;">
                     @each('adminlte::partials.menuitems.menu-item', $item['submenu'], 'item')
                 </ul>
             @endif
