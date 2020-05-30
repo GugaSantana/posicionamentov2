@@ -111,7 +111,7 @@ $inst = [
 @php
 $titles = [
 	'A - Analisei e estudei o diagnóstico e as recomendações deste instrumento',
-	'B - Desenvolvi o Plano de Ação para Implementar as recomendações deste instrumento',
+	'B - Desenvolvi o Plano de Ação (PA) para Implementar as recomendações deste instrumento',
 	'C - Comecei a implementar as recomendações deste instrumento',
 	'D - Estou implementando as recomendações deste instrumento',
 	'E - Conclui a Implantação das recomendações deste instrumento. Sinto que tenho novas competências'
@@ -119,45 +119,77 @@ $titles = [
 @endphp
 
 
-						<table border=1 cellpadding="7" cellspacing="0">
-							<tbody>
+						<table class="table table-hover table-bordered">
+							<thead>
 								<tr>
 									<td style="text-align: center;vertical-align: middle;">
 										<p><strong>INSTRUMENTOS</strong></p>
 									</td>
 
 									@for($i = 0; $i < 5; $i++)
-									<td style="width:500px;">
-										<p style="text-align: left">{{$titles[$i]}}</p>
+									<td style="vertical-align: middle; text-align: center">
+										<p">{{$titles[$i]}}</p>
 									</td>
 									@endfor
 								</tr>
-
+							</thead>
+							<tbody>
 								@for($i = 0; $i < 20; $i++)
 								<tr>
 									<td>
 										<p style="text-align: left">{{$inst[$i]}}</p>
+										@if($instrumentosFinalizados->contains('instrumento', $i+1))
+										<center><a href="/instrumento{{$i+1}}" class="fonte18"><span class="fa fa-arrow-circle-right" style="color:red; font-size: 22px"></span> Ir para diagnóstico</a></center>
+										@endif
 									</td>
 									<td id="A{{$i}}" style="text-align: center;vertical-align: middle;">
-										@if(isset($instrum) && $instrum == ($i+1))
-											<img src="../posicionamento/public/img/check.png" style="width: 20%;">
-										@else
-											<p><a href="/gestao1/{{$i+1}}" class="btn btn-info">Sim</a></p>
+										@if($instrumentosFinalizados->contains('instrumento', $i+1))
+											@if($autogestao->where('a', true)->contains('instrumento', $i+1))
+												<img src="../img/check.png" style="width: 20%;">
+											@else
+												<p><a href="/planoacao/{{$i+1}}" class="btn btn-info">Sim</a></p>
+											@endif
 										@endif
 									</td>
 									<td id="B{{$i}}" style="text-align: center;vertical-align: middle;">
-										@if(isset($instrum) && $instrum == ($i+1))
-											<p><a class="btn btn-info" onclick="teste({{$i}});">Sim</a></p>
-										@endif
+											@if($autogestao->where('a', true)->contains('instrumento', $i+1))
+												@if($autogestao->where('b', false)->contains('instrumento', $i+1))
+												<p><a href="/planoacao/{{$i+1}}"><img src="/img/book-pa.png" style="width: 40%; cursor: pointer; margin-right: 2%" /></a>
+												<a href="/autogestao/confirm/{{$i+1}}/B" class="btn btn-info">Sim</a></p>
+												@else
+												<img src="../img/check.png" style="width: 20%;">
+												@endif
+											@endif
 									</td>
 									<td id="C{{$i}}" style="text-align: center;vertical-align: middle;">
-									
+									@if($autogestao->where('b', true)->contains('instrumento', $i+1))
+												@if($autogestao->where('c', false)->contains('instrumento', $i+1))
+												<p><a href="/planoacao/{{$i+1}}"><img src="/img/book-pa.png" style="width: 40%; cursor: pointer; margin-right: 2%" /></a>
+												<a href="/autogestao/confirm/{{$i+1}}/C" class="btn btn-info">Sim</a></p>
+												@else
+												<img src="../img/check.png" style="width: 20%;">
+												@endif
+											@endif
 									</td>
 									<td id="D{{$i}}" style="text-align: center;vertical-align: middle;">
-									
+									@if($autogestao->where('c', true)->contains('instrumento', $i+1))
+												@if($autogestao->where('d', false)->contains('instrumento', $i+1))
+												<p><a href="/planoacao/{{$i+1}}"><img src="/img/book-pa.png" style="width: 40%; cursor: pointer; margin-right: 2%" /></a>
+												<a href="/autogestao/confirm/{{$i+1}}/D" class="btn btn-info">Sim</a></p>
+												@else
+												<img src="../img/check.png" style="width: 20%;">
+												@endif
+											@endif
 									</td>
 									<td id="E{{$i}}" style="text-align: center;vertical-align: middle;">
-									
+									@if($autogestao->where('d', true)->contains('instrumento', $i+1))
+												@if($autogestao->where('e', false)->contains('instrumento', $i+1))
+												<p><a href="/planoacao/{{$i+1}}"><img src="/img/book-pa.png" style="width: 40%; cursor: pointer; margin-right: 2%" /></a>
+												<a href="/autogestao/confirm/{{$i+1}}/E" class="btn btn-info">Sim</a></p>
+												@else
+												<img src="../img/check.png" style="width: 20%;">
+												@endif
+											@endif
 									</td>
 								</tr>
 								@endfor

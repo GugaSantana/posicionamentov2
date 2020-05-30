@@ -22,6 +22,7 @@ use App\Instrumento17;
 use App\Instrumento18;
 use App\Instrumento19;
 use App\Instrumento20;
+use App\UserInstrumento;
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Support\Facades\Auth;
 
@@ -44,7 +45,10 @@ class InstrumentoController extends Controller
             'acao' => $acao,
             'done' =>true
         ];
-        if(Auth::User()->role_id != 1) Instrumento1::create($dataBd);
+        if(Auth::User()->role_id != 1){
+            Instrumento1::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 1]);
+        }
 
         return $this->instrumento1($visao, $acao);
     }
@@ -241,7 +245,10 @@ class InstrumentoController extends Controller
             'cores' => $cores,
             'done' => true,
         ];
-        if(Auth::User()->role_id != 1) Instrumento2::create($dataBd);
+        if(Auth::User()->role_id != 1){
+            Instrumento2::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 2]);
+        }
 
         return $this->instrumento2($retorno, $retornoOld, $cores);
         // dd(($retornoOld));
@@ -275,7 +282,10 @@ class InstrumentoController extends Controller
             'diferenca' => $diferenca,
             'done' => true
         ];
-        if(Auth::User()->role_id != 1) Instrumento3::create($dataBd);
+        if(Auth::User()->role_id != 1){
+            Instrumento3::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 3]);
+        }
 
         return $this->instrumento3($retorno, $diferenca);
     }
@@ -323,7 +333,10 @@ class InstrumentoController extends Controller
             'media' => $media,
             'done' => true
         ];
-        if(Auth::User()->role_id != 1) Instrumento4::create($dataBd);
+        if(Auth::User()->role_id != 1){
+            Instrumento4::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 4]);
+        }
 
         return $this->instrumento4($retorno, $intervalos, $media);
     }
@@ -372,7 +385,10 @@ class InstrumentoController extends Controller
             'media' => $media,
             'done' => true
         ];
-        if(Auth::User()->role_id != 1) Instrumento5::create($dataBd);
+        if(Auth::User()->role_id != 1){
+            Instrumento5::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 5]);
+        }
 
         return $this->instrumento5($retorno, $intervalos, $media);
     }
@@ -461,7 +477,10 @@ class InstrumentoController extends Controller
             'mediaProdutividade' => $mediaProdutividade,
             'done' => true
         ];
-        if(Auth::User()->role_id != 1) Instrumento6::create($dataBd);
+        if(Auth::User()->role_id != 1){
+            Instrumento6::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 6]);
+        }
 
         return $this->instrumento6($att, $mediaVolume, $mediaProdutividade, $desvios);
     }
@@ -567,7 +586,10 @@ class InstrumentoController extends Controller
             'crianca' => $retCrianca,
             'done' => true
         ];
-        if(Auth::User()->role_id != 1) Instrumento7::create($dataBd);
+        if(Auth::User()->role_id != 1){
+            Instrumento7::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 7]);
+        }
 
         //dd($pai,$retPai, $adulto, $retAdulto, $crianca, $retCrianca);
         return $this->instrumento7($retPai, $retAdulto, $retCrianca);
@@ -637,7 +659,10 @@ class InstrumentoController extends Controller
             'feedback' => $retFeed,
             'done' => true
         ];
-        if(Auth::User()->role_id != 1) Instrumento8::create($dataBd);
+        if(Auth::User()->role_id != 1){
+            Instrumento8::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 8]);
+        }
 
         return $this->instrumento8($retExpo, $retFeed);
     }
@@ -681,7 +706,10 @@ class InstrumentoController extends Controller
             'cinestesico' => $cinestesico,
             'done' => true
         ];
-        if(Auth::User()->role_id != 1) Instrumento9::create($dataBd);
+        if(Auth::User()->role_id != 1){
+            Instrumento9::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 9]);
+        }
 
         return $this->instrumento9($visual, $auditivo, $cinestesico);
     }
@@ -706,7 +734,10 @@ class InstrumentoController extends Controller
             'total' => $total,
             'done' => true
         ];
-        if(Auth::User()->role_id != 1) Instrumento10::create($dataBd);        
+        if(Auth::User()->role_id != 1){
+            Instrumento10::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 10])        ;
+        }
         
         //dd($total, $diagnostico, $inicio, $fim);
         return $this->instrumento10($total);
@@ -758,7 +789,10 @@ class InstrumentoController extends Controller
             'data' => $data,
             'done' => true
         ];
-        if(Auth::User()->role_id != 1) Instrumento11::create($dataBd); 
+        if(Auth::User()->role_id != 1){
+            Instrumento11::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 11]) ;
+        }
 
         return $this->instrumento11($data);
     }
@@ -786,7 +820,10 @@ class InstrumentoController extends Controller
             'done' => true
         ];
 
-        if(Auth::User()->role_id != 1) Instrumento12::create($dataBd); 
+        if(Auth::User()->role_id != 1){
+            Instrumento12::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 12]) ;
+        }
 
         return $this->instrumento12($s, $n, $resposta);
     }
@@ -894,7 +931,10 @@ class InstrumentoController extends Controller
             'done' => true
         ];
 
-        if(Auth::User()->role_id != 1) Instrumento13::create($dataBd); 
+        if(Auth::User()->role_id != 1){
+            Instrumento13::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 13]) ;
+        }
 
         return $this->instrumento13($retorno);
     }
@@ -925,7 +965,10 @@ class InstrumentoController extends Controller
             'done' => true
         ];
 
-        if(Auth::User()->role_id != 1) Instrumento14::create($dataBd); 
+        if(Auth::User()->role_id != 1){
+            Instrumento14::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 14]) ;
+        }
 
         return $this->instrumento14($cliRes, $clientes, $returnCores);
     }
@@ -988,7 +1031,10 @@ class InstrumentoController extends Controller
             'done' => true
         ];
 
-        if(Auth::User()->role_id != 1) Instrumento17::create($dataBd); 
+        if(Auth::User()->role_id != 1){
+            Instrumento17::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 17]) ;
+        }
 
         return $this->instrumento17($hard, $soft);
     }
@@ -1015,7 +1061,10 @@ class InstrumentoController extends Controller
             'done' => true
         ];
 
-        if(Auth::User()->role_id != 1) Instrumento18::create($dataBd); 
+        if(Auth::User()->role_id != 1){
+            Instrumento18::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 18]) ;
+        }
         
         return $this->instrumento18($a, $b, $c, $d);
     }
@@ -1043,7 +1092,10 @@ class InstrumentoController extends Controller
             'done' => true
         ];
 
-        if(Auth::User()->role_id != 1) Instrumento19::create($dataBd); 
+        if(Auth::User()->role_id != 1){
+            Instrumento19::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 19]) ;
+        }
 
         return $this->instrumento19($retorno, $ordem);
     }
@@ -1067,12 +1119,20 @@ class InstrumentoController extends Controller
             'done' => true
         ];
 
-        if(Auth::User()->role_id != 1) Instrumento20::create($dataBd); 
+        if(Auth::User()->role_id != 1){
+            Instrumento20::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 20]) ;
+        }
 
         return $this->instrumento20($retorno);
     }
 
     public function instrumento20($retorno){
         return view('diagnostico20')->with(compact('retorno'));
+    }
+
+    public function teste1(){
+        $auth = Auth::user();
+        dd($auth->getInstrumentos());
     }
 }

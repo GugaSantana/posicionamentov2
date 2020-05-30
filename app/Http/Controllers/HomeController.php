@@ -21,6 +21,7 @@ use App\Instrumento7;
 use App\Instrumento8;
 use App\Instrumento9;
 use App\User;
+use App\AutoGestao;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -320,9 +321,11 @@ class HomeController extends Controller
     }
     public function autogestao($instrum = null){
         // dd($inst);
-        return view('autogestao')->with(compact('instrum'));
+        $instrumentosFinalizados = Auth::user()->getInstrumentos();
+        $autogestao = Auth::user()->autoGestao()->get();
+        return view('autogestao')->with(compact('instrum', 'instrumentosFinalizados', 'autogestao'));
     }
-    public function gestao1($inst){
+    public function planoacao($inst){
         // dd($instrumento);
         $titles = [
         'Meu Nível de Empreendedorismo',
@@ -350,7 +353,49 @@ class HomeController extends Controller
         $instrumento[0] = $inst;
         $instrumento[1] = "INSTRUMENTO {$instrumento[0]}";
         $instrumento[2] = $titles[$instrumento[0]-1];
+
+        $autogestao = Auth::user()->autoGestao()->where('instrumento', $inst)->first();
         // dd($instrumento);
-        return view('gestao1')->with(compact('instrumento'));
+        return view('planoacao')->with(compact('instrumento', 'autogestao'));
+    }
+
+    public function planoacaoEdit(Request $request){
+        $autogestao = AutoGestao::where('user_id', Auth::user()->id)
+            ->where('instrumento', $request['instrumento'])            
+            ->first();
+        if(empty($autogestao)){
+            $newAutoGestao = new AutoGestao();
+            $newAutoGestao->user_id = Auth::user()->id;
+            $newAutoGestao->instrumento = $request['instrumento'];
+            $newAutoGestao->oque = $request['oque'];
+            $newAutoGestao->como = $request['como'];
+            $newAutoGestao->quando = $request['quando'];
+            if($request['acao'] == 'finish'){
+                $newAutoGestao->a = true;
+            }
+            $newAutoGestao->save();
+        }
+        else{
+            $autogestao->oque = $request['oque'];
+            $autogestao->como = $request['como'];
+            $autogestao->quando = $request['quando'];
+            if($request['acao'] == 'finish'){
+                $autogestao->a = true;
+            }
+
+            $autogestao->save();
+        }
+
+
+        return $this->autogestao();
+    }
+
+    public function confirmEtapa($instrumento, $etapa){
+        $autogestao = AutoGestao::where('user_id', Auth::user()->id)
+            ->where('instrumento', $instrumento)            
+            ->first();
+        $autogestao->$etapa = true;
+        $autogestao->save();
+        return back();
     }
 }

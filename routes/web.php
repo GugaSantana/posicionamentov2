@@ -58,9 +58,15 @@ Route::get('/manual3', 'HomeController@manual3');
 Route::get('/manual4', 'HomeController@manual4');
 Route::get('/introAcompanhamento', 'HomeController@introAcompanhamento');
 Route::get('/autogestao/{instrumento?}', 'HomeController@autogestao');
-Route::get('/gestao1/{instrumento}', 'HomeController@gestao1');
+
+Route::get('/autogestao/confirm/{instrumento}/{etapa}', 'HomeController@confirmEtapa');
+
+Route::get('/planoacao/{instrumento}', 'HomeController@planoacao');
+Route::post('/planoacao/edit', 'HomeController@planoacaoEdit');
+Route::post('/planoacao/finish', 'HomeController@planoacaoFinish');
 
 Route::get('/home', 'HomeController@slide1')->name('home');
+
 
 Route::get('/slide1', 'HomeController@slide1');
 Route::get('/slide2', 'HomeController@slide2');
@@ -72,7 +78,7 @@ Route::get('/slide22', 'HomeController@slide22');
 Route::get('/inicioInstrumentos', 'HomeController@inicioInstrumentos');
 Route::get('/', 'HomeController@slide1');
 
-
+Route::get('/teste', 'InstrumentoController@teste1');
 
 
 Route::get('/diagnostico', 'HomeController@diagnostico');

@@ -62,7 +62,8 @@
 <a href="/inicioInstrumentos" type="submit" class="btn btn-primary btn-lg " >Instrumentos</a>
 </center> -->
 
-
+<form name="formulario" role="form" method="post" action="edit">
+{!! csrf_field() !!}
 <table border=1 cellpadding="7" cellspacing="0" style="width:100%">
 	<tbody>
 		<tr>
@@ -83,26 +84,36 @@
 		</tr>
 		<tr>
 			<td>
-        <textarea class="form-control" id="exampleFormControlTextarea1" cols="1" rows="10"></textarea>
+        <textarea class="form-control" name="oque" cols="1" rows="10">
+@if(!empty($autogestao)){{$autogestao->oque}}@endif
+</textarea>
 			</td>
 			<td>
-			  <textarea class="form-control" id="exampleFormControlTextarea1" cols="1" rows="10"></textarea>
+			  <textarea class="form-control" name="como" cols="1" rows="10">
+@if(!empty($autogestao)){{$autogestao->como}}@endif
+</textarea>
 			</td>
 			<td>
-			  <textarea class="form-control" id="exampleFormControlTextarea1" cols="1" rows="10"></textarea>
+			  <textarea class="form-control" name="quando" cols="1" rows="10">
+@if(!empty($autogestao)){{$autogestao->quando}}@endif
+</textarea>
 			</td>
 		</tr>
-	</tbody>
+  </tbody>
 </table>
 
-
-
-
-
-
 <br>
-
-<a href="/autogestao/{{$instrumento[0]}}" type="submit" class="btn btn-primary btn-lg btn-block">Voltar</a>
+<input name="instrumento" value="{{$instrumento[0]}}" hidden>
+<input name="acao" id="acao" hidden>
+<center>
+@if(!empty($autogestao) && $autogestao->a == true)
+<a href="/autogestao" class="btn btn-primary" style="font-size: 18px"> Voltar </a>
+@else
+<button type="submit" class="btn btn-primary" onclick="document.getElementById('acao').value = 'edit'" style="font-size: 18px"> Plano de Ação em aberto </button>
+<button type="submit" class="btn btn-primary" onclick="document.getElementById('acao').value = 'finish'" style="font-size: 18px"> Plano de Ação concluído </button>
+@endif
+</center>
+</form>
 <br>
  </div>
     </div>

@@ -39,4 +39,12 @@ class User extends Authenticatable
     public function role(){
         return $this->hasOne(\App\Roles::class, 'id','role_id');
     }
+
+    public function getInstrumentos(){
+        return \DB::table('user_instrumentos')->where('user_id', $this->id)->get();
+    }
+
+    public function autoGestao(){
+        return $this->hasMany(\App\AutoGestao::class, 'user_id');
+    }
 }
