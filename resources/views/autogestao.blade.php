@@ -72,7 +72,7 @@
     border-radius: 70px;
 ">
 		<div class="content-box">
-			<img src="img/logo_capa.png" style="float: right;width: 30%;margin-top: 2%;">
+			<img src="../posicionamento/public/img/logo_capa.png" style="float: right;width: 30%;margin-top: 2%;">
 
 			<h2 style="color: #35408f; text-align: center;margin-top: 10%;">AUTOGESTÃO DA METODOLOGIA<h2>
 
@@ -145,7 +145,7 @@ $titles = [
 									<td id="A{{$i}}" style="text-align: center;vertical-align: middle;">
 										@if($instrumentosFinalizados->contains('instrumento', $i+1))
 											@if($autogestao->where('a', true)->contains('instrumento', $i+1))
-												<img src="../img/check.png" style="width: 20%;">
+												<img src="../posicionamento/public/img/check.png" style="width: 20%;">
 											@else
 												<p><a href="/planoacao/{{$i+1}}" class="btn btn-info">Sim</a></p>
 											@endif
@@ -154,7 +154,7 @@ $titles = [
 									<td id="B{{$i}}" style="text-align: center;vertical-align: middle;">
 											@if($autogestao->where('a', true)->contains('instrumento', $i+1))
 												@if($autogestao->where('b', false)->contains('instrumento', $i+1))
-												<p><a href="/planoacao/{{$i+1}}"><img src="/img/book-pa.png" style="width: 40%; cursor: pointer; margin-right: 2%" /></a>
+												<p><a href="/planoacao/{{$i+1}}"><img src="../posicionamento/public/img/book-pa.png" style="width: 40%; cursor: pointer; margin-right: 2%" /></a>
 												<a href="/autogestao/confirm/{{$i+1}}/B" class="btn btn-info">Sim</a></p>
 												@else
 												<img src="../img/check.png" style="width: 20%;">
@@ -164,7 +164,7 @@ $titles = [
 									<td id="C{{$i}}" style="text-align: center;vertical-align: middle;">
 									@if($autogestao->where('b', true)->contains('instrumento', $i+1))
 												@if($autogestao->where('c', false)->contains('instrumento', $i+1))
-												<p><a href="/planoacao/{{$i+1}}"><img src="/img/book-pa.png" style="width: 40%; cursor: pointer; margin-right: 2%" /></a>
+												<p><a href="/planoacao/{{$i+1}}"><img src="../posicionamento/public/img/book-pa.png" style="width: 40%; cursor: pointer; margin-right: 2%" /></a>
 												<a href="/autogestao/confirm/{{$i+1}}/C" class="btn btn-info">Sim</a></p>
 												@else
 												<img src="../img/check.png" style="width: 20%;">
@@ -174,7 +174,7 @@ $titles = [
 									<td id="D{{$i}}" style="text-align: center;vertical-align: middle;">
 									@if($autogestao->where('c', true)->contains('instrumento', $i+1))
 												@if($autogestao->where('d', false)->contains('instrumento', $i+1))
-												<p><a href="/planoacao/{{$i+1}}"><img src="/img/book-pa.png" style="width: 40%; cursor: pointer; margin-right: 2%" /></a>
+												<p><a href="/planoacao/{{$i+1}}"><img src="../posicionamento/public/img/book-pa.png" style="width: 40%; cursor: pointer; margin-right: 2%" /></a>
 												<a href="/autogestao/confirm/{{$i+1}}/D" class="btn btn-info">Sim</a></p>
 												@else
 												<img src="../img/check.png" style="width: 20%;">
@@ -184,10 +184,10 @@ $titles = [
 									<td id="E{{$i}}" style="text-align: center;vertical-align: middle;">
 									@if($autogestao->where('d', true)->contains('instrumento', $i+1))
 												@if($autogestao->where('e', false)->contains('instrumento', $i+1))
-												<p><a href="/planoacao/{{$i+1}}"><img src="/img/book-pa.png" style="width: 40%; cursor: pointer; margin-right: 2%" /></a>
+												<p><a href="/planoacao/{{$i+1}}"><img src="../posicionamento/public/img/book-pa.png" style="width: 40%; cursor: pointer; margin-right: 2%" /></a>
 												<a href="/autogestao/confirm/{{$i+1}}/E" class="btn btn-info">Sim</a></p>
 												@else
-												<img src="../img/check.png" style="width: 20%;">
+												<img src="../posicionamento/public/img/check.png" style="width: 20%;">
 												@endif
 											@endif
 									</td>
