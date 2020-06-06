@@ -66,9 +66,9 @@
     <div class="card-body">
 
                     <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações
-                            </b></p>
+                        <h4>
+                            <center>Levantamento de Informações</center>
+                        </h4>
 
                             <p class="fonte18">Como vimos no instrumento anterior, a primeira etapa das Vendas Consultivas é a Prospecção de Clientes.</p>
                             <p class="fonte18">Dois instrumentos foram aplicados para melhorar a eficácia da PROSPECÇÃO: o instrumento 11 – Definição do perfil do cliente ideal e o instrumento 12 – Matriz de Prospecção de Clientes.</p>

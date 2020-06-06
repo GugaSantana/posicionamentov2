@@ -9,9 +9,9 @@
     </div>
     <div class="card-body">
                         <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações
-                            </b></p>
+                        <h4>
+                            <center>Levantamento de Informações</center>
+                        </h4>
                         
                         <p class="fonte18">No instrumento anterior, utilizando uma metodologia específica, definimos com precisão seus problemas prioritários.</p>
                         <p class="fonte18">Assim, sabendo em que ordem você deve tratar de seus problemas, você otimizará seu tempo e aumentará sua produtividade.</p>

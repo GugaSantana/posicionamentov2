@@ -79,7 +79,7 @@
     </div>
     <div class="card-body">
         <div class="col-12">
-            <h4 class="mb-0">
+            <h4>
                 <center>Diagnóstico e Recomendações</center>
             </h4>
             <br>
@@ -88,7 +88,7 @@
             <center><img src="../posicionamento/public/img/diag1_1.jpg" style="width: 45%"></center>
             <br>
             <p class="fonte18">
-                <h4 class="mb-0">
+                <h4>
                     <center>DIAGNÓSTICO</center>
                 </h4>
             </p>
@@ -96,7 +96,7 @@
             <p class="fonte18">O diagnóstico é fundamentado na correlação que suas respostas apresentam nestes dois eixos.</p>
             <p class="fonte18">Vamos caracterizar os dois eixos do Diagnóstico.</p>
             <p class="fonte18">
-                <h4 class="mb-0">VISÃO</h4>
+                <h4>VISÃO</h4>
             </p>
             <p class="fonte18">Visão é o propósito que você tem para sua profissão e para sua vida. Visão é como você vê o futuro, é o que você quer ser no futuro, aonde você quer chegar no futuro, é a Missão da sua vida.</p>
             <p class="fonte18">Visão é trabalhar com brilho nos olhos, porque seu trabalho está associado com algo maior, com algo mais transcendente que você quer alcançar.</p>
@@ -104,7 +104,7 @@
             <p class="fonte18">Ter Visão de Futuro é fundamental para dar coerência às decisões presentes. </p>
             <p class="fonte18">Lembrando o filosofo Sêneca: “Se você não sabe para onde ir, qualquer vento serve”</p>
             <p class="fonte18">
-                <h4 class="mb-0">AÇÃO</H4>
+                <h4>AÇÃO</H4>
             </p>
             <p class="fonte18">Ação é sinônimo de tomar decisões e implementá-las</p>
             <p class="fonte18">Ação é atividade, é trabalho sobre a realidade para alcançar objetivos.</p>
@@ -321,7 +321,7 @@
             <table border=1>
                 <tr>
                     <td>
-                        <h4 class="mb-0" style="color:red">{{$retorno['titulo']}}</h4>
+                        <h4 style="color:red">{{$retorno['titulo']}}</h4>
                     </td>
                 </tr>
             </table>
@@ -330,7 +330,7 @@
             <br>
 
             <p class="fonte18">
-                <h4 class="mb-0">
+                <h4>
                     <center>RECOMENDAÇÕES</center>
                 </h4>
             </p>
@@ -342,7 +342,7 @@
             <table border=1>
                 <tr>
                     <td>
-                        <h4 class="mb-0" style="color:red">{{$retorno['titulo']}}</h4>
+                        <h4 style="color:red">{{$retorno['titulo']}}</h4>
                     </td>
                 </tr>
             </table>

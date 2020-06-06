@@ -66,9 +66,9 @@
     <div class="card-body">
 
                     <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações
-                            </b></p>
+                            <h4>
+                                <center>Levantamento de Informações</center>
+                            </h4>
 
                             <p class="fonte18">Este é o quarto instrumento da série comportamental que começou com a avaliação do desenvolvimento dos Estados do Ego (a estrutura da Personalidade), continuou com o instrumento que nos permite equilibrar a relação entre Feedback e Exposição no relacionamento interpessoal e, o terceiro instrumento tratou do Gerenciamento das Comunicações utilizando os Canais Neurolinguísticos.</p>
                             <p class="fonte18">Este instrumento contribuirá para o desenvolvimento de sua Inteligência Emocional, condição fundamental para gerar EMPATIA junto a seus clientes, pois como sabemos, as Vendas Consultivas estão fundamentadas na qualidade do relacionamento e na empatia que se gera junto ao cliente.</p>

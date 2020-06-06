@@ -104,9 +104,9 @@
     <div class="card-body">
 
                     <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações - Parte 2
-                            </b></p>
+                        <h4>
+                            <center>Levantamento de Informações</center>
+                        </h4>
 
                             <p class="fonte18">Nesta etapa você esta recebendo os argumentos que você formulou assim como as Definições das 17 Forças Propulsoras das vendas.</p>
                     </div>

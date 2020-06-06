@@ -60,9 +60,9 @@
     <div class="card-body">
 
                     <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações
-                            </b></p>
+                        <h4>
+                            <center>Levantamento de Informações</center>
+                        </h4>
 
                         <p class="fonte18">Este é o primeiro dos três instrumentos que foram desenvolvidos para que você possa Gerenciar de maneira profissional as etapas das Vendas Consultivas que lhe foram transferidas na etapa anterior da Metodologia.</p>
                         <p class="fonte18">O Funil de Vendas é um modelo e uma técnica que acompanha as fases da jornada do cliente, desde o primeiro contato com ele, até o fechamento da venda.</p>

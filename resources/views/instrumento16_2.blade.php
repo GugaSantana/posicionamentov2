@@ -108,9 +108,9 @@
     </div>
     <div class="card-body">
                     <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações - Parte 2
-                            </b></p>
+                        <h4>
+                            <center>Levantamento de Informações</center>
+                        </h4>
 
                             <p class="fonte18">Nesta etapa você está recebendo as definições das 14 Forças Restritivas assim como os obstáculos que você formulou.</p>
                     </div>

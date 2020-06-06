@@ -66,9 +66,9 @@
     <div class="card-body">
 
                     <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações
-                            </b></p>
+                            <h4>
+                                <center>Levantamento de Informações</center>
+                            </h4>
 
                             <p class="fonte18">Depois que você definiu o Perfil do seu Cliente Ideal, você deve fazer a Prospecção de Clientes, para encontrar futuros compradores de seus produtos.</p>
                             <p class="fonte18">Um dos maiores desafios de qualquer vendedor é, de fato, prospectar novos clientes de maneira eficiente, isto porque sem possíveis clientes interessados em seus produtos não haverá fechamento de negócios</p>

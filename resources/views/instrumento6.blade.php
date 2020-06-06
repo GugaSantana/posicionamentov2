@@ -12,9 +12,9 @@
     </div>
     <div class="card-body">
                     <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações
-                            </b></p>
+                        <h4>
+                            <center>Levantamento de Informações</center>
+                        </h4>
 
                         <p class="fonte18">Com os instrumentos anteriores você teve a oportunidade de avaliar sua Visão e seu Nível de Ação, estabelecer quais são seus problemas prioritários, seu perfil profissional e avaliar em que medida você conhece os produtos que vende e os produtos concorrentes.</p>
                         <p class="fonte18">Esta primeira etapa da metodologia que denominamos de <b>Precondições para Aumentar as Vendas</b>, se encerra com este instrumento.</p>

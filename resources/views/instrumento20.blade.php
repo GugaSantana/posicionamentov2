@@ -108,9 +108,9 @@
     <div class="card-body">
 
                     <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações
-                            </b></p>
+                        <h4>
+                            <center>Levantamento de Informações</center>
+                        </h4>
 
                             <p class="fonte18">Com este instrumento chegamos ao final da Metodologia.</p>
                             <p class="fonte18">É o terceiro da série para você fazer a Gestão de Vendas Consultivas.</p>

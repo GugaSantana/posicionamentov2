@@ -66,9 +66,9 @@
     <div class="card-body">
 
                     <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações
-                            </b></p>
+                        <h4>
+                            <center>Levantamento de Informações</center>
+                        </h4>
                         <p class="fonte18">No instrumento anterior foi avaliada a estrutura da personalidade e as recomendações foram orientadas para equilibrar os três sistemas da Personalidade: PAI, ADULTO e CRIANÇA.</p>
                         <p class="fonte18">Este instrumento tem por objetivo melhorar a qualidade do seu relacionamento com seus clientes, uma condição fundamental nas Vendas Consultivas.</p>
                         <p class="fonte18">A maneira como você se posiciona em relação às Relações Interpessoais associadas ao seu trabalho determina o seu sucesso profissional.</p>

@@ -111,9 +111,9 @@
     <div class="card-body">
 
                     <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações
-                            </b></p>
+                        <h4>
+                            <center>Levantamento de Informações</center>
+                        </h4>
 
                             <p class="fonte18">Com o instrumento anterior você recebeu as orientações técnicas para Qualificar Clientes Potenciais.</p>
                             <p class="fonte18">Este é o segundo instrumento da segunda etapa das Vendas Consultivas, que é a Qualificação dos Clientes Potenciais. É evidente que os clientes não têm o mesmo potencial de geração de receitas: não tem o mesmo valor.</p>

@@ -103,9 +103,9 @@
     </div>
     <div class="card-body">
                     <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações - Parte 1
-                            </b></p>
+                        <h4>
+                            <center>Levantamento de Informações</center>
+                        </h4>
 
                         <p class="fonte18">Este é o instrumento que operacionaliza a terceira etapa das Vendas Consultivas: a etapa da APRESENTAÇÃO dos produtos para seus clientes.</p>
                         <p class="fonte18">Este instrumento tem por objetivo aumentar significativamente a quantidade e a qualidade de seus argumentos para aumentar seu poder de persuasão e facilitar o processo decisório de seus clientes.</p>

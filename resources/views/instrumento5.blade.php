@@ -9,9 +9,9 @@
     <div class="card-body">
 
                         <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações
-                            </b></p>
+                            <h4>
+                                <center>Levantamento de Informações</center>
+                            </h4>
                         
                         <p class="fonte18">Este instrumento está relacionado com o instrumento 4. Tem o mesmo objetivo, só que agora vamos medir o nível de seu conhecimento em relação aos produtos concorrentes.</p>
                         <p class="fonte18">Avaliaremos o conhecimento que você tem dos produtos concorrentes nos mesmos termos que avaliamos o quanto você conhece os produtos que você vende (benefícios, valor, atributos, preços, composição)</p>

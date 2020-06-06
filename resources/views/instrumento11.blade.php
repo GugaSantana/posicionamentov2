@@ -66,9 +66,9 @@
     <div class="card-body">
 
                     <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações
-                            </b></p>
+                        <h4>
+                            <center>Levantamento de Informações</center>
+                        </h4>
 
                         <p class="fonte18">Nos últimos quatro instrumentos nos preparamos para “Gerenciar o Campo Psicológico” que se estabelece entre você e seu cliente quando interagem.</p>
                         <p class="fonte18">Com este instrumento iniciamos uma nova série da metodologia. Começaremos a trabalhar as ETAPAS ESPECÍFICAS das Vendas Consultivas. São cinco etapas e a primeira se refere à Prospecção de clientes que começa com a definição do Cliente Ideal.</p>

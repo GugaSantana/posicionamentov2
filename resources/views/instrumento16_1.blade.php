@@ -108,9 +108,9 @@
     <div class="card-body">
 
                     <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações - Parte 1
-                            </b></p>
+                        <h4>
+                            <center>Levantamento de Informações</center>
+                        </h4>
 
                         <p class="fonte18">O Instrumento 15 que já foi aplicado tem por objetivo avaliar e desenvolver as Forças Propulsoras das Vendas, como parte da etapa de APRESENTAÇÃO das Vendas Consultivas.</p>
                         <p class="fonte18">Este instrumento operacionaliza a etapa seguinte das Vendas Consultivas, que é a etapa da NEGOCIAÇÃO.</p>

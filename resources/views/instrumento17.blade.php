@@ -108,9 +108,9 @@
     <div class="card-body">
 
                     <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações
-                            </b></p>
+                        <h4>
+                            <center>Levantamento de Informações</center>
+                        </h4>
 
                         <p class="fonte18">As etapas anteriores que já foram instrumentalizadas são: a etapa da <b>Prospecção</b> (Instrumentos 11 e 12), a etapa de <b>Qualificação</b> (Instrumentos 13 e 14), a etapa de <b>Apresentação</b> (Instrumento 15) e a etapa de <b>Negociação</b> (Instrumento 16).</p>
                         <p class="fonte18">A Venda Consultiva é um Processo de vendas diferente do processo de venda tradicional, em que o vendedor se preocupa apenas em vender, em “empurrar” seu produto.</p>

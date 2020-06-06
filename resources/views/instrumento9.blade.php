@@ -66,9 +66,9 @@
     <div class="card-body">
 
                     <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações
-                            </b></p>
+                        <h4>
+                            <center>Levantamento de Informações</center>
+                        </h4>
 
                         <p class="fonte18">Este instrumento é uma continuação do anterior e seu objetivo também é “gerenciar” o relacionamento com o cliente, porem, desde outra perspectiva, desde a perspectiva específica do “Gerenciamento da Comunicação”.</p>
                         <p class="fonte18">Você terá acesso a um modelo poderoso de comunicação que traz resultados muito práticos para melhorar o relacionamento com o cliente.</p>

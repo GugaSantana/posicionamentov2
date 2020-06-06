@@ -20,9 +20,9 @@
     </div>
     <div class="card-body">
         <div class="col-12">
-            <p class="fonte18 center"><b>
-                    Levantamento de Informações
-                </b></p>
+            <h4>
+                <center>Levantamento de Informações</center>
+            </h4>
             <p class="fonte18">Todas as pessoas têm combinações de VISÃO e de AÇÃO em tudo o que fazem e, naturalmente, esta combinação varia de pessoa para pessoa.</p>
             <p class="fonte18">Empreendedor é alguém que toma a iniciativa e age com uma clara Visão de Futuro.</p>
             <p class="fonte18">Quem tem Visão sabe identificar as oportunidades e transformá-las em atividades lucrativas.</p>

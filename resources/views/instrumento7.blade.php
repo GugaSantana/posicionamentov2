@@ -65,9 +65,9 @@
     </div>
     <div class="card-body">
                     <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações
-                            </b></p>
+                        <h4>
+                            <center>Levantamento de Informações</center>
+                        </h4>
 
                             <p class="fonte18">Este instrumento permite analisar e avaliar a dinâmica da comunicação e o perfil das trocas de perguntas e respostas na comunicação com seus clientes, com o objetivo de estabelecer o melhor relacionamento possível com ele.</p>
                             <p class="fonte18">Você poderá fazer os ajustes necessários no seu comportamento atual, depois da implementação das recomendações que este Instrumento lhe proporcionará.</p>

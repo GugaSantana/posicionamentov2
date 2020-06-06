@@ -108,9 +108,9 @@
     <div class="card-body">
 
                     <div class="col-12">
-                        <p class="fonte18 center"><b>
-                                Levantamento de Informações
-                            </b></p>
+                            <h4>
+                                <center>Levantamento de Informações</center>
+                            </h4>
 
                             <p class="fonte18">Este é o segundo instrumento para você fazer a Gestão das Vendas Consultivas.</p>
                             <p class="fonte18">O primeiro instrumento foi o Funil de Vendas. Agora vamos tratar dos planos de ação que você desenvolverá para alcançar suas metas.</p>
