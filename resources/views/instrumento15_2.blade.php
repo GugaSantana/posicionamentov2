@@ -1,8 +1,6 @@
-@extends('layouts.app')
+@extends('adminlte::page')
 
 @section('content')
-@include('layouts.headers.cards')
-
 <style>
 
 </style>
@@ -92,44 +90,40 @@
     background-color: white;
     text-align-last: center;
 }
-
-
-
-
 </style>
 
-<div class="container-fluid mt--7">
-    <div class="row">
-        <div class="col-xl-12 order-xl-1">
-            <div class="card bg-secondary shadow">
-                <div class="card-header bg-white border-0">
-                    <h3 class="mb-0">
-                        <center>INSTRUMENTO 15</center>
-                    </h3>
-                    <h3 class="mb-0">
-                        <center>AVALIAÇÃO DA QUANTIDADE E QUALIDADE DOS MEUS ARGUMENTOS DE VENDAS (FORÇAS PROPULSORAS)</center>
-                    </h3>
-                </div>
-                <div class="card-body">
+<div class="card card-primary">
+    <div class="card-header">
+        <h3>
+            <center>INSTRUMENTO 15</center>
+        </h3>
+        <h3>
+            <center>AVALIAÇÃO DA QUANTIDADE E QUALIDADE DOS MEUS ARGUMENTOS DE VENDAS (FORÇAS PROPULSORAS)</center>
+        </h3>
+    </div>
+    <div class="card-body">
+
                     <div class="col-12">
-                        <p><b>
-                                <center>Levantamento de Informações - Parte 2</center>
+                        <p class="fonte18 center"><b>
+                                Levantamento de Informações - Parte 2
                             </b></p>
 
-                            <p>Nesta etapa você esta recebendo os argumentos que você formulou assim como as Definições das 17 Forças Propulsoras das vendas.</p>
+                            <p class="fonte18">Nesta etapa você esta recebendo os argumentos que você formulou assim como as Definições das 17 Forças Propulsoras das vendas.</p>
                     </div>
                     
                     
                     <div class="col-12">
-                        <p style="color: blue;"><b>A – SEUS ARGUMENTOS</b></p>
+                        <p class="fonte18" style="color: blue;"><b>A – SEUS ARGUMENTOS</b></p>
                         <!-- <h2 style="color: #35408f">PRIMEIRA PARTE</h2> -->
 
                         <div class="row">
                             <div class="col-12" style="overflow: auto;">
-                                <table class="tg table">
-                                    <tr>
-                                        <th style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center;">SEUS ARGUMENTOS</th>
-                                    </tr>    
+                                <table class="table table-hover table-bordered fonte18">
+                                    <thead class="bg-primary">
+                                        <tr>
+                                            <th style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center;">SEUS ARGUMENTOS</th>
+                                        </tr>    
+                                    </thead>
                                     @php $i=1 @endphp
                                     @foreach($data['argumentos'] as $arg)
                                         <tr>
@@ -143,32 +137,32 @@
 
                         <br><br>
 
-                        <p style="color: blue;"><b>B – FORÇAS PROPULSORAS – DEFINIÇÕES</b></p>
+                        <p class="fonte18" style="color: blue;"><b>B – FORÇAS PROPULSORAS – DEFINIÇÕES</b></p>
                         
                         <br>
                      
-                        <p><b>F1- Benefício</b> - Informa aos clientes o que podem lucrar, ou como podem melhorar sua situação, adquirindo o produto/serviço oferecido. Explicita o valor da proposta e induz a percepção desse valor por parte do cliente.</p>
-                        <p><b>F2- Nosso Produto</b> - Apresenta aos clientes as características da empresa e do produto/serviço, nos quais se fundamenta os benefícios da posse e o valor percebido da proposta (F1).</p>
-                        <p><b>F3- Produto Concorrente</b> - Informa ao cliente as características (atributos) não competitivos dos produtos/serviços concorrentes, porém evitando a difamação. É o fundamento da proposta de valor do concorrente. É o espelho do F2, é o F2 do concorrente</p>
-                        <p><b>F4- Prejuízo</b> - Esclarece ao cliente as possíveis desvantagens em adquirir ou utilizar os produtos/serviços concorrentes. Mostra a desvantagem da proposta de valor do concorrente. É o espelho do F1, é o F1 do concorrente.</p>
+                        <p class="fonte18"><b>F1- Benefício</b> - Informa aos clientes o que podem lucrar, ou como podem melhorar sua situação, adquirindo o produto/serviço oferecido. Explicita o valor da proposta e induz a percepção desse valor por parte do cliente.</p>
+                        <p class="fonte18"><b>F2- Nosso Produto</b> - Apresenta aos clientes as características da empresa e do produto/serviço, nos quais se fundamenta os benefícios da posse e o valor percebido da proposta (F1).</p>
+                        <p class="fonte18"><b>F3- Produto Concorrente</b> - Informa ao cliente as características (atributos) não competitivos dos produtos/serviços concorrentes, porém evitando a difamação. É o fundamento da proposta de valor do concorrente. É o espelho do F2, é o F2 do concorrente</p>
+                        <p class="fonte18"><b>F4- Prejuízo</b> - Esclarece ao cliente as possíveis desvantagens em adquirir ou utilizar os produtos/serviços concorrentes. Mostra a desvantagem da proposta de valor do concorrente. É o espelho do F1, é o F1 do concorrente.</p>
 
-                        <p><b>F5- Proposta</b> – É a apresentação da Nossa Proposta de Valor, a proposta de valor dos nossos produtos. Esta Força Propulsora também permite ao vendedor:<br>
+                        <p class="fonte18"><b>F5- Proposta</b> – É a apresentação da Nossa Proposta de Valor, a proposta de valor dos nossos produtos. Esta Força Propulsora também permite ao vendedor:<br>
                         - Fixar o nome do produto/serviço e da empresa;<br>
                         - Apresentar-se como profissional de vendas;<br>
                         - Esclarecer as condições da venda.</p>
 
-                        <p><b>F6- Prestígio</b> - Informa ao cliente sobre o conceito que o produto que estamos oferecendo e a empresa, desfrutam no mercado, devido à boa qualidade e benefícios proporcionados por seus produtos ou serviços. Apóia-se em evidências de realidade. É comprovável, são dados objetivos de mercado e não apenas argumentos do vendedor. São evidências.</p>
-                        <p><b>F7- História</b> - Esta força é aplicada quando o cliente tem dificuldades em manter a atenção no discurso do vendedor. Serve para manter o cliente motivado pela proposta.</p>
-                        <p><b>F8- Explicação</b> - Permite esclarecer o cliente em relação àquelas informações que não lhe são familiar, principalmente em termos de conteúdos técnicos. Transmite segurança ao cliente.</p>
-                        <p><b>F9- Ambiente</b> - A aplicação correta desta Força Propulsora de venda cria um clima favorável para a negociação com o cliente. O valor persuasivo de todas as forças de venda depende do uso correto do F9. São os fatores comportamentais em ação</p>
-                        <p><b>F10- Prestígio Pessoal</b> - Eleva o conceito do vendedor junto a seu cliente, mostrando que ele está apto a solucionar problemas e auxiliá-lo, quando necessário. É fundamental quando se trata de Vendas Consultivas. Sem Prestigio Pessoal não se transmite confiança ao cliente.</p>
-                        <p><b>F11- Apelo para o Narcisismo</b> - Fortalece o bom ambiente para o processo de vendas através do reconhecimento da dedicação e realizações do cliente.</p>
-                        <p><b>F12- Segurança</b> – É a segurança com que o vendedor faz a APRESENTAÇÃO dos produtos. Remove o receio e transmite confiança ao cliente que apresenta um obstáculo. Faz com que o cliente sinta confiança no vendedor. Esta força é fundamental para dar confiabilidade ao cliente nas Vendas Consultivas</p>
-                        <p><b>F13- Serviço</b> - Tem por objetivo melhorar o F10 (Prestígio Pessoal do vendedor). Esta força permite ter uma aproximação maior com o cliente, notadamente quando outras Forças Propulsoras falharem. É uma forma de acrescentar valor à proposta.</p>
-                        <p><b>F14- Contato</b> - Serve para conquistar uma relação mais pessoal com o cliente, facilitando o processo de venda. O objetivo é estabelecer uma identidade entre o cliente e o vendedor, o que aumenta a confiança (somos iguais).</p>
+                        <p class="fonte18"><b>F6- Prestígio</b> - Informa ao cliente sobre o conceito que o produto que estamos oferecendo e a empresa, desfrutam no mercado, devido à boa qualidade e benefícios proporcionados por seus produtos ou serviços. Apóia-se em evidências de realidade. É comprovável, são dados objetivos de mercado e não apenas argumentos do vendedor. São evidências.</p>
+                        <p class="fonte18"><b>F7- História</b> - Esta força é aplicada quando o cliente tem dificuldades em manter a atenção no discurso do vendedor. Serve para manter o cliente motivado pela proposta.</p>
+                        <p class="fonte18"><b>F8- Explicação</b> - Permite esclarecer o cliente em relação àquelas informações que não lhe são familiar, principalmente em termos de conteúdos técnicos. Transmite segurança ao cliente.</p>
+                        <p class="fonte18"><b>F9- Ambiente</b> - A aplicação correta desta Força Propulsora de venda cria um clima favorável para a negociação com o cliente. O valor persuasivo de todas as forças de venda depende do uso correto do F9. São os fatores comportamentais em ação</p>
+                        <p class="fonte18"><b>F10- Prestígio Pessoal</b> - Eleva o conceito do vendedor junto a seu cliente, mostrando que ele está apto a solucionar problemas e auxiliá-lo, quando necessário. É fundamental quando se trata de Vendas Consultivas. Sem Prestigio Pessoal não se transmite confiança ao cliente.</p>
+                        <p class="fonte18"><b>F11- Apelo para o Narcisismo</b> - Fortalece o bom ambiente para o processo de vendas através do reconhecimento da dedicação e realizações do cliente.</p>
+                        <p class="fonte18"><b>F12- Segurança</b> – É a segurança com que o vendedor faz a APRESENTAÇÃO dos produtos. Remove o receio e transmite confiança ao cliente que apresenta um obstáculo. Faz com que o cliente sinta confiança no vendedor. Esta força é fundamental para dar confiabilidade ao cliente nas Vendas Consultivas</p>
+                        <p class="fonte18"><b>F13- Serviço</b> - Tem por objetivo melhorar o F10 (Prestígio Pessoal do vendedor). Esta força permite ter uma aproximação maior com o cliente, notadamente quando outras Forças Propulsoras falharem. É uma forma de acrescentar valor à proposta.</p>
+                        <p class="fonte18"><b>F14- Contato</b> - Serve para conquistar uma relação mais pessoal com o cliente, facilitando o processo de venda. O objetivo é estabelecer uma identidade entre o cliente e o vendedor, o que aumenta a confiança (somos iguais).</p>
 
-                        <p><b>F15- Pergunta</b> - Permite ao vendedor obter as informações necessárias para manter o controle da reunião de vendas. Existem 5 tipos de Perguntas com diferentes objetivos específicos, são elas:<br></p>
-                        <p style="margin-top: -10px;margin-left: 5%;"><b>A) F15- Investigação</b><br>
+                        <p class="fonte18"><b>F15- Pergunta</b> - Permite ao vendedor obter as informações necessárias para manter o controle da reunião de vendas. Existem 5 tipos de Perguntas com diferentes objetivos específicos, são elas:<br></p>
+                        <p class="fonte18" style="margin-top: -10px;margin-left: 5%;"><b>A) F15- Investigação</b><br>
                         A pergunta na forma de investigação permite ao vendedor obter informações para direcionar seu trabalho junto ao cliente. Este tipo de pergunta é fundamental em Vendas Consultivas para poder assessorar o cliente com precisão.<br>
                         <b>B) F15- Sondagem do Progresso</b><br>
                         A pergunta na forma de sondagem permite que o vendedor avalie quanto ele progrediu em direção à decisão do cliente.<br>
@@ -180,21 +174,21 @@
                         Acalma o cliente que apresenta um obstáculo. Para o vendedor representa um ganho de tempo importante para se recuperar e reestruturar seu raciocínio quando surge um obstáculo difícil.
                         </p>
 
-                        <p><b>F16- Comando</b> - O vendedor utiliza esta força de venda para provocar a decisão de compra em um cliente tímido ou indeciso, através de palavras de comando. É uma Força Propulsora do Fechamento da Venda.</p>
-                        <p><b>F17- O Fator Gerenciador (Monitoramento das Forças)</b> - Permite que o vendedor aplique com máxima produtividade e precisão as outras 16 forças descritas.</p>
+                        <p class="fonte18"><b>F16- Comando</b> - O vendedor utiliza esta força de venda para provocar a decisão de compra em um cliente tímido ou indeciso, através de palavras de comando. É uma Força Propulsora do Fechamento da Venda.</p>
+                        <p class="fonte18"><b>F17- O Fator Gerenciador (Monitoramento das Forças)</b> - Permite que o vendedor aplique com máxima produtividade e precisão as outras 16 forças descritas.</p>
 
-                        <p>É uma espécie de seletor das forças que devem ser aplicadas no transcurso das etapas de APRESENTAÇÃO e de NEGOCIAÇÃO das Vendas Consultivas.</p>
+                        <p class="fonte18">É uma espécie de seletor das forças que devem ser aplicadas no transcurso das etapas de APRESENTAÇÃO e de NEGOCIAÇÃO das Vendas Consultivas.</p>
 
                         <br><br>
 
-                        <p style="color: blue;"><b>C – ALOQUE SEUS ARGUMENTOS ÀS FORÇAS PROPULSORAS CONFORME SUAS DEFINIÇÕES.</b></p>
+                        <p class="fonte18" style="color: blue;"><b>C – ALOQUE SEUS ARGUMENTOS ÀS FORÇAS PROPULSORAS CONFORME SUAS DEFINIÇÕES.</b></p>
 
                         <br>
 
-                        <p>Na tabela abaixo, após leitura atenta das definições das Forças Propulsoras, classifique cada argumento que você registrou em uma única Força Propulsora.</p>
-                        <p>Se o argumento não coincide exatamente como uma Força Propulsora, classifique por aproximação naquela Força Propulsora que melhor o representa</p>
-                        <p>Todos seus argumentos devem ser classificados.</p>
-                        <p>Lembre que você só pode alocar cada argumento a uma única Força Propulsora.</p>
+                        <p class="fonte18">Na tabela abaixo, após leitura atenta das definições das Forças Propulsoras, classifique cada argumento que você registrou em uma única Força Propulsora.</p>
+                        <p class="fonte18">Se o argumento não coincide exatamente como uma Força Propulsora, classifique por aproximação naquela Força Propulsora que melhor o representa</p>
+                        <p class="fonte18">Todos seus argumentos devem ser classificados.</p>
+                        <p class="fonte18">Lembre que você só pode alocar cada argumento a uma única Força Propulsora.</p>
 
                     </div>
 
@@ -232,12 +226,14 @@
 
                             <div class="row">
                                 <div class="col-12" style="">
-                                    <table class="tg">
-                                        <tr>
-                                            <th style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center;">FORÇAS PROPULSORAS</th>
-                                            <th style="font-size: 18px; vertical-align: middle; width: 300px; text-align: center;">Contagem dos Argumentos por Força Propulsora</th>
-                                            <th style="font-size: 18px; vertical-align: middle; width: 300px; text-align: center;">Frequencia Total por Força Propulsora</th>
-                                        </tr>
+                                    <table class="table table-hover table-bordered fonte18">
+                                        <thead class="bg-primary">
+                                            <tr>
+                                                <th style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center;">FORÇAS PROPULSORAS</th>
+                                                <th style="font-size: 18px; vertical-align: middle; width: 300px; text-align: center;">Contagem dos Argumentos por Força Propulsora</th>
+                                                <th style="font-size: 18px; vertical-align: middle; width: 300px; text-align: center;">Frequencia Total por Força Propulsora</th>
+                                            </tr>
+                                        </thead>
                                         @php $i=0 @endphp
                                         @foreach($forcas as $forca)
                                             <tr>
@@ -267,8 +263,8 @@
                             <br>
                             
                             <div class="col-8">
-                                <button class="btn btn-icon btn-3 btn-primary" type="submit">
-                                    <span class="btn-inner--icon"><i class="ni ni-send"></i></span>
+                                <button class="btn btn-icon btn-3 btn-primary fonte18" type="submit">
+                                    <span class="btn-inner--icon"><i class="fa fa-paper-plane"></i></span>
                                     <span class="btn-inner--text">Enviar formulário</span>
                                 </button>
                             </div>

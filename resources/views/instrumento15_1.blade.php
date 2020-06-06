@@ -1,8 +1,6 @@
-@extends('layouts.app')
+@extends('adminlte::page')
 
 @section('content')
-@include('layouts.headers.cards')
-
 <style>
 
 </style>
@@ -93,47 +91,40 @@
     text-align-last: center;
 }
 
-
-
-
 </style>
-
-<div class="container-fluid mt--7">
-    <div class="row">
-        <div class="col-xl-12 order-xl-1">
-            <div class="card bg-secondary shadow">
-                <div class="card-header bg-white border-0">
-                    <h3 class="mb-0">
-                        <center>INSTRUMENTO 15</center>
-                    </h3>
-                    <h3 class="mb-0">
-                        <center>AVALIAÇÃO DA QUANTIDADE E QUALIDADE DOS MEUS ARGUMENTOS DE VENDAS (FORÇAS PROPULSORAS)</center>
-                    </h3>
-                </div>
-                <div class="card-body">
+<div class="card card-primary">
+    <div class="card-header">
+        <h3>
+            <center>INSTRUMENTO 15</center>
+        </h3>
+        <h3>
+            <center>AVALIAÇÃO DA QUANTIDADE E QUALIDADE DOS MEUS ARGUMENTOS DE VENDAS (FORÇAS PROPULSORAS)</center>
+        </h3>
+    </div>
+    <div class="card-body">
                     <div class="col-12">
-                        <p><b>
-                                <center>Levantamento de Informações - Parte 1</center>
+                        <p class="fonte18 center"><b>
+                                Levantamento de Informações - Parte 1
                             </b></p>
 
-                        <p>Este é o instrumento que operacionaliza a terceira etapa das Vendas Consultivas: a etapa da APRESENTAÇÃO dos produtos para seus clientes.</p>
-                        <p>Este instrumento tem por objetivo aumentar significativamente a quantidade e a qualidade de seus argumentos para aumentar seu poder de persuasão e facilitar o processo decisório de seus clientes.</p>
-                        <p>Naturalmente, quanto mais e melhores argumentos de venda você tiver, mais eficaz e produtivo será seu desempenho, porque você estará aumentando seu poder de persuasão e estará influenciando a decisão de compra do cliente.</p>
-                        <p>A metodologia apresenta uma série de Fatores de Argumentação que denominamos de Forças Propulsoras das Vendas.</p>
-                        <p>O objetivo deste instrumento é avaliar o nível de desempenho atual que você apresenta nas Forças Propulsoras das Vendas.</p>
-                        <p>Você receberá um relatório com seu nível de desempenho nas Forças Propulsoras e recomendações específicas lhe serão dadas para que você aumente o número de argumentos disponíveis para vender seus produtos.</p>
-                        <p>Existe uma “Lógica Interna” entre as Forças Propulsoras que lhe será apresentada nas recomendações para potencializar ainda mais sua eficácia nas Vendas Consultivas.</p>
+                        <p class="fonte18">Este é o instrumento que operacionaliza a terceira etapa das Vendas Consultivas: a etapa da APRESENTAÇÃO dos produtos para seus clientes.</p>
+                        <p class="fonte18">Este instrumento tem por objetivo aumentar significativamente a quantidade e a qualidade de seus argumentos para aumentar seu poder de persuasão e facilitar o processo decisório de seus clientes.</p>
+                        <p class="fonte18">Naturalmente, quanto mais e melhores argumentos de venda você tiver, mais eficaz e produtivo será seu desempenho, porque você estará aumentando seu poder de persuasão e estará influenciando a decisão de compra do cliente.</p>
+                        <p class="fonte18">A metodologia apresenta uma série de Fatores de Argumentação que denominamos de Forças Propulsoras das Vendas.</p>
+                        <p class="fonte18">O objetivo deste instrumento é avaliar o nível de desempenho atual que você apresenta nas Forças Propulsoras das Vendas.</p>
+                        <p class="fonte18">Você receberá um relatório com seu nível de desempenho nas Forças Propulsoras e recomendações específicas lhe serão dadas para que você aumente o número de argumentos disponíveis para vender seus produtos.</p>
+                        <p class="fonte18">Existe uma “Lógica Interna” entre as Forças Propulsoras que lhe será apresentada nas recomendações para potencializar ainda mais sua eficácia nas Vendas Consultivas.</p>
 
                     </div>
                     <br>
                     <div class="col-12">
-                        <p><b>INSTRUÇÕES</b></p>
+                        <p class="fonte18"><b>INSTRUÇÕES</b></p>
                         <!-- <h2 style="color: #35408f">PRIMEIRA PARTE</h2> -->
 
-                        <p>Escolha um produto que você comercializa e que você conhece muito bem: deve ser um produto com o qual você já tenha experiência de vendas.</p>
-                        <p>A seguir, escreva como itens, de uma maneira breve, telegráfica, todos os argumentos que você tem para vender esse produto.</p>
-                        <p>Numere os argumentos de 1 até x, sendo x o número do ultimo argumento apresentado.</p>
-                        <p>Os números não representam ordem de importância dos argumentos, você não tem que fazer nenhuma classificação dos argumentos, só deve registrá-los</p>
+                        <p class="fonte18">Escolha um produto que você comercializa e que você conhece muito bem: deve ser um produto com o qual você já tenha experiência de vendas.</p>
+                        <p class="fonte18">A seguir, escreva como itens, de uma maneira breve, telegráfica, todos os argumentos que você tem para vender esse produto.</p>
+                        <p class="fonte18">Numere os argumentos de 1 até x, sendo x o número do ultimo argumento apresentado.</p>
+                        <p class="fonte18">Os números não representam ordem de importância dos argumentos, você não tem que fazer nenhuma classificação dos argumentos, só deve registrá-los</p>
                        
                     </div>
 
@@ -143,12 +134,12 @@
                         <form name="formulario" role="form" method="post" action="instrumento/15_1">
                             {!! csrf_field() !!}
                             
-                            <p><b>Produto escolhido:</b> <input name="produto_escolhido" type="text" size="50%"></p>
+                            <p class="fonte18"><b>Produto escolhido:</b> <input name="produto_escolhido" type="text" size="50%"></p>
 
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">
-                                    <table class="tg table">
-                                        <thead>
+                                    <table class="table table-hover table-bordered fonte18">
+                                        <thead class="bg-primary">
                                         <tr>
                                             <th style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center;">Meus Argumentos para Vender o Produto Escolhido</th>
                                         </tr>
@@ -173,8 +164,8 @@
                             <br>
                             
                             <div class="col-8">
-                                <button class="btn btn-icon btn-3 btn-primary" type="submit">
-                                    <span class="btn-inner--icon"><i class="ni ni-send"></i></span>
+                                <button class="btn btn-icon btn-3 btn-primary fonte18" type="submit">
+                                    <span class="btn-inner--icon"><i class="fa fa-paper-plane"></i></span>
                                     <span class="btn-inner--text">Enviar formulário</span>
                                 </button>
                             </div>
