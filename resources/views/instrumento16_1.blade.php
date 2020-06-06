@@ -1,8 +1,6 @@
-@extends('layouts.app')
+@extends('adminlte::page')
 
 @section('content')
-@include('layouts.headers.cards')
-
 <style>
 
 </style>
@@ -98,48 +96,46 @@
 
 </style>
 
-<div class="container-fluid mt--7">
-    <div class="row">
-        <div class="col-xl-12 order-xl-1">
-            <div class="card bg-secondary shadow">
-                <div class="card-header bg-white border-0">
-                    <h3 class="mb-0">
-                        <center>INSTRUMENTO 16</center>
-                    </h3>
-                    <h3 class="mb-0">
-                        <center>NEUTRALIZAÇÃO DOS OBSTÁCULOS DA VENDA (FORÇAS RESTRITIVAS)</center>
-                    </h3>
-                </div>
-                <div class="card-body">
+<div class="card card-primary">
+    <div class="card-header">
+        <h3>
+            <center>INSTRUMENTO 16</center>
+        </h3>
+        <h3>
+            <center>NEUTRALIZAÇÃO DOS OBSTÁCULOS DA VENDA (FORÇAS RESTRITIVAS)</center>
+        </h3>
+    </div>
+    <div class="card-body">
+
                     <div class="col-12">
-                        <p><b>
-                                <center>Levantamento de Informações - Parte 1</center>
+                        <p class="fonte18 center"><b>
+                                Levantamento de Informações - Parte 1
                             </b></p>
 
-                        <p>O Instrumento 15 que já foi aplicado tem por objetivo avaliar e desenvolver as Forças Propulsoras das Vendas, como parte da etapa de APRESENTAÇÃO das Vendas Consultivas.</p>
-                        <p>Este instrumento operacionaliza a etapa seguinte das Vendas Consultivas, que é a etapa da NEGOCIAÇÃO.</p>
-                        <p>Na etapa da NEGOCIAÇÃO da metodologia de Vendas Consultivas, naturalmente, o cliente pode apresentar obstáculos à venda. Chamamos os obstáculos de Forças Restritivas.</p>
-                        <p>A negociação na verdade é uma interação entre as Forças Propulsoras e as Forças Restritivas, gerando o que chamamos de <b>Campo de Forças</b>.</p>
-                        <p>Se as Forças Propulsoras prevalecem sobre as Forças Restritivas, a venda é realizada.</p>
-                        <p>Assim como no instrumento 15 foram abordadas as Forças Propulsoras, este instrumento tratará das Forças Restritivas, com o objetivo que você possa GERENCIAR o Campo de Força das Vendas.</p>
+                        <p class="fonte18">O Instrumento 15 que já foi aplicado tem por objetivo avaliar e desenvolver as Forças Propulsoras das Vendas, como parte da etapa de APRESENTAÇÃO das Vendas Consultivas.</p>
+                        <p class="fonte18">Este instrumento operacionaliza a etapa seguinte das Vendas Consultivas, que é a etapa da NEGOCIAÇÃO.</p>
+                        <p class="fonte18">Na etapa da NEGOCIAÇÃO da metodologia de Vendas Consultivas, naturalmente, o cliente pode apresentar obstáculos à venda. Chamamos os obstáculos de Forças Restritivas.</p>
+                        <p class="fonte18">A negociação na verdade é uma interação entre as Forças Propulsoras e as Forças Restritivas, gerando o que chamamos de <b>Campo de Forças</b>.</p>
+                        <p class="fonte18">Se as Forças Propulsoras prevalecem sobre as Forças Restritivas, a venda é realizada.</p>
+                        <p class="fonte18">Assim como no instrumento 15 foram abordadas as Forças Propulsoras, este instrumento tratará das Forças Restritivas, com o objetivo que você possa GERENCIAR o Campo de Força das Vendas.</p>
 
                     </div>
                     <br>
                     <div class="col-12">
-                        <p><b>INSTRUÇÕES</b></p>
+                        <p class="fonte18"><b>INSTRUÇÕES</b></p>
                         <!-- <h2 style="color: #35408f">PRIMEIRA PARTE</h2> -->
 
-                        <p>Você responderá este instrumento preenchendo a Matriz dos Obstáculos abaixo através dos seguintes passos:</p>
+                        <p class="fonte18">Você responderá este instrumento preenchendo a Matriz dos Obstáculos abaixo através dos seguintes passos:</p>
 
-                        <p style="color: blue">1 – Registre os Obstáculos que geralmente aparecem</p>
-                        <p>Considere suas ultimas 10 negociações feitas.</p>
-                        <p>Na primeira coluna da Matriz abaixo relacione como itens, os obstáculos mais freqüentes que se apresentaram durante a fase de <b>NEGOCIAÇÃO</b> da Venda nessas 10 negociações.</p>
-                        <p><u>Atenção:</u> Numa negociação poderá se apresentar vários obstáculos: Relacione todos eles.</p>
+                        <p class="fonte18" style="color: blue">1 – Registre os Obstáculos que geralmente aparecem</p>
+                        <p class="fonte18">Considere suas ultimas 10 negociações feitas.</p>
+                        <p class="fonte18">Na primeira coluna da Matriz abaixo relacione como itens, os obstáculos mais freqüentes que se apresentaram durante a fase de <b>NEGOCIAÇÃO</b> da Venda nessas 10 negociações.</p>
+                        <p class="fonte18"><u>Atenção:</u> Numa negociação poderá se apresentar vários obstáculos: Relacione todos eles.</p>
 
-                        <p style="color: blue">2 – A Frequência dos Obstáculos</p>
-                        <p>Na segunda coluna da Matriz, registre a freqüência com que os obstáculos que você relacionou apareceram nas negociações.</p>
-                        <p>Por exemplo: Se o <u>preço</u> foi um obstáculo apresentado em 3 das 10 negociações teríamos:</p>
-                        <p>Obstáculo = Preço | Frequência = 3</p>
+                        <p class="fonte18" style="color: blue">2 – A Frequência dos Obstáculos</p>
+                        <p class="fonte18">Na segunda coluna da Matriz, registre a freqüência com que os obstáculos que você relacionou apareceram nas negociações.</p>
+                        <p class="fonte18">Por exemplo: Se o <u>preço</u> foi um obstáculo apresentado em 3 das 10 negociações teríamos:</p>
+                        <p class="fonte18">Obstáculo = Preço | Frequência = 3</p>
 
                     </div>
 
@@ -149,15 +145,17 @@
                         <form name="formulario" role="form" method="post" action="instrumento/16_1">
                             {!! csrf_field() !!}
                             
-                            <p><b><center>MATRIZ DOS OBSTÁCULOS:</center></b></p>
+                            <p class="fonte18 center"><b>MATRIZ DOS OBSTÁCULOS:</b></p>
 
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">
-                                    <table class="tg">
-                                        <tr>
-                                        <th style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center;">OBSTÁCULOS</th>
-                                            <th style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center;">Frequência dos Obstáculos</th>
-                                        </tr>    
+                                    <table class="table table-hover table-bordered fonte18">
+                                        <thead class="bg-primary">
+                                            <tr>
+                                                <th style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center;">OBSTÁCULOS</th>
+                                                <th style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center;">Frequência dos Obstáculos</th>
+                                            </tr>
+                                        </thead>
                                         @for($i = 1; $i <= 10; $i++)
                                             <tr>
                                                 <td style="font-size: 18px; vertical-align: middle; width: 90%; padding-left: 1%;">{{$i}} - <input style="width: 95%" name="obstaculos[]" type="text"></td>
@@ -169,13 +167,13 @@
                             </div>
 
                             <br>
-                            <p>Após registrar todos os obstáculos que se apresentaram em suas negociações passaremos para a Parte 2 deste levantamento.</p>
+                            <p class="fonte18">Após registrar todos os obstáculos que se apresentaram em suas negociações passaremos para a Parte 2 deste levantamento.</p>
 
                             <br>
                             
                             <div class="col-8">
-                                <button class="btn btn-icon btn-3 btn-primary" type="submit">
-                                    <span class="btn-inner--icon"><i class="ni ni-send"></i></span>
+                                <button class="btn btn-icon btn-3 btn-primary fonte18" type="submit">
+                                    <span class="btn-inner--icon"><i class="fa fa-paper-plane"></i></span>
                                     <span class="btn-inner--text">Enviar formulário</span>
                                 </button>
                             </div>

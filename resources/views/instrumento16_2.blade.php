@@ -1,7 +1,6 @@
-@extends('layouts.app')
+@extends('adminlte::page')
 
 @section('content')
-@include('layouts.headers.cards')
 
 <style>
 
@@ -98,39 +97,38 @@
 
 </style>
 
-<div class="container-fluid mt--7">
-    <div class="row">
-        <div class="col-xl-12 order-xl-1">
-            <div class="card bg-secondary shadow">
-                <div class="card-header bg-white border-0">
-                    <h3 class="mb-0">
-                        <center>INSTRUMENTO 16</center>
-                    </h3>
-                    <h3 class="mb-0">
-                        <center>NEUTRALIZAÇÃO DOS OBSTÁCULOS DA VENDA (FORÇAS RESTRITIVAS)</center>
-                    </h3>
-                </div>
-                <div class="card-body">
+<div class="card card-primary">
+    <div class="card-header">
+        <h3>
+            <center>INSTRUMENTO 16</center>
+        </h3>
+        <h3>
+            <center>NEUTRALIZAÇÃO DOS OBSTÁCULOS DA VENDA (FORÇAS RESTRITIVAS)</center>
+        </h3>
+    </div>
+    <div class="card-body">
                     <div class="col-12">
-                        <p><b>
-                                <center>Levantamento de Informações - Parte 2</center>
+                        <p class="fonte18 center"><b>
+                                Levantamento de Informações - Parte 2
                             </b></p>
 
-                            <p>Nesta etapa você está recebendo as definições das 14 Forças Restritivas assim como os obstáculos que você formulou.</p>
+                            <p class="fonte18">Nesta etapa você está recebendo as definições das 14 Forças Restritivas assim como os obstáculos que você formulou.</p>
                     </div>
                     
                     
                     <div class="col-12">
-                        <p style="color: blue"><b>A – SEUS OBSTÁCULOS e FREQUÊNCIA</b></p>
+                        <p class="fonte18" style="color: blue"><b>A – SEUS OBSTÁCULOS e FREQUÊNCIA</b></p>
                         <!-- <h2 style="color: #35408f">PRIMEIRA PARTE</h2> -->
 
                         <div class="row">
                             <div class="col-12" style="overflow: auto;">
-                                <table class="tg table">
-                                    <tr>
-                                        <th style="font-size: 18px; vertical-align: middle; width: 90%; text-align: center;">SEUS OBSTÁCULOS</th>
-                                        <th style="font-size: 18px; vertical-align: middle; width: 10%; text-align: center;">FREQUÊNCIA</th>
-                                    </tr>    
+                                <table class="table table-hover table-bordered fonte18">
+                                    <thead class="bg-primary">
+                                        <tr>
+                                            <th style="font-size: 18px; vertical-align: middle; width: 90%; text-align: center;">SEUS OBSTÁCULOS</th>
+                                            <th style="font-size: 18px; vertical-align: middle; width: 10%; text-align: center;">FREQUÊNCIA</th>
+                                        </tr>    
+                                    </thead>
                                     @php $i=1 @endphp
                                     @foreach($data['obstaculos'] as $obs)
                                         <tr>
@@ -145,62 +143,62 @@
 
                         <br><br>
 
-                        <p style="color: blue"><b>B – FORÇAS RESTRITIVAS – DEFINIÇÕES</b></p>
+                        <p class="fonte18" style="color: blue"><b>B – FORÇAS RESTRITIVAS – DEFINIÇÕES</b></p>
                         
                         <br>
                      
-                        <p><b>R1- Hábito</b></p>
-                        <p>Representa a dificuldade do cliente em aderir à nossa proposta por ela representar algo novo ou diferente do que ele conhece. Apresenta-se com máxima intensidade quando são oferecidos produtos/serviços inovadores.</p>
+                        <p class="fonte18"><b>R1- Hábito</b></p>
+                        <p class="fonte18">Representa a dificuldade do cliente em aderir à nossa proposta por ela representar algo novo ou diferente do que ele conhece. Apresenta-se com máxima intensidade quando são oferecidos produtos/serviços inovadores.</p>
 
-                        <p><b>R2- Receio</b></p>
-                        <p>Decorre do instinto de proteção e faz com que o cliente não aceite nossa proposta, temendo ter prejuízos.</p>
+                        <p class="fonte18"><b>R2- Receio</b></p>
+                        <p class="fonte18">Decorre do instinto de proteção e faz com que o cliente não aceite nossa proposta, temendo ter prejuízos.</p>
 
-                        <p><b>R3- Preço</b></p>
-                        <p>Tendência natural em querer pagar menos, ou obter maior prazo de pagamento do que o estabelecido.</p>
+                        <p class="fonte18"><b>R3- Preço</b></p>
+                        <p class="fonte18">Tendência natural em querer pagar menos, ou obter maior prazo de pagamento do que o estabelecido.</p>
 
-                        <p><b>R4- Reclamação</b></p>
-                        <p>Este obstáculo se apresenta quando o cliente não está percebendo os benefícios que espera do produto ou serviço oferecido ou por qualquer outra razão que o incomode.</p>
+                        <p class="fonte18"><b>R4- Reclamação</b></p>
+                        <p class="fonte18">Este obstáculo se apresenta quando o cliente não está percebendo os benefícios que espera do produto ou serviço oferecido ou por qualquer outra razão que o incomode.</p>
 
-                        <p><b>R5- Detalhe</b></p>
-                        <p>Representa a dificuldade do cliente para compreender a nossa proposta ou parte dela. Aprofunda-se um aspecto do produto/serviço oferecido, ou das condições da proposta e perde-se a visão do conjunto. Pode traduzir insegurança e desconfiança.</p>
+                        <p class="fonte18"><b>R5- Detalhe</b></p>
+                        <p class="fonte18">Representa a dificuldade do cliente para compreender a nossa proposta ou parte dela. Aprofunda-se um aspecto do produto/serviço oferecido, ou das condições da proposta e perde-se a visão do conjunto. Pode traduzir insegurança e desconfiança.</p>
 
-                        <p><b>R6- Ignorância</b></p>
-                        <p>Expressa falta de conhecimentos específicos em relação a nossa proposta o que impede que o cliente possa avaliá-la corretamente.</p>
+                        <p class="fonte18"><b>R6- Ignorância</b></p>
+                        <p class="fonte18">Expressa falta de conhecimentos específicos em relação a nossa proposta o que impede que o cliente possa avaliá-la corretamente.</p>
 
-                        <p><b>R7- Concorrência</b></p>
-                        <p>É a manifestação de desinteresse do cliente em relação a nossa proposta, em função de sua preferência por uma proposta ou produto/serviço concorrente.</p>
+                        <p class="fonte18"><b>R7- Concorrência</b></p>
+                        <p class="fonte18">É a manifestação de desinteresse do cliente em relação a nossa proposta, em função de sua preferência por uma proposta ou produto/serviço concorrente.</p>
 
-                        <p><b>R8- Concorrência de Amizade</b></p>
-                        <p>É o desinteresse do cliente na nossa proposta, em função de seu relacionamento pessoal com um vendedor concorrente.</p>
+                        <p class="fonte18"><b>R8- Concorrência de Amizade</b></p>
+                        <p class="fonte18">É o desinteresse do cliente na nossa proposta, em função de seu relacionamento pessoal com um vendedor concorrente.</p>
 
-                        <p><b>R9- Personalidade Difícil</b></p>
-                        <p>Quando o cliente manifesta agressivamente qualquer opinião contrária à nossa proposta. O cliente faz comentários que tendem a desqualificar o vendedor e o provoca consciente ou inconscientemente. Este obstáculo está vinculado a características de personalidade do cliente.</p>
+                        <p class="fonte18"><b>R9- Personalidade Difícil</b></p>
+                        <p class="fonte18">Quando o cliente manifesta agressivamente qualquer opinião contrária à nossa proposta. O cliente faz comentários que tendem a desqualificar o vendedor e o provoca consciente ou inconscientemente. Este obstáculo está vinculado a características de personalidade do cliente.</p>
 
-                        <p><b>R10- Tempo</b></p>
-                        <p>Consiste na argumentação do cliente de que não dispõe de tempo para realizar a reunião de vendas ou de que não é o momento apropriado para comprar.</p>
+                        <p class="fonte18"><b>R10- Tempo</b></p>
+                        <p class="fonte18">Consiste na argumentação do cliente de que não dispõe de tempo para realizar a reunião de vendas ou de que não é o momento apropriado para comprar.</p>
 
-                        <p><b>R11- Corte do Vínculo</b></p>
-                        <p>É caracterizado por atitudes do cliente que mostram seu interesse por finalizar a reunião de vendas, mesmo que o vendedor não tenha concluído sua apresentação.</p>
+                        <p class="fonte18"><b>R11- Corte do Vínculo</b></p>
+                        <p class="fonte18">É caracterizado por atitudes do cliente que mostram seu interesse por finalizar a reunião de vendas, mesmo que o vendedor não tenha concluído sua apresentação.</p>
 
-                        <p><b>R12- Decisão Dividida</b></p>
-                        <p>Manifesta-se pelo adiamento da decisão porque o comprador afirma que não tem autoridade para decidir sozinho.</p>
+                        <p class="fonte18"><b>R12- Decisão Dividida</b></p>
+                        <p class="fonte18">Manifesta-se pelo adiamento da decisão porque o comprador afirma que não tem autoridade para decidir sozinho.</p>
 
-                        <p><b>R13- Ambiente Negativo</b></p>
-                        <p>Qualquer atitude do cliente ou do vendedor, que possa comprometer o campo psicológico e o diálogo de vendas.</p>
+                        <p class="fonte18"><b>R13- Ambiente Negativo</b></p>
+                        <p class="fonte18">Qualquer atitude do cliente ou do vendedor, que possa comprometer o campo psicológico e o diálogo de vendas.</p>
 
-                        <p><b>R14- Atitudes Impróprias</b></p>
-                        <p>Refere-se a palavras ou atitudes inconvenientes do cliente que prejudicam o progresso da venda. Muitas vezes este obstáculo decorre de falhas na comunicação e a precária inteligência emocional do vendedor.</p>
+                        <p class="fonte18"><b>R14- Atitudes Impróprias</b></p>
+                        <p class="fonte18">Refere-se a palavras ou atitudes inconvenientes do cliente que prejudicam o progresso da venda. Muitas vezes este obstáculo decorre de falhas na comunicação e a precária inteligência emocional do vendedor.</p>
 
                         <br><br>
 
-                        <p style="color: blue"><b>C – ALOQUE SEUS OBSTÁCULOS ÀS FORÇAS RESTRITIVAS CONFORME SUAS DEFINIÇÕES.</b></p>
+                        <p class="fonte18" style="color: blue"><b>C – ALOQUE SEUS OBSTÁCULOS ÀS FORÇAS RESTRITIVAS CONFORME SUAS DEFINIÇÕES.</b></p>
 
                         <br>
 
-                        <p>Na tabela abaixo, após lidas atentamente as definições das Forças Restritivas, classifique cada um dos obstáculos que você registrou em uma única Força Restritiva e na segunda coluna repita o numero de vezes (freqüência) que este obstáculo apareceu na Parte 1.</p>
-                        <p>Se o argumento não coincide exatamente como uma Força Restritiva, classifique por aproximação naquela Força Restritiva que melhor o representa.</p>
-                        <p>Leia atentamente as definições e aloque cada obstáculo a uma Força Restritiva.</p>
-                        <p>Cada obstáculo só pode ser classificado numa só Força Restritiva.</p>
+                        <p class="fonte18">Na tabela abaixo, após lidas atentamente as definições das Forças Restritivas, classifique cada um dos obstáculos que você registrou em uma única Força Restritiva e na segunda coluna repita o numero de vezes (freqüência) que este obstáculo apareceu na Parte 1.</p>
+                        <p class="fonte18">Se o argumento não coincide exatamente como uma Força Restritiva, classifique por aproximação naquela Força Restritiva que melhor o representa.</p>
+                        <p class="fonte18">Leia atentamente as definições e aloque cada obstáculo a uma Força Restritiva.</p>
+                        <p class="fonte18">Cada obstáculo só pode ser classificado numa só Força Restritiva.</p>
 
                     </div>
 
@@ -231,11 +229,13 @@
 
                             <div class="row">
                                 <div class="col-12" style="">
-                                    <table class="tg">
-                                        <tr>
-                                            <th style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center;">FORÇAS RESTRITIVAS</th>
-                                            <th style="font-size: 18px; vertical-align: middle; width: 300px; text-align: center;">Frequência dos Obstáculos</th>
-                                        </tr>
+                                    <table class="table table-hover table-bordered fonte18">
+                                        <thead class="bg-primary">    
+                                            <tr>
+                                                <th style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center;">FORÇAS RESTRITIVAS</th>
+                                                <th style="font-size: 18px; vertical-align: middle; width: 300px; text-align: center;">Frequência dos Obstáculos</th>
+                                            </tr>
+                                        </thead>
                                         @php $i=0 @endphp
                                         @foreach($forcas as $forca)
                                             <tr>
@@ -252,8 +252,8 @@
                             <br>
                             
                             <div class="col-8">
-                                <button class="btn btn-icon btn-3 btn-primary" type="submit">
-                                    <span class="btn-inner--icon"><i class="ni ni-send"></i></span>
+                                <button class="btn btn-icon btn-3 btn-primary fonte18" type="submit">
+                                    <span class="btn-inner--icon"><i class="fa fa-paper-plane"></i></span>
                                     <span class="btn-inner--text">Enviar formulário</span>
                                 </button>
                             </div>
