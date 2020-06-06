@@ -88,66 +88,66 @@
                                         <tr>
                                             <th scope="row" class="question">
                                                 <div class="media align-items-center">
-                                                    {{$i}} <input style="margin-left: 4%" type="text" class="form-control" name="produto{{$i}}" placeholder="">
+                                                    {{$i}} <input style="margin-left: 4%" type="text" class="form-control" name="produto{{$i}}" placeholder="" required>
                                                 </div>
                                             </th>
                                             <td class="1-1">
                                                 <div class="custom-control custom-radio mb-3">
-                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-1" type="radio" value="1">
+                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-1" type="radio" value="1" required>
                                                     <label class="custom-control-label" for="radio{{$i}}-1"></label>
                                                 </div>                                                
                                             </td>
                                             <td class="1-2">
                                             <div class="custom-control custom-radio mb-3">
-                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-2" type="radio" value="2">
+                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-2" type="radio" value="2" required>
                                                     <label class="custom-control-label" for="radio{{$i}}-2"></label>
                                                 </div>
                                             </td>
                                             <td class="1-3">
                                                 <div class="custom-control custom-radio mb-3">
-                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-3" type="radio" value="3">
+                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-3" type="radio" value="3" required>
                                                     <label class="custom-control-label" for="radio{{$i}}-3"></label>
                                                 </div>                                                
                                             </td>
                                             <td class="1-4">
                                             <div class="custom-control custom-radio mb-3">
-                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-4" type="radio" value="4">
+                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-4" type="radio" value="4" required>
                                                     <label class="custom-control-label" for="radio{{$i}}-4"></label>
                                                 </div>
                                             </td>
                                             <td class="1-5">
                                                 <div class="custom-control custom-radio mb-3">
-                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-5" type="radio" value="5">
+                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-5" type="radio" value="5" required>
                                                     <label class="custom-control-label" for="radio{{$i}}-5"></label>
                                                 </div>                                                
                                             </td>
                                             <td class="1-6">
                                             <div class="custom-control custom-radio mb-3">
-                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-6" type="radio" value="6">
+                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-6" type="radio" value="6" required>
                                                     <label class="custom-control-label" for="radio{{$i}}-6"></label>
                                                 </div>
                                             </td>
                                             <td class="1-7">
                                                 <div class="custom-control custom-radio mb-3">
-                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-7" type="radio" value="7">
+                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-7" type="radio" value="7" required>
                                                     <label class="custom-control-label" for="radio{{$i}}-7"></label>
                                                 </div>                                                
                                             </td>
                                             <td class="1-8">
                                             <div class="custom-control custom-radio mb-3">
-                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-8" type="radio" value="8">
+                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-8" type="radio" value="8" required>
                                                     <label class="custom-control-label" for="radio{{$i}}-8"></label>
                                                 </div>
                                             </td>
                                             <td class="1-9">
                                                 <div class="custom-control custom-radio mb-3">
-                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-9" type="radio" value="9">
+                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-9" type="radio" value="9" required>
                                                     <label class="custom-control-label" for="radio{{$i}}-9"></label>
                                                 </div>                                                
                                             </td>
                                             <td class="1-10">
                                             <div class="custom-control custom-radio mb-3">
-                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-10" type="radio" value="10">
+                                                    <input name="radio{{$i}}" class="custom-control-input" id="radio{{$i}}-10" type="radio" value="10" required>
                                                     <label class="custom-control-label" for="radio{{$i}}-10"></label>
                                                 </div>
                                             </td>
