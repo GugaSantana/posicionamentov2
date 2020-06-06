@@ -86,13 +86,13 @@
                                         </td>
                                         <td class="yes center">
                                             <div class="custom-control custom-radio mb-3">
-                                                <input name="radio{{$i}}" value="Y" class="custom-control-input" id="radioY{{$i}}" type="radio">
+                                                <input name="radio{{$i}}" value="Y" class="custom-control-input" id="radioY{{$i}}" type="radio" required>
                                                 <label style="cursor: pointer;" class="custom-control-label" for="radioY{{$i}}"></label>
                                             </div>
                                         </td>
                                         <td class="no center">
                                             <div class="custom-control custom-radio mb-3">
-                                                <input name="radio{{$i}}" value="N" class="custom-control-input" id="radioN{{$i}}" type="radio">
+                                                <input name="radio{{$i}}" value="N" class="custom-control-input" id="radioN{{$i}}" type="radio" required>
                                                 <label style="cursor: pointer;" class="custom-control-label" for="radioN{{$i}}"></label>
                                             </div>
                                         </td>
@@ -160,7 +160,7 @@
                         <tr>
                             @for($i=1; $i<=10; $i++) <td class="1-1">
                                 <div class="custom-control custom-radio mb-3">
-                                    <input name="radioPt2" value="{{$i}}" class="custom-control-input" id="radio{{$i}}-1" type="radio">
+                                    <input name="radioPt2" value="{{$i}}" class="custom-control-input" id="radio{{$i}}-1" type="radio" required>
                                     <label style="cursor: pointer;" class="custom-control-label" for="radio{{$i}}-1"></label>
                                 </div>
                                 </td>
