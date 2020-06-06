@@ -330,21 +330,21 @@
                                     <td class="bg-primary" rowspan="3" style="font-size: 20px;font-weight: bold;vertical-align: middle;width: 1px;">{{$count}}</td>
                                     <td rowspan="3" style="vertical-align: middle; text-align: center; width: 300px;">{!!$question['titulo']!!}</td>
                                     
-                                    <td style="text-align: center; vertical-align: middle; width: 10px;">@if($question['input1'] == 1)A<input type="text" autocomplete="off" id="A{{$count}}" name="pai{{$count}}" style="width: 2em; text-align: center;" maxlength="1" onkeypress='return SomenteNumero(event, {{$count}}, "A")'>@endif</td>
-                                    <td style="text-align: center; vertical-align: middle; width: 10px;">@if($question['input1'] == 2)A<input type="text" autocomplete="off" id="A{{$count}}" name="adulto{{$count}}" style="width: 2em; text-align: center;" maxlength="1" onkeypress='return SomenteNumero(event, {{$count}}, "A")'>@endif</td>
-                                    <td style="text-align: center; vertical-align: middle; width: 10px;">@if($question['input1'] == 3)A<input type="text" autocomplete="off" id="A{{$count}}" name="crianca{{$count}}" style="width: 2em; text-align: center;" maxlength="1" onkeypress='return SomenteNumero(event, {{$count}}, "A")'>@endif</td>
+                                    <td style="text-align: center; vertical-align: middle; width: 10px;">@if($question['input1'] == 1)A<input type="text" autocomplete="off" id="A{{$count}}" name="pai{{$count}}" style="width: 2em; text-align: center;" maxlength="1" onkeypress='return SomenteNumero(event, {{$count}}, "A")' required>@endif</td>
+                                    <td style="text-align: center; vertical-align: middle; width: 10px;">@if($question['input1'] == 2)A<input type="text" autocomplete="off" id="A{{$count}}" name="adulto{{$count}}" style="width: 2em; text-align: center;" maxlength="1" onkeypress='return SomenteNumero(event, {{$count}}, "A")' required>@endif</td>
+                                    <td style="text-align: center; vertical-align: middle; width: 10px;">@if($question['input1'] == 3)A<input type="text" autocomplete="off" id="A{{$count}}" name="crianca{{$count}}" style="width: 2em; text-align: center;" maxlength="1" onkeypress='return SomenteNumero(event, {{$count}}, "A")' required>@endif</td>
                                     <td style="text-align: center;width: 800px;">{{ $question['questao1'] }}</td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: center; vertical-align: middle; width: 10px;">@if($question['input2'] == 1)B<input type="text" autocomplete="off" id="B{{$count}}" name="pai{{$count}}" style="width: 2em; text-align: center;" maxlength="1" onkeypress='return SomenteNumero(event, {{$count}}, "B")'>@endif</td>
-                                    <td style="text-align: center; vertical-align: middle; width: 10px;">@if($question['input2'] == 2)B<input type="text" autocomplete="off" id="B{{$count}}" name="adulto{{$count}}" style="width: 2em; text-align: center;" maxlength="1" onkeypress='return SomenteNumero(event, {{$count}}, "B")'>@endif</td>
-                                    <td style="text-align: center; vertical-align: middle; width: 10px;">@if($question['input2'] == 3)B<input type="text" autocomplete="off" id="B{{$count}}" name="crianca{{$count}}" style="width: 2em; text-align: center;" maxlength="1" onkeypress='return SomenteNumero(event, {{$count}}, "B")'>@endif</td>
+                                    <td style="text-align: center; vertical-align: middle; width: 10px;">@if($question['input2'] == 1)B<input type="text" autocomplete="off" id="B{{$count}}" name="pai{{$count}}" style="width: 2em; text-align: center;" maxlength="1" onkeypress='return SomenteNumero(event, {{$count}}, "B")' required>@endif</td>
+                                    <td style="text-align: center; vertical-align: middle; width: 10px;">@if($question['input2'] == 2)B<input type="text" autocomplete="off" id="B{{$count}}" name="adulto{{$count}}" style="width: 2em; text-align: center;" maxlength="1" onkeypress='return SomenteNumero(event, {{$count}}, "B")' required>@endif</td>
+                                    <td style="text-align: center; vertical-align: middle; width: 10px;">@if($question['input2'] == 3)B<input type="text" autocomplete="off" id="B{{$count}}" name="crianca{{$count}}" style="width: 2em; text-align: center;" maxlength="1" onkeypress='return SomenteNumero(event, {{$count}}, "B")' required>@endif</td>
                                     <td style="text-align: center;width: 800px;">{{$question['questao2']}}</td>
                                 </tr>
                                 <tr>
-                                    <td style="text-align: center; vertical-align: middle; width: 10px;">@if($question['input3'] == 1)C<input type="text" autocomplete="off" id="C{{$count}}" name="pai{{$count}}" style="width: 2em; text-align: center;" maxlength="1" onkeypress='return SomenteNumero(event, {{$count}}, "C")'>@endif</td>
-                                    <td style="text-align: center; vertical-align: middle; width: 10px;">@if($question['input3'] == 2)C<input type="text" autocomplete="off" id="C{{$count}}" name="adulto{{$count}}" style="width: 2em; text-align: center;" maxlength="1" onkeypress='return SomenteNumero(event, {{$count}}, "C")'>@endif</td>
-                                    <td style="text-align: center; vertical-align: middle; width: 10px;">@if($question['input3'] == 3)C<input type="text" autocomplete="off" id="C{{$count}}" name="crianca{{$count}}" style="width: 2em; text-align: center;" maxlength="1" onkeypress='return SomenteNumero(event, {{$count}}, "C")'>@endif</td>
+                                    <td style="text-align: center; vertical-align: middle; width: 10px;">@if($question['input3'] == 1)C<input type="text" autocomplete="off" id="C{{$count}}" name="pai{{$count}}" style="width: 2em; text-align: center;" maxlength="1" onkeypress='return SomenteNumero(event, {{$count}}, "C")' required>@endif</td>
+                                    <td style="text-align: center; vertical-align: middle; width: 10px;">@if($question['input3'] == 2)C<input type="text" autocomplete="off" id="C{{$count}}" name="adulto{{$count}}" style="width: 2em; text-align: center;" maxlength="1" onkeypress='return SomenteNumero(event, {{$count}}, "C")' required>@endif</td>
+                                    <td style="text-align: center; vertical-align: middle; width: 10px;">@if($question['input3'] == 3)C<input type="text" autocomplete="off" id="C{{$count}}" name="crianca{{$count}}" style="width: 2em; text-align: center;" maxlength="1" onkeypress='return SomenteNumero(event, {{$count}}, "C")' required>@endif</td>
                                     <td style="text-align: center;width: 800px;">{{$question['questao3']}}</td>
                                 </tr>
                             </table>
@@ -395,7 +395,7 @@
         a = document.getElementById("A"+count).value|0;
         b = document.getElementById("B"+count).value|0;
         c = document.getElementById("C"+count).value|0;
-        
+
         total = a+b+c;
         
         var tecla = (window.event) ? event.keyCode : e.which;
