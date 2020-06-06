@@ -155,13 +155,13 @@
                                             <td style="font-size: 18px; text-align: center;">
                                             
                                             <div class="custom-control custom-radio mb-3">
-                                                <input class="custom-control-input" type="radio" id="grupoASim{{$i}}" name="grupoA{{$i}}" value="s">
+                                                <input class="custom-control-input" type="radio" id="grupoASim{{$i}}" name="grupoA{{$i}}" value="s" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="grupoASim{{$i}}"></label>
                                             </div>
                                             </td>
                                             <td style="font-size: 18px; text-align: center;">
                                             <div class="custom-control custom-radio mb-3">
-                                                <input class="custom-control-input" type="radio" id="grupoANao{{$i}}" name="grupoA{{$i}}" value="n">
+                                                <input class="custom-control-input" type="radio" id="grupoANao{{$i}}" name="grupoA{{$i}}" value="n" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="grupoANao{{$i}}"></label>
                                             </div>
                                             </td>
@@ -196,7 +196,7 @@
                                             
                                         
                                             <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" name="grupoB{{$i}}" id="grupoBSim{{$i}}" value="s">
+                                                <input type="radio" class="custom-control-input" name="grupoB{{$i}}" id="grupoBSim{{$i}}" value="s" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="grupoBSim{{$i}}"></label>
                                             </div>
 
@@ -205,7 +205,7 @@
                                             <td style="font-size: 18px; text-align: center;">
                                             
                                             <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" name="grupoB{{$i}}" id="grupoBNao{{$i}}" value="n">
+                                                <input type="radio" class="custom-control-input" name="grupoB{{$i}}" id="grupoBNao{{$i}}" value="n" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="grupoBNao{{$i}}"></label>
                                             </div>                                           
                                         
@@ -239,7 +239,7 @@
                                             <td style="font-size: 18px; text-align: center;">
                                             
                                             <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" name="grupoC{{$i}}" id="grupoCSim{{$i}}" value="s">
+                                                <input type="radio" class="custom-control-input" name="grupoC{{$i}}" id="grupoCSim{{$i}}" value="s" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="grupoCSim{{$i}}"></label>
                                             </div>
 
@@ -248,7 +248,7 @@
                                             <td style="font-size: 18px; text-align: center;">
                                             
                                             <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" name="grupoC{{$i}}" id="grupoCNao{{$i}}" value="n">
+                                                <input type="radio" class="custom-control-input" name="grupoC{{$i}}" id="grupoCNao{{$i}}" value="n" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="grupoCNao{{$i}}"></label>
                                             </div>
                                             </td>
