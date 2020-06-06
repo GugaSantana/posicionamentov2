@@ -98,7 +98,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <div class="form-group">
-                                <input type="text" name="problema{{$i}}" class="form-control" id="problema{{$i}}" onkeyup="preenchimento({{$i}});" placeholder="">
+                                <input type="text" name="problema{{$i}}" class="form-control" id="problema{{$i}}" onkeyup="preenchimento({{$i}});" placeholder="" required>
                             </div>
                         </div>
                     </div>
@@ -129,9 +129,9 @@
                                 @for($i=1;$i<=5;$i++) <tr>
                                     <td id="problemaTexto{{$i}}"></td>
                                     <div class="form-group">
-                                        <td style="text-align: -webkit-center;"><input class="form-control" type="text" maxlength="1" name="matriz{{$i}}[]" style="width: 3em; text-align: center;" onkeypress='return SomenteNumero(event)'></td>
-                                        <td style="text-align: -webkit-center;"><input class="form-control" type="text" maxlength="1" name="matriz{{$i}}[]" style="width: 3em; text-align: center;" onkeypress='return SomenteNumero(event)'></td>
-                                        <td style="text-align: -webkit-center;"><input class="form-control" type="text" maxlength="1" name="matriz{{$i}}[]" style="width: 3em; text-align: center;" onkeypress='return SomenteNumero(event)'></td>
+                                        <td style="text-align: -webkit-center;"><input class="form-control" type="text" maxlength="1" name="matriz{{$i}}[]" style="width: 3em; text-align: center;" onkeypress='return SomenteNumero(event)' required></td>
+                                        <td style="text-align: -webkit-center;"><input class="form-control" type="text" maxlength="1" name="matriz{{$i}}[]" style="width: 3em; text-align: center;" onkeypress='return SomenteNumero(event)' required></td>
+                                        <td style="text-align: -webkit-center;"><input class="form-control" type="text" maxlength="1" name="matriz{{$i}}[]" style="width: 3em; text-align: center;" onkeypress='return SomenteNumero(event)' required></td>
                                     </div>
                                     </tr>
                                     @endfor
