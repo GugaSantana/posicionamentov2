@@ -160,8 +160,7 @@
 <br><b>OU</b>
 <br>B.Procuraria explicar minha abordagem e minha filosofia de vendas, a fim de tornar claro por que me comporto como tal.
 ','
-4. Se em conversa com um de meus clientes ele começasse a fazer comentários e perguntas sobre produtos dos quais eu, como vendedor, deveria estar a par, mas
-<br>de fato ignoro, eu:
+4. Se em conversa com um de meus clientes ele começasse a fazer comentários e perguntas sobre produtos dos quais eu, como vendedor, deveria estar a par, mas de fato ignoro, eu:
 <br>A. Procuraria levar a conversa para outra direção, receando ver questionadas minha especialização e credibilidade como vendedor.
 <br><b>OU</b>
 <br>B. Confessaria minha ignorância. Fosse qual fosse a reação do cliente, e encorajaria a continuação da conversa.
@@ -176,8 +175,7 @@
 <br><b>OU</b>
 <br>B. Expressaria minhas dúvidas e tentaria vender menos, mesmo que isso significasse a perda da venda por inteiro.
 ','
-7. Se um de meus clientes indicasse o fato de que eu teria um “conflito de personalidade” com um seu associado e com o qual seria importante eu cooperar
-<br>para que meu cliente pudesse atingir seus objetivos, eu:
+7. Se um de meus clientes indicasse o fato de que eu teria um “conflito de personalidade” com um seu associado e com o qual seria importante eu cooperar para que meu cliente pudesse atingir seus objetivos, eu:
 <br>A. Discutiria o problema com ele abertamente, a fim de descobrir como ele estaria sendo afetado e o que ele recomendaria que eu fizesse a respeito.
 <br><b>OU</b>
 <br>B. Consideraria seus comentários não pertinentes e um tanto arrogantes e desencorajaria mais discussões sobre o assunto.
@@ -198,12 +196,11 @@
 <br>B. Arriscaria o embaraço de discutir meus pontos fracos com os clientes, obtendo suas idéias sobre como eu poderia melhor.
 ','
 11. Se o meu relacionamento com um de meus clientes tivesse sido prejudicado por repetidas discussões e conflitos, em questões de importância para nós, eu:
-<br>A. Seria cauteloso ao contratá-lo, receando que estas questões viessem à tona de novo e piorassem ainda mais nossas relações.
+<br>A. Seria cauteloso ao contatá-lo, receando que estas questões viessem à tona de novo e piorassem ainda mais nossas relações.
 <br><b>OU</b>
 <br>B. Mostraria os efeitos que a controvérsia estaria tendo em nosso relacionamento e sugeriria que a discutíssemos – apesar de tudo – até que a resolvêssemos.
 ','
-12. Se numa das ocasiões em que meu chefe estivesse me acompanhando, encontrássemos um de meus clientes com que eu viesse tendo problemas e ele começasse a aludir a algumas queixas, as quais, se detalhadas, me colocariam
-<br>em má situação aos olhos do meu chefe, eu:
+12. Se numa das ocasiões em que meu chefe estivesse me acompanhando, encontrássemos um de meus clientes com que eu viesse tendo problemas e ele começasse a aludir a algumas queixas, as quais, se detalhadas, me colocariam em má situação aos olhos do meu chefe, eu:
 <br>A. Tentaria colocar o assunto de lado, talvez fazendo piada com o cliente sobre suas queixas, ou, sugerindo que deveria ser realmente abordado quando tivéssemos mais tempo para analisá-lo em profundidade.
 <br><b>OU</b>
 <br>B. Sugeriria que o momento seria propício para ele desabafar, esperando que meu chefe assim pudesse nos ajudar.
@@ -213,7 +210,7 @@
 <br><b>OU</b>
 <br>B. Daria minha opinião espontânea de que não haveria praticamente diferença em preço ou qualidade entre os dois produtos, e que tudo o que eu poderia fazer para merecer sua escolha seria a minha capacidade de servi-lo eficazmente.
 ','
-14. Se o meu chefe me pressionasse e outros substancialmente (abonos especiais, competições internas, etc...) para colocar um produto, ao lidar com os clientes, eu:
+14. Se meu chefe pressionasse para vender um produto, ao me relacionar com meus clientes,eu:
 <br>A. Faria tudo para convencê-los dos valores do produto e do quanto eles o necessitariam, usando minha abordagem mais sincera e persuasiva para fechar a venda quando eles se tornassem receptivos.
 <br><b>OU</b>
 <br>B. Solicitaria que eles me informassem de suas necessidades e preencheria os pedidos concomitantemente, sugerindo o produto especial apenas se ele parecesse apropriado às suas necessidades, na ocasião.
@@ -271,8 +268,8 @@
                                         @for($i=0;$i<20;$i++) 
                                             <tr>
                                                 <td style="font-size: 18px">{!! $questions[$i] !!}</td>
-                                                <td style="text-align: -webkit-center;font-size: 18px; vertical-align: middle;"><input class="form-control" type="text" maxlength="1" name="{{$a[$i]}}[]" id="A{{$i}}" style="width: 3em; text-align: center; font-size: 18px;" onkeypress='return SomenteNumero(event, {{$i}}, "a")' ></td>
-                                                <td style="text-align: -webkit-center;font-size: 18px; vertical-align: middle;"><input class="form-control" type="text" maxlength="1" name="{{$b[$i]}}[]" id="B{{$i}}" style="width: 3em; text-align: center; font-size: 18px;" onkeypress='return SomenteNumero(event, {{$i}}, "b")' ></td>
+                                                <td style="text-align: -webkit-center;font-size: 18px; vertical-align: middle;"><input class="form-control" type="text" maxlength="1" name="{{$a[$i]}}[]" id="A{{$i}}" style="width: 3em; text-align: center; font-size: 18px;" onkeypress='return SomenteNumero(event, {{$i}}, "a")' required></td>
+                                                <td style="text-align: -webkit-center;font-size: 18px; vertical-align: middle;"><input class="form-control" type="text" maxlength="1" name="{{$b[$i]}}[]" id="B{{$i}}" style="width: 3em; text-align: center; font-size: 18px;" onkeypress='return SomenteNumero(event, {{$i}}, "b")' required></td>
                                             </tr>
                                         @endfor
 
