@@ -109,17 +109,17 @@
                                 <tr>
                                     <td style="color: #ff4700">PROSPECÇÃO</td>
                                     <td>40% das prospecções se tornam Clientes Potenciais</td>
-                                    <td><input name="a" size=2 maxlength="3" onkeypress='return SomenteNumeroDez(event, this)'> Das minhas Prospecções se tornam Clientes Potenciais</td>
+                                    <td><input name="a" size=2 maxlength="3" onkeypress='return SomenteNumeroDez(event, this)' required> Das minhas Prospecções se tornam Clientes Potenciais</td>
                                 </tr>
                                 <tr>
                                     <td style="color: #ff4700">QUALIFICAÇÃO</td>
                                     <td>30% dos Clientes Potenciais se tornam Clientes Potenciais qualificados</td>
-                                    <td><input name="b" size=2 maxlength="3" onkeypress='return SomenteNumeroDez(event, this)'> Dos meus Clientes Potenciais se tornam Clientes Potenciais qualificados</td>
+                                    <td><input name="b" size=2 maxlength="3" onkeypress='return SomenteNumeroDez(event, this)' required> Dos meus Clientes Potenciais se tornam Clientes Potenciais qualificados</td>
                                 </tr>
                                 <tr>
                                     <td style="color: #ff4700">APRESENTAÇÃO/<br>NEGOCIAÇÃO</td>
                                     <td>40% dos Clientes Potenciais qualificados geram propostas</td>
-                                    <td><input name="c" size=2 maxlength="3" onkeypress='return SomenteNumeroDez(event, this)'> Dos meus Clientes Potenciais Qualificados geram propostas</td>
+                                    <td><input name="c" size=2 maxlength="3" onkeypress='return SomenteNumeroDez(event, this)' required> Dos meus Clientes Potenciais Qualificados geram propostas</td>
                                 </tr>
                                 <tr>
                                     <td style="color: #ff4700">FECHAMENTO</td>
