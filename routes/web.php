@@ -57,7 +57,7 @@ Route::get('/manual2', 'HomeController@manual2');
 Route::get('/manual3', 'HomeController@manual3');
 Route::get('/manual4', 'HomeController@manual4');
 Route::get('/introAcompanhamento', 'HomeController@introAcompanhamento');
-Route::get('/autogestao/{instrumento?}', 'HomeController@autogestao');
+Route::get('/autogestao/{instrumento?}', 'HomeController@autogestao')->name('autogestao');
 
 Route::get('/autogestao/confirm/{instrumento}/{etapa}', 'HomeController@confirmEtapa');
 

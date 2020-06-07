@@ -90,18 +90,18 @@ $inst = [
 	'3 – Meu perfil como profissional de vendas',
 	'4 – Meu conhecimento da linha de produtos que vendo',
 	'5 – Meu conhecimento dos produtos concorrentes',
-	'6 – Matriz para aumentar minha Produtividade nas Venda',
+	'6 – Matriz para aumentar minha Produtividade nas Vendas',
 	'7 – Gerenciamento do relacionamento através dos Estados do Ego.',
 	'8 – Gerenciamento do relacionamento através da Exposição e do Feedback',
 	'9 – Gerenciamento do relacionamento utilizando os Canais Neurolinguísticos',
-	'10 – Gerenciamento do relacionamento através da Inteligência Emociona',
-	'11 – Definição do perfil do cliente idea',
-	'12 – Como fazer a Prospecção de Cliente',
-	'13 – Qualificação dos Prospects',
-	'14 – Matriz para identificar clientes prioritário',
-	'15 – Desenvolvimento da Quantidade e Qualidade dos meus argumentos de vendas (Forças Propulsoras',
-	'16 – Neutralização dos obstáculos da Venda(Forças Restritivas',
-	'17 – Técnicas de Fechamento de venda',
+	'10 – Gerenciamento do relacionamento através da Inteligência Emocional',
+	'11 – Definição do perfil do Cliente Ideal',
+	'12 – Como fazer a Prospecção de Clientes',
+	'13 – Qualificação dos Clientes Potenciais',
+	'14 – Matriz para identificar Clientes Prioritários',
+	'15 – Desenvolvimento da Quantidade e Qualidade dos meus argumentos de vendas (Forças Propulsoras)',
+	'16 – Neutralização dos obstáculos da Venda(Forças Restritivas)',
+	'17 – Técnicas de Fechamento de vendas',
 	'18 – O Funil de Vendas, com objetivos e métricas de avanço.',
 	'19 – Planos de Ação quantitativos para alcançar as metas de vendas',
 	'20 – O Relatório de Progresso'
@@ -147,7 +147,7 @@ $titles = [
 											@if($autogestao->where('a', true)->contains('instrumento', $i+1))
 												<img src="../posicionamento/public/img/check.png" style="width: 20%;">
 											@else
-												<p><a href="/planoacao/{{$i+1}}" class="btn btn-info">Sim</a></p>
+												<p><a href="/planoacao/{{$i+1}}" class="btn btn-info">@if($autogestao->whereNull('a')->contains('instrumento', $i+1)) Plano de Ação em aberto @else Sim @endif</a></p>
 											@endif
 										@endif
 									</td>
@@ -187,6 +187,7 @@ $titles = [
 												<p><a href="/planoacao/{{$i+1}}"><img src="../posicionamento/public/img/book-pa.png" style="width: 40%; cursor: pointer; margin-right: 2%" /></a>
 												<a href="/autogestao/confirm/{{$i+1}}/E" class="btn btn-info">Sim</a></p>
 												@else
+												<p><a href="/planoacao/{{$i+1}}"><img src="../posicionamento/public/img/book-pa.png" style="width: 40%; cursor: pointer; margin-right: 2%" /></a>
 												<img src="../posicionamento/public/img/check.png" style="width: 20%;">
 												@endif
 											@endif

@@ -48,7 +48,7 @@
     border-radius: 70px;
 ">
       <div class="content-box">
-<img src="img/logo_capa.png" style="float: right;width: 30%;margin-top: 2%;"> 
+<img src="../posicionamento/public/img/logo_capa.png" style="float: right;width: 30%;margin-top: 2%;"> 
         
 <h2 style="color: #35408f; text-align: center;margin-top: 10%;">{{$instrumento[1]}}<h2>
         

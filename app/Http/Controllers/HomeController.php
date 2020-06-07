@@ -386,8 +386,7 @@ class HomeController extends Controller
             $autogestao->save();
         }
 
-
-        return $this->autogestao();
+        return redirect()->route('autogestao');
     }
 
     public function confirmEtapa($instrumento, $etapa){
@@ -396,6 +395,6 @@ class HomeController extends Controller
             ->first();
         $autogestao->$etapa = true;
         $autogestao->save();
-        return back();
+        return redirect()->route('autogestao');
     }
 }
