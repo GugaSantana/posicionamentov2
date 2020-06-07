@@ -107,7 +107,7 @@
                                         </thead>
                                         @for($i=0;$i<10;$i++)
                                             <tr>
-                                                <td style="font-size: 18px; vertical-align: middle;">Cliente {{$i+1}}: <input style="width: 100%;" type="text" name="cliente[]"></td>
+                                                <td style="font-size: 18px; vertical-align: middle;">Cliente {{$i+1}}: <input style="width: 100%;" type="text" name="cliente[]" required></td>
                                             </tr>
                                         @endfor
 
@@ -141,7 +141,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="idade" id="idade1" value="Adolescentes 15 a 18 anos">
+                                                <input type="radio" class="custom-control-input" required name="idade" id="idade1" value="Adolescentes 15 a 18 anos" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="idade1"></label>
                                             </div>
 
@@ -151,7 +151,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="idade" id="idade2" value="Adulto Jovem 19 a 35 anos">
+                                                <input type="radio" class="custom-control-input" required name="idade" id="idade2" value="Adulto Jovem 19 a 35 anos" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="idade2"></label>
                                             </div>
 
@@ -161,7 +161,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="idade" id="idade3" value="Meia Idade 36 a 50 anos">
+                                                <input type="radio" class="custom-control-input" required name="idade" id="idade3" value="Meia Idade 36 a 50 anos" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="idade3"></label>
                                             </div>
 
@@ -171,7 +171,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="idade" id="idade4" value="Maduros 50 a 60 anos">
+                                                <input type="radio" class="custom-control-input" required name="idade" id="idade4" value="Maduros 50 a 60 anos" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="idade4"></label>
                                             </div>
 
@@ -181,7 +181,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="idade" id="idade5" value="Terceira Idade Acima de 60 anos">
+                                                <input type="radio" class="custom-control-input" required name="idade" id="idade5" value="Terceira Idade Acima de 60 anos" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="idade5"></label>
                                             </div>
 
@@ -211,7 +211,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="sexo" id="sexoM" value="Homem">
+                                                <input type="radio" class="custom-control-input" required name="sexo" id="sexoM" value="Homem" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="sexoM"></label>
                                             </div>
 
@@ -221,7 +221,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="sexo" id="sexoF" value="Mulher">
+                                                <input type="radio" class="custom-control-input" required name="sexo" id="sexoF" value="Mulher" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="sexoF"></label>
                                             </div>
 
@@ -252,7 +252,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="salario" id="salario1" value="Até 5 salários mínimos">
+                                                <input type="radio" class="custom-control-input" required name="salario" id="salario1" value="Até 5 salários mínimos" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="salario1"></label>
                                             </div>
 
@@ -262,7 +262,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="salario" id="salario2" value="De 6 a 10 salários mínimos">
+                                                <input type="radio" class="custom-control-input" required name="salario" id="salario2" value="De 6 a 10 salários mínimos" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="salario2"></label>
                                             </div>
 
@@ -272,7 +272,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="salario" id="salario3" value="De 10 a 20 salários mínimos">
+                                                <input type="radio" class="custom-control-input" required name="salario" id="salario3" value="De 10 a 20 salários mínimos" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="salario3"></label>
                                             </div>
 
@@ -282,7 +282,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="salario" id="salario4" value="Acima de 20 salários mínimos">
+                                                <input type="radio" class="custom-control-input" required name="salario" id="salario4" value="Acima de 20 salários mínimos" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="salario4"></label>
                                             </div>
 
@@ -314,7 +314,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="familia" id="familia1" value="Mora sozinho">
+                                                <input type="radio" class="custom-control-input" required name="familia" id="familia1" value="Mora sozinho" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="familia1"></label>
                                             </div>
 
@@ -324,7 +324,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="familia" id="familia2" value="Não tem filhos">
+                                                <input type="radio" class="custom-control-input" required name="familia" id="familia2" value="Não tem filhos" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="familia2"></label>
                                             </div>
 
@@ -334,7 +334,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="familia" id="familia3" value="Família pequena">
+                                                <input type="radio" class="custom-control-input" required name="familia" id="familia3" value="Família pequena" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="familia3"></label>
                                             </div>
 
@@ -344,7 +344,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="familia" id="familia5" value="Família pequena até 2 filhos">
+                                                <input type="radio" class="custom-control-input" required name="familia" id="familia5" value="Família pequena até 2 filhos" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="familia5"></label>
                                             </div>
 
@@ -354,7 +354,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="familia" id="familia6" value="Família grande Outras pessoas moram com o casal (sogros, tios,..)">
+                                                <input type="radio" class="custom-control-input" required name="familia" id="familia6" value="Família grande Outras pessoas moram com o casal (sogros, tios,..)" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="familia6"></label>
                                             </div>
 
@@ -387,7 +387,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="escola" id="escola1" value="Ensino Fundamental Incompleto">
+                                                <input type="radio" class="custom-control-input" required name="escola" id="escola1" value="Ensino Fundamental Incompleto" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="escola1"></label>
                                             </div>
 
@@ -397,7 +397,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="escola" id="escola2" value="Ensino Fundamental Completo">
+                                                <input type="radio" class="custom-control-input" required name="escola" id="escola2" value="Ensino Fundamental Completo" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="escola2"></label>
                                             </div>
 
@@ -407,7 +407,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="escola" id="escola3" value="Ensino Médio Incompleto">
+                                                <input type="radio" class="custom-control-input" required name="escola" id="escola3" value="Ensino Médio Incompleto" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="escola3"></label>
                                             </div>
 
@@ -417,7 +417,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="escola" id="escola4" value="Ensino Médio Completo">
+                                                <input type="radio" class="custom-control-input" required name="escola" id="escola4" value="Ensino Médio Completo" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="escola4"></label>
                                             </div>
 
@@ -427,7 +427,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="escola" id="escola5" value="Ensino Superior">
+                                                <input type="radio" class="custom-control-input" required name="escola" id="escola5" value="Ensino Superior" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="escola5"></label>
                                             </div>
 
@@ -437,7 +437,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="escola" id="escola6" value="Pós Graduado">
+                                                <input type="radio" class="custom-control-input" required name="escola" id="escola6" value="Pós Graduado" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="escola6"></label>
                                             </div>
 
@@ -470,7 +470,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho1" value="Autônomos">
+                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho1" value="Autônomos" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="trabalho1"></label>
                                             </div>
 
@@ -480,7 +480,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho2" value="Empregados">
+                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho2" value="Empregados" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="trabalho2"></label>
                                             </div>
 
@@ -490,7 +490,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho3" value="Trabalham no setor de Serviços">
+                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho3" value="Trabalham no setor de Serviços" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="trabalho3"></label>
                                             </div>
 
@@ -500,7 +500,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho4" value="Trabalham na Indústria">
+                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho4" value="Trabalham na Indústria" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="trabalho4"></label>
                                             </div>
 
@@ -510,7 +510,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho5" value="Trabalho Intelectual">
+                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho5" value="Trabalho Intelectual" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="trabalho5"></label>
                                             </div>
 
@@ -520,7 +520,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho6" value="Trabalho Manual">
+                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho6" value="Trabalho Manual" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="trabalho6"></label>
                                             </div>
 
@@ -553,7 +553,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao1" value="Zona Norte">
+                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao1" value="Zona Norte" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="regiao1"></label>
                                             </div>
 
@@ -563,7 +563,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao2" value="Zona Sul">
+                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao2" value="Zona Sul" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="regiao2"></label>
                                             </div>
 
@@ -573,7 +573,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao3" value="Centro">
+                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao3" value="Centro" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="regiao3"></label>
                                             </div>
 
@@ -583,7 +583,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao4" value="Zona Oeste">
+                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao4" value="Zona Oeste" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="regiao4"></label>
                                             </div>
 
@@ -593,7 +593,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao5" value="Zona Leste">
+                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao5" value="Zona Leste" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="regiao5"></label>
                                             </div>
 
@@ -623,7 +623,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="habitantes" id="habitantes1" value="Alta concentração de habitantes">
+                                                <input type="radio" class="custom-control-input" required name="habitantes" id="habitantes1" value="Alta concentração de habitantes" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="habitantes1"></label>
                                             </div>
 
@@ -633,7 +633,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="habitantes" id="habitantes2" value="Média concentração de habitantes">
+                                                <input type="radio" class="custom-control-input" required name="habitantes" id="habitantes2" value="Média concentração de habitantes" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="habitantes2"></label>
                                             </div>
 
@@ -643,7 +643,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="habitantes" id="habitantes3" value="Baixa concentração de habitantes">
+                                                <input type="radio" class="custom-control-input" required name="habitantes" id="habitantes3" value="Baixa concentração de habitantes" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="habitantes3"></label>
                                             </div>
 
@@ -674,7 +674,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="volume_compra" id="volume_compra1" value="Alto">
+                                                <input type="radio" class="custom-control-input" required name="volume_compra" id="volume_compra1" value="Alto" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="volume_compra1"></label>
                                                 </div>
 
@@ -684,7 +684,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="volume_compra" id="volume_compra2" value="Médio">
+                                                <input type="radio" class="custom-control-input" required name="volume_compra" id="volume_compra2" value="Médio" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="volume_compra2"></label>
                                                 </div>
 
@@ -694,7 +694,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="volume_compra" id="volume_compra3" value="Baixo">
+                                                <input type="radio" class="custom-control-input" required name="volume_compra" id="volume_compra3" value="Baixo" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="volume_compra3"></label>
                                                 </div>
 
@@ -724,7 +724,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="frequencia_compra" id="frequencia_compra1" value="Alta">
+                                                <input type="radio" class="custom-control-input" required name="frequencia_compra" id="frequencia_compra1" value="Alta" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="frequencia_compra1"></label>
                                                 </div>
 
@@ -734,7 +734,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="frequencia_compra" id="frequencia_compra2" value="Média">
+                                                <input type="radio" class="custom-control-input" required name="frequencia_compra" id="frequencia_compra2" value="Média" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="frequencia_compra2"></label>
                                                 </div>
 
@@ -744,7 +744,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="frequencia_compra" id="frequencia_compra3" value="Baixa">
+                                                <input type="radio" class="custom-control-input" required name="frequencia_compra" id="frequencia_compra3" value="Baixa" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="frequencia_compra3"></label>
                                                 </div>
 
@@ -775,7 +775,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="valor_compra" id="valor_compra1" value="Preço">
+                                                <input type="radio" class="custom-control-input" required name="valor_compra" id="valor_compra1" value="Preço" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="valor_compra1"></label>
                                                 </div>
 
@@ -785,7 +785,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="valor_compra" id="valor_compra2" value="Qualidade">
+                                                <input type="radio" class="custom-control-input" required name="valor_compra" id="valor_compra2" value="Qualidade" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="valor_compra2"></label>
                                                 </div>
 
@@ -795,7 +795,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="valor_compra" id="valor_compra3" value="Entrega Rápida">
+                                                <input type="radio" class="custom-control-input" required name="valor_compra" id="valor_compra3" value="Entrega Rápida" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="valor_compra3"></label>
                                                 </div>
 
@@ -805,7 +805,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="valor_compra" id="valor_compra4" value="Formas de Pagamento">
+                                                <input type="radio" class="custom-control-input" required name="valor_compra" id="valor_compra4" value="Formas de Pagamento" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="valor_compra4"></label>
                                                 </div>
 

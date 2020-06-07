@@ -164,7 +164,7 @@
                         <p class="fonte18">A partir da situação atual (<b>Real</b> – apresentada no diagnóstico) defina o que você considera que seja a posição <b>Ideal</b> para situar os seus clientes ideais em cada um dos 11 fatores</p>
                         <p class="fonte18">- Pesquise, veja como estão posicionados os clientes de seus colegas em relação a esses 11 fatores e análise o posicionamento de mercado de seus concorrentes.</p>
                         <p class="fonte18">- Pergunte aos colegas que apresentam os maiores faturamentos como eles posicionam seus clientes em relação a esses fatores.</p>
-                        <p class="fonte18">Utilize para este fim os intervalos apresentados no seguinte formulário. Registre nos intervalos da escala onde se situam os resultados de sua pesquisa</p>
+                        <p class="fonte18">Utilize para definir o seu Cliente Ideal os intervalos apresentados no formulário seguinte. Registre nos intervalos da escala onde se situam os resultados de sua pesquisa</p>
 
 
                         <p class="fonte18">1 – Idade dos Clientes (Ideal)</p>
@@ -862,7 +862,7 @@
                             <br>
 
                             <p class="fonte18">- Feito este levantamento, analise as informações, reflita, e de acordo com suas conclusões, mude seu posicionamento nas categorias que considere necessárias para aumentar seu faturamento.</p>
-                            <p class="fonte18">Utilize o formulário seguinte para definir agora seu CLIENTE IDEAL</p>
+                            <p class="fonte18">Utilize o formulário seguinte como roteiro para alcançar o seu CLIENTE IDEAL.</p>
 
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">
