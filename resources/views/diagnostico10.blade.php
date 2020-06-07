@@ -34,7 +34,7 @@
                     {!! $diagnostico !!}
                         
                         <br>
-                        <p class="fonte18"><h4><center>RECOMENDAÇÃO</center></h4></p>
+                        <p class="fonte18"><h4><center>RECOMENDAÇÕES</center></h4></p>
 
                         <p class="fonte18">A Inteligência Emocional se fundamenta em 5 pilares que devem ser trabalhados para desenvolvê-la e poder alcançar êxito profissional.</p>
                         <p class="fonte18">Os pilares são os seguintes:</p>
@@ -66,7 +66,7 @@
                         <p class="fonte18">Sabendo utilizar adequadamente suas emoções você chegará aos seus objetivos.</p>
                         <p class="fonte18">Você deve aprender a responder aos seus estímulos através de um processo consciente que envolve analisar como você se sente e isto depende fundamentalmente de sua automotivação, para depois decidir como você quer se comportar para atingir suas metas.</p>
                         <p class="fonte18">Deixe a Criança se expandir: A Automotivação está no Estado do Ego Criança. Revise as recomendações dadas no Instrumento 7</p>
-                        <b>
+                        <br>
                         <h4>4 – Desenvolva a Empatia</h4>
                         <p class="fonte18">Aprenda a se colocar no lugar do outro, a reconhecer as emoções dos outros e entender seus comportamentos, para se tornar mais sensível e aberto.</p>
                         <p class="fonte18">Empatia é entender o próximo, entender como alguém está se sentindo e porque se comporta de determinada maneira.</p>

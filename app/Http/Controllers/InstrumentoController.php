@@ -753,10 +753,10 @@ class InstrumentoController extends Controller
             <p class='fonte18'>Você têm facilidade para lidar com conflitos sociais e emocionais, sabe expressar seus sentimentos e administrar as situações emocionais.</p>
             <p class='fonte18'>Você têm facilidade de fazer amigos e relacionar-se com as pessoas de maneira harmoniosa e produtiva.</p>";
         }
-        elseif($total > 14){
-            $inicio = 14;
-            $fim = 18;
-            $diagnostico = "<p class='fonte18'><b>De 14 a 17,5 pontos.</b></p>
+        elseif($total >= 11){
+            $inicio = 11;
+            $fim = 17;
+            $diagnostico = "<p class='fonte18'><b>De 11 a 17 pontos.</b></p>
             <p class='fonte18'>Sua inteligência emocional é média.</p>
             <p class='fonte18'>Pessoas com pontuação média normalmente sabem interpretar e entender sentimentos e emoções próprias e dos outros.</p>
             <p class='fonte18'>Você se sente confortável quando tem que enfrentar situações de conflito social e emocional.</p>
@@ -765,8 +765,8 @@ class InstrumentoController extends Controller
         }
         else{
             $inicio = 0;
-            $fim = 14;
-            $diagnostico = "<p class='fonte18'><b>Abaixo de 14 pontos.</b></p>
+            $fim = 11;
+            $diagnostico = "<p class='fonte18'><b>Abaixo de 11 pontos.</b></p>
             <p class='fonte18'>Sua Inteligência Emocional precisa melhorar, desenvolver.</p>
             <p class='fonte18'>Pessoas com esta pontuação podem sentir dificuldades de expressar suas próprias emoções e entender as emoções dos outros, diante dos quais tendem a sentir-se desconfortáveis.</p>
             <p class='fonte18'>Em alguns casos pode significar que precisem melhorar sua auto-estima e autoconfiança como também precisam aprender a ter mais empatia com os outros.</p>
