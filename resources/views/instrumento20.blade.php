@@ -236,5 +236,5 @@
         }
     }
 </script>
-
+<script>window.onload = function(){history.go(+1)};</script>
 @endpush

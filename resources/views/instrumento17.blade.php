@@ -343,5 +343,5 @@ Exemplo: " utilizando as técnicas do gerenciamento de Campo Psicológico, obser
         }
     }
 </script>
-
+<script>window.onload = function(){history.go(+1)};</script>
 @endpush
