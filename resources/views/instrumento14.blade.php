@@ -129,7 +129,7 @@
 
                         <p class="fonte18">Para responder este instrumento será utilizada a Matriz para Análise dos Clientes Prioritários.</p>
                         <p class="fonte18">Siga as seguintes instruções para seu preenchimento:</p>
-                        <p class="fonte18">A – Na primeira coluna da Matriz para Análise dos Clientes Prioritários (denominada “Classificação Inicial”) registre os 12 clientes mais importantes da sua carteira, sendo o primeiro o mais importante, e registre os outros clientes numa seqüência decrescente de importância.</p>
+                        <p class="fonte18">A – Na primeira coluna da Matriz para Análise dos Clientes Prioritários (denominada “Classificação Inicial”) registre os 12 clientes mais importantes da sua carteira, sendo o primeiro o mais importante, e registre os outros clientes numa seqüência decrescente de importância. Se você não tem 12 clientes atuais, você deve completar o formulário incluindo na lista clientes potenciais seguindo os mesmos critérios.</p>
                         <p class="fonte18">B – Após o registro dos seus 12 clientes mais importantes, na sequência, você irá preencher a Matriz pontuando para cada cliente um valor para cada um dos 12 fatores de avaliação apresentados. São eles: faturamento, crescimento, adaptação dos produtos, rentabilidade, capacidade financeira, concorrência, receptividade do cliente, conhecimento, dificuldade, recompensas, investimento pessoal e tempo</p>
                         <p class="fonte18">Para este preenchimento você irá se basear na Escala dos Fatores de Avaliação que vem logo abaixo da Matriz.</p>
                         <p class="fonte18">Na tabela, para cada um dos 12 fatores de avaliação dos clientes, você tem uma escala de 0 a 10 pontos.</p>
@@ -177,10 +177,10 @@
                                         </thead>
                                             @for($i=0;$i<12;$i++) 
                                                 <tr>
-                                                    <td width="10px" style="font-size: 18px; text-align: center; vertical-align: middle;"><input name="cliente[]" type="text" ></td>    
+                                                    <td width="10px" style="font-size: 18px; text-align: center; vertical-align: middle;"><input name="cliente[]" type="text" required></td>    
                                                 @for($j=0;$j<12;$j++) 
                                                     <td width="10px" style="font-size: 18px; text-align: center">
-                                                    <select class="select-custom" id="exampleFormControlSelect1" name="valor{{$i}}[]">
+                                                    <select class="select-custom" id="exampleFormControlSelect1" name="valor{{$i}}[]" required>
                                                         <option></option>
                                                         <option>1</option>
                                                         <option>2</option>
