@@ -46,7 +46,7 @@
         <div class="content-box">
         PROJETO PARA AUMENTAR SUAS VENDAS COM TECNOLOGIA DIGITAL, EM BASES PRÁTICAS, OBJETIVAS, QUANTITATIVAS E MENSURÁVEIS
         <br><br>
-        <a href="/manualIntro" style="color:#ff8100;text-decoration: none;">DEMO</a>
+        <a href="/manualIntro" style="color:#ff8100;text-decoration: none;">ENTRAR</a>
         </div>
     </div>
     <div id="rodape">
