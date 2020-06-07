@@ -249,7 +249,7 @@ Exemplo: " utilizando as técnicas do gerenciamento de Campo Psicológico, obser
                                                 
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                    <input type="radio" class="custom-control-input" name="radio{{$i}}" id="radio2{{$i}}" value="1">
+                                                    <input type="radio" class="custom-control-input" name="radio{{$i}}" id="radio2{{$i}}" value="2">
                                                 <label style="cursor: pointer" class="custom-control-label" for="radio2{{$i}}"></label>
                                             </div>
                                         
@@ -259,7 +259,7 @@ Exemplo: " utilizando as técnicas do gerenciamento de Campo Psicológico, obser
                                                 
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                    <input type="radio" class="custom-control-input" name="radio{{$i}}" id="radio3{{$i}}" value="1">
+                                                    <input type="radio" class="custom-control-input" name="radio{{$i}}" id="radio3{{$i}}" value="3">
                                                 <label style="cursor: pointer" class="custom-control-label" for="radio3{{$i}}"></label>
                                             </div>
                                         
@@ -269,7 +269,7 @@ Exemplo: " utilizando as técnicas do gerenciamento de Campo Psicológico, obser
                                                 
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                    <input type="radio" class="custom-control-input" name="radio{{$i}}" id="radio4{{$i}}" value="1">
+                                                    <input type="radio" class="custom-control-input" name="radio{{$i}}" id="radio4{{$i}}" value="4">
                                                 <label style="cursor: pointer" class="custom-control-label" for="radio4{{$i}}"></label>
                                             </div>
                                         
@@ -279,7 +279,7 @@ Exemplo: " utilizando as técnicas do gerenciamento de Campo Psicológico, obser
                                                 
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                    <input type="radio" class="custom-control-input" name="radio{{$i}}" id="radio5{{$i}}" value="1">
+                                                    <input type="radio" class="custom-control-input" name="radio{{$i}}" id="radio5{{$i}}" value="5">
                                                 <label style="cursor: pointer" class="custom-control-label" for="radio5{{$i}}"></label>
                                             </div>
                                         
