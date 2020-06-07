@@ -135,7 +135,7 @@
                                                 <td style="font-size: 18px; text-align: center; vertical-align: middle;">
                                                
                                                 <div class="custom-control custom-radio mb-3">
-                                                    <input type="radio" class="custom-control-input" name="questao{{$i}}" id="questaoS{{$i}}" value="s">
+                                                    <input type="radio" class="custom-control-input" name="questao{{$i}}" id="questaoS{{$i}}" value="s" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="questaoS{{$i}}"></label>
                                             </div>
                                             
@@ -145,7 +145,7 @@
                                                 <td style="font-size: 18px; text-align: center; vertical-align: middle;">
                                                
                                                 <div class="custom-control custom-radio mb-3">
-                                                    <input type="radio" class="custom-control-input" name="questao{{$i}}" id="questaoN{{$i}}" value="n">
+                                                    <input type="radio" class="custom-control-input" name="questao{{$i}}" id="questaoN{{$i}}" value="n" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="questaoN{{$i}}"></label>
                                             </div>
                                             
