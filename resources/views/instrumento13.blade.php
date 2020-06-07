@@ -129,7 +129,7 @@
                                             <td style="font-size: 18px">{!! $questions[$i] !!}</td>
                                             <td style="font-size: 18px; text-align: center; vertical-align: middle;">
                                             <div class="custom-control custom-radio mb-3">
-                                                    <input type="radio" class="custom-control-input" name="questao{{$i}}" id="questao1{{$i}}" value="1">
+                                                    <input type="radio" class="custom-control-input" name="questao{{$i}}" id="questao1{{$i}}" value="1" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="questao1{{$i}}"></label>
                                             </div>
                                             
@@ -137,7 +137,7 @@
                                         </td>
                                             <td style="font-size: 18px; text-align: center; vertical-align: middle;">
                                             <div class="custom-control custom-radio mb-3">
-                                                    <input type="radio" class="custom-control-input" name="questao{{$i}}" id="questao2{{$i}}" value="2">
+                                                    <input type="radio" class="custom-control-input" name="questao{{$i}}" id="questao2{{$i}}" value="2" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="questao2{{$i}}"></label>
                                             </div>
                                             
@@ -145,7 +145,7 @@
                                         </td>
                                             <td style="font-size: 18px; text-align: center; vertical-align: middle;">
                                             <div class="custom-control custom-radio mb-3">
-                                                    <input type="radio" class="custom-control-input" name="questao{{$i}}" id="questao3{{$i}}" value="3">
+                                                    <input type="radio" class="custom-control-input" name="questao{{$i}}" id="questao3{{$i}}" value="3" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="questao3{{$i}}"></label>
                                             </div>
                                             
@@ -153,7 +153,7 @@
                                         </td>
                                             <td style="font-size: 18px; text-align: center; vertical-align: middle;">
                                             <div class="custom-control custom-radio mb-3">
-                                                    <input type="radio" class="custom-control-input" name="questao{{$i}}" id="questao4{{$i}}" value="4">
+                                                    <input type="radio" class="custom-control-input" name="questao{{$i}}" id="questao4{{$i}}" value="4" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="questao4{{$i}}"></label>
                                             </div>
                                             
@@ -161,7 +161,7 @@
                                         </td>
                                             <td style="font-size: 18px; text-align: center; vertical-align: middle;">
                                             <div class="custom-control custom-radio mb-3">
-                                                    <input type="radio" class="custom-control-input" name="questao{{$i}}" id="questao5{{$i}}" value="5">
+                                                    <input type="radio" class="custom-control-input" name="questao{{$i}}" id="questao5{{$i}}" value="5" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="questao5{{$i}}"></label>
                                             </div>
                                             
