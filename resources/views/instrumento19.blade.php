@@ -172,7 +172,7 @@
                                                 <td>
                                                     
                                                     <div class="custom-control custom-radio mb-3">
-                                                        <input type="radio" class="custom-control-input" name="radio{{$n}}" id="radio{{$i}}{{$n}}" value="{{$i}}">
+                                                        <input type="radio" class="custom-control-input" name="radio{{$n}}" id="radio{{$i}}{{$n}}" value="{{$i}}" required>
                                                         <label style="cursor: pointer" class="custom-control-label" for="radio{{$i}}{{$n}}"></label>
                                                     </div>
                                                 </td>
