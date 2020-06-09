@@ -91,22 +91,22 @@
                             <tr>
                                 <td style="color: #ff4700">PROSPECÇÃO</td>
                                 <td>40% das prospecções se tornam Clientes Potenciais</td>
-                                <td><b>{{$a}}%</b> Das minhas Prospecções se tornam Clientes Potenciais</td>
+                                <td><b>{{$instrumento->a}}%</b> Das minhas Prospecções se tornam Clientes Potenciais</td>
                             </tr>
                             <tr>
                                 <td style="color: #ff4700">QUALIFICAÇÃO</td>
                                 <td>30% dos Clientes Potenciais se tornam Clientes Potenciais qualificados</td>
-                                <td><b>{{$b}}%</b> Dos meus Clientes Potenciais se tornam Clientes Potenciais qualificados</td>
+                                <td><b>{{$instrumento->b}}%</b> Dos meus Clientes Potenciais se tornam Clientes Potenciais qualificados</td>
                             </tr>
                             <tr>
                                 <td style="color: #ff4700">APRESENTAÇÃO/<br>NEGOCIAÇÃO</td>
                                 <td>40% dos Clientes Potenciais qualificados geram propostas</td>
-                                <td><b>{{$c}}%</b> Dos meus Clientes Potenciais Qualificados geram propostas</td>
+                                <td><b>{{$instrumento->c}}%</b> Dos meus Clientes Potenciais Qualificados geram propostas</td>
                             </tr>
                             <tr>
                                 <td style="color: #ff4700">FECHAMENTO</td>
                                 <td>50% das propostas implicam em fechamento da venda</td>
-                                <td><b>{{$d}}%</b> Das minhas propostas implicam em fechamento da venda</td>
+                                <td><b>{{$instrumento->d}}%</b> Das minhas propostas implicam em fechamento da venda</td>
                             </tr>
                         </table>
 
@@ -169,6 +169,9 @@
                         <p class="fonte18">Você deve prospectar 200 clientes para, aplicando essas taxas de conversão, chegar a 10 clientes, que é seu objetivo para alcançar sua meta de faturamento.</p>
                         <p class="fonte18">Agora estabeleça Metas de Conversão entre as etapas tomando como referência ou ponto de partida os Índices de Conversão que você apresentou no diagnóstico.</p>
 
+                        <form name="formulario" role="form" method="post" action="instrumento/18_2">
+                            {!! csrf_field() !!}
+
                         <table class="table table-hover table-bordered fonte18">
                             <thead class="bg-primary">
                             <tr>
@@ -179,25 +182,36 @@
                             </thead>
                             <tr>
                                 <td style="color: #ff4700">PROSPECÇÃO</td>
-                                <td><b>{{$a}}%</b> das prospecções se tornam Clientes Potenciais</td>
-                                <td style="text-align: center;"><input name="a1" size=2 maxlength="3" onkeypress='return SomenteNumeroDez(event, this)'></td>
+                                <td><b>{{$instrumento->a}}%</b> das prospecções se tornam Clientes Potenciais</td>
+                                <td style="text-align: center;">@if(empty($instrumento->a_diag)) <input name="a1" size=2 maxlength="3" onkeypress='return SomenteNumeroDez(event, this)' required> @else {{$instrumento->a_diag}} @endif</td>
                             </tr>
                             <tr>
                                 <td style="color: #ff4700">QUALIFICAÇÃO</td>
-                                <td><b>{{$b}}%</b> dos Clientes Potenciais se tornam Clientes Potenciais qualificados</td>
-                                <td style="text-align: center;"><input name="b1" size=2 maxlength="3" onkeypress='return SomenteNumeroDez(event, this)'></td>
+                                <td><b>{{$instrumento->b}}%</b> dos Clientes Potenciais se tornam Clientes Potenciais qualificados</td>
+                                <td style="text-align: center;">@if(empty($instrumento->a_diag)) <input name="b1" size=2 maxlength="3" onkeypress='return SomenteNumeroDez(event, this)' required> @else {{$instrumento->b_diag}} @endif</td>
                             </tr>
                             <tr>
                                 <td style="color: #ff4700">APRESENTAÇÃO/<br>NEGOCIAÇÃO</td>
-                                <td><b>{{$c}}%</b> Dos Clientes Potenciais qualificados geram propostas</td>
-                                <td style="text-align: center;"><input name="c1" size=2 maxlength="3" onkeypress='return SomenteNumeroDez(event, this)'></td>
+                                <td><b>{{$instrumento->c}}%</b> Dos Clientes Potenciais qualificados geram propostas</td>
+                                <td style="text-align: center;">@if(empty($instrumento->a_diag)) <input name="c1" size=2 maxlength="3" onkeypress='return SomenteNumeroDez(event, this)' required> @else {{$instrumento->c_diag}} @endif</td>
                             </tr>
                             <tr>
                                 <td style="color: #ff4700">FECHAMENTO</td>
-                                <td><b>{{$d}}%</b> das propostas implicam em fechamento da venda</td>
-                                <td style="text-align: center;"><input name="d1" size=2 maxlength="3" onkeypress='return SomenteNumeroDez(event, this)'></td>
+                                <td><b>{{$instrumento->d}}%</b> das propostas implicam em fechamento da venda</td>
+                                <td style="text-align: center;">@if(empty($instrumento->a_diag)) <input name="d1" size=2 maxlength="3" onkeypress='return SomenteNumeroDez(event, this)' required> @else {{$instrumento->d_diag}} @endif</td>
                             </tr>
                         </table>
+
+                        @if(empty($instrumento->a_diag))
+                        <div class="col-8">
+                            <button class="btn btn-icon btn-3 btn-primary fonte18" type="submit">
+                                <span class="btn-inner--icon"><i class="fa fa-paper-plane"></i></span>
+                                <span class="btn-inner--text">Enviar formulário</span>
+                            </button>
+                        </div>
+                        @endif
+
+                        </form>
 
                         <br>
 

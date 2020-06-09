@@ -1082,8 +1082,29 @@ class InstrumentoController extends Controller
         return $this->instrumento18($a, $b, $c, $d);
     }
 
-    public function instrumento18($a, $b, $c, $d){
-        return view('diagnostico18')->with(compact('a', 'b', 'c', 'd'));
+    public function requestInstrumento18_2(Request $request){
+        $a = $request['a1'];
+        $b = $request['b1'];
+        $c = $request['c1'];
+        $d = $request['d1'];
+
+        $data = $request->all();
+
+        $instrumento18 = Instrumento18::where('user_id', Auth::User()->id)->first();
+        $instrumento18->a_diag = $a;
+        $instrumento18->b_diag = $b;
+        $instrumento18->c_diag = $c;
+        $instrumento18->d_diag = $d;
+        
+        if(Auth::User()->role_id != 1){
+            $instrumento18->save();
+        }
+        
+        return $this->instrumento18($instrumento18);
+    }
+
+    public function instrumento18($instrumento){
+        return view('diagnostico18')->with(compact('instrumento'));
     }
 
         //========== INSTRUMENTO 19 ==========

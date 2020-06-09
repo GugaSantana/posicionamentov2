@@ -105,6 +105,7 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 	Route::post('16_2', 'InstrumentoController@requestInstrumento16_2');
 	Route::post('17', 'InstrumentoController@requestInstrumento17');
 	Route::post('18', 'InstrumentoController@requestInstrumento18');
+	Route::post('18_2', 'InstrumentoController@requestInstrumento18_2');
 	Route::post('19', 'InstrumentoController@requestInstrumento19');
 	Route::post('20', 'InstrumentoController@requestInstrumento20');
 	

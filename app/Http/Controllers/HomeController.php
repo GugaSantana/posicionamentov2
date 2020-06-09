@@ -227,7 +227,7 @@ class HomeController extends Controller
         }
         else{
             $instrumentoController = new InstrumentoController();
-            return $instrumentoController->instrumento18($instrumento->a, $instrumento->b, $instrumento->c, $instrumento->d);
+            return $instrumentoController->instrumento18($instrumento);
         }   
     }
     public function instrumento19()
