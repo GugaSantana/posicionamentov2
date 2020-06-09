@@ -27,7 +27,7 @@ class AddColumnsPlanodeacaoAutogestao extends Migration
      */
     public function down()
     {
-        Schema::table('users', function (Blueprint $table) {
+        Schema::table('auto_gestao', function (Blueprint $table) {
             $table->dropColumn(['oque', 'como', 'quando']);
         });
     }

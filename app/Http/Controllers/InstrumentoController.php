@@ -797,6 +797,19 @@ class InstrumentoController extends Controller
         return $this->instrumento11($data);
     }
 
+    public function requestInstrumento11_2(Request $request){
+        $data = $request->all();
+
+        $instrumento11 = Instrumento11::where('user_id', Auth::User()->id)->first();
+        $instrumento11->data_diag = $data;
+        
+        if(Auth::User()->role_id != 1){
+            $instrumento11->save();
+        }
+
+        return $this->instrumento11($instrumento11);
+    }
+
     public function instrumento11($data){
         return view('diagnostico11')->with(compact('data'));
     }

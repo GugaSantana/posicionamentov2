@@ -81,7 +81,7 @@
                                 </tr>
                                 </thead>
                                 @php($i=1)
-                                @foreach($data['cliente'] as $cliente)
+                                @foreach($data->data['cliente'] as $cliente)
                                     <tr>
                                         <td style="font-size: 18px; vertical-align: middle;">{{$i}} - {{$cliente}}</td>
                                     </tr>
@@ -108,47 +108,47 @@
                                 </thead>
                                 <tr>
                                     <td style="font-size: 18px; vertical-align: middle;">1 - Idade dos Clientes</td>
-                                    <td style="font-size: 18px; vertical-align: middle;">{{$data['idade']}}</td>
+                                    <td style="font-size: 18px; vertical-align: middle;">{{$data->data['idade']}}</td>
                                 </tr>
                                 <tr>
                                     <td style="font-size: 18px; vertical-align: middle;">2 - Sexo dos Clientes</td>
-                                    <td style="font-size: 18px; vertical-align: middle;">{{$data['sexo']}}</td>
+                                    <td style="font-size: 18px; vertical-align: middle;">{{$data->data['sexo']}}</td>
                                 </tr>
                                 <tr>
                                     <td style="font-size: 18px; vertical-align: middle;">3 - Renda dos Clientes</td>
-                                    <td style="font-size: 18px; vertical-align: middle;">{{$data['salario']}}</td>
+                                    <td style="font-size: 18px; vertical-align: middle;">{{$data->data['salario']}}</td>
                                 </tr>
                                 <tr>
                                     <td style="font-size: 18px; vertical-align: middle;">4 - Família dos Clientes</td>
-                                    <td style="font-size: 18px; vertical-align: middle;">{{$data['familia']}}</td>
+                                    <td style="font-size: 18px; vertical-align: middle;">{{$data->data['familia']}}</td>
                                 </tr>
                                 <tr>
                                     <td style="font-size: 18px; vertical-align: middle;">5 - Nível Educacional dos Clientes</td>
-                                    <td style="font-size: 18px; vertical-align: middle;">{{$data['escola']}}</td>
+                                    <td style="font-size: 18px; vertical-align: middle;">{{$data->data['escola']}}</td>
                                 </tr>
                                 <tr>
                                     <td style="font-size: 18px; vertical-align: middle;">6 - Profissão dos Clientes</td>
-                                    <td style="font-size: 18px; vertical-align: middle;">{{$data['trabalho']}}</td>
+                                    <td style="font-size: 18px; vertical-align: middle;">{{$data->data['trabalho']}}</td>
                                 </tr>
                                 <tr>
                                     <td style="font-size: 18px; vertical-align: middle;">7 - Bairros onde se concentram os clientes</td>
-                                    <td style="font-size: 18px; vertical-align: middle;">{{$data['regiao']}}</td>
+                                    <td style="font-size: 18px; vertical-align: middle;">{{$data->data['regiao']}}</td>
                                 </tr>
                                 <tr>
                                     <td style="font-size: 18px; vertical-align: middle;">8 – Zonas nas quais se localizam meus melhores clientes</td>
-                                    <td style="font-size: 18px; vertical-align: middle;">{{$data['habitantes']}}</td>
+                                    <td style="font-size: 18px; vertical-align: middle;">{{$data->data['habitantes']}}</td>
                                 </tr>
                                 <tr>
                                     <td style="font-size: 18px; vertical-align: middle;">9 - Volume de compra de meus clientes</td>
-                                    <td style="font-size: 18px; vertical-align: middle;">{{$data['volume_compra']}}</td>
+                                    <td style="font-size: 18px; vertical-align: middle;">{{$data->data['volume_compra']}}</td>
                                 </tr>
                                 <tr>
                                     <td style="font-size: 18px; vertical-align: middle;">10 - Frequência de compra de meus clientes</td>
-                                    <td style="font-size: 18px; vertical-align: middle;">{{$data['frequencia_compra']}}</td>
+                                    <td style="font-size: 18px; vertical-align: middle;">{{$data->data['frequencia_compra']}}</td>
                                 </tr>
                                 <tr>
                                     <td style="font-size: 18px; vertical-align: middle;">11 - O que meus clientes valorizam mais</td>
-                                    <td style="font-size: 18px; vertical-align: middle;">{{$data['valor_compra']}}</td>
+                                    <td style="font-size: 18px; vertical-align: middle;">{{$data->data['valor_compra']}}</td>
                                 </tr>
                             </table>
                         </div>
@@ -168,7 +168,8 @@
 
 
                         <p class="fonte18">1 – Idade dos Clientes (Ideal)</p>
-
+                        <form name="formulario" role="form" method="post" action="instrumento/11_2">
+                            {!! csrf_field() !!}
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">
                                     <table class="table table-hover table-bordered">
@@ -186,7 +187,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="idade" id="idade1" value="Adolescentes 15 a 18 anos" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="idade" id="idade1" value="Adolescentes 15 a 18 anos" onclick="fillForm(this.name, this.value)" @if($data->data_diag['idade'] == "Adolescentes 15 a 18 anos") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="idade1"></label>
                                             </div>
 
@@ -196,7 +197,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="idade" id="idade2" value="Adulto Jovem 19 a 35 anos" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="idade" id="idade2" value="Adulto Jovem 19 a 35 anos" onclick="fillForm(this.name, this.value)" @if($data->data_diag['idade'] == "Adulto Jovem 19 a 35 anos") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="idade2"></label>
                                             </div>
 
@@ -206,7 +207,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="idade" id="idade3" value="Meia Idade 36 a 50 anos" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="idade" id="idade3" value="Meia Idade 36 a 50 anos" onclick="fillForm(this.name, this.value)" @if($data->data_diag['idade'] == "Meia Idade 36 a 50 anos") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="idade3"></label>
                                             </div>
 
@@ -216,7 +217,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="idade" id="idade4" value="Maduros 50 a 60 anos" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="idade" id="idade4" value="Maduros 50 a 60 anos" onclick="fillForm(this.name, this.value)" @if($data->data_diag['idade'] == "Maduros 50 a 60 anos") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="idade4"></label>
                                             </div>
 
@@ -226,7 +227,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="idade" id="idade5" value="Terceira Idade Acima de 60 anos" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="idade" id="idade5" value="Terceira Idade Acima de 60 anos" onclick="fillForm(this.name, this.value)" @if($data->data_diag['idade'] == "Terceira Idade Acima de 60 anos") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="idade5"></label>
                                             </div>
 
@@ -256,7 +257,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="sexo" id="sexoM" value="Homem" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="sexo" id="sexoM" value="Homem" onclick="fillForm(this.name, this.value)" @if($data->data_diag['sexo'] == "Homem") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="sexoM"></label>
                                             </div>
 
@@ -266,7 +267,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="sexo" id="sexoF" value="Mulher" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="sexo" id="sexoF" value="Mulher" onclick="fillForm(this.name, this.value)" @if($data->data_diag['sexo'] == "Mulher") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="sexoF"></label>
                                             </div>
 
@@ -297,7 +298,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="salario" id="salario1" value="Até 5 salários mínimos" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="salario" id="salario1" value="Até 5 salários mínimos" onclick="fillForm(this.name, this.value)" @if($data->data_diag['salario'] == "Até 5 salários mínimos") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="salario1"></label>
                                             </div>
 
@@ -307,7 +308,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="salario" id="salario2" value="De 6 a 10 salários mínimos" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="salario" id="salario2" value="De 6 a 10 salários mínimos" onclick="fillForm(this.name, this.value)" @if($data->data_diag['salario'] == "De 6 a 10 salários mínimos") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="salario2"></label>
                                             </div>
 
@@ -317,7 +318,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="salario" id="salario3" value="De 10 a 20 salários mínimos" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="salario" id="salario3" value="De 10 a 20 salários mínimos" onclick="fillForm(this.name, this.value)" @if($data->data_diag['salario'] == "De 10 a 20 salários mínimos") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="salario3"></label>
                                             </div>
 
@@ -327,7 +328,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="salario" id="salario4" value="Acima de 20 salários mínimos" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="salario" id="salario4" value="Acima de 20 salários mínimos" onclick="fillForm(this.name, this.value)" @if($data->data_diag['salario'] == "Acima de 20 salários mínimos") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="salario4"></label>
                                             </div>
 
@@ -359,7 +360,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="familia" id="familia1" value="Mora sozinho" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="familia" id="familia1" value="Mora sozinho" onclick="fillForm(this.name, this.value)" @if($data->data_diag['familia'] == "Mora sozinho") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="familia1"></label>
                                             </div>
 
@@ -369,7 +370,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="familia" id="familia2" value="Não tem filhos" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="familia" id="familia2" value="Não tem filhos" onclick="fillForm(this.name, this.value)" @if($data->data_diag['familia'] == "Não tem filhos") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="familia2"></label>
                                             </div>
 
@@ -379,7 +380,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="familia" id="familia3" value="Família pequena" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="familia" id="familia3" value="Família pequena" onclick="fillForm(this.name, this.value)" @if($data->data_diag['familia'] == "Família pequena") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="familia3"></label>
                                             </div>
 
@@ -389,7 +390,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="familia" id="familia5" value="Família pequena até 2 filhos" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="familia" id="familia5" value="Família pequena até 2 filhos" onclick="fillForm(this.name, this.value)" @if($data->data_diag['familia'] == "Família pequena até 2 filhos") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="familia5"></label>
                                             </div>
 
@@ -399,7 +400,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="familia" id="familia6" value="Família grande Outras pessoas moram com o casal (sogros, tios,..)" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="familia" id="familia6" value="Família grande Outras pessoas moram com o casal (sogros, tios,..)" onclick="fillForm(this.name, this.value)" @if($data->data_diag['familia'] == "Família grande Outras pessoas moram com o casal (sogros, tios,..)") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="familia6"></label>
                                             </div>
 
@@ -432,7 +433,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="escola" id="escola1" value="Ensino Fundamental Incompleto" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="escola" id="escola1" value="Ensino Fundamental Incompleto" onclick="fillForm(this.name, this.value)" @if($data->data_diag['escola'] == "Ensino Fundamental Incompleto") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="escola1"></label>
                                             </div>
 
@@ -442,7 +443,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="escola" id="escola2" value="Ensino Fundamental Completo" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="escola" id="escola2" value="Ensino Fundamental Completo" onclick="fillForm(this.name, this.value)" @if($data->data_diag['escola'] == "Ensino Fundamental Completo") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="escola2"></label>
                                             </div>
 
@@ -452,7 +453,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="escola" id="escola3" value="Ensino Médio Incompleto" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="escola" id="escola3" value="Ensino Médio Incompleto" onclick="fillForm(this.name, this.value)" @if($data->data_diag['escola'] == "Ensino Médio Incompleto") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="escola3"></label>
                                             </div>
 
@@ -462,7 +463,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="escola" id="escola4" value="Ensino Médio Completo" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="escola" id="escola4" value="Ensino Médio Completo" onclick="fillForm(this.name, this.value)" @if($data->data_diag['escola'] == "Ensino Médio Completo") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="escola4"></label>
                                             </div>
 
@@ -472,7 +473,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="escola" id="escola5" value="Ensino Superior" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="escola" id="escola5" value="Ensino Superior" onclick="fillForm(this.name, this.value)" @if($data->data_diag['escola'] == "Ensino Superior") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="escola5"></label>
                                             </div>
 
@@ -482,7 +483,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="escola" id="escola6" value="Pós Graduado" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="escola" id="escola6" value="Pós Graduado" onclick="fillForm(this.name, this.value)" @if($data->data_diag['escola'] == "Pós Graduado") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="escola6"></label>
                                             </div>
 
@@ -515,7 +516,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho1" value="Autônomos" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho1" value="Autônomos" onclick="fillForm(this.name, this.value)" @if($data->data_diag['trabalho'] == "Autônomos") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="trabalho1"></label>
                                             </div>
 
@@ -525,7 +526,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho2" value="Empregados" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho2" value="Empregados" onclick="fillForm(this.name, this.value)" @if($data->data_diag['trabalho'] == "Empregados") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="trabalho2"></label>
                                             </div>
 
@@ -535,7 +536,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho3" value="Trabalham no setor de Serviços" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho3" value="Trabalham no setor de Serviços" onclick="fillForm(this.name, this.value)" @if($data->data_diag['trabalho'] == "Trabalham no setor de Serviços") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="trabalho3"></label>
                                             </div>
 
@@ -545,7 +546,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho4" value="Trabalham na Indústria" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho4" value="Trabalham na Indústria" onclick="fillForm(this.name, this.value)" @if($data->data_diag['trabalho'] == "Trabalham na Indústria") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="trabalho4"></label>
                                             </div>
 
@@ -555,7 +556,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho5" value="Trabalho Intelectual" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho5" value="Trabalho Intelectual" onclick="fillForm(this.name, this.value)" @if($data->data_diag['trabalho'] == "Trabalho Intelectual") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="trabalho5"></label>
                                             </div>
 
@@ -565,7 +566,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho6" value="Trabalho Manual" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="trabalho" id="trabalho6" value="Trabalho Manual" onclick="fillForm(this.name, this.value)" @if($data->data_diag['trabalho'] == "Trabalho Manual") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="trabalho6"></label>
                                             </div>
 
@@ -597,7 +598,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao1" value="Zona Norte" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao1" value="Zona Norte" onclick="fillForm(this.name, this.value)" @if($data->data_diag['regiao'] == "Zona Norte") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="regiao1"></label>
                                             </div>
 
@@ -607,7 +608,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao2" value="Zona Sul" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao2" value="Zona Sul" onclick="fillForm(this.name, this.value)" @if($data->data_diag['regiao'] == "Zona Sul") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="regiao2"></label>
                                             </div>
 
@@ -617,7 +618,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao3" value="Centro" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao3" value="Centro" onclick="fillForm(this.name, this.value)" @if($data->data_diag['regiao'] == "Centro") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="regiao3"></label>
                                             </div>
 
@@ -627,7 +628,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao4" value="Zona Oeste" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao4" value="Zona Oeste" onclick="fillForm(this.name, this.value)" @if($data->data_diag['regiao'] == "Zona Oeste") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="regiao4"></label>
                                             </div>
 
@@ -637,7 +638,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao5" value="Zona Leste" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="regiao" id="regiao5" value="Zona Leste" onclick="fillForm(this.name, this.value)" @if($data->data_diag['regiao'] == "Zona Leste") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="regiao5"></label>
                                             </div>
 
@@ -667,7 +668,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="habitantes" id="habitantes1" value="Alta concentração de habitantes" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="habitantes" id="habitantes1" value="Alta concentração de habitantes" onclick="fillForm(this.name, this.value)" @if($data->data_diag['habitantes'] == "Alta concentração de habitantes") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="habitantes1"></label>
                                             </div>
 
@@ -677,7 +678,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="habitantes" id="habitantes2" value="Média concentração de habitantes" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="habitantes" id="habitantes2" value="Média concentração de habitantes" onclick="fillForm(this.name, this.value)" @if($data->data_diag['habitantes'] == "Média concentração de habitantes") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="habitantes2"></label>
                                             </div>
 
@@ -687,7 +688,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="habitantes" id="habitantes3" value="Baixa concentração de habitantes" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="habitantes" id="habitantes3" value="Baixa concentração de habitantes" onclick="fillForm(this.name, this.value)" @if($data->data_diag['habitantes'] == "Baixa concentração de habitantes") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="habitantes3"></label>
                                             </div>
 
@@ -717,7 +718,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="volume_compra" id="volume_compra1" value="Alto" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="volume_compra" id="volume_compra1" value="Alto" onclick="fillForm(this.name, this.value)" @if($data->data_diag['volume_compra'] == "Alto") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="volume_compra1"></label>
                                                 </div>
 
@@ -727,7 +728,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="volume_compra" id="volume_compra2" value="Médio" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="volume_compra" id="volume_compra2" value="Médio" onclick="fillForm(this.name, this.value)" @if($data->data_diag['volume_compra'] == "Médio") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="volume_compra2"></label>
                                                 </div>
 
@@ -737,7 +738,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="volume_compra" id="volume_compra3" value="Baixo" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="volume_compra" id="volume_compra3" value="Baixo" onclick="fillForm(this.name, this.value)" @if($data->data_diag['volume_compra'] == "Baixo") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="volume_compra3"></label>
                                                 </div>
 
@@ -767,7 +768,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="frequencia_compra" id="frequencia_compra1" value="Alta" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="frequencia_compra" id="frequencia_compra1" value="Alta" onclick="fillForm(this.name, this.value)" @if($data->data_diag['frequencia_compra'] == "Alta") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="frequencia_compra1"></label>
                                                 </div>
 
@@ -777,7 +778,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="frequencia_compra" id="frequencia_compra2" value="Média" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="frequencia_compra" id="frequencia_compra2" value="Média" onclick="fillForm(this.name, this.value)" @if($data->data_diag['frequencia_compra'] == "Média") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="frequencia_compra2"></label>
                                                 </div>
 
@@ -787,7 +788,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="frequencia_compra" id="frequencia_compra3" value="Baixa" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="frequencia_compra" id="frequencia_compra3" value="Baixa" onclick="fillForm(this.name, this.value)" @if($data->data_diag['frequencia_compra'] == "Baixa") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="frequencia_compra3"></label>
                                                 </div>
 
@@ -818,7 +819,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="valor_compra" id="valor_compra1" value="Preço" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="valor_compra" id="valor_compra1" value="Preço" onclick="fillForm(this.name, this.value)" @if($data->data_diag['valor_compra'] == "Preço") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="valor_compra1"></label>
                                                 </div>
 
@@ -828,7 +829,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="valor_compra" id="valor_compra2" value="Qualidade" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="valor_compra" id="valor_compra2" value="Qualidade" onclick="fillForm(this.name, this.value)" @if($data->data_diag['valor_compra'] == "Qualidade") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="valor_compra2"></label>
                                                 </div>
 
@@ -838,7 +839,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="valor_compra" id="valor_compra3" value="Entrega Rápida" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="valor_compra" id="valor_compra3" value="Entrega Rápida" onclick="fillForm(this.name, this.value)" @if($data->data_diag['valor_compra'] == "Entrega Rápida") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="valor_compra3"></label>
                                                 </div>
 
@@ -848,7 +849,7 @@
                                             
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                <input type="radio" class="custom-control-input" required name="valor_compra" id="valor_compra4" value="Formas de Pagamento" onclick="fillForm(this.name, this.value)">
+                                                <input type="radio" class="custom-control-input" required name="valor_compra" id="valor_compra4" value="Formas de Pagamento" onclick="fillForm(this.name, this.value)" @if($data->data_diag['valor_compra'] == "Formas de Pagamento") checked @endif @if(!empty($data->data_diag)) disabled @endif>
                                                 <label style="cursor: pointer" class="custom-control-label" for="valor_compra4"></label>
                                                 </div>
 
@@ -858,6 +859,17 @@
                                     </table>
                                 </div>
                             </div>
+
+                            @if(empty($data->data_diag))
+                            <div class="col-8">
+                                <button class="btn btn-icon btn-3 btn-primary fonte18" type="submit">
+                                    <span class="btn-inner--icon"><i class="fa fa-paper-plane"></i></span>
+                                    <span class="btn-inner--text">Enviar formulário</span>
+                                </button>
+                            </div>
+                            @endif
+
+                        </form>
 
                             <br>
 
@@ -873,47 +885,47 @@
                                         </tr>
                                         <tr>
                                             <td style="font-size: 18px; vertical-align: middle;">1 - Idade dos Clientes</td>
-                                            <td id="idade" style="font-size: 18px; vertical-align: middle;"></td>
+                                            <td id="idade" style="font-size: 18px; vertical-align: middle;">@if(!empty($data->data_diag)) {{$data->data_diag['idade']}} @endif</td>
                                         </tr>
                                         <tr>
                                             <td style="font-size: 18px; vertical-align: middle;">2 - Sexo dos Clientes</td>
-                                            <td id="sexo" style="font-size: 18px; vertical-align: middle;"></td>
+                                            <td id="sexo" style="font-size: 18px; vertical-align: middle;">@if(!empty($data->data_diag)) {{$data->data_diag['sexo']}} @endif</td>
                                         </tr>
                                         <tr>
                                             <td style="font-size: 18px; vertical-align: middle;">3 - Renda dos Clientes</td>
-                                            <td id="salario" style="font-size: 18px; vertical-align: middle;"></td>
+                                            <td id="salario" style="font-size: 18px; vertical-align: middle;">@if(!empty($data->data_diag)) {{$data->data_diag['salario']}} @endif</td>
                                         </tr>
                                         <tr>
                                             <td style="font-size: 18px; vertical-align: middle;">4 - Família dos Clientes</td>
-                                            <td id="familia" style="font-size: 18px; vertical-align: middle;"></td>
+                                            <td id="familia" style="font-size: 18px; vertical-align: middle;">@if(!empty($data->data_diag)) {{$data->data_diag['familia']}} @endif</td>
                                         </tr>
                                         <tr>
                                             <td style="font-size: 18px; vertical-align: middle;">5 - Nível Educacional dos Clientes</td>
-                                            <td id="escola" style="font-size: 18px; vertical-align: middle;"></td>
+                                            <td id="escola" style="font-size: 18px; vertical-align: middle;">@if(!empty($data->data_diag)) {{$data->data_diag['escola']}} @endif</td>
                                         </tr>
                                         <tr>
                                             <td style="font-size: 18px; vertical-align: middle;">6 - Profissão dos Clientes</td>
-                                            <td id="trabalho" style="font-size: 18px; vertical-align: middle;"></td>
+                                            <td id="trabalho" style="font-size: 18px; vertical-align: middle;">@if(!empty($data->data_diag)) {{$data->data_diag['trabalho']}} @endif</td>
                                         </tr>
                                         <tr>
                                             <td style="font-size: 18px; vertical-align: middle;">7 - Bairros onde se concentram os clientes</td>
-                                            <td id="regiao" style="font-size: 18px; vertical-align: middle;"></td>
+                                            <td id="regiao" style="font-size: 18px; vertical-align: middle;">@if(!empty($data->data_diag)) {{$data->data_diag['regiao']}} @endif</td>
                                         </tr>
                                         <tr>
                                             <td style="font-size: 18px; vertical-align: middle;">8 – Zonas nas quais se localizam meus melhores clientes</td>
-                                            <td id="habitantes" style="font-size: 18px; vertical-align: middle;"></td>
+                                            <td id="habitantes" style="font-size: 18px; vertical-align: middle;">@if(!empty($data->data_diag)) {{$data->data_diag['habitantes']}} @endif</td>
                                         </tr>
                                         <tr>
                                             <td style="font-size: 18px; vertical-align: middle;">9 - Volume de compra de meus clientes</td>
-                                            <td id="volume_compra" style="font-size: 18px; vertical-align: middle;"></td>
+                                            <td id="volume_compra" style="font-size: 18px; vertical-align: middle;">@if(!empty($data->data_diag)) {{$data->data_diag['volume_compra']}} @endif</td>
                                         </tr>
                                         <tr>
                                             <td style="font-size: 18px; vertical-align: middle;">10 - Frequência de compra de meus clientes</td>
-                                            <td id="frequencia_compra" style="font-size: 18px; vertical-align: middle;"></td>
+                                            <td id="frequencia_compra" style="font-size: 18px; vertical-align: middle;">@if(!empty($data->data_diag)) {{$data->data_diag['frequencia_compra']}} @endif</td>
                                         </tr>
                                         <tr>
                                             <td style="font-size: 18px; vertical-align: middle;">11 - O que meus clientes valorizam mais</td>
-                                            <td id="valor_compra" style="font-size: 18px; vertical-align: middle;"></td>
+                                            <td id="valor_compra" style="font-size: 18px; vertical-align: middle;">@if(!empty($data->data_diag)) {{$data->data_diag['valor_compra']}} @endif</td>
                                         </tr>
                                     </table>
                                 </div>
