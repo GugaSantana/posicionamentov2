@@ -22,6 +22,7 @@ use App\Instrumento8;
 use App\Instrumento9;
 use App\User;
 use App\AutoGestao;
+use App\Instrumento15;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -202,7 +203,14 @@ class HomeController extends Controller
     }
     public function instrumento15()
     {
-        return view('instrumento15_1');
+        $instrumento = Instrumento15::where('user_id', Auth::User()->id)->first();
+        if(empty($instrumento) || Auth::User()->role_id == 1){
+            return view('instrumento15_1');
+        }
+        else{
+            $instrumentoController = new InstrumentoController();
+            return $instrumentoController->instrumento15($instrumento->frequencia, $instrumento->argumentos, $instrumento->total);
+        }   
     }
     public function instrumento16()
     {

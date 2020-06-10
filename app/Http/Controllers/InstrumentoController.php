@@ -18,6 +18,7 @@ use App\Instrumento11;
 use App\Instrumento12;
 use App\Instrumento13;
 use App\Instrumento14;
+use App\Instrumento15;
 use App\Instrumento17;
 use App\Instrumento18;
 use App\Instrumento19;
@@ -1004,10 +1005,27 @@ class InstrumentoController extends Controller
             $total += isset($request['check'.$i]) ? count($request['check'.$i]) : 0;
         }
         $argumentos = $request['argumentos'];
-        return view('diagnostico15')->with(compact('check', 'argumentos', 'total'));
-        dd($argumentos, $check);
+
+        //salva no BD
+        $dataBd = [
+            'user_id' => Auth::User()->id,
+            'frequencia' => $check,
+            'argumentos' => $argumentos,
+            'total' => $total,
+            'done' => true
+        ];
+
+        if(Auth::User()->role_id != 1){
+            Instrumento15::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 15]) ;
+        }
+
+        return $this->instrumento15($check, $argumentos, $total);
     }
 
+    public function instrumento15($check, $argumentos, $total){
+        return view('diagnostico15')->with(compact('check', 'argumentos', 'total'));
+    }
     //========== INSTRUMENTO 16 ==========
 
     public function requestInstrumento16_1(Request $request){

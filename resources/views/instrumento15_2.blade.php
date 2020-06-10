@@ -195,7 +195,7 @@
                     <div class="col-12">
                         <br>
                         <!-- TABELA DE QUESTIONARIO -->
-                        <form name="formulario" role="form" method="post" action="15_2">
+                        <form id="formulario" name="formulario" role="form" method="post" action="15_2">
                             {!! csrf_field() !!}
 
                             @php $i=1 @endphp
@@ -259,11 +259,11 @@
                                 </div>
                             </div>
 
-
+<input type=button onclick="limit()">
                             <br>
                             
                             <div class="col-8">
-                                <button class="btn btn-icon btn-3 btn-primary fonte18" type="submit">
+                                <button class="btn btn-icon btn-3 btn-primary fonte18" type="button" onclick="submitForm()">
                                     <span class="btn-inner--icon"><i class="fa fa-paper-plane"></i></span>
                                     <span class="btn-inner--text">Enviar formulário</span>
                                 </button>
@@ -310,13 +310,41 @@
         freq = document.getElementById("freqTotal"+id).innerHTML;
         if(element.checked){
             freq++;
+            total++;
+            if(total > total_aceito){
+                alert('Você excedeu o limite de escolhas');
+                element.checked = false;
+                total--;
+            }
         }
         else{
             freq--;
+            total--;
         }
         document.getElementById("freqTotal"+id).innerHTML = freq;
     }
 
+    var total_aceito = {{ count($data['argumentos']) }};
+    var total = 0;
+    function limit(){
+        alert(total+" " +total_aceito);
+    }
+
+    function submitForm(){
+        if(total_aceito == total){
+            $("#formulario").submit();
+        }
+        else{
+            if(total_aceito-total == 1){
+                alert("Selecione mais " + (total_aceito-total) + " opção!");
+            }
+            else{
+                alert("Selecione mais " + (total_aceito-total) + " opções!");
+            }
+        }
+    }
+
 </script>
+<script>window.onload = function(){history.go(+1)};</script>
 
 @endpush

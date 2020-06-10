@@ -96,7 +96,7 @@
 
                     <p class="fonte18">No questionário deste instrumento que você respondeu, você listou todos os argumentos de que dispõe para vender o produto que você mais conhece na etapa de Negociação das Vendas Consultivas.</p>
                     <p class="fonte18">Os argumentos que você listou e classificou nas Forças Propulsoras são apresentados na Matriz de Forças Propulsoras, gerando o seguinte resultado:</p>
-                    <p class="fonte18">Você produziu ___ argumentos.</p>
+                    <p class="fonte18">Você produziu {{$total}} argumentos.</p>
 
                     @php
                         $forcas = [ 'F1- Benefício',

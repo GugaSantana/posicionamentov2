@@ -501,6 +501,7 @@ class ComposerStaticInit454850b4d28592f2c65183a3fc63d4b6
         'App\\Instrumento12' => __DIR__ . '/../..' . '/app/Instrumento12.php',
         'App\\Instrumento13' => __DIR__ . '/../..' . '/app/Instrumento13.php',
         'App\\Instrumento14' => __DIR__ . '/../..' . '/app/Instrumento14.php',
+        'App\\Instrumento15' => __DIR__ . '/../..' . '/app/Instrumento15.php',
         'App\\Instrumento17' => __DIR__ . '/../..' . '/app/Instrumento17.php',
         'App\\Instrumento18' => __DIR__ . '/../..' . '/app/Instrumento18.php',
         'App\\Instrumento19' => __DIR__ . '/../..' . '/app/Instrumento19.php',
