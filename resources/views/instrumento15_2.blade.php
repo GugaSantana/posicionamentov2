@@ -259,7 +259,6 @@
                                 </div>
                             </div>
 
-<input type=button onclick="limit()">
                             <br>
                             
                             <div class="col-8">

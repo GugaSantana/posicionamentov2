@@ -158,8 +158,8 @@
                                         </thead>
                                         @for($i = 1; $i <= 10; $i++)
                                             <tr>
-                                                <td style="font-size: 18px; vertical-align: middle; width: 90%; padding-left: 1%;">{{$i}} - <input style="width: 95%" name="obstaculos[]" type="text"></td>
-                                                <td style="text-align:center; font-size: 18px; vertical-align: middle; width: 10%;"><input name="frequencia[]" type="text" size="3%" style="text-align: center;" onkeypress="return SomenteNumero(event)"></td>
+                                                <td style="font-size: 18px; vertical-align: middle; width: 90%; padding-left: 1%;">{{$i}} - <input style="width: 95%" name="obstaculos[]" type="text" @if($i == 1) required @endif></td>
+                                                <td style="text-align:center; font-size: 18px; vertical-align: middle; width: 10%;"><input name="frequencia[]" type="text" size="3%" style="text-align: center;" onkeypress="return SomenteNumeroDez(event, this)" @if($i == 1) required @endif></td>
                                             </tr>
                                         @endfor
                                     </table>
@@ -214,6 +214,60 @@
             else return false;
         }
     }
+
+    function SomenteNumeroDez(e, element) {
+            var num;
+            var tecla = (window.event) ? event.keyCode : e.which;
+            switch (tecla) {
+                case 48:
+                    num = 0;
+                    break;
+                    case 49:
+                    num = 1;
+                    break;
+                    case 50:
+                    num = 2;
+                    break;
+                    case 51:
+                    num = 3;
+                    break;
+                    case 52:
+                    num = 4;
+                    break;
+                    case 53:
+                    num = 5;
+                    break;
+                    case 54:
+                    num = 6;
+                    break;
+                    case 55:
+                    num = 7;
+                    break;
+                    case 56:
+                    num = 8;
+                    break;
+                    case 57:
+                    num = 9;
+                    break;
+            }
+
+            var numcampo = element.value;
+            var total = ''+numcampo+num;
+            total = parseInt(total);
+
+            if(num == 0 && numcampo != 1) return false;
+
+            if(total > 10){
+                alert("Digite valores de 1 a 10");
+                return false;
+            }
+
+            if ((tecla > 47 && tecla < 58)) return true;
+            else {
+                if (tecla == 8 || tecla == 0) return true;
+                else return false;
+            }
+        }
 </script>
 
 @endpush

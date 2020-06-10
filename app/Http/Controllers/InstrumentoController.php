@@ -19,6 +19,7 @@ use App\Instrumento12;
 use App\Instrumento13;
 use App\Instrumento14;
 use App\Instrumento15;
+use App\Instrumento16;
 use App\Instrumento17;
 use App\Instrumento18;
 use App\Instrumento19;
@@ -1034,13 +1035,27 @@ class InstrumentoController extends Controller
     }
     
     public function requestInstrumento16_2(Request $request){
-        $calc = $request['freq'];
+        $freq = $request['freq'];
 
-        $freq = $calc;
+        //salva no BD
+        $dataBd = [
+            'user_id' => Auth::User()->id,
+            'frequencia' => $freq,
+            'done' => true
+        ];
+
+        if(Auth::User()->role_id != 1){
+            Instrumento16::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 16]) ;
+        }
+
+        return $this->instrumento16($freq);
+    }
+
+    public function instrumento16($freq){
+        $calc = $freq;
         arsort($calc);
-        $ordenado = $calc;
-
-        //dd($request['freq']);
+        $ordenado = $calc; 
         return view('diagnostico16')->with(compact('freq', 'ordenado'));
     }
 

@@ -35,6 +35,7 @@ return array(
     'App\\Instrumento13' => $baseDir . '/app/Instrumento13.php',
     'App\\Instrumento14' => $baseDir . '/app/Instrumento14.php',
     'App\\Instrumento15' => $baseDir . '/app/Instrumento15.php',
+    'App\\Instrumento16' => $baseDir . '/app/Instrumento16.php',
     'App\\Instrumento17' => $baseDir . '/app/Instrumento17.php',
     'App\\Instrumento18' => $baseDir . '/app/Instrumento18.php',
     'App\\Instrumento19' => $baseDir . '/app/Instrumento19.php',
