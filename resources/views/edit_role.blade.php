@@ -20,7 +20,7 @@
         </div>
         <div class="form-group">
             <label for="description">Descrição</label>
-            <input type="text" class="form-control" id="description" value="">
+            <input type="text" class="form-control" id="description" name="description" value="{{$role->description}}">
         </div>
         <label>Instrumentos</label>
         <div class="form-group">

@@ -14,10 +14,11 @@
             <table class="table table-head-fixed fonte18">
                 <thead class="center">
                 <tr>
-                    <th>ID</th>
-                    <th>Nome Perfil</th>
-                    <th>Instrumentos</th>
-                    <th>Ações</th>
+                    <th style="vertical-align: middle;">ID</th>
+                    <th style="vertical-align: middle;">Nome Perfil</th>
+                    <th style="vertical-align: middle;">Descrição Perfil</th>
+                    <th style="vertical-align: middle;">Instrumentos</th>
+                    <th style="vertical-align: middle;">Ações</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -25,6 +26,7 @@
                     <tr>
                         <td class="center">{{$role->id}}</td>
                         <td class="center">{{$role->name}}</td>
+                        <td class="center">{{$role->description}}</td>
                         <td class="center">{{str_replace(['[',']','"'], '', json_encode($role->instrumentos))}}</td>
                         <td class="center">
 

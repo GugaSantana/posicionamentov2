@@ -18,7 +18,7 @@
         </div>
         <div class="form-group">
             <label for="description">Descrição</label>
-            <input type="text" class="form-control" id="description" placeholder="Descrição">
+            <input type="text" class="form-control" id="description" name="description" placeholder="Descrição">
         </div>
         <label>Instrumentos</label>
         <div class="form-group">

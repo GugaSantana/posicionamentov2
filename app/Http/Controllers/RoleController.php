@@ -31,6 +31,7 @@ class RoleController extends Controller
     public function updateRole(Request $request){
         $role = Roles::find($request['role_id']);
         $role->name = $request['name'];
+        $role->description = $request['description'];
         $role->instrumentos = $request['instrumentos'];
         $role->save();
         return redirect()->route('role_list');
