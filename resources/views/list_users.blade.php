@@ -34,7 +34,7 @@
                     <td>{{$user->enable == 1 ? 'Sim' : 'Não'}}</td>
                     <td>
                         @if($user->enable == 0)
-                        <form method="post" action="enable">
+                        <form method="post" action="/user/enable">
                         {!! csrf_field() !!}
                         <input hidden name="user_id" value="{{$user->id}}">
                         <button class="btn btn-info btn-sm" href="#">
@@ -44,7 +44,7 @@
                         </button>
                         </form>
                         @else
-                        <form method="post" action="disable">
+                        <form method="post" action="/user/disable">
                         {!! csrf_field() !!}
                         <input hidden name="user_id" value="{{$user->id}}">
                         <button class="btn btn-danger btn-sm" href="#">

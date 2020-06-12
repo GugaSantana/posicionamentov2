@@ -135,6 +135,7 @@ $titles = [
 							</thead>
 							<tbody>
 								@for($i = 0; $i < 20; $i++)
+								@if(in_array(($i+1), Auth::User()->role->instrumentos))
 								<tr>
 									<td>
 										<p style="text-align: left">{{$inst[$i]}}</p>
@@ -193,6 +194,7 @@ $titles = [
 											@endif
 									</td>
 								</tr>
+								@endif
 								@endfor
 							</tbody>
 						</table>

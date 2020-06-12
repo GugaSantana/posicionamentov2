@@ -22,29 +22,29 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 Auth::routes();
 
-Route::get('/instrumento1', 'HomeController@instrumento1');
-Route::get('/instrumento2', 'HomeController@instrumento2');
-Route::get('/instrumento3', 'HomeController@instrumento3');
-Route::get('/instrumento4', 'HomeController@instrumento4');
 Route::get('/form3', 'HomeController@form3');
 Route::get('/form4', 'HomeController@form4');
-Route::get('/instrumento5', 'HomeController@instrumento5');
-Route::get('/instrumento6', 'HomeController@instrumento6');
-Route::get('/instrumento7', 'HomeController@instrumento7');
-Route::get('/instrumento8', 'HomeController@instrumento8');
-Route::get('/instrumento9', 'HomeController@instrumento9');
-Route::get('/instrumento10', 'HomeController@instrumento10');
-Route::get('/instrumento11', 'HomeController@instrumento11');
-Route::get('/instrumento12', 'HomeController@instrumento12');
-Route::get('/instrumento13', 'HomeController@instrumento13');
-Route::get('/instrumento14', 'HomeController@instrumento14');
-Route::get('/instrumento15', 'HomeController@instrumento15');
-Route::get('/instrumento16', 'HomeController@instrumento16');
-Route::get('/instrumento17', 'HomeController@instrumento17');
 
-Route::get('/instrumento18', 'HomeController@instrumento18');
-Route::get('/instrumento19', 'HomeController@instrumento19');
-Route::get('/instrumento20', 'HomeController@instrumento20');
+Route::get('/instrumento1', 'HomeController@instrumento1')->middleware('instrumento_permission:1');
+Route::get('/instrumento2', 'HomeController@instrumento2')->middleware('instrumento_permission:2');
+Route::get('/instrumento3', 'HomeController@instrumento3')->middleware('instrumento_permission:3');
+Route::get('/instrumento4', 'HomeController@instrumento4')->middleware('instrumento_permission:4');
+Route::get('/instrumento5', 'HomeController@instrumento5')->middleware('instrumento_permission:5');
+Route::get('/instrumento6', 'HomeController@instrumento6')->middleware('instrumento_permission:6');
+Route::get('/instrumento7', 'HomeController@instrumento7')->middleware('instrumento_permission:7');
+Route::get('/instrumento8', 'HomeController@instrumento8')->middleware('instrumento_permission:8');
+Route::get('/instrumento9', 'HomeController@instrumento9')->middleware('instrumento_permission:9');
+Route::get('/instrumento10', 'HomeController@instrumento10')->middleware('instrumento_permission:10');
+Route::get('/instrumento11', 'HomeController@instrumento11')->middleware('instrumento_permission:11');
+Route::get('/instrumento12', 'HomeController@instrumento12')->middleware('instrumento_permission:12');
+Route::get('/instrumento13', 'HomeController@instrumento13')->middleware('instrumento_permission:13');
+Route::get('/instrumento14', 'HomeController@instrumento14')->middleware('instrumento_permission:14');
+Route::get('/instrumento15', 'HomeController@instrumento15')->middleware('instrumento_permission:15');
+Route::get('/instrumento16', 'HomeController@instrumento16')->middleware('instrumento_permission:16');
+Route::get('/instrumento17', 'HomeController@instrumento17')->middleware('instrumento_permission:17');
+Route::get('/instrumento18', 'HomeController@instrumento18')->middleware('instrumento_permission:18');
+Route::get('/instrumento19', 'HomeController@instrumento19')->middleware('instrumento_permission:19');
+Route::get('/instrumento20', 'HomeController@instrumento20')->middleware('instrumento_permission:20');
 
 
 Route::get('/capa', 'HomeController@capa');
@@ -117,4 +117,18 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
         Route::post('/enable', 'UserController@enableUser');
 		Route::post('/disable', 'UserController@disableUser');
 		Route::get('/list', 'UserController@listUser')->middleware('admin');
+	});
+
+	//Users
+	Route::group(['prefix' => 'role', "middleware" => "auth"], function() {
+        Route::post('/enable', 'UserController@enableUser');
+		Route::post('/disable', 'UserController@disableUser');
+		Route::get('/list', 'RoleController@listRole')->middleware('admin')->name('role_list');
+		Route::get('/create', 'RoleController@createRoleView')->middleware('admin');
+		Route::post('/create', 'RoleController@createRole')->middleware('admin');
+		Route::post('/edit', 'RoleController@editRole')->middleware('admin');
+		Route::post('/remove', 'RoleController@removeRole')->middleware('admin');
+		Route::post('/update', 'RoleController@updateRole')->middleware('admin');
+
+		
 	});

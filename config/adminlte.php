@@ -241,82 +241,102 @@ return [
                 [
                     'text' => 'Instrumento 1',
                     'url'  => '/instrumento1',
+                    'instrumento' => '1',
                 ],
                 [
                     'text' => 'Instrumento 2',
                     'url'  => '/instrumento2',
+                    'instrumento' => '2',
                 ],
                 [
                     'text' => 'Instrumento 3',
                     'url'  => '/instrumento3',
+                    'instrumento' => '3',
                 ],
                 [
                     'text' => 'Instrumento 4',
                     'url'  => '/instrumento4',
+                    'instrumento' => '4',
                 ],
                 [
                     'text' => 'Instrumento 5',
                     'url'  => '/instrumento5',
+                    'instrumento' => '5',
                 ],
                 [
                     'text' => 'Instrumento 6',
                     'url'  => '/instrumento6',
+                    'instrumento' => '6',
                 ],
                 [
                     'text' => 'Instrumento 7',
                     'url'  => '/instrumento7',
+                    'instrumento' => '7',
                 ],
                 [
                     'text' => 'Instrumento 8',
                     'url'  => '/instrumento8',
+                    'instrumento' => '8',
                 ],
                 [
                     'text' => 'Instrumento 9',
                     'url'  => '/instrumento9',
+                    'instrumento' => '9',
                 ],
                 [
                     'text' => 'Instrumento 10',
                     'url'  => '/instrumento10',
+                    'instrumento' => '10',
                 ],
                 [
                     'text' => 'Instrumento 11',
                     'url'  => '/instrumento11',
+                    'instrumento' => '11',
                 ],
                 [
                     'text' => 'Instrumento 12',
                     'url'  => '/instrumento12',
+                    'instrumento' => '12',
                 ],
                 [
                     'text' => 'Instrumento 13',
                     'url'  => '/instrumento13',
+                    'instrumento' => '13',
                 ],
                 [
                     'text' => 'Instrumento 14',
                     'url'  => '/instrumento14',
+                    'instrumento' => '14',
                 ],
                 [
                     'text' => 'Instrumento 15',
                     'url'  => '/instrumento15',
+                    'instrumento' => '15',
                 ],
                 [
                     'text' => 'Instrumento 16',
                     'url'  => '/instrumento16',
+                    'instrumento' => '16',
                 ],
                 [
                     'text' => 'Instrumento 17',
                     'url'  => '/instrumento17',
+                    'instrumento' => '17',
                 ],
                 [
                     'text' => 'Instrumento 18',
                     'url'  => '/instrumento18',
+                    'instrumento' => '18',
                 ],
                 [
                     'text' => 'Instrumento 19',
                     'url'  => '/instrumento19',
+                    'instrumento' => '19',
                 ],
                 [
                     'text' => 'Instrumento 20',
                     'url'  => '/instrumento20',
+                    'instrumento' => '20',
                 ],
                 
             ],

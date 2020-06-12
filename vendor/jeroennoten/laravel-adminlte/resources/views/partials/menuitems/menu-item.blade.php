@@ -17,28 +17,31 @@
             </form>
         </li>
     @else
-        <li @if (isset($item['id'])) id="{{ $item['id'] }}" @endif class="nav-item @if (isset($item['submenu'])){{ $item['submenu_class'] }}@endif">
+        @if(!isset($item['instrumento']) || in_array($item['instrumento'], Auth::User()->role->instrumentos))
+            <li @if (isset($item['id'])) id="{{ $item['id'] }}" @endif class="nav-item @if (isset($item['submenu'])){{ $item['submenu_class'] }}@endif">
+            
             <a class="nav-link {{ $item['class'] }} @if(isset($item['shift'])) {{ $item['shift'] }} @endif" href="{{ $item['href'] }}"
-               @if (isset($item['target'])) target="{{ $item['target'] }}" @endif
-               {!! $item['data-compiled'] ?? '' !!}
-            >
-                <i class="{{ $item['icon'] ?? 'far fa-fw fa-circle' }} {{ isset($item['icon_color']) ? 'text-' . $item['icon_color'] : '' }}"></i>
-                <p>
-                    {{ $item['text'] }}
+                @if (isset($item['target'])) target="{{ $item['target'] }}" @endif
+                {!! $item['data-compiled'] ?? '' !!}
+                >
+                    <i class="{{ $item['icon'] ?? 'far fa-fw fa-circle' }} {{ isset($item['icon_color']) ? 'text-' . $item['icon_color'] : '' }}"></i>
+                    <p>
+                        {{ $item['text'] }}
 
-                    @if (isset($item['submenu']))
-                        <i class="fas fa-angle-left right"></i>
-                    @endif
-                    @if (isset($item['label']))
-                        <span class="badge badge-{{ $item['label_color'] ?? 'primary' }} right">{{ $item['label'] }}</span>
-                    @endif
-                </p>
-            </a>
-            @if (isset($item['submenu']))
-                <ul class="nav nav-treeview" style="display: block;">
-                    @each('adminlte::partials.menuitems.menu-item', $item['submenu'], 'item')
-                </ul>
-            @endif
-        </li>
+                        @if (isset($item['submenu']))
+                            <i class="fas fa-angle-left right"></i>
+                        @endif
+                        @if (isset($item['label']))
+                            <span class="badge badge-{{ $item['label_color'] ?? 'primary' }} right">{{ $item['label'] }}</span>
+                        @endif
+                    </p>
+                </a>
+                @if (isset($item['submenu']))
+                    <ul class="nav nav-treeview" style="display: block;">
+                        @each('adminlte::partials.menuitems.menu-item', $item['submenu'], 'item')
+                    </ul>
+                @endif
+            </li>
+        @endif
     @endif
 @endif
