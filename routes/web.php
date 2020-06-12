@@ -113,22 +113,21 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 });
 
 	//Users
-	Route::group(['prefix' => 'user', "middleware" => "auth"], function() {
+	Route::group(['prefix' => 'user', "middleware" => ["auth","admin"]], function() {
         Route::post('/enable', 'UserController@enableUser');
 		Route::post('/disable', 'UserController@disableUser');
-		Route::get('/list', 'UserController@listUser')->middleware('admin');
+		Route::get('/list', 'UserController@listUser');
+		Route::post('/changeRole', 'UserController@changeRole');
 	});
 
 	//Users
-	Route::group(['prefix' => 'role', "middleware" => "auth"], function() {
+	Route::group(['prefix' => 'role', "middleware" => ["auth","admin"]], function() {
         Route::post('/enable', 'UserController@enableUser');
 		Route::post('/disable', 'UserController@disableUser');
-		Route::get('/list', 'RoleController@listRole')->middleware('admin')->name('role_list');
-		Route::get('/create', 'RoleController@createRoleView')->middleware('admin');
-		Route::post('/create', 'RoleController@createRole')->middleware('admin');
-		Route::post('/edit', 'RoleController@editRole')->middleware('admin');
-		Route::post('/remove', 'RoleController@removeRole')->middleware('admin');
-		Route::post('/update', 'RoleController@updateRole')->middleware('admin');
-
-		
+		Route::get('/list', 'RoleController@listRole')->name('role_list');
+		Route::get('/create', 'RoleController@createRoleView');
+		Route::post('/create', 'RoleController@createRole');
+		Route::post('/edit', 'RoleController@editRole');
+		Route::post('/remove', 'RoleController@removeRole');
+		Route::post('/update', 'RoleController@updateRole');		
 	});

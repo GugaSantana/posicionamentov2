@@ -17,7 +17,7 @@ class Admin
     public function handle($request, Closure $next)
     {
         if(Auth::User()->role_id != 1){
-            return redirect('/');
+            return redirect('/inicioInstrumentos');
         }
 
         return $next($request);

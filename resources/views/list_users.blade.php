@@ -10,7 +10,7 @@
     </div>
     <div class="card-body">
         
-    <div class="table-responsive p-0">
+    <div class="table-responsive">
         <table class="table table-head-fixed fonte18">
             <thead class="center">
             <tr>
@@ -29,8 +29,24 @@
                     <td>{{$user->id}}</td>
                     <td>{{$user->name}}</td>
                     <td>{{$user->email}}</td>
-                    <td>{{$user->created_at}}</td>
-                    <td>{{$user->role->name}}</td>
+                    <td>{{date_format($user->created_at,"d/m/Y")}}</td>
+                    <td>
+                    <form method="post" action="/user/changeRole">
+                        {!! csrf_field() !!}
+                        <input hidden name="user_id" value="{{$user->id}}">
+                        <div style="display: flex;">
+                            <select class="custom-select" name="role_id">
+                                @foreach($roles as $role)
+                                    <option value="{{$role->id}}" @if($user->role->id == $role->id) selected @endif>{{$role->name}}</option>
+                                @endforeach
+                            </select>
+                            <div style="margin-left: 5%;" ></div>
+                            <button class="btn btn-success btn-sm" href="#">
+                                <i class="fas fa-sync"></i>
+                            </button>
+                        </div>
+                    </form>
+                    </td>
                     <td>{{$user->enable == 1 ? 'Sim' : 'Não'}}</td>
                     <td>
                         @if($user->enable == 0)
