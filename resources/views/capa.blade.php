@@ -27,6 +27,7 @@
         position: absolute;
         bottom: 0;
         left: 60%;
+        background-color: #5993ce;
         }
 
         #rodape img {
@@ -37,11 +38,24 @@
             left: 0;
             object-fit: cover; /* classe pra deixa a imagem com a proporção correta e não ficar achatada */
         }
+
+        footer.fixar-rodape{
+          /* border-top: 1px solid #333; */
+          bottom: 0;
+          left: 0;
+          height: 15%;
+          position: fixed;
+          width: 100%;
+          background-color: #5993ce;
+        }
+
     </style>
   </head>
   <body style="background-repeat: no-repeat;
-  background-attachment: fixed;background-size: 100% 100%;font-family: arial;">
-    <br><br><br><br><br><br><br><br>
+  background-attachment: fixed;background-size: 100% 100%;font-family: arial; background-color: #35408f">
+  
+<p style="color: #5993ce; text-align: center; font-size: 36px; font-weight: bold;">PROGRAMA TOP SELLER</p>
+
     <div class="flex-box container-box">
         <div class="content-box">
         PROJETO PARA AUMENTAR SUAS VENDAS COM TECNOLOGIA DIGITAL, EM BASES PRÁTICAS, OBJETIVAS, QUANTITATIVAS E MENSURÁVEIS
@@ -49,8 +63,10 @@
         <a href="/manualIntro" style="color:#ff8100;text-decoration: none;">ENTRAR</a>
         </div>
     </div>
-    <div id="rodape">
-        <img src="img/logo_capa.png"/> 
-    </div>
+    <footer class="fixar-rodape">
+        <img src="/img/logo_texto_branco.png" style='width: 25%;
+                                                     float: right;
+                                                     margin-right: 2%;'>
+    </footer>
   </body>
 </html>
