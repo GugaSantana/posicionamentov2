@@ -314,6 +314,7 @@
                 alert('Você excedeu o limite de escolhas');
                 element.checked = false;
                 total--;
+                freq--;
             }
         }
         else{
