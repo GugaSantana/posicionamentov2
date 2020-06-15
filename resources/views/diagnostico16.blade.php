@@ -201,8 +201,7 @@
                         <p class="fonte18">É a mesma recomendação que fizemos com relação às Forças Propulsoras.</p>
                         <p class="fonte18">Apenas lembrando: memória hábito é aquela memória que lhe permite fazer uma ação de maneira inconsciente.</p>
                         <p class="fonte18">Por exemplo, não pensamos como se faz para caminhar quando caminhamos.</p>
-                        <p class="fonte18">Em termos profissionais, os bons músicos de música clássica não lêem a partitura quando interpretam uma obra. Os atores de teatro ou de telenovelas representam a</p>
-                        <p class="fonte18">obra sem ler o texto, eles podem ser espontâneos e naturais na interpretação porque o texto está decorado “no inconsciente”.</p>
+                        <p class="fonte18">Em termos profissionais, os bons músicos de música clássica não lêem a partitura quando interpretam uma obra. Os atores de teatro ou de telenovelas representam a obra sem ler o texto, eles podem ser espontâneos e naturais na interpretação porque o texto está decorado “no inconsciente”.</p>
                         <p class="fonte18">Os vendedores, enquanto verdadeiros profissionais de vendas, devem fazer a mesma coisa. Não é impossível: isto deve fazer parte da Profissão de Vendedor.</p>
                         <p class="fonte18">A segunda recomendação é encontrar as Forças Propulsoras mais adequadas para neutralizar cada obstáculo ou Força Restritiva.</p>
                         <p class="fonte18">A seguir apresentamos uma Matriz Indicativa de Forças Propulsoras para neutralizar as Forças Restritivas.</p>
