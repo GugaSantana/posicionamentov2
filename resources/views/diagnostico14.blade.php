@@ -171,9 +171,9 @@
                                         <td style="font-size: 18px; vertical-align: middle; width: 600px; background-image: linear-gradient(to right, white 90%, {{$returnCores[$cliente]}} 10%);">{{$i}} - {{$cliente}}</td>
                                         <td style="font-size: 18px; vertical-align: middle; width: 600px; background-image: linear-gradient(to right, white 90%, {{$returnCores[isset($res[$i-1]) ? $res[$i-1] : '']}} 10%);">{{$i}} - {{isset($res[$i-1]) ? $res[$i-1] : ''}}</td>
                                         @php($j = 1)
-                                        @foreach($cliRes as $cli => $val)
-                                            @if($cli == $cliente)
-                                                <td style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center">{{$val == 0 ? '' : $i - $j}}</td>
+                                        @foreach($clientes as $cli)
+                                            @if($cli == $res[$i-1])
+                                                <td style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center">{{abs($i - $j)}}</td>
                                             @endif
                                             @php($j++)
                                         @endforeach
