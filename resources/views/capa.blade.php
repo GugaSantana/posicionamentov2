@@ -53,8 +53,9 @@
   </head>
   <body style="background-repeat: no-repeat;
   background-attachment: fixed;background-size: 100% 100%;font-family: arial; background-color: #35408f">
-  
-<p style="color: #5993ce; text-align: center; font-size: 36px; font-weight: bold;">PROGRAMA TOP SELLER</p>
+<br>
+<br>
+  <p style="color: #5993ce; text-align: center; font-size: 36px; font-weight: bold;">PROGRAMA TOP SELLER</p>
 
     <div class="flex-box container-box">
         <div class="content-box">
@@ -64,7 +65,7 @@
         </div>
     </div>
     <footer class="fixar-rodape">
-        <img src="/img/logo_texto_branco.png" style='width: 25%;
+        <img src="../posicionamento/public/img/logo_texto_branco.png" style='width: 25%;
                                                      float: right;
                                                      margin-right: 2%;'>
     </footer>
