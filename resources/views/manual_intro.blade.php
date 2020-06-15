@@ -57,11 +57,9 @@
 <p>Obrigado por aderir a esta metodologia.</p>
 <p>Desejamos a você o maior sucesso em adotar e implementar as técnicas propostas: <font style="color: #35408f">Sua prática profissional mudará de paradigma.</font></p>
 <br>
-<center>
-<a href="/manual" type="submit" class="btn btn-primary btn-lg " >Guia do Usuário</a>
-<a href="/introAcompanhamento" type="submit" class="btn btn-primary btn-lg " >Autogestão da Metodologia</a>
-<a href="/inicioInstrumentos" type="submit" class="btn btn-primary btn-lg " >Instrumentos</a>
-</center>
+
+@include('menu_intro')
+
 <br>
 
 <br>

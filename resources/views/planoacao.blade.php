@@ -56,12 +56,6 @@
 <br>
 
 
-<!-- <center>
-<a href="/manual" type="submit" class="btn btn-primary btn-lg " >Guia do Usuário</a>
-<a href="/introAcompanhamento" type="submit" class="btn btn-primary btn-lg " >Autogestão da Metodologia</a>
-<a href="/inicioInstrumentos" type="submit" class="btn btn-primary btn-lg " >Instrumentos</a>
-</center> -->
-
 <form name="formulario" role="form" method="post" action="edit">
 {!! csrf_field() !!}
 <table border=1 cellpadding="7" cellspacing="0" style="width:100%">

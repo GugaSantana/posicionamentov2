@@ -139,11 +139,8 @@ PROFISSIONAL QUE VOC&Ecirc; EST&Aacute; INICIANDO.</p></center>
 
 <br>
 
-<center>
-<a href="/manual" type="submit" class="btn btn-primary btn-lg " >Guia do Usuário</a>
-<a href="/introAcompanhamento" type="submit" class="btn btn-primary btn-lg " >Autogestão da Metodologia</a>
-<a href="/inicioInstrumentos" type="submit" class="btn btn-primary btn-lg " >Instrumentos</a>
-</center>
+@include('menu_intro')
+
 <br>
 
  </div>
