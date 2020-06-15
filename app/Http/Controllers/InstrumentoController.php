@@ -1114,7 +1114,13 @@ class InstrumentoController extends Controller
             UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 18]) ;
         }
         
-        return $this->instrumento18($a, $b, $c, $d);
+        $instrumento18 = new Instrumento18;
+        $instrumento18->a = $a;
+        $instrumento18->b = $b;
+        $instrumento18->c = $c;
+        $instrumento18->d = $d;
+
+        return $this->instrumento18($instrumento18);
     }
 
     public function requestInstrumento18_2(Request $request){
@@ -1122,8 +1128,6 @@ class InstrumentoController extends Controller
         $b = $request['b1'];
         $c = $request['c1'];
         $d = $request['d1'];
-
-        $data = $request->all();
 
         $instrumento18 = Instrumento18::where('user_id', Auth::User()->id)->first();
         $instrumento18->a_diag = $a;
