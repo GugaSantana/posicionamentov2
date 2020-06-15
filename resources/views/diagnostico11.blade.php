@@ -168,7 +168,7 @@
 
 
                         <p class="fonte18">1 – Idade dos Clientes (Ideal)</p>
-                        <form name="formulario" role="form" method="post" action="instrumento/11_2">
+                        <form name="formulario" role="form" method="post" action="/instrumento/11_2">
                             {!! csrf_field() !!}
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">

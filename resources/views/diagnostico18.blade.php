@@ -169,7 +169,7 @@
                         <p class="fonte18">Você deve prospectar 200 clientes para, aplicando essas taxas de conversão, chegar a 10 clientes, que é seu objetivo para alcançar sua meta de faturamento.</p>
                         <p class="fonte18">Agora estabeleça Metas de Conversão entre as etapas tomando como referência ou ponto de partida os Índices de Conversão que você apresentou no diagnóstico.</p>
 
-                        <form name="formulario" role="form" method="post" action="instrumento/18_2">
+                        <form name="formulario" role="form" method="post" action="/instrumento/18_2">
                             {!! csrf_field() !!}
 
                         <table class="table table-hover table-bordered fonte18">
