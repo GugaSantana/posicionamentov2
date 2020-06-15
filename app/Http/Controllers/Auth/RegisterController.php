@@ -90,7 +90,7 @@ class RegisterController extends Controller
             'number' =>$data['number'],
             'formation' =>$data['formation'],
             'empresa' =>$data['empresa'],
-            'role_id' => 3,
+            'role_id' => 2,
         ]);
     }
 }
