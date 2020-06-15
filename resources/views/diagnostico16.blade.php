@@ -124,7 +124,7 @@
                                     <tr>
                                         <td style="font-size: 18px; vertical-align: middle; width: 600px">{{$forca}}</td>
                                         <td style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center">{{$freq[$i]}}</td>
-                                        <td style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center">{{number_format($freq[$i] * 100 / 14, 2)}}%</td>
+                                        <td style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center">{{number_format($freq[$i] * 100 / array_sum($freq), 2)}}%</td>
                                     </tr>
                                     @php $i++ @endphp
                                 @endforeach
@@ -187,7 +187,7 @@
                                         <tr>
                                             <td style="font-size: 18px; vertical-align: middle; width: 600px">{{$forcas[$key]}}</td>
                                             <td style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center">{{$value}}</td>
-                                            <td style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center">{{number_format($value * 100 / 14, 2)}}%</td>
+                                            <td style="font-size: 18px; vertical-align: middle; width: 600px; text-align: center">{{number_format($value * 100 / array_sum($ordenado), 2)}}%</td>
                                         </tr>
                                         @php $i++ @endphp
                                     @endforeach
