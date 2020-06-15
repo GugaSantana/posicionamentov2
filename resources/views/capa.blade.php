@@ -18,7 +18,7 @@
         .content-box {
         color: white;
         text-align: center;
-        width: 18em;
+        width: 100%;
         font-size: 34px;
         }
 
@@ -59,7 +59,7 @@
 
     <div class="flex-box container-box">
         <div class="content-box">
-        METODOLOGIA PARA, ATRAVÉS DA INTERNET, AUMENTAR AS VENDAS, EM BASES OBJETIVAS, QUANTITATIVAS E MENSURÁVEIS
+        METODOLOGIA PARA, ATRAVÉS DA INTERNET,<br>AUMENTAR AS VENDAS, EM BASES OBJETIVAS,<br>QUANTITATIVAS E MENSURÁVEIS
         <br><br>
         <a href="/manualIntro" style="color:#ff8100;text-decoration: none;">ENTRAR</a>
         </div>

@@ -10,6 +10,7 @@
 @stop
 
 @section('classes_body', 'login-page')
+@section('style_body', 'background-img: linear;background-image: linear-gradient(0deg, #063a85, #fff);')
 
 @php( $login_url = View::getSection('login_url') ?? config('adminlte.login_url', 'login') )
 @php( $register_url = View::getSection('register_url') ?? config('adminlte.register_url', 'register') )
@@ -47,7 +48,7 @@
 
     <div class="login-box">
         <div class="login-logo">
-            <a href="{{ $dashboard_url }}">{!! config('adminlte.logo', '<b>Admin</b>LTE') !!}</a>
+            <a href="{{ $dashboard_url }}"><img src="../posicionamento/public/img/logo_texto_azul.png" style="width: 100%">  {{-- config('adminlte.logo', '<b>Admin</b>LTE') --}}</a>
         </div>
         <div class="card">
             <div class="card-body login-card-body">
