@@ -28,7 +28,7 @@
   </div>
 
   <div id="rodape">
-    <a href="slide6" style="float:right; margin-right: 1%; color:white" class="seta-dir"><i></i></a>
+    <a href="slide3" style="float:right; margin-right: 1%; color:white" class="seta-dir"><i></i></a>
     <a href="slide1" style="float:right; margin-right: 1%; color:white" class="seta-esq"><i></i></a>
   </div>
 

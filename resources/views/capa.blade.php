@@ -59,7 +59,7 @@
 
     <div class="flex-box container-box">
         <div class="content-box">
-        PROJETO PARA AUMENTAR SUAS VENDAS COM TECNOLOGIA DIGITAL, EM BASES PRÁTICAS, OBJETIVAS, QUANTITATIVAS E MENSURÁVEIS
+        METODOLOGIA PARA, ATRAVÉS DA INTERNET, AUMENTAR AS VENDAS, EM BASES OBJETIVAS, QUANTITATIVAS E MENSURÁVEIS
         <br><br>
         <a href="/manualIntro" style="color:#ff8100;text-decoration: none;">ENTRAR</a>
         </div>

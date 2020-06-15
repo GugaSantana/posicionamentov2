@@ -39,7 +39,7 @@ background-size: 100% 100%;font-family: Arial;">
 
   <div id="rodape">
     <a href="slide22" style="float:right; margin-right: 1%; color:white" class="seta-dir"><i></i></a>
-    <a href="slide2" style="float:right; margin-right: 1%; color:white" class="seta-esq"><i></i></a>
+    <a href="slide4" style="float:right; margin-right: 1%; color:white" class="seta-esq"><i></i></a>
   </div>
 
 </body>
