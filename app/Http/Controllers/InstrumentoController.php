@@ -795,8 +795,10 @@ class InstrumentoController extends Controller
             Instrumento11::create($dataBd);
             UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 11]) ;
         }
+        $instrumento11 = new Instrumento11;
+        $instrumento11->data = $data;
 
-        return $this->instrumento11($data);
+        return $this->instrumento11($instrumento11);
     }
 
     public function requestInstrumento11_2(Request $request){
