@@ -134,7 +134,7 @@
                         <form name="formulario" role="form" method="post" action="instrumento/15_1">
                             {!! csrf_field() !!}
                             
-                            <p class="fonte18"><b>Produto escolhido:</b> <input name="produto_escolhido" type="text" size="50%"></p>
+                            <p class="fonte18"><b>Produto escolhido:</b> <input name="produto_escolhido" type="text" size="50%" required></p>
 
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">
@@ -146,7 +146,7 @@
                                         </thead>
                                         <tbody class="appendItens">
                                             <tr>
-                                                <td style="font-size: 18px; vertical-align: middle; width: 600px">1 - <input name="argumentos[]" type="text" size="80%"></td>
+                                                <td style="font-size: 18px; vertical-align: middle; width: 600px">1 - <input name="argumentos[]" type="text" size="80%" required></td>
                                             </tr>
                                         </tbody>
                                         @php $idItem = 1 @endphp

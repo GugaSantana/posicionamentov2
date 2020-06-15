@@ -125,7 +125,7 @@
                                         </tr>    
                                     </thead>
                                     @php $i=1 @endphp
-                                    @foreach($data['argumentos'] as $arg)
+                                    @foreach(array_filter($data['argumentos']) as $arg)
                                         <tr>
                                             <td style="font-size: 18px; vertical-align: middle; width: 600px">{{$i}} - {{$arg}}</td>
                                         </tr>
@@ -199,7 +199,7 @@
                             {!! csrf_field() !!}
 
                             @php $i=1 @endphp
-                            @foreach($data['argumentos'] as $arg)
+                            @foreach(array_filter($data['argumentos']) as $arg)
                                 <input name="argumentos[]" value="{{$i}} - {{$arg}}" hidden>
                                 @php $i++ @endphp
                             @endforeach
@@ -241,7 +241,7 @@
                                                 <td style="font-size: 18px; vertical-align: middle; width: 600px">
                                                     <table>
                                                     <tr>
-                                                    @for($n=1; $n<=count($data['argumentos']); $n++)
+                                                    @for($n=1; $n<=count(array_filter($data['argumentos'])); $n++)
                                                     
                                                     <td style="border: none">{{$n}}</td> <td style="border: none; padding-right: 2%;"><input onclick="calcFreq({{$i}}, this)" style="vertical-align: sub; width: 25px; height: 25px; cursor: pointer" name="check{{$i}}[]" id="check{{$i}}-{{$n}}" type="checkbox" value="true"></td>
                                                     @if($n%5 == 0)  
@@ -324,7 +324,7 @@
         document.getElementById("freqTotal"+id).innerHTML = freq;
     }
 
-    var total_aceito = {{ count($data['argumentos']) }};
+    var total_aceito = {{ count(array_filter($data['argumentos'])) }};
     var total = 0;
     function limit(){
         alert(total+" " +total_aceito);
