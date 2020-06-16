@@ -49,9 +49,19 @@
                 </div>
             </div>
 
+            
             {{-- Main Content --}}
             <div class="content">
+
+                
                 <div class="{{ config('adminlte.classes_content') ?: $def_container_class }}">
+                    @if(session('success'))
+                        <div class="alert alert-success alert-dismissible">
+                            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                            <h5><i class="icon fa fa-check"></i> Aviso!</h5>
+                            {{session('success')}}
+                        </div>
+                    @endif
                     @yield('content')
                 </div>
             </div>
