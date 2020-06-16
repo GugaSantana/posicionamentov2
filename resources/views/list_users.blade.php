@@ -36,8 +36,9 @@
                         <input hidden name="user_id" value="{{$user->id}}">
                         <div style="display: flex;">
                             <select class="custom-select" name="role_id">
+                                <option selected>--</option>
                                 @foreach($roles as $role)
-                                    <option value="{{$role->id}}" @if($user->role->id == $role->id) selected @endif>{{$role->name}}</option>
+                                    <option value="{{$role->id}}" @if(isset($user->role) && $user->role->id == $role->id) selected @endif>{{$role->name}}</option>
                                 @endforeach
                             </select>
                             <div style="margin-left: 5%;" ></div>
@@ -70,6 +71,15 @@
                         </button>
                         </form>
                         @endif
+                        <form method="post" action="/user/clear">
+                        {!! csrf_field() !!}
+                        <input hidden name="user_id" value="{{$user->id}}">
+                        <button class="btn btn-warning btn-sm" href="#">
+                            <i class="fa fa-eraser">
+                            </i>
+                            Limpar
+                        </button>
+                        </form>
                     </td>
                 </tr>
                 @endforeach
