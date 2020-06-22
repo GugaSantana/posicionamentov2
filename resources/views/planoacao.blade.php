@@ -11,17 +11,21 @@
   <!-- include summernote css/js-->
   <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/lang/summernote-pt-BR.min.js"></script>
 
   <script>
     $(document).ready(function() {
       $('#oque').summernote({
-        @if(!empty($autogestao) && empty($autogestao->oque)) height: 200 @endif
+        @if(!empty($autogestao) && empty($autogestao->oque)) height: 200, @endif
+        lang: 'pt-BR',
       });
       $('#como').summernote({
-        @if(!empty($autogestao) && empty($autogestao->como)) height: 200 @endif
+        @if(!empty($autogestao) && empty($autogestao->como)) height: 200, @endif
+        lang: 'pt-BR',
       });
       $('#quando').summernote({
-        @if(!empty($autogestao) && empty($autogestao->quando)) height: 200 @endif
+        @if(!empty($autogestao) && empty($autogestao->quando)) height: 200, @endif
+        lang: 'pt-BR',
       });
     });
   </script>
