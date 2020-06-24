@@ -45,7 +45,7 @@
                                     <th class="bg-primary" style="text-align: center;" colspan="12">Atividades que desenvolvo</th>
                                 </tr>
                                 <tr>
-                                    @for($i=0;$i<8;$i++) <td><input data-toggle="tooltip" title="ATIVIDADES QUE VOCÊ REALIZA PARA ALCANÇAR SEUS OBJETIVOS DE VENDAS. EX: Prospectar novos clientes, viajar, fazer reunião, preencher relatórios, etc.." type="text" class="form-control" name="atividade{{$i}}" placeholder=""></td>
+                                    @for($i=0;$i<8;$i++) <td><input data-toggle="tooltip" title="ATIVIDADES QUE VOCÊ REALIZA PARA ALCANÇAR SEUS OBJETIVOS DE VENDAS. EX: Prospectar novos clientes, viajar, fazer reunião, preencher relatórios, etc.." type="text" class="form-control" name="atividade{{$i}}" placeholder="" id="atividade{{$i}}"></td>
                                         @endfor
                                 </tr>
                                 <tr>
@@ -54,7 +54,7 @@
                                     <td class="bg-primary" style="text-align: center;" colspan="12">PERCENTUAL DE TEMPO GASTO EM CADA ATIVIDADE (O total deve ser 100%)</td>
                                 </tr>
                                 <tr>
-                                    @for($i=0;$i<8;$i++) <td><input data-toggle="tooltip" title="Tempo gasto em cada atividade. Utilize um intervalo (semana, mês) para facilitar a distribuição do tempo nas atividades. Do 100% do seu tempo de trabalho quanto (%) é gasto na atividade." id="number{{$i}}" type="text" class="form-control" name="percentualTempo{{$i}}" placeholder="" onkeypress='return SomenteNumeroCem(event, this.id)'></td>
+                                    @for($i=0;$i<8;$i++) <td><input data-toggle="tooltip" title="Tempo gasto em cada atividade. Utilize um intervalo (semana, mês) para facilitar a distribuição do tempo nas atividades. Do 100% do seu tempo de trabalho quanto (%) é gasto na atividade." id="number{{$i}}" type="text" class="form-control" name="percentualTempo{{$i}}" placeholder="" onkeypress='return SomenteNumeroCem(event, this.id, "number")' @if($i==0) required @endif></td>
                                         @endfor
                                 </tr>
                                 <tr class="bg-primary">
@@ -62,9 +62,9 @@
                                     <td colspan="12"></td>
                                 </tr>
                                 @for($j=0;$j<4;$j++) <tr>
-                                    <td><input data-toggle="tooltip" title="Quais são os objetivos de alta importância para você alcançar suas metas." type="text" class="form-control" name="objetivo{{$j}}" id="objetivo{{$j}}" placeholder=""></td>
-                                    <td><input data-toggle="tooltip" title="Peso relativo do Objetivo. Ex: 15%, 20%, ..." id="pesoobjetivo{{$j}}" type="text" class="form-control" name="pesoobjetivo{{$j}}" placeholder="" onkeypress='return SomenteNumero(event)'></td>
-                                    @for($i=0;$i<8;$i++) <td><input data-toggle="tooltip" title="Registre os valores da escala: em que medida cada atividade que você está analisando contribui para alcançar cada objetivo" id="number" type="text" class="form-control" name="percentualTempo{{$j}}-{{$i}}" placeholder="" onkeypress='return SomenteNumeroDez(event, this)'></td>
+                                    <td><input data-toggle="tooltip" title="Quais são os objetivos de alta importância para você alcançar suas metas." type="text" class="form-control" name="objetivo{{$j}}" id="objetivo{{$j}}" placeholder="" @if($j==0) required @endif></td>
+                                    <td><input data-toggle="tooltip" title="Peso relativo do Objetivo. Ex: 15%, 20%, ..." id="pesoobjetivo{{$j}}" type="text" class="form-control" name="pesoobjetivo{{$j}}" placeholder="" onkeypress='return SomenteNumeroCem(event, this.id, "pesoobjetivo")' @if($j==0) required @endif></td>
+                                    @for($i=0;$i<8;$i++) <td><input data-toggle="tooltip" title="Registre os valores da escala: em que medida cada atividade que você está analisando contribui para alcançar cada objetivo" id="number{{$j}}-{{$i}}" type="text" class="form-control" name="percentualTempo{{$j}}-{{$i}}" placeholder="" onkeypress='return SomenteNumeroDez(event, this)' @if($j==0) required @endif></td>
                                         @endfor
                                         </tr>
                                         @endfor
@@ -75,10 +75,10 @@
                                             <td colspan="2">B - Baixa importância (15% ou -)</td>
                                             <td colspan="12"></td>
                                         </tr>
-                                        @for($j=0;$j<4;$j++) <tr>
-                                            <td><input data-toggle="tooltip" title="Registrar os Objetivos de Baixa importância se houver" type="text" class="form-control" name="objetivomedia{{$j}}" placeholder=""></td>
-                                            <td><input data-toggle="tooltip" title="Peso relativo do Objetivo. Ex: 4%, 12%, ..." id="pesoobjetivomedia{{$j}}" type="text" class="form-control" name="pesoobjetivomedia{{$j}}" placeholder="" onkeypress='return SomenteNumeroMedia(event, this.id)'></td>
-                                            @for($i=0;$i<8;$i++) <td><input data-toggle="tooltip" title="Registre os valores da escala: em que medida cada atividade que você está analisando contribui para alcançar cada objetivo" id="number" type="text" class="form-control" name="percentualTempomedia{{$j}}-{{$i}}" placeholder="" onkeypress='return SomenteNumeroDez(event, this)'></td>
+                                        @for($j=4;$j<8;$j++) <tr>
+                                            <td><input data-toggle="tooltip" title="Registrar os Objetivos de Baixa importância se houver" type="text" class="form-control" name="objetivomedia{{$j-4}}" placeholder="" @if($j==4) required @endif></td>
+                                            <td><input data-toggle="tooltip" title="Peso relativo do Objetivo. Ex: 4%, 12%, ..." id="pesoobjetivo{{$j}}" type="text" class="form-control" name="pesoobjetivomedia{{$j-4}}" placeholder="" onkeypress='return SomenteNumeroCem(event, this.id, "pesoobjetivo", 1)' @if($j==4) required @endif></td>
+                                            @for($i=0;$i<8;$i++) <td><input data-toggle="tooltip" title="Registre os valores da escala: em que medida cada atividade que você está analisando contribui para alcançar cada objetivo" id="number{{$j-4}}-{{$i}}" type="text" class="form-control" name="percentualTempomedia{{$j-4}}-{{$i}}" placeholder="" onkeypress='return SomenteNumeroDez(event, this)' @if($j==0) required @endif></td>
                                                 @endfor
                                                 </tr>
                                                 @endfor
@@ -144,7 +144,13 @@
             }
         }
 
-        function SomenteNumeroCem(e, element) {
+        function SomenteNumeroCem(e, element, name, a=0) {
+            if(a == 1){
+                var teste = SomenteNumeroMedia(e, element);
+                if(!teste){
+                    return false;
+                }
+            }
             var num;
             var tecla = (window.event) ? event.keyCode : e.which;
             switch (tecla) {
@@ -182,8 +188,8 @@
 
             var soma = 0;
             for (let i = 0; i < 8; i++) {
-                if('number'+i == element) continue;
-                soma += document.getElementById('number'+i).value|0;
+                if(name+i == element) continue;
+                soma += document.getElementById(name+i).value|0;
             }
 
             var numcampo = document.getElementById(element).value;
@@ -193,7 +199,12 @@
             total += soma;
 
             if(total > 100){
-                alert("A soma do tempo gasto deve ser de 100%")
+                if(name == 'pesoobjetivo'){
+                    alert("A soma dos pesos devem ser de 100%")
+                }
+                else{
+                    alert("A soma do tempo gasto deve ser de 100%")
+                }
                 return false;
             }
 
@@ -244,8 +255,8 @@
             var total = ''+numcampo+num;
             total = parseInt(total);
 
-            if(total > 15){
-                alert("Digite no maximo 15%")
+            if(total >= 15){
+                alert("Digite no maximo 14%")
                 return false;
             }
 
@@ -309,6 +320,14 @@
         }
 
         function submitForm(){
+            var validate = document.getElementById('atividade0');
+            // If x is Not a Number or less than one or greater than 10
+            if (!validate.value) {
+                alert('Campo vazio');
+                validate.focus();
+                return false;
+            }
+            
             for (i = 0 ;i < 4; i++) {
                 val = document.getElementById('pesoobjetivo'+i).value|0;
                 obj = document.getElementById('objetivo'+i).value;
@@ -324,16 +343,65 @@
                 valor = parseInt(document.getElementById('number'+i).value);
                 if(!isNaN(valor)){
                     total += valor;
-                }
-                    
+                } 
             }
             
             if(total != 100){
-                alert("A soma do tempo gasto deve ser de 100%")
+                alert("A soma do tempo gasto deve ser de 100%");
+                document.getElementById('number0').focus();
+                return false;
             }
-            else{
-                document.getElementById('formulario').submit();
+
+            var validate = document.getElementById('objetivo0');
+            // If x is Not a Number or less than one or greater than 10
+            if (!validate.value) {
+                alert('Campo vazio');
+                validate.focus();
+                return false;
             }
+
+
+            var validate = document.getElementById('pesoobjetivo0');
+            // If x is Not a Number or less than one or greater than 10
+            if (!validate.value) {
+                alert('Campo vazio');
+                validate.focus();
+                return false;
+            }
+
+            total = 0;
+            for(i=0;i<8;i++){
+                valor = parseInt(document.getElementById('pesoobjetivo'+i).value);
+                if(!isNaN(valor)){
+                    total += valor;
+                } 
+            }
+
+            if(total != 100){
+                alert("A soma dos pesos dos objetivos deve ser de 100%");
+                document.getElementById('pesoobjetivo0').focus();
+                return false;
+            }
+            
+
+                
+            var validate = document.getElementById('number0-0');
+                // If x is Not a Number or less than one or greater than 10
+                if (!validate.value) {
+                    alert('Campo vazio');
+                    validate.focus();
+                    return false;
+                }
+
+                                
+                
+
+                
+
+                
+            document.getElementById('formulario').submit();
+                
+            
         }
     </script>
     <script>window.onload = function(){history.go(+1)};</script>
