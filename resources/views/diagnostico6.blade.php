@@ -64,7 +64,7 @@
                             </thead>
                             @php($cont = 1)
                             @foreach($att as $at)
-                            @if($at['subtotal'] > $mediaVolume && $at['indiceRetorno'] > $mediaProdutividade)
+                            @if($at['subtotal'] >= $mediaVolume && $at['indiceRetorno'] >= $mediaProdutividade)
                             <tr>
                                 <td>{{$cont}} - {{$at['atividade']}}</td>
                             </tr>
@@ -82,7 +82,7 @@
                             </thead>
                             @php($cont = 1)
                             @foreach($att as $at)
-                            @if($at['subtotal'] > $mediaVolume && $at['indiceRetorno'] < $mediaProdutividade)
+                            @if($at['subtotal'] >= $mediaVolume && $at['indiceRetorno'] < $mediaProdutividade)
                             <tr>
                                 <td>{{$cont}} - {{$at['atividade']}}</td>
                             </tr>
@@ -100,7 +100,7 @@
                             </thead>
                             @php($cont = 1)
                             @foreach($att as $at)
-                            @if($at['subtotal'] < $mediaVolume && $at['indiceRetorno'] > $mediaProdutividade)
+                            @if($at['subtotal'] < $mediaVolume && $at['indiceRetorno'] >= $mediaProdutividade)
                             <tr>
                                 <td>{{$cont}} - {{$at['atividade']}}</td>
                             </tr>
@@ -129,7 +129,7 @@
 
                         <br>
 
-                        <h4 style="color: #35408f">B – Contribuição das Atividades que você desenvolve em relação à importância deseus objetivos</h4>
+                        <h4 style="color: #35408f">B – Contribuição das Atividades que você desenvolve em relação à importância de seus objetivos</h4>
 
                         <p class="fonte18">Muitas vezes dedicamos mais esforço e tempo a atividades que contribuem pouco para alcançar objetivos que não são relevantes para alcançar suas metas de vendas, enquanto dedicamos menos esforço e tempo que o necessário para alcançar objetivos de alto valor e importância.</p>
                         <p class="fonte18">Apresentamos seus maiores desequilíbrios, sejam eles positivos ou negativos, entre a contribuição de todas as atividades que você desenvolve e a importância relativa dos objetivos que devem ser alcançados.</p>

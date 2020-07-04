@@ -467,24 +467,32 @@ class InstrumentoController extends Controller
             }
         }
 
-        $mediaVolume = $totalVolume / $count;
-        $mediaProdutividade = $totalProdutividade / $count;
-
+        $attributes = [];
+        foreach($att as $at){
+            if(!empty($at['atividade'])){
+                $attributes[] = $at;
+            }
+        }
+        
+        $mediaVolume = $totalVolume / count($attributes);
+        $mediaProdutividade = $totalProdutividade / count($attributes);
+        
         //salva no BD
         $dataBd = [
             'user_id' => Auth::User()->id,
-            'att' => $att,
+            'att' => $attributes,
             'desvios' => $desvios,
             'mediaVolume' => $mediaVolume,
             'mediaProdutividade' => $mediaProdutividade,
             'done' => true
         ];
+        
         if(Auth::User()->role_id != 1){
             Instrumento6::create($dataBd);
             UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 6]);
         }
 
-        return $this->instrumento6($att, $mediaVolume, $mediaProdutividade, $desvios);
+        return $this->instrumento6($attributes, $mediaVolume, $mediaProdutividade, $desvios);
     }
 
     public function instrumento6($att, $mediaVolume, $mediaProdutividade, $desvios){

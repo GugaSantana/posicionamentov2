@@ -72,7 +72,7 @@
                                             <td colspan="14"></td>
                                         </tr>
                                         <tr class="bg-primary">
-                                            <td colspan="2">B - Baixa importância (15% ou -)</td>
+                                            <td colspan="2">B - Baixa importância (abaixo de 15%)</td>
                                             <td colspan="12"></td>
                                         </tr>
                                         @for($j=4;$j<8;$j++) <tr>
@@ -333,7 +333,7 @@
                 obj = document.getElementById('objetivo'+i).value;
 
                 if(val < 15 && obj.length != 0){
-                    alert("Os pesos relativos de Alta importância devem ser maiores que 15%");
+                    alert("Os pesos relativos de Alta importância devem ser iguais ou maiores que 15%");
                     document.getElementById('pesoobjetivo'+i).focus();
                     return false;
                 }
