@@ -35,36 +35,51 @@
                     
                     <!-- LINHA 1 -->
                     <div class="row">
-                    <!-- NOME -->
-                    <div class="input-group mb-3 col-md-12">
-                        <input required type="text" name="name" class="form-control {{ $errors->has('name') ? 'is-invalid' : '' }}" value="{{ old('name') }}"
-                               placeholder="{{ __('adminlte::adminlte.full_name') }}*" autofocus>
-                        <div class="input-group-append">
-                            <div class="input-group-text">
-                                <span class="fas fa-user"></span>
+                        <!-- NOME -->
+                        <div class="input-group mb-3 col-md-6">
+                            <input required type="text" name="name" class="form-control {{ $errors->has('name') ? 'is-invalid' : '' }}" value="{{ old('name') }}"
+                                placeholder="{{ __('adminlte::adminlte.full_name') }}*" autofocus>
+                            <div class="input-group-append">
+                                <div class="input-group-text">
+                                    <span class="fas fa-user"></span>
+                                </div>
                             </div>
+
+                            @if ($errors->has('name'))
+                                <div class="invalid-feedback">
+                                    <strong>{{ $errors->first('name') }}</strong>
+                                </div>
+                            @endif
                         </div>
 
-                        @if ($errors->has('name'))
-                            <div class="invalid-feedback">
-                                <strong>{{ $errors->first('name') }}</strong>
+                        <!-- SOBRENOME -->
+                        <div class="input-group mb-3 col-md-6">
+                            <input required type="text" name="lastname" class="form-control {{ $errors->has('lastname') ? 'is-invalid' : '' }}" value="{{ old('lastname') }}"
+                                placeholder="Sobrenome*" autofocus>
+                            <div class="input-group-append">
+                                <div class="input-group-text">
+                                    <span class="fas fa-user"></span>
+                                </div>
                             </div>
-                        @endif
-                    </div>
+
+                            @if ($errors->has('lastname'))
+                                <div class="invalid-feedback">
+                                    <strong>{{ $errors->first('lastname') }}</strong>
+                                </div>
+                            @endif
+                        </div>
                     </div>
                     <!-- FIM LINHA 1 -->
                     <!-- LINHA 2 -->
                     <div class="row">
                     <!-- SEXO -->
-                    <div class="input-group mb-3 col-md-6">
-                        <input required type="text" name="sexo" class="form-control {{ $errors->has('sexo') ? 'is-invalid' : '' }}" value="{{ old('sexo') }}"
-                               placeholder="Sexo*" autofocus>
-                        <div class="input-group-append">
-                            <div class="input-group-text">
-                                <span class="fas fa-user"></span>
-                            </div>
-                        </div>
-
+                    <div class="col-md-6">
+                        <select required class="form-control {{ $errors->has('sexo') ? 'is-invalid' : '' }}" value="{{ old('sexo') }}" id="sexo" name="sexo">
+                            <option value="" selected>Sexo</option>    
+                            <option value="Masculino">Masculino</option>
+                            <option value="Feminino">Feminino</option>
+                        </select>
+                        
                         @if ($errors->has('sexo'))
                             <div class="invalid-feedback">
                                 <strong>{{ $errors->first('sexo') }}</strong>
@@ -93,7 +108,7 @@
                     <div class="row">
                     <!-- ESCOLARIDADE -->
                     <div class="col-md-6">
-                        <select class="form-control {{ $errors->has('escolaridade') ? 'is-invalid' : '' }}" value="{{ old('escolaridade') }}" id="escolaridade" name="escolaridade">
+                        <select required class="form-control {{ $errors->has('escolaridade') ? 'is-invalid' : '' }}" value="{{ old('escolaridade') }}" id="escolaridade" name="escolaridade">
                             <option value="" selected>Escolaridade</option>    
                             <option value="Fundamental">Fundamental</option>
                             <option value="Médio">Médio</option>
@@ -371,7 +386,7 @@
 
                     <!-- RAMO -->
                     <div class="col-md-2">
-                        <select class="form-control {{ $errors->has('ramo') ? 'is-invalid' : '' }}" value="{{ old('ramo') }}" id="ramo" name="ramo">
+                        <select required class="form-control {{ $errors->has('ramo') ? 'is-invalid' : '' }}" value="{{ old('ramo') }}" id="ramo" name="ramo">
                             <option value="" selected>Ramo</option>    
                             <option value="Industrial">Industrial</option>
                             <option value="Comercial">Comercial</option>
