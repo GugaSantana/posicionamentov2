@@ -399,7 +399,11 @@
         total = a+b+c;
         
         var tecla = (window.event) ? event.keyCode : e.which;
-        if(tecla == 49){
+
+        if(tecla == 48){
+            return true;
+        }
+        else if(tecla == 49){
             if(total+1 > 5) return false
             else return true;
         }
