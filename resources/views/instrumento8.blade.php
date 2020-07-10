@@ -146,17 +146,17 @@
 
                                 '
 1. Se um cliente meu parecesse preocupado a maior parte do tempo e começasse a questionar-me em detalhes sem importância, irritando-se comigo sem razão aparente, eu:
-<br>A. Procuraria conversar sobre o assunto, deixando claro que ele estaria me afetando, e à minha capacidade de prestar-lhe meus serviços.
+<br>A. Procuraria conversar sobre o assunto, deixando claro que ele estaria afetando minha capacidade de prestar-lhe meus serviços.
 <br><b>OU</b>
 <br>B. Iria tratá-lo com “luvas de pelica” por um momento, presumindo que ele teria alguns problemas pessoais temporários que não seriam da minha conta.
 ','
-2. Se eu e um de meus clientes tivéssemos tido uma séria discussão no passado e eu percebesse que ele mostrava-se pouco à vontade diante de mim, desde então, eu:
+2. Se eu e um de meus clientes tivéssemos tido uma séria discussão no passado e eu percebesse que ele se mostra pouco à vontade diante de mim, desde então, eu:
 <br>A. Evitaria tornar as coisas piores; não chamaria a atenção para o seu comportamento, deixando o assunto de lado.
 <br><b>OU</b>
 <br>B. Comunicaria minha impressão sobre o seu comportamento e perguntaria como nossas relações foram afetadas pela discussão segundo o seu ponto de vista.
 ','
 3. Se um cliente meu me dissesse que eu estava fazendo coisas que segundo ele me tornavam menos eficaz como vendedor junto à clientela, eu:
-<br>A. Encorajá-lo-ia a esclarecer-me ou a entrar em detalhes sobre o que tinha observado, e a sugerir mudanças de minha parte.
+<br>A. Eu o estimularia a esclarecer-me ou a entrar em detalhes sobre o que tinha observado, e a sugerir mudanças de minha parte.
 <br><b>OU</b>
 <br>B.Procuraria explicar minha abordagem e minha filosofia de vendas, a fim de tornar claro por que me comporto como tal.
 ','
@@ -168,7 +168,7 @@
 5. Se eu estivesse sob forte e crescente pressão pessoal e um de meus clientes me dissesse que eu estava me tornando impaciente com ele e também prestando-lhe cada vez menos bons serviços, eu:
 <br>A. Ouviria seus comentários, encorajando-o a entrar em detalhes se ele assim o desejasse, mas não procuraria justificar meus atos.
 <br><b>OU</b>
-<br>B. Dir-lhe-ia que estou preocupado com algumas pressões pessoais e que continuaria assim por algum tempo. Por isso gostaria que ele fosse paciente comigo.
+<br>B. Eu lhe diria que estou preocupado com algumas pressões pessoais e que continuaria assim por algum tempo. Por isso gostaria que ele fosse paciente comigo.
 ','
 6. Se um de meus clientes se mostrasse de tal modo convencido com meus argumentos que estaria disposto a adquirir meu produto a níveis que, em minha opinião, estariam muito além de suas necessidades ou recursos, eu:
 <br>A. Não mencionaria absolutamente minhas dúvidas, mas simplesmente deixaria que o próprio cliente fosse o melhor juiz de seus atos, enquanto eu limitaria meus esforços a assisti-lo nos detalhes da compra da melhor maneira possível.
@@ -190,10 +190,10 @@
 <br><b>OU</b>
 <br>B. Diria exatamente o quê, quando e de quem ouvira, acrescentando quaisquer dúvidas pessoais que porventura tivesse.
 ','
-10. Se eu soubesse que estava sendo considerado para promoção a um alto cargo de vendas e que as atitudes de meus clientes eram um tanto negativas em minha entrevistas com eles, eu:
-<br>A. Procuraria usar mais autocrítica e tentaria avaliar meus pontos fracos como vendedor, para que pudesse fazer um melhor trabalho no futuro.
+10. Se eu soubesse que estava sendo considerado para promoção a um alto cargo de vendas e que as atitudes de meus clientes eram um tanto negativas em minhas entrevistas com eles, eu:
+<br>A. Procuraria usar mais autocrítica e tentaria avaliar meus pontos fracos como vendedor, para que fazer um trabalho melhor no futuro.
 <br><b>OU</b>
-<br>B. Arriscaria o embaraço de discutir meus pontos fracos com os clientes, obtendo suas idéias sobre como eu poderia melhor.
+<br>B. Arriscaria o embaraço de discutir meus pontos fracos com os clientes, obtendo suas idéias sobre como eu poderia melhorar.
 ','
 11. Se o meu relacionamento com um de meus clientes tivesse sido prejudicado por repetidas discussões e conflitos, em questões de importância para nós, eu:
 <br>A. Seria cauteloso ao contatá-lo, receando que estas questões viessem à tona de novo e piorassem ainda mais nossas relações.
@@ -218,7 +218,7 @@
 15. Se ao conversar com um novo e promissor freguês indicado por um colega que ele detestasse e ele perguntasse como obtive seu nome e o chamei, eu:
 <br>A. Tentaria contornar a questão ou contar uma história lógica para explicar minha chamada, sem mencionar o outro vendedor, receando que ressentimentos entre terceiros poderiam provocar a perda de uma venda que de outra maneira seria conseguida facilmente.
 <br><b>OU</b>
-<br>B. Dir-lhe-ia simplesmente que o outro vendedor (citando seu nome) achou que poderia se interessar pelo meu produto e sugeriu que o procurasse.
+<br>B. Eu simplesmente lhe diria que o outro vendedor (citando seu nome) achou que poderia se interessar pelo meu produto e sugeriu que o procurasse.
 ','
 16. Se um freguês dos mais promissores deixasse repetidamente de me atender, mas, mesmo assim, tivesse me encorajado a acreditar em seu sincero interesse e provável necessidade por meus serviços, eu:
 <br>A. Pediria para dizer honestamente se eu estaria desperdiçando o seu tempo e o meu próprio, continuando a procurá-lo.
@@ -233,15 +233,15 @@
 18. Se um novo cliente parecesse satisfeito com meu produto e estivesse preparado para fechar uma compra, embora fosse melhor servido com a linha de produtos do meu concorrente, segundo minha estimativa, eu:
 <br>A. Procuraria dar toda importância à auto-avaliação que o cliente fez de suas necessidades, fechando a venda, como consequência.
 <br><b>OU</b>
-<br>B. Sentir-me-ia obrigado a informá-lo sobre o que acharia de suas necessidades em relação às duas linhas de produtos, deixando para ele a decisão final da compra.
+<br>B. Eu me sentiria obrigado a informá-lo sobre o que acharia de suas necessidades em relação às duas linhas de produtos, deixando para ele a decisão final da compra.
 ','
 19. Se um cliente começasse a questionar-me sobre alguns defeitos válidos, mas pouco conhecidos, de minha linha de produtos e dos quais eu estivesse bem a par, eu:
 <br>A. Negaria ter qualquer conhecimento de suas informações, ou tentaria desacreditar sua exatidão.
 <br><b>OU</b>
-<br>B. Admitiria a veracidade de suas alegações e, se possível, dir-lhe-ia o que se estaria fazendo para contornar o problema.
+<br>B. Admitiria a veracidade de suas alegações e, se possível, lhe diria o que se estaria fazendo para contornar o problema.
 ','
 20. Se, para minha total surpresa, um de meus melhores clientes parasse de repente de comprar meus produtos e começasse a criticar-me junto a outros clientes atuais e potenciais, eu:
-<br>A. Confrontaria diretamente, perguntando-lhe qual seria o problema e por que ele estaria tentando prejudicar-lhe aos olhos dos outros.
+<br>A. Confrontaria diretamente, perguntando-lhe qual seria o problema e por que ele estaria tentando prejudicar-me aos olhos dos outros.
 <br><b>OU</b>
 <br>B. Não “cutucaria a onça” e não me arriscaria a excitá-lo ainda mais tentando demonstrar meus argumentos.
 '
