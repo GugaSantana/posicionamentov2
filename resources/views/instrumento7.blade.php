@@ -160,7 +160,7 @@
                             @php
                         $questions = [
                             'questao1' => [
-                                'titulo' => '“Bem... sei lá! Eu gostaria muito de tentar, mas da última vez deu tudo errado e eu é que me estrepei!”',
+                                'titulo' => '<b>(abatido)</b>“Bem... sei lá! Eu gostaria muito de tentar, mas da última vez deu tudo errado e eu é que me estrepei!”',
                                 'questao1' => '“Bem, como se diz, quem não arrisca não petisca; além disso, você pode contar comigo. Não vou deixar você na mão!”',
                                 'input1' => '1',
                                 'questao2' => '“Não sei o que você acha, mas, se eu tiver sempre que ter certeza das coisas, não me sinto propenso a fazer algo... e nem acho graça nisso.”',
@@ -169,7 +169,7 @@
                                 'input3' => '2'
                             ],
                             'questao2' => [
-                                'titulo' => '“Você não espera que eu acredite nesta conversa mole, não é? Vocês caras, são todos iguais!”',
+                                'titulo' => '<b>(sarcástico)</b>“Você não espera que eu acredite nesta conversa mole, não é? Vocês caras, são todos iguais!”',
                                 'questao1' => '“Bem, percebe-se que algo está acontecendo com você; e eu não sei o quê. Não acha que esta é uma boa hora para a gente começar a se entender?”',
                                 'input1' => '2',
                                 'questao2' => '“Eh, espere aí! Com quem você pensa que está falando? Você está contestando minha integridade e também minha autoridade como gerente!”',
@@ -178,7 +178,7 @@
                                 'input3' => '3'
                             ],
                             'questao3' => [
-                                'titulo' => '“Esta sua abordagem é coisa nova, sem dúvida; mas, sinceramente, não parece lógico eu me envolver nela... eu gostaria de examinar tudo de novo, com mais detalhe.”',
+                                'titulo' => '<b>(ambíguo)</b>“Esta sua abordagem é coisa nova, sem dúvida; mas, sinceramente, não parece lógico eu me envolver nela... eu gostaria de examinar tudo de novo, com mais detalhe.”',
                                 'questao1' => '“Bem eu tenho lá alguns problemas com este assunto; preciso mesmo que alguém me ajude. Que tal se eu voltasse mais tarde, depois de trabalhar nele um pouco mais?”',
                                 'input1' => '3',
                                 'questao2' => '“Existem alguns pontos que você quer explorar mais a fundo, ou você quer rever tudo de novo?”',
@@ -187,7 +187,7 @@
                                 'input3' => '1'
                             ],
                             'questao4' => [
-                                'titulo' => '“Eh, acho que consegui resolver aquele nosso problema! Descobri a solução ontem à noite, quando menos esperava, e estou ansioso para que tentemos de novo!”',
+                                'titulo' => '<b>(agitado)</b>“Eh, acho que consegui resolver aquele nosso problema! Descobri a solução ontem à noite, quando menos esperava, e estou ansioso para que tentemos de novo!”',
                                 'questao1' => '“Vamos com calma; você sabe que temos de obter aprovação antes de qualquer tentativa e eu não me envolvo em coisa nenhuma sem estar 100% convencido!”',
                                 'input1' => '1',
                                 'questao2' => '“Ótimo! Diga-me qual é sua idéia e vamos começar. Se chegarmos a uma solução, será aquela vitória!”',
@@ -196,7 +196,7 @@
                                 'input3' => '2'
                             ],
                             'questao5' => [
-                                'titulo' => '“Bem, não sei não! Nós temos um procedimento para isto e todos gostam dele. Você quer realmente se arriscar mudando-o agora mesmo? Não poderíamos esperar?”',
+                                'titulo' => '<b>(impassível)</b>“Bem, não sei não! Nós temos um procedimento para isto e todos gostam dele. Você quer realmente se arriscar mudando-o agora mesmo? Não poderíamos esperar?”',
                                 'questao1' => '“Acho que vemos as coisas de maneira diferente; conheço pessoas que não querem as coisas à antiga. Estou apenas sugerindo tentar algo que parece estar funcionando em outro departamento.”',
                                 'input1' => '2',
                                 'questao2' => '“Talvez você tenha razão; eu não tinha pensado nisto. Não queremos infringir as normas... seria o mesmo que arrumar barulho, na hora!”',
@@ -205,7 +205,7 @@
                                 'input3' => '1'
                             ],
                             'questao6' => [
-                                'titulo' => '“Eu quero ser acessível a novas idéias, examiná-las com honestidade; portanto peço-lhe dizer-me o que tem em mente. Farei o melhor que puder para lhe dar minha opinião sincera.”',
+                                'titulo' => '<b>(racional)</b>“Eu quero ser acessível a novas idéias, examiná-las com honestidade; portanto peço que me diga o que tem em mente. Farei o melhor que puder para lhe dar minha opinião sincera.”',
                                 'questao1' => '“Ótimo! Confio que ao ouvir o que tenho a dizer, você ficará tão convicto quanto eu. Creia-me, é o único jeito que temos!”',
                                 'input1' => '1',
                                 'questao2' => '“Parece-me bastante razoável: o que lhe seria mais útil saber a esta altura? Ou deveria eu começar pelo começo?”',
@@ -214,7 +214,7 @@
                                 'input3' => '3'
                             ],
                             'questao7' => [
-                                'titulo' => '“Eu lhe digo, não canso de me espantar pelo modo como um pouquinho de poder sobe à cabeça das pessoas; é o que basta pra me fazer duvidar da profissão de gerente!”',
+                                'titulo' => '<b>(repugnado)</b>“Eu lhe digo, não canso de me espantar pelo modo como um pouquinho de poder sobe à cabeça das pessoas; é o que basta pra me fazer duvidar da profissão de gerente!”',
                                 'questao1' => '“Você não está insinuando que o poder me subiu a cabeça, não é?”',
                                 'input1' => '3',
                                 'questao2' => '“Concordo inteiramente; existe por aí um bando de ‘ditadores’ que desonra a profissão de gerente!”',
@@ -223,7 +223,7 @@
                                 'input3' => '2'
                             ],
                             'questao8' => [
-                                'titulo' => '“Eu não deveria lhe dizer isto – vai acontecer o diabo se souberem o que fiz – mas, é bom demais para ser mantido em segredo! Posso confiar em você?”',
+                                'titulo' => '<b>(manhoso)</b>“Eu não deveria lhe dizer isto – vai acontecer o diabo se souberem o que fiz – mas, é bom demais para ser mantido em segredo! Posso confiar em você?”',
                                 'questao1' => '“Serei ‘boca de siri’, meu amigo; ninguém pode guardar um segredo como eu. Diga-me o que há.”',
                                 'input1' => '3',
                                 'questao2' => '“Além do fato de que você quer me dizer, há outras razões para que eu deva saber sobre isto? O assunto é a meu respeito ou sobre meu trabalho?”',
@@ -232,7 +232,7 @@
                                 'input3' => '1'
                             ],
                             'questao9' => [
-                                'titulo' => '“Às vezes, tenho a impressão de que você quer fazer as coisas diferentes só porque quer. Se deseja convencer-me, terá que me dar muito mais razões além das que arrumou até agora.”',
+                                'titulo' => '<b>(acusador)</b>“Às vezes, tenho a impressão de que você quer fazer as coisas diferentes só porque quer. Se deseja convencer-me, terá que me dar muito mais razões além das que arrumou até agora.”',
                                 'questao1' => '“Estou apenas tentando ser útil; se você não quer aprender com a experiência dos outros, está bem para mim.”',
                                 'input1' => '1',
                                 'questao2' => '“Bem acho que devo dizer algo sobre isto. Eu gosto de fazer as coisas de maneira um pouco diferente; mas longe de mim pensar que devo tentar convencê-lo.”',
@@ -241,7 +241,7 @@
                                 'input3' => '2'
                             ],
                             'questao10' => [
-                                'titulo' => '“Tudo o que ouvi até agora parece se basear em sua decisão de que eu teria um importante trabalho a fazer e que seria um tolo se não aproveitasse a oportunidade!”',
+                                'titulo' => '<b>(conclusivo)</b>“Tudo o que ouvi até agora parece se basear em sua decisão de que eu teria um importante trabalho a fazer e que seria um tolo se não aproveitasse a oportunidade!”',
                                 'questao1' => '“Você não deve se ofender com isto! Puxa, a gente procura retribuir-lhe com cortesia e você a toma como insulto!”',
                                 'input1' => '3',
                                 'questao2' => '“Talvez eu tenha esperado mais do que o necessário; parece-me que deveria primeiro verificar se você se interessaria pelo projeto e, depois, se possuiria as habilidades exigidas.”',
@@ -250,7 +250,7 @@
                                 'input3' => '1'
                             ],
                             'questao11' => [
-                                'titulo' => '“Ouça meu conselho. Vivo por aqui há muito tempo e uma das coisas que aprendi é que não se deve balançar o barco ou tentar fazer as coisas diferentes!”',
+                                'titulo' => '<b>(resignado)</b>“Ouça meu conselho. Vivo por aqui há muito tempo e uma das coisas que aprendi é que não se deve balançar o barco ou tentar fazer as coisas diferentes!”',
                                 'questao1' => '“Eu reconheço que muitas pessoas compartilham sua opinião; mas eu decidi conscientemente não me deixar influir por ela. Vários fatos já ocorreram e apontam para direções mais positivas.”',
                                 'input1' => '2',
                                 'questao2' => '“Rapaz, não sei não! Se há algo que aprendi, e com sacrifício, é verificar, verificar novamente e novamente, para estar certo!”',
@@ -259,7 +259,7 @@
                                 'input3' => '1'
                             ],
                             'questao12' => [
-                                'titulo' => '“Estou inteiramente perplexo como o que está ocorrendo; estou tão confuso sobre o que é errado que não sei por onde começar! O que você faria em meu lugar?”',
+                                'titulo' => '<b>(suplicante)</b>“Estou inteiramente perplexo como o que está ocorrendo; estou tão confuso sobre o que é errado que não sei por onde começar! O que você faria em meu lugar?”',
                                 'questao1' => '“Como não estou no seu lugar, não posso tomar a decisão por você. Seria útil para você discutir o assunto comigo com mais detalhes?”',
                                 'input1' => '2',
                                 'questao2' => '“Bem, na verdade é muito simples; tome a decisão com base naquilo que faz você sentir-se ótimo.”',
@@ -268,7 +268,7 @@
                                 'input3' => '3'
                             ],
                             'questao13' => [
-                                'titulo' => '“O fato é que você fez numerosas promessas no passado e falhou em cumprir todas elas! Francamente, é difícil aceitar o que você diz agora, sem uma prova.”',
+                                'titulo' => '<b>(categoria)</b>“O fato é que você fez numerosas promessas no passado e falhou em cumprir todas elas! Francamente, é difícil aceitar o que você diz agora, sem uma prova.”',
                                 'questao1' => '“Você quer dizer, depois do tempo que investi neste projeto, que vai deixar de considerá-lo por causa dessas coisas? Isto é mesquinhez!”',
                                 'input1' => '1',
                                 'questao2' => '“Creio que estamos em faixas de ondas diferentes; não me lembro de quaisquer promessas não cumpridas. Se vamos trabalhar juntos, esclareça-me, para que possamos nos sintonizar.”',
@@ -277,8 +277,8 @@
                                 'input3' => '3'
                             ],
                             'questao14' => [
-                                'titulo' => '“Não sei se lhe importa, mas estou há trinta minutos esperando para lhe falar. Espero que o que tem a me dizer seja tão importante quanto deixar-me atrasar o meu trabalho!”',
-                                'questao1' => 'Vamos lá, tome um cafezinho, você sabe que não somos pagos por hora. Você se impacienta como se isto fosse nos causar barulho.”',
+                                'titulo' => '<b>(impaciente)</b>“Não sei se você se importa, mas estou há trinta minutos esperando para lhe falar. Espero que o que tem a me dizer seja tão importante quanto me deixar atrasar para o meu trabalho!”',
+                                'questao1' => 'Vamos lá, tome um cafezinho, você sabe que não somos pagos por hora. Você se impacienta como se isto fosse nos causar problema.”',
                                 'input1' => '3',
                                 'questao2' => '“Lá vem você de novo – desviando o rumo. Se você controlar seus nervos por um  minuto, verá que apenas está se mortificando com esta atitude.”',
                                 'input2' => '1',
@@ -286,16 +286,16 @@
                                 'input3' => '2'
                             ],
                             'questao15' => [
-                                'titulo' => '“Olhe, tudo o que realmente eu quero saber é que utilidade prática tem sua abordagem no que diz respeito à execução do trabalho.”',
+                                'titulo' => '<b>(franco)</b>“Olhe, tudo o que realmente eu quero saber é que utilidade prática tem sua abordagem no que diz respeito à execução do trabalho.”',
                                 'questao1' => '“Você está certo, mas mais importante é o fato de eu poder afirmar que minha abordagem funciona. Isto não vale alguma coisa?”',
                                 'input1' => '1',
                                 'questao2' => '“Veremos a utilidade prática e as aplicações mais tarde. Agora, desejo saber se você, pessoalmente, gosta ou não da minha abordagem!”',
                                 'input2' => '3',
-                                'questao3' => '“Talvez fosse útil para nós ambos se você fosse mais específico sobre o que acha ser preciso para fazer uma comparação entre as diferentes abordagens.”',
+                                'questao3' => '“Talvez fosse útil para nós se você fosse mais específico sobre o que acha ser preciso para fazer uma comparação entre as diferentes abordagens.”',
                                 'input3' => '2'
                             ],
                             'questao16' => [
-                                'titulo' => '“Eu não sei o que você acha, mas tenho por regra nunca lavar roupa suja em público; e não costumo respeitar os que fazem o contrário.”',
+                                'titulo' => '<b>(pomposo)</b>“Eu não sei o que você acha, mas tenho por regra nunca lavar roupa suja em público; e não costumo respeitar os que fazem o contrário.”',
                                 'questao1' => '“Você quer dizer que respeita as pessoas à medida que elas se conformam com suas regras pessoais?”',
                                 'input1' => '2',
                                 'questao2' => '“É o que sempre me ensinaram, e até hoje, pessoas desse tipo me embaraçam... mesmo quando não estou envolvido.”',
@@ -304,7 +304,7 @@
                                 'input3' => '1'
                             ],
                             'questao17' => [
-                                'titulo' => '“Você está me dizendo que sua decisão, sem exceções, é não apenas definitiva, mas a melhor que qualquer um de nós seria capaz de tomar?”',
+                                'titulo' => '<b>(tranquilo)</b>“Você está me dizendo que sua decisão, sem exceções, é não apenas definitiva, mas a melhor que qualquer um de nós seria capaz de tomar?”',
                                 'questao1' => '“Absolutamente, você sabe tão bem quanto eu que não me aguentaria um mês se começasse a retratar-me de minhas decisões.”',
                                 'input1' => '1',
                                 'questao2' => '“Não é bem isso o que quero dizer. Estou simplesmente afirmando quais são as prioridades; caso as suas sejam diferentes, precisamos conhecê-las antes mesmo de começar a decidir.”',
@@ -313,7 +313,7 @@
                                 'input3' => '3'
                             ],
                             'questao18' => [
-                                'titulo' => '“Não consigo que alguém tome uma decisão por aqui. Você acha que chegará a época em que a pessoa com autoridade se prestará a dizer sim ou não, em vez de eximir-se?”',
+                                'titulo' => '<b>(ressentido)</b>“Não consigo que alguém tome uma decisão por aqui. Você acha que chegará a época em que a pessoa com autoridade se prestará a dizer sim ou não, em vez de eximir-se?”',
                                 'questao1' => '“Você está tendo dificuldades com alguém em particular, ou se trata de um sentimento generalizado?”',
                                 'input1' => '2',
                                 'questao2' => '“Duvido. Acho que eles gostam de nos manter no escuro, para que possam ter quem culpar quando as coisas dão errado.”',
