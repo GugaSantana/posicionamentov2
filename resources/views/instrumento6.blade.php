@@ -63,7 +63,7 @@
                                 </tr>
                                 @for($j=0;$j<4;$j++) <tr>
                                     <td><input data-toggle="tooltip" title="Quais são os objetivos de alta importância para você alcançar suas metas." type="text" class="form-control" name="objetivo{{$j}}" id="objetivo{{$j}}" placeholder="" @if($j==0) required @endif></td>
-                                    <td><input data-toggle="tooltip" title="Peso relativo do Objetivo. Ex: 15%, 20%, ..." id="pesoobjetivo{{$j}}" type="text" class="form-control" name="pesoobjetivo{{$j}}" placeholder="" onkeypress='return SomenteNumeroCem(event, this.id, "pesoobjetivo")' @if($j==0) required @endif></td>
+                                    <td><input data-toggle="tooltip" title="Peso relativo do Objetivo. Ex: 15%, 20%, ..." id="pesoobjetivo{{$j}}" type="text" class="form-control" name="pesoobjetivo{{$j}}" placeholder="" onblur="down15(this)" onkeypress='return SomenteNumeroCem(event, this.id, "pesoobjetivo")' @if($j==0) required @endif></td>
                                     @for($i=0;$i<8;$i++) <td><input data-toggle="tooltip" title="Registre os valores da escala: em que medida cada atividade que você está analisando contribui para alcançar cada objetivo" id="number{{$j}}-{{$i}}" type="text" class="form-control" name="percentualTempo{{$j}}-{{$i}}" placeholder="" onkeypress='return SomenteNumeroDez(event, this)' @if($j==0) required @endif></td>
                                         @endfor
                                         </tr>
@@ -134,6 +134,18 @@
                 $("#number").val(this.value.match(/[0-9]*/));
             });
         });
+
+        function down15(element){
+            if(element.value == ''){
+                return true;
+            }
+            number = element.value|0;
+            if(number < 15){
+                alert("Os pesos relativos de Alta importância devem ser iguais ou maiores que 15%");
+                element.value = '';
+                setTimeout(function() { element.focus(); }, 100); 
+            }
+        }
 
         function SomenteNumero(e) {
             var tecla = (window.event) ? event.keyCode : e.which;
