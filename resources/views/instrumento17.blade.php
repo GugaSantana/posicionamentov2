@@ -128,14 +128,14 @@
 
 
                         <p class="fonte18">Este instrumento lhe permitirá levar à prática a última etapa das Vendas Consultivas.</p>
-                        <p class="fonte18">Utilizando a escala de 1 a 5 que propomos, responda com que freqüência você utiliza cada uma dessas técnicas de fechamento da venda.</p>
+                        <p class="fonte18">Utilizando a escala de 0 a 4 que propomos, responda com que freqüência você utiliza cada uma dessas técnicas de fechamento da venda.</p>
 
                         <p class="fonte18"><font style="color:blue">Escala:</font><br>
-                        1- Nunca utilizo esta técnica (frequência 0)<br>
-                        2- Raramente utilizo esta técnica<br>
-                        3- As vezes, de vez em quando utilizo esta técnica<br>
-                        4- Com certa freqüência utilizo esta técnica<br>
-                        5- Com muita freqüência utilizo esta técnica<br>
+                        0- Nunca utilizo esta técnica<br>
+                        1- Raramente utilizo esta técnica<br>
+                        2- As vezes, de vez em quando utilizo esta técnica<br>
+                        3- Com certa freqüência utilizo esta técnica<br>
+                        4- Com muita freqüência utilizo esta técnica<br>
                         </p>
                     </div>
 
@@ -224,11 +224,11 @@ Exemplo: " utilizando as técnicas do gerenciamento de Campo Psicológico, obser
                                         </tr>
                                         <tr>
                                             <td style="font-size: 18px; text-align: center; vertical-align: middle;"></td>
+                                            <td style="font-size: 18px; text-align: center;">0</td>
                                             <td style="font-size: 18px; text-align: center;">1</td>
                                             <td style="font-size: 18px; text-align: center;">2</td>
                                             <td style="font-size: 18px; text-align: center;">3</td>
                                             <td style="font-size: 18px; text-align: center;">4</td>
-                                            <td style="font-size: 18px; text-align: center;">5</td>
                                         </tr>
                                         </thead>
                                         @php $i=0 @endphp
@@ -239,7 +239,7 @@ Exemplo: " utilizando as técnicas do gerenciamento de Campo Psicológico, obser
                                                 
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                    <input type="radio" class="custom-control-input" name="radio{{$i}}" id="radio1{{$i}}" value="1" required>
+                                                    <input type="radio" class="custom-control-input" name="radio{{$i}}" id="radio1{{$i}}" value="0" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="radio1{{$i}}"></label>
                                             </div>
                                         
@@ -249,7 +249,7 @@ Exemplo: " utilizando as técnicas do gerenciamento de Campo Psicológico, obser
                                                 
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                    <input type="radio" class="custom-control-input" name="radio{{$i}}" id="radio2{{$i}}" value="2" required>
+                                                    <input type="radio" class="custom-control-input" name="radio{{$i}}" id="radio2{{$i}}" value="1" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="radio2{{$i}}"></label>
                                             </div>
                                         
@@ -259,7 +259,7 @@ Exemplo: " utilizando as técnicas do gerenciamento de Campo Psicológico, obser
                                                 
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                    <input type="radio" class="custom-control-input" name="radio{{$i}}" id="radio3{{$i}}" value="3" required>
+                                                    <input type="radio" class="custom-control-input" name="radio{{$i}}" id="radio3{{$i}}" value="2" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="radio3{{$i}}"></label>
                                             </div>
                                         
@@ -269,7 +269,7 @@ Exemplo: " utilizando as técnicas do gerenciamento de Campo Psicológico, obser
                                                 
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                    <input type="radio" class="custom-control-input" name="radio{{$i}}" id="radio4{{$i}}" value="4" required>
+                                                    <input type="radio" class="custom-control-input" name="radio{{$i}}" id="radio4{{$i}}" value="3" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="radio4{{$i}}"></label>
                                             </div>
                                         
@@ -279,7 +279,7 @@ Exemplo: " utilizando as técnicas do gerenciamento de Campo Psicológico, obser
                                                 
                                                 
                                                 <div class="custom-control custom-radio mb-3">
-                                                    <input type="radio" class="custom-control-input" name="radio{{$i}}" id="radio5{{$i}}" value="5" required>
+                                                    <input type="radio" class="custom-control-input" name="radio{{$i}}" id="radio5{{$i}}" value="4" required>
                                                 <label style="cursor: pointer" class="custom-control-label" for="radio5{{$i}}"></label>
                                             </div>
                                         

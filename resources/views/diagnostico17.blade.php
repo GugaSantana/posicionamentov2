@@ -85,11 +85,11 @@
 
                     <p class="fonte18">Inicialmente reproduzimos a escala que foi utilizada para obter suas respostas, como referência para as conclusões diagnósticas.</p>
                     <p class="fonte18">Escala:<br>
-                    1- Nunca utilizo esta técnica (frequência 0)<br>
-                    2- Raramente utilizo esta técnica<br>
-                    3- As vezes, de vez em quando utilizo esta técnica<br>
-                    4- Com certa freqüência utilizo esta técnica<br>
-                    5- Com muita freqüência utilizo esta técnica</p>
+                    0- Nunca utilizo esta técnica<br>
+                    1- Raramente utilizo esta técnica<br>
+                    2- As vezes, de vez em quando utilizo esta técnica<br>
+                    3- Com certa freqüência utilizo esta técnica<br>
+                    4- Com muita freqüência utilizo esta técnica</p>
                     <p class="fonte18">As Técnicas de Fechamento de vendas que foram apresentadas no questionário que você respondeu são as seguintes:</p>
 
                     @php
@@ -162,29 +162,30 @@ Eu mostro os prejuízos que lhe podem acontecer ao cliente se no fecha a compra 
                     <br>
 
                         <p class="fonte18">As primeiras 11 técnicas estão muito mais relacionadas com a abordagem “Hard Sell” de vendas, enquanto a 12a Técnica de Fechamento é específica do modelo “Soft Sell”</p>
-                        <p class="fonte18" style="color: red"><b>Hard Sell</b> - Seu resultado aponta o valor <b>{{$hard}}</b> com que você utiliza as Técnicas de Hard Sell na escala de 1 a 5 que você respondeu.</p>
-                        <p class="fonte18" style="color: red"><b>Soft Sell</b> - Seu resultado aponta o valor <b>{{$soft}}</b> com que você utiliza a Técnica de Soft Sell na escala de 1 a 5 que você respondeu ( 12ª – Fechamento Natural)</p>
+                        <p class="fonte18" style="color: red"><b>Hard Sell</b> - Seu resultado aponta o valor <b>{{$hard}}</b> com que você utiliza as Técnicas de Hard Sell na escala de 0 a 4 que você respondeu.</p>
+                        <p class="fonte18" style="color: red"><b>Soft Sell</b> - Seu resultado aponta o valor <b>{{$soft}}</b> com que você utiliza a Técnica de Soft Sell na escala de 0 a 4 que você respondeu ( 12ª – Fechamento Natural)</p>
+                        <p class="fonte18">Isto significa que você utiliza mais as técnicas de Fechamento de Vendas Tradicionais do que a Técnica de Fechamento própria das Vendas Consultivas</p>
                         <br>
                         <p class="fonte18"><h4><center>RECOMENDAÇÕES</center></h4></p>
 
-                        <p class="fonte18">Conforme os conceitos apresentados, você deve migrar do fechamento de vendas do paradigma Hard Sell para o fechamento de vendas do paradigma Soft Sell.</p>
-                        <p class="fonte18">A recomendação mais importante, portanto, é desenvolver a técnica de FECHAMENTO NATURAL de modo que essa técnica alcance o nível 5 da escala, isto é, que seja utilizada com a maior freqüência possível .</p>
-                        <p class="fonte18">Para conseguir este objetivo você deve aplicar a metodologia das Vendas Consultivas apresentadas nos 20 instrumentos deste programa.</p>
-                        <p class="fonte18">Ao mesmo tempo, aumente seu repertório de técnicas de fechamento convencionais desenvolvendo-as começando pelas técnicas que apresentam os valores mais baixos.</p>
-                        <p class="fonte18">Isto lhe permitirá ter versatilidade no fechamento. Todavia, estabeleça como principal objetivo migrar suas técnicas de fechamento para a técnica: Fechamento Natural e monitore esta evolução.</p>
+                        <p class="fonte18">Conforme os conceitos apresentados, você deve desenvolver e tratar de migrar do fechamento de vendas do paradigma Hard Sell para o fechamento de vendas do paradigma Soft Sell.</p>
+                        <p class="fonte18">Todavia, você não deve abandonar as Técnicas de Fechamento próprias do modelo do Hard Sell, isto porque a recomendação mais estratégica deste instrumento é que você tenha um amplo repertório de técnicas de fechamento e as utilize conforme sua SENSIBILIDADE SITUACIONAL.</p>
+                        <p class="fonte18">A Sensibilidade Situacional para utilizar uma ou outra técnica de fechamento será dada pelas conclusões a que você chegar sobre o perfil de seu cliente e as características do campo psicológico no momento do fechamento.</p>
+                        <p class="fonte18">A recomendação mais estratégica é desenvolver a técnica de FECHAMENTO NATURAL de modo que essa técnica alcance o nível 4 da escala, e que seja utilizada com a maior freqüência possível .</p>
+                        <p class="fonte18">Ao mesmo tempo, aumente seu repertório de técnicas de fechamento convencionais e desenvolva-as começando pelas técnicas que apresentam os valores mais baixos.</p>
+                        <p class="fonte18">Como foi demonstrado, isto lhe permitirá ter versatilidade no fechamento. Todavia, estabeleça como principal objetivo migrar suas técnicas de fechamento para a técnica: Fechamento Natural e monitore esta evolução.</p>
                         <p class="fonte18">Somente aplicando as recomendações dos outros 19 instrumentos da metodologia você terá condições de aplicar a Técnica de Fechamento Natural.</p>
                         <p class="fonte18">Em última instância a recomendação estratégica é a seguinte:</p>
                         <p class="fonte18">“Não venda conforme as premissas da Venda Transacional” (técnicas de fechamento de 1 a 11),conduza o processo de venda para que o cliente compre utilizando a Técnica de Fechamento Natural (Soft Sell).</p>
-                        <p class="fonte18">O objetivo das recomendações é que você tenha um Banco de Técnicas de fechamento que poderá auxiliá-lo conforme as situações.</p>
-                        <p class="fonte18">Sua sensibilidade para utilizar as técnicas de fechamento corretas será determinada por suas competências comportamentais desenvolvidas pela implementação das recomendações dos seguintes instrumentos:</p>
+                        <p class="fonte18">Em síntese, o objetivo das recomendações é que você tenha um Banco de Técnicas de Fechamento que poderá auxiliá-lo conforme as situações.</p>
+                        <p class="fonte18">Sua sensibilidade para utilizar as técnicas de fechamento corretas será determinada por suas competências comportamentais desenvolvidas com a implementação das recomendações dos seguintes instrumentos:</p>
 
                         <p class="fonte18">- Instrumento 7 – Gerenciamento de relacionamento através dos Estados do Ego.<br>
                         - Instrumento 8 – Gerenciamento de relacionamento através da Exposição e do Feedback<br>
                         - Instrumento 9 – Gerenciamento de relacionamento usando os Canais Neurolinguisticos<br>
-                        - Instrumento 10 – Gerenciamento de relacionamento através da Inteligência Emocional</p>
+                        - Instrumento 10 – Gerenciamento de relacionamento através da Inteligência Emociona</p>
 
-                        <p class="fonte18">Você também poderá se beneficiar do monitoramento do processo de venda para escolher a técnica de fechamento mais adequada . Para este fim utilize o F17, Força Propulsora apresentada no Instrumento 15 – Desenvolvimento da Quantidade e da Qualidade dos meus argumentos de vendas (Forças Propulsoras).</p>
-                        <p class="fonte18">Assim estará aplicando a metodologia das Vendas Consultivas para o Fechamento das Vendas.</p>
+                        <p class="fonte18">Você também poderá se beneficiar do monitoramento do processo de venda para escolher a técnica de fechamento mais adequada. Para este fim utilize o F17, Força Propulsora apresentada no Instrumento 15 – Desenvolvimento da Quantidade e da Qualidade dos meus argumentos de vendas (Forças Propulsoras).</p>
 
                         <!-- RESPOSTA DE ACORDO COM REQUISIÇÃO -->
                         <!-- <p class="fonte18"><h4>Diagnóstico - $retorno['titulo']</h4></p>
