@@ -164,7 +164,6 @@ Eu mostro os prejuízos que lhe podem acontecer ao cliente se no fecha a compra 
                         <p class="fonte18">As primeiras 11 técnicas estão muito mais relacionadas com a abordagem “Hard Sell” de vendas, enquanto a 12a Técnica de Fechamento é específica do modelo “Soft Sell”</p>
                         <p class="fonte18" style="color: red"><b>Hard Sell</b> - Seu resultado aponta o valor <b>{{$hard}}</b> com que você utiliza as Técnicas de Hard Sell na escala de 0 a 4 que você respondeu.</p>
                         <p class="fonte18" style="color: red"><b>Soft Sell</b> - Seu resultado aponta o valor <b>{{$soft}}</b> com que você utiliza a Técnica de Soft Sell na escala de 0 a 4 que você respondeu ( 12ª – Fechamento Natural)</p>
-                        <p class="fonte18">Isto significa que você utiliza mais as técnicas de Fechamento de Vendas Tradicionais do que a Técnica de Fechamento própria das Vendas Consultivas</p>
                         <br>
                         <p class="fonte18"><h4><center>RECOMENDAÇÕES</center></h4></p>
 
