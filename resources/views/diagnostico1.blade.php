@@ -110,7 +110,7 @@
             <p class="fonte18">Ação é atividade, é trabalho sobre a realidade para alcançar objetivos.</p>
             <p class="fonte18">A ação se contrapõe à contemplação, à passividade. É a capacidade de agir, de transformar, de fazer esforços para alcançar um objetivo.</p>
             <p class="fonte18">A figura seguinte mostra a correlação entre a Visão e a Ação e todas as combinações possíveis de valores</p>
-            <center><img src="../posicionamento/public/img/instrumento1/diag1_2.jpg" style="width: 50%"></center>
+            <center><img src="../posicionamento/public/img/instrumento1/diag1_2.png" style="width: 50%"></center>
             <br>
             <p class="fonte18">A seguir apresentamos sua posição diagnóstica considerando suas respostas ao questionário.</p>
 
