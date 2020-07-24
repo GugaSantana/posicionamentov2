@@ -113,7 +113,7 @@
                     </div>
                     <br>
                     <h4><center>MATRIZ DE ANÁLISE DE PROBLEMAS</center></h4>
-                    <center><img src="../posicionamento/public/img/inst2_1.png"></center>
+                    <center><img src="../posicionamento/public/img/instrumento2/inst2_1.png"></center>
                     <br>
                     <div class="row">
                         <div class="col-12" style="overflow: auto;">

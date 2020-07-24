@@ -74,7 +74,7 @@
                     <p class="fonte18">O Relatório do Progresso é o instrumento que permite acompanhar a evolução (o progresso) do <b>Instrumento 19 – Plano de Ação Quantitativo para alcançar suas Metas de Venda.</b></p>
                     <p class="fonte18">A importância deste instrumento é muito grande porque permite que seus Planos de Ação não saiam de controle</p>
 
-                    <center><img src="../posicionamento/public/img/diag_20_1.png" style="width: 60%;"></center><br>
+                    <center><img src="../posicionamento/public/img/instrumento20/diag_20_1.jpg" style="width: 60%;"></center><br>
 
                     <p class="fonte18">Esta figura ilustra a diferença entre um Plano de Ação gerenciado e um Plano de Ação não gerenciado.</p>
                     <p class="fonte18">Quando um Plano de Ação é gerenciado, as possibilidades de alcançar o objetivo desejado é infinitamente maior.</p>

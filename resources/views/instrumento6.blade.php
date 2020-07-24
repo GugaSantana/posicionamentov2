@@ -108,7 +108,7 @@
                         <p class="fonte18">D- Agora com as variáveis de entrada preparadas você deve preencher a Matriz, respondendo a seguinte pergunta:</p>
                         <p class="fonte18">Em que medida, em uma escala de 1 a 10, cada atividade contribui para alcançar um objetivo? Utilize a escala a seguir:</p>
 
-                        <center><img src="../posicionamento/public/img/inst6_1.png"></center>
+                        <center><img src="../posicionamento/public/img/instrumento6/inst6_1.png"></center>
 
                         <br>
 

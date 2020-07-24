@@ -65,7 +65,7 @@
                     <p class="fonte18">Para estabelecer uma comunicação eficaz é preciso entender o Modelo Mental do Cliente e interagir conforme sua maneira de ver o mundo.</p>
                     <p class="fonte18">Existem três Modelos Mentais que levam a três perfis diferentes de comunicação, como mostra o exemplo na figura seguinte</p>
 
-                    <center><img src="../posicionamento/public/img/diag_9_3.jpg" style="width: 50%"></center>
+                    <center><img src="../posicionamento/public/img/instrumento9/diag_9_3.jpg" style="width: 50%"></center>
 
                     <p class="fonte18"><font style="color: #35408f">- O MODELO VISUAL:</font> É próprio das pessoas com um quadro mental que leva a entender o mundo por meio de imagens, gráficos, filmes, esquemas e outros recursos visuais.</p>
                     <p class="fonte18">Estas pessoas tendem a se comunicar através de imagens. Desenham enquanto falam, traduzem as idéias em esquemas gráficos e usam palavras com conotação visual.</p>

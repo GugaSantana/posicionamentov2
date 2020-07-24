@@ -21,7 +21,7 @@
                     <p class="fonte18">O Hemisfério Direito é a sede das emoções, dos sentimentos, da sensibilidade e da criatividade.</p>
                     <p class="fonte18">A Inteligência Emocional está vinculada ao hemisfério direito, porém deve ser monitorada pelo hemisfério esquerdo.</p>
 
-                    <center><img src="../posicionamento/public/img/diag_10_1.jpg" style="width: 50%"></center>
+                    <center><img src="../posicionamento/public/img/instrumento10/diag_10_1.jpg" style="width: 50%"></center>
 
                     <p class="fonte18">Pessoas que aprendem a lidar com a Inteligência Emocional sabem pensar, sentir e agir de forma inteligente e consciente, e não permitem que as suas emoções administrem sua vida e nem atrapalhem seu trabalho.</p>
 

@@ -76,7 +76,7 @@
                     <p class="fonte18">O perfil do fechamento é completamente diferente desses dois modelos ou abordagens de vendas.</p>
                     <p class="fonte18">A figura seguinte representa os dois paradigmas de vendas.</p>
 
-                    <center><img src="../posicionamento/public/img/diag_17_1.png" style="width: 70%;"></center><br>
+                    <center><img src="../posicionamento/public/img/instrumento17/diag_17_1.jpg" style="width: 70%;"></center><br>
 
                     <p class="fonte18">Os triângulos invertidos representam o tempo gasto em cada fase das etapas da venda nos paradigmas “Hard Sell e Soft Sell”</p>
 

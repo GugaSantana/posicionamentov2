@@ -82,7 +82,7 @@
                     <p class="fonte18">A maioria dos vendedores dispõe de poucos argumentos, muitas vezes de pouco valor de convencimento. Isto compromete os resultados.</p>
                     <p class="fonte18">Imagine a seguinte situação real, uma constante na em nossa experiência com esta metodologia.</p>
 
-                    <center><img src="../posicionamento/public/img/diag_15_1.png" style="width: 70%;"></center><br>
+                    <center><img src="../posicionamento/public/img/instrumento15/diag_15_1.jpg" style="width: 70%;"></center><br>
 
                     <p class="fonte18">Desta situação podemos concluir que o vendedor apresenta:<br>
                     - Poucos argumentos<br>

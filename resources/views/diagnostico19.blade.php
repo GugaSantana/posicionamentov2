@@ -77,7 +77,7 @@
                     <p class="fonte18">Neste instrumento é desenvolvida a metodologia para desenvolver os Planos de Ação que permitam alcançar os objetivos que você se propõe alcançar.</p>
                     <p class="fonte18">O processo de administração profissional consiste basicamente em Tomar Decisões e Implementar essas decisões tomadas. Este instrumento serve para implementar as decisões que você tomou para alcançar suas metas.</p>
 
-                    <center><img src="../posicionamento/public/img/diag_19_1.png" style="width: 60%;"></center><br>
+                    <center><img src="../posicionamento/public/img/instrumento19/diag_19_1.jpg" style="width: 60%;"></center><br>
 
                     <p class="fonte18">Trata-se de um Plano de Ação estruturado que permitirá o deslocamento da Etapa A - Decisão tomada, porém não implementada até a Etapa C - quando a Decisão tomada já foi implementada e os resultados são alcançados.</p>
                     <p class="fonte18">As atividades que devem ser gerenciadas pelo Plano de Ação proposto nesta metodologia são os seguintes:</p>
@@ -291,12 +291,12 @@
 
                     <p class="fonte18">Este instrumento também poderá ser utilizado para complementar e detalhar mais o Plano de Ação para implementar as Recomendações , instrumento apresentado na Autogestão da Metodologia, que reproduzimos a seguir:</p>
 
-                    <center><img src="../posicionamento/public/img/diag_19_2.png" style="width: 70%;"></center><br>
+                    <center><img src="../posicionamento/public/img/instrumento19/diag_19_2.png" style="width: 70%;"></center><br>
 
                     <p class="fonte18">Se você utilizar os Planos de Ação 5W +2H para implementar as recomendações feitas, você estará implementando o Kaizen.</p>
                     <p class="fonte18">Kaizen é uma técnica japonesa de Melhoria Continua das atividades. Consiste em aplicar cada vez mais metodologia no trabalho para obter melhores resultados com o passar do tempo, com pode ser representado na figura seguinte:</p>
 
-                    <center><img src="../posicionamento/public/img/diag_19_3.png" style="width: 70%;"></center><br>
+                    <center><img src="../posicionamento/public/img/instrumento19/diag_19_3.jpg" style="width: 70%;"></center><br>
                     
                     <p class="fonte18">O Kaizen acaba sendo uma filosofia de trabalho, caracterizada por fazer cada vez melhor as mesmas coisas aumentando assim a eficácia e melhorando sistematicamente os resultados.</p>
                     

@@ -55,7 +55,7 @@
 
                             <p class="fonte18">Utilize a escala abaixo para estabelecer o quanto você conhece de cada produto.</p>
 
-                            <center><img src="../posicionamento/public/img/inst4_2.png"></center>
+                            <center><img src="../posicionamento/public/img/instrumento4/inst4_2.png"></center>
                         <br>
                                                 <form name="formulario" role="form" method="post" action="instrumento/4">
                         {!! csrf_field() !!}

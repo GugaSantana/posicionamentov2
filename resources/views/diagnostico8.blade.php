@@ -72,13 +72,13 @@
                         <p class="fonte18">Cruzando estas duas variáveis se geram 4 quadrantes que devem ser administrados pelo vendedor para <b>“gerenciar”</b> o Campo Psicológico com o cliente e viabilizar as vendas de maneira mais produtiva.</p>
                         <p class="fonte18">A figura seguinte mostra graficamente a interação destas duas variáveis nas quais se fundamentam seu diagnóstico e as recomendações que serão feitas.</p>
 
-                        <center><img src="../posicionamento/public/img/diag_8_1.jpg" style="width: 40%;"></center>
+                        <center><img src="../posicionamento/public/img/instrumento8/diag_8_1.jpg" style="width: 40%;"></center>
                         <br>
 
                         <p class="fonte18">Você respondeu um questionário que é a base para seu diagnóstico e para as recomendações com o objetivo de que você possa gerenciar os processos de <b>EXPOSIÇÃO</b> e de <b>FEEDBACK</b> para melhorar de maneira técnica, o relacionamento com seus clientes.</p>
                         <p class="fonte18">Para facilitar a compreensão do diagnóstico e das recomendações, começaremos caracterizando o que representa cada uma dessas quatro áreas ou quadrantes do modelo.</p>
 
-                        <center><img src="../posicionamento/public/img/diag_8_2.jpg" style="width: 40%;"></center>
+                        <center><img src="../posicionamento/public/img/instrumento8/diag_8_2.jpg" style="width: 40%;"></center>
                         <br>
 
                         <p class="fonte18"><b>Quadrante 1:</b> O EU ABERTO, representa as facetas da personalidade conhecidas pela própria pessoa e que está disposta a abrir aos outros. Nesta área tanto a pessoa como os outros tem a percepção e acesso a seus conteúdos, os seja, os outros vêem a pessoa exatamente como ela se vê.</p>
@@ -267,7 +267,7 @@
                         <p class="fonte18">Este partilhar proposital é denominado de processo de <b>Exposição</b> e consiste na demonstração aberta e sincera de sentimentos, conhecimentos e suposições, em uma tentativa consciente de compartilhar algo.</p>
                         <p class="fonte18">O Processo de Exposição (linha vertical no gráfico) é controlado pelo Eu e nós podemos usá-lo para estabelecer um clima de confiança e estimular as exposições mútuas com o cliente.</p>
 
-                        <center><img src="../posicionamento/public/img/diag_8_4.jpg" style="width: 40%;"></center>
+                        <center><img src="../posicionamento/public/img/instrumento8/diag_8_4.jpg" style="width: 40%;"></center>
                         <br>
 
                         <p class="fonte18">
@@ -280,7 +280,7 @@
                         <p class="fonte18">Só podemos reduzir nosso EU CEGO se os outros cooperarem com Feedback.</p>
                         <p class="fonte18">Naturalmente nossa disposição em agir aberta e sinceramente influencia a cooperação e a confiança dos outros.</p>
 
-                        <center><img src="../posicionamento/public/img/diag_8_5.jpg" style="width: 40%;"></center>
+                        <center><img src="../posicionamento/public/img/instrumento8/diag_8_5.jpg" style="width: 40%;"></center>
                         <br>
 
                         <p class="fonte18">Para compreender as recomendações, você deve considerar o perfil de sua janela em quatro dimensões:</p>
@@ -290,7 +290,7 @@
                             4 – O tamanho da janela.</p>
                         <p class="fonte18">As figuras seguintes representam estes conceitos:</p>
 
-                        <center><img src="../posicionamento/public/img/diag_8_6.jpg" style="width: 100%;"></center>
+                        <center><img src="../posicionamento/public/img/instrumento8/diag_8_6.jpg" style="width: 100%;"></center>
                         <br>
 
                         <p class="fonte18">Observe o perfil de sua janela no gráfico apresentado no seu diagnóstico. Você poderá concluir facilmente com qual dos quatro perfis acima apresentados mais se assemelha seu diagnóstico.</p>
@@ -306,7 +306,7 @@
                             <h4>PRIMEIRO TIPO DE PERFIL</h4>
                         </p>
 
-                        <center><img src="../posicionamento/public/img/diag_8_7.jpg" style="width: 40%;"></center>
+                        <center><img src="../posicionamento/public/img/instrumento8/diag_8_7.jpg" style="width: 40%;"></center>
                         <br>
 
                         <p class="fonte18">A recomendação para este tamanho e formato de janela, se for seu caso, é desenvolver os processos de Exposição e Feedback para reduzir a área do EU DESCONHECIDO, que atualmente domina.</p>
@@ -323,7 +323,7 @@
                             <h4>SEGUNDO TIPO DE PERFIL</h4>
                         </p>
 
-                        <center><img src="../posicionamento/public/img/diag_8_8.jpg" style="width: 40%;"></center>
+                        <center><img src="../posicionamento/public/img/instrumento8/diag_8_8.jpg" style="width: 40%;"></center>
                         <br>
 
                         <p class="fonte18">Se este for seu caso, você deve aumentar sua Exposição. Este formato de janela mostra que o Feedback é o processo que você mais utiliza para estabelecer o relacionamento e que é utilizado em excesso por você.</p>
@@ -337,7 +337,7 @@
                             <h4>TERCEIRO TIPO DE PERFIL</h4>
                         </p>
 
-                        <center><img src="../posicionamento/public/img/diag_8_9.jpg" style="width: 40%;"></center>
+                        <center><img src="../posicionamento/public/img/instrumento8/diag_8_9.jpg" style="width: 40%;"></center>
                         <br>
 
                         <p class="fonte18">Se este for seu caso, você utiliza de maneira excessiva a Exposição em detrimento do Feedback.</p>
@@ -353,7 +353,7 @@
                             <h4>QUARTO TIPO DE PERFIL</h4>
                         </p>
 
-                        <center><img src="../posicionamento/public/img/diag_8_10.jpg" style="width: 40%;"></center>
+                        <center><img src="../posicionamento/public/img/instrumento8/diag_8_10.jpg" style="width: 40%;"></center>
                         <br>
 
                         <p class="fonte18">Se sua janela apresenta este formato e tamanho, você deve manter os processos de Exposição e Feedback de modo que sua janela continue ampla e equilibrada. Isto transmite franqueza, sinceridade e sensibilidade pelas necessidades do cliente.</p>
@@ -364,12 +364,12 @@
                         <p class="fonte18">1. Peça a uma pessoa que conhece bem você que pense e desenhe o formato e o tamanho de sua JANELA e peça que lhe explique porque você é percebido(a) assim.</p>
                         <p class="fonte18">(Mecanismo de Feedback)</p>
 
-                        <center><img src="../posicionamento/public/img/diag_8_3.jpg" style="width: 40%;"></center>
+                        <center><img src="../posicionamento/public/img/instrumento8/diag_8_3.jpg" style="width: 40%;"></center>
                         <br>
 
                         <p class="fonte18">2. Pense e desenhe num formulário igual, porém da pessoa que você escolheu, o formato e o tamanho da janela que você percebe nele ou nela e explique-lhe porque o/a percebe assim. (Mecanismo de Exposição)</p>
 
-                        <center><img src="../posicionamento/public/img/diag_8_3.jpg" style="width: 40%;"></center>
+                        <center><img src="../posicionamento/public/img/instrumento8/diag_8_3.jpg" style="width: 40%;"></center>
                         <br>
 
                         <p class="fonte18">3. Peça a essa pessoa que comente atitudes ou comportamentos de você que causaram impacto negativo nele/nela. (Mecanismo de Feedback)</p>

@@ -64,7 +64,7 @@
                         <p class="fonte18">O Funil de Vendas é uma representação gráfica da Jornada dos Clientes, que começa na PROSPECÇÃO e se estende até o FECHAMENTO DA VENDA.</p>
                         <p class="fonte18">Todas as etapas das Vendas Consultivas podem ser gerenciadas com o Funil de Vendas, como mostra a figura: </p>
 
-                        <center><img src="../posicionamento/public/img/diag18_1.jpg" style="width: 50%; padding-bottom: 2%;"></center> <!-- ../posicionamento/public/img/diag6_1.png -->
+                        <center><img src="../posicionamento/public/img/instrumento18/diag18_1.png" style="width: 50%; padding-bottom: 2%;"></center> <!-- ../posicionamento/public/img/instrumento18/diag6_1.png -->
 
                         <p class="fonte18">O Funil de Vendas lhe permite ter uma visão sistêmica de como está avançando o processo de vendas com seu cliente.</p>
                         <p class="fonte18">O funil representa e permite gerenciar as 5 etapas sequenciais das Vendas Consultivas.</p>

@@ -54,7 +54,7 @@
                             <p class="fonte18">Na seguinte Matriz registre os 10 principais produtos concorrentes e o nível de conhecimento que você considera ter de cada um deles</p>
                             <p class="fonte18">Utilize a escala abaixo para estabelecer o quanto você conhece de cada produto.</p>
 
-                            <center><img src="../posicionamento/public/img/inst5_2.png"></center>
+                            <center><img src="../posicionamento/public/img/instrumento5/inst5_2.png"></center>
                         <br>
                         
                         <form name="formulario" role="form" method="post" action="instrumento/5">

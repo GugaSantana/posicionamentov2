@@ -73,7 +73,7 @@
             <p class="fonte18">Sabemos que temos um problema quando surge um desvio entre o que foi planejado e a realidade.</p>
             <p class="fonte18">Temos freqüentes desvios em nossas atividades.</p>
 
-            <center><img src="../posicionamento/public/img/diag2_1.jpg" style="width: 60%;"></center>
+            <center><img src="../posicionamento/public/img/instrumento2/diag2_1.jpg" style="width: 60%;"></center>
             <br>
             <p class="fonte18">Um problema surge quando se apresenta um desvio e não sabemos qual é a causa desse desvio.</p>
             <p class="fonte18">Se soubermos qual é a causa do desvio, não temos um problema.</p>

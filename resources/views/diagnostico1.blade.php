@@ -85,7 +85,7 @@
             <br>
             <p class="fonte18">O empreendedorismo somente é possível se tivermos clara e bem definida uma Visão de Futuro e agirmos para que ela se realize alinhando todos nossos comportamentos e decisões.</p>
             <p class="fonte18">Ilustramos graficamente estes conceitos:</p>
-            <center><img src="../posicionamento/public/img/diag1_1.jpg" style="width: 45%"></center>
+            <center><img src="../posicionamento/public/img/instrumento1/diag1_1.jpg" style="width: 45%"></center>
             <br>
             <p class="fonte18">
                 <h4>
@@ -110,7 +110,7 @@
             <p class="fonte18">Ação é atividade, é trabalho sobre a realidade para alcançar objetivos.</p>
             <p class="fonte18">A ação se contrapõe à contemplação, à passividade. É a capacidade de agir, de transformar, de fazer esforços para alcançar um objetivo.</p>
             <p class="fonte18">A figura seguinte mostra a correlação entre a Visão e a Ação e todas as combinações possíveis de valores</p>
-            <center><img src="../posicionamento/public/img/diag1_2.jpg" style="width: 50%"></center>
+            <center><img src="../posicionamento/public/img/instrumento1/diag1_2.jpg" style="width: 50%"></center>
             <br>
             <p class="fonte18">A seguir apresentamos sua posição diagnóstica considerando suas respostas ao questionário.</p>
 

@@ -862,7 +862,7 @@ class InstrumentoController extends Controller
             <p class='fonte18'>Numa escala onde:</p>
             <table>
             <tr>
-                <td rowspan='3'><img src='../posicionamento/public/img/diag_12_2.png' style='width: 100%;'></td>
+                <td rowspan='3'><img src='../posicionamento/public/img/instrumento12/diag_12_2.png' style='width: 100%;'></td>
                 <td><p class='fonte18'>De 1 a 5</p></td>
             </tr>
             <tr>
@@ -876,7 +876,7 @@ class InstrumentoController extends Controller
             
                         
             <p class='fonte18'><b>Esta é sua posição na escala:</b></p>
-            <center><img src='../posicionamento/public/img/diag_12_c.png' style='width: 20%;'></center><br>
+            <center><img src='../posicionamento/public/img/instrumento12/diag_12_c.png' style='width: 20%;'></center><br>
             
             <p class='fonte18' style='color: red'>De 9 a 10 – Seus resultados levam a concluir que sua atividade de Prospecção de  clientes apresenta um excelente nível de eficácia. </p>
             
@@ -891,7 +891,7 @@ class InstrumentoController extends Controller
             <p class='fonte18'>Numa escala onde:</p>
             <table>
             <tr>
-                <td rowspan='3'><img src='../posicionamento/public/img/diag_12_2.png' style='width: 100%;'></td>
+                <td rowspan='3'><img src='../posicionamento/public/img/instrumento12/diag_12_2.png' style='width: 100%;'></td>
                 <td><p class='fonte18'>De 1 a 5</p></td>
             </tr>
             <tr>
@@ -904,7 +904,7 @@ class InstrumentoController extends Controller
             </table>
 
             <p class='fonte18'><b>Esta é sua posição na escala:</b></p>
-            <center><img src='../posicionamento/public/img/diag_12_b.png' style='width: 20%;'></center><br>
+            <center><img src='../posicionamento/public/img/instrumento12/diag_12_b.png' style='width: 20%;'></center><br>
             
             <p class='fonte18' style='color: red'>De 6 a 8 – Seus resultados mostram que sua atividade de Prospecção de clientes apresenta um nível intermediário de consistência. </p>
             ";
@@ -917,7 +917,7 @@ class InstrumentoController extends Controller
             <p class='fonte18'>Numa escala onde:</p>
             <table>
             <tr>
-                <td rowspan='3'><img src='../posicionamento/public/img/diag_12_2.png' style='width: 100%;'></td>
+                <td rowspan='3'><img src='../posicionamento/public/img/instrumento12/diag_12_2.png' style='width: 100%;'></td>
                 <td><p class='fonte18'>De 1 a 5</p></td>
             </tr>
             <tr>
@@ -930,7 +930,7 @@ class InstrumentoController extends Controller
             </table>
 
             <p class='fonte18'><b>Esta é sua posição na escala:</b></p>
-            <center><img src='../posicionamento/public/img/diag_12_a.png' style='width: 20%;'></center><br>
+            <center><img src='../posicionamento/public/img/instrumento12/diag_12_a.png' style='width: 20%;'></center><br>
 
             <p class='fonte18' style='color: red'>De 1 a 5 – Seus resultados mostram que sua atividade de Prospecção de clientes apresenta sérios problemas, tendo em conseqüência pouca eficácia.</p>
         ";

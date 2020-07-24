@@ -78,7 +78,7 @@
                     <br>
                     <p class="fonte18">Os obstáculos ou Forças Restritivas devem ser gerenciados para que o Campo de Forças formado pelas Forças Propulsoras e as Forças Restritivas, tenha maior intensidade a favor das Forças Propulsoras, como mostra a figura seguinte</p>
 
-                    <center><img src="../posicionamento/public/img/diag_16_1.png" style="width: 60%;"></center><br>
+                    <center><img src="../posicionamento/public/img/instrumento16/diag_16_1.jpg" style="width: 60%;"></center><br>
 
 <p class="fonte18">Assim funciona o Campo de Forças.</p>
 <p class="fonte18">Esta é a Base Conceitual deste Instrumento. Você pode correlacionar este instrumento com o anterior das Forças Propulsoras.</p>

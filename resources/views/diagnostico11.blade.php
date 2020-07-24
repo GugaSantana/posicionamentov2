@@ -62,7 +62,7 @@
                     <p class="fonte18">Segmentação é a seleção do publico alvo para desenvolver o trabalho, dentre todos os públicos que constituem o mercado, e serve para dar Foco a seu trabalho e facilitar o alcance de suas metas de faturamento.</p>
                     <p class="fonte18">Vamos fazer uma analogia para entender o significado de Cliente Ideal. Imagine que os clientes sejam frutas. A melhor estratégia para vender (e vender rápido) é pegar em primeiro lugar as frutas que estão nos galhos mais baixos.</p>
 
-                    <center><img src="../posicionamento/public/img/diag_11_1.jpg" style="width: 50%;"></center>
+                    <center><img src="../posicionamento/public/img/instrumento11/diag_11_1.jpg" style="width: 50%;"></center>
                     <br>
                     <p class="fonte18">Se você tem um objetivo de quantidade de frutas para pegar (metas de venda), você pegará as que exigem menos esforço para colher, pois elas são as que darão maior retorno. Como analogia, esses serão seus clientes ideais</p>
 
