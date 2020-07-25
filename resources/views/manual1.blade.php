@@ -45,8 +45,9 @@
     border-radius: 70px;
 ">
       <div class="content-box">
-<img src="img/logo_capa.png" style="float: right;width: 30%;margin-top: 2%;"> 
-        
+<img src="img/logo_capa.png" style="float: left;width: 30%;margin-top: 2%;"> 
+<img src="../posicionamento/public/img/selo_top_seller.png" style="float: right;width: 12%;">
+
 <h2 style="color: #35408f;text-align: center;margin-top: 10%;">GUIA DO PROGRAMA TOP SELLER<h2>
         
 <h3 style="color: #35408f">1 - APRESENTAÇÃO E FUNDAMENTAÇÃO DO PROJETO: PORQUE ESTE PROJETO É FUNDAMENTAL PARA SUA ATIVIDADE PROFISSIONAL</h3>

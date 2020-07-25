@@ -6,6 +6,7 @@
     <div class="card-header">
         <h3><center>INSTRUMENTO 3</center></h3>
         <h3><center>MEU PERFIL COMO PROFISSIONAL DE VENDAS</center></h3>
+        <img src="../posicionamento/public/img/selo_top_seller.png" style="width: 14%;float: right;margin-top: -10%;">
     </div>
     <div class="card-body">
                         <div class="col-12">

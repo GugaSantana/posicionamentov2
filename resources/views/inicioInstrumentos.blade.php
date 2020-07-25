@@ -65,8 +65,9 @@
 
     <table border=1>
       <tr>
-        <td colspan="2" style="padding: 20px; color: white;font-size: 20px;text-align: center; background-color: #35408f">
+        <td colspan="2" style="color: white;font-size: 20px;text-align: center; background-color: #35408f">
           ETAPAS DA METODOLOGIA E INSTRUMENTOS
+          <img src="../posicionamento/public/img/selo_top_seller.png" style="width: 10%;">
         </td>
       </tr>
       <tr>

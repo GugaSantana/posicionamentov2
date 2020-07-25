@@ -41,8 +41,9 @@
     border-radius: 70px;
 ">
       <div class="content-box">
-<img src="img/logo_capa.png" style="float: right;width: 30%;margin-top: 2%;"> 
-        
+<img src="img/logo_capa.png" style="float: left;width: 30%;margin-top: 2%;"> 
+<img src="../posicionamento/public/img/selo_top_seller.png" style="float: right;width: 12%;">
+
 <h2 style="color: #35408f;text-align: center;margin-top: 10%;">GUIA DO PROGRAMA TOP SELLER</h2>
 <br>
 <p>O objetivo deste Guia é que você tenha uma visão clara do contexto no qual se situam os 20 instrumentos da metodologia que você vai responder.</p>

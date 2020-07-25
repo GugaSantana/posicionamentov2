@@ -64,6 +64,7 @@
     <div class="card-header">
         <h3><center>INSTRUMENTO 14</center></h3>
         <h3><center>MATRIZ PARA IDENTIFICAR CLIENTES PRIORITÁRIOS</center></h3> 
+        <img src="../posicionamento/public/img/selo_top_seller.png" style="width: 14%;float: right;margin-top: -10%;">
     </div>
     <div class="card-body">
 

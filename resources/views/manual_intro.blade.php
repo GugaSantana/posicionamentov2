@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>Título da página</title>
+    <title>Posicionamento</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <style>
         .flex-box {
         display: flex;
@@ -40,7 +42,9 @@
     border-radius: 70px;
 ">
       <div class="content-box">
-<img src="img/logo_capa.png" style="float: right;width: 30%;margin-top: 2%;"> 
+<img src="img/logo_capa.png" style="float: left;width: 30%;margin-top: 2%;">
+<img src="../posicionamento/public/img/selo_top_seller.png" style="float: right;width: 12%;">
+
 <h2 style="color: #35408f;text-align: center;margin-top: 10%">Bem vindo ao Programa TOP SELLER<h2>
         
 <h3 style="color: #35408f; text-align: center">Parabéns!!!, você adquiriu uma metodologia que mudará sua vida profissional!</h3>

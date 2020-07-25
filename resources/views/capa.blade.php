@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>Título da página</title>
+    <title>Posicionamento</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
     <style>
         .flex-box {
         display: flex;
@@ -49,25 +51,51 @@
           background-color: #5993ce;
         }
 
+        .imgpos {
+            width: 25%;
+            float: right;
+            margin-right: 2%;
+          }
+
+        @media screen and (max-width:800px) {
+          .imgpos {
+            width: 50%;
+            float: right;
+            margin-right: 2%;
+          }
+        }
+
+        @media screen and (max-width:500px) {
+          .imgpos {
+            width: 80%;
+            margin-right: 2%;
+          }
+        }
+
+        .selo {
+          width: 20%;
+          margin-left: 80%;
+          position: fixed;
+        }
+
     </style>
   </head>
   <body style="background-repeat: no-repeat;
   background-attachment: fixed;background-size: 100% 100%;font-family: arial; background-color: #35408f">
+<img src="../posicionamento/public/img/selo_top_seller.png" class="selo">
 <br>
 <br>
   <p style="color: #5993ce; text-align: center; font-size: 36px; font-weight: bold;">PROGRAMA TOP SELLER</p>
 
     <div class="flex-box container-box">
         <div class="content-box">
-        METODOLOGIA PARA, ATRAVÉS DA INTERNET,<br>AUMENTAR AS VENDAS, EM BASES OBJETIVAS,<br>QUANTITATIVAS E MENSURÁVEIS
+        METODOLOGIA PARA AUMENTAR AS VENDAS,<br> EM BASES OBJETIVAS, QUANTITATIVAS E MENSURÁVEIS,<br> ATRAVÉS DA INTERNET
         <br><br>
         <a href="/manualIntro" style="color:#ff8100;text-decoration: none;">ENTRAR</a>
         </div>
     </div>
     <footer class="fixar-rodape">
-        <img src="../posicionamento/public/img/logo_texto_branco.png" style='width: 25%;
-                                                     float: right;
-                                                     margin-right: 2%;'>
+        <img src="../posicionamento/public/img/logo_texto_branco.png" class="imgpos">
     </footer>
   </body>
 </html>
