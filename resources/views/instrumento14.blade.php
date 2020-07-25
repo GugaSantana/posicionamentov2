@@ -156,7 +156,7 @@
                         <form name="formulario" role="form" method="post" action="instrumento/14">
                             {!! csrf_field() !!}
                             <div class="row">
-                                <div class="col-12">
+                                <div class="col-12 table-responsive">
                                     <table class="table table-hover table-bordered" style="width: 100%">
                                         <thead>
                                         <tr>
@@ -214,10 +214,10 @@
                                 @for($i=1;$i<=6;$i++) 
                                 <tr>
                                     <td style="font-size: 18px; text-align: center; vertical-align: middle;">
-                                        <img src="../posicionamento/public/img/inst_14_{{$i}}.png" style="width: 100%;">
+                                        <img src="../posicionamento/public/img/instrumento14/inst_14_{{$i}}.png" style="width: 100%;">
                                     </td>
                                     <td style="font-size: 18px; text-align: center; vertical-align: middle;">
-                                        <img src="../posicionamento/public/img/inst_14_{{$i+6}}.png" style="width: 100%;">
+                                        <img src="../posicionamento/public/img/instrumento14/inst_14_{{$i+6}}.png" style="width: 100%;">
                                     </td>
                                 </tr>
                                 @endfor

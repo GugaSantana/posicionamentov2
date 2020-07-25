@@ -9,6 +9,7 @@
 @section('adminlte_css')
     @stack('css')
     @yield('css')
+    
     <style>
         .fonte18 {
             font-size: 18px;
@@ -16,6 +17,11 @@
         }
         .center {
             text-align: center;
+        }
+        @media screen and (max-width:610px) {
+            .fonte18 {
+                text-align: justify;
+            }
         }
     </style>
 @stop

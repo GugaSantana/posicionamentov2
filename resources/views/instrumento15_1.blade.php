@@ -134,7 +134,11 @@
                         <form name="formulario" role="form" method="post" action="instrumento/15_1">
                             {!! csrf_field() !!}
                             
-                            <p class="fonte18"><b>Produto escolhido:</b> <input name="produto_escolhido" type="text" size="50%" required></p>
+                            <div class="row">
+                            <p class="fonte18"><b>Produto escolhido:</b>
+                            <input name="produto_escolhido" type="text"  required>
+                            </p>
+                            </div>
 
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">

@@ -38,7 +38,7 @@
 
                         <form name="formulario" id="formulario" role="form" method="post" action="instrumento/6">
                             {!! csrf_field() !!}
-
+                        <div class="table-responsive">
                             <table class="table table-hover table-bordered center fonte18">
                                 <tr>
                                     <th colspan="2" rowspan="2">Variáveis de entrada</th>
@@ -83,7 +83,7 @@
                                                 </tr>
                                                 @endfor
                             </table>
-
+</div>
                             <br>
                             <div class="col-8">
                                 <button class="btn btn-icon btn-3 btn-primary" type="button" onclick="submitForm()">

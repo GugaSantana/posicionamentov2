@@ -88,57 +88,60 @@
                         <br>
                         <p class="fonte18"><b>Exemplo 1:</b> Suponhamos que você concorda, ou seja, você se identifica inteiramente com a alternativa A e discorda das outras duas; neste caso, você distribuirá os 5 pontos da seguinte maneira:</p>
 
+                        <div class="table-responsive">
                         <table class="table table-hover table-bordered fonte18">                            
+                            <tr>
+                                <td rowspan="3" style="font-size: 20px;font-weight: bold;vertical-align: middle;width: 1px;">X</td>
+                                <td rowspan="3" style="vertical-align: middle; text-align: center; width: 20%;">Descrição da situação</td>
+                                
+                                <td style="text-align: center; vertical-align: middle; width: 1%;">A<input type="number" value=5 style="width: 2em; text-align: center;"></td>
+                                <td style="text-align: center; vertical-align: middle; width: 1%;"></td>
+                                <td style="text-align: center; vertical-align: middle; width: 1%;"></td>
+                                <td style="text-align: center;width: 70%;">Descrição da alternativa A</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center; vertical-align: middle; width: 1%;"></td>
+                                <td style="text-align: center; vertical-align: middle; width: 1%;">B<input type="number" value=0 style="width: 2em; text-align: center;"></td>
+                                <td style="text-align: center; vertical-align: middle; width: 1%;"></td>
+                                <td style="text-align: center;width: 70%;">Descrição da alternativa B</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: center; vertical-align: middle; width: 1%;"></td>
+                                <td style="text-align: center; vertical-align: middle; width: 1%;"></td>
+                                <td style="text-align: center; vertical-align: middle; width: 1%;">C<input type="number" value=0 style="width: 2em; text-align: center;"></td>
+                                <td style="text-align: center;width: 70%;">Descrição da alternativa C</td>
+                            </tr>
+                        </table>
+                        </div>
+
+                            <br>
+                            <p class="fonte18"><b>Exemplo 2:</b> Suponhamos que você não concorda inteiramente com uma alternativa e as outras alternativas também poderiam representar seu comportamento em alguma medida. Neste caso, por hipótese, você distribuirá os 5 pontos da seguinte maneira:</p>
+
+                            <div class="table-responsive">
+                            <table class="table table-hover table-bordered fonte18">                            
                                 <tr>
                                     <td rowspan="3" style="font-size: 20px;font-weight: bold;vertical-align: middle;width: 1px;">X</td>
                                     <td rowspan="3" style="vertical-align: middle; text-align: center; width: 20%;">Descrição da situação</td>
                                     
-                                    <td style="text-align: center; vertical-align: middle; width: 1%;">A<input type="number" value=5 style="width: 2em; text-align: center;"></td>
+                                    <td style="text-align: center; vertical-align: middle; width: 1%;">A<input type="number" value=1 style="width: 2em; text-align: center;"></td>
                                     <td style="text-align: center; vertical-align: middle; width: 1%;"></td>
                                     <td style="text-align: center; vertical-align: middle; width: 1%;"></td>
                                     <td style="text-align: center;width: 70%;">Descrição da alternativa A</td>
                                 </tr>
                                 <tr>
                                     <td style="text-align: center; vertical-align: middle; width: 1%;"></td>
-                                    <td style="text-align: center; vertical-align: middle; width: 1%;">B<input type="number" value=0 style="width: 2em; text-align: center;"></td>
+                                    <td style="text-align: center; vertical-align: middle; width: 1%;">B<input type="number" value=3 style="width: 2em; text-align: center;"></td>
                                     <td style="text-align: center; vertical-align: middle; width: 1%;"></td>
                                     <td style="text-align: center;width: 70%;">Descrição da alternativa B</td>
                                 </tr>
                                 <tr>
                                     <td style="text-align: center; vertical-align: middle; width: 1%;"></td>
                                     <td style="text-align: center; vertical-align: middle; width: 1%;"></td>
-                                    <td style="text-align: center; vertical-align: middle; width: 1%;">C<input type="number" value=0 style="width: 2em; text-align: center;"></td>
+                                    <td style="text-align: center; vertical-align: middle; width: 1%;">C<input type="number" value=1 style="width: 2em; text-align: center;"></td>
                                     <td style="text-align: center;width: 70%;">Descrição da alternativa C</td>
                                 </tr>
                             </table>
-
-                            <br>
-                            <p class="fonte18"><b>Exemplo 2:</b> Suponhamos que você não concorda inteiramente com uma alternativa e as outras alternativas também poderiam representar seu comportamento em alguma medida. Neste caso, por hipótese, você distribuirá os 5 pontos da seguinte maneira:</p>
-
-                            <table class="table table-hover table-bordered fonte18">                            
-                                    <tr>
-                                        <td rowspan="3" style="font-size: 20px;font-weight: bold;vertical-align: middle;width: 1px;">X</td>
-                                        <td rowspan="3" style="vertical-align: middle; text-align: center; width: 20%;">Descrição da situação</td>
-                                        
-                                        <td style="text-align: center; vertical-align: middle; width: 1%;">A<input type="number" value=1 style="width: 2em; text-align: center;"></td>
-                                        <td style="text-align: center; vertical-align: middle; width: 1%;"></td>
-                                        <td style="text-align: center; vertical-align: middle; width: 1%;"></td>
-                                        <td style="text-align: center;width: 70%;">Descrição da alternativa A</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="text-align: center; vertical-align: middle; width: 1%;"></td>
-                                        <td style="text-align: center; vertical-align: middle; width: 1%;">B<input type="number" value=3 style="width: 2em; text-align: center;"></td>
-                                        <td style="text-align: center; vertical-align: middle; width: 1%;"></td>
-                                        <td style="text-align: center;width: 70%;">Descrição da alternativa B</td>
-                                    </tr>
-                                    <tr>
-                                        <td style="text-align: center; vertical-align: middle; width: 1%;"></td>
-                                        <td style="text-align: center; vertical-align: middle; width: 1%;"></td>
-                                        <td style="text-align: center; vertical-align: middle; width: 1%;">C<input type="number" value=1 style="width: 2em; text-align: center;"></td>
-                                        <td style="text-align: center;width: 70%;">Descrição da alternativa C</td>
-                                    </tr>
-                                </table>
-
+                            </div>
                                 <br>
 
                                 <p class="fonte18">Qualquer combinação de pontos é válida para melhor representar qual seria sua resposta a cada situação.</p>
@@ -324,6 +327,7 @@
                         ]
                         @endphp
                         @php($count = 1)
+                            <div class="table-responsive">
                         @foreach($questions as $question)
                             <table class="table table-bordered fonte18">                            
                                 <tr>
@@ -351,6 +355,7 @@
                             @php($count++)
                             <br>
                             @endforeach
+                            </div>
                         </div>
                         <!-- FIM TABELA DE QUESTIONARIO -->
 

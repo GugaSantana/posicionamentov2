@@ -1,13 +1,14 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <title>Título da página</title>
+    <title>Guia do Programa</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
 
-    <meta charset="utf-8">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
     <style>
         .flex-box {
         display: flex;
@@ -61,6 +62,7 @@
 <p>Apresentamos a seguir a estrutura da metodologia que lhe será transferida</p>
 <p>Mostrar a Estrutura da Metodologia de maneira gráfica no começo deste documento é importante para você visualizar as etapas da metodologia e onde se situam os instrumentos que integram esta metodologia para lhe transferir à distância às Competências exigidas para implementar as Vendas Consultivas.</p>
 <br>
+<div class="table-responsive">
 <table border=1 cellpadding="7" cellspacing="0">
 	<tbody>
 		<tr style="text-align: center;">
@@ -158,6 +160,7 @@
 		</tr>
 	</tbody>
 </table>
+	</div>
 
 <br>
 

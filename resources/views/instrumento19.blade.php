@@ -154,7 +154,7 @@
                         <form name="formulario" role="form" method="post" action="instrumento/19">
                             {!! csrf_field() !!}
                             <div class="row">
-                                <div class="col-12">
+                                <div class="col-12 table-responsive">
                                     <table class="table table-hover table-bordered fonte18" style="width: 100%">
                                         <thead class="bg-primary">
                                         <tr>
