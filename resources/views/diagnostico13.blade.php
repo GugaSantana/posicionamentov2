@@ -126,7 +126,7 @@
                         </table>
                     <br>
 
-                    <p class="fonte18">Escala</p>
+                    <p class="fonte18">Conclusões</p>
 
                     <p class="fonte18">1 – Posição absolutamente negativa em relação à questão colocada<br>
                     2 – Atende com restrições fortes o requerido por esta condição<br>
