@@ -56,13 +56,19 @@
 </style>
 <div class="card card-primary">
     <div class="card-header">
-        <h3>
+        <div class="row d-none d-xl-block">
+            <div class="col-12" style="z-index: 1; position: absolute;">
+                <h3>
             <center>INSTRUMENTO 11</center>
         </h3>
         <h3>
             <center>DEFINIÇÃO DO PERFIL DO CLIENTE IDEAL (IDEAL CUSTOMER PROFILE)</center>
         </h3>
-        <img src="../posicionamento/public/img/selo_top_seller.png" style="width: 14%;float: right;margin-top: -10%;">
+        </div>
+            <div class='col-12' style="margin-left: 1em">
+                <img src="../img/selo_top_seller.png" style="width: 7em; float:right">
+            </div>
+        </div>
     </div>
     <div class="card-body">
 
