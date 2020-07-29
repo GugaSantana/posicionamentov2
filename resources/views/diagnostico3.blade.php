@@ -102,7 +102,7 @@
                     <p class="fonte18">O desvio que deve ser resolvido é o hiato, isto é, a distância que existe entre o domínio ideal da competência e a medida em que essa competência está presente no exercício cotidiano de sua atividade profissional.</p>
                     <p class="fonte18">Este conceito de distância entre o domínio pleno das competências e o domínio atual dessas competências está ilustrado na figura seguinte:</p>
                    
-                    <center><img src="../posicionamento/public/img/instrumento3/diag3_1.jpg" style="width: 75%;"></center>
+                    <center><img src="../posicionamento/public/img/instrumento3/diag3_1_new.jpg" style="width: 75%;"></center>
                    
                     <br>
                     <p class="fonte18"><h4><center>DIAGNÓSTICO</center></h4></p>

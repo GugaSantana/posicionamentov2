@@ -104,7 +104,7 @@
             <br>
             <p class="fonte18">O empreendedorismo somente é possível se tivermos clara e bem definida uma Visão de Futuro e agirmos para que ela se realize alinhando todos nossos comportamentos e decisões.</p>
             <p class="fonte18">Ilustramos graficamente estes conceitos:</p>
-            <center><img src="../posicionamento/public/img/instrumento1/diag1_1.jpg" style="width: 45%"></center>
+            <center><img src="../posicionamento/public/img/instrumento1/diag1_1_new.jpg" style="width: 45%"></center>
             <br>
             <p class="fonte18">
                 <h4>
