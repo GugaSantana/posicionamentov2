@@ -10,7 +10,7 @@
         <h3><center>MEU PERFIL COMO PROFISSIONAL DE VENDAS</center></h3>
         </div>
             <div class='col-12' style="margin-left: 1em">
-                <img src="../img/selo_top_seller.png" style="width: 7em; float:right">
+                <img src="../posicionamento/public/img/selo_top_seller.png" style="width: 7em; float:right">
             </div>
         </div>
 
