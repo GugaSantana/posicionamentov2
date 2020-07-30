@@ -93,14 +93,14 @@
 </style>
 
 <div class="card card-primary">
-    <div class="card-header">
+    <div class="card-header" style="min-height: 8em;">
         <div class="row d-none d-xl-block">
             <div class="col-12" style="z-index: 1; position: absolute;">
                 <h3>
             <center>INSTRUMENTO 15</center>
         </h3>
         <h3>
-            <center>AVALIAÇÃO DA QUANTIDADE E QUALIDADE DOS MEUS ARGUMENTOS DE VENDAS (FORÇAS PROPULSORAS)</center>
+            <center>AVALIAÇÃO DA QUANTIDADE E QUALIDADE DOS MEUS<br>ARGUMENTOS DE VENDAS (FORÇAS PROPULSORAS)</center>
         </h3>
         </div>
             <div class='col-12' style="margin-left: 1em">

@@ -30,10 +30,10 @@
             position:absolute;
             left:50%;
             top:50%;
-            margin-left:-400px;
-            margin-top:-90px;
-            width:800px;
-            height: 180px;
+            margin-left:-280px;
+            margin-top:-60px;
+            width:560px;
+            height: 120px;
           }
 
         @media screen and (max-width:860px) {

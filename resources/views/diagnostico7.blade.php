@@ -87,7 +87,7 @@
                     - A Criança
                     </p>
 
-                    <center><img src="../posicionamento/public/img/instrumento7/diag_7_1.jpg" style="width: 50%;"></center>
+                    <center><img src="../posicionamento/public/img/instrumento7/diag_7_1.jpg" style="width: 35%;"></center>
                     <br>
 
                     <p class="fonte18">Antes de apresentar seu Diagnóstico e as Recomendações vamos considerar os conceitos básicos da metodologia para ter uma melhor compreensão da contribuição deste Instrumento.</p>
@@ -117,7 +117,7 @@
                     <p class="fonte18">As práticas e sentimentos da criança são desejáveis e promovem vitalidade, intuição e felicidade.</p>
                     <p class="fonte18">No gráfico seguinte é mostrada a forma de representar os três estados do ego, bem como suas características e conteúdos principais:</p>
 
-                    <center><img src="../posicionamento/public/img/instrumento7/diag_7_2.jpg" style="width: 80%;"></center>
+                    <center><img src="../posicionamento/public/img/instrumento7/diag_7_2.jpg" style="width: 50%;"></center>
                     <br>
 
                     <p class="fonte18">Os três estados do ego têm diferentes graus de predominância. Os três existem em todas as pessoas e se expressam, mas aquele dos três subsistemas que prevalece, define a Personalidade.</p>

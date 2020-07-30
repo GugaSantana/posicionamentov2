@@ -92,8 +92,8 @@
                         <p class="fonte18">Conhecer os produtos concorrentes é algo estratégico para fechar vendas.</p>
                         <p class="fonte18">Veja a figura seguinte:</p>
 
-                        <center><img src="../posicionamento/public/img/instrumento5/diag5_1.jpg"></center>
-
+                        <center><img src="../posicionamento/public/img/instrumento5/diag5_1.jpg" style="width: 40%"></center>
+                        <br>
                         <p class="fonte18">Você tem que conhecer os produtos concorrentes para reduzir o quanto possível a <b>área vermelha</b> no gráfico.</p>
                         <p class="fonte18">Essa área representa que os produtos concorrentes atendem necessidades do cliente que seus produtos não atendem. Como você vê, é uma área de exclusividade entre o</p>
                         <p class="fonte18">produto concorrente e as necessidades do cliente.</p>

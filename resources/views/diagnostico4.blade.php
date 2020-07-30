@@ -98,7 +98,7 @@
                         <p class="fonte18">O diagnóstico lhe mostrará em que posição você está neste intervalo de conhecimento dos produtos que você vende.</p>
                         <p class="fonte18">As recomendações lhe orientarão para chegar de maneira estruturada à posição ideal.</p>
 
-                        <center><img src="../posicionamento/public/img/instrumento4/diag4_1.jpg"></center>
+                        <center><img src="../posicionamento/public/img/instrumento4/diag4_1.jpg" style="width: 50%"></center>
 
                         <br>
                         <p class="fonte18">

@@ -53,11 +53,11 @@
     }
 </style>
 <div class="card card-primary">
-    <div class="card-header">
+    <div class="card-header"  style="min-height: 8em;">
         <div class="row d-none d-xl-block">
             <div class="col-12" style="z-index: 1; position: absolute;">
                 <h3><center>INSTRUMENTO 9</center></h3>
-        <h3><center>GERENCIAMENTO DO RELACIONAMENTO UTILIZANDO OS CANAIS NEUROLINGUISTICOS</center></h3>
+        <h3><center>GERENCIAMENTO DO RELACIONAMENTO UTILIZANDO OS<br>CANAIS NEUROLINGUISTICOS</center></h3>
         </div>
             <div class='col-12' style="margin-left: 1em">
                 <img src="../posicionamento/public/img/selo_top_seller.png" style="width: 7em; float:right">
@@ -85,7 +85,7 @@
                     <p class="fonte18">Existem três Modelos Mentais que levam a três perfis diferentes de comunicação, como mostra o exemplo na figura seguinte</p>
 
                     <center><img src="../posicionamento/public/img/instrumento9/diag_9_3.jpg" style="width: 50%"></center>
-
+                    <br>
                     <p class="fonte18"><font style="color: #35408f">- O MODELO VISUAL:</font> É próprio das pessoas com um quadro mental que leva a entender o mundo por meio de imagens, gráficos, filmes, esquemas e outros recursos visuais.</p>
                     <p class="fonte18">Estas pessoas tendem a se comunicar através de imagens. Desenham enquanto falam, traduzem as idéias em esquemas gráficos e usam palavras com conotação visual.</p>
                     <p class="fonte18"><font style="color: #35408f">- O MODELO AUDITIVO:</font> as pessoas nas quais predomina este modelo gostam de falar, e falam de forma clara e pausada. Seu raciocínio é mais analítico. Querem ouvir e gostam de explicações.</p>

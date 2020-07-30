@@ -40,7 +40,7 @@
                     <p class="fonte18">A partir do Diagnóstico e implementando as recomendações que serão feitas, você poderá dedicar mais tempo às atividades que efetivamente agregam valor.</p>
                     <p class="fonte18">Os gráficos abaixo ilustram os conceitos de <b>atividades que agregam valor</b>, as <b>atividades que não agregam valor</b> e <b>perdas</b> numa suposta situação atual e a evolução para um nível superior de Produtividade.</p>
 
-                        <center><img src="../posicionamento/public/img/instrumento6/diag6_1.jpg"></center> <!-- ../posicionamento/public/img/instrumento6/diag6_1.png -->
+                        <center><img src="../posicionamento/public/img/instrumento6/diag6_1.jpg" style="width: 50%;"></center> <!-- ../posicionamento/public/img/instrumento6/diag6_1.png -->
 
                         <br>
                         <p class="fonte18">

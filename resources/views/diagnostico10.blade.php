@@ -3,11 +3,11 @@
 @section('content')
 
 <div class="card card-primary">
-    <div class="card-header">
+    <div class="card-header" style="min-height: 8em;">
         <div class="row d-none d-xl-block">
             <div class="col-12" style="z-index: 1; position: absolute;">
                 <h3><center>INSTRUMENTO 10</center></h3>
-        <h3><center>O GERENCIAMENTO DO RELACIONAMENTO ATRAVÉS DA INTELIGÊNCIA EMOCIONAL</center></h3>
+        <h3><center>O GERENCIAMENTO DO RELACIONAMENTO COM O CLIENTE<br>ATRAVÉS DA INTELIGÊNCIA EMOCIONAL</center></h3>
         </div>
             <div class='col-12' style="margin-left: 1em">
                 <img src="../posicionamento/public/img/selo_top_seller.png" style="width: 7em; float:right">
@@ -20,7 +20,7 @@
                     <center>INSTRUMENTO 10</center>
                 </h3>
                 <h3>
-                    <center>O GERENCIAMENTO DO RELACIONAMENTO ATRAVÉS DA INTELIGÊNCIA EMOCIONAL</center>
+                    <center>O GERENCIAMENTO DO RELACIONAMENTO COM O CLIENTE<br>ATRAVÉS DA INTELIGÊNCIA EMOCIONAL</center>
                 </h3>
             </div>
         </div>
@@ -41,7 +41,7 @@
                     <p class="fonte18">A Inteligência Emocional está vinculada ao hemisfério direito, porém deve ser monitorada pelo hemisfério esquerdo.</p>
 
                     <center><img src="../posicionamento/public/img/instrumento10/diag_10_1.jpg" style="width: 50%"></center>
-
+                    <br>
                     <p class="fonte18">Pessoas que aprendem a lidar com a Inteligência Emocional sabem pensar, sentir e agir de forma inteligente e consciente, e não permitem que as suas emoções administrem sua vida e nem atrapalhem seu trabalho.</p>
 
                     <br>

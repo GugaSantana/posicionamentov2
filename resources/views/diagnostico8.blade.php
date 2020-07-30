@@ -53,7 +53,7 @@
 </style>
 
 <div class="card card-primary">
-    <div class="card-header">
+    <div class="card-header" style="min-height: 8em;">
         <div class="row d-none d-xl-block">
             <div class="col-12" style="z-index: 1; position: absolute;">
                 <h3>
@@ -74,7 +74,7 @@
                     <center>INSTRUMENTO 8</center>
                 </h3>
                 <h3>
-                    <center>GERENCIAMENTO DO RELACIONAMENTO ATRAVÉS DA EXPOSIÇÃO E DO FEEDBACK</center>
+                    <center>GERENCIAMENTO DO RELACIONAMENTO ATRAVÉS DA<br>EXPOSIÇÃO E DO FEEDBACK</center>
                 </h3>
             </div>
         </div>
@@ -342,7 +342,7 @@
                             <h4>SEGUNDO TIPO DE PERFIL</h4>
                         </p>
 
-                        <center><img src="../posicionamento/public/img/instrumento8/diag_8_8.jpg" style="width: 40%;"></center>
+                        <center><img src="../posicionamento/public/img/instrumento8/diag_8_8.png" style="width: 40%;"></center>
                         <br>
 
                         <p class="fonte18">Se este for seu caso, você deve aumentar sua Exposição. Este formato de janela mostra que o Feedback é o processo que você mais utiliza para estabelecer o relacionamento e que é utilizado em excesso por você.</p>

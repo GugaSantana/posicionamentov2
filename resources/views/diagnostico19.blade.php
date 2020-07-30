@@ -62,11 +62,11 @@
 </style>
 
 <div class="card card-primary">
-    <div class="card-header">
+    <div class="card-header" style="min-height: 8em;">
         <div class="row d-none d-xl-block">
             <div class="col-12" style="z-index: 1; position: absolute;">
                 <h3><center>INSTRUMENTO 19</center></h3>
-        <h3><center>PLANO DE AÇÃO QUANTITATIVO PARA ALCANÇAR AS METAS DE VENDAS</center></h3>
+        <h3><center>PLANO DE AÇÃO QUANTITATIVO PARA ALCANÇAR AS METAS<br>DE VENDAS</center></h3>
         </div>
             <div class='col-12' style="margin-left: 1em">
                 <img src="../posicionamento/public/img/selo_top_seller.png" style="width: 7em; float:right">
@@ -96,7 +96,7 @@
                     <p class="fonte18">Neste instrumento é desenvolvida a metodologia para desenvolver os Planos de Ação que permitam alcançar os objetivos que você se propõe alcançar.</p>
                     <p class="fonte18">O processo de administração profissional consiste basicamente em Tomar Decisões e Implementar essas decisões tomadas. Este instrumento serve para implementar as decisões que você tomou para alcançar suas metas.</p>
 
-                    <center><img src="../posicionamento/public/img/instrumento19/diag_19_1.jpg" style="width: 60%;"></center><br>
+                    <center><img src="../posicionamento/public/img/instrumento19/diag_19_1.jpg" style="width: 50%;"></center><br>
 
                     <p class="fonte18">Trata-se de um Plano de Ação estruturado que permitirá o deslocamento da Etapa A - Decisão tomada, porém não implementada até a Etapa C - quando a Decisão tomada já foi implementada e os resultados são alcançados.</p>
                     <p class="fonte18">As atividades que devem ser gerenciadas pelo Plano de Ação proposto nesta metodologia são os seguintes:</p>
