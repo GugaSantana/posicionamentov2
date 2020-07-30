@@ -91,7 +91,7 @@
                     <p class="fonte18">Estabelecer corretamente quais são seus clientes prioritários é uma questão fundamental para ter foco, para economizar tempo, para aumentar suas vendas e alcançar seus objetivos.</p>
                     <p class="fonte18">É importante classificar seus clientes segundo critérios técnicos e posicioná-los numa das seguintes categorias de importância, ou de <b>valor:</b></p>
 
-                    <center><img src="../posicionamento/public/img/instrumento14/diag_14_1.jpg" style="width: 60%;"></center><br>
+                    <center><img src="../posicionamento/public/img/instrumento14/diag_14_1_new.jpg" style="width: 60%;"></center><br>
 
                     <p class="fonte18">É um grave erro agir como se todos os clientes tem o mesmo valor.</p>
                     <p class="fonte18">Errar na prioridade ou importância que você atribui a cada cliente reduz sua produtividade e certamente comprometerá seus resultados .</p>

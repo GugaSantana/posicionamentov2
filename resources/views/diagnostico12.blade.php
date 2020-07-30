@@ -96,7 +96,7 @@
                     <p class="fonte18">G – Estagnação e retrocesso</p>
                     <p class="fonte18">Determinadas atividades devem ser desenvolvidas para garantir uma prospecção de qualidade, com o objetivo de gerar uma ampla base de clientes potenciais. </p>
 
-                    <center><img src="../posicionamento/public/img/instrumento12/diag_12_1.jpg" style="width: 50%; "></center>
+                    <center><img src="../posicionamento/public/img/instrumento12/diag_12_1_new.jpg" style="width: 50%; "></center>
                     <br>
                     
                     <p class="fonte18">A prospecção é a primeira Etapa do Funil de Vendas, uma técnica fundamental para a Gestão das Vendas Consultivas. O Funil de Vendas será apresentado no Instrumento 18 – O Funil de Vendas com objetivos e métricas de avanço.</p>

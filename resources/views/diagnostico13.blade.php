@@ -95,7 +95,7 @@
                     <p class="fonte18">A Qualificação é essencial para excluir possíveis clientes que não tem potencial de conversão para clientes reais.</p>
                     <p class="fonte18">O gráfico seguinte mostra como o processo de Qualificação evolui na medida em que obtemos mais informações dos Clientes Potenciais.</p>
 
-                    <center><img src="../posicionamento/public/img/instrumento13/diag_13_1.jpg" style="width: 60%;"></center><br>
+                    <center><img src="../posicionamento/public/img/instrumento13/diag_13_1_new.jpg" style="width: 60%;"></center><br>
 
                     <p class="fonte18">Os potenciais de conversão entre as etapas e as técnicas para aumentar esse potencial, são analisados no INSTRUMENTO 18 da metodologia: O Funil de Vendas, com Objetivos e Métricas de Avanço.</p>
                     <p class="fonte18">Em síntese, com a Qualificação dos clientes potenciais, se busca estabelecer uma relação entre o custo de aquisição de clientes e quanto se poderá ganhar com esses clientes.</p>
@@ -186,7 +186,7 @@
                         <p class="fonte18">As informações podem ser obtidas de maneira direta, com o próprio Cliente Potencial ou através de fontes secundárias, por exemplo, com pessoas próximas ao cliente potencial </p>
                         <p class="fonte18">Você pode colocar os clientes potenciais em um gráfico de pirâmide como o seguinte, no nível em que se encontram, conforme as informações que você tem deles:</p>
                         
-                        <center><img src="../posicionamento/public/img/instrumento13/diag_13_2.jpg" style="width: 40%;"></center>
+                        <center><img src="../posicionamento/public/img/instrumento13/diag_13_2_new.jpg" style="width: 40%;"></center>
                        <!--  <div class="row">
                             <div class="col-12" style="overflow: auto;">
                                 <table class="tg table" style="border: none">
@@ -215,7 +215,7 @@
                         <p class="fonte18">- Capacidade de Compra<br> 
                         - Intenção de Compra</p>
 
-                        <center><img src="../posicionamento/public/img/instrumento13/diag_13_3.jpg" style="width: 50%;"></center><br>
+                        <center><img src="../posicionamento/public/img/instrumento13/diag_13_3_new.jpg" style="width: 50%;"></center><br>
 
                         <p class="fonte18">- Quanto melhor for feita a Prospecção, maior será a taxa de conversão de Clientes Potenciais para Clientes Potenciais Qualificados, aqueles que tem potencial </p>
                         <p class="fonte18">- Quanto melhor seja sua QUALIFICAÇÃO DE CLIENTES, maior será sua taxa de conversão para a etapa seguinte que é a APRESENTAÇÃO DOS PRODUTOS.</p>
