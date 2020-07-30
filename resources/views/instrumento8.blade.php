@@ -62,7 +62,7 @@
             <center>INSTRUMENTO 8</center>
         </h3>
         <h3>
-            <center>GERENCIAMENTO DO RELACIONAMENTO ATRAVÉS DA<br>EXPOSIÇÃO E DO FEEDBACK</center>
+            <center>GERENCIAMENTO DO RELACIONAMENTO ATRAVÉS<br>DA EXPOSIÇÃO E DO FEEDBACK</center>
         </h3>
         </div>
             <div class='col-12' style="margin-left: 1em">

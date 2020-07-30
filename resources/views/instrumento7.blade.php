@@ -55,14 +55,14 @@
     }
 </style>
 <div class="card card-primary">
-    <div class="card-header">
+    <div class="card-header" style="min-height: 8em;">
         <div class="row d-none d-xl-block">
             <div class="col-12" style="z-index: 1; position: absolute;">
                 <h3>
             <center>INSTRUMENTO 7</center>
         </h3>
         <h3>
-            <center>GERENCIAMENTO DO RELACIONAMENTO ATRAVÉS DOS ESTADOS DO EGO</center>
+            <center>GERENCIAMENTO DO RELACIONAMENTO ATRAVÉS<br>DOS ESTADOS DO EGO</center>
         </h3>
         </div>
             <div class='col-12' style="margin-left: 1em">
