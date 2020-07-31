@@ -90,7 +90,7 @@
   </head>
   <body style="background-repeat: no-repeat;
   background-attachment: fixed;background-size: 100% 100%;font-family: arial; background-color: #35408f">
-<img src="../img/selo_top_seller.png" class="selo">
+<img src="../posicionamento/public/img/selo_top_seller.png" class="selo">
 <br>
 <br>
   <p style="color: #5993ce; text-align: center; font-size: 36px; font-weight: bold;">PROGRAMA TOP SELLER</p>
@@ -103,7 +103,7 @@
         </div>
     </div>
     <footer class="fixar-rodape">
-        <img src="../img/logo_texto_branco.png" class="imgpos">
+        <img src="../posicionamento/public/img/logo_texto_branco.png" class="imgpos">
     </footer>
   </body>
 </html>
