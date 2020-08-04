@@ -52,7 +52,7 @@
                     <div class="col-12">
                         <p class="fonte18"><b>INSTRUÇÕES</b></p>
 
-                        <p class="fonte18">Você deve preencher a MATRIZ DE PRODUTIVIDADE abaixo, seguindo atentamente as instruções que viram a seguir:</p>
+                        <p class="fonte18">Você deve preencher a MATRIZ DE PRODUTIVIDADE abaixo, seguindo atentamente as instruções que apresentam,os a seguir:</p>
 
                         <form name="formulario" id="formulario" role="form" method="post" action="instrumento/6">
                             {!! csrf_field() !!}
@@ -63,8 +63,23 @@
                                     <th class="bg-primary" style="text-align: center;" colspan="12">Atividades que desenvolvo</th>
                                 </tr>
                                 <tr>
-                                    @for($i=0;$i<8;$i++) <td><input data-toggle="tooltip" title="ATIVIDADES QUE VOCÊ REALIZA PARA ALCANÇAR SEUS OBJETIVOS DE VENDAS. EX: Prospectar novos clientes, viajar, fazer reunião, preencher relatórios, etc.." type="text" class="form-control" name="atividade{{$i}}" placeholder="" id="atividade{{$i}}"></td>
-                                        @endfor
+                                    @php
+                                        $atividadesDesenvolvidas = [
+                                                                    'Prospecção de clientes',
+                                                                    'Qualificação de clientes',
+                                                                    'Planejamento/Pré venda',
+                                                                    'Apresentações, Negociações, Fechamentos',
+                                                                    'Follow up / Pós Venda',
+                                                                    'Capacitação / Aprimoramento/Coaching',
+                                                                    'Atividades administrativas',
+                                                                    'Outras atividades'
+                                                                    ]
+                                    @endphp
+                                    @for($i=0;$i<8;$i++) 
+                                        <td>
+                                            <input data-toggle="tooltip" title="{{$atividadesDesenvolvidas[$i]}}" type="text" class="form-control" name="atividade{{$i}}" placeholder="" id="atividade{{$i}}" value="{{$atividadesDesenvolvidas[$i]}}" readonly="true">
+                                        </td>
+                                    @endfor
                                 </tr>
                                 <tr>
                                     <td rowspan="2">Objetivos</td>
@@ -120,20 +135,31 @@
                         <p class="fonte18">Alguns exemplos de objetivos: volume de vendas, preço médio, melhorar o mix, obter informações sobre a concorrência.</p>
                         <p class="fonte18">Não esqueça que cada objetivo deve ter um peso em valor percentual e soma total dos pesos dos objetivos é de 100%</p>
                         <p class="fonte18">B – Na Matriz, a primeira linha horizontal a ser preenchida é a de <u>Atividades que Desenvolvo</u>. Nesta linha você deve registrar as principais atividades que você realiza para alcançar seus objetivos de vendas.</p>
-                        <p class="fonte18">Você pode registrar até 8 atividades, porem pode ser menos que 8.</p>
-                        <p class="fonte18">Exemplos de atividades: Deslocamentos até os clientes, elaboração de relatórios, reuniões com os clientes, compra de produtos.</p>
-                        <p class="fonte18">C – Na Matriz, a segunda linha horizontal a ser preenchida é de <u>Percentual de Tempo Gasto em cada Atividade</u>. Nesta linha você deve registrar quanto tempo, em termos percentuais, você dedica a cada uma das atividades que foram definidas. A soma dos percentuais dedicados as atividades deve totalizar 100%.</p>
-                        <p class="fonte18">D- Agora com as variáveis de entrada preparadas você deve preencher a Matriz, respondendo a seguinte pergunta:</p>
-                        <p class="fonte18">Em que medida, em uma escala de 1 a 10, cada atividade contribui para alcançar um objetivo? Utilize a escala a seguir:</p>
-
+                        <p class="fonte18">Para facilitar o entendimento do conteúdo de cada atividade descrita, apresentamos suas descrições:</p>
+                        <p class="fonte18"><b>1 – Prospecção de clientes</b> – Tempo dedicado a busca de novos clientes<br>
+                        <b>2 – Qualificação de clientes</b> – Tempo dedicado a identificação do potencial de negócios com os clientes prospectados.<br>
+                        <b>3 – Planejamento/Pré venda</b> – Tempo dedicado a definição de prioridades, elaboração de Planos de abordagem,contatos.<br>
+                        <b>4 – Apresentações, Negociações, Fechamentos</b> – Tempo dedicado ao trabalho junto ao cliente, seja presencial ou remoto.<br>
+                        <b>5 – Follow up / Pós Venda</b> – Tempo dedicado ao cliente para dar apoio no pós venda e para criar um vínculo de longo prazo<br>
+                        <b>6 – Capacitação / Aprimoramento / Coaching</b> - Tempo dedicado a melhoria do seu desempenho profissional<br>
+                        <b>7 – Atividades administrativas</b> – Tempo dedicado a reuniões, elaboração de relatórios, solicitação de pedidos, etc.<br>
+                        <b>8 – Outras atividades</b> - Tempo dedicado a atividades que não se enquadram nas anteriormente descritas tais como: viagens, tempo de espera para atendimento no cliente, etc.</p>
+                        <p class="fonte18">C – Na Matriz, a segunda linha horizontal à qual você deve preencher, refere-se ao Percentual de Tempo que você gasta em cada Atividade. Nesta linha você deve registrar quanto tempo, em termos percentuais, você dedica a cada uma das atividades que foram definidas. Você ainda pode alocar um percentual de tempo a OUTRAS ATIVIDADES que você realiza, além das sete descritas. A soma dos percentuais dedicados a todas as atividades deve totalizar 100%.</p>
+                        <p class="fonte18">No caso de você não desenvolver uma ou mais das atividades descritas, simplesmente não lhe atribua um percentual de tempo dedicado.</p>
+                        <p class="fonte18">D- Agora com as duas dimensões da Matriz preparadas, você deve preencher a Matriz, respondendo a seguinte pergunta:</p>
+                        <p class="fonte18">Em que medida, em uma escala de 1 a 10, cada uma dessas atividades contribui para alcançar cada objetivo? Utilize as definições da escala a seguir:</p>
+                        
                         <center><img src="../posicionamento/public/img/instrumento6/inst6_1.png"></center>
 
                         <br>
 
-                        <p class="fonte18">Iniciando pela primeira atividade e primeiro objetivo relacionado; no cruzamento entre essa atividade que você está avaliando e o objetivo 1, você colocará o numero da escala que você atribui para a contribuição dessa atividade para alcançar este objetivo.</p>
-                        <p class="fonte18">Na sequencia, você faz a mesma pergunta em relação ao objetivo 2, ao objetivo 3, e assim sucessivamente para todos os objetivos.</p>
+                        <p class="fonte18">Iniciando pela primeira atividade e pelo primeiro objetivo que você escreveu; no cruzamento entre a atividade que você está avaliando e o objetivo 1, você colocará o número da escala que você considera que representa a contribuição dessa atividade para alcançar este objetivo.</p>
+                        <p class="fonte18">Na sequência, você faz a mesma pergunta para o objetivo 2, para o objetivo 3, e assim sucessivamente para todos os objetivos.</p>
                         <p class="fonte18">Verifique se você cruzou todas as atividades com todos os objetivos.</p>
                         <p class="fonte18"><b>Ao passar o mouse sobre os campos da matriz são exibidas as instruções de preenchimento.</b></p>
+                        
+                        
+                        
 
                     </div>
                 </div>

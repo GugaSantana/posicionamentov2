@@ -35,11 +35,13 @@
                             <center>Diagnóstico e Recomendações</center>
                         </h4>
                     <br>
+                    
                     <p class="fonte18">Este instrumento tem um grande valor para aumentar sua Produtividade.</p>
                     <p class="fonte18">O objetivo do deste instrumento é eliminar as perdas e as atividades que não agregam valor, para que você possa alcançar com mais facilidade suas metas de Vendas.</p>
-                    <p class="fonte18">A partir do Diagnóstico e implementando as recomendações que serão feitas, você poderá dedicar mais tempo às atividades que efetivamente agregam valor.</p>
-                    <p class="fonte18">Os gráficos abaixo ilustram os conceitos de <b>atividades que agregam valor</b>, as <b>atividades que não agregam valor</b> e <b>perdas</b> numa suposta situação atual e a evolução para um nível superior de Produtividade.</p>
-
+                    <p class="fonte18">A partir do Diagnóstico e implementando as recomendações que serão feitas, você poderá dedicar mais tempo às atividades que realmente contribuem para alcançar seus resultados.</p>
+                    <p class="fonte18">Da mesma forma, você poderá ter que dedicar tempo para aumentar a eficácia no desempenho de algumas atividades que apresentam baixa contribuição (baixa produtividade).</p>
+                    <p class="fonte18">Os gráficos abaixo ilustram os conceitos de <b>atividades que agregam valor, atividades que não agregam valor e perdas</b> numa suposta situação atual. A segunda figura mostra a evolução para um nível superior de Produtividade.</p>
+                    
                         <center><img src="../posicionamento/public/img/instrumento6/diag6_1.jpg" style="width: 50%;"></center> <!-- ../posicionamento/public/img/instrumento6/diag6_1.png -->
 
                         <br>
@@ -50,8 +52,8 @@
                         </p>
 
                         <p class="fonte18">Seu Diagnóstico será feito em duas dimensões:</p>
-                        <p class="fonte18">A – O Nível de Produtividade das Atividades que você desenvolve e o Nível de Contribuição dessas atividades para alcançar seus resultados (objetivos).</p>
-                        <p class="fonte18">B – A alocação de trabalho e de esforço que você dedica conforme a importância de seus objetivos.</p>
+                        <p class="fonte18">A – O <b>Nível de Produtividade</b> das Atividades que você desenvolve e o Nível de Contribuição dessas atividades para alcançar seus resultados (objetivos).</p>
+                        <p class="fonte18">B – A alocação de trabalho e de esforço que você dedica a cada objetivo, conforme suas respectivas importâncias.</p>
                         
                         <h4 style="color: #35408f">A – Nível de Contribuição de suas Atividades e correspondentes Níveis de Produtividade</h4>
 
@@ -152,7 +154,7 @@
                         <p class="fonte18">Muitas vezes dedicamos mais esforço e tempo a atividades que contribuem pouco para alcançar objetivos que não são relevantes para alcançar suas metas de vendas, enquanto dedicamos menos esforço e tempo que o necessário para alcançar objetivos de alto valor e importância.</p>
                         <p class="fonte18">Apresentamos seus maiores desequilíbrios, sejam eles positivos ou negativos, entre a contribuição de todas as atividades que você desenvolve e a importância relativa dos objetivos que devem ser alcançados.</p>
                         <p class="fonte18">Um desequilíbrio positivo significa que você está dando mais dedicação, esforço e trabalho do que o objetivo requer.</p>
-                        <p class="fonte18">Um desequilíbrio negativo significa que você não esta dedicando suficiente esforço e trabalho para um objetivo, considerando a importância desse objetivo</p>
+                        <p class="fonte18">Um desequilíbrio negativo significa que você não esta dedicando suficiente esforço e trabalho para alcançar um objetivo, considerando a importância desse objetivo</p>
 
                         <table class="table table-hover table-bordered fonte18">
                             <thead class="bg-primary">
