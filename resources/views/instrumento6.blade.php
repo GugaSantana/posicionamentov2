@@ -60,24 +60,25 @@
                             <table class="table table-hover table-bordered center fonte18">
                                 <tr>
                                     <th colspan="2" rowspan="2">Variáveis de entrada</th>
-                                    <th class="bg-primary" style="text-align: center;" colspan="12">Atividades que desenvolvo</th>
+                                    <th class="bg-primary" style="text-align: center;" colspan="12">Atividades que desenvolvo<p style="font-size: 14px">Clique nos números abaixo para exibir a Atividade correspondente</p></th>
                                 </tr>
                                 <tr>
                                     @php
                                         $atividadesDesenvolvidas = [
-                                                                    'Prospecção de clientes',
-                                                                    'Qualificação de clientes',
-                                                                    'Planejamento/Pré venda',
-                                                                    'Apresentações, Negociações, Fechamentos',
-                                                                    'Follow up / Pós Venda',
-                                                                    'Capacitação / Aprimoramento/Coaching',
-                                                                    'Atividades administrativas',
-                                                                    'Outras atividades'
+                                                                    'PROSPECÇÃO DE CLIENTES',
+                                                                    'QUALIFICAÇÃO DE CLIENTES',
+                                                                    'PLANEJAMENTO/PRÉ VENDA',
+                                                                    'APRESENTAÇÕES, NEGOCIAÇÕES, FECHAMENTOS',
+                                                                    'FOLLOW UP / PÓS VENDA',
+                                                                    'CAPACITAÇÃO / APRIMORAMENTO/COACHING',
+                                                                    'ATIVIDADES ADMINISTRATIVAS',
+                                                                    'OUTRAS ATIVIDADES'
                                                                     ]
                                     @endphp
                                     @for($i=0;$i<8;$i++) 
                                         <td>
-                                            <input data-toggle="tooltip" title="{{$atividadesDesenvolvidas[$i]}}" type="text" class="form-control" name="atividade{{$i}}" placeholder="" id="atividade{{$i}}" value="{{$atividadesDesenvolvidas[$i]}}" readonly="true">
+                                            <input hidden data-toggle="tooltip" title="{{$atividadesDesenvolvidas[$i]}}" type="text" class="form-control" name="atividade{{$i}}" placeholder="" id="atividade{{$i}}" value="{{$atividadesDesenvolvidas[$i]}}" readonly="true">
+                                            <input value="{{$i+1}}" class="form-control center" readonly="true" style="cursor: pointer" onclick="showMessage('{{$atividadesDesenvolvidas[$i]}}')">
                                         </td>
                                     @endfor
                                 </tr>
@@ -90,9 +91,9 @@
                                     @for($i=0;$i<8;$i++) <td><input data-toggle="tooltip" title="Tempo gasto em cada atividade. Utilize um intervalo (semana, mês) para facilitar a distribuição do tempo nas atividades. Do 100% do seu tempo de trabalho quanto (%) é gasto na atividade." id="number{{$i}}" type="text" class="form-control" name="percentualTempo{{$i}}" placeholder="" onkeypress='return SomenteNumeroCem(event, this.id, "number")' @if($i==0) required @endif></td>
                                         @endfor
                                 </tr>
-                                <tr class="bg-primary">
-                                    <td colspan="2">A - Alta importância (15% ou +)</td>
-                                    <td colspan="12"></td>
+                                <tr>
+                                    <td colspan="2" class="bg-primary">A - Alta importância (15% ou +)</td>
+                                    <td id="message" colspan="12" style="background-color: #ff00006b"></td>
                                 </tr>
                                 @for($j=0;$j<4;$j++) <tr>
                                     <td><input data-toggle="tooltip" title="Quais são os objetivos de alta importância para você alcançar suas metas." type="text" class="form-control" name="objetivo{{$j}}" id="objetivo{{$j}}" placeholder="" @if($j==0) required @endif></td>
@@ -104,9 +105,9 @@
                                         <tr>
                                             <td colspan="14"></td>
                                         </tr>
-                                        <tr class="bg-primary">
-                                            <td colspan="2">B - Baixa importância (abaixo de 15%)</td>
-                                            <td colspan="12"></td>
+                                        <tr>
+                                            <td colspan="2" class="bg-primary">B - Baixa importância (abaixo de 15%)</td>
+                                            <td colspan="12" style="background-color: #ff00006b"></td>
                                         </tr>
                                         @for($j=4;$j<8;$j++) <tr>
                                             <td><input data-toggle="tooltip" title="Registrar os Objetivos de Baixa importância se houver" type="text" class="form-control" name="objetivomedia{{$j-4}}" placeholder="" @if($j==4) required @endif></td>
@@ -373,6 +374,10 @@
                 if (tecla == 8 || tecla == 0) return true;
                 else return false;
             }
+        }
+
+        function showMessage(message){
+            $("#message").html(message);
         }
 
         function submitForm(){
