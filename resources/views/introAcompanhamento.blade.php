@@ -77,7 +77,7 @@
               <p><span class="oi oi-arrow-circle-right" style="color:red; font-size: 22px"></span> Ir para Planilha de Autogestão</p>
             </center>
             <p>4 – Ao retornar a Planilha de Autogestão os outros campos do mesmo instrumento vão sendo habilitados conforme você for dando OK de acordo com seu entendimento de que a Etapa está vencida, procedendo assim até a Etapa E – Conclui a Implantação das recomendações deste instrumento.</p>
-            <p>5 – Este procedimento se repetirá para todos os instrumentos até a conclusão do curso, onde se considera que você terá preenchido toda a Planilha de Autogestão.</p>
+            <p>5 – Este procedimento se repetirá para todos os instrumentos até a conclusão do Programa Top Seller, onde se considera que você terá preenchido toda a Planilha de Autogestão.</p>
           </td>
         </tr>
       </table>
