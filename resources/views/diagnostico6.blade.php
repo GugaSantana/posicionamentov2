@@ -138,7 +138,7 @@
                             </thead>
                             @php($cont = 1)
                             @foreach($att as $at)
-                            @if($at['subtotal'] < $mediaVolume && $at['indiceRetorno'] < $mediaProdutividade)
+                            @if($at['subtotal'] < $mediaVolume && $at['indiceRetorno'] < $mediaProdutividade && !empty($at['percentualTempo']))
                             <tr>
                                 <td>{{$cont}} - {{$at['atividade']}}</td>
                             </tr>
