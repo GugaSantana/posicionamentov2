@@ -60,19 +60,19 @@
                             <table class="table table-hover table-bordered center fonte18">
                                 <tr>
                                     <th colspan="2" rowspan="2">Variáveis de entrada</th>
-                                    <th class="bg-primary" style="text-align: center;" colspan="12">Atividades que desenvolvo<p style="font-size: 14px">Clique nos números abaixo para exibir a Atividade correspondente</p></th>
+                                    <th class="bg-primary" style="text-align: center;" colspan="12">Atividades que desenvolvo<p style="font-size: 16px">Clique nos números abaixo para exibir a Atividade correspondente</p></th>
                                 </tr>
                                 <tr>
                                     @php
                                         $atividadesDesenvolvidas = [
-                                                                    'PROSPECÇÃO DE CLIENTES',
-                                                                    'QUALIFICAÇÃO DE CLIENTES',
-                                                                    'PLANEJAMENTO/PRÉ VENDA',
-                                                                    'APRESENTAÇÕES, NEGOCIAÇÕES, FECHAMENTOS',
-                                                                    'FOLLOW UP / PÓS VENDA',
-                                                                    'CAPACITAÇÃO / APRIMORAMENTO/COACHING',
-                                                                    'ATIVIDADES ADMINISTRATIVAS',
-                                                                    'OUTRAS ATIVIDADES'
+                                            'PROSPECÇÃO DE CLIENTES<br> Tempo dedicado a busca de novos clientes',
+                                            'QUALIFICAÇÃO DE CLIENTES<br> Tempo dedicado a identificação do potencial de negócios com os clientes prospectados.',
+                                            'PLANEJAMENTO/PRÉ VENDA<br> Tempo dedicado a definição de prioridades, elaboração de Planos de abordagem,contatos.',
+                                            'APRESENTAÇÕES, NEGOCIAÇÕES, FECHAMENTOS<br> Tempo dedicado ao trabalho junto ao cliente, seja presencial ou remoto.',
+                                            'FOLLOW UP / PÓS VENDA<br> Tempo dedicado ao cliente para dar apoio no pós venda e para criar um vínculo de longo prazo',
+                                            'CAPACITAÇÃO / APRIMORAMENTO / COACHING<br> Tempo dedicado a melhoria do seu desempenho profissional',
+                                            'ATIVIDADES ADMINISTRATIVAS<br> Tempo dedicado a reuniões, elaboração de relatórios, solicitação de pedidos, etc.',
+                                            'OUTRAS ATIVIDADES<br> Tempo dedicado a atividades que não se enquadram nas anteriormente descritas tais como: viagens, tempo de espera para atendimento no cliente, etc.',
                                                                     ]
                                     @endphp
                                     @for($i=0;$i<8;$i++) 
@@ -93,7 +93,7 @@
                                 </tr>
                                 <tr>
                                     <td colspan="2" class="bg-primary">A - Alta importância (15% ou +)</td>
-                                    <td id="message" colspan="12" style="background-color: #ff00006b"></td>
+                                    <td id="message" colspan="12" style="background-color: #f9eac3"></td>
                                 </tr>
                                 @for($j=0;$j<4;$j++) <tr>
                                     <td><input data-toggle="tooltip" title="Quais são os objetivos de alta importância para você alcançar suas metas." type="text" class="form-control" name="objetivo{{$j}}" id="objetivo{{$j}}" placeholder="" @if($j==0) required @endif></td>
@@ -107,7 +107,7 @@
                                         </tr>
                                         <tr>
                                             <td colspan="2" class="bg-primary">B - Baixa importância (abaixo de 15%)</td>
-                                            <td colspan="12" style="background-color: #ff00006b"></td>
+                                            <td colspan="12" style="background-color: #f9eac3"></td>
                                         </tr>
                                         @for($j=4;$j<8;$j++) <tr>
                                             <td><input data-toggle="tooltip" title="Registrar os Objetivos de Baixa importância se houver" type="text" class="form-control" name="objetivomedia{{$j-4}}" placeholder="" @if($j==4) required @endif></td>
