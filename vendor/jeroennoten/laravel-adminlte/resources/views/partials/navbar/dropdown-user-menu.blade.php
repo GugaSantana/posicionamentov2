@@ -78,6 +78,13 @@
                 Níveis de acesso
             </a>
             @endif
+            @if(Auth::User()->role_id == 1)
+            <a class="btn btn-default btn-flat float-right @if(!$profile_url) btn-block @endif"
+               href="/user/acompanhamento">
+                <i class="fas fa-fw fa-book"></i>
+                Acompanhamento
+            </a>
+            @endif
             
             <a class="btn btn-default btn-flat float-right @if(!$profile_url) btn-block @endif"
                href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">

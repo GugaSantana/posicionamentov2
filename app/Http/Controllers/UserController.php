@@ -53,4 +53,10 @@ class UserController extends Controller
 
         return back()->with('success', 'Os Instrumentos do usuário foram resetados com sucesso!');
     }
+
+    public function acompanhamento(){
+        $users = User::with('instrumentos','role')->paginate(30);
+        
+        return view('list_acompanhamento')->with(compact('users'));
+    }
 }

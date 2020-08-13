@@ -119,6 +119,8 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 		Route::get('/list', 'UserController@listUser');
 		Route::post('/changeRole', 'UserController@changeRole');
 		Route::post('/clear', 'UserController@clearInstrumentos');
+		
+		Route::get('/acompanhamento', 'UserController@acompanhamento');
 	});
 
 	//Users
