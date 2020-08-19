@@ -1462,4 +1462,33 @@ class InstrumentoController extends Controller
 
         return view('report.report_instrumento7')->with(compact('data', 'total'));
     }
+
+    public function reportInstrumento8(){
+        $instrumento8 = Instrumento8::get();
+        $feed60 = Instrumento8::where('feedback', '>=', 60)->get();
+        $feed60 = count($feed60);
+
+        $expo60 = Instrumento8::where('exposicao', '>=', 60)->get();
+        $expo60 = count($expo60);
+
+        $janela25 = Instrumento8::where('feedback', '<=', 25)->where('exposicao', '<=', 25)->get();
+        $janela25 = count($janela25);
+
+        $janela70 = Instrumento8::where('feedback', '>=', 70)->where('exposicao', '>=', 70)->get();
+        $janela70 = count($janela70);
+
+
+        $total = count($instrumento8);
+        
+        $retExpo = $retFeed = 0;
+        foreach ($instrumento8 as $inst) {
+            $retExpo += $inst->exposicao;
+            $retFeed += $inst->feedback;
+        }
+        
+        $retExpo /= $total;
+        $retFeed /= $total;
+        
+        return view('report.report_instrumento8')->with(compact('retExpo', 'retFeed', 'feed60', 'expo60', 'janela25', 'janela70', 'total'));
+    }
 }
