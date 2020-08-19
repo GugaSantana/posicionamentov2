@@ -125,7 +125,7 @@
             <table class="table table-hover table-bordered">
                 <thead class="bg-primary">
                     <tr class="fonte18 center">
-                        <th style="min-width: 45em;font-weight: bold;">PROBLEMAS POR ORDEM DECRESCENTE DE PRIORIDADE</th>
+                        <th style="font-weight: bold;">PROBLEMAS POR ORDEM DECRESCENTE DE PRIORIDADE</th>
                         <th style="text-align: center"><b>PRIORIDADE</b></th>
                     </tr>
                 </thead>

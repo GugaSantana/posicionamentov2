@@ -275,12 +275,36 @@ class InstrumentoController extends Controller
         arsort($array);
         $retorno = $array;
 
+        //Dados para relatório
+        $primeiro = $retornoOld[0];
+        $i = 1;
+        foreach($retorno as $key => $value){
+            if($primeiro == $key){
+                $desvio_maior = $i;
+                break;
+            }
+            $i++;
+        }
+
+        //Verificação de desvio do menos importante
+        $primeiro = $retornoOld[4];
+        $i = 1;
+        foreach($retorno as $key => $value){
+            if($primeiro == $key){
+                $desvio_menor = $i;
+                break;
+            }
+            $i++;
+        }
+        
         //salva no BD
         $dataBd = [
             'user_id' => Auth::User()->id,
             'retorno' => $retorno,
             'retornoOld' => $retornoOld,
             'cores' => $cores,
+            'desvio_maior' => $desvio_maior,
+            'desvio_menor' => $desvio_menor,
             'done' => true,
         ];
         if(Auth::User()->role_id != 1){
@@ -1306,4 +1330,55 @@ class InstrumentoController extends Controller
 
         return view('report.report_instrumento1')->with(compact('quadrante', 'quadrantePorc'));
     }
+
+    public function reportInstrumento2(){
+        $instrumento2 = Instrumento2::get();
+        $total = count($instrumento2);
+        $maior1 = $maior2 = $maior3 = $maior4 = $maior5 = 0;
+        $menor1 = $menor2 = $menor3 = $menor4 = $menor5 = 0;
+
+        foreach ($instrumento2 as $inst) {
+            switch ($inst->desvio_maior) {
+                case '1':
+                    $maior1++;
+                    break;
+                case '2':
+                    $maior2++;
+                    break;
+                case '3':
+                    $maior3++;
+                    break;
+                case '4':
+                    $maior4++;
+                    break;
+                case '5':
+                    $maior5++;
+                    break;
+            }
+
+            switch ($inst->desvio_menor) {
+                case '1':
+                    $menor1++;
+                    break;
+                case '2':
+                    $menor2++;
+                    break;
+                case '3':
+                    $menor3++;
+                    break;
+                case '4':
+                    $menor4++;
+                    break;
+                case '5':
+                    $menor5++;
+                    break;
+            }
+        }
+
+        $desvio_maior = [$maior1,$maior2,$maior3,$maior4,$maior5];
+        $desvio_menor = [$menor1,$menor2,$menor3,$menor4,$menor5];
+
+        return view('report.report_instrumento2')->with(compact('desvio_maior', 'desvio_menor', 'total'));
+    }
+
 }
