@@ -1422,4 +1422,25 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento4')->with(compact('escala', 'total'));
     }
 
+    public function reportInstrumento5(){
+        $instrumento5 = Instrumento5::get();
+        $total = count($instrumento5);
+        //dd($instrumento4->first());
+        /* for ($i=0; $i < 19; $i++) { 
+            for ($j=1; $j <= 10; $j++) { 
+                $escala[$i][$j] = 0;
+            }
+        }
+        
+        foreach ($instrumento4 as $inst) {
+            $i=0;
+            foreach($inst->retorno as $ret){
+                $escala[$i][$ret]++;
+                $i++;
+            }
+        } */
+
+        return view('report.report_instrumento5')->with(compact('escala', 'total'));
+    }
+
 }
