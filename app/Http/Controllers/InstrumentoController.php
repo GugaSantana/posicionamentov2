@@ -1443,4 +1443,23 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento5')->with(compact('escala', 'total'));
     }
 
+    public function reportInstrumento7(){
+        $instrumento7 = Instrumento7::get();
+        $total = count($instrumento7);
+        
+        $pai = $adulto = $crianca = 0;
+        foreach ($instrumento7 as $inst) {
+            $pai += $inst->pai;
+            $adulto += $inst->adulto;
+            $crianca += $inst->crianca;
+        }
+
+        $pai = number_format($pai/$total, 2);
+        $adulto = number_format($adulto/$total, 2);
+        $crianca = number_format($crianca/$total, 2);
+
+        $data = [$pai, $adulto, $crianca];
+
+        return view('report.report_instrumento7')->with(compact('data', 'total'));
+    }
 }
