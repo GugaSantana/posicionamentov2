@@ -1381,4 +1381,24 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento2')->with(compact('desvio_maior', 'desvio_menor', 'total'));
     }
 
+    public function reportInstrumento3(){
+        $instrumento3 = Instrumento3::get();
+        $total = count($instrumento3);
+        for ($i=0; $i < 19; $i++) { 
+            for ($j=1; $j <= 10; $j++) { 
+                $escala[$i][$j] = 0;
+            }
+        }
+        
+        foreach ($instrumento3 as $inst) {
+            $i=0;
+            foreach($inst->retorno as $ret){
+                $escala[$i][$ret]++;
+                $i++;
+            }
+        }
+
+        return view('report.report_instrumento3')->with(compact('escala', 'total'));
+    }
+
 }
