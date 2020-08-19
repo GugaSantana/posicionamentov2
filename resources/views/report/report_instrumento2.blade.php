@@ -70,27 +70,27 @@
         <tr>
           <td>De 1 para 1</td>
           <td style="text-align: center">{{$desvio_maior[0]}}</td>
-          <td style="text-align: center">{{($desvio_maior[0] * 100 / $total) ?? 0}}%</td>
+          <td style="text-align: center">{{number_format($desvio_maior[0] * 100 / $total, 2) ?? 0}}%</td>
         </tr>
         <tr>
           <td>De 1 para 2</td>
           <td style="text-align: center">{{$desvio_maior[1]}}</td>
-          <td style="text-align: center">{{($desvio_maior[1] * 100 / $total) ?? 0}}%</td>
+          <td style="text-align: center">{{number_format($desvio_maior[1] * 100 / $total, 2) ?? 0}}%</td>
         </tr>
         <tr>
           <td>De 1 para 3</td>
           <td style="text-align: center">{{$desvio_maior[2]}}</td>
-          <td style="text-align: center">{{($desvio_maior[2] * 100 / $total) ?? 0}}%</td>
+          <td style="text-align: center">{{number_format($desvio_maior[2] * 100 / $total, 2) ?? 0}}%</td>
         </tr>
         <tr>
           <td>De 1 para 4</td>
           <td style="text-align: center">{{$desvio_maior[3]}}</td>
-          <td style="text-align: center">{{($desvio_maior[3] * 100 / $total) ?? 0}}%</td>
+          <td style="text-align: center">{{number_format($desvio_maior[3] * 100 / $total, 2) ?? 0}}%</td>
         </tr>
         <tr>
           <td>De 1 para 5</td>
           <td style="text-align: center">{{$desvio_maior[4]}}</td>
-          <td style="text-align: center">{{($desvio_maior[4] * 100 / $total) ?? 0}}%</td>
+          <td style="text-align: center">{{number_format($desvio_maior[4] * 100 / $total, 2) ?? 0}}%</td>
         </tr>
         </table>
         <br>
@@ -105,27 +105,27 @@
         <tr>
           <td>De 5 para 1</td>
           <td style="text-align: center">{{$desvio_menor[0]}}</td>
-          <td style="text-align: center">{{($desvio_menor[0] * 100 / $total) ?? 0}}%</td>
+          <td style="text-align: center">{{number_format($desvio_menor[0] * 100 / $total, 2) ?? 0}}%</td>
         </tr>
         <tr>
           <td>De 5 para 2</td>
           <td style="text-align: center">{{$desvio_menor[1]}}</td>
-          <td style="text-align: center">{{($desvio_menor[1] * 100 / $total) ?? 0}}%</td>
+          <td style="text-align: center">{{number_format($desvio_menor[1] * 100 / $total, 2) ?? 0}}%</td>
         </tr>
         <tr>
           <td>De 5 para 3</td>
           <td style="text-align: center">{{$desvio_menor[2]}}</td>
-          <td style="text-align: center">{{($desvio_menor[2] * 100 / $total) ?? 0}}%</td>
+          <td style="text-align: center">{{number_format($desvio_menor[2] * 100 / $total, 2) ?? 0}}%</td>
         </tr>
         <tr>
           <td>De 5 para 4</td>
           <td style="text-align: center">{{$desvio_menor[3]}}</td>
-          <td style="text-align: center">{{($desvio_menor[3] * 100 / $total) ?? 0}}%</td>
+          <td style="text-align: center">{{number_format($desvio_menor[3] * 100 / $total, 2) ?? 0}}%</td>
         </tr>
         <tr>
           <td>De 5 para 5</td>
           <td style="text-align: center">{{$desvio_menor[4]}}</td>
-          <td style="text-align: center">{{($desvio_menor[4] * 100 / $total) ?? 0}}%</td>
+          <td style="text-align: center">{{number_format($desvio_menor[4] * 100 / $total, 2) ?? 0}}%</td>
         </tr>
         </table>
       </div>
