@@ -40,11 +40,47 @@ class InstrumentoController extends Controller
         $visao = $soma;
         $acao = $request['radioPt2'];
 
+
+        if($visao >= 8){
+            if($acao <= 3){
+                $quadrante = 1;
+            }
+            else if($acao > 3 && $acao <= 7){
+                $quadrante = 2;
+            }
+            else if($acao >7){
+                $quadrante = 3;
+            }
+        }
+        if($visao < 8 && $visao >= 3){
+            if($acao <= 3){
+                $quadrante = 4;
+            }
+            else if($acao > 3 && $acao <= 7){
+                $quadrante = 5;
+            }
+            else if($acao > 7){
+                $quadrante = 6;
+            }
+        } 
+        if($visao < 3){
+            if($acao <= 3){
+                $quadrante = 7;
+            }
+            else if($acao > 3 && $acao <= 7){
+                $quadrante = 8;
+            }
+            else if($acao >7){
+                $quadrante = 6;
+            }
+        }
+
         //salva no BD
         $dataBd = [
             'user_id' => Auth::User()->id,
             'visao' => $visao,
             'acao' => $acao,
+            'quadrante' => $quadrante,
             'done' =>true
         ];
         if(Auth::User()->role_id != 1){
@@ -1215,5 +1251,59 @@ class InstrumentoController extends Controller
     public function teste1(){
         $auth = Auth::user();
         dd($auth->getInstrumentos());
+    }
+
+    //Relatorios
+    public function reportInstrumento1(){
+        $instrumento1 = Instrumento1::get();
+        $total = count($instrumento1);
+
+        $q1 = $q2 = $q3 = $q4 = $q5 = $q6 = $q7 = $q8 = $q9 = 0;
+        foreach($instrumento1 as $inst1){
+            switch ($inst1->quadrante) {
+                case '1':
+                    $q1++;
+                break;
+                case '2':
+                    $q2++;
+                break;
+                case '3':
+                    $q3++;
+                break;
+                case '4':
+                    $q4++;
+                break;
+                case '5':
+                    $q5++;
+                break;
+                case '6':
+                    $q6++;
+                break;
+                case '7':
+                    $q7++;
+                break;
+                case '8':
+                    $q8++;
+                break;
+                case '9':
+                    $q9++;
+                break;
+            }
+        }
+
+        $qp1 = $q1 * 100 / $total ?? 0;
+        $qp2 = $q2 * 100 / $total ?? 0;
+        $qp3 = $q3 * 100 / $total ?? 0;
+        $qp4 = $q4 * 100 / $total ?? 0;
+        $qp5 = $q5 * 100 / $total ?? 0;
+        $qp6 = $q6 * 100 / $total ?? 0;
+        $qp7 = $q7 * 100 / $total ?? 0;
+        $qp8 = $q8 * 100 / $total ?? 0;
+        $qp9 = $q9 * 100 / $total ?? 0;
+        
+        $quadrante = [$q1,$q2,$q3,$q4,$q5,$q6,$q7,$q8,$q9];
+        $quadrantePorc = [$qp1,$qp2,$qp3,$qp4,$qp5,$qp6,$qp7,$qp8,$qp9];
+
+        return view('report.report_instrumento1')->with(compact('quadrante', 'quadrantePorc'));
     }
 }

@@ -136,3 +136,8 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 		Route::post('/remove', 'RoleController@removeRole');
 		Route::post('/update', 'RoleController@updateRole');		
 	});
+
+	//Relatórios
+	Route::group(['prefix' => 'report', "middleware" => ["auth","admin"]], function() {
+        Route::get('/instrumento1', 'InstrumentoController@reportInstrumento1');
+	});
