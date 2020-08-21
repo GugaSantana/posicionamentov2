@@ -1491,4 +1491,30 @@ class InstrumentoController extends Controller
         
         return view('report.report_instrumento8')->with(compact('retExpo', 'retFeed', 'feed60', 'expo60', 'janela25', 'janela70', 'total'));
     }
+    
+    public function reportInstrumento9(){
+        $instrumento9 = Instrumento9::get();
+        $visualMenor3 = Instrumento9::where('visual', '<=', 3)->get();
+        $auditivoMenor3 = Instrumento9::where('auditivo', '<=', 3)->get();
+        $cinestesicoMenor3 = Instrumento9::where('cinestesico', '<=', 3)->get();
+        
+        $visualMenor3 = count($visualMenor3);
+        $auditivoMenor3 = count($auditivoMenor3);
+        $cinestesicoMenor3 = count($cinestesicoMenor3);
+
+        $total = count($instrumento9);
+        
+        $visual = $auditivo = $cinestesico = 0;
+        foreach ($instrumento9 as $inst) {
+            $visual += $inst->visual;
+            $auditivo += $inst->auditivo;
+            $cinestesico += $inst->cinestesico;
+        }
+        
+        $visual /= $total;
+        $auditivo /= $total;
+        $cinestesico /= $total;
+        
+        return view('report.report_instrumento9')->with(compact('visual', 'auditivo', 'cinestesico', 'visualMenor3', 'auditivoMenor3', 'cinestesicoMenor3', 'total'));
+    }
 }
