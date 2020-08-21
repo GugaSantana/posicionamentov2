@@ -1531,6 +1531,417 @@ class InstrumentoController extends Controller
         $dif1 = count($dif1);
         
         return view('report.report_instrumento10')->with(compact('dif18', 'dif12', 'dif1', 'total'));
+    }
+
+    public function reportInstrumento11(){
+        $instrumento11 = Instrumento11::get();
+        $total = count($instrumento11);
         
+        for ($i=0; $i < 6; $i++) { 
+            //Idade
+            $retIdade1[$i] = 0;
+            $retIdade2[$i] = 0;
+            //Sexo
+            $retSexo1[$i] = 0;
+            $retSexo2[$i] = 0;
+            //Renda
+            $retRenda1[$i] = 0;
+            $retRenda2[$i] = 0;
+            //Familia
+            $retFamilia1[$i] = 0;
+            $retFamilia2[$i] = 0;
+            //Escola
+            $retEscola1[$i] = 0;
+            $retEscola2[$i] = 0;
+            //Trabalho
+            $retTrabalho1[$i] = 0;
+            $retTrabalho2[$i] = 0;
+            //Regiao
+            $retRegiao1[$i] = 0;
+            $retRegiao2[$i] = 0;
+            //Habitantes
+            $retHabitantes1[$i] = 0;
+            $retHabitantes2[$i] = 0;
+            //VolumeCompra
+            $retVolumeCompra1[$i] = 0;
+            $retVolumeCompra2[$i] = 0;
+            //FrequenciaCompra
+            $retFrequenciaCompra1[$i] = 0;
+            $retFrequenciaCompra2[$i] = 0;
+            //ValorCompra
+            $retValorCompra1[$i] = 0;
+            $retValorCompra2[$i] = 0;
+            
+        }
+        
+        foreach($instrumento11 as $inst){
+            //Idade
+            switch ($inst->data['idade']) {
+                case 'Adolescentes 15 a 18 anos':
+                $retIdade1[0]++;
+                break;
+                case 'Adulto Jovem 19 a 35 anos':
+                $retIdade1[1]++;
+                break;
+                case 'Meia Idade 36 a 50 anos':
+                $retIdade1[2]++;
+                break;
+                case 'Maduros 50 a 60 anos':
+                $retIdade1[3]++;
+                break;
+                case 'Terceira Idade Acima de 60 anos':
+                $retIdade1[4]++;
+                break;
+            }
+
+            switch ($inst->data_diag['idade']) {
+                case 'Adolescentes 15 a 18 anos':
+                $retIdade2[0]++;
+                break;
+                case 'Adulto Jovem 19 a 35 anos':
+                $retIdade2[1]++;
+                break;
+                case 'Meia Idade 36 a 50 anos':
+                $retIdade2[2]++;
+                break;
+                case 'Maduros 50 a 60 anos':
+                $retIdade2[3]++;
+                break;
+                case 'Terceira Idade Acima de 60 anos':
+                $retIdade2[4]++;
+                break;
+            }
+
+            //Sexo
+            switch ($inst->data['sexo']) {
+                case 'Homem':
+                $retSexo1[0]++;
+                break;
+                case 'Mulher':
+                $retSexo1[1]++;
+                break;
+            }
+
+            switch ($inst->data_diag['sexo']) {
+                case 'Homem':
+                $retSexo2[0]++;
+                break;
+                case 'Mulher':
+                $retSexo2[1]++;
+                break;
+            }
+            
+            //Renda
+            switch ($inst->data['salario']) {
+                case 'Até 5 salários mínimos':
+                $retRenda1[0]++;
+                break;
+                case 'De 6 a 10 salários mínimos':
+                $retRenda1[1]++;
+                break;
+                case 'De 10 a 20 salários mínimos':
+                $retRenda1[2]++;
+                break;
+                case 'Acima de 20 salários mínimos':
+                $retRenda1[3]++;
+                break;
+            }
+
+            switch ($inst->data_diag['salario']) {
+                case 'Até 5 salários mínimos':
+                $retRenda2[0]++;
+                break;
+                case 'De 6 a 10 salários mínimos':
+                $retRenda2[1]++;
+                break;
+                case 'De 10 a 20 salários mínimos':
+                $retRenda2[2]++;
+                break;
+                case 'Acima de 20 salários mínimos':
+                $retRenda2[3]++;
+                break;
+            }
+
+            //Familia
+            switch ($inst->data['familia']) {
+                case 'Mora sozinho':
+                $retFamilia1[0]++;
+                break;
+                case 'Não tem filhos':
+                $retFamilia1[1]++;
+                break;
+                case 'Família pequena':
+                $retFamilia1[2]++;
+                break;
+                case 'Família pequena: até 2 filhos':
+                $retFamilia1[3]++;
+                break;
+                case 'Família grande Outras pessoas moram com o casal (sogros, tios,..':
+                $retFamilia1[4]++;
+                break;
+            }
+
+            switch ($inst->data_diag['familia']) {
+                case 'Mora sozinho':
+                $retFamilia2[0]++;
+                break;
+                case 'Não tem filhos':
+                $retFamilia2[1]++;
+                break;
+                case 'Família pequena':
+                $retFamilia2[2]++;
+                break;
+                case 'Família pequena: até 2 filhos':
+                $retFamilia2[3]++;
+                break;
+                case 'Família grande Outras pessoas moram com o casal (sogros, tios,..':
+                $retFamilia2[4]++;
+                break;
+            }
+
+            //Escola
+            switch ($inst->data['escola']) {
+                case 'Ensino Fundamental Incompleto':
+                $retEscola1[0]++;
+                break;                
+                case 'Ensino Fundamental Completo':
+                $retEscola1[1]++;
+                break;                
+                case 'Ensino Médio Incompleto':
+                $retEscola1[2]++;
+                break;                
+                case 'Ensino Médio Completo':
+                $retEscola1[3]++;
+                break;                
+                case 'Ensino Superior':
+                $retEscola1[4]++;
+                break;
+                case 'Pós Graduado':
+                $retEscola1[5]++;
+                break;
+            }
+
+            switch ($inst->data_diag['escola']) {
+                case 'Ensino Fundamental Incompleto':
+                $retEscola2[0]++;
+                break;                
+                case 'Ensino Fundamental Completo':
+                $retEscola2[1]++;
+                break;                
+                case 'Ensino Médio Incompleto':
+                $retEscola2[2]++;
+                break;                
+                case 'Ensino Médio Completo':
+                $retEscola2[3]++;
+                break;                
+                case 'Ensino Superior':
+                $retEscola2[4]++;
+                break;
+                case 'Pós Graduado':
+                $retEscola2[5]++;
+                break;
+            }
+
+            //Trabalho
+            switch ($inst->data['trabalho']) {
+                case 'Autônomos':
+                $retTrabalho1[0]++;
+                break;
+                case 'Empregados':
+                $retTrabalho1[1]++;
+                break;
+                case 'Trabalham no setor de Serviços':
+                $retTrabalho1[2]++;
+                break;
+                case 'Trabalham na Indústria':
+                $retTrabalho1[3]++;
+                break;
+                case 'Trabalho Intelectual':
+                $retTrabalho1[4]++;
+                break;
+                case 'Trabalho Manual':
+                $retTrabalho1[5]++;
+                break;
+            }
+
+            switch ($inst->data_diag['trabalho']) {
+                case 'Autônomos':
+                $retTrabalho2[0]++;
+                break;
+                case 'Empregados':
+                $retTrabalho2[1]++;
+                break;
+                case 'Trabalham no setor de Serviços':
+                $retTrabalho2[2]++;
+                break;
+                case 'Trabalham na Indústria':
+                $retTrabalho2[3]++;
+                break;
+                case 'Trabalho Intelectual':
+                $retTrabalho2[4]++;
+                break;
+                case 'Trabalho Manual':
+                $retTrabalho2[5]++;
+                break;
+            }
+
+            //Regiao
+            switch ($inst->data['regiao']) {
+                case 'Zona Norte':
+                $retRegiao1[0]++;
+                break;
+                case 'Zona Sul':
+                $retRegiao1[1]++;
+                break;
+                case 'Centro':
+                $retRegiao1[2]++;
+                break;
+                case 'Zona Oeste':
+                $retRegiao1[3]++;
+                break;
+                case 'Zona Leste':
+                $retRegiao1[4]++;
+                break;
+            }
+
+            switch ($inst->data_diag['regiao']) {
+                case 'Zona Norte':
+                $retRegiao2[0]++;
+                break;
+                case 'Zona Sul':
+                $retRegiao2[1]++;
+                break;
+                case 'Centro':
+                $retRegiao2[2]++;
+                break;
+                case 'Zona Oeste':
+                $retRegiao2[3]++;
+                break;
+                case 'Zona Leste':
+                $retRegiao2[4]++;
+                break;
+            }
+            
+            //Habitantes
+            switch ($inst->data['habitantes']) {
+                case 'Alta concentração de habitantes':
+                $retHabitantes1[0]++;
+                break;
+                case 'Média concentração de habitantes':
+                $retHabitantes1[1]++;
+                break;
+                case 'Baixa concentração de habitantes':
+                $retHabitantes1[2]++;
+                break;
+            }
+
+            switch ($inst->data_diag['habitantes']) {
+                case 'Alta concentração de habitantes':
+                $retHabitantes2[0]++;
+                break;
+                case 'Média concentração de habitantes':
+                $retHabitantes2[1]++;
+                break;
+                case 'Baixa concentração de habitantes':
+                $retHabitantes2[2]++;
+                break;
+            }
+
+            //VolumeCompra
+            switch ($inst->data['volume_compra']) {
+                case 'Alto':
+                $retVolumeCompra1[0]++;
+                break;
+                case 'Médio':
+                $retVolumeCompra1[1]++;
+                break;
+                case 'Baixo':
+                $retVolumeCompra1[2]++;
+                break;
+            }
+
+            switch ($inst->data_diag['volume_compra']) {
+                case 'Alto':
+                $retVolumeCompra2[0]++;
+                break;
+                case 'Médio':
+                $retVolumeCompra2[1]++;
+                break;
+                case 'Baixo':
+                $retVolumeCompra2[2]++;
+                break;
+            }
+            
+            //FrequenciaCompra
+            switch ($inst->data['frequencia_compra']) {
+                case 'Alta':
+                $retFrequenciaCompra1[0]++;
+                break;
+                case 'Média':
+                $retFrequenciaCompra1[1]++;
+                break;
+                case 'Baixa':
+                $retFrequenciaCompra1[2]++;
+                break;
+            }
+
+            switch ($inst->data_diag['frequencia_compra']) {
+                case 'Alta':
+                $retFrequenciaCompra2[0]++;
+                break;
+                case 'Média':
+                $retFrequenciaCompra2[1]++;
+                break;
+                case 'Baixa':
+                $retFrequenciaCompra2[2]++;
+                break;
+            }
+
+            //ValorCompra
+            switch ($inst->data['valor_compra']) {
+                case 'Preço':
+                $retValorCompra1[0]++;
+                break;
+                case 'Qualidade':
+                $retValorCompra1[1]++;
+                break;
+                case 'Entrega Rápida':
+                $retValorCompra1[2]++;
+                break;
+                case 'Formas de Pagamento':
+                $retValorCompra1[3]++;
+                break;
+            }
+
+            switch ($inst->data_diag['valor_compra']) {
+                case 'Preço':
+                $retValorCompra2[0]++;
+                break;
+                case 'Qualidade':
+                $retValorCompra2[1]++;
+                break;
+                case 'Entrega Rápida':
+                $retValorCompra2[2]++;
+                break;
+                case 'Formas de Pagamento':
+                $retValorCompra2[3]++;
+                break;
+            }
+
+        }
+
+        //dd($retIdade1 ,$retIdade2);
+        //dd($retFamilia1, $retFamilia2);
+        //dd($retEscola1, $retEscola2);
+        //dd($retFrequenciaCompra1, $retFrequenciaCompra2);
+
+        
+        return view('report.report_instrumento11')
+            ->with(compact('retIdade1','retIdade2','retSexo1','retSexo2',
+                            'retRenda1','retRenda2','retFamilia1','retFamilia2',
+                            'retEscola1','retEscola2','retTrabalho1','retTrabalho2',
+                            'retRegiao1','retRegiao2','retHabitantes1','retHabitantes2',
+                            'retVolumeCompra1','retVolumeCompra2','retFrequenciaCompra1','retFrequenciaCompra2',
+                            'retValorCompra1','retValorCompra2'));
     }
 }

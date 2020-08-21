@@ -27,7 +27,7 @@ class AppServiceProvider extends ServiceProvider
     {
         Schema::defaultStringLength(191);
         if(env('APP_ENV') == "Producao"){
-            $this->app['request']->server->set('HTTPS','on');
+            //$this->app['request']->server->set('HTTPS','on');
         }
 
     }
