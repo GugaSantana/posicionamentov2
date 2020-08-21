@@ -1517,4 +1517,20 @@ class InstrumentoController extends Controller
         
         return view('report.report_instrumento9')->with(compact('visual', 'auditivo', 'cinestesico', 'visualMenor3', 'auditivoMenor3', 'cinestesicoMenor3', 'total'));
     }
+
+    public function reportInstrumento10(){
+        $instrumento10 = Instrumento10::get();
+        $total = count($instrumento10);
+        
+        $dif18 = Instrumento10::where('total', '>=', 18)->where('total', '<=', 20)->get();
+        $dif12 = Instrumento10::where('total', '>=', 12)->where('total', '<=', 17)->get();
+        $dif1 = Instrumento10::where('total', '>=', 1)->where('total', '<=', 11)->get();
+        
+        $dif18 = count($dif18);
+        $dif12 = count($dif12);
+        $dif1 = count($dif1);
+        
+        return view('report.report_instrumento10')->with(compact('dif18', 'dif12', 'dif1', 'total'));
+        
+    }
 }
