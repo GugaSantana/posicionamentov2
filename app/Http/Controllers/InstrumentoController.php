@@ -1944,4 +1944,20 @@ class InstrumentoController extends Controller
                             'retVolumeCompra1','retVolumeCompra2','retFrequenciaCompra1','retFrequenciaCompra2',
                             'retValorCompra1','retValorCompra2'));
     }
+
+    public function reportInstrumento12(){
+        $instrumento12 = Instrumento12::get();
+        $total = count($instrumento12);
+        
+        $alto = Instrumento12::where('sim', '>=', '15')->get();
+        $alto = count($alto);
+
+        $medio = Instrumento12::where('sim', '>=', '11')->where('sim', '<', '15')->get();
+        $medio = count($medio);
+        
+        $baixo = Instrumento12::where('sim', '<', '11')->get();
+        $baixo = count($baixo);
+
+        return view('report.report_instrumento12')->with(compact('alto','medio','baixo','total'));
+    }
 }

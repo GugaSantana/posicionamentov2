@@ -216,63 +216,63 @@
             pincel.fillText('AÇÃO BAIXA', (size * 3) + margem, size * 2.8);
             pincel.fillStyle = "red";
             @if(!empty($quadrante[0]))
-            pincel.fillText('{{number_format($quadrante[0], 2)}}%', (size * 3) + margem, size * 3.4);
+            pincel.fillText('{{$quadrante[0]}}', (size * 3) + margem, size * 3.4);
             @endif
             pincel.fillStyle = "black";
             pincel.fillText('VISÃO ALTA', (size * 7) + margem, size * 2.2);
             pincel.fillText('AÇÃO MEDIA', (size * 7) + margem, size * 2.8);
             pincel.fillStyle = "red";
             @if(!empty($quadrante[1]))
-            pincel.fillText('{{number_format($quadrante[1], 2)}}%', (size * 7) + margem, size * 3.4);
+            pincel.fillText('{{$quadrante[1]}}', (size * 7) + margem, size * 3.4);
             @endif
             pincel.fillStyle = "black";
             pincel.fillText('VISÃO ALTA', (size * 10.5) + margem, size * 2.2);
             pincel.fillText('AÇÃO ALTA', (size * 10.5) + margem, size * 2.8);
             pincel.fillStyle = "red";
             @if(!empty($quadrante[2]))
-            pincel.fillText('{{number_format($quadrante[2], 2)}}%', (size * 10.5) + margem, size * 3.4);
+            pincel.fillText('{{$quadrante[2]}}', (size * 10.5) + margem, size * 3.4);
             @endif
             pincel.fillStyle = "black";
             pincel.fillText('VISÃO MÉDIA', (size * 3) + margem, size * 6.2);
             pincel.fillText('AÇÃO BAIXA', (size * 3) + margem, size * 6.8);
             pincel.fillStyle = "red";
             @if(!empty($quadrante[3]))
-            pincel.fillText('{{number_format($quadrante[3], 2)}}%', (size * 3) + margem, size * 7.4);
+            pincel.fillText('{{$quadrante[3]}}', (size * 3) + margem, size * 7.4);
             @endif
             pincel.fillStyle = "black";
             pincel.fillText('VISÃO MÉDIA', (size * 7) + margem, size * 6.2);
             pincel.fillText('AÇÃO MÉDIA', (size * 7) + margem, size * 6.8);
             pincel.fillStyle = "red";
             @if(!empty($quadrante[4]))
-            pincel.fillText('{{number_format($quadrante[4], 2)}}%', (size * 7) + margem, size * 7.4);
+            pincel.fillText('{{$quadrante[4]}}', (size * 7) + margem, size * 7.4);
             @endif
             pincel.fillStyle = "black";
             pincel.fillText('VISÃO MÉDIA', (size * 10.5) + margem, size * 6.2);
             pincel.fillText('AÇÃO ALTA', (size * 10.5) + margem, size * 6.8);
             pincel.fillStyle = "red";
             @if(!empty($quadrante[5]))
-            pincel.fillText('{{number_format($quadrante[5], 2)}}%', (size * 10.5) + margem, size * 7.4);
+            pincel.fillText('{{$quadrante[5]}}', (size * 10.5) + margem, size * 7.4);
             @endif
             pincel.fillStyle = "black";
             pincel.fillText('VISÃO BAIXA', (size * 3) + margem, size * 10.2);
             pincel.fillText('AÇÃO BAIXA', (size * 3) + margem, size * 10.8);
             pincel.fillStyle = "red";
             @if(!empty($quadrante[6]))
-            pincel.fillText('{{number_format($quadrante[6], 2)}}%', (size * 3) + margem, size * 11.4);
+            pincel.fillText('{{$quadrante[6]}}', (size * 3) + margem, size * 11.4);
             @endif
             pincel.fillStyle = "black";
             pincel.fillText('VISÃO BAIXA', (size * 7) + margem, size * 10.2);
             pincel.fillText('AÇÃO MÉDIA', (size * 7) + margem, size * 10.8);
             pincel.fillStyle = "red";
             @if(!empty($quadrante[7]))
-            pincel.fillText('{{number_format($quadrante[7], 2)}}%', (size * 7) + margem, size * 11.4);
+            pincel.fillText('{{$quadrante[7]}}', (size * 7) + margem, size * 11.4);
             @endif
             pincel.fillStyle = "black";
             pincel.fillText('VISÃO BAIXA', (size * 10.5) + margem, size * 10.2);
             pincel.fillText('AÇÃO ALTA', (size * 10.5) + margem, size * 10.8);
             pincel.fillStyle = "red";
             @if(!empty($quadrante[8]))
-            pincel.fillText('{{number_format($quadrante[8], 2)}}%', (size * 10.5) + margem, size * 11.4);
+            pincel.fillText('{{$quadrante[8]}}', (size * 10.5) + margem, size * 11.4);
             @endif
             pincel.fillStyle = "black";
 
