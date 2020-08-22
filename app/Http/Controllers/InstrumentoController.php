@@ -1960,4 +1960,32 @@ class InstrumentoController extends Controller
 
         return view('report.report_instrumento12')->with(compact('alto','medio','baixo','total'));
     }
+
+    public function reportInstrumento13(){
+        $instrumento13 = Instrumento13::get();
+        $total = count($instrumento13);
+
+        $total = $alto = $medio = $baixo = 0;
+
+        foreach($instrumento13 as $inst){
+            foreach($inst->retorno as $value){
+                switch ($value) {
+                    case '1':
+                    case '2':
+                        $baixo++;
+                    break;
+                    case '3':
+                    case '4':
+                        $medio++;
+                    break;
+                    case '5':
+                        $alto++;
+                    break;
+                }
+                $total++;
+            }
+        }
+        
+        return view('report.report_instrumento13')->with(compact('baixo','medio','alto','total'));
+    }
 }
