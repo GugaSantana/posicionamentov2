@@ -1031,6 +1031,7 @@ class InstrumentoController extends Controller
     //========== INSTRUMENTO 14 ==========
 
     public function requestInstrumento14(Request $request){
+        
         $i = 0;
         $returnCores = [];
         $cores = ['red', 'blue','yellow','green','orange','grey','black','purple', '#00C5CD', '#FF6A6A', '#CDCDC1', '#DEB887'];
@@ -1039,6 +1040,13 @@ class InstrumentoController extends Controller
             $clientes[] = $cli;
             $cliRes[$cli] = array_sum($request['valor'.$i++]);
         }
+        
+        for($i=0; $i < 12; $i++){
+            for($j=0; $j < 8; $j++){
+                $fatores[$i][$j] = $request['valor'.$j][$i];
+            }
+        }
+        
         arsort($cliRes);
 
         //salva no BD
@@ -1047,6 +1055,7 @@ class InstrumentoController extends Controller
             'resultado' => $cliRes,
             'clientes' => $clientes,
             'cores' => $returnCores,
+            'fatores' => $fatores,
             'done' => true
         ];
 
@@ -1987,5 +1996,55 @@ class InstrumentoController extends Controller
         }
         
         return view('report.report_instrumento13')->with(compact('baixo','medio','alto','total'));
+    }
+
+    public function reportInstrumento14(){
+        $instrumento14 = Instrumento14::get();
+        $total = count($instrumento14);
+        
+        for ($i=1; $i <= 8; $i++) { 
+            $firstTo[$i] = 0;
+            $secondTo[$i] = 0;
+            $lastTo[$i] = 0;   
+        }
+
+        for ($i=1; $i <= 12; $i++) { 
+            $fatores[$i] = 0;
+            $totalFatores[$i] = 0;
+        }
+
+        foreach($instrumento14 as $inst){
+            $first = $inst->clientes[0];
+            $second = $inst->clientes[1];
+            $last = $inst->clientes[7];
+
+            $i=1;
+            foreach($inst->resultado as $key=>$value){
+                if($key == $first){
+                    $firstTo[$i]++;
+                }
+                if($key == $second){
+                    $secondTo[$i]++;
+                }
+                if($key == $last){
+                    $lastTo[$i]++;
+                }
+                $i++;
+            }
+
+            $i=1;
+            foreach($inst->fatores as $fat){
+                foreach($fat as $value){
+                    $totalFatores[$i]++;
+                    if($value <= 3){
+                        $fatores[$i]++;
+                    }
+                }
+                $i++;
+            }
+        }
+
+        
+        return view('report.report_instrumento14')->with(compact('firstTo', 'secondTo', 'lastTo', 'fatores', 'total', 'totalFatores'));
     }
 }
