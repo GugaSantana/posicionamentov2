@@ -2069,4 +2069,26 @@ class InstrumentoController extends Controller
         
         return view('report.report_instrumento15')->with(compact('frequencia', 'totalFreq', 'total'));
     }
+
+    public function reportInstrumento16(){
+        $instrumento16 = Instrumento16::get();
+        $total = count($instrumento16);
+        $totalFreq = 0;
+        for ($i=0; $i < 14; $i++) { 
+            $frequencia[$i] = 0;
+        }
+
+        foreach($instrumento16 as $inst){
+            // dd($inst);
+            $i=0;
+            foreach($inst->frequencia as $freq){
+                $frequencia[$i] += $freq ?? 0;
+                $totalFreq += $freq ?? 0;
+                $i++;
+            }
+        }
+
+        
+        return view('report.report_instrumento16')->with(compact('frequencia', 'totalFreq', 'total'));
+    }
 }
