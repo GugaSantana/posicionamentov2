@@ -158,4 +158,6 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 		Route::get('/instrumento17', 'InstrumentoController@reportInstrumento17');
 		Route::get('/instrumento18', 'InstrumentoController@reportInstrumento18');
 		Route::get('/instrumento19', 'InstrumentoController@reportInstrumento19');
+		Route::get('/instrumento20', 'InstrumentoController@reportInstrumento20');
+		
 	});

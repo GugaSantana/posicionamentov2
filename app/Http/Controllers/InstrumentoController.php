@@ -2158,4 +2158,23 @@ class InstrumentoController extends Controller
         
         return view('report.report_instrumento19')->with(compact('somaDesvios', 'total'));
     }
+
+    public function reportInstrumento20(){
+        $instrumento20 = Instrumento20::get();
+        $total = count($instrumento20);
+        
+        for ($i=0; $i < 5; $i++) { 
+            $somaDesvios[$i] = 0;
+        }
+
+        foreach($instrumento20 as $inst){
+            for ($i=0; $i < 5; $i++) { 
+                $somaDesvios[$i] += (5 - $inst->retorno[$i]);
+            }        
+        }
+
+        arsort($somaDesvios);
+        
+        return view('report.report_instrumento20')->with(compact('somaDesvios', 'total'));
+    }
 }
