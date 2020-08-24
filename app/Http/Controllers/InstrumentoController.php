@@ -2116,4 +2116,27 @@ class InstrumentoController extends Controller
 
         return view('report.report_instrumento17')->with(compact('mediaResp'));
     }
+
+    public function reportInstrumento18(){
+        $instrumento18 = Instrumento18::get();
+        $total = count($instrumento18);
+        
+        for ($i=0; $i < 4; $i++) { 
+            $conversaoAtual[$i] = 0;
+            $conversaoRevista[$i] = 0;
+        }
+
+        foreach($instrumento18 as $inst){
+            $conversaoAtual[0] += $inst->a;
+            $conversaoRevista[0] += $inst->a_diag;
+            $conversaoAtual[1] += $inst->b;
+            $conversaoRevista[1] += $inst->b_diag;
+            $conversaoAtual[2] += $inst->c;
+            $conversaoRevista[2] += $inst->c_diag;
+            $conversaoAtual[3] += $inst->d;
+            $conversaoRevista[3] += $inst->d_diag;            
+        }
+
+        return view('report.report_instrumento18')->with(compact('conversaoAtual', 'conversaoRevista', 'total'));
+    }
 }
