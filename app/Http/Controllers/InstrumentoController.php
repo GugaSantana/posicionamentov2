@@ -2139,4 +2139,23 @@ class InstrumentoController extends Controller
 
         return view('report.report_instrumento18')->with(compact('conversaoAtual', 'conversaoRevista', 'total'));
     }
+
+    public function reportInstrumento19(){
+        $instrumento19 = Instrumento19::get();
+        $total = count($instrumento19);
+        
+        for ($i=0; $i < 7; $i++) { 
+            $somaDesvios[$i] = 0;
+        }
+
+        foreach($instrumento19 as $inst){
+            for ($i=0; $i < 7; $i++) { 
+                $somaDesvios[$i] += (10 - $inst->ordem[$i]);
+            }        
+        }
+
+        arsort($somaDesvios);
+        
+        return view('report.report_instrumento19')->with(compact('somaDesvios', 'total'));
+    }
 }
