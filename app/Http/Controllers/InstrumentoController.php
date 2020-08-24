@@ -1145,12 +1145,14 @@ class InstrumentoController extends Controller
             $retorno[$i] = $request['radio'.$i];
             
         }
+        $respostas = $retorno;
         $hard = number_format(array_sum($retorno)/11 , 2);
         $soft = $request['radio11'];
         
         //salva no BD
         $dataBd = [
             'user_id' => Auth::User()->id,
+            'respostas' => $respostas,
             'hard' => $hard,
             'soft' => $soft,
             'done' => true
@@ -2090,5 +2092,28 @@ class InstrumentoController extends Controller
 
         
         return view('report.report_instrumento16')->with(compact('frequencia', 'totalFreq', 'total'));
+    }
+
+    public function reportInstrumento17(){
+        $instrumento17 = Instrumento17::get();
+        $total = count($instrumento17);
+        $totalResp = 0;
+        for ($i=0; $i < 12; $i++) { 
+            $resp[$i] = 0;
+        }
+
+        foreach($instrumento17 as $inst){
+            $i=0;
+            foreach($inst->respostas as $freq){
+                $resp[$i] += $freq ?? 0;
+                $i++;
+            }
+        }
+
+        for ($i=0; $i < 12; $i++) { 
+            $mediaResp[$i] = (int)round($resp[$i]/$total);
+        }
+
+        return view('report.report_instrumento17')->with(compact('mediaResp'));
     }
 }
