@@ -1440,22 +1440,26 @@ class InstrumentoController extends Controller
     public function reportInstrumento5(){
         $instrumento5 = Instrumento5::get();
         $total = count($instrumento5);
-        //dd($instrumento4->first());
-        /* for ($i=0; $i < 19; $i++) { 
-            for ($j=1; $j <= 10; $j++) { 
-                $escala[$i][$j] = 0;
+
+        for($i=1; $i<=10; $i++){
+            $totalMedia[$i] = 0;
+            $acumulado[$i] = 0;
+        }
+
+        foreach ($instrumento5 as $inst) {
+            for($i=1; $i<=10; $i++){
+                if($inst->media == $i){
+                    $totalMedia[$i]++;
+                    break;
+                }
             }
         }
-        
-        foreach ($instrumento4 as $inst) {
-            $i=0;
-            foreach($inst->retorno as $ret){
-                $escala[$i][$ret]++;
-                $i++;
-            }
-        } */
+        $acumulado[0] = 0;
+        for($i=1; $i<=10; $i++){
+            $acumulado[$i] = $acumulado[$i-1] + (!empty($totalMedia[$i]) ? number_format($totalMedia[$i] * 100 / $total, 2) : 0);
+        }
 
-        return view('report.report_instrumento5')->with(compact('escala', 'total'));
+        return view('report.report_instrumento5')->with(compact('totalMedia', 'acumulado', 'total'));
     }
 
     public function reportInstrumento7(){
