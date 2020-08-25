@@ -54,7 +54,7 @@
       <h3 style="color: #35408f;text-align: center;margin-top: 10%;">INSTRUMENTO 4</h3>
       <h3 style="color: #35408f;text-align: center;">MEU CONHECIMENTO DA LINHA DE PRODUTOS QUE VENDO</h3>
 
-      <div class="col-md-12">
+      <div class="col-md-12 table-responsive">
         <!-- Tabela 1 -->
         
         <table class="table table-hover table-bordered">
@@ -82,21 +82,41 @@
                               'Valores Percentuais Acumulados por Intervalos da Escala']
             @endphp
 
-            @for($i=0; $i<3; $i++)
             <tr>
-                <td>{!! $questions[$i] !!}</td>
-                <td style="color:red">{{-- !empty($escala[$i][1]) ? $escala[$i][1] : '' --}}</td>
-                <td style="color:red">{{-- !empty($escala[$i][2]) ? $escala[$i][2] : '' --}}</td>
-                <td style="color:red">{{-- !empty($escala[$i][3]) ? $escala[$i][3] : '' --}}</td>
-                <td style="color:red">{{-- !empty($escala[$i][4]) ? $escala[$i][4] : '' --}}</td>
-                <td style="color:red">{{-- !empty($escala[$i][5]) ? $escala[$i][5] : '' --}}</td>
-                <td style="color:red">{{-- !empty($escala[$i][6]) ? $escala[$i][6] : '' --}}</td>
-                <td style="color:red">{{-- !empty($escala[$i][7]) ? $escala[$i][7] : '' --}}</td>
-                <td style="color:red">{{-- !empty($escala[$i][8]) ? $escala[$i][8] : '' --}}</td>
-                <td style="color:red">{{-- !empty($escala[$i][9]) ? $escala[$i][9] : '' --}}</td>
-                <td style="color:red">{{-- !empty($escala[$i][10]) ? $escala[$i][10] : '' --}}</td>
+                <td>{!! $questions[0] !!}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[1]) ? $totalMedia[1] : ''}}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[2]) ? $totalMedia[2] : ''}}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[3]) ? $totalMedia[3] : ''}}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[4]) ? $totalMedia[4] : ''}}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[5]) ? $totalMedia[5] : ''}}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[6]) ? $totalMedia[6] : ''}}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[7]) ? $totalMedia[7] : ''}}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[8]) ? $totalMedia[8] : ''}}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[9]) ? $totalMedia[9] : ''}}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[10]) ? $totalMedia[10] : ''}}</td>
             </tr>
-            @endfor
+
+            <tr>
+                <td>{!! $questions[1] !!}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[1]) ? number_format($totalMedia[1] * 100 / $total, 2).'%' : ''}}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[2]) ? number_format($totalMedia[2] * 100 / $total, 2).'%' : ''}}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[3]) ? number_format($totalMedia[3] * 100 / $total, 2).'%' : ''}}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[4]) ? number_format($totalMedia[4] * 100 / $total, 2).'%' : ''}}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[5]) ? number_format($totalMedia[5] * 100 / $total, 2).'%' : ''}}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[6]) ? number_format($totalMedia[6] * 100 / $total, 2).'%' : ''}}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[7]) ? number_format($totalMedia[7] * 100 / $total, 2).'%' : ''}}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[8]) ? number_format($totalMedia[8] * 100 / $total, 2).'%' : ''}}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[9]) ? number_format($totalMedia[9] * 100 / $total, 2).'%' : ''}}</td>
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[10]) ? number_format( $totalMedia[10] * 100 / $total, 2).'%' : ''}}</td>
+            </tr>
+
+            <tr>
+                <td>{!! $questions[2] !!}</td>
+                @for($i=1; $i<=10; $i++)
+                <td style="color:red; text-align:center;">{{$acumulado[$i]}}</td>
+                @endfor
+            </tr>
+
         </table>
       </div>
         
