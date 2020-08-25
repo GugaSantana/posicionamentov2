@@ -85,6 +85,13 @@
                 Acompanhamento
             </a>
             @endif
+            @if(Auth::User()->role_id == 1)
+            <a class="btn btn-default btn-flat float-right @if(!$profile_url) btn-block @endif"
+               href="/company/list">
+                <i class="fa fa-building"></i>
+                Empresas
+            </a>
+            @endif
             
             <a class="btn btn-default btn-flat float-right @if(!$profile_url) btn-block @endif"
                href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">

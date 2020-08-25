@@ -102,7 +102,7 @@ class RegisterController extends Controller
             'state' =>$data['state'],
             'number' =>$data['number'],
             'complement' => $data['complemento'],
-            'empresa' =>$data['empresa'],
+            'company_id' =>$data['empresa'],
             'branch' =>$data['ramo'],
             'activity' =>$data['atividade'],
             'office' =>$data['cargo'],

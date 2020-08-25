@@ -137,6 +137,18 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 		Route::post('/update', 'RoleController@updateRole');		
 	});
 
+	//Company
+	Route::group(['prefix' => 'company', "middleware" => ["auth","admin"]], function() {
+        Route::post('/enable', 'CompanyController@enableCompany');
+		Route::post('/disable', 'CompanyController@disableCompany');
+		Route::get('/list', 'CompanyController@listCompany')->name('company_list');
+		Route::get('/create', 'CompanyController@createCompanyView');
+		Route::post('/create', 'CompanyController@createCompany');
+		Route::post('/edit', 'CompanyController@editCompany');
+		Route::post('/remove', 'CompanyController@removeCompany');
+		Route::post('/update', 'CompanyController@updateCompany');
+	});
+
 	//Relatórios
 	Route::group(['prefix' => 'report', "middleware" => ["auth","admin"]], function() {
 		Route::get('/instrumento1', 'InstrumentoController@reportInstrumento1');

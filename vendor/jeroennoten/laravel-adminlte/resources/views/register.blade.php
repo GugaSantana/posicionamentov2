@@ -369,13 +369,13 @@
                     <div class="row">
                     <!-- EMPRESA -->
                     <div class="input-group mb-3 col-md-4">
-                        <input required type="text" id="empresa" name="empresa" class="form-control {{ $errors->has('empresa') ? 'is-invalid' : '' }}" value="{{ old('empresa') }}"
-                               placeholder="Empresa" autofocus>
-                        <div class="input-group-append">
-                            <div class="input-group-text">
-                                <span class="fas fa-book"></span>
-                            </div>
-                        </div>
+                        
+                        <select required class="form-control {{ $errors->has('empresa') ? 'is-invalid' : '' }}" value="{{ old('empresa') }}" id="empresa" name="empresa">
+                            <option value="" selected>Empresa</option>    
+                            @foreach(\App\Company::where('enable',1)->get() as $company)
+                                <option value="{{$company->id}}">{{$company->name}}</option>
+                            @endforeach
+                        </select>
 
                         @if ($errors->has('empresa'))
                             <div class="invalid-feedback">
