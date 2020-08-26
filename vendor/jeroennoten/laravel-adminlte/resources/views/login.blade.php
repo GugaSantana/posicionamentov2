@@ -46,6 +46,14 @@
 </div>
 @endif
 
+@if (isset($status))
+<div class="alert alert-success alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+    <h5><i class="icon fas fa-info"></i> Aviso!</h5>
+    {{ $status }}
+</div>
+@endif
+
     <div class="login-box">
         <div class="login-logo">
             <a href="{{ $dashboard_url }}"><img src="../posicionamento/public/img/logo_texto_azul.png" style="width: 100%">  {{-- config('adminlte.logo', '<b>Admin</b>LTE') --}}</a>

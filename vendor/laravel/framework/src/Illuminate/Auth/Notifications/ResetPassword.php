@@ -73,11 +73,14 @@ class ResetPassword extends Notification
         }
 
         return (new MailMessage)
-            ->subject(Lang::get('Reset Password Notification'))
-            ->line(Lang::get('You are receiving this email because we received a password reset request for your account.'))
-            ->action(Lang::get('Reset Password'), $url)
-            ->line(Lang::get('This password reset link will expire in :count minutes.', ['count' => config('auth.passwords.'.config('auth.defaults.passwords').'.expire')]))
-            ->line(Lang::get('If you did not request a password reset, no further action is required.'));
+            ->subject(Lang::get('Posicionamento - Recuperação de Senha'))
+            ->line(Lang::get('Olá,'))
+            ->line(Lang::get('Recebemos um pedido de redefinição de sua senha do Posicionamento.'))
+            ->line(Lang::get('Por favor, clique no botão abaixo e siga as instruções para criar uma nova senha:'))
+            ->action(Lang::get('Criar Nova Senha'), $url)
+            ->line(Lang::get('O botão para criação de senha irá expirar em :count minutos.', ['count' => config('auth.passwords.'.config('auth.defaults.passwords').'.expire')]))
+            ->line(Lang::get('Caso não tenha feito essa solicitação, ignore este e-mail.'))
+            ->line(Lang::get('Agredecemos o contato.'));
     }
 
     /**
