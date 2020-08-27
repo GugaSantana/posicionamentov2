@@ -44,7 +44,7 @@
 {{ $salutation }}
 @else
 @lang('Agradecemos o contato'),<br>
-{{ config('app.name') }}
+Posicionamento Consultoria.
 @endif
 
     {{-- Subcopy --}}
