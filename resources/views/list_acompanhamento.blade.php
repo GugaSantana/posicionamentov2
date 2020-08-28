@@ -16,7 +16,7 @@
                 <label for="company">Selecione uma empresa: </label>
                 <div class="form-group mx-2">
                     <select class="form-control" id="company" name="company_id">
-                        <option>-</option>
+                        <option>Todas</option>
                         @foreach($companies as $comp)
                         <option value="{{$comp->id}}" @if(isset($company) && $comp->id == $company->id) selected @endif>{{$comp->name}}</option>
                         @endforeach
