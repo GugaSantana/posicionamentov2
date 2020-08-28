@@ -11,4 +11,8 @@ class Instrumento16 extends Model
     protected $casts = [
         'frequencia' => 'array',
     ];
+
+    public function user(){
+        return $this->hasOne(\App\User::class, 'id','user_id');
+    }
 }

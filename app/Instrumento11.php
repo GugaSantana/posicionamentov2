@@ -12,4 +12,8 @@ class Instrumento11 extends Model
         'data' => 'array',
         'data_diag' => 'array',
     ];
+
+    public function user(){
+        return $this->hasOne(\App\User::class, 'id','user_id');
+    }
 }

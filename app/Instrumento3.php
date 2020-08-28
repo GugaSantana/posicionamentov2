@@ -12,4 +12,8 @@ class Instrumento3 extends Model
         'retorno' => 'array',
         'diferenca' => 'array',
     ];
+
+    public function user(){
+        return $this->hasOne(\App\User::class, 'id','user_id');
+    }
 }

@@ -12,4 +12,8 @@ class Instrumento15 extends Model
         'frequencia' => 'array',
         'argumentos' => 'array',
     ];
+
+    public function user(){
+        return $this->hasOne(\App\User::class, 'id','user_id');
+    }
 }

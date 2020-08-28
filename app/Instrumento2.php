@@ -13,4 +13,8 @@ class Instrumento2 extends Model
         'retornoOld' => 'array',
         'cores' => 'array'
     ];
+
+    public function user(){
+        return $this->hasOne(\App\User::class, 'id','user_id');
+    }
 }

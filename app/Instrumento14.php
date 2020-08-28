@@ -14,4 +14,8 @@ class Instrumento14 extends Model
         'cores' => 'array',
         'fatores' => 'array',
     ];
+
+    public function user(){
+        return $this->hasOne(\App\User::class, 'id','user_id');
+    }
 }

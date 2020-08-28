@@ -48,6 +48,10 @@ class User extends Authenticatable
         return $this->hasMany(\App\AutoGestao::class, 'user_id');
     }
 
+    public function company(){
+        return $this->belongsTo(\App\Company::class, 'company_id');
+    }
+
     public function instrumentos(){
         return $this->hasMany(\App\UserInstrumento::class, 'user_id');
     }

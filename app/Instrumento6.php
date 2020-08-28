@@ -12,4 +12,8 @@ class Instrumento6 extends Model
         'att' => 'array',
         'desvios' => 'array',
     ];
+
+    public function user(){
+        return $this->hasOne(\App\User::class, 'id','user_id');
+    }
 }

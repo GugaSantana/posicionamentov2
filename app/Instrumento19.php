@@ -12,4 +12,8 @@ class Instrumento19 extends Model
         'retorno' => 'array',
         'ordem' => 'array',
     ];
+
+    public function user(){
+        return $this->hasOne(\App\User::class, 'id','user_id');
+    }
 }

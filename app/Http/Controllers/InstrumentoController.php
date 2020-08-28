@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Company;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Instrumento1;
@@ -1289,9 +1290,19 @@ class InstrumentoController extends Controller
     }
 
     //Relatorios
-    public function reportInstrumento1(){
-        $instrumento1 = Instrumento1::get();
+    public function reportInstrumento1($companyId){
+        if(!empty($companyId)){
+            $instrumento1 = Instrumento1::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento1 = Instrumento1::get();
+        }
         $total = count($instrumento1);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
 
         $q1 = $q2 = $q3 = $q4 = $q5 = $q6 = $q7 = $q8 = $q9 = 0;
         foreach($instrumento1 as $inst1){
@@ -1342,9 +1353,19 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento1')->with(compact('quadrante', 'quadrantePorc'));
     }
 
-    public function reportInstrumento2(){
-        $instrumento2 = Instrumento2::get();
+    public function reportInstrumento2($companyId){
+        if(!empty($companyId)){
+            $instrumento2 = Instrumento2::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento2 = Instrumento2::get();
+        }
         $total = count($instrumento2);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
         $maior1 = $maior2 = $maior3 = $maior4 = $maior5 = 0;
         $menor1 = $menor2 = $menor3 = $menor4 = $menor5 = 0;
 
@@ -1392,9 +1413,19 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento2')->with(compact('desvio_maior', 'desvio_menor', 'total'));
     }
 
-    public function reportInstrumento3(){
-        $instrumento3 = Instrumento3::get();
+    public function reportInstrumento3($companyId){
+        if(!empty($companyId)){
+            $instrumento3 = Instrumento3::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento3 = Instrumento3::get();
+        }
         $total = count($instrumento3);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
         for ($i=0; $i < 19; $i++) { 
             for ($j=1; $j <= 10; $j++) { 
                 $escala[$i][$j] = 0;
@@ -1412,9 +1443,19 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento3')->with(compact('escala', 'total'));
     }
 
-    public function reportInstrumento4(){
-        $instrumento4 = Instrumento4::get();
+    public function reportInstrumento4($companyId){
+        if(!empty($companyId)){
+            $instrumento4 = Instrumento4::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento4 = Instrumento4::get();
+        }
         $total = count($instrumento4);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
 
         for($i=1; $i<=10; $i++){
             $totalMedia[$i] = 0;
@@ -1437,9 +1478,19 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento4')->with(compact('totalMedia', 'acumulado', 'total'));
     }
 
-    public function reportInstrumento5(){
-        $instrumento5 = Instrumento5::get();
+    public function reportInstrumento5($companyId){
+        if(!empty($companyId)){
+            $instrumento5 = Instrumento5::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento5 = Instrumento5::get();
+        }
         $total = count($instrumento5);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
 
         for($i=1; $i<=10; $i++){
             $totalMedia[$i] = 0;
@@ -1462,9 +1513,19 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento5')->with(compact('totalMedia', 'acumulado', 'total'));
     }
 
-    public function reportInstrumento7(){
-        $instrumento7 = Instrumento7::get();
+    public function reportInstrumento7($companyId){
+        if(!empty($companyId)){
+            $instrumento7 = Instrumento7::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento7 = Instrumento7::get();
+        }
         $total = count($instrumento7);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
         
         $pai = $adulto = $crianca = 0;
         foreach ($instrumento7 as $inst) {
@@ -1482,8 +1543,15 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento7')->with(compact('data', 'total'));
     }
 
-    public function reportInstrumento8(){
-        $instrumento8 = Instrumento8::get();
+    public function reportInstrumento8($companyId){
+        if(!empty($companyId)){
+            $instrumento8 = Instrumento8::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento8 = Instrumento8::get();
+        }
         $feed60 = Instrumento8::where('feedback', '>=', 60)->get();
         $feed60 = count($feed60);
 
@@ -1498,6 +1566,9 @@ class InstrumentoController extends Controller
 
 
         $total = count($instrumento8);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
         
         $retExpo = $retFeed = 0;
         foreach ($instrumento8 as $inst) {
@@ -1511,8 +1582,15 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento8')->with(compact('retExpo', 'retFeed', 'feed60', 'expo60', 'janela25', 'janela70', 'total'));
     }
     
-    public function reportInstrumento9(){
-        $instrumento9 = Instrumento9::get();
+    public function reportInstrumento9($companyId){
+        if(!empty($companyId)){
+            $instrumento9 = Instrumento9::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento9 = Instrumento9::get();
+        }
         $visualMenor3 = Instrumento9::where('visual', '<=', 3)->get();
         $auditivoMenor3 = Instrumento9::where('auditivo', '<=', 3)->get();
         $cinestesicoMenor3 = Instrumento9::where('cinestesico', '<=', 3)->get();
@@ -1522,6 +1600,9 @@ class InstrumentoController extends Controller
         $cinestesicoMenor3 = count($cinestesicoMenor3);
 
         $total = count($instrumento9);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
         
         $visual = $auditivo = $cinestesico = 0;
         foreach ($instrumento9 as $inst) {
@@ -1537,9 +1618,19 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento9')->with(compact('visual', 'auditivo', 'cinestesico', 'visualMenor3', 'auditivoMenor3', 'cinestesicoMenor3', 'total'));
     }
 
-    public function reportInstrumento10(){
-        $instrumento10 = Instrumento10::get();
+    public function reportInstrumento10($companyId){
+        if(!empty($companyId)){
+            $instrumento10 = Instrumento10::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento10 = Instrumento10::get();
+        }
         $total = count($instrumento10);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
         
         $dif18 = Instrumento10::where('total', '>=', 18)->where('total', '<=', 20)->get();
         $dif12 = Instrumento10::where('total', '>=', 12)->where('total', '<=', 17)->get();
@@ -1552,9 +1643,19 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento10')->with(compact('dif18', 'dif12', 'dif1', 'total'));
     }
 
-    public function reportInstrumento11(){
-        $instrumento11 = Instrumento11::get();
+    public function reportInstrumento11($companyId){
+        if(!empty($companyId)){
+            $instrumento11 = Instrumento11::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento11 = Instrumento11::get();
+        }
         $total = count($instrumento11);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
         
         for ($i=0; $i < 6; $i++) { 
             //Idade
@@ -1964,9 +2065,19 @@ class InstrumentoController extends Controller
                             'retValorCompra1','retValorCompra2'));
     }
 
-    public function reportInstrumento12(){
-        $instrumento12 = Instrumento12::get();
+    public function reportInstrumento12($companyId){
+        if(!empty($companyId)){
+            $instrumento12 = Instrumento12::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento12 = Instrumento12::get();
+        }
         $total = count($instrumento12);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
         
         $alto = Instrumento12::where('sim', '>=', '15')->get();
         $alto = count($alto);
@@ -1980,9 +2091,19 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento12')->with(compact('alto','medio','baixo','total'));
     }
 
-    public function reportInstrumento13(){
-        $instrumento13 = Instrumento13::get();
+    public function reportInstrumento13($companyId){
+        if(!empty($companyId)){
+            $instrumento13 = Instrumento13::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento13 = Instrumento13::get();
+        }
         $total = count($instrumento13);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
 
         $total = $alto = $medio = $baixo = 0;
 
@@ -2008,9 +2129,19 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento13')->with(compact('baixo','medio','alto','total'));
     }
 
-    public function reportInstrumento14(){
-        $instrumento14 = Instrumento14::get();
+    public function reportInstrumento14($companyId){
+        if(!empty($companyId)){
+            $instrumento14 = Instrumento14::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento14 = Instrumento14::get();
+        }
         $total = count($instrumento14);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
         
         for ($i=1; $i <= 8; $i++) { 
             $firstTo[$i] = 0;
@@ -2058,9 +2189,19 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento14')->with(compact('firstTo', 'secondTo', 'lastTo', 'fatores', 'total', 'totalFatores'));
     }
 
-    public function reportInstrumento15(){
-        $instrumento15 = Instrumento15::get();
+    public function reportInstrumento15($companyId){
+        if(!empty($companyId)){
+            $instrumento15 = Instrumento15::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento15 = Instrumento15::get();
+        }
         $total = count($instrumento15);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
         $totalFreq = 0;
         for ($i=0; $i < 17; $i++) { 
             $frequencia[$i] = 0;
@@ -2080,9 +2221,19 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento15')->with(compact('frequencia', 'totalFreq', 'total'));
     }
 
-    public function reportInstrumento16(){
-        $instrumento16 = Instrumento16::get();
+    public function reportInstrumento16($companyId){
+        if(!empty($companyId)){
+            $instrumento16 = Instrumento16::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento16 = Instrumento16::get();
+        }
         $total = count($instrumento16);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
         $totalFreq = 0;
         for ($i=0; $i < 14; $i++) { 
             $frequencia[$i] = 0;
@@ -2102,9 +2253,19 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento16')->with(compact('frequencia', 'totalFreq', 'total'));
     }
 
-    public function reportInstrumento17(){
-        $instrumento17 = Instrumento17::get();
+    public function reportInstrumento17($companyId){
+        if(!empty($companyId)){
+            $instrumento17 = Instrumento17::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento17 = Instrumento17::get();
+        }
         $total = count($instrumento17);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
         $totalResp = 0;
         for ($i=0; $i < 12; $i++) { 
             $resp[$i] = 0;
@@ -2125,9 +2286,19 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento17')->with(compact('mediaResp'));
     }
 
-    public function reportInstrumento18(){
-        $instrumento18 = Instrumento18::get();
+    public function reportInstrumento18($companyId){
+        if(!empty($companyId)){
+            $instrumento18 = Instrumento18::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento18 = Instrumento18::get();
+        }
         $total = count($instrumento18);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
         
         for ($i=0; $i < 4; $i++) { 
             $conversaoAtual[$i] = 0;
@@ -2148,9 +2319,19 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento18')->with(compact('conversaoAtual', 'conversaoRevista', 'total'));
     }
 
-    public function reportInstrumento19(){
-        $instrumento19 = Instrumento19::get();
+    public function reportInstrumento19($companyId){
+        if(!empty($companyId)){
+            $instrumento19 = Instrumento19::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento19 = Instrumento19::get();
+        }
         $total = count($instrumento19);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
         
         for ($i=0; $i < 7; $i++) { 
             $somaDesvios[$i] = 0;
@@ -2167,9 +2348,19 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento19')->with(compact('somaDesvios', 'total'));
     }
 
-    public function reportInstrumento20(){
-        $instrumento20 = Instrumento20::get();
+    public function reportInstrumento20($companyId){
+        if(!empty($companyId)){
+            $instrumento20 = Instrumento20::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento20 = Instrumento20::get();
+        }
         $total = count($instrumento20);
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
         
         for ($i=0; $i < 5; $i++) { 
             $somaDesvios[$i] = 0;
@@ -2184,5 +2375,19 @@ class InstrumentoController extends Controller
         arsort($somaDesvios);
         
         return view('report.report_instrumento20')->with(compact('somaDesvios', 'total'));
+    }
+
+    public function listReport(){
+        $companies = Company::get();
+        
+        return view('report.list')->with(compact('companies'));
+    }
+
+    public function generateReport(Request $request){
+        // dd($request);
+        $companyId = $request['company_id'];
+        $instrumento = "reportInstrumento{$request['instrumento']}";
+        
+        return $this->$instrumento($companyId);
     }
 }

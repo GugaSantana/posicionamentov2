@@ -10,6 +10,30 @@
     </div>
     <div class="card-body">
         
+        <div class="col-md-12">
+
+            <form class="form-inline" action="/user/acompanhamento">
+                <label for="company">Selecione uma empresa: </label>
+                <div class="form-group mx-2">
+                    <select class="form-control" id="company" name="company_id">
+                        <option>-</option>
+                        @foreach($companies as $comp)
+                        <option value="{{$comp->id}}" @if(isset($company) && $comp->id == $company->id) selected @endif>{{$comp->name}}</option>
+                        @endforeach
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Filtrar</button>
+            </form>
+
+        </div>
+
+        @if(!empty($company))
+        <br>
+        <h3 style="color: #35408f;text-align: center;">{{$company->name}}</h3>
+        @endif
+
+        <br>
+        
         <div class="table-responsive">
             <table class="table table-head-fixed table-bordered table-hover fonte18">
                 <thead class="center">

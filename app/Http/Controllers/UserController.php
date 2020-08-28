@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Company;
 use App\Roles;
 use App\User;
 use Illuminate\Http\Request;
@@ -54,9 +55,23 @@ class UserController extends Controller
         return back()->with('success', 'Os Instrumentos do usuário foram resetados com sucesso!');
     }
 
-    public function acompanhamento(){
-        $users = User::with('instrumentos','role')->paginate(30);
-        
-        return view('list_acompanhamento')->with(compact('users'));
+    public function acompanhamento(Request $request){
+        $companies = Company::get();
+        $company = null;
+        if(isset($request['company_id'])){
+            $companyId = $request['company_id'];
+            $users = User::with('instrumentos','role');
+            if($companyId != 0){
+                $users = $users->where('company_id', $companyId);
+                $company = Company::where('id',$companyId)->first();
+            }
+            $users = $users->paginate(30);
+            $users->appends(['company_id' => $request['company_id'] ])->render();
+        }
+        else{
+            $users = User::with('instrumentos','role')->paginate(30);
+        }
+
+        return view('list_acompanhamento')->with(compact('users','companies','company'));
     }
 }

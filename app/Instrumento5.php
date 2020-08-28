@@ -12,4 +12,8 @@ class Instrumento5 extends Model
         'retorno' => 'array',
         'intervalo' => 'array',
     ];
+
+    public function user(){
+        return $this->hasOne(\App\User::class, 'id','user_id');
+    }
 }

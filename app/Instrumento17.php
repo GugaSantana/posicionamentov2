@@ -11,4 +11,8 @@ class Instrumento17 extends Model
     protected $casts = [
         'respostas' => 'array'
     ];
+
+    public function user(){
+        return $this->hasOne(\App\User::class, 'id','user_id');
+    }
 }
