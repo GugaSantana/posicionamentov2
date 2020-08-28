@@ -12,12 +12,12 @@
     <title>Posicionamento</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../posicionamento/public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="../css/fontawesome.css">
-    <link rel="stylesheet" href="../css/templatemo-finance-business.css">
-    <link rel="stylesheet" href="../css/owl.css">
+    <link rel="stylesheet" href="../posicionamento/public/css/fontawesome.css">
+    <link rel="stylesheet" href="../posicionamento/public/css/templatemo-finance-business.css">
+    <link rel="stylesheet" href="../posicionamento/public/css/owl.css">
 
     <!--
 
@@ -164,7 +164,7 @@ https://templatemo.com/tm-545-finance-business
           </div>
           <div class="col-md-4">
             <div class="service-item">
-              <img src="../images/service_01.jpg" alt="">
+              <img src="../posicionamento/public/images/service_01.jpg" alt="">
               <div class="down-content">
                 <h4>Digital Currency</h4>
                 <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
@@ -174,7 +174,7 @@ https://templatemo.com/tm-545-finance-business
           </div>
           <div class="col-md-4">
             <div class="service-item">
-              <img src="../images/service_02.jpg" alt="">
+              <img src="../posicionamento/public/images/service_02.jpg" alt="">
               <div class="down-content">
                 <h4>Market Analysis</h4>
                 <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
@@ -184,7 +184,7 @@ https://templatemo.com/tm-545-finance-business
           </div>
           <div class="col-md-4">
             <div class="service-item">
-              <img src="../images/service_03.jpg" alt="">
+              <img src="../posicionamento/public/images/service_03.jpg" alt="">
               <div class="down-content">
                 <h4>Historical Data</h4>
                 <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
@@ -248,7 +248,7 @@ https://templatemo.com/tm-545-finance-business
               <div class="row">
                 <div class="col-md-6">
                   <div class="left-image">
-                    <img src="../images/more-info.jpg" alt="">
+                    <img src="../posicionamento/public/images/more-info.jpg" alt="">
                   </div>
                 </div>
                 <div class="col-md-6 align-self-center">
@@ -373,23 +373,23 @@ https://templatemo.com/tm-545-finance-business
             <div class="owl-partners owl-carousel">
             
               <div class="partner-item">
-                <img src="../images/client-01.png" title="1" alt="1">
+                <img src="../posicionamento/public/images/client-01.png" title="1" alt="1">
               </div>
               
               <div class="partner-item">
-                <img src="../images/client-01.png" title="2" alt="2">
+                <img src="../posicionamento/public/images/client-01.png" title="2" alt="2">
               </div>
               
               <div class="partner-item">
-                <img src="../images/client-01.png" title="3" alt="3">
+                <img src="../posicionamento/public/images/client-01.png" title="3" alt="3">
               </div>
               
               <div class="partner-item">
-                <img src="../images/client-01.png" title="4" alt="4">
+                <img src="../posicionamento/public/images/client-01.png" title="4" alt="4">
               </div>
               
               <div class="partner-item">
-                <img src="../images/client-01.png" title="5" alt="5">
+                <img src="../posicionamento/public/images/client-01.png" title="5" alt="5">
               </div>
               
             </div>
@@ -479,14 +479,14 @@ https://templatemo.com/tm-545-finance-business
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="../vendor/jquery/jquery.min.js"></script>
-    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../posicionamento/public/vendor/jquery/jquery.min.js"></script>
+    <script src="../posicionamento/public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Additional Scripts -->
-    <script src="../js/custom.js"></script>
-    <script src="../js/owl.js"></script>
-    <script src="../js/slick.js"></script>
-    <script src="../js/accordions.js"></script>
+    <script src="../posicionamento/public/js/custom.js"></script>
+    <script src="../posicionamento/public/js/owl.js"></script>
+    <script src="../posicionamento/public/js/slick.js"></script>
+    <script src="../posicionamento/public/js/accordions.js"></script>
 
     <script language = "text/Javascript"> 
       cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
