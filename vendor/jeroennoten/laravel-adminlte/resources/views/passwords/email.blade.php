@@ -5,6 +5,7 @@
 @stop
 
 @section('classes_body', 'login-page')
+@section('style_body', 'background-img: linear;background-image: linear-gradient(0deg, #063a85, #fff);')
 
 @php( $password_email_url = View::getSection('password_email_url') ?? config('adminlte.password_email_url', 'password/email') )
 @php( $dashboard_url = View::getSection('dashboard_url') ?? config('adminlte.dashboard_url', 'home') )
@@ -20,7 +21,7 @@
 @section('body')
     <div class="login-box">
         <div class="login-logo">
-            <a href="{{ $dashboard_url }}">{!! config('adminlte.logo', '<b>Admin</b>LTE') !!}</a>
+            <a href="{{ $dashboard_url }}"><img src="../posicionamento/public/img/logo_texto_azul.png" style="width: 100%">  {{-- config('adminlte.logo', '<b>Admin</b>LTE') --}}</a>
         </div>
         <div class="card">
             <div class="card-body login-card-body">
