@@ -66,7 +66,7 @@
                             </thead>
                             @foreach($att->sortByDesc('percentualTempo') as $at)
                             <tr>
-                                <td>{{$at['atividade']}}</td>
+                                <td>{!! $at['atividade'] !!}</td>
                                 <td class="center">{{$at['percentualTempo']}}</td>
                             </tr>
                             @endforeach
@@ -86,7 +86,7 @@
                             @foreach($att as $at)
                             @if($at['subtotal'] >= $mediaVolume && $at['indiceRetorno'] >= $mediaProdutividade)
                             <tr>
-                                <td>{{$cont}} - {{$at['atividade']}}</td>
+                                <td>{{$cont}} - {!!$at['atividade']!!}</td>
                             </tr>
                             @php($cont++)
                             @endif
@@ -104,7 +104,7 @@
                             @foreach($att as $at)
                             @if($at['subtotal'] >= $mediaVolume && $at['indiceRetorno'] < $mediaProdutividade)
                             <tr>
-                                <td>{{$cont}} - {{$at['atividade']}}</td>
+                                <td>{{$cont}} - {!!$at['atividade']!!}</td>
                             </tr>
                             @php($cont++)
                             @endif
@@ -122,7 +122,7 @@
                             @foreach($att as $at)
                             @if($at['subtotal'] < $mediaVolume && $at['indiceRetorno'] >= $mediaProdutividade)
                             <tr>
-                                <td>{{$cont}} - {{$at['atividade']}}</td>
+                                <td>{{$cont}} - {!!$at['atividade']!!}</td>
                             </tr>
                             @php($cont++)
                             @endif
@@ -140,7 +140,7 @@
                             @foreach($att as $at)
                             @if($at['subtotal'] < $mediaVolume && $at['indiceRetorno'] < $mediaProdutividade && !empty($at['percentualTempo']))
                             <tr>
-                                <td>{{$cont}} - {{$at['atividade']}}</td>
+                                <td>{{$cont}} - {!!$at['atividade']!!}</td>
                             </tr>
                             @php($cont++)
                             @endif

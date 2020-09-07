@@ -1513,6 +1513,45 @@ class InstrumentoController extends Controller
         return view('report.report_instrumento5')->with(compact('totalMedia', 'acumulado', 'total'));
     }
 
+    public function reportInstrumento6($companyId){
+        
+        if(!empty($companyId)){
+            $instrumento6 = Instrumento6::whereHas('user.company',function($q) use($companyId){
+                $q->where('id', $companyId);
+            })->get();
+        }
+        else{
+            $instrumento6 = Instrumento6::get();
+        }
+
+        $total = count($instrumento6);
+        
+        if($total == 0){
+            return "<h2><center>Nenhum resultado encontrado</center></h2>";
+        }
+
+        for($i=0;$i<8;$i++){
+            $totalTempoAtividades[$i] = 0;
+            $totalAtividadeBruta[$i] = 0;
+            $totalProdutividade[$i] = 0;
+        }
+        
+        foreach($instrumento6 as $inst6){
+            for($i=0;$i<8;$i++){
+                $totalTempoAtividades[$i] += $inst6->att[$i]['percentualTempo'];
+                $totalAtividadeBruta[$i] += $inst6->att[$i]['subtotal'];
+                $totalProdutividade[$i] += $inst6->att[$i]['indiceRetorno'];
+            }    
+        }
+
+        //Ordena do maior para o menor
+        arsort($totalTempoAtividades);
+        arsort($totalAtividadeBruta);
+        arsort($totalProdutividade);
+
+        return view('report.report_instrumento6')->with(compact('totalTempoAtividades', 'totalAtividadeBruta', 'totalProdutividade', 'total'));
+    }
+
     public function reportInstrumento7($companyId){
         if(!empty($companyId)){
             $instrumento7 = Instrumento7::whereHas('user.company',function($q) use($companyId){
