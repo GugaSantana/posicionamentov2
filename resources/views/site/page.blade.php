@@ -14,14 +14,14 @@
     @yield('site.footer')
 
     <!-- Bootstrap core JavaScript -->
-    <script src="../vendor/jquery/jquery.min.js"></script>
-    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../posicionamento/public/vendor/jquery/jquery.min.js"></script>
+    <script src="../posicionamento/public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Additional Scripts -->
-    <script src="../js/custom.js"></script>
-    <script src="../js/owl.js"></script>
-    <script src="../js/slick.js"></script>
-    <script src="../js/accordions.js"></script>
+    <script src="../posicionamento/public/js/custom.js"></script>
+    <script src="../posicionamento/public/js/owl.js"></script>
+    <script src="../posicionamento/public/js/slick.js"></script>
+    <script src="../posicionamento/public/js/accordions.js"></script>
 
     <script language = "text/Javascript"> 
       cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field

@@ -7,12 +7,12 @@
     <title>Posicionamento</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../posicionamento/public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="../css/fontawesome.css">
-    <link rel="stylesheet" href="../css/templatemo-finance-business.css">
-    <link rel="stylesheet" href="../css/owl.css">
+    <link rel="stylesheet" href="../posicionamento/public/css/fontawesome.css">
+    <link rel="stylesheet" href="../posicionamento/public/css/templatemo-finance-business.css">
+    <link rel="stylesheet" href="../posicionamento/public/css/owl.css">
 
     <!--
 

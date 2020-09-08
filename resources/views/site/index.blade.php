@@ -152,7 +152,7 @@
                 </div>
                 <div class="col-md-6 align-self-center">
                   <div class="right-image">
-                    <img src="../images/slide1.jpg" alt="">
+                    <img src="../posicionamento/public/images/slide1.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -174,7 +174,7 @@
                     <h2>METODOLOGIA INOVADORA</h2>
                     <br>
                     <br>
-                    <img src="../images/slide2.png" alt="">
+                    <img src="../posicionamento/public/images/slide2.png" alt="">
 
                   </div>
                 </div>
@@ -182,7 +182,7 @@
                   <div class="right-content">
                     <p>Atendendo empresas de diferentes setores da  economia, tanto no Brasil como no exterior. Por meio  de metodologias inovadoras, integradas de  maneira sistêmica aos processos empresariais, temos contribuído com o desenvolvimento da competitividade  de importantes marcas, gerando para elas resultados  concretos.</p>
                     <div class="right-image">
-                      <img src="../images/slide2_icon_branco.png" alt="">
+                      <img src="../posicionamento/public/images/slide2_icon_branco.png" alt="">
                     </div>
                   </div>
                 </div>
@@ -221,7 +221,7 @@
                 </div>
                 <div class="col-md-6 align-self-center">
                   <div class="right-content-down">
-                    <img src="../images/slide2_icon_branco.png" alt="">
+                    <img src="../posicionamento/public/images/slide2_icon_branco.png" alt="">
                   </div>
                 </div>
               </div>
@@ -246,7 +246,7 @@
           </div>
           <div class="col-md-6">
             <div class="left-image">
-              <img src="../images/more-info.jpg" alt="">
+              <img src="../posicionamento/public/images/more-info.jpg" alt="">
             </div>
           </div>
         </div>
@@ -266,7 +266,7 @@
           </div>
           <div class="col-md-4">
             <div class="service-item">
-              <img src="../images/service_01.jpg" alt="">
+              <img src="../posicionamento/public/images/service_01.jpg" alt="">
               <div class="down-content">
                 <h4>Digital Currency</h4>
                 <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
@@ -276,7 +276,7 @@
           </div>
           <div class="col-md-4">
             <div class="service-item">
-              <img src="../images/service_02.jpg" alt="">
+              <img src="../posicionamento/public/images/service_02.jpg" alt="">
               <div class="down-content">
                 <h4>Market Analysis</h4>
                 <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
@@ -286,7 +286,7 @@
           </div>
           <div class="col-md-4">
             <div class="service-item">
-              <img src="../images/service_03.jpg" alt="">
+              <img src="../posicionamento/public/images/service_03.jpg" alt="">
               <div class="down-content">
                 <h4>Historical Data</h4>
                 <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
@@ -350,7 +350,7 @@
               <div class="row">
                 <div class="col-md-6">
                   <div class="left-image">
-                    <img src="../images/more-info.jpg" alt="">
+                    <img src="../posicionamento/public/images/more-info.jpg" alt="">
                   </div>
                 </div>
                 <div class="col-md-6 align-self-center">
@@ -475,23 +475,23 @@
             <div class="owl-partners owl-carousel">
             
               <div class="partner-item">
-                <img src="../images/client-01.png" title="1" alt="1">
+                <img src="../posicionamento/public/images/client-01.png" title="1" alt="1">
               </div>
               
               <div class="partner-item">
-                <img src="../images/client-01.png" title="2" alt="2">
+                <img src="../posicionamento/public/images/client-01.png" title="2" alt="2">
               </div>
               
               <div class="partner-item">
-                <img src="../images/client-01.png" title="3" alt="3">
+                <img src="../posicionamento/public/images/client-01.png" title="3" alt="3">
               </div>
               
               <div class="partner-item">
-                <img src="../images/client-01.png" title="4" alt="4">
+                <img src="../posicionamento/public/images/client-01.png" title="4" alt="4">
               </div>
               
               <div class="partner-item">
-                <img src="../images/client-01.png" title="5" alt="5">
+                <img src="../posicionamento/public/images/client-01.png" title="5" alt="5">
               </div>
               
             </div>

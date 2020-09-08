@@ -29,7 +29,7 @@
                 </div>
                 <div class="col-md-6 align-self-center">
                   <div class="right-image">
-                    <img src="../images/animacao1.png" alt="">
+                    <img src="../posicionamento/public/images/animacao1.png" alt="">
                   </div>
                 </div>
               </div>
@@ -48,7 +48,7 @@
               <div class="row">
                 <div class="col-md-6 align-self-center">
                   <div class="left-image">
-                    <img src="../images/animacao2.png" alt="">
+                    <img src="../posicionamento/public/images/animacao2.png" alt="">
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -82,7 +82,7 @@
                 </div>
                 <div class="col-md-6 align-self-center">
                   <div class="right-image">
-                    <img src="../images/nosso_trabalho2.png" alt="">
+                    <img src="../posicionamento/public/images/nosso_trabalho2.png" alt="">
                   </div>
                 </div>
               </div>
@@ -138,7 +138,7 @@
                 </div>
                 <div class="col-md-6">
                   <div class="left-image">
-                    <img src="../images/about-image.jpg" alt="">
+                    <img src="../posicionamento/public/images/about-image.jpg" alt="">
                   </div>
                 </div>
               </div>
@@ -159,7 +159,7 @@
           </div>
           <div class="col-md-4">
             <div class="team-item">
-              <img src="../images/team_01.jpg" alt="">
+              <img src="../posicionamento/public/images/team_01.jpg" alt="">
               <div class="down-content">
                 <h4>William Smith</h4>
                 <span>Co-Founder</span>
@@ -169,7 +169,7 @@
           </div>
           <div class="col-md-4">
             <div class="team-item">
-              <img src="../images/team_02.jpg" alt="">
+              <img src="../posicionamento/public/images/team_02.jpg" alt="">
               <div class="down-content">
                 <h4>Mary Houston</h4>
                 <span>Chief Marketing Officer</span>
@@ -179,7 +179,7 @@
           </div>
           <div class="col-md-4">
             <div class="team-item">
-              <img src="../images/team_03.jpg" alt="">
+              <img src="../posicionamento/public/images/team_03.jpg" alt="">
               <div class="down-content">
                 <h4>Paul Walker</h4>
                 <span>Financial Analyst</span>

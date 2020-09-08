@@ -34,7 +34,7 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <!-- <a class="navbar-brand" href="index.html"><h2>Posicionamento</h2></a> -->
-          <img id="sus" class="navbar-brand" src="../img/logo_texto_branco.png" style="float: left;width: 30%;">
+          <img id="sus" class="navbar-brand" src="../posicionamento/public/img/logo_texto_branco.png" style="float: left;width: 30%;">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
