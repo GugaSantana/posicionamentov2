@@ -269,7 +269,7 @@ header .navbar {
 }
 .navbar .navbar-brand {
 	float: 	left;
-	margin-top: 12px;
+	margin-top: -10px;
 	outline: none;
 }
 .navbar .navbar-brand h2 {
@@ -398,6 +398,41 @@ header .navbar {
 	background-image: url(../images/slide_03.jpg);
 }
 
+.Modern-Slider .item-farol1 .img-fill {
+	background-image: url(../images/farol1_azulado1_extendido.jpg);
+}
+
+.Modern-Slider .item-farol2 .img-fill {
+	background-image: url(../images/farol1_azulado2_extendido.jpg);
+}
+
+.Modern-Slider .item-farol3 .img-fill {
+	background-image: url(../images/farol1_azulado.jpg);
+}
+
+.Modern-Slider .item-farol4 .img-fill {
+	background-image: url(../images/farol2_escuro.jpg);
+}
+
+.Modern-Slider .item-farol5 .img-fill {
+	background-image: url(../images/farol2_escuro_invertido.jpg);
+}
+
+.Modern-Slider .item-farol6 .img-fill {
+	background-image: url(../images/farol3_escuro.jpg);
+}
+
+.Modern-Slider .item-farol7 .img-fill {
+	background-image: url(../images/farol3_escuro_invertido.jpg);
+}
+
+.Modern-Slider .item-farol8 .img-fill {
+	background-image: url(../images/farol4_escuro.jpg);
+}
+
+.Modern-Slider .item-farol9 .img-fill {
+	background-image: url(../images/farol4_escuro2.jpg);
+}
 .Modern-Slider .NextArrow{
   position:absolute;
   top:50%;
@@ -580,7 +615,8 @@ ul.slick-dots {
 
 .fun-facts {
 	margin-top: 140px;
-	background-image: url(../images/fun-facts-bg.jpg);
+	background-image: linear-gradient(0deg, #000, #007bff);
+	/* background-image: url(../images/fun-facts-bg.jpg); */
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -601,7 +637,7 @@ ul.slick-dots {
 .fun-facts h2 {
 	font-size: 36px;
 	font-weight: 600;
-	margin-bottom: 35px;
+	margin-bottom: 5px;
 }
 
 .fun-facts em {
@@ -616,6 +652,17 @@ ul.slick-dots {
 
 .fun-facts .left-content {
 	margin-right: 45px;
+}
+
+
+.fun-facts .title-content {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.fun-facts .right-image img {
+	width: 100%;
+	overflow: hidden;
 }
 
 .count-area-content {
@@ -651,8 +698,13 @@ ul.slick-dots {
 	overflow: hidden;
 }
 
+.more-info .right-image img {
+	width: 100%;
+	overflow: hidden;
+}
+
 .more-info .more-info-content {
-	background-color: #f7f7f7;
+	background-image: linear-gradient(0deg, #000, #007bff);
 }
 
 .about-info .more-info-content {
@@ -690,6 +742,275 @@ ul.slick-dots {
 
 .more-info .right-content p {
 	margin-bottom: 30px;
+}
+
+.about-info .left-content {
+	padding: 0px!important;
+	margin-left: 30px;
+}
+
+.more-info .left-content {
+	padding: 45px 45px 45px 30px;
+}
+
+.more-info .left-content span {
+	text-transform: uppercase;
+	font-size: 15px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.more-info .left-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.more-info .left-content em {
+	font-style: normal;
+	color: #007bff;
+}
+
+.more-info .left-content p {
+	margin-bottom: 30px;
+	color: #fff
+}
+
+/* SLIDE 1 ----------------------------------------------------------------------- */
+
+.slide1 {
+	margin-top: 40px;
+	background-image: url(../images/fundo_consultoria2.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0px 0px;
+	color: #fff;
+}
+
+.slide1 .right-image img {
+	width: 100%;
+	overflow: hidden;
+}
+
+/* .slide1 .slide1-content {
+	background-image: url(../images/fundo_consultoria2.png);
+} */
+
+.about-info .slide1-content {
+	background-color: transparent;
+}
+
+.about-info .left-content {
+	padding: 0px!important;
+	margin-left: 30px;
+}
+
+.slide1 .left-content {
+	padding: 45px 45px 45px 30px;
+}
+
+.slide1 .left-content span {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.slide1 .left-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.slide1 .left-content em {
+	font-style: normal;
+	color: #007bff;
+}
+
+.slide1 .left-content p {
+	font-size: 14px;
+	margin-bottom: 30px;
+	color: #fff
+}
+
+/* SLIDE 2 ----------------------------------------------------------------------- */
+
+
+.slide2 {
+	margin-top: 40px;
+	background-image: url(../images/slide2_fundo.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0px 0px;
+	color: #fff;
+}
+
+.slide2 .left-content img {
+	width: 80%;
+	overflow: hidden;
+}
+
+.slide2 .right-content img {
+	width: 30%;
+	overflow: hidden;
+}
+
+.slide2 .right-image {
+	overflow: hidden;
+	text-align: center;
+}
+/* 
+.slide2 .slide2-content {
+	background-image: url(../images/slide2_fundo.png);
+	/* background-image: linear-gradient(0deg, #000, #007bff); */
+/* } */
+
+.slide2 .left-content {
+	padding: 45px 45px 45px 30px;
+	text-align: center;
+}
+
+.slide2 .right-content {
+	padding: 45px 45px 45px 30px;
+}
+
+.slide2 .right-content span {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.slide2 .left-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.slide2 .right-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.slide2 .left-content em {
+	font-style: normal;
+	color: #007bff;
+}
+
+.slide2 .right-content p {
+	font-size: 14px;
+	margin-bottom: 30px;
+	color: #fff
+}
+
+/* SLIDE 3 ----------------------------------------------------------------------- */
+
+.slide3 {
+	margin-top: 40px;
+	background-image: url(../images/fundo_consultoria3.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0px 0px;
+	color: #fff;}
+
+.slide3 .left-content img {
+	width: 100%;
+	overflow: hidden;
+}
+/* 
+.slide3 .slide3-content {
+	/* background-image: linear-gradient(0deg, #000, #007bff); */
+	/* background-image: url(../images/fundo_consultoria3.png);
+} */ 
+
+.slide3 .slide3-image {
+	background-image: linear-gradient(90deg, #000, #007bff);
+	
+}
+
+.slide3 .slide3-image2 {
+	background-image: linear-gradient(90deg, #007bff, #000);
+}
+
+.slide3 .left-content {
+	padding: 45px 45px 45px 30px;
+	text-align: center;
+}
+
+.slide3 .right-content {
+	padding: 45px 45px 45px 30px;
+}
+
+.slide3 .left-content-down {
+	padding: 0px 45px 45px 30px;
+}
+
+.slide3 .right-content-down {
+	padding: 0px 45px 45px 30px;
+	text-align: center;
+}
+
+.slide3 .right-content-down img {
+	width: 30%;
+	overflow: hidden;
+}
+
+
+.slide3 .right-content span {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.slide3 .left-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.slide3 .right-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.slide3 .left-content em {
+	font-style: normal;
+	color: #007bff;
+}
+
+.slide3 .right-content p {
+	font-size: 14px;
+	margin-bottom: 30px;
+	color: #fff
+}
+
+.slide3 .left-content-down p {
+	font-size: 14px;
+	margin-bottom: 30px;
+	color: #fff
 }
 
 

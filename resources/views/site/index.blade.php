@@ -12,12 +12,12 @@
     <title>Posicionamento</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../posicionamento/public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="../posicionamento/public/css/fontawesome.css">
-    <link rel="stylesheet" href="../posicionamento/public/css/templatemo-finance-business.css">
-    <link rel="stylesheet" href="../posicionamento/public/css/owl.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+    <link rel="stylesheet" href="../css/templatemo-finance-business.css">
+    <link rel="stylesheet" href="../css/owl.css">
 
     <!--
 
@@ -66,7 +66,7 @@ https://templatemo.com/tm-545-finance-business
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <!-- <a class="navbar-brand" href="index.html"><h2>Posicionamento</h2></a> -->
-          <img class="navbar-brand" src="../posicionamento/public/img/logo_texto_branco.png" style="float: left;width: 30%;">
+          <img id="sus" class="navbar-brand" src="../img/logo_texto_branco.png" style="float: left;width: 30%;">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -100,7 +100,7 @@ https://templatemo.com/tm-545-finance-business
     <div class="main-banner header-text" id="top">
         <div class="Modern-Slider">
           <!-- Item -->
-          <div class="item item-1">
+          <div class="item item-farol1">
             <div class="img-fill">
                 <div class="text-content">
                   <h6>Foco em resultados</h6>
@@ -112,7 +112,84 @@ https://templatemo.com/tm-545-finance-business
           </div>
           <!-- // Item -->
           <!-- Item -->
-          <div class="item item-2">
+          <div class="item item-farol2">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>LANÇAMENTO !!!</h6>
+                  <h4>PROGRAMA TOPSELLER</h4>
+                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
+                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
+                </div>
+            </div>
+          </div>
+          <!-- Item -->
+          <div class="item item-farol3">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>LANÇAMENTO !!!</h6>
+                  <h4>PROGRAMA TOPSELLER</h4>
+                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
+                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
+                </div>
+            </div>
+          </div>
+          <!-- Item -->
+          <div class="item item-farol4">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>LANÇAMENTO !!!</h6>
+                  <h4>PROGRAMA TOPSELLER</h4>
+                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
+                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
+                </div>
+            </div>
+          </div>
+          <!-- Item -->
+          <div class="item item-farol5">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>LANÇAMENTO !!!</h6>
+                  <h4>PROGRAMA TOPSELLER</h4>
+                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
+                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
+                </div>
+            </div>
+          </div>
+          <!-- Item -->
+          <div class="item item-farol6">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>LANÇAMENTO !!!</h6>
+                  <h4>PROGRAMA TOPSELLER</h4>
+                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
+                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
+                </div>
+            </div>
+          </div>
+          <!-- Item -->
+          <div class="item item-farol7">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>LANÇAMENTO !!!</h6>
+                  <h4>PROGRAMA TOPSELLER</h4>
+                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
+                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
+                </div>
+            </div>
+          </div>
+          <!-- Item -->
+          <div class="item item-farol8">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>LANÇAMENTO !!!</h6>
+                  <h4>PROGRAMA TOPSELLER</h4>
+                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
+                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
+                </div>
+            </div>
+          </div>
+          <!-- Item -->
+          <div class="item item-farol9">
             <div class="img-fill">
                 <div class="text-content">
                   <h6>LANÇAMENTO !!!</h6>
@@ -141,7 +218,7 @@ https://templatemo.com/tm-545-finance-business
 
     <div class="request-form">
       <div class="container">
-        <div class="row">
+        <!-- <div class="row">
           <div class="col-md-8">
             <h4>Request a call back right now ?</h4>
             <span>Mauris ut dapibus velit cras interdum nisl ac urna tempor mollis.</span>
@@ -149,22 +226,141 @@ https://templatemo.com/tm-545-finance-business
           <div class="col-md-4">
             <a href="contact.html" class="border-button">Contact Us</a>
           </div>
+        </div> -->
+      </div>
+    </div>
+    <!-- Slide 1 -->
+    <div class="slide1">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="slide1-content">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="left-content">
+                    <h2>EXCELÊNCIA NA ENTREGA DE RESULTADOS</h2>
+                    <span>é o que garante uma existência de 30 anos num mercado em constante mutação.</span>
+                    <br>
+                    <p>Nossa atuação e projetos estão respaldados em mais de 30 anos de consultoria e profunda pesquisa independente, o que permitiu associar e integrar as melhores contribuições internacionais e de suas equipes altamente especializadas.</p>
+                  </div>
+                </div>
+                <div class="col-md-6 align-self-center">
+                  <div class="right-image">
+                    <img src="../images/slide1.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
-    <div class="services">
+    <!-- Slide 2 -->
+    <div class="slide2">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="slide2-content">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="left-content">
+                    <h2>METODOLOGIA INOVADORA</h2>
+                    <br>
+                    <br>
+                    <img src="../images/slide2.png" alt="">
+
+                  </div>
+                </div>
+                <div class="col-md-6 align-self-center">
+                  <div class="right-content">
+                    <p>Atendendo empresas de diferentes setores da  economia, tanto no Brasil como no exterior. Por meio  de metodologias inovadoras, integradas de  maneira sistêmica aos processos empresariais, temos contribuído com o desenvolvimento da competitividade  de importantes marcas, gerando para elas resultados  concretos.</p>
+                    <div class="right-image">
+                      <img src="../images/slide2_icon_branco.png" alt="">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="slide3">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="slide3-content">
+              <div class="row">
+                <div class="col-md-6 align-self-center" >
+                  <div class="left-content">
+                    <h2>ABORDAGEM PRAGMÁTICA</h2>
+                  </div>
+                </div>
+                <div class="col-md-6 align-self-center">
+                  <div class="right-content">
+                    <p>Para atuar de forma sistêmica, é preciso saber dosar o mecanicismo e o organicismo. Utilizamos uma metodologia diferenciada, integradora e baseada em instrumentos tecnicamente fundamentados, que garante uma abordagem pragmática e equilibrada dos processos empresariais. Por meio dela,  conseguimos apresentar conceitos sólidos, todos com sua contrapartida operacional, para que possam ser efetivamente implementados.</p>
+                  </div>
+                </div>
+              </div>
+            <!-- </div>
+            <div class="slide3-image2"> -->
+              <div class="row">
+                <div class="col-md-6 align-self-center" >
+                  <div class="left-content-down">
+                    <p>Nada de teoricismos complicados, nem de mágicas soluções empíricas. Buscamos respostas imediatas, que possam ser implementadas agora mesmo que se moldem aos processos de melhoria continua</p>
+                  </div>
+                </div>
+                <div class="col-md-6 align-self-center">
+                  <div class="right-content-down">
+                    <img src="../images/slide2_icon_branco.png" alt="">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="fun-facts">
+      <div class="container">
+        
+
+        <div class="row">
+          <div class="col-md-6">
+            <div class="left-content">
+            <h2>EXCELÊNCIA NA ENTREGA DE RESULTADOS</h2>
+            <span>é o que garante uma existência de 30 anos num mercado em constante mutação.</span>
+            <br>
+            <p>Nossa atuação e projetos estão respaldados em mais de 30 anos de consultoria e profunda pesquisa independente, o que permitiu associar e integrar as melhores contribuições internacionais e de suas equipes altamente especializadas.</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="left-image">
+              <img src="../images/more-info.jpg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+    
+    <!-- <div class="services">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <h2>Financial <em>Services</em></h2>
-              <span>Aliquam id urna imperdiet libero mollis hendrerit</span>
+              <!-- <h2>Financial <em>Services</em></h2> -->
+              <!-- <span>Aliquam id urna imperdiet libero mollis hendrerit</span> -->
+              <!--<h2>EXCELÊNCIA NA ENTREGA DE RESULTADOS</h2>
+              <span>Nossa atuação e projetos estão respaldados em mais de 30 anos de consultoria e profunda pesquisa independente, o que permitiu associar e integrar as melhores contribuições internacionais e de suas equipes altamente especializadas.</span>
             </div>
           </div>
           <div class="col-md-4">
             <div class="service-item">
-              <img src="../posicionamento/public/images/service_01.jpg" alt="">
+              <img src="../images/service_01.jpg" alt="">
               <div class="down-content">
                 <h4>Digital Currency</h4>
                 <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
@@ -174,7 +370,7 @@ https://templatemo.com/tm-545-finance-business
           </div>
           <div class="col-md-4">
             <div class="service-item">
-              <img src="../posicionamento/public/images/service_02.jpg" alt="">
+              <img src="../images/service_02.jpg" alt="">
               <div class="down-content">
                 <h4>Market Analysis</h4>
                 <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
@@ -184,7 +380,7 @@ https://templatemo.com/tm-545-finance-business
           </div>
           <div class="col-md-4">
             <div class="service-item">
-              <img src="../posicionamento/public/images/service_03.jpg" alt="">
+              <img src="../images/service_03.jpg" alt="">
               <div class="down-content">
                 <h4>Historical Data</h4>
                 <p>Sed tincidunt dictum lobortis. Aenean tempus diam vel augue luctus dignissim. Nunc ornare leo tortor.</p>
@@ -248,7 +444,7 @@ https://templatemo.com/tm-545-finance-business
               <div class="row">
                 <div class="col-md-6">
                   <div class="left-image">
-                    <img src="../posicionamento/public/images/more-info.jpg" alt="">
+                    <img src="../images/more-info.jpg" alt="">
                   </div>
                 </div>
                 <div class="col-md-6 align-self-center">
@@ -318,15 +514,15 @@ https://templatemo.com/tm-545-finance-business
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="callback-form">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
-              <h2>Request a <em>call back</em></h2>
-              <span>Etiam suscipit ante a odio consequat</span>
+              <h2>Entre em <em>Contato</em></h2>
+              <!-- <span>Etiam suscipit ante a odio consequat</span> -->
             </div>
           </div>
           <div class="col-md-12">
@@ -335,27 +531,27 @@ https://templatemo.com/tm-545-finance-business
                 <div class="row">
                   <div class="col-lg-4 col-md-12 col-sm-12">
                     <fieldset>
-                      <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
+                      <input name="name" type="text" class="form-control" id="name" placeholder="Nome Completo" required="">
                     </fieldset>
                   </div>
                   <div class="col-lg-4 col-md-12 col-sm-12">
                     <fieldset>
-                      <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail Address" required="">
+                      <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail" required="">
                     </fieldset>
                   </div>
                   <div class="col-lg-4 col-md-12 col-sm-12">
                     <fieldset>
-                      <input name="subject" type="text" class="form-control" id="subject" placeholder="Subject" required="">
+                      <input name="subject" type="text" class="form-control" id="subject" placeholder="Assunto" required="">
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message" required=""></textarea>
+                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Sua mensagem" required=""></textarea>
                     </fieldset>
                   </div>
                   <div class="col-lg-12">
                     <fieldset>
-                      <button type="submit" id="form-submit" class="border-button">Send Message</button>
+                      <button type="submit" id="form-submit" class="border-button">Enviar mensagem</button>
                     </fieldset>
                   </div>
                 </div>
@@ -373,23 +569,23 @@ https://templatemo.com/tm-545-finance-business
             <div class="owl-partners owl-carousel">
             
               <div class="partner-item">
-                <img src="../posicionamento/public/images/client-01.png" title="1" alt="1">
+                <img src="../images/client-01.png" title="1" alt="1">
               </div>
               
               <div class="partner-item">
-                <img src="../posicionamento/public/images/client-01.png" title="2" alt="2">
+                <img src="../images/client-01.png" title="2" alt="2">
               </div>
               
               <div class="partner-item">
-                <img src="../posicionamento/public/images/client-01.png" title="3" alt="3">
+                <img src="../images/client-01.png" title="3" alt="3">
               </div>
               
               <div class="partner-item">
-                <img src="../posicionamento/public/images/client-01.png" title="4" alt="4">
+                <img src="../images/client-01.png" title="4" alt="4">
               </div>
               
               <div class="partner-item">
-                <img src="../posicionamento/public/images/client-01.png" title="5" alt="5">
+                <img src="../images/client-01.png" title="5" alt="5">
               </div>
               
             </div>
@@ -479,14 +675,14 @@ https://templatemo.com/tm-545-finance-business
     </div>
 
     <!-- Bootstrap core JavaScript -->
-    <script src="../posicionamento/public/vendor/jquery/jquery.min.js"></script>
-    <script src="../posicionamento/public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Additional Scripts -->
-    <script src="../posicionamento/public/js/custom.js"></script>
-    <script src="../posicionamento/public/js/owl.js"></script>
-    <script src="../posicionamento/public/js/slick.js"></script>
-    <script src="../posicionamento/public/js/accordions.js"></script>
+    <script src="../js/custom.js"></script>
+    <script src="../js/owl.js"></script>
+    <script src="../js/slick.js"></script>
+    <script src="../js/accordions.js"></script>
 
     <script language = "text/Javascript"> 
       cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
