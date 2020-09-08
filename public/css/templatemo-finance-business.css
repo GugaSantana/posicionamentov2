@@ -508,7 +508,7 @@ ul.slick-dots {
 .Modern-Slider .item p {
 	max-width: 570px;
 	color: #fff;
-	font-size: 15px;
+	font-size: 18px;
 	font-weight: 400;
 	line-height: 30px;
 	margin-bottom: 40px;
@@ -922,7 +922,7 @@ ul.slick-dots {
 
 .slide3 {
 	margin-top: 40px;
-	background-image: url(../images/fundo_consultoria3.png);
+	background-image: url(../images/fundo_consultoria3_2.png);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1013,6 +1013,277 @@ ul.slick-dots {
 	color: #fff
 }
 
+/* SLIDE 4 ----------------------------------------------------------------------- */
+
+.slide4 {
+	margin-top: 40px;
+	/* background-image: url(../images/fundo_consultoria2.png); */
+	background-color: #1b74a0;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0px 0px;
+	color: #fff;
+}
+
+.slide4 .right-image {
+	text-align: center;
+}
+
+.slide4 .right-image img {
+	width: 70%;
+	overflow: hidden;
+}
+
+/* .slide4 .slide4-content {
+	background-image: url(../images/fundo_consultoria2.png);
+} */
+
+.about-info .slide4-content {
+	background-color: transparent;
+}
+
+.about-info .left-content {
+	padding: 0px!important;
+	margin-left: 30px;
+}
+
+.slide4 .left-content {
+	padding: 45px 45px 45px 30px;
+}
+
+.slide4 .left-content span {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.slide4 .left-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.slide4 .left-content em {
+	font-style: normal;
+	color: #007bff;
+}
+
+.slide4 .left-content p {
+	font-size: 14px;
+	margin-bottom: 30px;
+	color: #fff
+}
+
+/* SLIDE 5 ----------------------------------------------------------------------- */
+
+.slide5 {
+	margin-top: 40px;
+	background-image: url(../images/fundo_consultoria2.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0px 0px;
+	color: #fff;
+}
+
+.slide5 .left-image {
+	text-align: center;
+}
+
+.slide5 .left-image img {
+	width: 50%;
+	overflow: hidden;
+}
+
+/* .slide5 .slide5-content {
+	background-image: url(../images/fundo_consultoria2.png);
+} */
+
+.about-info .slide5-content {
+	background-color: transparent;
+}
+
+.about-info .right-content {
+	padding: 0px!important;
+	margin-left: 30px;
+}
+
+.slide5 .right-content {
+	padding: 45px 45px 45px 30px;
+}
+
+.slide5 .right-content span {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.slide5 .right-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.slide5 .right-content em {
+	font-style: normal;
+	color: #007bff;
+}
+
+.slide5 .right-content p {
+	font-size: 14px;
+	margin-bottom: 30px;
+	color: #fff
+}
+/* SLIDE 6 ----------------------------------------------------------------------- */
+
+.slide6 {
+	margin-top: 40px;
+	/* background-image: url(../images/fundo_consultoria2.png); */
+	background-color: #1b74a0;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0px 0px;
+	color: #fff;
+}
+
+.slide6 .right-image {
+	text-align: center;
+}
+
+.slide6 .right-image img {
+	width: 110%;
+	overflow: hidden;
+}
+
+/* .slide6 .slide6-content {
+	background-image: url(../images/fundo_consultoria2.png);
+} */
+
+.about-info .slide6-content {
+	background-color: transparent;
+}
+
+.about-info .left-content {
+	padding: 0px!important;
+	margin-left: 30px;
+}
+
+.slide6 .left-content {
+	padding: 45px 45px 45px 30px;
+}
+
+.slide6 .left-content span {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.slide6 .left-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.slide6 .left-content em {
+	font-style: normal;
+	color: #007bff;
+}
+
+.slide6 .left-content p {
+	font-size: 14px;
+	margin-bottom: 30px;
+	color: #fff
+}
+
+/* SLIDE 7 ----------------------------------------------------------------------- */
+
+.slide7 {
+	margin-top: 40px;
+	background-image: url(../images/fundo_consultoria2.png);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0px 0px;
+	color: #fff;
+}
+
+.slide7 .left-image {
+	text-align: center;
+}
+
+.slide7 .left-image img {
+	width: 50%;
+	overflow: hidden;
+}
+
+/* .slide7 .slide7-content {
+	background-image: url(../images/fundo_consultoria2.png);
+} */
+
+.about-info .slide7-content {
+	background-color: transparent;
+}
+
+.about-info .right-content {
+	padding: 0px!important;
+	margin-left: 30px;
+}
+
+.slide7 .right-content {
+	padding: 45px 45px 45px 30px;
+}
+
+.slide7 .right-content span {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.slide7 .right-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.slide7 .right-content h3 {
+	font-size: 32px;
+	font-weight: 400;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.slide7 .right-content em {
+	font-style: normal;
+	color: #007bff;
+}
+
+.slide7 .right-content p {
+	font-size: 14px;
+	margin-bottom: 30px;
+	color: #fff
+}
 
 /* Testimonials Style */
 
@@ -1391,7 +1662,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .page-heading span {
-	font-size: 15px;
+	font-size: 18px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	color: #fff;
