@@ -47,10 +47,10 @@
                 <a class="nav-link" href="/site/about">Sobre</a>
               </li>
               <li class="nav-item @if($menu_page == 3) active @endif">
-                <a class="nav-link" href="services.html">Serviços</a>
+                <a class="nav-link" href="/site/services">Serviços</a>
               </li>
               <li class="nav-item @if($menu_page == 4) active @endif">
-                <a class="nav-link" href="contact.html">Programa Top Seller</a>
+                <a class="nav-link" href="/login">Programa Top Seller</a>
               </li>
               <li class="nav-item @if($menu_page == 5) active @endif">
                 <a class="nav-link" href="contact.html">Contato</a>

@@ -13,4 +13,12 @@ class SiteController extends Controller
     public function about(){
         return view('site.about')->with('menu_page', 2);;
     }
+
+    public function services(){
+        return view('site.services')->with('menu_page', 3);;
+    }
+    
+    public function contact(){
+        return view('site.contact')->with('menu_page', 5);;
+    }
 }

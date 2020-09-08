@@ -179,4 +179,8 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 
 	Route::get('site/index', 'SiteController@index');
 	Route::get('site/about', 'SiteController@about');
+	Route::get('site/services', 'SiteController@services');
+	Route::get('site/contact', 'SiteController@contact');
+	
+	
 	
