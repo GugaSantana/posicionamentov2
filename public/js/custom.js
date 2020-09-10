@@ -28,7 +28,7 @@ jQuery( document ).ready(function( $ ) {
 
           if (scroll >= box - header) {
             $("header").addClass("background-header");
-            $("#sus").attr('src', '../posicionamento/public/img/logo_texto_azul.png');
+            $("#sus").attr('src', '../posicionamento/public/img/logo_texto_azul2.png');
           } else {
             $("header").removeClass("background-header");
             $("#sus").attr('src', '../posicionamento/public/img/logo_texto_branco.png');
