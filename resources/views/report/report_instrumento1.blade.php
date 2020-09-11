@@ -11,6 +11,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+
+    .break {
+          page-break-before: always;
+        }
+
     .flex-box {
       display: flex;
       align-items: center;
@@ -39,14 +44,7 @@
 
 <body style="background-image: url('posicionamento/public/img/img2.png');background-repeat: no-repeat;
   background-attachment: fixed;background-size: 100% 100%;">
-  <div class="flex-box container-box" style="
-    margin-top: 4%;
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-bottom: 4%;
-    background-color: #f2f7f9;
-    border-radius: 70px;
-">
+  <div class="flex-box container-box">
     <div class="content-box">
       <img src="../posicionamento/public/img/logo_capa.png" style="float: left;width: 30%;margin-top: 2%;">
       <img src="../posicionamento/public/img/selo_top_seller.png" style="float: right;width: 12%;">
@@ -55,7 +53,6 @@
       <h3 style="color: #35408f;text-align: center;">MEU NIVEL DE EMPREENDEDORISMO</h3>
 
       <h3 style="color: #35408f;text-align: center;">A – Distribuição do Nível de Empreendedorismo de Equipes de Vendas</h3>
-      <br>
 
       <!-- GRAFICO 1 -->
       <div class="col-md-6">
@@ -71,7 +68,10 @@
         </canvas>
       </div>
         <!-- FIM DO GRAFICO 2 -->
-      <br>
+      
+        <!-- NOVA FOLHA -->
+      <div class="break"></div>
+
       <div class="col-md-12">
         <br>
         <!-- Tabela 1 -->

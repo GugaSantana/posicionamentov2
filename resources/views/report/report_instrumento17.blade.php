@@ -11,6 +11,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+    
+
+    .break {
+        page-break-before: always;
+    }
+
     .flex-box {
       display: flex;
       align-items: center;
@@ -25,7 +31,7 @@
     .content-box {
       color: black;
       text-align: justify;
-      width: 90%;
+      width: 100%;
       font-size: 18px;
     }
 
@@ -50,14 +56,7 @@
 
 <body style="background-image: url('posicionamento/public/img/img2.png');background-repeat: no-repeat;
   background-attachment: fixed;background-size: 100% 100%;">
-  <div class="flex-box container-box" style="
-    margin-top: 4%;
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-bottom: 4%;
-    background-color: #f2f7f9;
-    border-radius: 70px;
-">
+  <div class="flex-box container-box">
     <div class="content-box">
       <img src="../posicionamento/public/img/logo_capa.png" style="float: left;width: 30%;margin-top: 2%;">
       <img src="../posicionamento/public/img/selo_top_seller.png" style="float: right;width: 12%;">
@@ -107,11 +106,11 @@
               @for($i=0; $i<11; $i++)
               <tr>  
                 <td>{{$tecnicas[$i]}}</td>
-                <td @if($mediaResp[$i] == 0) id="bola" @endif></td>
-                <td @if($mediaResp[$i] == 1) id="bola" @endif></td>
-                <td @if($mediaResp[$i] == 2) id="bola" @endif></td>
-                <td @if($mediaResp[$i] == 3) id="bola" @endif></td>
-                <td @if($mediaResp[$i] == 4) id="bola" @endif></td>
+                <td @if($mediaResp[$i] == 0) id="bola" @endif>@if($mediaResp[$i] == 0) X @endif</td>
+                <td @if($mediaResp[$i] == 1) id="bola" @endif>@if($mediaResp[$i] == 1) X @endif</td>
+                <td @if($mediaResp[$i] == 2) id="bola" @endif>@if($mediaResp[$i] == 2) X @endif</td>
+                <td @if($mediaResp[$i] == 3) id="bola" @endif>@if($mediaResp[$i] == 3) X @endif</td>
+                <td @if($mediaResp[$i] == 4) id="bola" @endif>@if($mediaResp[$i] == 4) X @endif</td>
 
               </tr>
               @endfor
@@ -119,11 +118,11 @@
             <tr>
               <td style="text-align: center;vertical-align: middle;">TÉCNICA SOFT SELL</td>
               <td>{{$tecnicas[11]}}</td>
-              <td @if($mediaResp[11] == 0) id="bolaVerde" @endif></td>
-              <td @if($mediaResp[11] == 1) id="bolaVerde" @endif></td>
-              <td @if($mediaResp[11] == 2) id="bolaVerde" @endif></td>
-              <td @if($mediaResp[11] == 3) id="bolaVerde" @endif></td>
-              <td @if($mediaResp[11] == 4) id="bolaVerde" @endif></td>
+              <td @if($mediaResp[11] == 0) id="bolaVerde" @endif>@if($mediaResp[11] == 0) X @endif</td>
+              <td @if($mediaResp[11] == 1) id="bolaVerde" @endif>@if($mediaResp[11] == 1) X @endif</td>
+              <td @if($mediaResp[11] == 2) id="bolaVerde" @endif>@if($mediaResp[11] == 2) X @endif</td>
+              <td @if($mediaResp[11] == 3) id="bolaVerde" @endif>@if($mediaResp[11] == 3) X @endif</td>
+              <td @if($mediaResp[11] == 4) id="bolaVerde" @endif>@if($mediaResp[11] == 4) X @endif</td>
             </tr>
 
         </table>

@@ -11,6 +11,10 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
+    .break {
+          page-break-before: always;
+    }
+
     .flex-box {
       display: flex;
       align-items: center;
@@ -25,7 +29,7 @@
     .content-box {
       color: black;
       text-align: justify;
-      width: 90%;
+      width: 100%;
       font-size: 18px;
     }
 
@@ -39,14 +43,7 @@
 
 <body style="background-image: url('posicionamento/public/img/img2.png');background-repeat: no-repeat;
   background-attachment: fixed;background-size: 100% 100%;">
-  <div class="flex-box container-box" style="
-    margin-top: 4%;
-    margin-left: 6%;
-    margin-right: 6%;
-    margin-bottom: 4%;
-    background-color: #f2f7f9;
-    border-radius: 70px;
-">
+  <div class="flex-box container-box">
     <div class="content-box">
       <img src="../posicionamento/public/img/logo_capa.png" style="float: left;width: 30%;margin-top: 2%;">
       <img src="../posicionamento/public/img/selo_top_seller.png" style="float: right;width: 12%;">
@@ -126,7 +123,9 @@
           </tr>
         </table>
         <!-- FIM TABELA 1 -->
-        <br>
+        
+        <!-- NOVA FOLHA -->
+        <div class="break"></div>
 
         <!-- TABELA 2 -->
         @php
@@ -266,7 +265,8 @@
         </table>
         <!-- FIM DA TABELA 3 -->
         
-        <br>
+        <!-- NOVA FOLHA -->
+        <div class="break"></div>
 
         <!-- TABELA 4 -->
         @php
@@ -338,7 +338,8 @@
         </table>
         <!-- FIM DA TABELA 4 -->
 
-        <br>
+        <!-- NOVA FOLHA -->
+        <div class="break"></div>
 
         <!-- TABELA 5 -->
         @php
@@ -411,7 +412,8 @@
         </table>
         <!-- FIM DA TABELA 5 -->
 
-        <br>
+        <!-- NOVA FOLHA -->
+        <div class="break"></div>
 
         <!-- TABELA 6 -->
         @php
@@ -484,7 +486,8 @@
         </table>
         <!-- FIM DA TABELA 6 -->
 
-        <br>
+        <!-- NOVA FOLHA -->
+        <div class="break"></div>
 
         <!-- TABELA 7 -->
         @php
@@ -626,7 +629,8 @@
         </table>
         <!-- FIM DA TABELA 8 -->
 
-        <br>
+        <!-- NOVA FOLHA -->
+        <div class="break"></div>
 
         <!-- TABELA 9 -->
         @php
@@ -766,7 +770,8 @@
         </table>
         <!-- FIM DA TABELA 10 -->
 
-        <br>
+        <!-- NOVA FOLHA -->
+        <div class="break"></div>
 
         <!-- TABELA 11 -->
         @php
