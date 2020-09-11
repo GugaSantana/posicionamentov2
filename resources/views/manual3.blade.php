@@ -58,7 +58,7 @@
 <p>A - Precondições para aumentar as vendas.</p>
 <p>B - Como aumentar as vendas através das Técnicas de Vendas Consultivas.</p>
 <p>C - Gestão das Vendas utilizando esta metodologia.</p>
-<p>Estas três etapas são agora descritas para você conhecer os temas abordados e contextualizar os instrumentos pe você utilizará em cada uma destas etapas para aumentar suas vendas.</p>
+<p>Estas três etapas são agora descritas para você conhecer os temas abordados e contextualizar os instrumentos que você utilizará em cada uma destas etapas para aumentar suas vendas.</p>
 <br>
 <p style="color: #35408f; font-size: 21px"><b>A - PRECONDIÇÕES PARA AUMENTAR AS VENDAS</b></p>
 
@@ -80,7 +80,7 @@
 
 <p style="color: #ef6502">- OBJETIVOS DA ETAPA</p>
 <p style="color: #ef6502">Desenvolver sistematicamente a dist&acirc;ncia e por meio digital, as competências que operacionalizam a metodologia das Vendas Consultivas, através de instrumentos estruturados que permitem fazer uma avaliação quantitativa dos resultados.</p>
-<p>Nesta etapa, após otimizadas as pré-condições para aumentar as vendas, serão transferidas para você as técnicas das Vendas Consultivas através de 12 instrumentos específicos que foram organizados em 5 grupos, para atender as etapas da metodologia das Vendas Consultivas.</p>
+<p>Nesta etapa, após otimizadas as pré-condições para aumentar as vendas, serão transferidas para você as técnicas das Vendas Consultivas através de 11 instrumentos específicos que foram organizados em 6 grupos, para atender as etapas da metodologia das Vendas Consultivas.</p>
 <p>Os objetivos desses cinco grupos e dos Instrumentos que os compõem são os seguintes:</p>
 <br>
 <p><b>1 - O Gerenciamento do Campo Psicológico</b></p>
