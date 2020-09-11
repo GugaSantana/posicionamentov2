@@ -61,6 +61,7 @@
         </canvas>
       </div>
       <!-- FIM DO GRAFICO 1 -->
+      <br>
       <!-- GRAFICO 2 -->
       <div class="col-md-6">
       <p style="color: green;text-align: center; font-weight: bold; text-decoration: underline; margin-bottom: -4%">Em Valores Percentuais</p>
