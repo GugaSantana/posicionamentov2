@@ -77,14 +77,7 @@
               <article id='tabs-6'>
                 <img src="../posicionamento/public/images/servicos2.png" alt="">
                 <h4>Desenvolvimento da Produtividade em Vendas</h4>
-                <p>Gestores são contratados e remunerados para tomar as melhores  decisões. Por meio deste programa, utilizamos uma metodologia  tecnicamente estruturada e fundamentada, que transfere aos participantes as quatro competências para análise de problemas  e tomada de decisões. Os gestores da empresa são capacitados nas  técnicas de:
-                <br>-Análise de situações, para identificar e priorizar as ações gerenciais;
-                <br>-Análise de problemas, para identificar as causas e os desvios que o  geraram;
-                <br>-Análise de  decisões, para desenvolver alternativas, identificar riscos  e determinar a melhor escolha;
-                <br>-Análise de problemas potenciais, para proteger a decisão  tomada, antecipando e neutralizando possíveis desvios.
-
-                </p>
-                <h4>Benefícios do programa</h4>
+                
                 <p>Por meio do PROGRAMA TOP SELLER, exclusivo e único no  mercado, buscamos aumentar a produtividade das equipes de vendas, utilizando uma metodologia inovadora para desenvolver as Competências necessárias às Vendas Consultivas.</p>
                 <br>
                 <a href="services.html" class="filled-button">SAIBA MAIS</a>
