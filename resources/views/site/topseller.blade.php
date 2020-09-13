@@ -8,7 +8,7 @@
           <div class="col-md-12">
             <h1 style="color: #c2a94d;">PROGRAMA TOP SELLER</h1>
             <span>METODOLOGIA PARA AUMENTAR AS VENDAS, EM BASES OBJETIVAS, QUANTITATIVAS E MENSURÁVEIS</span>
-            <img style="width: 20%;" src="../images/logo_topseller.png" alt="">
+            <img style="width: 20%;" src="../posicionamento/public/images/logo_topseller.png" alt="">
           </div>
         </div>
       </div>
@@ -37,7 +37,7 @@
               <div class="row">
                 <div class="col-md-6 align-self-center">
                   <div class="left-image">
-                    <img src="../images/topseller1.png" alt="">
+                    <img src="../posicionamento/public/images/topseller1.png" alt="">
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -82,7 +82,7 @@
                 </div>
                 <div class="col-md-6 align-self-center">
                   <div class="right-image">
-                    <img style="background-color: #645a29" src="../images/topseller2_2.png" alt="">
+                    <img style="background-color: #645a29" src="../posicionamento/public/images/topseller2_2.png" alt="">
                   </div>
                 </div>
               </div>
@@ -103,7 +103,7 @@
               <div class="row">
                 <div class="col-md-6 align-self-center">
                   <div class="left-image">
-                    <img style="background-color: #c2a94d;" src="../images/topseller3.png" alt="">
+                    <img style="background-color: #c2a94d;" src="../posicionamento/public/images/topseller3.png" alt="">
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -150,7 +150,7 @@
                 </div>
                 <div class="col-md-6 align-self-center">
                   <div class="right-image">
-                    <img src="../images/topseller4_2.png" alt="">
+                    <img src="../posicionamento/public/images/topseller4_2.png" alt="">
                   </div>
                 </div>
               </div>
@@ -191,7 +191,7 @@
                 </div>
                 <!-- <div class="col-md-6 align-self-center">
                   <div class="right-image">
-                    <img src="../images/topseller5.png" alt="">
+                    <img src="../posicionamento/public/images/topseller5.png" alt="">
                   </div>
                 </div> -->
               </div>
