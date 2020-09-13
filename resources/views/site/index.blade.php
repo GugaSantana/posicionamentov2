@@ -73,7 +73,30 @@
             </div>
           </div>
           <!-- Item -->
+          <div class="item item-farol10">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>LANÇAMENTO !!!</h6>
+                  <h4>PROGRAMA TOPSELLER</h4>
+                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
+                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
+                </div>
+            </div>
+          </div>
+          <!-- Item -->
           <div class="item item-farol7">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>LANÇAMENTO !!!</h6>
+                  <h4>PROGRAMA TOPSELLER</h4>
+                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
+                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
+                </div>
+            </div>
+          </div>
+          
+           <!-- Item -->
+           <div class="item item-farol11">
             <div class="img-fill">
                 <div class="text-content">
                   <h6>LANÇAMENTO !!!</h6>
@@ -105,6 +128,7 @@
                 </div>
             </div>
           </div>
+           
           <!-- // Item -->
           <!-- Item -->
           <!-- <div class="item item-3">

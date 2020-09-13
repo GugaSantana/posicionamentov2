@@ -44,13 +44,24 @@
                 <a class="nav-link" href="/site/index">Home</a>
               </li>
               <li class="nav-item @if($menu_page == 2) active @endif">
-                <a class="nav-link" href="/site/about">Sobre</a>
+                <a class="nav-link" href="/site/about">A Empresa</a>
               </li>
               <li class="nav-item @if($menu_page == 3) active @endif">
                 <a class="nav-link" href="/site/services">Serviços</a>
               </li>
               <li class="nav-item @if($menu_page == 4) active @endif">
-                <a class="nav-link" href="/login">Programa Top Seller</a>
+              <a class="nav-link" href="#">Programa Top Seller</a>
+                <ul class="sub-item">
+                  <li>
+                    <a class="nav-link" href="/site/topseller">Apresentação do Programa</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="/site/topseller2">Estrutura e Implantação</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="/login">Login</a>
+                  </li>
+                </ul>
               </li>
               <li class="nav-item @if($menu_page == 5) active @endif">
                 <a class="nav-link" href="contact.html">Contato</a>

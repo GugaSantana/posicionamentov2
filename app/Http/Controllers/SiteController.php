@@ -21,4 +21,13 @@ class SiteController extends Controller
     public function contact(){
         return view('site.contact')->with('menu_page', 5);;
     }
+
+    public function topseller(){
+        return view('site.topseller')->with('menu_page', 4);
+    }
+
+    public function topseller2(){
+        return view('site.topseller2')->with('menu_page', 4);
+    }
+    
 }

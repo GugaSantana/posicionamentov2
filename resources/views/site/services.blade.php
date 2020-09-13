@@ -37,7 +37,7 @@
                 <p>Gera recomendações de ações corretivas para cada pilar de  competitividade, apontando uma direção segura para que a  empresa chegue aos seus objetivos com  mais rapidez e economia.</p>
               </article>
               <article id='tabs-2'>
-                <img src="../posicionamento/public/images/servicos3.png" alt="">
+                <img src="../posicionamento/public/images/service_03_1.jpg" alt="">
                 <h4> Formulação da Organização  Requerida e Modelo de Gestão</h4>
                 <p>Organização requerida é a estrutura organizacional tecnicamente formulada, com  o objetivo de alcançar as metas definidas pela empresa, dentro dos maiores níveis de  competitividade. Por meio deste programa, estabelecemos com precisão os níveis de  autoridade e de responsabilidades de cada cargo-chave. Dessa forma, conseguimos  assegurar que todas as obrigações operacionais serão atendidas, sem  superposição de  obrigações ou lacunas no sistema.
                 <br><br>Para estabelecer o modelo de gestão e definir sua infraestrutura, começamos  alocando os objetivos estratégicos às quatro dimensões do Balanced Scorecard. Depois,  fazemos as complementações e os ajustes necessários. Definimos as obrigações operacionais de cada cargo e formulamos os seus indicadores de desempenho.  Estabelecendo metas para os indicadores de desempenho, criamos as condições técnicas  para um gerenciamento por exceção, que focalize os indicadores que eventualmente  apresentem desvios.</p>
@@ -45,7 +45,7 @@
                 <p>Gera aumento de produtividade e redução dos conflitos causados pela falta de definição  nos níveis de autoridade e responsabilidade dos cargos-chave. Permite o gerenciamento  por exceção dos indicadores de desempenho e suas metas.</p>
               </article>
               <article id='tabs-3'>
-                <img src="../posicionamento/public/images/servicos4.png" alt="">
+                <img src="../posicionamento/public/images/service_04-04.jpg" alt="">
                 <h4>Desenvolvimento Gerencial</h4>
                 <p>Por meio deste programa fazemos a transferência de conhecimentos e  técnicas de gestão profissional aos participantes,  capacitando-os a operar com  eficiência o modelo de gestão da empresa.  Disponibilizamos um total de 68 instrumentos, que cobrem  as nove áreas  da “profissão” de gestor. Os conhecimentos específicos da atividade gerencial são devidamente codificados e operacionalizados, para  serem  efetivamente aplicados pelos participantes. Enquanto o modelo  de gestão estabelece o que deve ser gerenciado, o nosso programa de  desenvolvimento gerencial capacita os gestores em como gerenciar.</p>
                 <h4>Beneficios do programa</h4>

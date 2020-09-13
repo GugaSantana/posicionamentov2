@@ -296,7 +296,7 @@ header .navbar {
 	margin: 0px 15px;
 }
 .navbar .navbar-nav a.nav-link {
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
 	font-size: 15px;
 	font-weight: 300;
 	letter-spacing: 0.5px;
@@ -332,6 +332,22 @@ header .navbar {
 	line-height: 26px;
 	font-family: 'FontAwesome';
 }
+
+.navbar .nav-item .sub-item {
+	display:none;
+	position: absolute;
+}
+
+.background-header .navbar .nav-item .sub-item {
+	background-color: #fff;
+	border-radius: 0px 0px 15px 15px;
+}
+
+.navbar .navbar-nav li:hover ul, 
+.navbar .navbar-nav li.over ul{
+	display:block;
+}
+
 
 
 
@@ -433,6 +449,15 @@ header .navbar {
 .Modern-Slider .item-farol9 .img-fill {
 	background-image: url(../images/farol4_escuro2.jpg);
 }
+
+.Modern-Slider .item-farol10 .img-fill {
+	background-image: url(../images/farol5_escuro.jpg);
+}
+
+.Modern-Slider .item-farol11 .img-fill {
+	background-image: url(../images/farol5_2_escuro.jpg);
+}
+
 .Modern-Slider .NextArrow{
   position:absolute;
   top:50%;
@@ -552,7 +577,33 @@ ul.slick-dots {
 .slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
 
 
+/* Barra Dourada */
+.barra-dourada {
+	background-color: #c2a94d;
+	padding: 40px 0px;
+	color: #fff;
+}
 
+/* Barra Dourada Divisao */
+.barra-dourada-divisao {
+	background-color: #c2a94d;
+	padding: 20px 0px;
+	color: #fff;
+}
+.barra-dourada-divisao h2 {
+	font-size: 26px;
+	font-weight: 600;
+	color: #fff;
+	text-align: center;
+}
+.barra-dourada-divisao h4 {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff;
+	text-align: center;
+
+}
 
 /* Request Form */
 
@@ -1285,6 +1336,468 @@ ul.slick-dots {
 	color: #fff
 }
 
+/* TOPSELLER 1 ----------------------------------------------------------------------- */
+
+.topseller1 {
+	/* margin-top: 40px; */
+	background-image: url(../images/fundo_topseller3.jpg);
+	/* background-color: #1b74a0; */
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0px 0px;
+	color: #fff;
+}
+
+.topseller1 .left-image {
+	text-align: center;
+}
+
+.topseller1 .left-image img {
+	width: 80%;
+	overflow: hidden;
+}
+
+/* .topseller1 .topseller1-content {
+	background-image: url(../images/fundo_consultoria2.png);
+} */
+
+.about-info .topseller1-content {
+	background-color: transparent;
+}
+
+.about-info .right-content {
+	padding: 0px!important;
+	margin-left: 30px;
+}
+
+.topseller1 .right-content {
+	padding: 45px 0px 45px 0px;
+}
+
+.topseller1 .right-content span {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.topseller1 .right-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.topseller1 .right-content em {
+	font-style: normal;
+	color: #007bff;
+}
+
+.topseller1 .right-content p {
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: #fff;
+	text-align: justify;
+}
+
+/* TOPSELLER 2 ----------------------------------------------------------------------- */
+
+.topseller2 {
+	/* margin-top: 40px; */
+	background-image: url(../images/fundo_topseller3.jpg);
+	/* background-color: #1b74a0; */
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0px 0px;
+	color: #fff;
+}
+
+.topseller2 .right-image {
+	text-align: center;
+}
+
+.topseller2 .right-image img {
+	width: 70%;
+	overflow: hidden;
+}
+
+/* .topseller2 .topseller2-content {
+	background-image: url(../images/fundo_consultoria2.png);
+} */
+
+.about-info .topseller2-content {
+	background-color: transparent;
+}
+
+.about-info .left-content {
+	padding: 0px!important;
+	margin-left: 30px;
+}
+
+.topseller2 .left-content {
+	padding: 45px 0px 45px 0px;
+}
+
+.topseller2 .left-content span {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.topseller2 .left-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.topseller2 .left-content em {
+	font-style: normal;
+	color: #007bff;
+}
+
+.topseller2 .left-content p {
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: #fff;
+	text-align: justify;
+}
+
+/* TOPSELLER 3 ----------------------------------------------------------------------- */
+
+.topseller3 {
+	/* margin-top: 40px; */
+	background-image: url(../images/fundo_topseller3.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0px 0px;
+	color: #fff;
+}
+
+.topseller3 .left-image {
+	text-align: center;
+}
+
+.topseller3 .left-image img {
+	width: 70%;
+	overflow: hidden;
+}
+
+/* .topseller3 .topseller3-content {
+	background-image: url(../images/fundo_consultoria2.png);
+} */
+
+.about-info .topseller3-content {
+	background-color: transparent;
+}
+
+.about-info .right-content {
+	padding: 0px!important;
+	margin-left: 30px;
+}
+
+.topseller3 .right-content {
+	padding: 45px 0px 45px 0px;
+}
+
+.topseller3 .right-content span {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	display: block;
+}
+
+.topseller3 .right-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.topseller3 .right-content em {
+	font-style: normal;
+	color: #007bff;
+}
+
+.topseller3 .right-content p {
+	font-size: 16px;
+	margin-bottom: 30px;
+	color: #fff;
+	text-align: justify;
+}
+
+
+/* TOPSELLER 4 ----------------------------------------------------------------------- */
+
+.topseller4 {
+	/* margin-top: 40px; */
+	background-image: url(../images/fundo_topseller3.jpg);
+	/* background-color: #1b74a0; */
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0px 0px;
+	color: #fff;
+}
+
+.topseller4 .right-image {
+	text-align: center;
+}
+
+.topseller4 .right-image img {
+	width: 70%;
+	overflow: hidden;
+}
+
+/* .topseller4 .topseller4-content {
+	background-image: url(../images/fundo_consultoria2.png);
+} */
+
+.about-info .topseller4-content {
+	background-color: transparent;
+}
+
+.about-info .left-content {
+	padding: 0px!important;
+	margin-left: 30px;
+}
+
+.topseller4 .left-content {
+	padding: 45px 45px 45px 30px;
+}
+
+.topseller4 .left-content span {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.topseller4 .left-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.topseller4 .left-content em {
+	font-style: normal;
+	color: #007bff;
+}
+
+.topseller4 .left-content p {
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: #fff;
+	text-align: justify;
+}
+
+
+/* TOPSELLER 5 ----------------------------------------------------------------------- */
+
+.topseller5 {
+	/* margin-top: 40px; */
+	background-image: url(../images/fundo_topseller3.jpg);
+	/* background-color: #1b74a0; */
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0px 0px;
+	color: #fff;
+}
+
+.topseller5 .right-image {
+	text-align: center;
+}
+
+.topseller5 .right-image img {
+	width: 70%;
+	overflow: hidden;
+}
+
+/* .topseller5 .topseller5-content {
+	background-image: url(../images/fundo_consultoria2.png);
+} */
+
+.about-info .topseller5-content {
+	background-color: transparent;
+}
+
+.about-info .left-content {
+	padding: 0px!important;
+	margin-left: 30px;
+}
+
+.topseller5 .left-content {
+	padding: 45px 45px 45px 30px;
+}
+
+.topseller5 .left-content span {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.topseller5 .left-content h2 {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.topseller5 .left-content em {
+	font-style: normal;
+	color: #007bff;
+}
+
+.topseller5 .left-content p {
+	font-size: 16px;
+	margin-bottom: 2px;
+	color: #fff;
+	text-align: justify;
+	padding-left: 1.5em;
+	text-indent: -1.5em;
+}
+
+/* TOPSELLER 2-1 ----------------------------------------------------------------------- */
+
+
+.topseller2-1 {
+	/* margin-top: 40px; */
+	background-image: url(../images/fundo_topseller3.jpg);
+	/* background-color: #1b74a0; */
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0px 0px;
+	color: #fff;
+	padding-bottom: 2em;
+}
+
+.topseller2-1 .right-image {
+	text-align: center;
+}
+
+.topseller2-1 .right-image img {
+	width: 70%;
+	overflow: hidden;
+}
+
+/* .topseller2-1 .topseller2-1-content {
+	background-image: url(../images/fundo_consultoria2.png);
+} */
+
+.about-info .topseller2-1-content {
+	background-color: transparent;
+}
+
+.about-info .left-content {
+	padding: 0px!important;
+	margin-left: 30px;
+}
+
+.topseller2-1 .left-content {
+	padding: 45px 0px 45px 0px;
+}
+
+.topseller2-1 .left-content span {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.topseller2-1 .left-content h2, .topseller2-1 .center-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.topseller2-1 .left-content h3, .topseller2-1 .center-content h3  {
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.topseller2-1 .left-content h4, .topseller2-1 .center-content h4  {
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.topseller2-1 .left-content em {
+	font-style: normal;
+	color: #007bff;
+}
+
+.topseller2-1 .left-content p {
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: #fff;
+	text-align: justify;
+}
+
+/* as */
+
+.topseller2-1 .center-content {
+	padding: 45px 0px 0px 0px;
+}
+
+.topseller2-1 .center-content span {
+	text-transform: uppercase;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.topseller2-1 .center-content h2 {
+	font-size: 26px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	text-align: center;
+	color: #fff
+}
+
+.topseller2-1 .center-content em {
+	font-style: normal;
+	color: #007bff;
+}
+
+.topseller2-1 .center-content p {
+	font-size: 16px;
+	margin-bottom: 20px;
+	color: #fff;
+	text-align: justify;
+}
+
 /* Testimonials Style */
 
 .about-testimonials {
@@ -1669,6 +2182,33 @@ footer .contact-form button.filled-button:hover {
 	display: block;
 }
 
+/* HEADER TOPSELLER */
+
+.page-heading-topseller {
+	text-align: center;
+	background-image: url(../images/page-heading-bg.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 160px 0px 60px 0px;
+	color: #fff;
+}
+
+.page-heading-topseller h1 {
+	text-transform: capitalize;
+	font-size: 36px;
+	font-weight: 700;
+	letter-spacing: 2px;
+	margin-bottom: 18px;
+}
+
+.page-heading-topseller span {
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #fff;
+	display: block;
+}
 
 /* team */
 
@@ -1927,5 +2467,10 @@ footer .contact-form button.filled-button:hover {
 	.navbar .navbar-nav .show>.nav-link {
 		color: #007bff!important;
 		border-bottom: none!important;
+	}
+	
+	.navbar .nav-item .sub-item {
+		display:none;
+		position: relative;
 	}
 }
