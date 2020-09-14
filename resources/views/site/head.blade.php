@@ -11,7 +11,7 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="../posicionamento/public/css/fontawesome.css">
-    <link rel="stylesheet" href="../posicionamento/public/css/templatemo-finance-business.css">
+    <link rel="stylesheet" href="../posicionamento/public/css/templatemo-finance-business.css?v={{time()}}">
     <link rel="stylesheet" href="../posicionamento/public/css/owl.css">
 
     <!--

@@ -18,7 +18,7 @@
     <script src="../posicionamento/public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Additional Scripts -->
-    <script src="../posicionamento/public/js/custom.js"></script>
+    <script src="../posicionamento/public/js/custom.js?v={{time()}}"></script>
     <script src="../posicionamento/public/js/owl.js"></script>
     <script src="../posicionamento/public/js/slick.js"></script>
     <script src="../posicionamento/public/js/accordions.js"></script>
