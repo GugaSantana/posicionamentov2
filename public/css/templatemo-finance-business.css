@@ -33,7 +33,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 a.filled-button {
-	background-color: #007bff;
+	background-color: #3030d1;
 	color: #fff;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -46,7 +46,7 @@ a.filled-button {
 
 a.filled-button:hover {
 	background-color: #fff;
-	color: #007bff;
+	color: #3030d1;
 }
 
 a.border-button {
@@ -64,7 +64,7 @@ a.border-button {
 
 a.border-button:hover {
 	background-color: #fff;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .section-heading {
@@ -80,7 +80,7 @@ a.border-button:hover {
 
 .section-heading em {
 	font-style: normal;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .section-heading span {
@@ -94,7 +94,7 @@ a.border-button:hover {
 
 #preloader {
   overflow: hidden;
-  background: #007bff;
+  background: #3030d1;
   left: 0;
   right: 0;
   top: 0;
@@ -174,7 +174,7 @@ a.border-button:hover {
 /* Sub Header Style */
 
 .sub-header {
-	background-color: #007bff;
+	background-color: #3030d1;
 	height: 46px;
 	line-height: 46px;
 }
@@ -255,7 +255,7 @@ header .navbar {
 	box-shadow: 0px 1px 10px rgba(0,0,0,0.1);
 }
 .background-header .navbar-brand h2 {
-	color: #007bff!important;
+	color: #3030d1!important;
 }
 .background-header .navbar-nav a.nav-link {
 	color: #1e1e1e!important;
@@ -265,7 +265,7 @@ header .navbar {
 .background-header .navbar-nav .nav-link.active,
 .background-header .navbar-nav .nav-link.show,
 .background-header .navbar-nav .show>.nav-link {
-	color: #007bff!important;
+	color: #3030d1!important;
 }
 .navbar .navbar-brand {
 	float: 	left;
@@ -309,8 +309,8 @@ header .navbar {
 .navbar .navbar-nav .nav-link.active,
 .navbar .navbar-nav .nav-link.show,
 .navbar .navbar-nav .show>.nav-link {
-	color: #007bff;
-	border-bottom: 3px solid #007bff;
+	color: #3030d1;
+	border-bottom: 3px solid #3030d1;
 }
 .navbar .navbar-toggler-icon {
 	background-image: none;
@@ -327,7 +327,7 @@ header .navbar {
 }
 .navbar .navbar-toggler-icon:after {
 	content: '\f0c9';
-	color: #007bff;
+	color: #3030d1;
 	font-size: 18px;
 	line-height: 26px;
 	font-family: 'FontAwesome';
@@ -422,33 +422,54 @@ header .navbar {
 	background-image: url(../images/farol1_azulado2_extendido.jpg);
 }
 
-.Modern-Slider .item-farol3 .img-fill {
-	background-image: url(../images/farol1_azulado.jpg);
+.Modern-Slider .item-novo1 .img-fill {
+	background-image: url(../images/novofundo1.jpg);
 }
 
+.Modern-Slider .item-novo2 .img-fill {
+	background-image: url(../images/novofundo1-2.jpg);
+}
+
+.Modern-Slider .item-novo3 .img-fill {
+	background-image: url(../images/novofundo1-3.jpg);
+}
+
+.Modern-Slider .item-novo4 .img-fill {
+	background-image: url(../images/novofundo1-4.jpg);
+}
+
+.Modern-Slider .item-novo5 .img-fill {
+	background-image: url(../images/novofundo1-5.jpg);
+}
+
+/* 
+.Modern-Slider .item-farol3 .img-fill {
+	background-image: url(../images/farol1_azulado.jpg);
+} */
+/* 
 .Modern-Slider .item-farol4 .img-fill {
 	background-image: url(../images/farol2_escuro.jpg);
 }
 
 .Modern-Slider .item-farol5 .img-fill {
 	background-image: url(../images/farol2_escuro_invertido.jpg);
-}
+} */
 
-.Modern-Slider .item-farol6 .img-fill {
+/* .Modern-Slider .item-farol6 .img-fill {
 	background-image: url(../images/farol3_escuro.jpg);
 }
 
 .Modern-Slider .item-farol7 .img-fill {
 	background-image: url(../images/farol3_escuro_invertido.jpg);
-}
+} */
 
-.Modern-Slider .item-farol8 .img-fill {
+/* .Modern-Slider .item-farol8 .img-fill {
 	background-image: url(../images/farol4_escuro.jpg);
-}
+} */
 
-.Modern-Slider .item-farol9 .img-fill {
+/* .Modern-Slider .item-farol9 .img-fill {
 	background-image: url(../images/farol4_escuro2.jpg);
-}
+} */
 
 .Modern-Slider .item-farol10 .img-fill {
 	background-image: url(../images/farol5_escuro.jpg);
@@ -515,7 +536,7 @@ ul.slick-dots {
   text-transform: uppercase;
   font-weight: 700;
   letter-spacing: 1px;
-  color:#007bff;
+  color:#3030d1;
   animation:fadeOutRight 1s both;
 }
 
@@ -576,6 +597,12 @@ ul.slick-dots {
 .slick-loading .slick-slide{visibility:hidden}
 .slick-vertical .slick-slide{display:block;height:auto;border:1px solid transparent}
 
+/* Barra Azul Divisão */
+.barra-azul-divisao {
+	background-color: #3030d1;
+	padding: 20px 0px;
+	color: #fff;
+}
 
 /* Barra Dourada */
 .barra-dourada {
@@ -608,7 +635,7 @@ ul.slick-dots {
 /* Request Form */
 
 .request-form {
-	background-color: #007bff;
+	background-color: #3030d1;
 	padding: 40px 0px;
 	color: #fff;
 }
@@ -666,7 +693,7 @@ ul.slick-dots {
 
 .fun-facts {
 	margin-top: 140px;
-	background-image: linear-gradient(0deg, #000, #007bff);
+	background-image: linear-gradient(0deg, #000, #3030d1);
 	/* background-image: url(../images/fun-facts-bg.jpg); */
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -693,7 +720,7 @@ ul.slick-dots {
 
 .fun-facts em {
 	font-style: normal;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .fun-facts p {
@@ -725,7 +752,7 @@ ul.slick-dots {
 
 .count-digit {
     margin: 5px 0px;
-    color: #007bff;
+    color: #3030d1;
     font-weight: 700;
     font-size: 36px;
 }
@@ -755,7 +782,7 @@ ul.slick-dots {
 }
 
 .more-info .more-info-content {
-	background-image: linear-gradient(0deg, #000, #007bff);
+	background-image: linear-gradient(0deg, #000, #3030d1);
 }
 
 .about-info .more-info-content {
@@ -788,7 +815,7 @@ ul.slick-dots {
 
 .more-info .right-content em {
 	font-style: normal;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .more-info .right-content p {
@@ -822,7 +849,7 @@ ul.slick-dots {
 
 .more-info .left-content em {
 	font-style: normal;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .more-info .left-content p {
@@ -833,8 +860,8 @@ ul.slick-dots {
 /* SLIDE 1 ----------------------------------------------------------------------- */
 
 .slide1 {
-	margin-top: 40px;
-	background-image: url(../images/fundo_consultoria2.png);
+	/* margin-top: 40px; */
+	background-image: url(../images/slide2_fundo_bola.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -867,7 +894,7 @@ ul.slick-dots {
 
 .slide1 .left-content span {
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 18px;
 	color: #fff;
 	letter-spacing: 1px;
 	margin-bottom: 10px;
@@ -883,11 +910,11 @@ ul.slick-dots {
 
 .slide1 .left-content em {
 	font-style: normal;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .slide1 .left-content p {
-	font-size: 14px;
+	font-size: 16px;
 	margin-bottom: 30px;
 	color: #fff
 }
@@ -896,8 +923,8 @@ ul.slick-dots {
 
 
 .slide2 {
-	margin-top: 40px;
-	background-image: url(../images/slide2_fundo.png);
+	/* margin-top: 40px; */
+	background-image: url(../images/slide2_fundo_bola.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -923,7 +950,7 @@ ul.slick-dots {
 /* 
 .slide2 .slide2-content {
 	background-image: url(../images/slide2_fundo.png);
-	/* background-image: linear-gradient(0deg, #000, #007bff); */
+	/* background-image: linear-gradient(0deg, #000, #3030d1); */
 /* } */
 
 .slide2 .left-content {
@@ -937,7 +964,7 @@ ul.slick-dots {
 
 .slide2 .right-content span {
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 18px;
 	color: #fff;
 	letter-spacing: 1px;
 	margin-bottom: 10px;
@@ -960,11 +987,11 @@ ul.slick-dots {
 
 .slide2 .left-content em {
 	font-style: normal;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .slide2 .right-content p {
-	font-size: 14px;
+	font-size: 16px;
 	margin-bottom: 30px;
 	color: #fff
 }
@@ -972,8 +999,8 @@ ul.slick-dots {
 /* SLIDE 3 ----------------------------------------------------------------------- */
 
 .slide3 {
-	margin-top: 40px;
-	background-image: url(../images/fundo_consultoria3_2.png);
+	/* margin-top: 40px; */
+	background-image: url(../images/slide2_fundo_bola.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -987,17 +1014,17 @@ ul.slick-dots {
 }
 /* 
 .slide3 .slide3-content {
-	/* background-image: linear-gradient(0deg, #000, #007bff); */
+	/* background-image: linear-gradient(0deg, #000, #3030d1); */
 	/* background-image: url(../images/fundo_consultoria3.png);
 } */ 
 
 .slide3 .slide3-image {
-	background-image: linear-gradient(90deg, #000, #007bff);
+	background-image: linear-gradient(90deg, #000, #3030d1);
 	
 }
 
 .slide3 .slide3-image2 {
-	background-image: linear-gradient(90deg, #007bff, #000);
+	background-image: linear-gradient(90deg, #3030d1, #000);
 }
 
 .slide3 .left-content {
@@ -1026,7 +1053,7 @@ ul.slick-dots {
 
 .slide3 .right-content span {
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 18px;
 	color: #fff;
 	letter-spacing: 1px;
 	margin-bottom: 10px;
@@ -1049,17 +1076,17 @@ ul.slick-dots {
 
 .slide3 .left-content em {
 	font-style: normal;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .slide3 .right-content p {
-	font-size: 14px;
+	font-size: 16px;
 	margin-bottom: 30px;
 	color: #fff
 }
 
 .slide3 .left-content-down p {
-	font-size: 14px;
+	font-size: 16px;
 	margin-bottom: 30px;
 	color: #fff
 }
@@ -1067,9 +1094,9 @@ ul.slick-dots {
 /* SLIDE 4 ----------------------------------------------------------------------- */
 
 .slide4 {
-	margin-top: 40px;
-	/* background-image: url(../images/fundo_consultoria2.png); */
-	background-color: #1b74a0;
+	/* margin-top: 40px; */
+	background-image: url(../images/slide2_fundo_bola.jpg);
+	/* background-color: #1b74a0; */
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1106,7 +1133,7 @@ ul.slick-dots {
 
 .slide4 .left-content span {
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 18px;
 	color: #fff;
 	letter-spacing: 1px;
 	margin-bottom: 10px;
@@ -1122,11 +1149,11 @@ ul.slick-dots {
 
 .slide4 .left-content em {
 	font-style: normal;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .slide4 .left-content p {
-	font-size: 14px;
+	font-size: 16px;
 	margin-bottom: 30px;
 	color: #fff
 }
@@ -1134,8 +1161,8 @@ ul.slick-dots {
 /* SLIDE 5 ----------------------------------------------------------------------- */
 
 .slide5 {
-	margin-top: 40px;
-	background-image: url(../images/fundo_consultoria2.png);
+	/* margin-top: 40px; */
+	background-image: url(../images/slide2_fundo_bola.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1172,7 +1199,7 @@ ul.slick-dots {
 
 .slide5 .right-content span {
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 18px;
 	color: #fff;
 	letter-spacing: 1px;
 	margin-bottom: 10px;
@@ -1188,20 +1215,20 @@ ul.slick-dots {
 
 .slide5 .right-content em {
 	font-style: normal;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .slide5 .right-content p {
-	font-size: 14px;
+	font-size: 16px;
 	margin-bottom: 30px;
 	color: #fff
 }
 /* SLIDE 6 ----------------------------------------------------------------------- */
 
 .slide6 {
-	margin-top: 40px;
-	/* background-image: url(../images/fundo_consultoria2.png); */
-	background-color: #1b74a0;
+	/* margin-top: 40px; */
+	background-image: url(../images/slide2_fundo_bola.jpg);
+	/* background-color: #1b74a0; */
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1238,7 +1265,7 @@ ul.slick-dots {
 
 .slide6 .left-content span {
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 18px;
 	color: #fff;
 	letter-spacing: 1px;
 	margin-bottom: 10px;
@@ -1254,11 +1281,11 @@ ul.slick-dots {
 
 .slide6 .left-content em {
 	font-style: normal;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .slide6 .left-content p {
-	font-size: 14px;
+	font-size: 16px;
 	margin-bottom: 30px;
 	color: #fff
 }
@@ -1266,8 +1293,8 @@ ul.slick-dots {
 /* SLIDE 7 ----------------------------------------------------------------------- */
 
 .slide7 {
-	margin-top: 40px;
-	background-image: url(../images/fundo_consultoria2.png);
+	/* margin-top: 40px; */
+	background-image: url(../images/slide2_fundo_bola.jpg);
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -1304,7 +1331,7 @@ ul.slick-dots {
 
 .slide7 .right-content span {
 	text-transform: uppercase;
-	font-size: 16px;
+	font-size: 18px;
 	color: #fff;
 	letter-spacing: 1px;
 	margin-bottom: 10px;
@@ -1327,11 +1354,11 @@ ul.slick-dots {
 
 .slide7 .right-content em {
 	font-style: normal;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .slide7 .right-content p {
-	font-size: 14px;
+	font-size: 16px;
 	margin-bottom: 30px;
 	color: #fff
 }
@@ -1394,7 +1421,7 @@ ul.slick-dots {
 
 .topseller1 .right-content em {
 	font-style: normal;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .topseller1 .right-content p {
@@ -1462,7 +1489,7 @@ ul.slick-dots {
 
 .topseller2 .left-content em {
 	font-style: normal;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .topseller2 .left-content p {
@@ -1529,7 +1556,7 @@ ul.slick-dots {
 
 .topseller3 .right-content em {
 	font-style: normal;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .topseller3 .right-content p {
@@ -1598,7 +1625,7 @@ ul.slick-dots {
 
 .topseller4 .left-content em {
 	font-style: normal;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .topseller4 .left-content p {
@@ -1667,7 +1694,7 @@ ul.slick-dots {
 
 .topseller5 .left-content em {
 	font-style: normal;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .topseller5 .left-content p {
@@ -1753,7 +1780,7 @@ ul.slick-dots {
 
 .topseller2-1 .left-content em {
 	font-style: normal;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .topseller2-1 .left-content p {
@@ -1788,7 +1815,7 @@ ul.slick-dots {
 
 .topseller2-1 .center-content em {
 	font-style: normal;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .topseller2-1 .center-content p {
@@ -1831,7 +1858,7 @@ ul.slick-dots {
 	margin-top: 8px;
 	font-weight: 600;
 	font-size: 14px;
-	color: #007bff;
+	color: #3030d1;
 }
 .testimonial-item img {
 	max-width: 60px;
@@ -1851,7 +1878,7 @@ ul.slick-dots {
 
 .contact-us {
 	background-color: #f7f7f7;
-	padding: 140px 0px;
+	padding: 50px 0px;
 }
 
 .contact-us .contact-form {
@@ -1864,7 +1891,7 @@ ul.slick-dots {
 }
 
 .callback-form .contact-form {
-	background-color: #007bff;
+	background-color: #3030d1;
 	padding: 60px;
 	border-radius: 5px;
 	text-align: center;
@@ -1940,11 +1967,11 @@ ul.slick-dots {
 
 .callback-form .contact-form button.border-button:hover {
 	background-color: #fff;
-	color: #007bff;
+	color: #3030d1;
 }
 
 .contact-us .contact-form button.filled-button {
-	background-color: #007bff;
+	background-color: #3030d1;
 	color: #fff;
 	border: none;
 	font-size: 13px;
@@ -1962,7 +1989,7 @@ ul.slick-dots {
 
 .contact-us .contact-form button.filled-button:hover {
 	background-color: #fff;
-	color: #007bff;
+	color: #3030d1;
 }
 
 
@@ -2036,7 +2063,7 @@ footer ul.social-icons li a {
 }
 
 footer ul.social-icons li a:hover {
-	background-color: #007bff;
+	background-color: #3030d1;
 }
 
 footer ul.menu-list li {
@@ -2054,7 +2081,7 @@ footer ul.menu-list li a {
 }
 
 footer ul.menu-list li a:hover {
-	color: #007bff;
+	color: #3030d1;
 }
 
 footer .contact-form input {
@@ -2115,7 +2142,7 @@ footer .contact-form ::placeholder {
 footer .contact-form button.filled-button {
 	background-color: transparent;
 	color: #fff;
-	background-color: #007bff;
+	background-color: #3030d1;
 	border: none;
 	font-size: 13px;
 	text-transform: uppercase;
@@ -2132,7 +2159,7 @@ footer .contact-form button.filled-button {
 
 footer .contact-form button.filled-button:hover {
 	background-color: #fff;
-	color: #007bff;
+	color: #3030d1;
 }
 
 
@@ -2237,7 +2264,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .team-item .down-content span {
-	color: #007bff;
+	color: #3030d1;
 	font-weight: 600;
 	font-size: 14px;
 	display: block;
@@ -2268,16 +2295,17 @@ footer .contact-form button.filled-button:hover {
   margin-bottom: 0px;
 }
 #tabs ul li a {
-	text-transform: capitalize;
+	/* text-transform: capitalize; */
 	width: 100%;
 	padding: 20px 20px;
 	display: inline-block;
-	background-color: #007bff;
+	background-color: #3030d1;
   	font-size: 15px;
   	color: #121212;
   	letter-spacing: 0.5px;
   	font-weight: 700;
-  	transition: all 0.3s;
+	  transition: all 0.3s;
+	  height: 5em;
 }
 #tabs ul li a i {
 	float: right;
@@ -2333,7 +2361,7 @@ footer .contact-form button.filled-button:hover {
 }
 
 .contact-information .contact-item i {
-	color: #007bff;
+	color: #3030d1;
 	font-size: 48px;
 	margin-bottom: 40px;
 }
@@ -2351,7 +2379,7 @@ footer .contact-form button.filled-button:hover {
 
 .contact-information .contact-item a {
 	font-weight: 600;
-	color: #007bff;
+	color: #3030d1;
 	font-size: 15px;
 }
 
@@ -2465,7 +2493,7 @@ footer .contact-form button.filled-button:hover {
 	.navbar .navbar-nav .nav-link.active,
 	.navbar .navbar-nav .nav-link.show,
 	.navbar .navbar-nav .show>.nav-link {
-		color: #007bff!important;
+		color: #3030d1!important;
 		border-bottom: none!important;
 	}
 	
