@@ -28,50 +28,8 @@
                 </div>
             </div>
           </div>
-          <!-- Item -->
-          <div class="item item-farol3">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>LANÇAMENTO !!!</h6>
-                  <h4>PROGRAMA TOPSELLER</h4>
-                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
-                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
-                </div>
-            </div>
-          </div>
-          <!-- Item -->
-          <div class="item item-farol4">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>LANÇAMENTO !!!</h6>
-                  <h4>PROGRAMA TOPSELLER</h4>
-                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
-                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
-                </div>
-            </div>
-          </div>
-          <!-- Item -->
-          <div class="item item-farol5">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>LANÇAMENTO !!!</h6>
-                  <h4>PROGRAMA TOPSELLER</h4>
-                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
-                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
-                </div>
-            </div>
-          </div>
-          <!-- Item -->
-          <div class="item item-farol6">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>LANÇAMENTO !!!</h6>
-                  <h4>PROGRAMA TOPSELLER</h4>
-                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
-                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
-                </div>
-            </div>
-          </div>
+          
+         
           <!-- Item -->
           <div class="item item-farol10">
             <div class="img-fill">
@@ -83,17 +41,7 @@
                 </div>
             </div>
           </div>
-          <!-- Item -->
-          <div class="item item-farol7">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>LANÇAMENTO !!!</h6>
-                  <h4>PROGRAMA TOPSELLER</h4>
-                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
-                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
-                </div>
-            </div>
-          </div>
+         
           
            <!-- Item -->
            <div class="item item-farol11">
@@ -106,8 +54,9 @@
                 </div>
             </div>
           </div>
+          
           <!-- Item -->
-          <div class="item item-farol8">
+          <div class="item item-novo1">
             <div class="img-fill">
                 <div class="text-content">
                   <h6>LANÇAMENTO !!!</h6>
@@ -117,8 +66,9 @@
                 </div>
             </div>
           </div>
+
           <!-- Item -->
-          <div class="item item-farol9">
+          <div class="item item-novo2">
             <div class="img-fill">
                 <div class="text-content">
                   <h6>LANÇAMENTO !!!</h6>
@@ -128,6 +78,44 @@
                 </div>
             </div>
           </div>
+
+          <!-- Item -->
+          <div class="item item-novo3">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>LANÇAMENTO !!!</h6>
+                  <h4>PROGRAMA TOPSELLER</h4>
+                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
+                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
+                </div>
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="item item-novo4">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>LANÇAMENTO !!!</h6>
+                  <h4>PROGRAMA TOPSELLER</h4>
+                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
+                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
+                </div>
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="item item-novo5">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>LANÇAMENTO !!!</h6>
+                  <h4>PROGRAMA TOPSELLER</h4>
+                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
+                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
+                </div>
+            </div>
+          </div>
+
+         
            
           <!-- // Item -->
           <!-- Item -->
@@ -186,6 +174,8 @@
       </div>
     </div>
 
+    <div class="barra-azul-divisao"></div>
+
     <!-- Slide 2 -->
     <div class="slide2">
       <div class="container">
@@ -216,6 +206,8 @@
         </div>
       </div>
     </div>
+
+    <div class="barra-azul-divisao" style="background-color:#3071d1"></div>
 
     <!-- Slide 3 -->
     <div class="slide3">

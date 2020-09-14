@@ -43,11 +43,11 @@
                 <div class="col-md-6">
                   <div class="right-content">
                     <p>
-                      O <b>PROGRAMA TOP SELLER</b>  é uma  metodologia para aumentar as vendas, em bases objetivas, quantitativas e mensuráveis
+                      O <b style="color: #ffde66;">PROGRAMA TOP SELLER</b>  é uma  metodologia para aumentar as vendas, em bases objetivas, quantitativas e mensuráveis
                       </p><p>
                       A nova normalidade nos impõe novos hábitos de consumo, o que exigirá vendedores altamente qualificados 
                       </p><p>
-                      O PROGRAMA TOP SELLER foi desenvolvido para ser uma resposta aos novos comportamentos, novas tendências neste novo paradigma de mundo
+                      O <b style="color: #ffde66;">PROGRAMA TOP SELLER</b> foi desenvolvido para ser uma resposta aos novos comportamentos, novas tendências neste novo paradigma de mundo
                       </p><p>
                       Exclusivo no mercado, o  TOP SELLER é uma verdadeira transferência de metodologia, cujo objetivo é desenvolver estruturada e sistematicamente, as competências das vendas consultivas, para um grande universo de profissionais de vendas, através de instrumentos quantitativos e operacionais, integrados numa metodologia de alta diferenciação e baixo custo. 
                     </p>
@@ -138,7 +138,7 @@
                 <div class="col-md-6">
                   <div class="left-content">
                     <p>
-                    No <b>PROGRAMA TOP SELLER</b>  os fundamentos das técnicas da Vendas Consultivas são transferidos através de 20 instrumentos altamente estruturados.
+                    No <b style="color: #ffde66;">PROGRAMA TOP SELLER</b>  os fundamentos das técnicas da Vendas Consultivas são transferidos através de 20 instrumentos altamente estruturados.
                     </p><p>
                     Os 20 instrumentos permitem que cada participante faça seu próprio Diagnóstico das 20 competências-chaves para implementar as Vendas Consultivas.   
                     </p><p>

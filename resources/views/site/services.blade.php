@@ -30,14 +30,14 @@
           <div class="col-md-8">
             <section class='tabs-content'>
               <article id='tabs-1'>
-                <img src="../posicionamento/public/images/servicos1.png" alt="">
+                <img src="../posicionamento/public/images/service_01_01.jpg" alt="">
                 <h4>Diagnóstico Sistêmico da Empresa</h4>
                 <p>Por meio desse programa, diagnosticamos a situação dos cinco  pilares de competitividade da empresa, definido o nível  de fortaleza de cada um deles e também das próprias interfaces entre eles. Contando com a participação intensa dos executivos da  empresa, são aplicados instrumentos especialmente estruturados,  que classificam os pilares, do mais fraco ao mais forte, definindo  as prioridades para uma ação consultiva.</p>
                 <h4>Benefícios do programa</h4>
                 <p>Gera recomendações de ações corretivas para cada pilar de  competitividade, apontando uma direção segura para que a  empresa chegue aos seus objetivos com  mais rapidez e economia.</p>
               </article>
               <article id='tabs-2'>
-                <img src="../posicionamento/public/images/service_03_1.jpg" alt="">
+                <img src="../posicionamento/public/images/organizacao_requerida.jpg" alt="">
                 <h4> Formulação da Organização  Requerida e Modelo de Gestão</h4>
                 <p>Organização requerida é a estrutura organizacional tecnicamente formulada, com  o objetivo de alcançar as metas definidas pela empresa, dentro dos maiores níveis de  competitividade. Por meio deste programa, estabelecemos com precisão os níveis de  autoridade e de responsabilidades de cada cargo-chave. Dessa forma, conseguimos  assegurar que todas as obrigações operacionais serão atendidas, sem  superposição de  obrigações ou lacunas no sistema.
                 <br><br>Para estabelecer o modelo de gestão e definir sua infraestrutura, começamos  alocando os objetivos estratégicos às quatro dimensões do Balanced Scorecard. Depois,  fazemos as complementações e os ajustes necessários. Definimos as obrigações operacionais de cada cargo e formulamos os seus indicadores de desempenho.  Estabelecendo metas para os indicadores de desempenho, criamos as condições técnicas  para um gerenciamento por exceção, que focalize os indicadores que eventualmente  apresentem desvios.</p>
@@ -53,7 +53,7 @@
                 
               </article>
               <article id='tabs-4'>
-                <img src="../posicionamento/public/images/single_service_04.jpg" alt="">
+                <img src="../posicionamento/public/images/service_lideranca.jpg" alt="">
                 <h4>Operacionalização Técnica da Atividade de Liderança</h4>
                 <p>Por meio deste programa, fornecemos às lideranças da empresa os instrumentos,  devidamente operacionalizados e  estruturados, para que fundamentem sua atuação dentro das quatro condições que devem ser atendidas por um líder.  Identificamos o estilo de liderança de cada executivo e determinamos  sua capacidade para desenvolver outros estilos. Identificamos o nível de  maturidade de cada subordinado para executar as tarefas e determinamos  o estilo de liderança que melhor se ajusta. Também desenvolvemos o nível de  maturidade dos subordinados para que possam realizar seu pleno potencial.</p>
                 <h4>Benefícios do programa</h4>
@@ -61,7 +61,7 @@
                 
               </article>
               <article id='tabs-5'>
-                <img src="../posicionamento/public/images/single_service_04.jpg" alt="">
+                <img src="../posicionamento/public/images/service_decisoes.jpg" alt="">
                 <h4>Análise de Problemas e Tomada de Decisões</h4>
                 <p>Gestores são contratados e remunerados para tomar as melhores  decisões. Por meio deste programa, utilizamos uma metodologia  tecnicamente estruturada e fundamentada, que transfere aos participantes as quatro competências para análise de problemas  e tomada de decisões. Os gestores da empresa são capacitados nas  técnicas de:
                 <br>-Análise de situações, para identificar e priorizar as ações gerenciais;

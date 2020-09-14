@@ -29,7 +29,7 @@
               <i class="fa fa-envelope"></i>
               <h4>Email</h4>
               <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate nec cursus augue.</p>
-              <a href="#">info@company.com</a>
+              <a href="#">contato@posicionamento.com.br</a>
             </div>
           </div>
           <div class="col-md-4">
@@ -90,17 +90,17 @@
       </div>
     </div>
 
-    <div id="map">
+    <!-- <div id="map"> -->
 <!-- How to change your own map point
 	1. Go to Google Maps
 	2. Click on your location point
 	3. Click "Share" and choose "Embed map" tab
 	4. Copy only URL and paste it within the src="" field below
 -->
-      <iframe src="https://maps.google.com/maps?q=Av.+Lúcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
-    </div>
+      <!-- <iframe src="https://maps.google.com/maps?q=Av.+Lúcio+Costa,+Rio+de+Janeiro+-+RJ,+Brazil&t=&z=13&ie=UTF8&iwloc=&output=embed" width="100%" height="500px" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div> -->
 
-    <div class="partners contact-partners">
+    <!-- <div class="partners contact-partners">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -112,7 +112,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
 
     <!-- Footer Starts Here -->

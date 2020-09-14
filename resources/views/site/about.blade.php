@@ -13,6 +13,12 @@
       </div>
     </div>
 
+    <div class="request-form">
+      <div class="container">
+        
+      </div>
+    </div>
+
     <!-- Slide 4 -->
     <div class="slide4">
       <div class="container">
@@ -38,6 +44,8 @@
         </div>
       </div>
     </div>
+
+    <div class="barra-azul-divisao"></div>
 
     <!-- Slide 5 -->
     <div class="slide5">
@@ -65,6 +73,8 @@
       </div>
     </div>
 
+    <div class="barra-azul-divisao" style="background-color:#3071d1"></div>
+
     <!-- Slide 6 -->
     <div class="slide6">
       <div class="container">
@@ -91,6 +101,8 @@
         </div>
       </div>
     </div>
+
+    <div class="barra-azul-divisao"></div>
 
     <!-- Slide 7 -->
     <div class="slide7">
@@ -289,7 +301,7 @@
       </div>
     </div> -->
 
-    <br>
+    
 
     <!-- Footer Starts Here -->
     <footer>

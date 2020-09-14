@@ -40,7 +40,7 @@
                 <div class="col-md-12">
                   <div class="center-content">
                     <!-- <h2>ESTRUTURA DA METODOLOGIA</h2><br> -->
-                    <p>A metodologia embarcada no <b>PROGRAMA TOP SELLER</b>  permite aumentar suas Vendas por Objetivos, através da transferência digital e a distância de 20 Instrumentos quantitativos altamente estruturados e objetivos,bem como a implementação de Planos de Ação também estruturados e de simples resolução para aumentar as vendas, com Metas Definidas de Desempenho e Avaliação do Progresso da sua implementação.</p>
+                    <p>A metodologia embarcada no <b style="color: #ffde66;">PROGRAMA TOP SELLER</b>  permite aumentar suas Vendas por Objetivos, através da transferência digital e a distância de 20 Instrumentos quantitativos altamente estruturados e objetivos,bem como a implementação de Planos de Ação também estruturados e de simples resolução para aumentar as vendas, com Metas Definidas de Desempenho e Avaliação do Progresso da sua implementação.</p>
                   </div>
                 </div>
 
@@ -68,12 +68,12 @@
                       Nesta etapa, após otimizadas as pré-condições para aumentar as vendas, serão transferidas para você as Técnicas das Vendas Consultivas através de 11 instrumentos específicos que foram organizados em 6 grupos, para atender as etapas da metodologia das Vendas Consultivas.
                     </p>
                     <p>Os objetivos desses seis grupos e dos Instrumentos que os compõem são os seguintes:</p>
-                    <p><b>1 - O Gerenciamento do Campo Psicológico</b>
+                    <p><b style="color: #ffde66;">1 - O Gerenciamento do Campo Psicológico</b>
                       <br>
                       A premissa fundamental das Vendas Consultivas é estabelecer o melhor relacionamento com o cliente. Nesta fase da metodologia são transferidas quatro técnicas comportamentais poderosas e reconhecidas mundialmente por seu potencial de contribuição.
                     </p>
                     <p>
-                      <b>2 - Aumento da Produtividade da PROSPECÇÃO de Clientes</b>
+                      <b style="color: #ffde66;">2 - Aumento da Produtividade da PROSPECÇÃO de Clientes</b>
                       <br>
                       Sem potenciais clientes interessados nos produtos que você vende, não haverá fechamento de negócios.
                       <br>
@@ -81,22 +81,22 @@
                       <br>
                       Os dois instrumentos desta fase habilitarão você a desenvolver com técnicas apropriadas esta primeira e fundamental atividade para aumentar suas vendas. 
                     </p>
-                    <p><b>3 - Aumento da Produtividade da QUALIFICAÇÃO de clientes</b>
+                    <p><b style="color: #ffde66;">3 - Aumento da Produtividade da QUALIFICAÇÃO de clientes</b>
                     <br>
                     Depois de ter uma lista de possíveis clientes, você deve estabelecer se eles realmente tem potencial para serem atendidos com os produtos que você comercializa e se tem capacidade de compra. A metodologia lhe oferece dois instrumentos para implementar estas duas condições. 
                     </p>
-                    <p><b>4 - Aumento da Produtividade da APRESENTAÇÃO para os clientes</b>
+                    <p><b style="color: #ffde66;">4 - Aumento da Produtividade da APRESENTAÇÃO para os clientes</b>
                     <br>
                     Após termos os clientes potenciais qualificados, o próximo passo é fazer uma apresentação, personalizada e inteligente dos seus produtos para atender os desejos e necessidades de seus clientes potenciais.
 
                     <br>
                     Para esta fase a metodologia disponibiliza um instrumento que ajudará você criar um Banco de Argumentos que inclua muitos argumentos de qualidade, justamente para poder personalizar as apresentações, e orientar o poder decisório do cliente.
                     </p>
-                    <p><b>5 - Aumento da Produtividade da NEGOCIAÇÃO com os clientes </b>
+                    <p><b style="color: #ffde66;">5 - Aumento da Produtividade da NEGOCIAÇÃO com os clientes </b>
                     <br>
                     Negociar requer técnicas. O conceito fundamental da metodologia nesta fase da Venda Consultiva é o de “Campo de Forças”. Nesta fase o instrumento o habilitará para que as Forças Propulsoras da Venda sejam mais fortes do que os Obstáculos a venda.
                     </p>
-                    <p><b>6 - Aumento da Produtividade do FECHAMENTO das Vendas</b>
+                    <p><b style="color: #ffde66;">6 - Aumento da Produtividade do FECHAMENTO das Vendas</b>
                     <br>
                     Uma venda consultiva bem-sucedida faz com que a fase do Fechamento seja fácil, rápida e natural. Nesta fase você já sabe gerenciar o Campo Psicológico e o Campo de Forças, através de instrumentos que foram transferidos acima. O instrumento nesta fase da metodologia permite implementar estes conceitos na fase do fechamento
                     </p>
@@ -140,13 +140,13 @@
                     <br>
                     - Você receberá um relatório para cada um dos 20 instrumentos contendo:
                     <br>
-                    <font style="padding-left: 2em">- <b>Os Conceitos</b> para contextualizar o Instrumento no processo de Vendas Consultivas.</font>
+                    <font style="padding-left: 2em">- <b style="color: #ffde66;">Os Conceitos</b> para contextualizar o Instrumento no processo de Vendas Consultivas.</font>
                     <br>
-                    <font style="padding-left: 2em">- Um <b>Gráfico dos seus Resultados</b> de suas respostas.</font>
+                    <font style="padding-left: 2em">- Um <b style="color: #ffde66;">Gráfico dos seus Resultados</b> de suas respostas.</font>
                     <br>
-                    <font style="padding-left: 2em">- Um <b>Diagnóstico</b> que interpreta o Gráfico de Resultados.</font>
+                    <font style="padding-left: 2em">- Um <b style="color: #ffde66;">Diagnóstico</b> que interpreta o Gráfico de Resultados.</font>
                     <br>
-                    <p style="padding-left: 3em;text-indent: -1em;margin-top: -2%;">- <b>Recomendações específicas</b> e personalizadas que lhe permitirão elaborar um <b>Plano de Ação</b> para desenvolver as competências do tema abordado por cada instrumento.</p>
+                    <p style="padding-left: 3em;text-indent: -1em;margin-top: -2%;">- <b style="color: #ffde66;">Recomendações específicas</b> e personalizadas que lhe permitirão elaborar um <b style="color: #ffde66;">Plano de Ação</b> para desenvolver as competências do tema abordado por cada instrumento.</p>
 
                     </p>
                   </div>
