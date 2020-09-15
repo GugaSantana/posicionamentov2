@@ -3,7 +3,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-6  align-self-center">
-            <img src="../img/LogoAjusteBranco.png" style="width: 70%">
+            <img src="../posicionamento/public/img/LogoAjusteBranco.png" style="width: 70%">
           </div>
 
           <div class="col-md-6">
