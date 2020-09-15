@@ -6,7 +6,7 @@
     <div class="main-banner header-text" id="top">
         <div class="Modern-Slider">
           <!-- Item -->
-          <div class="item item-farol1">
+          <div class="item farol25">
             <div class="img-fill">
                 <div class="text-content">
                   <h6>Foco em resultados</h6>
@@ -17,21 +17,36 @@
             </div>
           </div>
           <!-- // Item -->
+
           <!-- Item -->
-          <div class="item item-farol2">
+          <div class="item farol35">
             <div class="img-fill">
                 <div class="text-content">
-                  <h6>LANÇAMENTO !!!</h6>
-                  <h4>PROGRAMA TOPSELLER</h4>
-                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
-                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
+                  <h6>Foco em resultados</h6>
+                  <h4>Posicionamento<br>Consultores de Empresas</h4>
+                  <p>Décadas de experiência em consultoria de alta diferenciação.</p>
+                  <a href="contact.html" class="filled-button">Contato</a>
                 </div>
             </div>
           </div>
+          <!-- // Item -->
+
+          <!-- Item -->
+          <div class="item farol50">
+            <div class="img-fill">
+                <div class="text-content">
+                  <h6>Foco em resultados</h6>
+                  <h4>Posicionamento<br>Consultores de Empresas</h4>
+                  <p>Décadas de experiência em consultoria de alta diferenciação.</p>
+                  <a href="contact.html" class="filled-button">Contato</a>
+                </div>
+            </div>
+          </div>
+          <!-- // Item -->
           
-         
+
           <!-- Item -->
-          <div class="item item-farol10">
+          <div class="item farol75">
             <div class="img-fill">
                 <div class="text-content">
                   <h6>LANÇAMENTO !!!</h6>
@@ -41,80 +56,8 @@
                 </div>
             </div>
           </div>
-         
+
           
-           <!-- Item -->
-           <div class="item item-farol11">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>LANÇAMENTO !!!</h6>
-                  <h4>PROGRAMA TOPSELLER</h4>
-                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
-                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
-                </div>
-            </div>
-          </div>
-          
-          <!-- Item -->
-          <div class="item item-novo1">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>LANÇAMENTO !!!</h6>
-                  <h4>PROGRAMA TOPSELLER</h4>
-                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
-                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
-                </div>
-            </div>
-          </div>
-
-          <!-- Item -->
-          <div class="item item-novo2">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>LANÇAMENTO !!!</h6>
-                  <h4>PROGRAMA TOPSELLER</h4>
-                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
-                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
-                </div>
-            </div>
-          </div>
-
-          <!-- Item -->
-          <div class="item item-novo3">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>LANÇAMENTO !!!</h6>
-                  <h4>PROGRAMA TOPSELLER</h4>
-                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
-                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
-                </div>
-            </div>
-          </div>
-
-          <!-- Item -->
-          <div class="item item-novo4">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>LANÇAMENTO !!!</h6>
-                  <h4>PROGRAMA TOPSELLER</h4>
-                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
-                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
-                </div>
-            </div>
-          </div>
-
-          <!-- Item -->
-          <div class="item item-novo5">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>LANÇAMENTO !!!</h6>
-                  <h4>PROGRAMA TOPSELLER</h4>
-                  <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
-                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
-                </div>
-            </div>
-          </div>
-
          
            
           <!-- // Item -->
@@ -487,113 +430,23 @@
     <div class="partners">
       <div class="container">
         <div class="row">
-          <div class="col-md-12">
+          <div class="col-md-12 our-customers">
+            Alguns clientes já atendidos
+          </div>
+        </div>
+      
+        <div class="row">
+          <div class="col-md-12  align-self-center">
             <div class="owl-partners owl-carousel">
             
+              @for($i=1; $i<=16; $i++)
               <div class="partner-item">
-                <img src="../posicionamento/public/images/client-01.png" title="1" alt="1">
+                <img src="../posicionamento/public/images/parceiros/customer{{$i}}.jpg" title="Cliente {{$i}}" alt="Cliente {{$i}}">
               </div>
-              
-              <div class="partner-item">
-                <img src="../posicionamento/public/images/client-01.png" title="2" alt="2">
-              </div>
-              
-              <div class="partner-item">
-                <img src="../posicionamento/public/images/client-01.png" title="3" alt="3">
-              </div>
-              
-              <div class="partner-item">
-                <img src="../posicionamento/public/images/client-01.png" title="4" alt="4">
-              </div>
-              
-              <div class="partner-item">
-                <img src="../posicionamento/public/images/client-01.png" title="5" alt="5">
-              </div>
-              
+              @endfor
             </div>
           </div>
         </div>
       </div>
     </div>
-
-
-    <!-- Footer Starts Here -->
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 footer-item">
-            <h4>Finance Business</h4>
-            <p>Vivamus tellus mi. Nulla ne cursus elit,vulputate. Sed ne cursus augue hasellus lacinia sapien vitae.</p>
-            <ul class="social-icons">
-              <li><a rel="nofollow" href="https://fb.com/templatemo" target="_blank"><i class="fa fa-facebook"></i></a></li>
-              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-              <li><a href="#"><i class="fa fa-behance"></i></a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 footer-item">
-            <h4>Useful Links</h4>
-            <ul class="menu-list">
-              <li><a href="#">Vivamus ut tellus mi</a></li>
-              <li><a href="#">Nulla nec cursus elit</a></li>
-              <li><a href="#">Vulputate sed nec</a></li>
-              <li><a href="#">Cursus augue hasellus</a></li>
-              <li><a href="#">Lacinia ac sapien</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 footer-item">
-            <h4>Additional Pages</h4>
-            <ul class="menu-list">
-              <li><a href="#">About Us</a></li>
-              <li><a href="#">How We Work</a></li>
-              <li><a href="#">Quick Support</a></li>
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Privacy Policy</a></li>
-            </ul>
-          </div>
-          <div class="col-md-3 footer-item last-item">
-            <h4>Contact Us</h4>
-            <div class="contact-form">
-              <form id="contact footer-contact" action="" method="post">
-                <div class="row">
-                  <div class="col-lg-12 col-md-12 col-sm-12">
-                    <fieldset>
-                      <input name="name" type="text" class="form-control" id="name" placeholder="Full Name" required="">
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12 col-md-12 col-sm-12">
-                    <fieldset>
-                      <input name="email" type="text" class="form-control" id="email" pattern="[^ @]*@[^ @]*" placeholder="E-Mail Address" required="">
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12">
-                    <fieldset>
-                      <textarea name="message" rows="6" class="form-control" id="message" placeholder="Your Message" required=""></textarea>
-                    </fieldset>
-                  </div>
-                  <div class="col-lg-12">
-                    <fieldset>
-                      <button type="submit" id="form-submit" class="filled-button">Send Message</button>
-                    </fieldset>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-    
-    <div class="sub-footer">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <p>Copyright &copy; 2020 Financial Business Co., Ltd.
-            
-            - Design: <a rel="nofollow noopener" href="https://templatemo.com" target="_blank">TemplateMo</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-
 @endsection

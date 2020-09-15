@@ -11,7 +11,7 @@
 
     @yield('site.content')
 
-    @yield('site.footer')
+    @include('site.footer')
 
     <!-- Bootstrap core JavaScript -->
     <script src="../posicionamento/public/vendor/jquery/jquery.min.js"></script>
