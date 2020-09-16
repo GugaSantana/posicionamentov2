@@ -3,7 +3,7 @@
 @section('site.content')
 
     <!-- Page Content -->
-    <div class="page-heading header-text page-heading-pic2">
+    <div class="page-heading header-text page-heading-2">
       <div class="container">
         <div class="row">
           <div class="col-md-12">

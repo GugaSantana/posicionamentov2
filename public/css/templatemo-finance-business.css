@@ -2270,10 +2270,22 @@ footer .contact-form button.filled-button:hover {
 	  url(../images/farol/farol25.jpg);
 }
 
+.page-heading-1{
+	background-image: url(../images/farol/farolSecundario.jpg);
+}
+
+.page-heading-2{
+	background-image: url(../images/farol/farolSecundario2.jpg);
+}
+
+.page-heading-3{
+	background-image: url(../images/farol/farolSecundario3.jpg);
+}
+
+
 .page-heading {
 	text-align: center;
 	
-	/* background-image: url(); */
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
