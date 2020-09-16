@@ -19,37 +19,10 @@
           <!-- // Item -->
 
           <!-- Item -->
-          <div class="item farol35">
+          <div class="item farol25">
             <div class="img-fill">
                 <div class="text-content">
-                  <h6>Foco em resultados</h6>
-                  <h4>Posicionamento<br>Consultores de Empresas</h4>
-                  <p>Décadas de experiência em consultoria de alta diferenciação.</p>
-                  <a href="contact.html" class="filled-button">Contato</a>
-                </div>
-            </div>
-          </div>
-          <!-- // Item -->
-
-          <!-- Item -->
-          <div class="item farol50">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>Foco em resultados</h6>
-                  <h4>Posicionamento<br>Consultores de Empresas</h4>
-                  <p>Décadas de experiência em consultoria de alta diferenciação.</p>
-                  <a href="contact.html" class="filled-button">Contato</a>
-                </div>
-            </div>
-          </div>
-          <!-- // Item -->
-          
-
-          <!-- Item -->
-          <div class="item farol75">
-            <div class="img-fill">
-                <div class="text-content">
-                  <h6>LANÇAMENTO !!!</h6>
+                  <h6>LANÇAMENTO !</h6>
                   <h4>PROGRAMA TOPSELLER</h4>
                   <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
                   <a href="services.html" class="filled-button">SAIBA MAIS</a>
@@ -158,7 +131,7 @@
         <div class="row">
           <div class="col-md-12">
             <div class="slide3-content">
-              <div class="row">
+              <div class="row" style="margin-bottom: -12px;">
                 <div class="col-md-6 align-self-center" >
                   <div class="left-content">
                     <h2>ABORDAGEM PRAGMÁTICA</h2>
@@ -180,7 +153,7 @@
                 </div>
                 <div class="col-md-6 align-self-center">
                   <div class="right-content-down">
-                    <img src="../posicionamento/public/images/slide2_icon_branco.png" alt="">
+                    <img src="../posicionamento/public/images/logo_slide3.png" alt="">
                   </div>
                 </div>
               </div>
@@ -189,6 +162,43 @@
         </div>
       </div>
     </div>
+
+    <div class="barra-azul-divisao"></div>
+
+    <!-- Slide 8 -->
+    <div class="slide8">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="slide8-content">
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="left-content">
+                    <h2>CONSULTORIA INTERATIVA</h2>
+                    <br>
+                    <br>
+                    <img src="../posicionamento/public/images/slide8.png" alt="">
+
+                  </div>
+                </div>
+                <div class="col-md-6 align-self-center">
+                  <div class="right-content">
+                    <p>Praticamos uma consultoria interativa apoiada na nossa integridade humana e em nossa capacidade técnica</p>
+                    <p>O cliente aporta seu conhecimento sobre a companhia e nós contribuímos com nossa capacidade e experiência na co-formulação e na co-implementação da competitividade sistêmica, desde uma perspectiva independente e altamente profissional </p>
+                    <p>Nossos serviços não substituem as capacidades internas de nossos clientes: as complementam, não pensamos pelo cliente, e sim, com o cliente</p>
+<!--                     
+                    <div class="right-image">
+                      <img src="../posicionamento/public/images/slide2_icon_branco.png" alt="">
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <!-- <div class="fun-facts">
       <div class="container">
@@ -439,7 +449,7 @@
           <div class="col-md-12  align-self-center">
             <div class="owl-partners owl-carousel">
             
-              @for($i=1; $i<=16; $i++)
+              @for($i=1; $i<=18; $i++)
               <div class="partner-item">
                 <img src="../posicionamento/public/images/parceiros/customer{{$i}}.jpg" title="Cliente {{$i}}" alt="Cliente {{$i}}">
               </div>

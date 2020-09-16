@@ -1033,7 +1033,7 @@ ul.slick-dots {
 }
 
 .slide3 .right-content-down img {
-	width: 30%;
+	width: 35%;
 	overflow: hidden;
 }
 
@@ -1073,6 +1073,83 @@ ul.slick-dots {
 }
 
 .slide3 .left-content-down p {
+	font-size: 16px;
+	margin-bottom: 30px;
+	color: #fff
+}
+
+/* SLIDE 8 ----------------------------------------------------------------------- */
+
+
+.slide8 {
+	/* margin-top: 40px; */
+	background-image: url(../images/slide2_fundo_bola.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	padding: 0px 0px;
+	color: #fff;
+}
+
+.slide8 .left-content img {
+	width: 80%;
+	overflow: hidden;
+}
+
+.slide8 .right-content img {
+	width: 30%;
+	overflow: hidden;
+}
+
+.slide8 .right-image {
+	overflow: hidden;
+	text-align: center;
+}
+/* 
+.slide8 .slide8-content {
+	background-image: url(../images/slide8_fundo.png);
+	/* background-image: linear-gradient(0deg, #000, #00008B); */
+/* } */
+
+.slide8 .left-content {
+	padding: 45px 45px 45px 30px;
+	text-align: center;
+}
+
+.slide8 .right-content {
+	padding: 45px 45px 45px 30px;
+}
+
+.slide8 .right-content span {
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #fff;
+	letter-spacing: 1px;
+	margin-bottom: 10px;
+	display: block;
+}
+
+.slide8 .left-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.slide8 .right-content h2 {
+	font-size: 36px;
+	font-weight: 600;
+	margin-bottom: 5px;
+	color: #fff
+}
+
+.slide8 .left-content em {
+	font-style: normal;
+	color: #00008B;
+}
+
+.slide8 .right-content p {
 	font-size: 16px;
 	margin-bottom: 30px;
 	color: #fff
@@ -1990,7 +2067,7 @@ ul.slick-dots {
 .partners {
 	margin-top: 20px;
 	background-color: #fff;
-	padding: 30px 0px;
+	padding: 30px 0px 0px 0px;
 }
 
 .partners .owl-item {
@@ -2009,7 +2086,6 @@ ul.slick-dots {
 	background-color: #00008B;
     text-align: center;
     font-size: 26px;
-    margin-bottom: 30px;
     font-weight: 600;
     color: #fff;
     padding: 10px;
@@ -2180,10 +2256,24 @@ footer .contact-form button.filled-button:hover {
 	color: #fff;
 }
 
+.page-heading-pic1{
+	background:linear-gradient(
+		rgba(84, 84, 84, 0.8),rgba(84,84,84,.8)
+	  ),
+	  url(../images/farol/farol25.jpg);
+}
+
+.page-heading-pic2{
+	background:linear-gradient(
+		rgba(0, 0, 139, 0.6),rgba(0,0,139,.6)
+	  ),
+	  url(../images/farol/farol25.jpg);
+}
 
 .page-heading {
 	text-align: center;
-	background-image: url(../images/page-heading-bg.jpg);
+	
+	/* background-image: url(); */
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -2278,6 +2368,7 @@ footer .contact-form button.filled-button:hover {
 
 .single-services {
 	margin-top: 110px;
+	margin-bottom: 110px;
 }
 
 #tabs ul {

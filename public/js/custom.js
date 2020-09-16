@@ -76,11 +76,11 @@ jQuery( document ).ready(function( $ ) {
                 autoplayTimeout: 2000,
                 responsive: {
                     0: {
-                        items: 1,
+                        items: 3,
                         margin: 0
                     },
                     460: {
-                        items: 1,
+                        items: 3,
                         margin: 0
                     },
                     576: {

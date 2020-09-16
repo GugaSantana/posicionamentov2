@@ -3,7 +3,7 @@
 @section('site.content')
 
     <!-- Page Content -->
-    <div class="page-heading header-text">
+    <div class="page-heading header-text page-heading-pic2">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
@@ -82,7 +82,7 @@
                 
               </article>
               <article id='tabs-6'>
-                <img src="../posicionamento/public/images/servicos2.png" alt="">
+                <img src="../posicionamento/public/images/service_topseller.jpg" alt="">
                 <h4 style="color: #000">Desenvolvimento da Produtividade em Vendas</h4>
                 
                 <p>Por meio do PROGRAMA TOP SELLER, exclusivo e único no  mercado, buscamos aumentar a produtividade das equipes de vendas, utilizando uma metodologia inovadora para desenvolver as Competências necessárias às Vendas Consultivas.</p>
@@ -142,20 +142,5 @@
         </div>
       </div>
     </div> -->
-<br>
-    <div class="partners">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="owl-partners owl-carousel">
-              <div class="partner-item">
-                <img src="../posicionamento/public/images/client-01.png" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
 
 @endsection

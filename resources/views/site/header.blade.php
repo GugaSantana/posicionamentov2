@@ -20,9 +20,9 @@
           </div>
           <div class="col-md-4">
             <ul class="right-icons">
-              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="https://www.facebook.com/posicionamentoconsultores/" target="blank"><i class="fa fa-facebook"></i></a></li>
               <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
-              <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+              <li><a href="https://www.linkedin.com/company/67931187" target="blank"><i class="fa fa-linkedin"></i></a></li>
               <!-- <li><a href="#"><i class="fa fa-behance"></i></a></li> -->
             </ul>
           </div>
