@@ -10,7 +10,7 @@
             <!-- SIGA -->
             <div class="row line">
               <div class="col-md-3 align-self-center">
-                <h2 style="font-size: 20px">Siga-nos</h2>
+                <h2 style="font-size: 18px">Siga-nos</h2>
               </div>  
               <div class="col-md-3">
                 <ul class="social-icons">
@@ -23,14 +23,14 @@
             <!-- FALE CONOSCO -->
             <div class="row line" style="margin-top: 10px;">
               <div class="col-md-12 align-self-center">
-                <h2 style="font-size: 20px">Deixe seu recado: 55 11 5093 1236</h2>
+                <h2 style="font-size: 16px">Deixe seu recado: 55 11 5093 1236</h2>
               </div>
             </div>
 
             <!-- EMAIL -->
             <div class="row" style="margin-top: 10px;">
               <div class="col-md-12 align-self-center">
-                <p style="font-size: 18px">contato@posicionamento.com.br</p>
+                <p style="font-size: 16px">contato@posicionamento.com.br</p>
               </div>
             </div>
 

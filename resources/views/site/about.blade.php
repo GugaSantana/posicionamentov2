@@ -35,7 +35,7 @@
                 </div>
                 <div class="col-md-6 align-self-center">
                   <div class="right-image">
-                    <img src="../posicionamento/public/images/animacao1.png" alt="">
+                    <img src="../posicionamento/public/images/slide_missao.png" alt="">
                   </div>
                 </div>
               </div>
@@ -56,7 +56,7 @@
               <div class="row">
                 <div class="col-md-6 align-self-center">
                   <div class="left-image">
-                    <img src="../posicionamento/public/images/animacao2.png" alt="">
+                    <img src="../posicionamento/public/images/slide_equipe.jpg" alt="">
                   </div>
                 </div>
                 <div class="col-md-6">
@@ -73,7 +73,7 @@
       </div>
     </div>
 
-    <div class="barra-azul-divisao" style="background-color:#3071d1"></div>
+    <div class="barra-azul-divisao"></div>
 
     <!-- Slide 6 -->
     <div class="slide6">

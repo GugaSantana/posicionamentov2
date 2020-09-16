@@ -6,26 +6,26 @@
     <div class="main-banner header-text" id="top">
         <div class="Modern-Slider">
           <!-- Item -->
-          <div class="item farol25">
+          <div class="item">
             <div class="img-fill">
                 <div class="text-content">
                   <h6>Foco em resultados</h6>
                   <h4>Posicionamento<br>Consultores de Empresas</h4>
                   <p>Décadas de experiência em consultoria de alta diferenciação.</p>
-                  <a href="contact.html" class="filled-button">Contato</a>
+                  <a href="/site/contact" class="filled-button">Contato</a>
                 </div>
             </div>
           </div>
           <!-- // Item -->
 
           <!-- Item -->
-          <div class="item farol25">
+          <div class="item">
             <div class="img-fill">
                 <div class="text-content">
                   <h6>LANÇAMENTO !</h6>
                   <h4>PROGRAMA TOPSELLER</h4>
                   <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
-                  <a href="services.html" class="filled-button">SAIBA MAIS</a>
+                  <a href="/site/topseller" class="filled-button">SAIBA MAIS</a>
                 </div>
             </div>
           </div>
@@ -123,7 +123,7 @@
       </div>
     </div>
 
-    <div class="barra-azul-divisao" style="background-color:#3071d1"></div>
+    <div class="barra-azul-divisao"></div>
 
     <!-- Slide 3 -->
     <div class="slide3">
@@ -153,7 +153,7 @@
                 </div>
                 <div class="col-md-6 align-self-center">
                   <div class="right-content-down">
-                    <img src="../posicionamento/public/images/logo_slide3.png" alt="">
+                    <img src="../posicionamento/public/images/logo_slide3_q.png" alt="">
                   </div>
                 </div>
               </div>
@@ -391,13 +391,13 @@
       </div>
     </div> -->
 
-    <div class="callback-form">
+    <!-- <div class="callback-form">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="section-heading">
               <h2>Entre em <em>Contato</em></h2>
-              <!-- <span>Etiam suscipit ante a odio consequat</span> -->
+              <span>Etiam suscipit ante a odio consequat</span>
             </div>
           </div>
           <div class="col-md-12">
@@ -435,7 +435,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="partners">
       <div class="container">

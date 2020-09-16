@@ -567,7 +567,13 @@ ul.slick-dots {
   position: relative;
 }
 
-.Modern-Slider {background:#000;}
+.Modern-Slider {
+	background-image: url(../images/farol/farol25.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height:95vh;
+}
 
 
 /* ==== Slick Slider Css Ruls === */
@@ -586,7 +592,7 @@ ul.slick-dots {
 
 /* Barra Azul Divisão */
 .barra-azul-divisao {
-	background-color: #00008B;
+	background-color: #3071d1;
 	padding: 20px 0px;
 	color: #fff;
 }
@@ -1174,7 +1180,7 @@ ul.slick-dots {
 }
 
 .slide4 .right-image img {
-	width: 70%;
+	width: 100%;
 	overflow: hidden;
 }
 
@@ -1949,10 +1955,10 @@ ul.slick-dots {
 	background-color: transparent!important;
 	padding: 0!important;
 }
-
+/* 
 .callback-form {
 	margin-top: 40px;
-}
+} */
 
 .callback-form .contact-form {
 	background-color: #00008B;
@@ -2065,7 +2071,7 @@ ul.slick-dots {
 }
 
 .partners {
-	margin-top: 20px;
+	/* margin-top: 20px; */
 	background-color: #fff;
 	padding: 30px 0px 0px 0px;
 }
