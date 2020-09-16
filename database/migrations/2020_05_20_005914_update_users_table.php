@@ -16,7 +16,7 @@ class UpdateUsersTable extends Migration
         Schema::table('users', function (Blueprint $table) {
             $table->string('cpf');
             $table->string('nascimento');
-            $table->string('fone');
+            $table->string('fone')->nullable();
             $table->string('cep');
             $table->string('address');
             $table->string('quarter');

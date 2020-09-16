@@ -216,7 +216,7 @@
                     <!-- TELEFONE -->
                     <div class="input-group mb-3 col-md-6">
                         <input type="text" name="fone" class="form-control {{ $errors->has('fone') ? 'is-invalid' : '' }}" value="{{ old('fone') }}"
-                               placeholder="Telefone" id="telefone">
+                               placeholder="Telefone Fixo" id="telefone">
                         <div class="input-group-append">
                             <div class="input-group-text">
                                 <span class="fas fa-phone"></span>

@@ -59,7 +59,7 @@ class RegisterController extends Controller
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
             'cpf' => ['required', 'string', 'min:11', 'max:14'],
             'password' => ['required', 'string', 'min:8', 'confirmed'],
-            'fone' => ['string', 'min:14'],
+            'fone' => ['nullable', 'string', 'min:14'],
             'cellphone' => ['required', 'string', 'min:15'],
             'cep' => ['required', 'string', 'min:9', 'max:9'],
             'address' => ['required', 'string', 'max:255'],
@@ -67,12 +67,12 @@ class RegisterController extends Controller
             'city' => ['required', 'string', 'max:255'],
             'state' => ['required', 'string', 'max:255'],
             'number' => ['required', 'string', 'max:5'],
-            'complemento' => ['string', 'max:255'],
+            'complemento' => ['nullable', 'string', 'max:255'],
             'empresa' => ['required', 'string', 'max:255'],
             'ramo' => ['required', 'string', 'max:255'],
             'atividade' => ['required', 'string', 'max:255'],
             'cargo' => ['required', 'string', 'max:255'],
-            'empresa' => ['string', 'max:255'],
+            'empresa' => ['nullable','string', 'max:255'],
         ]);
     }
 
