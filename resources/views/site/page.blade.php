@@ -23,6 +23,9 @@
     <script src="../posicionamento/public/js/slick.js"></script>
     <script src="../posicionamento/public/js/accordions.js"></script>
 
+    <!-- Sweet alert -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
     <script language = "text/Javascript"> 
       cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field
       function clearField(t){                   //declaring the array outside of the
