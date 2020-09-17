@@ -29,5 +29,22 @@ class SiteController extends Controller
     public function topseller2(){
         return view('site.topseller2')->with('menu_page', 4);
     }
+
+    public function sendMail(Request $request){
+        $name = $request['name'];
+        $email = $request['email'];
+        $subject = 'Fale Conosco Site - '.$request['subject'];
+        $message = $request['message'];
+
+        $body = "Nome: $name\nEmail: $email\n\nMensagem: $message"; 
+        
+        \Mail::raw($body, function($message) use($subject){
+            $message->from('noreply@posicionamento.com.br');
+            $message->to(['posicionamento@uol.com.br'])
+            ->subject($subject);
+        });
+        
+        return 1;
+    }
     
 }

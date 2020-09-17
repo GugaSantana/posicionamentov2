@@ -34,5 +34,7 @@
       }
     </script>
 
+    @yield('site.js')
+
   </body>
 </html>

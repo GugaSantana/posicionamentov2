@@ -61,7 +61,8 @@
           </div>
           <div class="col-md-12">
             <div class="contact-form">
-              <form id="contact" action="" method="get">
+              <form id="form-contact">
+              <!-- {{csrf_field()}} -->
                 <div class="row">
                   <div class="col-lg-4 col-md-12 col-sm-12">
                     <fieldset>
@@ -120,5 +121,39 @@
       </div>
     </div> -->
 
+@endsection
+
+@section('site.js')
+
+<script>
+
+
+$(document).ready(function(){
+  $("#form-contact").on("submit", function(e){
+    e.preventDefault();
+
+    var name = $('input[name=name]').val();
+    var email = $('input[name=email]').val();
+    var subject = $('input[name=subject]').val();
+    var message = $('textarea[name=message]').val();
+    
+    $.ajax({
+      type: 'POST',
+      url: "/site/mail",
+      data: {name: name, email: email, subject: subject, message: message},
+      success: function(e) {
+        swal("Email enviado com sucesso!", "Recebemos seu email e iremos lhe responder em breve.");
+        
+        $('input[name=name]').val("");
+        $('input[name=email]').val("");
+        $('input[name=subject]').val("");
+        $('textarea[name=message]').val("");
+      }
+    })
+
+  })
+})
+
+</script>
 
 @endsection

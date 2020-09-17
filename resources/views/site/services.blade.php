@@ -8,7 +8,7 @@
         <div class="row">
           <div class="col-md-12">
             <h1>Serviços</h1>
-            <span>TEMOS UM PORTIFÓLIO DE PRODUTOS DIFERENCIADOS</span>
+            <span>TEMOS UM PORTFÓLIO DE PRODUTOS DIFERENCIADOS</span>
           </div>
         </div>
       </div>
@@ -55,7 +55,7 @@
                 <img src="../posicionamento/public/images/service_04-04.jpg" alt="">
                 <h4>Desenvolvimento Gerencial</h4>
                 <p>Por meio deste programa fazemos a transferência de conhecimentos e  técnicas de gestão profissional aos participantes,  capacitando-os a operar com  eficiência o modelo de gestão da empresa.  Disponibilizamos um total de 68 instrumentos, que cobrem  as nove áreas  da “profissão” de gestor. Os conhecimentos específicos da atividade gerencial são devidamente codificados e operacionalizados, para  serem  efetivamente aplicados pelos participantes. Enquanto o modelo  de gestão estabelece o que deve ser gerenciado, o nosso programa de  desenvolvimento gerencial capacita os gestores em como gerenciar.</p>
-                <h4>Beneficios do programa</h4>
+                <h4>Benefícios do programa</h4>
                 <p>Gera gestores capacitados para aplicar os conhecimentos e técnicas da  gestão profissional, trazendo ganhos significativos na eficiência e na  competitividade da empresa.</p>
                 
               </article>
