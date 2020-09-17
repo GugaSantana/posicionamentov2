@@ -85,7 +85,7 @@
                 <img src="../posicionamento/public/images/service_topseller.jpg" alt="">
                 <h4 style="color: #000">Desenvolvimento da Produtividade em Vendas</h4>
                 
-                <p>Por meio do PROGRAMA TOP SELLER, exclusivo e único no  mercado, buscamos aumentar a produtividade das equipes de vendas, utilizando uma metodologia inovadora para desenvolver as Competências necessárias às Vendas Consultivas.</p>
+                <p>Por meio do <b style="color: #c2a94d;">PROGRAMA TOP SELLER</b>, exclusivo e único no  mercado, buscamos aumentar a produtividade das equipes de vendas, utilizando uma metodologia inovadora para desenvolver as Competências necessárias às Vendas Consultivas.</p>
                 <br>
                 <a href="/site/topseller" class="filled-button" style="background-color: #c2a94d">SAIBA MAIS</a>
 
