@@ -56,7 +56,7 @@
               <div class="row">
                 <div class="col-md-6 align-self-center">
                   <div class="left-image">
-                    <img src="../posicionamento/public/images/slide_equipe.jpg" alt="">
+                    <img src="../posicionamento/public/images/slide_sobre_equipe.jpg" alt="">
                   </div>
                 </div>
                 <div class="col-md-6">
