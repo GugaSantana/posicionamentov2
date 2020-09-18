@@ -271,6 +271,7 @@ header .navbar {
 	float: 	left;
 	margin-top: -10px;
 	outline: none;
+	width: 30%;
 }
 .navbar .navbar-brand h2 {
 	color: #fff;
@@ -2492,11 +2493,18 @@ footer .contact-form button.filled-button:hover {
 	font-size: 15px;
 }
 
-
+.logo-page{
+	float: left;
+	width: 30%;
+}
 
 
 /* Responsive Style */
 @media (max-width: 768px) {
+	.navbar .navbar-brand {
+		width:70% !important;
+	}
+
 	.sub-header {
 		display: none;
 	}
@@ -2576,7 +2584,7 @@ footer .contact-form button.filled-button:hover {
 		top: 10px;
 	}
 	.navbar .navbar-brand {
-		width: auto;
+		width:40%;
 	}
 	.navbar:after {
 		display: none;
