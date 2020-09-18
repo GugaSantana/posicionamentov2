@@ -87,7 +87,7 @@
                 
                 <p>Por meio do <b style="color: #c2a94d;">PROGRAMA TOP SELLER</b>, exclusivo e único no  mercado, buscamos aumentar a produtividade das equipes de vendas, utilizando uma metodologia inovadora para desenvolver as Competências necessárias às Vendas Consultivas.</p>
                 <br>
-                <a href="/site/topseller" class="filled-button" style="background-color: #c2a94d">SAIBA MAIS</a>
+                <a href="/programatopseller" class="filled-button" style="background-color: #c2a94d">SAIBA MAIS</a>
 
               </article>
 

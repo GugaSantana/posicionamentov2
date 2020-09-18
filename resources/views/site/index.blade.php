@@ -12,7 +12,7 @@
                   <h6>Foco em resultados</h6>
                   <h4>Posicionamento<br>Consultores de Empresas</h4>
                   <p>Décadas de experiência em consultoria de alta diferenciação.</p>
-                  <a href="/site/contact" class="filled-button">Contato</a>
+                  <a href="/contato" class="filled-button">Contato</a>
                 </div>
             </div>
           </div>
@@ -25,7 +25,7 @@
                   <h6>LANÇAMENTO !</h6>
                   <h4>PROGRAMA TOPSELLER</h4>
                   <p>Metodologia para aumentar as vendas em bases objetivas, quantitativas e mensuráveis, em uma plataforma digital</p>
-                  <a href="/site/topseller" class="filled-button">SAIBA MAIS</a>
+                  <a href="/programatopseller" class="filled-button">SAIBA MAIS</a>
                 </div>
             </div>
           </div>

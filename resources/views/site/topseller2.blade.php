@@ -206,7 +206,7 @@
       </div>
     </div>
 
-    <div class="barra-dourada-divisao"><h4><a style="color: white; text-decoration: underline !important;" href="/site/contact">Contate-nos</a>, estamos aguardando por você…</h4></div>
+    <div class="barra-dourada-divisao"><h4><a style="color: white; text-decoration: underline !important;" href="/contato">Contate-nos</a>, estamos aguardando por você…</h4></div>
 
     
 

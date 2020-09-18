@@ -62,7 +62,7 @@
     </div> -->
     <div id="rodape">
         <!-- <a style="float:left; margin-left: 1%; color:white" class="btn btn-primary">Página Anterior</a> -->
-        <a href="slide2" style="float:right; margin-right: 1%; color:white" class="seta-dir"><i></i></a> 
+        <a href="/intro" style="float:right; margin-right: 1%; color:white" class="seta-dir"><i></i></a> 
       </div>
   </body>
 </html>

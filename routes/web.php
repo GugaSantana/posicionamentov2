@@ -13,13 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
 
 
-Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/topseller', 'HomeController@index')->name('home');
+// Route::get('/home', 'HomeController@index')->name('home');
+// Route::get('/topseller', 'HomeController@index')->name('home');
+Route::get('/home', 'HomeController@slide1')->name('home');
 
 
 Auth::routes();
@@ -48,10 +46,11 @@ Route::get('/instrumento18', 'HomeController@instrumento18')->middleware('instru
 Route::get('/instrumento19', 'HomeController@instrumento19')->middleware('instrumento_permission:19');
 Route::get('/instrumento20', 'HomeController@instrumento20')->middleware('instrumento_permission:20');
 
+Route::get('/inicio', 'HomeController@menu');
 
 Route::get('/capa', 'HomeController@capa');
 Route::get('/loginDemo', 'HomeController@loginDemo');
-Route::get('/manualIntro', 'HomeController@manualIntro');
+Route::get('/intro', 'HomeController@manualIntro');
 Route::get('/manual', 'HomeController@manual');
 
 Route::get('/manual1', 'HomeController@manual1');
@@ -67,21 +66,20 @@ Route::get('/planoacao/{instrumento}', 'HomeController@planoacao');
 Route::post('/planoacao/edit', 'HomeController@planoacaoEdit');
 Route::post('/planoacao/finish', 'HomeController@planoacaoFinish');
 
-Route::get('/home', 'HomeController@slide1')->name('home');
 
 
 Route::get('/slide1', 'HomeController@slide1');
-Route::get('/slide2', 'HomeController@slide2');
-Route::get('/slide3', 'HomeController@slide3');
-Route::get('/slide4', 'HomeController@slide4');
-Route::get('/slide6', 'HomeController@slide6');
-Route::get('/slide22', 'HomeController@slide22');
+// Route::get('/slide2', 'HomeController@slide2');
+// Route::get('/slide3', 'HomeController@slide3');
+// Route::get('/slide4', 'HomeController@slide4');
+// Route::get('/slide6', 'HomeController@slide6');
+// Route::get('/slide22', 'HomeController@slide22');
 
 Route::get('/inicioInstrumentos', 'HomeController@inicioInstrumentos');
+
 Route::get('/', 'HomeController@slide1');
 
 Route::get('/teste', 'InstrumentoController@teste1');
-
 
 Route::get('/diagnostico', 'HomeController@diagnostico');
 
@@ -177,15 +175,17 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 		
 	});
 
-	Route::get('site/index', 'SiteController@index');
-	Route::get('site/about', 'SiteController@about');
-	Route::get('site/services', 'SiteController@services');
-	Route::get('site/topseller', 'SiteController@topseller');
-	Route::get('site/topseller2', 'SiteController@topseller2');
+	//SITE
+
+	Route::get('/', 'SiteController@index')->name('site');
+	Route::get('/empresa', 'SiteController@about');
+	Route::get('/servicos', 'SiteController@services');
+	Route::get('/programatopseller', 'SiteController@topseller');
+	Route::get('/programatopseller2', 'SiteController@topseller2');
 	
 	
-	Route::get('site/contact', 'SiteController@contact');
-	Route::post('site/mail', 'SiteController@sendMail');
-	
+	Route::get('/contato', 'SiteController@contact');
+	Route::post('/mail', 'SiteController@sendMail');
+	Route::get('/topseller', 'Auth\LoginController@showLoginForm');
 	
 	

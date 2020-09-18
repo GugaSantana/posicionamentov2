@@ -295,6 +295,8 @@ class HomeController extends Controller
     public function slide6(){return view('slide6');}
     public function slide22(){return view('slide22');}
     
+    public function menu(){return view('menu');}
+
     
 
     public function capa()

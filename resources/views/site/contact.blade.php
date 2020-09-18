@@ -139,7 +139,7 @@ $(document).ready(function(){
     
     $.ajax({
       type: 'POST',
-      url: "/site/mail",
+      url: "/mail",
       data: {name: name, email: email, subject: subject, message: message},
       success: function(e) {
         swal("Email enviado com sucesso!", "Recebemos seu email e iremos lhe responder em breve.");

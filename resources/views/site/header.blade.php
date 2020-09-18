@@ -41,22 +41,22 @@
           <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
               <li class="nav-item @if($menu_page == 1) active @endif">
-                <a class="nav-link" href="/site/index">Home</a>
+                <a class="nav-link" href="/">Home</a>
               </li>
               <li class="nav-item @if($menu_page == 2) active @endif">
-                <a class="nav-link" href="/site/about">A Empresa</a>
+                <a class="nav-link" href="/empresa">A Empresa</a>
               </li>
               <li class="nav-item @if($menu_page == 3) active @endif">
-                <a class="nav-link" href="/site/services">Serviços</a>
+                <a class="nav-link" href="/servicos">Serviços</a>
               </li>
               <li class="nav-item @if($menu_page == 4) active @endif">
               <a class="nav-link" href="#">Programa Top Seller</a>
                 <ul class="sub-item">
                   <li>
-                    <a class="nav-link" href="/site/topseller">Apresentação do Programa</a>
+                    <a class="nav-link" href="/programatopseller">Apresentação do Programa</a>
                   </li>
                   <li>
-                    <a class="nav-link" href="/site/topseller2">Estrutura e Implantação</a>
+                    <a class="nav-link" href="/programatopseller2">Estrutura e Implantação</a>
                   </li>
                   <li>
                     <a class="nav-link" href="/login">Login</a>
@@ -64,7 +64,7 @@
                 </ul>
               </li>
               <li class="nav-item @if($menu_page == 5) active @endif">
-                <a class="nav-link" href="/site/contact">Contato</a>
+                <a class="nav-link" href="/contato">Contato</a>
               </li>
             </ul>
           </div>
