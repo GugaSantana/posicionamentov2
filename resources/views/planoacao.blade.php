@@ -13,6 +13,9 @@
   <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/lang/summernote-pt-BR.min.js"></script>
 
+  <!-- Sweet alert -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
   <script>
     $(document).ready(function() {
       $('#oque').summernote({
@@ -28,6 +31,51 @@
         lang: 'pt-BR',
       });
     });
+
+    function saveOque(){
+      var instrumento = $('input[name=instrumento]').val();
+      var oque = $('textarea[name=oque]').val();
+      
+      $.ajax({
+        type: 'POST',
+        url: "/planoacao/saveOque",
+        data: {instrumento: instrumento, oque: oque},
+        success: function(e) {
+          swal("Plano de ação salvo com sucesso!");
+        }
+      })
+    }
+
+    function saveComo(){
+      var instrumento = $('input[name=instrumento]').val();
+      var como = $('textarea[name=como]').val();
+      
+      $.ajax({
+        type: 'POST',
+        url: "/planoacao/saveComo",
+        data: {instrumento: instrumento, como: como},
+        success: function(e) {
+          swal("Plano de ação salvo com sucesso!");
+        }
+      })
+    }
+
+    function saveQuando(){
+      var instrumento = $('input[name=instrumento]').val();
+      var quando = $('textarea[name=quando]').val();
+      
+      $.ajax({
+        type: 'POST',
+        url: "/planoacao/saveQuando",
+        data: {instrumento: instrumento, quando: quando},
+        success: function(e) {
+          swal("Plano de ação salvo com sucesso!");
+        }
+      })
+    }
+
+    
+
   </script>
 
   <meta charset="utf-8">
@@ -104,6 +152,10 @@
                       @if(!empty($autogestao)){{$autogestao->oque}}@endif
                     </textarea>
 
+                    <center><a href="/instrumento{{$instrumento[0]}}" target="_blank" class="fonte18"><span class="fa fa-arrow-circle-right" style="color:red; font-size: 22px"></span> Abrir diagnóstico em uma nova aba</a></center>
+
+                    <button type="button" onclick="saveOque()" class="btn btn-success" value="Salvar" style="float: right; margin-bottom: 4%;"/> <i class="fa fa-floppy-o" aria-hidden="true"></i> Salvar</button>
+
                   </td>
 
                 <tr>
@@ -116,6 +168,11 @@
                     <textarea id="como" name="como">
                       @if(!empty($autogestao)){{$autogestao->como}}@endif
                     </textarea>
+
+                    <center><a href="/instrumento{{$instrumento[0]}}" target="_blank" class="fonte18"><span class="fa fa-arrow-circle-right" style="color:red; font-size: 22px"></span> Abrir diagnóstico em uma nova aba</a></center>
+
+                    <button type="button" onclick="saveComo()" class="btn btn-success" value="Salvar" style="float: right; margin-bottom: 4%;"/> <i class="fa fa-floppy-o" aria-hidden="true"></i> Salvar</button>
+
                   </td>
                 </tr>
                 <tr>
@@ -129,6 +186,11 @@
                     <textarea id="quando" name="quando">
                       @if(!empty($autogestao)){{$autogestao->quando}}@endif
                     </textarea>
+
+                    <center><a href="/instrumento{{$instrumento[0]}}" target="_blank" class="fonte18"><span class="fa fa-arrow-circle-right" style="color:red; font-size: 22px"></span> Abrir diagnóstico em uma nova aba</a></center>
+
+                    <button type="button" onclick="saveQuando()" class="btn btn-success" value="Salvar" style="float: right; margin-bottom: 4%;"/> <i class="fa fa-floppy-o" aria-hidden="true"></i> Salvar</button>
+
                   </td>
 
                 </tr>

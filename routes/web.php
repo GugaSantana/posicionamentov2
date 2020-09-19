@@ -64,6 +64,11 @@ Route::get('/autogestao/confirm/{instrumento}/{etapa}', 'HomeController@confirmE
 
 Route::get('/planoacao/{instrumento}', 'HomeController@planoacao');
 Route::post('/planoacao/edit', 'HomeController@planoacaoEdit');
+
+Route::post('/planoacao/saveOque', 'HomeController@savePlanoAcaoOque');
+Route::post('/planoacao/saveComo', 'HomeController@savePlanoAcaoComo');
+Route::post('/planoacao/saveQuando', 'HomeController@savePlanoAcaoQuando');
+
 Route::post('/planoacao/finish', 'HomeController@planoacaoFinish');
 
 

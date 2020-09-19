@@ -407,6 +407,74 @@ class HomeController extends Controller
         return redirect()->route('autogestao');
     }
 
+    public function savePlanoAcaoOque(Request $request){
+        $autogestao = AutoGestao::where('user_id', Auth::user()->id)
+            ->where('instrumento', $request['instrumento'])            
+            ->first();
+        if(empty($autogestao)){
+            $newAutoGestao = new AutoGestao();
+            $newAutoGestao->user_id = Auth::user()->id;
+            $newAutoGestao->instrumento = $request['instrumento'];
+            $newAutoGestao->oque = $request['oque'];
+            $newAutoGestao->como = '';
+            $newAutoGestao->quando = '';
+            
+            $newAutoGestao->save();
+        }
+        else{
+            $autogestao->oque = $request['oque'];
+            $autogestao->save();
+        }
+
+        return 1;
+    }
+
+    public function savePlanoAcaoComo(Request $request){
+        $autogestao = AutoGestao::where('user_id', Auth::user()->id)
+            ->where('instrumento', $request['instrumento'])            
+            ->first();
+        if(empty($autogestao)){
+            $newAutoGestao = new AutoGestao();
+            $newAutoGestao->user_id = Auth::user()->id;
+            $newAutoGestao->instrumento = $request['instrumento'];
+            $newAutoGestao->oque ='';
+            $newAutoGestao->como =  $request['como'];
+            $newAutoGestao->quando = '';
+            
+            $newAutoGestao->save();
+        }
+        else{
+            $autogestao->como = $request['como'];
+            $autogestao->save();
+        }
+
+        return 1;
+    }
+
+    public function savePlanoAcaoQuando(Request $request){
+        $autogestao = AutoGestao::where('user_id', Auth::user()->id)
+            ->where('instrumento', $request['instrumento'])            
+            ->first();
+        if(empty($autogestao)){
+            $newAutoGestao = new AutoGestao();
+            $newAutoGestao->user_id = Auth::user()->id;
+            $newAutoGestao->instrumento = $request['instrumento'];
+            $newAutoGestao->oque ='';
+            $newAutoGestao->como = '';
+            $newAutoGestao->quando = $request['quando'];
+            
+            $newAutoGestao->save();
+        }
+        else{
+            $autogestao->quando = $request['quando'];
+            $autogestao->save();
+        }
+
+        return 1;
+    }
+
+
+
     public function confirmEtapa($instrumento, $etapa){
         $autogestao = AutoGestao::where('user_id', Auth::user()->id)
             ->where('instrumento', $instrumento)            
