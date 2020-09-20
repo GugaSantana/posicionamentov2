@@ -193,4 +193,6 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 	Route::post('/mail', 'SiteController@sendMail');
 	Route::get('/topseller', 'Auth\LoginController@showLoginForm');
 	
+	Route::get('/site/login', 'SiteController@login');
+	
 	

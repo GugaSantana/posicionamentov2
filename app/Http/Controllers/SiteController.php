@@ -30,6 +30,10 @@ class SiteController extends Controller
         return view('site.topseller2')->with('menu_page', 4);
     }
 
+    public function login(){
+        return view('site.login')->with('menu_page', 4);
+    }
+
     public function sendMail(Request $request){
         $name = $request['name'];
         $email = $request['email'];
