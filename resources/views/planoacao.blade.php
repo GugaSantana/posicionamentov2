@@ -331,6 +331,19 @@ td.resize-col {
               </div>
             </div>
 
+            <br>
+
+            <input name="instrumento" value="{{$instrumento[0]}}" hidden>
+            <input name="acao" id="acao" hidden>
+            <center>
+              @if(!empty($autogestao) && $autogestao->a == true)
+              <a href="/autogestao" class="btn btn-primary" style="font-size: 18px"> Voltar </a>
+              @else
+              <button type="submit" class="btn btn-primary" onclick="document.getElementById('acao').value = 'edit'" style="font-size: 18px"> Plano de Ação em aberto </button>
+              <button type="submit" class="btn btn-primary" onclick="document.getElementById('acao').value = 'finish'" style="font-size: 18px"> Plano de Ação concluído </button>
+              @endif
+            </center>
+
           @endif
           </form>
           <br>
