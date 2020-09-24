@@ -13,6 +13,18 @@
   <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/lang/summernote-pt-BR.min.js"></script>
 
+  <!-- Print summernote -->
+  <script src="../posicionamento/public/js/summernote-ext-print.js"></script>
+
+  <!-- Table summernote -->
+  <link href="../posicionamento/public/summernote/plugin/table/summernote-ext-table.css" rel="stylesheet" type="text/css">
+  <!-- javascript -->
+  <script src="../posicionamento/public/summernote/plugin/table/summernote-ext-table.js"></script>
+
+  <!-- Paper Summernote -->
+  <script src="../posicionamento/public/summernote/paper-size/summernote-print-size.js"></script>
+  <script src="../posicionamento/public/summernote/paper-size/lang/en-US.js"></script>
+
   <!-- Sweet alert -->
   <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 
@@ -21,16 +33,74 @@
       $('#oque').summernote({
         @if(!empty($autogestao) && empty($autogestao->oque)) height: 200, @endif
         lang: 'pt-BR',
+        height: 400,
+
+        toolbar: [
+          // ['paperSize',['paperSize']],
+          ['style', ['style']],
+          ['font', ['bold', 'italic', 'underline', 'strikethrough', 'superscript', 'subscript', 'clear']],
+          ['fontname', ['fontname', 'fontsize', 'color']],
+          ['para', ['ul', 'ol', 'paragraph']],
+          ['table', ['table']],
+          ['insert', ['link', 'picture', 'video']],
+          ['view', ['fullscreen', 'codeview', 'help']],
+          ['misc', ['print']]
+        ],
+        // popover: {
+        //     table: [
+        //         ['merge', ['jMerge']],
+        //         ['style', ['jBackcolor', 'jBorderColor', 'jAlign', 'jAddDeleteRowCol']],
+        //         ['info', ['jTableInfo']],
+        //         ['delete', ['jWidthHeightReset', 'deleteTable']],
+        //     ]
+        // },
+        // jTable : {
+        //     /**
+        //      * drag || dialog
+        //      */
+        //     mergeMode: 'dialog'
+        // }
+        
+        @if($instrumento[0] == 19)
+        toolbar: [
+                ['misc', ['print']],
+            ],
+        @endif
+        
       });
       $('#como').summernote({
         @if(!empty($autogestao) && empty($autogestao->como)) height: 200, @endif
         lang: 'pt-BR',
+        height: 400,
+        toolbar: [
+          ['style', ['style']],
+          ['font', ['bold', 'italic', 'underline', 'strikethrough', 'superscript', 'subscript', 'clear']],
+          ['fontname', ['fontname', 'fontsize', 'color']],
+          ['para', ['ul', 'ol', 'paragraph']],
+          ['table', ['table']],
+          ['insert', ['link', 'picture', 'video']],
+          ['view', ['fullscreen', 'codeview', 'help']],
+          ['misc', ['print']]
+        ],
+
       });
       $('#quando').summernote({
         @if(!empty($autogestao) && empty($autogestao->quando)) height: 200, @endif
         lang: 'pt-BR',
+        height: 400,
+        toolbar: [
+          ['style', ['style']],
+          ['font', ['bold', 'italic', 'underline', 'strikethrough', 'superscript', 'subscript', 'clear']],
+          ['fontname', ['fontname', 'fontsize', 'color']],
+          ['para', ['ul', 'ol', 'paragraph']],
+          ['table', ['table']],
+          ['insert', ['link', 'picture', 'video']],
+          ['view', ['fullscreen', 'codeview', 'help']],
+          ['misc', ['print']]
+        ],
       });
     });
+
 
     function saveOque(){
       var instrumento = $('input[name=instrumento]').val();
@@ -100,12 +170,30 @@
     }
 
     p {
-      margin: 0 10px 10px;
+      margin: 0px !important;
     }
 
-    td {
-      padding: 10px;
+    table {
+table-layout: fixed;
+}
+
+td.resize-col {
+    padding: 0;
+    vertical-align: middle;
+    cursor: col-resize;
+    user-select: none;
+    background-color: #f5f5f5;
+    color: #a9a9a9;
+  }
+  .resize-width {
+    display: flex;
+    vertical-align: middle;
+    height: 100%;
+  }
+    .resize-width i{
+      transform: rotate(90deg);
     }
+    
   </style>
 </head>
 
@@ -129,75 +217,81 @@
           <h3 style="color: #35408f; text-align: center">{{$instrumento[2]}}</h3>
           <br>
 
-
+        <div>
+     
           <form name="formulario" role="form" method="post" action="edit">
             {!! csrf_field() !!}
-            <table class="table table-bordered">
-              <tbody>
-                <tr>
-                  <td style="text-align: center;vertical-align: middle;">
-                    <p>PLANO DE AÇÃO PARA IMPLANTAR AS RECOMENDAÇÕES</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td class="bg-primary" style="text-align: center;vertical-align: middle;max-width: 9em;">
-                    <p>ETAPAS (O QUE FAZER)</p>
-                  </td>
 
-                </tr>
-                <tr>
-                  <td>
-
-                    <textarea id="oque" name="oque">
-                      @if(!empty($autogestao)){{$autogestao->oque}}@endif
-                    </textarea>
-
-                    <center><a href="/instrumento{{$instrumento[0]}}" target="_blank" class="fonte18"><span class="fa fa-arrow-circle-right" style="color:red; font-size: 22px"></span> Abrir diagnóstico em uma nova aba</a></center>
-
-                    <button type="button" onclick="saveOque()" class="btn btn-success" value="Salvar" style="float: right; margin-bottom: 4%;"/> <i class="fa fa-floppy-o" aria-hidden="true"></i> Salvar</button>
-
-                  </td>
-
-                <tr>
-                  <td class="bg-primary" style="text-align: center;vertical-align: middle;max-width: 9em;">
-                    <p>COMO FAZER</p>
-                  </td>
-                </tr>
-                <tr>
-                  <td>
-                    <textarea id="como" name="como">
-                      @if(!empty($autogestao)){{$autogestao->como}}@endif
-                    </textarea>
-
-                    <center><a href="/instrumento{{$instrumento[0]}}" target="_blank" class="fonte18"><span class="fa fa-arrow-circle-right" style="color:red; font-size: 22px"></span> Abrir diagnóstico em uma nova aba</a></center>
-
-                    <button type="button" onclick="saveComo()" class="btn btn-success" value="Salvar" style="float: right; margin-bottom: 4%;"/> <i class="fa fa-floppy-o" aria-hidden="true"></i> Salvar</button>
-
-                  </td>
-                </tr>
-                <tr>
-                  <td class="bg-primary" style="text-align: center;vertical-align: middle;max-width: 9em;">
-                    <p>QUANDO DEVO CONCLUIR AS RECOMENDAÇÕES</p>
-                  </td>
-                </tr>
-
-                <tr>
-                  <td>
-                    <textarea id="quando" name="quando">
-                      @if(!empty($autogestao)){{$autogestao->quando}}@endif
-                    </textarea>
-
-                    <center><a href="/instrumento{{$instrumento[0]}}" target="_blank" class="fonte18"><span class="fa fa-arrow-circle-right" style="color:red; font-size: 22px"></span> Abrir diagnóstico em uma nova aba</a></center>
-
-                    <button type="button" onclick="saveQuando()" class="btn btn-success" value="Salvar" style="float: right; margin-bottom: 4%;"/> <i class="fa fa-floppy-o" aria-hidden="true"></i> Salvar</button>
-
-                  </td>
-
-                </tr>
-              </tbody>
-            </table>
+          @if($instrumento[0] != 19)
+            <div class="row">
+              <div class="title" style="text-align: center"><p>PLANO DE AÇÃO PARA IMPLANTAR AS RECOMENDAÇÕES</p></div>
+            </div>
+            
+            <br>
+            <!-- 1 -->
+            <div class="row">
+              <div class="bg-primary" style="text-align: center;vertical-align: middle; padding: 10px;">
+                <p>ETAPAS (O QUE FAZER)</p>
+              </div>
+            </div>
+            <div class="row">
+              <textarea id="oque" name="oque">
+                @if(!empty($autogestao)){{$autogestao->oque}}@endif
+              </textarea>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <a href="/instrumento{{$instrumento[0]}}" target="_blank" class="fonte18"><span class="fa fa-arrow-circle-right" style="color:red; font-size: 22px"></span> Abrir diagnóstico em uma nova aba</a>
+              </div>
+              <div class="col-md-6">
+                <button type="button" onclick="saveOque()" class="btn btn-success" value="Salvar" style="float: right; margin-bottom: 4%;"/> <i class="fa fa-floppy-o" aria-hidden="true"></i> Salvar</button>
+              </div>
+            </div>
 
             <br>
+            <!-- 2 -->
+            <div class="row">
+              <div class="bg-primary" style="text-align: center;vertical-align: middle; padding: 10px;">
+                <p>COMO FAZER</p>
+              </div>
+            </div>
+            <div class="row">
+              <textarea id="como" name="como">
+                @if(!empty($autogestao)){{$autogestao->como}}@endif
+              </textarea>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <a href="/instrumento{{$instrumento[0]}}" target="_blank" class="fonte18"><span class="fa fa-arrow-circle-right" style="color:red; font-size: 22px"></span> Abrir diagnóstico em uma nova aba</a>
+              </div>
+              <div class="col-md-6">
+                <button type="button" onclick="saveComo()" class="btn btn-success" value="Salvar" style="float: right; margin-bottom: 4%;"/> <i class="fa fa-floppy-o" aria-hidden="true"></i> Salvar</button>
+              </div>
+            </div>
+
+            <br>
+            <!-- 3 -->
+            <div class="row">
+              <div class="bg-primary" style="text-align: center;vertical-align: middle; padding: 10px;">
+                <p>QUANDO DEVO CONCLUIR AS RECOMENDAÇÕES</p>
+              </div>
+            </div>
+            <div class="row">
+              <textarea id="quando" name="quando">
+                @if(!empty($autogestao)){{$autogestao->quando}}@endif
+              </textarea>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <a href="/instrumento{{$instrumento[0]}}" target="_blank" class="fonte18"><span class="fa fa-arrow-circle-right" style="color:red; font-size: 22px"></span> Abrir diagnóstico em uma nova aba</a>
+              </div>
+              <div class="col-md-6">
+                <button type="button" onclick="saveQuando()" class="btn btn-success" value="Salvar" style="float: right; margin-bottom: 4%;"/> <i class="fa fa-floppy-o" aria-hidden="true"></i> Salvar</button>
+              </div>
+            </div>
+
+            <br>
+
             <input name="instrumento" value="{{$instrumento[0]}}" hidden>
             <input name="acao" id="acao" hidden>
             <center>
@@ -208,6 +302,36 @@
               <button type="submit" class="btn btn-primary" onclick="document.getElementById('acao').value = 'finish'" style="font-size: 18px"> Plano de Ação concluído </button>
               @endif
             </center>
+          
+          @else
+            <input name="instrumento" value="{{$instrumento[0]}}" hidden>
+
+            <div class="row">
+              <div class="title" style="text-align: center"><p>PLANO DE AÇÃO PARA IMPLANTAR AS RECOMENDAÇÕES</p></div>
+            </div>
+            
+            <br>
+            <!-- 1 -->
+            <div class="row">
+              <div class="bg-primary" style="text-align: center;vertical-align: middle; padding: 10px;">
+                <!-- <p>ETAPAS (O QUE FAZER)</p> -->
+              </div>
+            </div>
+            <div class="row">
+              <textarea id="oque" name="oque">
+                @if(!empty($autogestao)){{$autogestao->oque}}@endif
+              </textarea>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <a href="/instrumento{{$instrumento[0]}}" target="_blank" class="fonte18"><span class="fa fa-arrow-circle-right" style="color:red; font-size: 22px"></span> Abrir diagnóstico em uma nova aba</a>
+              </div>
+              <div class="col-md-6">
+                <button type="button" onclick="saveOque()" class="btn btn-success" value="Salvar" style="float: right; margin-bottom: 4%;"/> <i class="fa fa-floppy-o" aria-hidden="true"></i> Salvar</button>
+              </div>
+            </div>
+
+          @endif
           </form>
           <br>
     </div>

@@ -93,7 +93,7 @@
                     <p class="fonte18">Vamos tratar de seus resultados e das recomendações específicas para você utilizar um importante e valioso instrumento que lhe permitirá aumentar significativamente a produtividade do seu trabalho e alcançar as metas de vendas com maior facilidade.</p>
                     <p class="fonte18">Estamos chegando aos últimos instrumentos da metodologia, que são os integradores de toda a lógica apresentada nos primeiros 18 instrumentos.</p>
                     <p class="fonte18">No instrumento anterior foi operacionalizado o FUNIL DE VENDAS.</p>
-                    <p class="fonte18">Neste instrumento é desenvolvida a metodologia para desenvolver os Planos de Ação que permitam alcançar os objetivos que você se propõe alcançar.</p>
+                    <p class="fonte18">Neste instrumento é apresentada a metodologia para desenvolver os Planos de Ação que permitam alcançar os objetivos que você se propõe alcançar.</p>
                     <p class="fonte18">O processo de administração profissional consiste basicamente em Tomar Decisões e Implementar essas decisões tomadas. Este instrumento serve para implementar as decisões que você tomou para alcançar suas metas.</p>
 
                     <center><img src="../posicionamento/public/img/instrumento19/diag_19_1.jpg" style="width: 50%;"></center><br>
@@ -261,7 +261,7 @@
                     <p class="fonte18">Procure medir seu progresso no domínio deste instrumento, até alcançar o ponto 10 da escala, para cada atividade, que é a posição ideal.</p>
                     <p class="fonte18">Parta dos resultados que você obteve em seu Diagnóstico.</p>
                     <p class="fonte18">Este instrumento é um valioso suporte para os outros instrumentos desta metodologia, e ele forma parte das recomendações para implementar vários instrumentos já apresentados.</p>
-                    <p class="fonte18">Utilize o formulário baixo: Plano de Ação 5W + 2H, cada vez que você tiver que elaborar um de plano de ação</p>
+                    <p class="fonte18">Utilize o formulário abaixo: Plano de Ação 5W + 2H, cada vez que você tiver que elaborar um de plano de ação</p>
                     
                     <br>
                     

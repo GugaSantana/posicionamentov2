@@ -67,17 +67,21 @@
         <tr>
           <td style="padding: 20px">
             <h3 style="color: #35408f; text-align: center;">COMO FUNCIONA A PLANILHA DE AUTOGESTÃO</h3><br>
-            <p>1 – Para cada instrumento concluído, no final de cada Relatório de Diagnóstico e Recomendações recebido, você terá uma indicação como a seguinte para ir a Planilha de Autogestão</p>
+            <p>1 – Para cada instrumento concluído, no final de cada Relatório de Diagnóstico e Recomendações recebido, você terá uma indicação como à seguinte para ir a Planilha de Autogestão</p>
             <center>
               <p><span class="oi oi-arrow-circle-right" style="color:red; font-size: 22px"></span> Ir para Planilha de Autogestão</p>
             </center>
-            <p>2 – Na Planilha de Autogestão estará habitado o campo referente ao exercício que você concluiu.</p>
-            <p>3 – Ao dar OK na primeira coluna (Etapa A – Analisei e estudei o Diagnóstico e as Recomendações deste instrumento), você acessará o Formulário correspondente ao Plano de Ação do instrumento que você concluiu. Quando preencher o formulário clique no campo: ir para a Planilha de Autogestão.</p>
+            <p>2 – Na Planilha de Autogestão estará habilitado o campo referente ao exercício que você concluiu.</p>
+            <p>3 – Ao dar <font style="color: #35408f; text-decoration: underline">SIM</font> na primeira coluna (Etapa A – Analisei e estudei o Diagnóstico e as Recomendações deste instrumento), você acessará o Formulário correspondente ao Plano de Ação do instrumento que você concluiu. No Formulário você fará os seus apontamentos (o que fazer, como fazer e quando fazer) para implantar as Recomendações.</p>
+            <p>Se você precisar durante seu trabalho no Formulário retornar ao Diagnóstico, clique antes em <font style="color: #35408f;">SALVAR</font> a fim de não perder o que você já produziu.</p>
+            <p>Para fechar seu Plano de Ação, no final do Formulário você tem as opções: Plano de Ação em aberto e Plano de Ação concluído. Clique na opção desejada e retorne a Planilha de Autogestão.</p>
             <center>
-              <p><span class="oi oi-arrow-circle-right" style="color:red; font-size: 22px"></span> Ir para Planilha de Autogestão</p>
+              <p><span class="oi oi-arrow-circle-right" style="color:red; font-size: 22px"></span> Plano de ação em aberto</p>
+              <p><span class="oi oi-arrow-circle-right" style="color:red; font-size: 22px"></span> Plano de ação concluído</p>
             </center>
-            <p>4 – Ao retornar a Planilha de Autogestão os outros campos do mesmo instrumento vão sendo habilitados conforme você for dando OK de acordo com seu entendimento de que a Etapa está vencida, procedendo assim até a Etapa E – Conclui a Implantação das recomendações deste instrumento.</p>
-            <p>5 – Este procedimento se repetirá para todos os instrumentos até a conclusão do Programa Top Seller, onde se considera que você terá preenchido toda a Planilha de Autogestão.</p>
+            <p>4 – Ao retornar a Planilha de Autogestão os outros campos do mesmo instrumento vão sendo habilitados conforme você for dando <font style="color: #35408f;">SIM</font> de acordo com seu entendimento de que a Etapa está vencida, procedendo assim até a Etapa E – Conclui a Implantação das recomendações deste instrumento.</p>
+            <p>5 – Este procedimento se repetirá para todos os instrumentos até a conclusão do <font style="color: #35408f; font-weight: bold">Programa Top Seller</font>, onde se considera que você terá preenchido toda a Planilha de Autogestão.</p>
+            <p><font style="color: #35408f;">IMPORTANTE:</font> Se durante a sua evolução no <font style="color: #35408f; font-weight: bold">Programa Top Seller</font>, você quiser fazer algum acréscimo num Plano de Ação já concluído, você poderá retornar ao Plano, fazer seus ajustes e clicar em salvar.</p>
           </td>
         </tr>
       </table>

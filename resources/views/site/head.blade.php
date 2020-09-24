@@ -14,10 +14,12 @@
     <link rel="stylesheet" href="../posicionamento/public/css/templatemo-finance-business.css?v={{time()}}">
     <link rel="stylesheet" href="../posicionamento/public/css/owl.css">
 
+    <link rel="stylesheet" href="{{ asset('vendor/icheck-bootstrap/icheck-bootstrap.min.css') }}">
+
+    <!-- <link rel="stylesheet" href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}"> -->
+<!-- <link rel="stylesheet" href="{{ asset('vendor/adminlte/dist/css/adminlte.min.css') }}"> -->
+
     <!--
-
 Finance Business TemplateMo
-
 https://templatemo.com/tm-545-finance-business
-
 -->
