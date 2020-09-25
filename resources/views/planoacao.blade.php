@@ -101,6 +101,18 @@
       });
     });
 
+    function limparTabela(){
+      var instrumento = $('input[name=instrumento]').val();
+
+      $.ajax({
+        type: 'POST',
+        url: "/planoacao/limparTabela",
+        data: {instrumento: instrumento},
+        success: function(e) {
+          location.reload();
+        }
+      })
+    }
 
     function saveOque(){
       var instrumento = $('input[name=instrumento]').val();
@@ -328,6 +340,7 @@ td.resize-col {
               </div>
               <div class="col-md-6">
                 <button type="button" onclick="saveOque()" class="btn btn-success" value="Salvar" style="float: right; margin-bottom: 4%;"/> <i class="fa fa-floppy-o" aria-hidden="true"></i> Salvar</button>
+                <button type="button" onclick="limparTabela()" class="btn btn-danger" value="Limpar" style="float: right; margin-bottom: 4%; margin-right: 10px;"/> <i class="fa fa-eraser" aria-hidden="true"></i> Limpar Tabela</button>  
               </div>
             </div>
 

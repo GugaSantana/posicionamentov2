@@ -68,6 +68,8 @@ Route::post('/planoacao/edit', 'HomeController@planoacaoEdit');
 Route::post('/planoacao/saveOque', 'HomeController@savePlanoAcaoOque');
 Route::post('/planoacao/saveComo', 'HomeController@savePlanoAcaoComo');
 Route::post('/planoacao/saveQuando', 'HomeController@savePlanoAcaoQuando');
+Route::post('/planoacao/limparTabela', 'HomeController@limparTabelaPlanoAcao');
+
 
 Route::post('/planoacao/finish', 'HomeController@planoacaoFinish');
 
