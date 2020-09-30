@@ -84,19 +84,19 @@
         </thead>
         <tr>
           <td>1 – Alta Visão – Alta Ação</td>
-          <td style="text-align: center">{{$quadrante[0]}}</td>
-        </tr>
-        <tr>
-          <td>2 – Média Visão – Alta Ação</td>
-          <td style="text-align: center">{{$quadrante[1]}}</td>
-        </tr>
-        <tr>
-          <td>3 – Baixa Visão - Alta Ação</td>
           <td style="text-align: center">{{$quadrante[2]}}</td>
         </tr>
         <tr>
+          <td>2 – Média Visão – Alta Ação</td>
+          <td style="text-align: center">{{$quadrante[5]}}</td>
+        </tr>
+        <tr>
+          <td>3 – Baixa Visão - Alta Ação</td>
+          <td style="text-align: center">{{$quadrante[8]}}</td>
+        </tr>
+        <tr>
           <td>4 – Alta Visão – Média Ação</td>
-          <td style="text-align: center">{{$quadrante[3]}}</td>
+          <td style="text-align: center">{{$quadrante[1]}}</td>
         </tr>
         <tr>
           <td>5 – Média Visão – Média Ação</td>
@@ -104,19 +104,19 @@
         </tr>
         <tr>
           <td>6 – Baixa Visão – Média Ação</td>
-          <td style="text-align: center">{{$quadrante[5]}}</td>
-        </tr>
-        <tr>
-          <td>7 – Média Visão – Baixa Ação</td>
-          <td style="text-align: center">{{$quadrante[6]}}</td>
-        </tr>
-        <tr>
-          <td>8 – Alta Visão – Baixa Ação</td>
           <td style="text-align: center">{{$quadrante[7]}}</td>
         </tr>
         <tr>
+          <td>7 – Média Visão – Baixa Ação</td>
+          <td style="text-align: center">{{$quadrante[3]}}</td>
+        </tr>
+        <tr>
+          <td>8 – Alta Visão – Baixa Ação</td>
+          <td style="text-align: center">{{$quadrante[0]}}</td>
+        </tr>
+        <tr>
           <td>9 – Baixa Visão – Baixa Ação</td>
-          <td style="text-align: center">{{$quadrante[8]}}</td>
+          <td style="text-align: center">{{$quadrante[6]}}</td>
         </tr>
         </table>
       </div>

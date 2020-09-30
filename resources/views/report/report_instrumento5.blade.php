@@ -77,30 +77,16 @@
 
             <tr>
                 <td>{!! $questions[0] !!}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[1]) ? $totalMedia[1] : ''}}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[2]) ? $totalMedia[2] : ''}}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[3]) ? $totalMedia[3] : ''}}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[4]) ? $totalMedia[4] : ''}}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[5]) ? $totalMedia[5] : ''}}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[6]) ? $totalMedia[6] : ''}}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[7]) ? $totalMedia[7] : ''}}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[8]) ? $totalMedia[8] : ''}}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[9]) ? $totalMedia[9] : ''}}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[10]) ? $totalMedia[10] : ''}}</td>
+                @for($i = 1; $i <= 10; $i++)
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[$i]) ? $totalMedia[$i] : ''}}</td>
+                @endfor
             </tr>
 
             <tr>
                 <td>{!! $questions[1] !!}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[1]) ? number_format($totalMedia[1] * 100 / $total, 2).'%' : ''}}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[2]) ? number_format($totalMedia[2] * 100 / $total, 2).'%' : ''}}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[3]) ? number_format($totalMedia[3] * 100 / $total, 2).'%' : ''}}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[4]) ? number_format($totalMedia[4] * 100 / $total, 2).'%' : ''}}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[5]) ? number_format($totalMedia[5] * 100 / $total, 2).'%' : ''}}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[6]) ? number_format($totalMedia[6] * 100 / $total, 2).'%' : ''}}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[7]) ? number_format($totalMedia[7] * 100 / $total, 2).'%' : ''}}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[8]) ? number_format($totalMedia[8] * 100 / $total, 2).'%' : ''}}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[9]) ? number_format($totalMedia[9] * 100 / $total, 2).'%' : ''}}</td>
-                <td style="color:red; text-align:center;">{{!empty($totalMedia[10]) ? number_format( $totalMedia[10] * 100 / $total, 2).'%' : ''}}</td>
+                @for($i = 1; $i <= 10; $i++)
+                <td style="color:red; text-align:center;">{{!empty($totalMedia[$i]) ? number_format($totalMedia[$i] * 100 / $total, 2).'%' : ''}}</td>
+                @endfor
             </tr>
 
             <tr>

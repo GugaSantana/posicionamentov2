@@ -1508,6 +1508,7 @@ class InstrumentoController extends Controller
         $acumulado[0] = 0;
         for($i=1; $i<=10; $i++){
             $acumulado[$i] = $acumulado[$i-1] + (!empty($totalMedia[$i]) ? number_format($totalMedia[$i] * 100 / $total, 2) : 0);
+            if($acumulado[$i] == 99.99) $acumulado[$i] = 100;
         }
 
         return view('report.report_instrumento5')->with(compact('totalMedia', 'acumulado', 'total'));
