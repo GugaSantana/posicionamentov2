@@ -128,6 +128,8 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 		Route::post('/clear', 'UserController@clearInstrumentos');
 		
 		Route::get('/acompanhamento', 'UserController@acompanhamento');
+		Route::get('/report', 'UserController@reportUsers');
+		
 	});
 
 	//Users

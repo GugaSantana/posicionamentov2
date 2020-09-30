@@ -74,4 +74,24 @@ class UserController extends Controller
 
         return view('list_acompanhamento')->with(compact('users','companies','company'));
     }
+
+    public function reportUsers(Request $request){
+        $companies = Company::get();
+        $company = null;
+        if(isset($request['company_id'])){
+            $companyId = $request['company_id'];
+            $users = User::with('role');
+            if($companyId != 0){
+                $users = $users->where('company_id', $companyId);
+                $company = Company::where('id',$companyId)->first();
+            }
+            $users = $users->paginate(30);
+            $users->appends(['company_id' => $request['company_id'] ])->render();
+        }
+        else{
+            $users = User::with('role')->paginate(30);
+        }
+
+        return view('report_users')->with(compact('users','companies','company'));
+    }
 }

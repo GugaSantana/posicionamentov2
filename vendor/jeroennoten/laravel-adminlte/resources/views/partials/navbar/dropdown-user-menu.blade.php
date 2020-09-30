@@ -87,6 +87,13 @@
             @endif
             @if(Auth::User()->role_id == 1)
             <a class="btn btn-default btn-flat float-right @if(!$profile_url) btn-block @endif"
+               href="/user/report">
+                <i class="fa fa-user"></i>
+                Usuários
+            </a>
+            @endif
+            @if(Auth::User()->role_id == 1)
+            <a class="btn btn-default btn-flat float-right @if(!$profile_url) btn-block @endif"
                href="/company/list">
                 <i class="fa fa-building"></i>
                 Empresas
