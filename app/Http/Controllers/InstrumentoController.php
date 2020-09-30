@@ -1591,18 +1591,18 @@ class InstrumentoController extends Controller
         else{
             $instrumento8 = Instrumento8::get();
         }
-        $feed60 = Instrumento8::where('feedback', '>=', 60)->get();
+        // dd($instrumento8);
+        $feed60 = $instrumento8->where('feedback', '>=', 60);
         $feed60 = count($feed60);
 
-        $expo60 = Instrumento8::where('exposicao', '>=', 60)->get();
+        $expo60 = $instrumento8->where('exposicao', '>=', 60);
         $expo60 = count($expo60);
 
-        $janela25 = Instrumento8::where('feedback', '<=', 25)->where('exposicao', '<=', 25)->get();
+        $janela25 = $instrumento8->where('feedback', '<=', 25)->where('exposicao', '<=', 25);
         $janela25 = count($janela25);
 
-        $janela70 = Instrumento8::where('feedback', '>=', 70)->where('exposicao', '>=', 70)->get();
+        $janela70 = $instrumento8->where('feedback', '>=', 70)->where('exposicao', '>=', 70);
         $janela70 = count($janela70);
-
 
         $total = count($instrumento8);
         if($total == 0){
@@ -1630,9 +1630,9 @@ class InstrumentoController extends Controller
         else{
             $instrumento9 = Instrumento9::get();
         }
-        $visualMenor3 = Instrumento9::where('visual', '<=', 3)->get();
-        $auditivoMenor3 = Instrumento9::where('auditivo', '<=', 3)->get();
-        $cinestesicoMenor3 = Instrumento9::where('cinestesico', '<=', 3)->get();
+        $visualMenor3 = $instrumento9->where('visual', '<=', 3);
+        $auditivoMenor3 = $instrumento9->where('auditivo', '<=', 3);
+        $cinestesicoMenor3 = $instrumento9->where('cinestesico', '<=', 3);
         
         $visualMenor3 = count($visualMenor3);
         $auditivoMenor3 = count($auditivoMenor3);
@@ -1671,9 +1671,9 @@ class InstrumentoController extends Controller
             return "<h2><center>Nenhum resultado encontrado</center></h2>";
         }
         
-        $dif18 = Instrumento10::where('total', '>=', 18)->where('total', '<=', 20)->get();
-        $dif12 = Instrumento10::where('total', '>=', 12)->where('total', '<=', 17)->get();
-        $dif1 = Instrumento10::where('total', '>=', 1)->where('total', '<=', 11)->get();
+        $dif18 = $instrumento10->where('total', '>=', 18)->where('total', '<=', 20);
+        $dif12 = $instrumento10->where('total', '>=', 12)->where('total', '<=', 17);
+        $dif1 = $instrumento10->where('total', '>=', 1)->where('total', '<=', 11);
         
         $dif18 = count($dif18);
         $dif12 = count($dif12);
@@ -2118,13 +2118,13 @@ class InstrumentoController extends Controller
             return "<h2><center>Nenhum resultado encontrado</center></h2>";
         }
         
-        $alto = Instrumento12::where('sim', '>=', '15')->get();
+        $alto = $instrumento12->where('sim', '>=', '15');
         $alto = count($alto);
 
-        $medio = Instrumento12::where('sim', '>=', '11')->where('sim', '<', '15')->get();
+        $medio = $instrumento12->where('sim', '>=', '11')->where('sim', '<', '15');
         $medio = count($medio);
         
-        $baixo = Instrumento12::where('sim', '<', '11')->get();
+        $baixo = $instrumento12->where('sim', '<', '11');
         $baixo = count($baixo);
 
         return view('report.report_instrumento12')->with(compact('alto','medio','baixo','total'));
