@@ -62,14 +62,15 @@
             @php
               $questions = [  'Pai',
                               'Adulto',
-                              'Criança']
+                              'Criança'];
+              $soma = $data[0]+$data[1]+$data[2];
             @endphp
 
             @for($i=0; $i<3; $i++)
             <tr>
               <td>{!! $questions[$i] !!}</td>
               <td style="color:red; text-align: center;">{{ $data[$i] }}</td>
-              <td style="color:red; text-align: center;">{{ $data[$i]/100 }}</td>
+              <td style="color:red; text-align: center;">{{ number_format($data[$i] * 100 / $soma, 2) }}</td>
             </tr>
             @endfor
         </table>
