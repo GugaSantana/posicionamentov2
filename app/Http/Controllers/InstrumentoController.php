@@ -515,16 +515,30 @@ class InstrumentoController extends Controller
             if($totalObjetivo == 0) $totalObjetivo = 1;
             $obj[$i]['ponderado'] = $obj[$i]['total'] * 100 / $totalObjetivo;
         }
-
+        $maiorObjetivo = 0;
+        $menorObjetivo = 999;
+        $menorDefasagem = 0;
+        $maiorDefasagem = 0;
+        
         for($i=0;$i<8;$i++){
             if($i<4){
                 $desvios[$i]['objetivo'] = $obj[$i]['objetivo'];
                 $desvios[$i]['valor'] = $obj[$i]['ponderado'] - $request['pesoobjetivo'.$i];
+                if($request['pesoobjetivo'.$i] > $maiorObjetivo){
+                    $maiorObjetivo = $request['pesoobjetivo'.$i];
+                    $maiorDefasagem = $desvios[$i]['valor'];
+                } 
+                // dump($obj[$i]['ponderado'].' - '.$request['pesoobjetivo'.$i].' - '.$desvios[$i]['valor']);
             }
             else{
                 $aux = $i - 4;
                 $desvios[$i]['objetivo'] = $obj[$i]['objetivo'];
                 $desvios[$i]['valor'] = $obj[$i]['ponderado'] - $request['pesoobjetivomedia'.$aux];
+                if($request['pesoobjetivomedia'.$aux] < $menorObjetivo && $request['pesoobjetivomedia'.$aux] != 0){
+                    $menorObjetivo = $request['pesoobjetivomedia'.$aux];
+                    $menorDefasagem = $desvios[$i]['valor'];
+                } 
+                // dump($obj[$i]['ponderado'].' - '.$request['pesoobjetivomedia'.$aux]. ' - '.$desvios[$i]['valor']);
             }
         }
 
@@ -545,6 +559,8 @@ class InstrumentoController extends Controller
             'desvios' => $desvios,
             'mediaVolume' => $mediaVolume,
             'mediaProdutividade' => $mediaProdutividade,
+            'maiorDefasagem' => $maiorDefasagem,
+            'menorDefasagem' => $menorDefasagem,
             'done' => true
         ];
         
@@ -1537,20 +1553,28 @@ class InstrumentoController extends Controller
             $totalProdutividade[$i] = 0;
         }
         
+        $totalMaiorDefasagem = 0; 
+        $totalMenorDefasagem = 0;
         foreach($instrumento6 as $inst6){
             for($i=0;$i<8;$i++){
                 $totalTempoAtividades[$i] += $inst6->att[$i]['percentualTempo'];
                 $totalAtividadeBruta[$i] += $inst6->att[$i]['subtotal'];
                 $totalProdutividade[$i] += $inst6->att[$i]['indiceRetorno'];
-            }    
+            }
+
+            $totalMaiorDefasagem += $inst6->maiorDefasagem;
+            $totalMenorDefasagem += $inst6->menorDefasagem;
         }
 
+        $maiorDefasagem = $totalMaiorDefasagem / $total;
+        $menorDefasagem = $totalMenorDefasagem / $total;
+        
         //Ordena do maior para o menor
         arsort($totalTempoAtividades);
         arsort($totalAtividadeBruta);
         arsort($totalProdutividade);
 
-        return view('report.report_instrumento6')->with(compact('totalTempoAtividades', 'totalAtividadeBruta', 'totalProdutividade', 'total'));
+        return view('report.report_instrumento6')->with(compact('totalTempoAtividades', 'totalAtividadeBruta', 'totalProdutividade', 'maiorDefasagem', 'menorDefasagem', 'total'));
     }
 
     public function reportInstrumento7($companyId){

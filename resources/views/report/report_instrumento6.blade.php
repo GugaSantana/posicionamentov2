@@ -143,8 +143,8 @@
           </thead>
           
           <tr>
-            <td></td>
-            <td style="color:red; text-align:center;"></td>
+            <td class="bg-primary"></td>
+            <td style="color:red; text-align:center;">{{$maiorDefasagem}}</td>
           </tr>
           
         </table>
@@ -157,14 +157,14 @@
         <table class="table table-hover table-bordered">
           <thead class="bg-primary">
           <tr>
-              <td style="text-align: center;vertical-align: middle;"><b>Objetivo Principal</b></td>
+              <td style="text-align: center;vertical-align: middle;"><b>Objetivo Menos Importante</b></td>
               <td style="text-align: center;"><b>Defasagem Média</b></td>
           </tr>
           </thead>
           
           <tr>
-            <td></td>
-            <td style="color:red; text-align:center;"></td>
+            <td class="bg-primary"></td>
+            <td style="color:red; text-align:center;">{{$menorDefasagem}}</td>
           </tr>
           
         </table>
