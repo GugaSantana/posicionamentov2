@@ -162,7 +162,7 @@
             <tr>
               <td>{{$table}}</td>
               <td style="text-align: center;">{{$fatores[$i]}}</td>
-              <td style="color:red; text-align: center;">{{number_format($fatores[$i] * 100 / $totalFatores[$i], 2)}}</td>
+              <td style="color:red; text-align: center;">{{number_format($fatores[$i] * 100 / array_sum($fatores), 2)}}</td>
             </tr>
             @php $i++; @endphp
           @endforeach

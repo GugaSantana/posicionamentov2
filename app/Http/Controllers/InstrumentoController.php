@@ -2238,17 +2238,17 @@ class InstrumentoController extends Controller
             }
 
             $i=1;
+
             foreach($inst->fatores as $fat){
-                foreach($fat as $value){
-                    $totalFatores[$i]++;
-                    if($value <= 3){
-                        $fatores[$i]++;
-                    }
+                $media = array_sum($fat)/count($fat);
+                
+                if($media <= 3){
+                    $fatores[$i]++;
                 }
+                
                 $i++;
             }
         }
-
         
         return view('report.report_instrumento14')->with(compact('firstTo', 'secondTo', 'lastTo', 'fatores', 'total', 'totalFatores'));
     }
