@@ -305,7 +305,7 @@
                   <tr>
                     <td>{{$table}}</td>
                     <td style="color: red">{{$retFamilia1[$i]}}</td>
-                    <td style="color: red">{{number_format($retFamilia1[$i] * 100 / array_sum($retFamilia1), 2)}}</td>
+                    <td style="color: red">{{array_sum($retFamilia1) != 0 ? number_format($retFamilia1[$i] * 100 / array_sum($retFamilia1), 2) : 0.00}}</td>
                   </tr>
                   @php $i++; @endphp
                 @endforeach
@@ -327,7 +327,7 @@
                   <tr>
                     <td>{{$table}}</td>
                     <td style="color: red">{{$retFamilia2[$i]}}</td>
-                    <td style="color: red">{{number_format($retFamilia2[$i] * 100 / array_sum($retFamilia2), 2)}}</td>
+                    <td style="color: red">{{array_sum($retFamilia2) != 0 ? number_format($retFamilia2[$i] * 100 / array_sum($retFamilia2), 2) : 0.00}}</td>
                   </tr>
                 @php $i++; @endphp
                 @endforeach
