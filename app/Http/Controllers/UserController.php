@@ -75,6 +75,26 @@ class UserController extends Controller
         return view('list_acompanhamento')->with(compact('users','companies','company'));
     }
 
+    public function autogestao(Request $request){
+        $companies = Company::get();
+        $company = null;
+        if(isset($request['company_id'])){
+            $companyId = $request['company_id'];
+            $users = User::with('instrumentos','role','autoGestao')->whereHas('autoGestao');
+            if($companyId != 0){
+                $users = $users->where('company_id', $companyId);
+                $company = Company::where('id',$companyId)->first();
+            }
+            $users = $users->paginate(30);
+            $users->appends(['company_id' => $request['company_id'] ])->render();
+        }
+        else{
+            $users = User::with('instrumentos','role')->paginate(30);
+        }
+
+        return view('list_autogestao')->with(compact('users','companies','company'));
+    }
+
     public function reportUsers(Request $request){
         $companies = Company::get();
         $company = null;
