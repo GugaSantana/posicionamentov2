@@ -1857,7 +1857,7 @@ class InstrumentoController extends Controller
                 case 'Família pequena':
                 $retFamilia1[2]++;
                 break;
-                case 'Família pequena: até 2 filhos':
+                case 'Família pequena até 2 filhos':
                 $retFamilia1[3]++;
                 break;
                 case 'Família grande Outras pessoas moram com o casal (sogros, tios,..':
@@ -1875,7 +1875,7 @@ class InstrumentoController extends Controller
                 case 'Família pequena':
                 $retFamilia2[2]++;
                 break;
-                case 'Família pequena: até 2 filhos':
+                case 'Família pequena até 2 filhos':
                 $retFamilia2[3]++;
                 break;
                 case 'Família grande Outras pessoas moram com o casal (sogros, tios,..':
