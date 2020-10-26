@@ -56,31 +56,31 @@
       <h3 style="color: #35408f; text-align: center;">ACOMPANHAMENTO DA IMPLANTAÇÃO</h3>
       <br>
 
-      <p>Nós desejamos que você assimile e fixe as técnicas que serão apresentadas, para que você possa utilizá-las no seu dia a dia de modo a se beneficiar de todo o potencial da metodologia</p>
-      <p>Para isto desenvolvemos um procedimento simples que lhe permitirá acompanhar seu progresso na aprendizagem.</p>
+      <p>Nós desejamos que você assimile e fixe as técnicas que serão apresentadas, para que você possa utilizá-las no seu dia a dia, de modo a se beneficiar de todo o potencial da Metodologia.</p>
+      <p>Para isto, desenvolvemos um procedimento simples que lhe permitirá acompanhar seu progresso na aprendizagem.</p>
       <p>Apresentamos a seguir a <font style="color: #35408f">PLANILHA DE AUTOGESTÃO DA METODOLOGIA</font>
       </p>
-      <p>Se utilizar esta planilha você terá a garantia de um maior aproveitamento.</p>
+      <p>Se utilizar esta planilha, você terá a garantia de um maior aproveitamento.</p>
       <br>
 
       <table border=1>
         <tr>
           <td style="padding: 20px">
             <h3 style="color: #35408f; text-align: center;">COMO FUNCIONA A PLANILHA DE AUTOGESTÃO</h3><br>
-            <p>1 – Para cada instrumento concluído, no final de cada Relatório de Diagnóstico e Recomendações recebido, você terá uma indicação como à seguinte para ir a Planilha de Autogestão</p>
+            <p>1 – Para cada Instrumento concluído, no final de cada Relatório de Diagnóstico e Recomendações, você terá uma indicação como a seguinte, para ir a Planilha de Autogestão.</p>
             <center>
-              <p><span class="oi oi-arrow-circle-right" style="color:red; font-size: 22px"></span> Ir para Planilha de Autogestão</p>
+              <p><span class="oi oi-arrow-circle-right" style="color:red; font-size: 22px"></span> Ir para a Planilha de Autogestão.</p>
             </center>
-            <p>2 – Na Planilha de Autogestão estará habilitado o campo referente ao exercício que você concluiu.</p>
-            <p>3 – Ao dar <font style="color: #35408f; text-decoration: underline">SIM</font> na primeira coluna (Etapa A – Analisei e estudei o Diagnóstico e as Recomendações deste instrumento), você acessará o Formulário correspondente ao Plano de Ação do instrumento que você concluiu. No Formulário você fará os seus apontamentos (o que fazer, como fazer e quando fazer) para implantar as Recomendações.</p>
-            <p>Se você precisar durante seu trabalho no Formulário retornar ao Diagnóstico, clique antes em <font style="color: #35408f;">SALVAR</font> a fim de não perder o que você já produziu.</p>
-            <p>Para fechar seu Plano de Ação, no final do Formulário você tem as opções: Plano de Ação em aberto e Plano de Ação concluído. Clique na opção desejada e retorne a Planilha de Autogestão.</p>
+            <p>2 – Na Planilha de Autogestão, o campo referente ao exercício que você concluiu estará habilitado.</p>
+            <p>3 – Ao dar <font style="color: #35408f; text-decoration: underline">SIM</font> na primeira coluna (Etapa A – Analisei e estudei o Diagnóstico e as Recomendações deste Instrumento), você acessará o Formulário correspondente ao Plano de Ação do Instrumento que você concluiu. No Formulário, você fará os seus apontamentos (o que fazer, como fazer e quando fazer), para colocar em prática as Recomendações.</p>
+            <p>Se você precisar, durante seu trabalho no Formulário, retornar ao Diagnóstico, clique antes em <font style="color: #35408f;">SALVAR</font>, a fim de não perder o que você já produziu.</p>
+            <p>Para fechar seu Plano de Ação, no final do Formulário, você tem as opções: Plano de Ação em aberto e Plano de Ação concluído. Clique na opção desejada e retorne à Planilha de Autogestão.</p>
             <center>
               <p><span class="oi oi-arrow-circle-right" style="color:red; font-size: 22px"></span> Plano de ação em aberto</p>
               <p><span class="oi oi-arrow-circle-right" style="color:red; font-size: 22px"></span> Plano de ação concluído</p>
             </center>
-            <p>4 – Ao retornar a Planilha de Autogestão os outros campos do mesmo instrumento vão sendo habilitados conforme você for dando <font style="color: #35408f;">SIM</font> de acordo com seu entendimento de que a Etapa está vencida, procedendo assim até a Etapa E – Conclui a Implantação das recomendações deste instrumento.</p>
-            <p>5 – Este procedimento se repetirá para todos os instrumentos até a conclusão do <font style="color: #35408f; font-weight: bold">Programa Top Seller</font>, onde se considera que você terá preenchido toda a Planilha de Autogestão.</p>
+            <p>4 – Ao retornar à Planilha de Autogestão, os outros campos do mesmo Instrumento vão sendo habilitados, conforme você for dando <font style="color: #35408f;">SIM</font> de acordo com seu entendimento de que a Etapa está vencida. Continue procedendo assim até a Etapa E – Concluí a Implantação das Recomendações deste Instrumento</p>
+            <p>5 – Este procedimento se repetirá para todos os Instrumentos, até a conclusão do <font style="color: #35408f; font-weight: bold">Programa Top Seller</font>, onde se considera que você terá preenchido toda a Planilha de Autogestão.</p>
             <p><font style="color: #35408f;">IMPORTANTE:</font> Se durante a sua evolução no <font style="color: #35408f; font-weight: bold">Programa Top Seller</font>, você quiser fazer algum acréscimo num Plano de Ação já concluído, você poderá retornar ao Plano, fazer seus ajustes e clicar em salvar.</p>
           </td>
         </tr>
@@ -92,7 +92,7 @@
 
       <p>
         <font style="color: #35408f">
-          <center>Desejamos sucesso na aprendizagem e temos certeza que seus resultados melhorarão significativamente incorporando as 20 técnicas que compõem esta metodologia<center>
+          <center>Desejamos sucesso na aprendizagem e temos certeza que seus resultados melhorarão significativamente, incorporando as 20 técnicas que compõem esta Metodologia!<center>
         </font>
       </p>
 

@@ -87,36 +87,36 @@
 
 @php
 $inst = [	
-	'1 – Meu Nível de Empreendedorismo',
-	'2 – Meus problemas prioritários para Aumentar as Vendas',
-	'3 – Meu perfil como profissional de vendas',
-	'4 – Meu conhecimento da linha de produtos que vendo',
-	'5 – Meu conhecimento dos produtos concorrentes',
-	'6 – Matriz para aumentar minha Produtividade nas Vendas',
+	'1 – Meu Nível de Empreendedorismo.',
+	'2 – Meus problemas prioritários para Aumentar as Vendas.',
+	'3 – Meu perfil como Profissional de Vendas.',
+	'4 – Meu conhecimento da linha de produtos que vendo.',
+	'5 – Meu conhecimento dos produtos concorrentes.',
+	'6 – Matriz para aumentar minha Produtividade nas Vendas.',
 	'7 – Gerenciamento do relacionamento através dos Estados do Ego.',
-	'8 – Gerenciamento do relacionamento através da Exposição e do Feedback',
-	'9 – Gerenciamento do relacionamento utilizando os Canais Neurolinguísticos',
-	'10 – Gerenciamento do relacionamento através da Inteligência Emocional',
-	'11 – Definição do perfil do Cliente Ideal',
-	'12 – Como fazer a Prospecção de Clientes',
-	'13 – Qualificação dos Clientes Potenciais',
-	'14 – Matriz para identificar Clientes Prioritários',
-	'15 – Desenvolvimento da Quantidade e Qualidade dos meus argumentos de vendas (Forças Propulsoras)',
-	'16 – Neutralização dos obstáculos da Venda(Forças Restritivas)',
-	'17 – Técnicas de Fechamento de vendas',
+	'8 – Gerenciamento do relacionamento através da Exposição e do Feedback.',
+	'9 – Gerenciamento do relacionamento utilizando os Canais Neurolinguísticos.',
+	'10 – Gerenciamento do relacionamento através da Inteligência Emocional.',
+	'11 – Definição do Perfil do Cliente Ideal.',
+	'12 – Como fazer a Prospecção de Clientes.',
+	'13 – Qualificação dos Clientes Potenciais.',
+	'14 – Matriz para identificar Clientes Prioritários.',
+	'15 – Desenvolvimento da Quantidade e Qualidade dos meus argumentos de vendas (Forças Propulsoras).',
+	'16 – Neutralização dos obstáculos da venda (Forças Restritivas).',
+	'17 – Técnicas de Fechamento de Vendas.',
 	'18 – O Funil de Vendas, com objetivos e métricas de avanço.',
-	'19 – Planos de Ação quantitativos para alcançar as metas de vendas',
-	'20 – O Relatório de Progresso'
+	'19 – Planos de Ação quantitativos para alcançar as metas de Vendas.',
+	'20 – O Relatório de Progresso.'
 	];
 @endphp
 
 @php
 $titles = [
-	'A - Analisei e estudei o diagnóstico e as recomendações deste instrumento',
-	'B - Desenvolvi o Plano de Ação (PA) para Implementar as recomendações deste instrumento',
-	'C - Comecei a implementar as recomendações deste instrumento',
-	'D - Estou implementando as recomendações deste instrumento',
-	'E - Conclui a Implantação das recomendações deste instrumento. Sinto que tenho novas competências'
+	'A - Analisei e estudei o Diagnóstico e as Recomendações deste Instrumento.',
+	'B - Desenvolvi o Plano de Ação (PA) para implementar as Recomendações deste Instrumento.',
+	'C - Comecei a implementar as Recomendações deste Instrumento.',
+	'D - Estou implementando as Recomendações deste Instrumento.',
+	'E - Concluí a implementação das Recomendações deste Instrumento. Sinto que tenho novas Competências.'
 	];
 @endphp
 
