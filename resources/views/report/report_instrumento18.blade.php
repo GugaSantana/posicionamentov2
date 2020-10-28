@@ -75,7 +75,7 @@
             <tr>
               <td>{{$table[$i]}}</td>
               <td style="color:red; text-align: center;">{{number_format($conversaoAtual[$i] / $total, 2)}}</td>
-              <td style="color:red; text-align: center;">{{number_format($conversaoRevista[$i], 2)}}</td>
+              <td style="color:red; text-align: center;">{{number_format($conversaoRevista[$i] / $total, 2)}}</td>
             </tr>
           @endfor
            
