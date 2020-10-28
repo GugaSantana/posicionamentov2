@@ -17,7 +17,7 @@
                     <center>INSTRUMENTO 1</center>
                 </h3>
                 <h3>
-                    <center>NÍVEL DE EMPREENDEDORISMO PARA AUMENTAR AS VENDAS</center>
+                    <center>MEU NÍVEL DE EMPREENDEDORISMO</center>
                 </h3>
             </div>
             <div class='col-12' style="margin-left: 1em">
@@ -30,7 +30,7 @@
                     <center>INSTRUMENTO 1</center>
                 </h3>
                 <h3>
-                    <center>NÍVEL DE EMPREENDEDORISMO PARA AUMENTAR AS VENDAS</center>
+                    <center>MEU NÍVEL DE EMPREENDEDORISMO</center>
                 </h3>
             </div>
         </div>

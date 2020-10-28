@@ -63,7 +63,7 @@
             <center>INSTRUMENTO 2</center>
         </h3>
         <h3>
-            <center>PROBLEMAS PRIORITÁRIOS PARA AUMENTAR AS VENDAS</center>
+            <center>MEUS PROBLEMAS PRIORITÁRIOS PARA AUMENTAR AS VENDAS</center>
         </h3>
         </div>
             <div class='col-12' style="margin-left: 1em">
@@ -77,7 +77,7 @@
                     <center>INSTRUMENTO 2</center>
                 </h3>
                 <h3>
-                    <center>PROBLEMAS PRIORITÁRIOS PARA AUMENTAR AS VENDAS</center>
+                    <center>MEUS PROBLEMAS PRIORITÁRIOS PARA AUMENTAR AS VENDAS</center>
                 </h3>
             </div>
         </div>
