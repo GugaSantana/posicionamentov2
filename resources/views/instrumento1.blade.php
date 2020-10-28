@@ -17,7 +17,7 @@
                     <center>INSTRUMENTO 1</center>
                 </h3>
                 <h3>
-                    <center>MEU NÍVEL DE EMPREENDEDORISMO</center>
+                    <center>NÍVEL DE EMPREENDEDORISMO PARA AUMENTAR AS VENDAS</center>
                 </h3>
             </div>
             <div class='col-12' style="margin-left: 1em">
@@ -30,7 +30,7 @@
                     <center>INSTRUMENTO 1</center>
                 </h3>
                 <h3>
-                    <center>MEU NÍVEL DE EMPREENDEDORISMO</center>
+                    <center>NÍVEL DE EMPREENDEDORISMO PARA AUMENTAR AS VENDAS</center>
                 </h3>
             </div>
         </div>
@@ -40,21 +40,22 @@
             <h4>
                 <center>Levantamento de Informações</center>
             </h4>
-            <p class="fonte18">Todas as pessoas têm combinações de VISÃO e de AÇÃO em tudo o que fazem e, naturalmente, esta combinação varia de pessoa para pessoa.</p>
+            <p class="fonte18">Todas as pessoas têm combinações de VISÃO e AÇÃO em tudo o que fazem. Naturalmente, esta combinação varia de pessoa para pessoa.</p>
             <p class="fonte18">Empreendedor é alguém que toma a iniciativa e age com uma clara Visão de Futuro.</p>
             <p class="fonte18">Quem tem Visão sabe identificar as oportunidades e transformá-las em atividades lucrativas.</p>
             <p class="fonte18">A Ação é fundamental para implementar a Visão, para levar a Visão à pratica.</p>
-            <p class="fonte18">Este instrumento se propõe avaliar as duas dimensões apresentadas de VISÃO e AÇÃO para que você possa desenvolvê-las de maneira estruturada e assim aumentar sua</p>
-            <p class="fonte18"><b style="color: #35408f">EFICÁCIA</b> (fazer as coisas certas) = <b style="color: #35408f">VISÃO</b> e sua</p>
-            <p class="fonte18"><b style="color: #35408f">EFICIÊNCIA</b> (fazer as coisas da maneira certa) = <b style="color: #35408f">AÇÃO</b>.</p>
+            <p class="fonte18">Este Instrumento se propõe a avaliar as duas dimensões apresentadas de VISÃO e AÇÃO, para que você possa desenvolvê-las de maneira estruturada e assim aumentar sua</p>
+            <p class="fonte18"><b style="color: #35408f">EFICÁCIA</b> (fazer as coisas certas) = <b style="color: #35408f">VISÃO</b></p>
+            <p>e sua</p>
+            <p class="fonte18"><b style="color: #35408f">EFICIÊNCIA</b> (fazer as coisas da maneira certa) = <b style="color: #35408f">AÇÃO</b></p>
         </div>
         <br>
         <div class="col-12">
             <p class="fonte18"><b>INSTRUÇÕES</b></p>
-            <p class="fonte18">Este instrumento está constituído de duas partes.</p>
-            <p class="fonte18">Na primeira parte são apresentadas 10 questões que você deve responder escolhendo a alternativa que mais se ajusta a você, ou seja, aquela que melhor representa seu comportamento.</p>
-            <p class="fonte18">Na segunda parte você deverá posicionar seu resultado em uma escala</p>
-            <p class="fonte18">Lembre, não existem respostas certas ou erradas porque não existem personalidades certas ou erradas.</p>
+            <p class="fonte18">Este Instrumento está constituído de duas partes:</p>
+            <p class="fonte18">Na primeira parte são apresentadas 10 questões, que você deve responder escolhendo a alternativa que mais se ajusta a você, ou seja, aquela que melhor representa seu comportamento.</p>
+            <p class="fonte18">Na segunda parte, você deverá posicionar seu resultado em uma escala.</p>
+            <p class="fonte18">Lembre-se: não existem respostas certas ou erradas, porque não existem personalidades certas ou erradas.</p>
             <h3 style="color: #35408f">Primeira Parte</h3>
         </div>
         <!-- TABELA DE QUESTIONARIO -->
@@ -81,16 +82,16 @@
                             <tbody class="list">
                                 @php
                                 $questions = [
-                                '1. Seu desejo de fazer as coisas de maneira diferente para que funcionem melhor lhe motiva muito mais do que mantê-las como hoje são feitas?',
-                                '2. Você se entusiasma com o que está fazendo no seu trabalho?. Você tem “brilho nos olhos”?',
-                                '3. Você pensa com freqüência em novas idéias para aplicar a seu trabalho em momentos diferentes do dia? Isto é realmente comum?',
-                                '4. Você consegue visualizar etapas concretas de ação e fazer uma nova idéia acontecer?',
-                                '5. Você enfrenta problemas com sua empresa para fazer coisas que excedem o que se espera de você ?',
+                                '1. Seu desejo de fazer as coisas de maneira diferente, para que funcionem melhor, lhe motiva muito mais do que mantê-las como hoje são feitas?',
+                                '2. Você se entusiasma com o que está fazendo no seu trabalho? Você tem “brilho nos olhos”?',
+                                '3. Você pensa com frequência em novas ideias para aplicar no seu trabalho em momentos diferentes do dia? Isto é realmente comum?',
+                                '4. Você consegue visualizar etapas concretas de ação e fazer uma nova ideia acontecer?',
+                                '5. Você enfrenta problemas com sua empresa para fazer coisas que excedem o que se espera de você?',
                                 '6. Você vai em frente mesmo quando algo em seu trabalho parece que não vai dar certo, porque você confia na sua Visão?',
                                 '7. Você tem um número muito grande de admiradores e críticos? É comum você provocar reações extremas nas pessoas que o rodeiam?',
                                 '8. Você se aborrece facilmente com a incompetência das pessoas para executar trabalhos inovadores?',
-                                '9. É comum você “sonhar acordado”, isto é, você gosta de pensar, de imaginar fazer coisas inovadoras e criativas?',
-                                '10. Você estaria disposto a abrir mão de uma parte de sua receita em troca da oportunidade de testar suas novas idéias, se as recompensas pelo sucesso fossem significativas?'
+                                '9. É comum você “sonhar acordado”? Isto é, você gosta de pensar, de se imaginar fazendo coisas inovadoras e criativas?',
+                                '10. Você estaria disposto a abrir mão de uma parte de sua receita em troca da oportunidade de testar suas novas ideias, se as recompensas pelo sucesso fossem significativas?'
                                 ];
                                 @endphp
 
@@ -129,10 +130,10 @@
         <p class="fonte18">Responda qual é a sua tendência, seu comportamento em relação às questões abaixo colocadas e registre o resultado num ponto da escala, levando em conta as definições da escala:</p>
         <p class="fonte18">Você também pode utilizar os pontos intermediários entre as definições se essa posição intermediária melhor representa seu comportamento.</p>
         <ul class="fonte18">
-            <li>1 - Não gosto de ação. Prefiro um trabalho já estruturado e com instruções claras</li>
+            <li>1 - Não gosto de ação. Prefiro um trabalho já estruturado e com instruções claras.</li>
             <li>4 - Prefiro um nível intermediário de ação. Gosto do trabalho estruturado onde posso eventualmente fazer algumas melhorias.</li>
-            <li>7 - Gosto de ação, de estar no campo, agindo sozinho ou com a equipe. Tenho motivação para a ação</li>
-            <li>10 - Eu tenho um máximo nível de energia. Muita vitalidade. Definitivamente não gosto de trabalho estruturado. Gosto de imprimir minhas idéias.</li>
+            <li>7 - Gosto de ação, de estar no campo, agindo sozinho ou com a equipe. Tenho motivação para a ação.</li>
+            <li>10 - Eu tenho um máximo nível de energia. Muita vitalidade. Definitivamente não gosto de trabalho estruturado. Gosto de imprimir minhas ideias.</li>
         </ul>
 
         <div class="table-responsive">
