@@ -54,84 +54,46 @@
 <br>
 
 
-<p>A Metodologia segue a seguinte sequ&ecirc;ncia de atividades para sua implementa&ccedil;&atilde;o:</p>
+<p>A Metodologia cumpre a seguinte série de atividades para a sua implementação:</p>
 
+<p>- Você responderá os 20 Instrumentos por meio digital (internet, smartphone) para poder realizar seus Diagnósticos.</p>
 
+<p>- Os resultados dos Instrumentos aplicados serão processados pela <b>Posicionamento Consultoria</b>, conforme princípios técnicos da Metodologia.</p>
 
-<p>- Voc&ecirc; responder&aacute; os 20 instrumentos por meio digital (internet, smart phone) para poder realizar seus diagn&oacute;sticos</p>
-
-
-
-<p>- Os resultados dos instrumentos aplicados ser&atilde;o processados pela Consultoria conforme princ&iacute;pios t&eacute;cnicos da metodologia.</p>
-
-
-
-<p>- Voc&ecirc; receber&aacute; um relat&oacute;rio para cada um dos 20 instrumentos contendo:</p>
-
-
+<p>- Você receberá um relatório para cada um dos 20 Instrumentos contendo:</p>
 
 <p>- Os Conceitos para contextualizar o Instrumento no processo de Vendas Consultivas.</p>
 
-<p>- Um Gr&aacute;fico dos seus Resultados de suas respostas.</p>
+<p>- Um Gráfico dos Resultados de suas respostas.</p>
 
-<p>- Um Diagn&oacute;stico que interpreta o Gr&aacute;fico de Resultados</p>
+<p>- Um Diagnóstico que interpreta o Gráfico dos Resultados.</p>
 
-<p>- Recomenda&ccedil;&otilde;es espec&iacute;ficas e personalizadas que lhe permitir&atilde;o elaborar um Plano de A&ccedil;&atilde;o para desenvolver as compet&ecirc;ncias do tema abordado por cada instrumento.</p>
+<p>- Recomendações específicas e personalizadas, que lhe permitirão elaborar um Plano de Ação para desenvolver as Competências do tema abordado por cada Instrumento.</p>
 
+<p>- Serão disponibilizados para você responder 2 Instrumentos por semana, portanto a Metodologia lhe será integralmente transferida em 2 meses e meio.</p>
 
+<p>Após o envio à <b>Posicionamento Consultoria</b> das respostas do Instrumento que lhe foi enviado, você receberá o próximo Instrumento da Metodologia.</p>
 
-<p>- Ser&atilde;o disponibilizados para voc&ecirc; responder 2 instrumentos por semana, portanto a metodologia lhe ser&aacute; integralmente transferida em 2 meses e meio.</p>
+<p>Este intervalo foi estabelecido para não precipitar a implementação da Metodologia e para garantir sua melhor assimilação.</p>
 
+<p>- Você fará a <b>Autogestão da Metodologia</b> através de uma planilha que permitirá registrar e gerenciar o avanço na assimilação da Metodologia.</p>
 
+<p>Temos consciência que, implementar as Recomendações para melhorar os resultados do seu Diagnóstico, em alguns casos, pode não ser algo simples.</p>
 
-<p>Ap&oacute;s o envio &agrave; Consultoria das respostas do instrumento que lhe foi enviado, voc&ecirc; receber&aacute; o pr&oacute;ximo instrumento da metodologia.</p>
+<p>Talvez esta seja a primeira vez que você realizará um trabalho realmente analítico e instrumental para desenvolver suas Competências, com método e com técnicas valiosas, tendo por objetivo melhorar o resultado do seu trabalho e aumentar o seu faturamento.</p>
 
+<p>As Recomendações podem requerer um mínimo de esforço para compreendê-las e a seguir, implementá-las.</p>
 
+<p>Se você aceitar este fato, você será extraordinariamente recompensado pela implementação esta Metodologia.</p>
 
-<p>Este intervalo foi estabelecido para n&atilde;o precipitar a implementa&ccedil;&atilde;o da metodologia e para garantir sua melhor assimila&ccedil;&atilde;o.</p>
+<p>No final, você comprovará os resultados no seu próprio bolso!</p>
 
+<p>Algumas Recomendações são mais simples do que outras, assim como alguns remédios são menos amargos do que outros. Mas se seu objetivo é a CURA, todos os remédios indicados serão bem-vindos e apreciados.</p>
 
-
-<p>- Voc&ecirc; far&aacute; a <strong>Autogest&atilde;o da Metodologia</strong> atrav&eacute;s de uma planilha que permitir&aacute; registrar e gerenciar o avan&ccedil;o na assimila&ccedil;&atilde;o da metodologia.</p>
-
-
-
-<p>Temos consci&ecirc;ncia que implementar as Recomenda&ccedil;&otilde;es para melhorar os resultados do seu diagn&oacute;stico, em alguns casos, pode n&atilde;o ser algo simples.</p>
-
-
-
-<p>Talvez esta seja a primeira vez que voc&ecirc; realizar&aacute; um trabalho realmente anal&iacute;tico e instrumental para desenvolver suas compet&ecirc;ncias, com m&eacute;todo e com t&eacute;cnicas valiosas, com o objetivo de melhorar o resultado do seu trabalho e aumentar o seu faturamento.</p>
-
-
-
-<p>As recomenda&ccedil;&otilde;es podem requerer um m&iacute;nimo de esfor&ccedil;o para compreend&ecirc;-las e a seguir implement&aacute;-las.</p>
-
-
-
-
-
-
-
-<p>Se voc&ecirc; aceitar este fato, voc&ecirc; ser&aacute; extraordinariamente recompensado pela implementa&ccedil;&atilde;o esta metodologia.</p>
-
-
-
-<p>No final voc&ecirc; comprovar&aacute; os resultados no seu pr&oacute;prio bolso!</p>
-
-
-
-<p>Algumas recomenda&ccedil;&otilde;es s&atilde;o mais simples do que outras, assim como, alguns rem&eacute;dios s&atilde;o menos amargos do que outros, mas se seu objetivo &eacute; a CURA, todos os rem&eacute;dios indicados ser&atilde;o benvindos e apreciados.</p>
-
-
-
-<p>Esta metodologia mudar&aacute; sua pr&aacute;tica profissional o habilitar&aacute; a implementar as Vendas Consultivas e desenvolver&aacute; sua Produtividade de maneira objetiva e mensur&aacute;vel.</p>
-
-
-
-
+<p>Esta Metodologia mudará sua prática profissional e o habilitará a implementar as Vendas Consultivas e desenvolver sua Produtividade de maneira objetiva e mensurável.</p>
 
 <center><p style="color: #35408f">DESEJAMOS SUCESSO NESTA NOVA ETAPA DE SUA VIDA<br>
-PROFISSIONAL QUE VOC&Ecirc; EST&Aacute; INICIANDO.</p></center>
+PROFISSIONAL QUE VOCÊ ESTÁ INICIANDO!</p></center>
 
 
 

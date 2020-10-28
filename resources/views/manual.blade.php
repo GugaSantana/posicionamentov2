@@ -46,7 +46,7 @@
 
 <h2 style="color: #35408f;text-align: center;margin-top: 10%;">GUIA DO PROGRAMA TOP SELLER</h2>
 <br>
-<p>O objetivo deste Guia é que você tenha uma visão clara do contexto no qual se situam os 20 instrumentos da metodologia que você vai responder.</p>
+<p>O objetivo deste Guia é que você tenha uma visão clara do contexto no qual se situam os 20 Instrumentos da Metodologia que você vai responder</p>
 <p>O guia está composto por estas quatro seções:</p>
 
 <br>
@@ -55,28 +55,25 @@
 <li style="
     font-size: 17px;
     margin-bottom: 16px;
-">APRESENTAÇÃO E FUNDAMENTAÇÃO DO PROJETO: 
-PORQUE ESTE PROJETO É FUNDAMENTAL PARA SUA 
-ATIVIDADE PROFISSIONAL</li>
+">APRESENTAÇÃO E FUNDAMENTAÇÃO DO PROJETO: PORQUE ESTE PROJETO É FUNDAMENTAL PARA SUA ATIVIDADE PROFISSIONAL.</li>
 
 
 <li style="
     font-size: 17px;
     margin-bottom: 16px;
-">ESTRUTURA DA METODOLOGIA</li>
+">ESTRUTURA DA METODOLOGIA.</li>
 
 
 <li style="
     font-size: 17px;
     margin-bottom: 16px;
-">ETAPAS DA METODOLOGIA E INSTRUMENTOS DE CADA
-ETAPA</li>
+">ETAPAS DA METODOLOGIA E INSTRUMENTOS DE CADA ETAPA.</li>
 
 
 <li style="
     font-size: 17px;
     margin-bottom: 16px;
-">COMO IMPLEMENTAR ESTA METODOLOGIA</li>
+">COMO IMPLEMENTAR ESTA METODOLOGIA.</li>
 </ol>
 
 <br>

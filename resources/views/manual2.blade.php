@@ -60,8 +60,10 @@
 <h3 style="color: #35408f">2 – ESTRUTURA DA METODOLOGIA</h3>
 <br>
 
-<p>Apresentamos a seguir a estrutura da metodologia que lhe será transferida</p>
-<p>Mostrar a Estrutura da Metodologia de maneira gráfica no começo deste documento é importante para você visualizar as etapas da metodologia e onde se situam os instrumentos que integram esta metodologia para lhe transferir à distância às Competências exigidas para implementar as Vendas Consultivas.</p>
+<p>Apresentamos a seguir, a Estrutura da Metodologia que lhe será transferida.</p>
+<p>Mostrar a Estrutura da Metodologia de maneira gráfica no começo deste documento é importante para você visualizar as etapas da Metodologia. É onde se situam os Instrumentos que integram esta Metodologia e que vão lhe transferir à distância, as Competências exigidas para implementar as Vendas Consultivas.</p>
+
+<h3>17 - Técnicas de Fechamento de Vendas</h3>
 <br>
 <div class="table-responsive">
 <table border=1 cellpadding="7" cellspacing="0">
@@ -76,7 +78,7 @@
 		</tr>
 		<tr>
 			<td>
-			<strong>A - PRECONDIÇÕES PARA AUMENTAR AS VENDAS</strong>
+			<p><strong>A - PRECONDIÇÕES PARA AUMENTAR AS VENDAS</strong></p>
 			</td>
 			<td>
 			1 - Meu Nível de Empreendedorismo<br>
@@ -168,7 +170,7 @@
 <!-- <center><h3 style="color: #35408f">CONTRIBUIÇÃO DOS INSTRUMENTOS DA METODOLOGIA PARA SUA VIDA PESSOAL<h3></center> -->
 
 
-<p>Nove dos 20 Instrumentos, portanto 45% deles contribuem também para o seu Desenvolvimento pessoal, não apenas profissional. Isto porque suas contribuições você poderá utilizar para atender outros interesses além dos interesses profissionais.</p>
+<p>Nove dos 20 Instrumentos, portanto 45% deles, contribuem também para o seu Desenvolvimento Pessoal, não apenas profissional. Isto porque suas contribuições você poderá utilizar para atender outros interesses além dos interesses profissionais.</p>
 
 <br>
 <!--
