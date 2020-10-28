@@ -63,7 +63,7 @@
             <center>INSTRUMENTO 2</center>
         </h3>
         <h3>
-            <center>MEUS PROBLEMAS PRIORITÁRIOS PARA AUMENTAR AS VENDAS</center>
+            <center>PROBLEMAS PRIORITÁRIOS PARA AUMENTAR AS VENDAS</center>
         </h3>
         </div>
             <div class='col-12' style="margin-left: 1em">
@@ -77,7 +77,7 @@
                     <center>INSTRUMENTO 2</center>
                 </h3>
                 <h3>
-                    <center>MEUS PROBLEMAS PRIORITÁRIOS PARA AUMENTAR AS VENDAS</center>
+                    <center>PROBLEMAS PRIORITÁRIOS PARA AUMENTAR AS VENDAS</center>
                 </h3>
             </div>
         </div>
@@ -89,19 +89,19 @@
                 <center>Levantamento de Informações</center>
             </h4>
 
-            <p class="fonte18">No instrumento anterior você recebeu orientações para desenvolver sua Visão e sua Ação, dois fatores fundamentais para ter sucesso profissional.</p>
+            <p class="fonte18">No Instrumento anterior, você recebeu orientações para desenvolver sua Visão e sua Ação, dois fatores fundamentais para ter sucesso profissional.</p>
             <p class="fonte18">“Visão e Ação formam a moldura do quadro que vamos pintar”.</p>
-            <p class="fonte18">Com este segundo instrumento começamos a tratar das questões específicas de vendas para melhorar seu desempenho profissional.</p>
-            <p class="fonte18">Este instrumento trata do ponto de partida racional para aumentar as vendas que o qual consiste em identificar os problemas prioritários que lhe dificultam alcançar sua meta de vendas.</p>
-            <p class="fonte18">Nossa metodologia para implementar as Vendas Consultivas começa pela identificação dos problemas prioritários.</p>
-            <p class="fonte18">Até o final do Programa os problemas que você registrar neste instrumento estarão equacionados e poderão ser resolvidos de maneira objetiva e mensurável implementando os Planos de Ação dos outros instrumentos.</p>
+            <p class="fonte18">Com este segundo Instrumento, começamos a tratar das questões específicas de Vendas, para melhorar seu desempenho profissional.</p>
+            <p class="fonte18">Este Instrumento trata do ponto de partida racional para aumentar as Vendas, o que consiste em identificar os problemas prioritários, que lhe dificultam alcançar sua meta de Vendas.</p>
+            <p class="fonte18">Nossa Metodologia para implementar as Vendas Consultivas começa pela identificação dos problemas prioritários.</p>
+            <p class="fonte18">Até o final do Programa, os problemas que você registrar neste Instrumento estarão equacionados e poderão ser resolvidos de maneira objetiva e mensurável, implementando os Planos de Ação dos outros Instrumentos.</p>
 
         </div>
         <br>
         <div class="col-12">
             <p class="fonte18"><b>INSTRUÇÕES</b></p>
             <h4 style="color: #35408f">PRIMEIRA PARTE</h4>
-            <p class="fonte18">Relacione em ordem decrescente de prioridade os 5 principais problemas que você tem e que estão dificultando que você alcance sua meta de vendas.</p>
+            <p class="fonte18">Relacione em ordem decrescente de prioridade os 5 principais problemas que você tem e que estão dificultando que você alcance sua meta de Vendas.</p>
             <p class="fonte18">O problema número 1 será o mais sério, o mais grave e o número 5 o menos preocupante de todos eles.</p>
 
         </div>
@@ -127,7 +127,7 @@
                         <h4 style="color: #35408f">SEGUNDA PARTE</h4>
                         <p class="fonte18">Na primeira coluna da Matriz de Análise de Problemas estão relacionados os 5 problemas que você identificou em ordem decrescente de importância.</p>
                         <p class="fonte18">A seguir, para cada problema relacionado, estabeleça os níveis de Gravidade, de Urgência e de Tendência de cada um deles, em escala de 1 a 5, conforme as definições apresentadas na Matriz.</p>
-                        <p class="fonte18">Para cada Problema você terá que estabelecer um valor para seu nível de Gravidade (G), de Urgência (U) e de Tendência (T).</p>
+                        <p class="fonte18">Para cada Problema, você terá que estabelecer um valor para seu nível de Gravidade (G), de Urgência (U) e de Tendência (T).</p>
                     </div>
                     <br>
                     <h4><center>MATRIZ DE ANÁLISE DE PROBLEMAS</center></h4>
