@@ -63,7 +63,6 @@
 <p>Apresentamos a seguir, a Estrutura da Metodologia que lhe será transferida.</p>
 <p>Mostrar a Estrutura da Metodologia de maneira gráfica no começo deste documento é importante para você visualizar as etapas da Metodologia. É onde se situam os Instrumentos que integram esta Metodologia e que vão lhe transferir à distância, as Competências exigidas para implementar as Vendas Consultivas.</p>
 
-<h3>17 - Técnicas de Fechamento de Vendas</h3>
 <br>
 <div class="table-responsive">
 <table border=1 cellpadding="7" cellspacing="0">
