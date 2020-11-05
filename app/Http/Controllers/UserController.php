@@ -48,6 +48,14 @@ class UserController extends Controller
             $instrumento->delete();
         }
 
+        for ($i=1; $i <= 20; $i++) { 
+            $inst = "instrumento{$i}";
+            if(isset($user->$inst)){
+                dump($inst);
+                $user->$inst->delete();
+            }
+        }
+
         foreach($user->autoGestao as $autoGestao){
             $autoGestao->delete();
         }
