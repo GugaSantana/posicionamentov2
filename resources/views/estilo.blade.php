@@ -1,6 +1,15 @@
 <style>
-.seta-dir{ padding:15px 20px; float:left; margin:0 10px; transition:all linear 0.2s; }
-.seta-dir i{ border-left: 20px solid #ccc; border-top: 15px solid transparent;  border-bottom: 15px solid transparent; float:left; }
+.seta-dir{ 
+    padding:15px 20px;
+    float:left;
+    margin:0 10px;
+    transition:all linear 0.2s;
+}
+.seta-dir i{
+    border-left: 35px solid #00008B;
+    border-top: 20px solid transparent;
+    border-bottom: 20px solid transparent;
+    float:left; }
 .seta-dir:hover{transform: rotateX(180deg)}
 
 .seta-esq{ padding:15px 20px;  float:left; margin:0 10px; transition:all linear 0.2s; }
