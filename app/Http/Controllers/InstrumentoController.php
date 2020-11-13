@@ -97,79 +97,81 @@ class InstrumentoController extends Controller
             if($acao <= 3){
                 //3
                 $retorno['titulo'] = "Visão Alta - Ação Baixa";
-                $retorno['diagnostico'] = "<p class='fonte18'>Você apresenta uma Visão clara e bem definida, você sabe o que quer, onde quer chegar, porém carece de determinação para por em prática sua visão, para implementá-la.</p>
-                <p class='fonte18'>Do ponto de vista da ação sua postura é muito passiva.</p> 
-                <p class='fonte18'>Caracterizamos esta posição como a posição de um <b>SONHADOR</b></p>";
-                $retorno['recomendacao'] = "<p class='fonte18'>Sua Visão está bem estruturada, ela é forte porem deve ser operacionalizada, deve ser levada à pratica.</p>
-                <p class='fonte18'>Para isto você necessita de Ação. Ação é basicamente tomar e implementar decisões, preferencialmente respaldado por uma metodologia.</p>
-                <p class='fonte18'>Você encontrará nas recomendações do Instrumento 19 desta Metodologia, um Plano de Ação Estruturado, inclusive com um formulário próprio que apresenta instruções especificas que você deverá implementar.</p>
-                <p class='fonte18'>Mas além da metodologia, você necessita de motivação e você pode extrair essa motivação da sua Visão, pois a Ação é um meio para fazer da sua Visão uma realidade</p>";
+                $retorno['diagnostico'] = "<p class='fonte18'>Você apresenta uma Visão clara e bem definida, você sabe o que quer, onde quer chegar, porém carece de determinação para pôr em prática sua Visão, para implementá-la.</p>
+                <p class='fonte18'>Do ponto de vista da Ação sua postura é muito passiva.</p> 
+                <p class='fonte18'>Caracterizamos esta posição como a posição de um <b>SONHADOR</b>, com grande potencial para melhorar seus resultados, pois você conta com uma forte Visão, que é a bússola para configurar o futuro.</p>";
+                $retorno['recomendacao'] = "<p class='fonte18'>Sua Visão está bem-estruturada, ela é forte, porém deve ser operacionalizada, deve ser levada à pratica.</p>
+                <p class='fonte18'>Para isto, você necessita de Ação. Ação é basicamente tomar e implementar decisões, preferencialmente respaldado por uma Metodologia.</p>
+                <p class='fonte18'>Você encontrará nas Recomendações do Instrumento 19 desta Metodologia, um Plano de Ação Estruturado, inclusive com um formulário próprio que apresenta instruções específicas que você deverá implementar.</p>
+                <p class='fonte18'>Mas, além da Metodologia, você necessita de motivação e você pode extrair essa motivação da sua Visão, pois a Ação é um meio para fazer da sua Visão uma realidade.</p>";
             }
             else if($acao > 3 && $acao <= 7){
                 $retorno['titulo'] = "Visão Alta - Ação Média";
                 $retorno['diagnostico'] = "<p class='fonte18'>Você tem uma Visão clara e bem desenvolvida, sabe aonde quer chegar, porém a capacidade de agir e de tomar e implementar decisões para a realização de sua Visão não apresenta a mesma força ou intensidade. É a posição própria dos <b>INVENTORES</b>.</p>
-                <p class='fonte18'>Desenvolvendo o eixo da Ação você tem um enorme potencial para aumentar sua produtividade e seus resultados profissionais.</p>";
-                $retorno['recomendacao'] = "<p class='fonte18'>Mantenha o comprometimento com sua Visão; sua Visão pode ser impactada por suas experiências e pelas mudanças do meio que você está inserido.</p>
-                <p class='fonte18'>Em relação à Ação, você deve dar a elas mais contexto estratégico, relacionando-as e ajustando-as à sua visão que é clara e bem estruturada.</p>
-                <p class='fonte18'>Em relação a Ação procure agir com método, com técnica para evitar a dispersão. Utilize o Instrumento 19 – Plano de Ação. Não perca a oportunidade de levar à prática sua Visão. Isto vai lhe trazer muitas satisfações profissionais.</p>";
+                <p class='fonte18'>Desenvolvendo o eixo da Ação, você tem um enorme potencial para aumentar sua produtividade e seus resultados profissionais.</p>";
+                $retorno['recomendacao'] = "<p class='fonte18'>Mantenha o comprometimento com a sua Visão: ela pode ser impactada por suas experiências e pelas mudanças do meio o qual você está inserido.</p>
+                <p class='fonte18'>Em relação à Ação, você deve dar a ela mais contexto estratégico, relacionando-a e ajustando-a à sua Visão que é clara e bem-estruturada.</p>
+                <p class='fonte18'>No que se refere à Ação, procure agir com método, com técnica para evitar a dispersão. Utilize o Instrumento 19 – Plano de Ação. Não perca a oportunidade de levar à prática sua Visão. Isto vai lhe trazer muitas satisfações profissionais.</p>";
             }
             else if($acao >7){
                 //1
                 $retorno['titulo'] = "Visão Alta - Ação Alta";
                 $retorno['diagnostico'] = "<p class='fonte18'>Você tem uma visão clara e bem desenvolvida, sabe aonde quer chegar e tem capacidade de agir e de tomar e implementar decisões para a realização de sua Visão.</p>
-                <p class='fonte18'>Caracterizamos sua posição como sendo uma posição <b>EMPREENDEDORA</b></p>";
-                $retorno['recomendacao'] = "<p class='fonte18'>Você esta na posição ideal do Modelo apresentando Visão clara e estruturada e mostra disposição para a Ação.</p>
-                <p class='fonte18'>A recomendação é manter e sustentar esta posição.</p>
-                <p class='fonte18'>Para isto, reflita e mantenha atualizada sua visão. Aumente seu comprometimento com ela, não se acomode, sua Visão pode ser impactada por suas experiências e pelas mudanças do meio em que você está inserido. </p>
-                <p class='fonte18'>E quanto à Ação, procure mantê-la atrelada e não dissociada da Visão. Pergunte-se se as ações que você empreende, a forma em que você trabalha contribui para a realização da Visão. </p>
-                <p class='fonte18'>Basicamente você tem que controlar que as duas dimensões Visão/Ação continuem articuladas: </p>
-                <p class='fonte18'>É um trabalho de <b>Manutenção</b></p>";
+                <p class='fonte18'>Caracterizamos sua posição como sendo uma posição <b>EMPREENDEDORA</b> e de alta Produtividade.</p>
+                <p class='fonte18'>Excelente Diagnóstico.</p>";
+                $retorno['recomendacao'] = "<p class='fonte18'>Você está na posição ideal do Modelo, apresentando Visão clara e estruturada e mostra forte disposição para a Ação.</p>
+                <p class='fonte18'>A Recomendação é manter e sustentar esta posição.</p>
+                <p class='fonte18'>Para isto, reflita e mantenha atualizada sua Visão. Aumente seu comprometimento com ela, não se acomode, sua Visão pode ser impactada por suas experiências e pelas mudanças do meio em que você está inserido.</p>
+                <p class='fonte18'>E quanto à Ação, procure mantê-la atrelada e não dissociada da Visão. Pergunte-se se as Ações que você empreende, a forma em que você trabalha contribui para a realização da Visão.</p>
+                <p class='fonte18'>Basicamente, você tem que controlar as duas dimensões Visão/Ação, para que continuem articuladas e com alto nível de desempenho.</p>
+                <p class='fonte18'>Sua situação em relação a este Instrumento é muito confortável. Você deve fazer apenas um trabalho de <b>Manutenção</b>.</p>";
             }
         }
         if($visao < 8 && $visao >= 3){
             if($acao <= 3){
                 $retorno['titulo'] = "Visão Média - Ação Baixa";
                 $retorno['diagnostico'] = "<p class='fonte18'>Sua Visão está relativamente estruturada, porém ainda não tem força para motivar sua Ação.</p>
-                <p class='fonte18'>Esta pode ser a causa do seu nível baixo de Ação. Esta combinação de Visão e Ação compromete sua produtividade, que, como conseqüência, é baixa, mas ao mesmo tempo representa grande oportunidade de desenvolver sua produtividade e alcançar extraordinários resultados.</p>";
-                $retorno['recomendacao'] = " <p class='fonte18'>De acordo com seu diagnóstico você tem que definir e estruturar ainda mais sua Visão e aumentar seu nível de Ação.</p>
+                <p class='fonte18'>Esta pode ser a causa do seu nível baixo de Ação. Esta combinação de Visão e Ação compromete sua produtividade, que, como consequência, é baixa, mas ao mesmo tempo representa grande oportunidade de desenvolver sua produtividade e alcançar extraordinários resultados.</p>";
+                $retorno['recomendacao'] = " <p class='fonte18'>De acordo com seu Diagnóstico, você tem que definir e estruturar ainda mais sua Visão e aumentar seu nível de Ação.</p>
                 <p class='fonte18'>Para desenvolver sua Visão, pense e reflita o que você quer para seu futuro, onde você gostaria de chegar. Sonhe o que é ideal para seu futuro, pense no seu Plano de Vida, defina objetivos estratégicos.</p>
-                <p class='fonte18'>A Visão se desenvolve quando você busca um objetivo maior para sua vida, e nessa “razão de ser” você insere seus objetivos profissionais. Pergunte-se: qual é a minha missão nessa vida, onde eu quero chegar, o que me faz realmente feliz? Isto não é auto-ajuda, isto é ter uma estratégia para a vida.</p>
-                <p class='fonte18'>Até a Medicina Pós Genômica, a mais avançada que existe, recomenda esta postura perante a vida para prevenir doenças!</p>
-                <p class='fonte18'>Em relação à Ação, procure agir com método, com técnica, para evitar a dispersão. Utilize o instrumento 19 – Plano de Ação porque ele permite estruturar as atividades que devem ser desenvolvidas para aumentar a produtividade de suas ações.</p>
-                <p class='fonte18'>Implemente estas recomendações e você verificará uma mudança significativa nos seus resultados e alcançará com mais facilidade suas metas de venda</p>";
+                <p class='fonte18'>A Visão se desenvolve quando você busca um objetivo maior para sua vida, e nessa “razão de ser” você insere seus objetivos profissionais. Pergunte-se: qual é a minha missão nessa vida, onde eu quero chegar, o que me faz realmente feliz? Isto não é autoajuda, isto é ter uma estratégia para a vida.</p>
+                <p class='fonte18'>Até a Medicina Pós-genômica, a mais avançada que existe, recomenda esta postura perante a vida para prevenir doenças!</p>
+                <p class='fonte18'>Em relação à Ação, procure agir com método, com técnica, para evitar a dispersão. Utilize o Instrumento 19 – Plano de Ação, porque ele permite estruturar as atividades que devem ser desenvolvidas para aumentar a produtividade de suas Ações.</p>
+                <p class='fonte18'>Implemente estas Recomendações e você verificará uma mudança significativa nos seus resultados e alcançará com mais facilidade suas Metas de Vendas.</p>";
             }
             else if($acao > 3 && $acao <= 7){
                 //4
                 $retorno['titulo'] = "Visão Média - Ação Média";
                 $retorno['diagnostico'] = "<p class='fonte18'>Você apresenta uma Visão não muito clara, não muito estruturada, ela existe, mas não está suficientemente desenvolvida ou elaborada.</p>
-                <p class='fonte18'>Sua energia e determinação para a ação, para implementar decisões tomadas apresenta um nível intermediário.</p>
-                <p class='fonte18'>Seu resultado o coloca na posição do <b>MEIO TERMO</b></p>";
-                $retorno['recomendacao'] = "<p class='fonte18'>A recomendação conforme o resultado do seu diagnóstico consiste em estruturar, em desenvolver mais, tanto sua Visão como sua Ação.</p>
+                <p class='fonte18'>Sua energia e determinação para a Ação, para implementar decisões tomadas, apresenta um nível intermediário.</p>
+                <p class='fonte18'>Seu resultado o coloca na posição do <b>MEIO-TERMO</b>. Você apresenta um grande potencial para aumentar sua produtividade e melhorar seus resultados nas duas dimensões.</p>";
+                $retorno['recomendacao'] = "<p class='fonte18'>A Recomendação, conforme o resultado do seu Diagnóstico, consiste em estruturar, em desenvolver mais, tanto sua Visão como sua Ação.</p>
                 <p class='fonte18'>Você poderá alcançar objetivos estratégicos aplicando o Plano de Ação proposto no Instrumento 19 – Planos de Ação Quantitativos para alcançar Metas de Vendas.</p>
-                <p class='fonte18'>Quando você receber as recomendações do Instrumento 19, você poderá aplicar um formulário específico para estruturar e operacionalizar sua Visão</p>
-                <p class='fonte18'>Este plano de ação também pode ser aplicado para seus objetivos de vida, não apenas para seus objetivos profissionais.</p>
-                <p class='fonte18'>Em relação à Ação, utilize e implemente o mesmo instrumento 19 porque ele permite estruturar as atividades que devem ser desenvolvidas e aumentar sua motivação para energizar sua Visão e suas Ações. </p>
-                <p class='fonte18'>Desenvolva sua Visão e atrele suas ações à sua Visão, como um meio para alcançá-la</p>";
+                <p class='fonte18'>Quando você receber as Recomendações do Instrumento 19, você poderá aplicar um formulário específico para estruturar e operacionalizar sua Visão.</p>
+                <p class='fonte18'>Este Plano de Ação também pode ser aplicado para seus objetivos de vida, não apenas para seus objetivos profissionais.</p>
+                <p class='fonte18'>Em relação à Ação, utilize e implemente o mesmo Instrumento 19, porque ele permite estruturar as atividades que devem ser desenvolvidas e aumentar sua motivação para energizar sua Visão e suas Ações.</p>
+                <p class='fonte18'>Desenvolva sua Visão e atrele suas Ações à sua Visão, como um meio para alcançá-la.</p>";
             }
             else if($acao > 7){
                 $retorno['titulo'] = "Visão Média - Ação Alta";
                 $retorno['diagnostico'] = "<p class='fonte18'>Você apresenta uma Visão não muito clara, não muito estruturada, ela existe, mas não está suficientemente desenvolvida ou elaborada.</p>
-                <p class='fonte18'>O nível de Ação alto significa tendência a uma atividade intensa, porém não muito associada a sua Visão, o que leva a que suas decisões e atividades não tenham um contexto estratégico.</p>
-                <p class='fonte18'>Esta é uma posição própria de uma ação Gerencial, um perfil gerencial.</p>
-                <p class='fonte18'>Você tem um enorme espaço para melhorar seus resultados e aumentar sua produtividade, desenvolvendo os 2 eixos do modelo.</p>";
-                $retorno['recomendacao'] = "<p class='fonte18'>Seu nível de Ação é excelente, mas você tem que desenvolver a força de sua Visão, ela deve estar mais clara e estruturada. Para desenvolver a Visão pense e reflita sobre o que você quer para seu futuro, onde você gostaria de chegar.</p>
+                <p class='fonte18'>O nível de Ação alto significa tendência a uma atividade intensa, porém não muito associada à sua Visão, o que faz com que suas decisões e atividades não tenham um contexto estratégico.</p>
+                <p class='fonte18'>Esta é uma posição própria de uma Ação Gerencial, um Perfil Gerencial.</p>
+                <p class='fonte18'>Você tem um enorme espaço para melhorar seus resultados e aumentar sua produtividade, desenvolvendo os dois eixos do modelo.</p>";
+                $retorno['recomendacao'] = "<p class='fonte18'>Seu nível de Ação é excelente, mas você tem que desenvolver a força de sua Visão, ela deve estar mais clara e estruturada. Para desenvolver a Visão, pense e reflita sobre o que você quer para seu futuro, onde você gostaria de chegar.</p>
                 <p class='fonte18'>Sonhe o que é ideal para seu futuro, pense no seu Plano de Vida e defina objetivos estratégicos.</p>
                 <p class='fonte18'>Você poderá alcançar objetivos estratégicos aplicando o Plano de Ação proposto no Instrumento 19.</p>
-                <p class='fonte18'>A Visão se desenvolve quando você busca um objetivo maior para sua vida e nessa 'razão de ser' você insere seus objetivos profissionais.</p>
-                <p class='fonte18'>Feito isto, procure manter a Ação atrelada e não dissociada da Visão. Pergunte-se se as ações que você empreende, a forma em que você trabalha, contribui para a realização da Visão.</p>
-                <p class='fonte18'>Basicamente você tem que controlar que as duas dimensões Visão/Ação estejam articuladas e com alto nível de desempenho.</p>";
+                <p class='fonte18'>A Visão se desenvolve quando você busca um objetivo maior para sua vida e nessa 0“razão de ser“ você insere seus objetivos profissionais.</p>
+                <p class='fonte18'>Feito isto, procure manter a Ação atrelada e não dissociada da Visão. Pergunte-se se as Ações que você empreende, a forma que você trabalha, contribui para a realização da Visão.</p>
+                <p class='fonte18'>Basicamente, você tem que controlar as duas dimensões Visão/Ação, para que estejam articuladas e com alto nível de desempenho.</p>";
             }
         } 
         if($visao < 3){
             if($acao <= 3){
                 //2
                 $retorno['titulo'] = "Visão Baixa - Ação Baixa";
-                $retorno['diagnostico'] = "<p class='fonte18'>Você não apresenta uma Visão clara e estruturada, o que significa que suas decisões e ações tendem a ser tomadas focalizando o curto prazo, sem contexto estratégico. Visão baixa leva ao imediatismo. Ação baixa significa ter pouca energia para desenvolver trabalhos, assumindo posturas mais contemplativas. É uma posição de <b>APATIA</b></p>";
+                $retorno['diagnostico'] = "<p class='fonte18'>Você não apresenta uma Visão clara e estruturada, o que significa que suas decisões e ações tendem a ser tomadas focalizando o curto prazo, sem contexto estratégico. Visão Baixa leva ao imediatismo. Ação Baixa significa ter pouca energia e motivação para desenvolver trabalhos. Esta combinação de Visão e Ação se traduz em posturas mais contemplativas.</p>
+                <p>É uma posição de <b>APATIA</b>, porém com grande potencial para aumentar sua Produtividade e melhorar seus resultados.</p>";
                 $retorno['recomendacao'] = "<p class='fonte18'>Você tem que desenvolver sua Visão e energizar sua Ação.</p>
                 <p class='fonte18'>Para desenvolver sua Visão, pense e reflita o que você quer para seu futuro, onde você gostaria de chegar. Sonhe o que é ideal para seu futuro, pense no seu Plano de Vida, defina objetivos estratégicos.</p>
                 <p class='fonte18'>Você poderá alcançar objetivos estratégicos aplicando o Plano de Ação proposto no Instrumento 19 – Planos de Ação Quantitativos para alcançar Metas de Vendas.</p>
@@ -183,33 +185,33 @@ class InstrumentoController extends Controller
             else if($acao > 3 && $acao <= 7){
                 $retorno['titulo'] = "Visão Baixa - Ação Média";
                 $retorno['diagnostico'] = "<p class='fonte18'>Você não apresenta uma Visão clara e estruturada, o que significa que suas decisões e ações tendem a serem tomadas focalizando o curto prazo, sem contexto estratégico.</p>
-                <p class='fonte18'>Visão baixa leva ao imediatismo. Ação média significa ter uma relativa energia e determinação para desenvolver trabalhos.</p>
-                <p class='fonte18'>Este perfil lhe dá um enorme espaço para melhorar seus resultados e aumentar sua produtividade, desenvolvendo os 2 eixos do modelo.</p>";
+                <p class='fonte18'>Visão Baixa leva ao imediatismo. Ação Média significa ter uma relativa energia e determinação para desenvolver trabalhos.</p>
+                <p class='fonte18'>Este perfil lhe dá um enorme espaço para melhorar seus resultados e aumentar sua produtividade, desenvolvendo os dois eixos do modelo.</p>";
                 $retorno['recomendacao'] = "<p class='fonte18'>Você tem que desenvolver sua Visão e energizar sua Ação.</p>
                 <p class='fonte18'>Para desenvolver sua Visão, pense e reflita o que você quer para seu futuro, onde você gostaria de chegar. Sonhe o que é ideal para seu futuro, pense no seu Plano de Vida, defina objetivos estratégicos.</p>
-                <p class='fonte18'>A Visão se desenvolve quando você busca um objetivo maior para sua vida, e nessa “razão de ser” você insere seus objetivos profissionais. Pergunte-se: qual é a minha missão nessa vida, onde eu quero chegar, o que me faz realmente feliz? Isto não é auto-ajuda, isto é ter uma estratégia para a vida.</p>
-                <p class='fonte18'>Até a Medicina Pós Genômica, a mais avançada que existe, recomenda esta postura perante a vida para prevenir doenças!</p>
-                <p class='fonte18'>Você poderá alcançar objetivos estratégicos aplicando o Plano de Ação proposto no Instrumento 19 – Planos de Ação Quantitativos para alcançar Metas de Vendas.</p>
-                <p class='fonte18'>A recomendação conforme o resultado do seu diagnóstico consiste em estruturar, em desenvolver mais sua Visão.</p>
+                <p class='fonte18'>A Visão se desenvolve quando você busca um objetivo maior para sua vida, e nessa “razão de ser” você insere seus objetivos profissionais. Pergunte-se: qual é a minha missão nessa vida, onde eu quero chegar, o que me faz realmente feliz? Isto não é autoajuda, isto é ter uma estratégia para a vida.</p>
+                <p class='fonte18'>Até a Medicina Pós-genômica, a mais avançada que existe, recomenda esta postura perante a vida para prevenir doenças!</p>
+                <p class='fonte18'>Você poderá alcançar objetivos estratégicos aplicando o Plano de Ação proposto no Instrumento 19 – Planos de Ação Quantitativos, para alcançar as Metas de Vendas.</p>
+                <p class='fonte18'>A Recomendação conforme o resultado do seu Diagnóstico consiste em estruturar, em desenvolver mais sua Visão.</p>
                 <p class='fonte18'>Em relação à Ação procure agir com método, com técnica para evitar a dispersão.</p>
-                <p class='fonte18'>Utilize o instrumento 19 (Plano de Ação) porque ele permite estruturar as atividades que devem ser desenvolvidas para aumentar a Produtividade de suas Ações.</p>
-                <p class='fonte18'>Desenvolva sua Visão e atrele suas ações à sua Visão, como um meio para alcançá-la</p>
-                <p class='fonte18'>Você deve dar mais contexto estratégico a suas ações e menos imediatismo, em síntese, você deve aumentar o Poder da Visão e atrelar a ela suas ações.</p>
-                <p class='fonte18'>Implemente estas recomendações e você verificará mudanças significativas nos seus resultados e alcançará com mais facilidades suas metas de vendas.</p>";
+                <p class='fonte18'>Utilize o Instrumento 19 (Plano de Ação) porque ele permite estruturar as atividades que devem ser desenvolvidas para aumentar a Produtividade de suas Ações.</p>
+                <p class='fonte18'>Desenvolva sua Visão e atrele suas Ações à sua Visão, como um meio para alcançá-la.</p>
+                <p class='fonte18'>Você deve dar mais contexto estratégico a suas Ações e menos imediatismo, em síntese, você deve aumentar o Poder da Visão e atrelar a ela suas Ações.</p>
+                <p class='fonte18'>Implemente estas Recomendações e você verificará mudanças significativas nos seus resultados e alcançará com mais facilidades as suas Metas de Vendas.</p>";
             }
             else if($acao >7){
                 //5
                 $retorno['titulo'] = "Visão Baixa - Ação Alta";
-                $retorno['diagnostico'] = "<p class='fonte18'>Você privilegia a ação, e a visão não tem uma estrutura clara e nem definida. Suas ações são táticas e orientadas para o curto prazo.</p>
-                <p class='fonte18'>Sua ação não é estratégia, porem você tem energia e determinação para desenvolver atividades.  É a posição do <b>TRABALHADOR</b></p>";
-                $retorno['recomendacao'] = "<p class='fonte18'>A recomendação conforme o resultado do seu diagnóstico consiste em estruturar e em desenvolver mais sua Visão.</p>
+                $retorno['diagnostico'] = "<p class='fonte18'>Você privilegia a Ação, e a Visão não tem uma estrutura clara e nem definida. Suas ações são táticas e orientadas para o curto prazo.</p>
+                <p class='fonte18'>Sua Ação não é estratégica, porém você tem energia e determinação para desenvolver atividades.</p>
+                <p class='fonte18'>É a posição do <b>TRABALHADOR</b>. Você tem Ação Alta, portanto um grande potencial para aumentar sua produtividade e melhorar seus resultados, desenvolvendo o eixo da Visão.</p>";
+                $retorno['recomendacao'] = "<p class='fonte18'>A Recomendação, conforme o resultado do seu Diagnóstico, consiste em estruturar e em desenvolver mais sua Visão.</p>
                 <p class='fonte18'>Você poderá alcançar os objetivos estratégicos da Visão aplicando o Plano de Ação proposto no Instrumento 19 – Planos de Ação Quantitativos para alcançar Metas de Vendas.</p>
-                <p class='fonte18'>Quando você receber as recomendações do Instrumento 19, você poderá aplicar um formulário especifico para estruturar e operacionalizar sua Visão</p>
                 <p class='fonte18'>Este Plano de Ação também pode ser aplicado para seus objetivos de vida, não apenas para seus objetivos profissionais.</p>
-                <p class='fonte18'>Em relação à Ação, utilize o mesmo instrumento 19 porque ele permite estruturar as atividades que devem ser desenvolvidas e aumentar a sua motivação para energizar sua Visão e suas Ações. </p>
-                <p class='fonte18'>Desenvolva sua Visão e atrele suas Ações à sua Visão, como um meio para alcançá-la </p>
-                <p class='fonte18'>Você deve dar mais contexto estratégico a suas ações e ter menos imediatismo.</p>
-                <p class='fonte18'>Em síntese, você deve aumentar o Poder da Visão e atrelar a ela suas Ações </p>";
+                <p class='fonte18'>Em relação à Ação, utilize o mesmo Instrumento 19 porque ele permite estruturar as atividades que devem ser desenvolvidas e aumentar a sua motivação para energizar sua Visão e suas Ações.</p>
+                <p class='fonte18'>Desenvolva sua Visão e atrele suas Ações à sua Visão, como um meio para alcançá-la.</p>
+                <p class='fonte18'>Você deve dar mais contexto estratégico às suas Ações e ter menos imediatismo.</p>
+                <p class='fonte18'>Em síntese, você deve aumentar o Poder da Visão e atrelar a ela suas Ações.</p>";
             }
         }
 

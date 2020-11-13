@@ -111,8 +111,8 @@
                     <center>DIAGNÓSTICO</center>
                 </h4>
             </p>
-            <p class="fonte18">O diagnóstico se apóia na avaliação de duas dimensões: a VISÃO e a AÇÃO.</p>
-            <p class="fonte18">O diagnóstico é fundamentado na correlação que suas respostas apresentam nestes dois eixos.</p>
+            <p class="fonte18">O Diagnóstico se apoia na avaliação de duas dimensões: a VISÃO e a AÇÃO.</p>
+            <p class="fonte18">O Diagnóstico é fundamentado na correlação que suas respostas apresentam nestes dois eixos.</p>
             <p class="fonte18">Vamos caracterizar os dois eixos do Diagnóstico.</p>
             <p class="fonte18">
                 <h4>VISÃO</h4>
@@ -121,17 +121,17 @@
             <p class="fonte18">Visão é trabalhar com brilho nos olhos, porque seu trabalho está associado com algo maior, com algo mais transcendente que você quer alcançar.</p>
             <p class="fonte18">A Visão auxilia na condução do processo decisório. A Visão estimula a criatividade, é a capacidade de pensar em soluções com os olhos voltados para uma nova realidade e a habilidade para propor soluções inovadoras.</p>
             <p class="fonte18">Ter Visão de Futuro é fundamental para dar coerência às decisões presentes. </p>
-            <p class="fonte18">Lembrando o filosofo Sêneca: “Se você não sabe para onde ir, qualquer vento serve”</p>
+            <p class="fonte18">Lembrando o filosofo Sêneca: “Se você não sabe para onde ir, qualquer vento serve”.</p>
             <p class="fonte18">
                 <h4>AÇÃO</H4>
             </p>
-            <p class="fonte18">Ação é sinônimo de tomar decisões e implementá-las</p>
+            <p class="fonte18">Ação é sinônimo de tomar decisões e implementá-las.</p>
             <p class="fonte18">Ação é atividade, é trabalho sobre a realidade para alcançar objetivos.</p>
-            <p class="fonte18">A ação se contrapõe à contemplação, à passividade. É a capacidade de agir, de transformar, de fazer esforços para alcançar um objetivo.</p>
-            <p class="fonte18">A figura seguinte mostra a correlação entre a Visão e a Ação e todas as combinações possíveis de valores</p>
+            <p class="fonte18">A Ação se contrapõe à contemplação, à passividade. É a capacidade de agir, de transformar, de fazer esforços para alcançar um objetivo.</p>
+            <p class="fonte18">A figura seguinte mostra a correlação entre a Visão e a Ação e todas as combinações possíveis de valores:</p>
             <center><img src="../posicionamento/public/img/instrumento1/diag1_2.png" style="width: 50%"></center>
             <br>
-            <p class="fonte18">A seguir apresentamos sua posição diagnóstica considerando suas respostas ao questionário.</p>
+            <p class="fonte18">A seguir, apresentamos sua posição diagnóstica considerando suas respostas ao questionário:</p>
 
             <div class="row">
                 <div class="col-12" style="">
@@ -171,7 +171,7 @@
 
             <br>
 
-            <p class="fonte18">Projetando estes resultados no gráfico de correlação VISÃO/AÇÃO acima apresentado , seu diagnóstico é o seguinte</p>
+            <p class="fonte18">Projetando estes resultados no gráfico de correlação VISÃO/AÇÃO acima apresentado, seu Diagnóstico é o seguinte:</p>
 
         </div>
     </div>
@@ -334,7 +334,7 @@
     <div class="card-body">
         <div class="col-12">
 
-            <p class="fonte18">De acordo com sua posição no gráfico, seu diagnóstico é:</p>
+            <p class="fonte18">De acordo com sua posição no gráfico, seu Diagnóstico é:</p>
 
             <!-- RESPOSTA DE ACORDO COM REQUISIÇÃO -->
             <table border=1>
@@ -354,9 +354,9 @@
                 </h4>
             </p>
 
-            <p class="fonte18">Conforme seu diagnóstico, as recomendações são as seguintes:</p>
+            <p class="fonte18">Conforme seu Diagnóstico, as Recomendações são as seguintes:</p>
             <p class="fonte18">Num sentido amplo e estratégico você deve desenvolver sua Visão e sua Ação passando do seu atual Nível de Visão <b>{{$visao}}</b> para o Nível de Visão 10 e passando do seu atual Nível de Ação <b>{{$acao}}</b> para o Nível de Ação 10.</p>
-            <p class="fonte18">No seu caso a recomendação é:</p>
+            <p class="fonte18">No seu caso a Recomendação é:</p>
 
             <table border=1>
                 <tr>
