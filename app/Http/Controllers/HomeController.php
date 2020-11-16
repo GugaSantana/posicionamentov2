@@ -166,9 +166,25 @@ class HomeController extends Controller
         }
         else{
             $instrumentoController = new InstrumentoController();
-            return $instrumentoController->instrumento11($instrumento);
+            if($instrumento->type == 'pf'){
+                return $instrumentoController->instrumento11pf($instrumento);
+            }
+            else{
+                return $instrumentoController->instrumento11pj($instrumento);
+            }
         }    
     }
+
+    public function instrumento11pf()
+    {
+        return view('instrumento11pf');
+    }
+
+    public function instrumento11pj()
+    {
+        return view('instrumento11pj');
+    }
+
     public function instrumento12()
     {
         $instrumento = Instrumento12::where('user_id', Auth::User()->id)->first();

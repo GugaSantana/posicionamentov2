@@ -869,13 +869,14 @@ class InstrumentoController extends Controller
 
     //========== INSTRUMENTO 11 ==========
 
-    public function requestInstrumento11(Request $request){
+    public function requestInstrumento11pf(Request $request){
         $data = $request->all();
 
         //salva no BD
         $dataBd = [
             'user_id' => Auth::User()->id,
             'data' => $data,
+            'type' => 'pf',
             'done' => true
         ];
         if(Auth::User()->role_id != 1){
@@ -885,10 +886,30 @@ class InstrumentoController extends Controller
         $instrumento11 = new Instrumento11;
         $instrumento11->data = $data;
 
-        return $this->instrumento11($instrumento11);
+        return $this->instrumento11pf($instrumento11);
     }
 
-    public function requestInstrumento11_2(Request $request){
+    public function requestInstrumento11pj(Request $request){
+        $data = $request->all();
+
+        //salva no BD
+        $dataBd = [
+            'user_id' => Auth::User()->id,
+            'data' => $data,
+            'type' => 'pj',
+            'done' => true
+        ];
+        if(Auth::User()->role_id != 1){
+            Instrumento11::create($dataBd);
+            UserInstrumento::create(['user_id' => Auth::User()->id, 'instrumento' => 11]) ;
+        }
+        $instrumento11 = new Instrumento11;
+        $instrumento11->data = $data;
+
+        return $this->instrumento11pj($instrumento11);
+    }
+
+    public function requestInstrumento11_2pf(Request $request){
         $data = $request->all();
 
         $instrumento11 = Instrumento11::where('user_id', Auth::User()->id)->first();
@@ -898,13 +919,30 @@ class InstrumentoController extends Controller
             $instrumento11->save();
         }
 
-        return $this->instrumento11($instrumento11);
+        return $this->instrumento11pf($instrumento11);
     }
 
-    public function instrumento11($data){
-        return view('diagnostico11')->with(compact('data'));
+    public function requestInstrumento11_2pj(Request $request){
+        $data = $request->all();
+
+        $instrumento11 = Instrumento11::where('user_id', Auth::User()->id)->first();
+        $instrumento11->data_diag = $data;
+        
+        if(Auth::User()->role_id != 1){
+            $instrumento11->save();
+        }
+
+        return $this->instrumento11pj($instrumento11);
     }
 
+    public function instrumento11pf($data){
+        return view('diagnostico11pf')->with(compact('data'));
+    }
+
+    public function instrumento11pj($data){
+        // dd($data->data);
+        return view('diagnostico11pj')->with(compact('data'));
+    }
     //========== INSTRUMENTO 12 ==========
 
     public function requestInstrumento12(Request $request){

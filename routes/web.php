@@ -36,6 +36,9 @@ Route::get('/instrumento8', 'HomeController@instrumento8')->middleware('instrume
 Route::get('/instrumento9', 'HomeController@instrumento9')->middleware('instrumento_permission:9');
 Route::get('/instrumento10', 'HomeController@instrumento10')->middleware('instrumento_permission:10');
 Route::get('/instrumento11', 'HomeController@instrumento11')->middleware('instrumento_permission:11');
+Route::get('/instrumento11/pf', 'HomeController@instrumento11pf')->middleware('instrumento_permission:11');
+Route::get('/instrumento11/pj', 'HomeController@instrumento11pj')->middleware('instrumento_permission:11');
+
 Route::get('/instrumento12', 'HomeController@instrumento12')->middleware('instrumento_permission:12');
 Route::get('/instrumento13', 'HomeController@instrumento13')->middleware('instrumento_permission:13');
 Route::get('/instrumento14', 'HomeController@instrumento14')->middleware('instrumento_permission:14');
@@ -101,8 +104,11 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 	Route::post('8', 'InstrumentoController@requestInstrumento8');
 	Route::post('9', 'InstrumentoController@requestInstrumento9');
 	Route::post('10', 'InstrumentoController@requestInstrumento10');
-	Route::post('11', 'InstrumentoController@requestInstrumento11');
-	Route::post('11_2', 'InstrumentoController@requestInstrumento11_2');
+	Route::post('11/pf', 'InstrumentoController@requestInstrumento11pf');
+	Route::post('11/pj', 'InstrumentoController@requestInstrumento11pj');
+	
+	Route::post('11_2/pf', 'InstrumentoController@requestInstrumento11_2pf');
+	Route::post('11_2/pj', 'InstrumentoController@requestInstrumento11_2pj');
 	Route::post('12', 'InstrumentoController@requestInstrumento12');
 	Route::post('13', 'InstrumentoController@requestInstrumento13');
 	Route::post('14', 'InstrumentoController@requestInstrumento14');
