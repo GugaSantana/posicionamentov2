@@ -32,10 +32,10 @@
                                 <center>Levantamento de Informações</center>
                             </h4>
                         
-                        <p class="fonte18">Este instrumento está relacionado com o instrumento 4. Tem o mesmo objetivo, só que agora vamos medir o nível de seu conhecimento em relação aos produtos concorrentes.</p>
-                        <p class="fonte18">Avaliaremos o conhecimento que você tem dos produtos concorrentes nos mesmos termos que avaliamos o quanto você conhece os produtos que você vende (benefícios, valor, atributos, preços, composição)</p>
-                        <p class="fonte18">Muitas vezes o cliente conhece mais dos seus produtos concorrentes do que você e se você não está à altura do conhecimento que seu cliente tem dos produtos concorrentes, você poderá ter dificuldades para neutralizar os obstáculos e mostrar fragilidade, o que pode transmitir insegurança com o risco de perder credibilidade junto ao cliente.</p>
-                        <p class="fonte18">Conforme foi apresentado no instrumento anterior, são necessárias duas dimensões estratégicas</p>
+                        <p class="fonte18">Este Instrumento está relacionado com o Instrumento 4. Tem o mesmo objetivo, só que agora vamos medir o nível de seu conhecimento em relação aos produtos concorrentes.</p>
+                        <p class="fonte18">Avaliaremos o conhecimento que você tem dos produtos concorrentes nos mesmos termos que avaliamos o quanto você conhece os produtos que você vende (benefícios, valor, atributos, preços, composição).</p>
+                        <p class="fonte18">Muitas vezes, o cliente conhece mais dos seus produtos concorrentes do que você e se você não está à altura do conhecimento que seu cliente tem dos produtos concorrentes, você poderá ter dificuldades para neutralizar os obstáculos e vai mostrar fragilidade, o que pode transmitir insegurança, com o risco de perder credibilidade junto ao cliente.</p>
+                        <p class="fonte18">Conforme foi apresentado no Instrumento anterior, são necessárias duas dimensões estratégicas.</p>
                         <p class="fonte18">Você deve dominar:</p>
 
                         <div class="row">
@@ -59,8 +59,8 @@
 
                         <br>
                         
-                        <p class="fonte18">O Conhecimento dos meus produtos e dos produtos concorrentes se refere ao QUE VENDO, enquanto as Técnicas de Vendas tratam de COMO VENDO.</p>
-                        <p class="fonte18">Este instrumento aborda o item B – O conhecimento dos Produtos / Serviços Concorrentes.</p>
+                        <p class="fonte18">O conhecimento dos meus produtos e dos produtos concorrentes se refere ao QUE VENDO, enquanto as Técnicas de Vendas tratam de COMO VENDO.</p>
+                        <p class="fonte18">Este Instrumento aborda o item B – O conhecimento dos Produtos / Serviços Concorrentes.</p>
 
                         </div>
                         <br>
@@ -68,9 +68,9 @@
                             <p class="fonte18"><b>INSTRUÇÕES</b></p>
 
                             <p class="fonte18">Para responder este Instrumento, considere os 10 mais importantes produtos que concorrem com os que você vende e reflita em que medida você considera que conhece esses produtos.</p>
-                            <p class="fonte18">Conhecer um produto concorrente significa conhecer os benefícios que leva ao cliente, que necessidades do cliente atende, os atributos dos produtos, sua composição, entre outras dimensões.</p>
+                            <p class="fonte18">Conhecer um produto concorrente significa conhecer os benefícios que este leva ao cliente, que necessidades do cliente atende, os atributos dos produtos, sua composição, entre outras dimensões.</p>
                             <p class="fonte18">Naturalmente que você pode conhecer alguns produtos concorrentes mais do que outros.</p>
-                            <p class="fonte18">Na seguinte Matriz registre os 10 principais produtos concorrentes e o nível de conhecimento que você considera ter de cada um deles</p>
+                            <p class="fonte18">Na seguinte Matriz, registre os 10 principais produtos concorrentes e o nível de conhecimento que você considera ter de cada um deles.</p>
                             <p class="fonte18">Utilize a escala abaixo para estabelecer o quanto você conhece de cada produto.</p>
 
                             <center><img src="../posicionamento/public/img/instrumento5/inst5_2.png"></center>
