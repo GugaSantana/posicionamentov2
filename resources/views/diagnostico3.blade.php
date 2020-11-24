@@ -96,18 +96,18 @@
                     <div class="col-12">
                         <h4><center>Diagnóstico e Recomendações</center></h4>
                         <br>
-                    <p class="fonte18">Para ser bem-sucedido, o profissional de vendas deve ter um conjunto de competências relevantes e específicas. No questionário deste instrumento que você respondeu, foram apresentadas 19 competências de vendas.</p>
-                    <p class="fonte18">Foi feito seu diagnóstico em relação ao domínio que você tem delas, assim como recomendações para melhorá-las.</p>
-                    <p class="fonte18">Melhorar uma competência é resolver desvios, conceito apresentado no Instrumento anterior.</p>
-                    <p class="fonte18">O desvio que deve ser resolvido é o hiato, isto é, a distância que existe entre o domínio ideal da competência e a medida em que essa competência está presente no exercício cotidiano de sua atividade profissional.</p>
-                    <p class="fonte18">Este conceito de distância entre o domínio pleno das competências e o domínio atual dessas competências está ilustrado na figura seguinte:</p>
+                    <p class="fonte18">Para ser bem-sucedido, o profissional de vendas deve ter um conjunto de competências relevantes e específicas. No questionário deste Instrumento que você respondeu, foram apresentadas 19 Competências de Vendas.</p>
+                    <p class="fonte18">Seu Diagnóstico foi elaborado em relação ao domínio que você tem delas, assim como as Recomendações para melhorá-las.</p>
+                    <p class="fonte18">Melhorar uma Competência é resolver desvios, conceito apresentado no Instrumento anterior.</p>
+                    <p class="fonte18">O desvio que deve ser resolvido é o hiato, isto é, a distância que existe entre o domínio ideal da Competência e a medida em que essa Competência está presente no exercício cotidiano de sua atividade profissional.</p>
+                    <p class="fonte18">Este conceito de distância entre o domínio pleno das Competências e o domínio atual dessas Competências está ilustrado na figura seguinte:</p>
                    
                     <center><img src="../posicionamento/public/img/instrumento3/diag3_1_new2.jpg" style="width: 60%;"></center>
                    
                     <br>
                     <p class="fonte18"><h4><center>DIAGNÓSTICO</center></h4></p>
 
-                    <p class="fonte18">Como diagnóstico, a seguir são apresentadas as competências para vendas que você apresenta conforme as respostas que você deu ao questionário deste instrumento.</p>
+                    <p class="fonte18">Como Diagnóstico, a seguir são apresentadas as Competências para Vendas que você apresenta conforme as respostas que você deu ao questionário deste Instrumento.</p>
 
                     <!-- Primeira tabela ordem de prioridade-->
                         
@@ -156,25 +156,25 @@
                                 @php
                             $table1 = 
                             [
-                            "Como você classificaria seu nível de conhecimento dos serviços/produtos que você vende?",
-                            "Em que medida você conhece os processos de negócios, a organização, os negócios e as tendências dos negócios da empresa?",
-                            "Qual é seu conhecimento das necessidades e exigências do mercado em que você atua?",
-                            "Quão informado você está sobre os produtos e serviços concorrentes?",
+                            "Como você classificaria o seu nível de conhecimento dos serviços/produtos que você vende?",
+                            "Em que medida você conhece os negócios do cliente: os processos, a organização e as tendências dos negócios da empresa?",
+                            "Qual é o seu conhecimento das necessidades e exigências do Mercado em que você atua?",
+                            "O quanto informado você está sobre os produtos e serviços concorrentes?",
                             "Em que medida você é consciente da importância do relacionamento humano para realizar uma venda?",
-                            "Você sabe ouvir com atenção o que outra pessoa está dizendo em termos de conteúdo e emoções envolvidas?",
-                            "Quão hábil você é para estimular as outras pessoas a expor, com profundidade, seus pensamentos e pontos de vista?",
-                            "Em que grau você é sensível aos sentimentos e as necessidades de outras pessoas?",
-                            "Quão eficiente você é para estabelecer relações nas quais ambas as partes sintam liberdade para oferecer e pedir ajuda?",
+                            "Você sabe ouvir com atenção o que a outra pessoa está dizendo em termos de conteúdo e emoções envolvidas?",
+                            "O quanto hábil você é para estimular as outras pessoas a expor, com profundidade, seus pensamentos e pontos de vista?",
+                            "Em que grau você é sensível aos sentimentos e às necessidades de outras pessoas?",
+                            "O quanto eficiente você é para estabelecer relações nas quais ambas as partes sintam liberdade para oferecer e pedir ajuda?",
                             "Em que medida você se sente preparado para apresentar pontos de vista e argumentos de uma maneira convincente?",
                             "Qual é seu grau de capacidade analítica para tratar das necessidades do cliente?",
-                            "Qual sua capacidade para desenvolver planos e idéias interessantes para o longo prazo?",
+                            "Qual é a sua capacidade para desenvolver planos e ideias interessantes para o longo prazo?",
                             "Em que medida você está atento para a identificação de novas oportunidades de negócios?",
                             "Você é pontual, bem organizado nas apresentações e está sempre disposto para solucionar os problemas do cliente?",
-                            "Qual é sua capacidade para desenvolver propostas criativas e soluções alternativas inovadoras para os problemas e necessidades do cliente?",
+                            "Qual é sua capacidade de desenvolver propostas criativas e soluções alternativas inovadoras para os problemas e necessidades do cliente?",
                             "Você é persistente, segue um plano e mantém o compromisso até os resultados serem atingidos?",
                             "Você procura desenvolver atividades que poderiam ser consideradas como um diferencial em relação à concorrência?",
-                            "Em que medida suas propostas atendem as verdadeiras necessidades de seus clientes?",
-                            "Acredita que você transmite confiança?"
+                            "Em que medida suas propostas atendem às verdadeiras necessidades de seus clientes?",
+                            "Você acredita que transmite confiança?"
                             ];
                         @endphp
 
@@ -212,7 +212,7 @@
                         
                         <br>
 
-                        <p class="fonte18">Este é seu nível de prioridades para desenvolver as 19 competências estratégicas, fundamentais para ter um excelente desempenho em vendas</p>
+                        <p class="fonte18">Este é seu nível de prioridades para desenvolver as 19 Competências Estratégicas, fundamentais para se ter um excelente desempenho em vendas</p>
                         
                         <table class="table table-hover table-bordered">
                             <thead class="bg-primary center">    
@@ -257,10 +257,10 @@
                         <br>
                         <p class="fonte18"><h4><center>RECOMENDAÇÕES</center></h4></p>
                         
-                        <p class="fonte18">Você deve priorizar o desenvolvimento de suas competências começando pelas mais críticas que foram apontadas no diagnóstico.</p>
-                        <p class="fonte18">A partir das definições das competências, você buscará a melhoria delas solicitando orientações aos colegas que você reconhece como excelentes nas competências que você necessita desenvolver, através de pesquisas e estudos pela Internet, palestras, cursos direcionados às diferentes competências e consultando a área de Recursos Humanos da empresa para receber orientações.</p>
-                        <p class="fonte18">As 19 competências poderão ser desenvolvidas e seu desempenho melhorado levando em consideração as recomendações apresentadas em outros instrumentos desta metodologia.</p>
-                        <p class="fonte18">Melhore suas competências seguindo as recomendações dos seguintes Instrumentos para cada competência.</p>
+                        <p class="fonte18">Você deve priorizar o desenvolvimento de suas Competências começando pelas mais críticas que foram apontadas no Diagnóstico.</p>
+                        <p class="fonte18">A partir das definições das Competências, você buscará a melhoria delas solicitando orientações aos colegas, que você reconhece como excelentes nas competências que você necessita desenvolver, através de pesquisas e estudos pela Internet, palestras, cursos direcionados às diferentes Competências e consultando a área de Recursos Humanos da empresa para receber orientações.</p>
+                        <p class="fonte18">As 19 Competências poderão ser desenvolvidas e seu desempenho melhorado, levando-se em consideração as recomendações apresentadas em outros Instrumentos desta Metodologia.</p>
+                        <p class="fonte18">Melhore suas Competências, seguindo as Recomendações dos seguintes Instrumentos para cada Competência.</p>
                         
                         @php
                             $table2_1 = [
