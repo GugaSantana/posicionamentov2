@@ -89,14 +89,14 @@
                             <center>Diagnóstico e Recomendações</center>
                         </h4>
                         <br>
-                        <p class="fonte18">O conhecimento da linha de produtos que você vende é fundamental para seu sucesso em vendas.</p>
-                        <p class="fonte18">As técnicas de vendas somente fazem sentido e contribuirão para seu trabalho se podem se apoiar num sólido conhecimento dos produtos que você vende.</p>
-                        <p class="fonte18">Para ter sucesso em vendas temos que dominar duas coisas: O QUE VENDEMOS, ou seja, o conhecimento dos produtos que vendemos e COMO VENDEMOS, ou seja, as técnicas de vendas.</p>
-                        <p class="fonte18">Esta metodologia fornece Diagnósticos e Recomendações para estas duas dimensões da venda.</p>
-                        <p class="fonte18">Este instrumento aborda um desses dois conteúdos: O QUE VENDO.</p>
-                        <p class="fonte18">A figura seguinte ilustra como você tem que avançar desde uma posição de mínimo conhecimento de seus produtos (Grau 1) até uma posição de máximo conhecimento deles (Grau 10).</p>
-                        <p class="fonte18">O diagnóstico lhe mostrará em que posição você está neste intervalo de conhecimento dos produtos que você vende.</p>
-                        <p class="fonte18">As recomendações lhe orientarão para chegar de maneira estruturada à posição ideal.</p>
+                        <p class="fonte18">O conhecimento da linha de produtos que você vende é fundamental para seu sucesso em Vendas.</p>
+                        <p class="fonte18">As técnicas de Vendas somente vão fazer sentido e contribuirão para seu trabalho se puderem se apoiar num sólido conhecimento dos produtos que você vende.</p>
+                        <p class="fonte18">Para se ter sucesso em Vendas, temos que dominar duas coisas: O QUE VENDEMOS, ou seja, o conhecimento dos produtos que vendemos e COMO VENDEMOS, ou seja, as técnicas de Vendas.</p>
+                        <p class="fonte18">Esta Metodologia fornece Diagnósticos e Recomendações para estas duas dimensões da Venda.</p>
+                        <p class="fonte18">Este Instrumento aborda um desses dois conteúdos: O QUE VENDO.</p>
+                        <p class="fonte18">A figura seguinte ilustra como você tem que avançar, desde uma posição de mínimo conhecimento de seus produtos (Grau 1), até uma posição de máximo conhecimento deles (Grau 10).</p>
+                        <p class="fonte18">O Diagnóstico lhe mostrará em que posição você está neste intervalo de conhecimento dos produtos que você vende.</p>
+                        <p class="fonte18">As Recomendações lhe orientarão para chegar de maneira estruturada à posição ideal.</p>
 
                         <center><img src="../posicionamento/public/img/instrumento4/diag4_1.jpg" style="width: 50%"></center>
 
@@ -107,7 +107,7 @@
                             </h4>
                         </p>
 
-                        <p class="fonte18">Conforme as respostas que você deu na primeira parte deste instrumento, seu diagnóstico em relação ao conhecimento de seus 10 principais produtos é <b>{{$media}}</b> no intervalo da escala de 1 a 10 que foi utilizada.</p>
+                        <p class="fonte18">Conforme as respostas que você deu na primeira parte deste Instrumento, seu Diagnóstico em relação ao conhecimento de seus 10 principais produtos é <b>{{$media}}</b> no intervalo da escala de 1 a 10 que foi utilizada.</p>
                         <p class="fonte18">Meu conhecimento dos meus produtos é:</p>
 
                         <div class="row">
@@ -132,7 +132,7 @@
                         <br>
 
                         <p class="fonte18">Este é o <b>Conhecimento Médio</b> de seus 10 principais produtos, a resultante do conhecimento que você tem dos produtos mais importantes que você vende.</p>
-                        <p class="fonte18">Na planilha seguinte é apresentado o nível de conhecimento que você atribuiu a cada um dos seus principais produtos</p>
+                        <p class="fonte18">Na planilha seguinte é apresentado o nível de conhecimento que você atribuiu a cada um dos seus principais produtos:</p>
 
                         <div class="row">
                             <div class="col-12" style="">
@@ -175,7 +175,7 @@
                         </div>
                         <br>
 
-                        <p class="fonte18">Na tabela abaixo é apresentado o Nível de Conhecimento dos seus produtos por intervalos da escala:</p>
+                        <p class="fonte18">Na tabela abaixo, é apresentado o Nível de Conhecimento dos seus produtos por intervalos da escala:</p>
 
                         <table class="table table-hover table-bordered fonte18">
                             <thead class="bg-primary">
@@ -192,7 +192,7 @@
                                 <td style="text-align: center;">Em percentual</td>
                             </tr>
                             <tr>
-                                <td>1-2 – Conhecimento Insuficiente e crítico, com forte comprometimento da produtividade em vendas.</td>
+                                <td>1-2 – Conhecimento insuficiente e crítico, com forte comprometimento da produtividade em Vendas.</td>
                                 <td style="text-align: center;">{{$intervalos['1']}}</td>
                                 <td style="text-align: center;">{{$intervalos['1']*10}}%</td>
                             </tr>
@@ -222,14 +222,14 @@
 
                         <p class="fonte18"><h4><center>RECOMENDAÇÕES</center></h4></p>
                         
-                        <p class="fonte18">As recomendações são dadas em função dos 4 intervalos da escala acima.</p>
-                        <p class="fonte18">Identifique os produtos que estão em cada intervalo e siga as recomendações específicas conforme a posição que cada produto ocupa.</p>
+                        <p class="fonte18">As Recomendações são dadas em função dos 4 intervalos da escala acima.</p>
+                        <p class="fonte18">Identifique os produtos que estão em cada intervalo e siga as Recomendações específicas conforme a posição que cada produto ocupa.</p>
 
                         <h4 style="color: #35408f">1. Posição 1 e 2</h4>
 
                         <p class="fonte18">Recomenda-se iniciar imediatamente um treinamento intensivo e sistemático para aumentar o conhecimento dos produtos que você comercializa e que se situam neste intervalo da escala.</p>
-                        <p class="fonte18">Procure suporte da empresa e se for possível solicite ações de treinamento personalizadas.</p>
-                        <p class="fonte18">As posições 1 e 2. da escala são críticas, altamente preocupantes e seu desempenho profissional está comprometido, impactando diretamente no cumprimento de suas metas.</p>
+                        <p class="fonte18">Procure suporte da empresa e se for possível, solicite ações de treinamento personalizadas.</p>
+                        <p class="fonte18">As posições 1 e 2 da escala são críticas, altamente preocupantes e seu desempenho profissional está comprometido, impactando diretamente no cumprimento de suas metas.</p>
                         <p class="fonte18">Procure desenvolver mais argumentos e fique atento à qualidade desses novos argumentos, conforme as orientações dadas pelo Instrumento 15 – Avaliação de Qualidade e Quantidade dos Argumentos de Vendas (Forças Propulsoras).</p>
                         <p class="fonte18">Você pode melhorar sistematicamente o aumento do conhecimento dos seus produtos implementando as recomendações do Instrumento 19 – Plano de Ação Quantitativo para Alcançar as Metas de Vendas.</p>
 
@@ -237,26 +237,25 @@
 
                         <h4 style="color: #35408f">2. Posição 3 a 5</h4>
 
-                        <p class="fonte18">Estas posições da escala não são confortáveis e o potencial de aumento de suas vendas é grande se você iniciar um processo sistemático para aumentar o conhecimento dos produtos que você vende e que estão neste intervalo.</p>
-                        <p class="fonte18">Procure suporte da empresa e se for possível solicite ações de treinamento personalizadas.</p>
-                        <p class="fonte18">Procure desenvolver mais argumentos e fique atento à qualidade desses novos argumentos, conforme as orientações dadas pelo Instrumento 15 – Avaliação de Qualidade e Quantidade dos Argumentos de Vendas (Forças Propulsoras)</p>
+                        <p class="fonte18">Estas posições da escala não são confortáveis e o potencial de aumento de suas Vendas é grande se você iniciar um processo sistemático para aumentar o conhecimento dos produtos que você vende e que estão neste intervalo.</p>
+                        <p class="fonte18">Procure suporte da empresa e se for possível, solicite ações de treinamento personalizadas.</p>
+                        <p class="fonte18">Procure desenvolver mais argumentos e fique atento à qualidade desses novos argumentos, conforme as orientações dadas pelo Instrumento 15 – Avaliação de Qualidade e Quantidade dos Argumentos de Vendas (Forças Propulsoras).</p>
 
                         <br>
 
                         <h4 style="color: #35408f">3. Posição 6 a 8</h4>
 
                         <p class="fonte18">Recomenda-se aprofundar o conhecimento dos produtos que você comercializa.</p>
-                        <p class="fonte18">Aumente o conhecimento dos seus produtos aprendendo mais sobre aspectos específicos deles em termos de benefícios de seu uso, de seus atributos, ou seja, de características que sejam diferenciais competitivos de seus produtos, da qualidade da</p>
-                        <p class="fonte18">matéria prima utilizada em sua fabricação, do processo de produção, da tecnologia utilizada, etc.</p>
-                        <p class="fonte18">Você deve desenvolver um processo de melhoria contínua (Kaizen) porém com certo nível de conforto, porque está partindo de uma base boa de conhecimento de seus produtos.</p>
+                        <p class="fonte18">Aumente o conhecimento dos seus produtos, aprendendo mais sobre aspectos específicos deles em termos de benefícios de seu uso e de seus atributos. Fazendo isto, você terá um domínio maior sobre os diferenciais competitivos de seus produtos, da qualidade da matéria prima utilizada em sua fabricação, do processo de produção, da tecnologia utilizada, etc.</p>
+                        <p class="fonte18">Você deve desenvolver um processo de melhoria contínua (Kaizen), porém com certo nível de conforto, porque está partindo de uma base boa de conhecimento de seus produtos.</p>
                         <p class="fonte18">Procure desenvolver mais argumentos e fique atento à qualidade desses novos argumentos, conforme as orientações dadas pelo Instrumento 15 – Avaliação de Qualidade e Quantidade dos Argumentos de Vendas (Forças Propulsoras).</p>
 
                         <br>
 
                         <h4 style="color: #35408f">4. Posição 9 e 10</h4>
 
-                        <p class="fonte18">Você deve sustentar este nível de conhecimento de seus produtos, fique atento a novos desenvolvimentos em relação aos produtos, como novas tecnologias aplicadas, novos atributos que foram incorporados aos produtos, etc. Sua estratégia será de manutenção.</p>
-                        <p class="fonte18">Procure desenvolver mais argumentos e fique atento à qualidade desses novos argumentos, conforme as orientações dadas pelo Instrumento 15 – Avaliação de Qualidade e Quantidade dos Argumentos de Vendas (Forças Propulsoras)</p>
+                        <p class="fonte18">Você deve sustentar este nível de conhecimento de seus produtos. Fique atento a novos desenvolvimentos em relação aos produtos, como novas tecnologias aplicadas, novos atributos que foram incorporados aos produtos, etc. Sua estratégia será de manutenção.</p>
+                        <p class="fonte18">Procure desenvolver mais argumentos e fique atento à qualidade desses novos argumentos, conforme as orientações dadas pelo Instrumento 15 – Avaliação de Qualidade e Quantidade dos Argumentos de Vendas (Forças Propulsoras).</p>
 
 
                         <!-- RESPOSTA DE ACORDO COM REQUISIÇÃO -->
