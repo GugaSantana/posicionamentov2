@@ -87,17 +87,16 @@
                         </h4>
                         <br>
                         <p class="fonte18">O conhecimento dos produtos concorrentes é tão importante quanto o conhecimento dos produtos que você vende.</p>
-                        <p class="fonte18">Muitas vezes os clientes conhecem mais dos produtos concorrentes que o vendedor.</p>
+                        <p class="fonte18">Muitas vezes, os clientes conhecem mais dos produtos concorrentes que o vendedor.</p>
                         <p class="fonte18">Em consequência, determinadas perguntas do cliente, que tem uma base melhor de conhecimento sobre os produtos concorrentes, pode deixar o vendedor em uma posição frágil e vulnerável, provocando desgastes e perda de confiança frente ao cliente.</p>
-                        <p class="fonte18">Conhecer os produtos concorrentes é algo estratégico para fechar vendas.</p>
+                        <p class="fonte18">Conhecer os produtos concorrentes é algo estratégico para fechar Vendas.</p>
                         <p class="fonte18">Veja a figura seguinte:</p>
 
                         <center><img src="../posicionamento/public/img/instrumento5/diag5_1_new.jpg" style="width: 45%"></center>
                         <br>
-                        <p class="fonte18">Você tem que conhecer os produtos concorrentes para reduzir o quanto possível a <b>área vermelha</b> no gráfico.</p>
-                        <p class="fonte18">Essa área representa que os produtos concorrentes atendem necessidades do cliente que seus produtos não atendem. Como você vê, é uma área de exclusividade entre o</p>
-                        <p class="fonte18">produto concorrente e as necessidades do cliente.</p>
-                        <p class="fonte18">Você tem que conhecer os produtos concorrentes para poder argumentar e neutralizar essas vantagens competitivas dos produtos concorrentes, levando esses benefícios para a <b>área A</b> da figura. Deste modo você estará neutralizando vantagens competitivas dos concorrentes.</p>
+                        <p class="fonte18">Você tem que conhecer os produtos concorrentes para reduzir o quanto possível a <b>área azul</b> no gráfico que intercepta com a necessidade do cliente.</p>
+                        <p class="fonte18">Essa área representa os produtos concorrentes que atendem as necessidades do cliente e que os seus produtos não atendem. Como você vê, é uma área de exclusividade entre o produto concorrente e as necessidades do cliente.</p>
+                        <p class="fonte18">Você tem que conhecer os produtos concorrentes para poder argumentar e neutralizar essas vantagens competitivas destes produtos, levando esses benefícios para a área central da figura (onde há uma tríplice intersecção). Neste ponto central é onde você também tem uma oferta para suprir a necessidade do cliente e deste modo, você estará neutralizando vantagens competitivas dos concorrentes.</p>
                         
 
 
@@ -108,7 +107,7 @@
                             </h4>
                         </p>
 
-                        <p class="fonte18">Conforme as respostas que você deu na primeira parte deste instrumento, seu diagnóstico em relação ao conhecimento dos 10 mais importantes produtos concorrentes é <b>{{$media}}</b> no intervalo da escala de 1 a 10 que foi utilizada.</p>
+                        <p class="fonte18">Conforme as respostas que você deu na primeira parte deste Instrumento, seu Diagnóstico em relação ao conhecimento dos 10 mais importantes produtos concorrentes é <b>{{$media}}</b> no intervalo da escala de 1 a 10 que foi utilizada.</p>
                         <p class="fonte18">Meu conhecimento dos produtos concorrentes é:</p>
 
                         <div class="row">
@@ -133,7 +132,7 @@
                         <br>
 
                         <p class="fonte18">Este é o <b>Conhecimento Médio</b> dos 10 principais produtos concorrentes, a resultante do conhecimento que você tem desses produtos.</p>
-                        <p class="fonte18">Na planilha seguinte é apresentado o nível de conhecimento que você atribuiu a cada um dos seus principais produtos concorrentes.</p>
+                        <p class="fonte18">Na planilha seguinte, é apresentado o nível de conhecimento que você atribuiu a cada um dos seus principais produtos concorrentes.</p>
 
                         <div class="row">
                             <div class="col-12" style="">
@@ -175,7 +174,7 @@
                         </div>
                         <br>
 
-                        <p class="fonte18">Na tabela abaixo é apresentado o Nível de Conhecimento dos seus produtos concorrentes por intervalos da escala:</p>
+                        <p class="fonte18">Na tabela abaixo, é apresentado o Nível de Conhecimento dos seus produtos concorrentes por intervalos da escala:</p>
                         
 
                         <table class="table table-hover table-bordered fonte18">
@@ -193,7 +192,7 @@
                                 <td style="text-align: center;">Em percentual</td>
                             </tr>
                             <tr>
-                                <td>1-2 – Conhecimento Insuficiente e crítico, com forte comprometimento da produtividade em vendas</td>
+                                <td>1-2 – Conhecimento insuficiente e crítico, com forte comprometimento da produtividade em vendas</td>
                                 <td style="text-align: center;">{{$intervalos['1']}}</td>
                                 <td style="text-align: center;">{{$intervalos['1']*10}}%</td>
                             </tr>
@@ -223,21 +222,21 @@
 
                         <p class="fonte18"><h4><center>RECOMENDAÇÕES</center></h4></p>
                         
-                        <p class="fonte18">As recomendações são dadas em função dos 4 intervalos da escala acima.</p>
-                        <p class="fonte18">Identifique os produtos que estão em cada intervalo e siga as recomendações específicas conforme a posição que cada produto ocupa.</p>
+                        <p class="fonte18">As Recomendações são dadas em função dos 4 intervalos da escala acima.</p>
+                        <p class="fonte18">Identifique os produtos que estão em cada intervalo e siga as Recomendações específicas conforme a posição que cada produto ocupa.</p>
 
                         <h4 style="color: #35408f">1. Posição 1 e 2</h4>
 
                         <p class="fonte18">Recomenda-se iniciar imediatamente um treinamento intensivo e sistemático para aumentar o conhecimento dos produtos concorrentes e que se situam neste intervalo da escala.</p>
-                        <p class="fonte18">Procure suporte da empresa e se for possível solicite ações de treinamento personalizadas.</p>
-                        <p class="fonte18">As posições 1 e 2. da escala são críticas, altamente preocupantes e seu desempenho profissional está comprometido, impactando diretamente no cumprimento de suas metas.</p>
+                        <p class="fonte18">Procure suporte da empresa e se for possível, solicite ações de treinamento personalizadas.</p>
+                        <p class="fonte18">As posições 1 e 2 da escala são críticas, altamente preocupantes e seu desempenho profissional está comprometido, impactando diretamente no cumprimento de suas metas.</p>
                         <p class="fonte18">Procure desenvolver mais argumentos e fique atento à qualidade desses novos argumentos, conforme as orientações dadas pelo Instrumento 15 – Avaliação de Qualidade e Quantidade dos Argumentos de Vendas (Forças Propulsoras).</p>
 
                         <br>
 
                         <h4 style="color: #35408f">2. Posição 3 a 5</h4>
 
-                        <p class="fonte18">Estas posições da escala não são confortáveis e o potencial de aumento de suas vendas é grande se você iniciar um processo sistemático para aumentar o conhecimento dos produtos concorrentes que você vende e que estão neste intervalo.</p>
+                        <p class="fonte18">Estas posições da escala não são confortáveis e o potencial de aumento de suas Vendas é grande, se você iniciar um processo sistemático para aumentar o conhecimento dos produtos concorrentes que você vende e que estão neste intervalo.</p>
                         <p class="fonte18">Procure suporte da empresa e se for possível solicite ações de treinamento personalizadas.</p>
                         <p class="fonte18">Procure desenvolver mais argumentos e fique atento à qualidade desses novos argumentos, conforme as orientações dadas pelo Instrumento 15 – Avaliação de Qualidade e Quantidade dos Argumentos de Vendas (Forças Propulsoras).</p>
 
