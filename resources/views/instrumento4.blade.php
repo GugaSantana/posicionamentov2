@@ -33,9 +33,9 @@
                                 <center>Levantamento de Informações</center>
                             </h4>
 
-                            <p class="fonte18">No instrumento anterior identificamos seu perfil profissional e foram feitas recomendações para desenvolver suas competências. Porém, um vendedor profissional deve conhecer muito bem os produtos que vende.</p>
-                            <p class="fonte18">Trata-se de definir sobre que conteúdo vamos aplicar as técnicas de vendas.</p>
-                            <p class="fonte18">Este instrumento se refere precisamente ao seu conhecimento em relação aos produtos que você vende, ou seja, em que medida você conhece os produtos que você comercializa.</p>
+                            <p class="fonte18">No Instrumento anterior, identificamos seu perfil profissional e foram feitas Recomendações para desenvolver suas competências. Porém, um vendedor profissional deve conhecer muito bem os produtos que vende.</p>
+                            <p class="fonte18">Trata-se de definir sobre que conteúdo vamos aplicar as técnicas de Vendas.</p>
+                            <p class="fonte18">Este Instrumento se refere precisamente ao seu conhecimento em relação aos produtos que você vende. Em que medida você conhece os produtos que você comercializa.</p>
                             <p class="fonte18">São necessárias duas dimensões estratégicas para aumentar sua eficácia em vendas.</p>
                             <p class="fonte18">Você deve dominar:</p>
                         
@@ -60,17 +60,17 @@
                             
                             <br>
 
-                            <p class="fonte18">O Conhecimento dos meus produtos e dos produtos concorrentes se refere ao QUE VENDO, enquanto as Técnicas de Vendas tratam de COMO VENDO. Portanto este instrumento aborda o item A – Dos Produtos / Serviços da figura acima.</p>
+                            <p class="fonte18">O Conhecimento dos meus produtos e dos produtos concorrentes se refere ao QUE VENDO, enquanto as Técnicas de Vendas tratam de COMO VENDO. Portanto, este Instrumento aborda o item A – Dos Produtos / Serviços, da figura acima.</p>
 
                         </div>
                         <br>
                         <div class="col-12">
                             <p class="fonte18"><b>INSTRUÇÕES</b></p>
 
-                            <p class="fonte18">Para responder este Instrumento, considere os 10 produtos mais importantes da carteira de Produtos que você vende e reflita em que medida você considera que conhece esses produtos de sua carteira.</p>
-                            <p class="fonte18">Conhecer um produto significa conhecer os benefícios que esse produto leva ao cliente, que necessidades do cliente atende, os atributos diferenciais desse produto, sua composição, obstáculos mais freqüentes que você encontra para vendê-lo, entre outras dimensões.</p>
+                            <p class="fonte18">Para responder este Instrumento, considere os 10 produtos mais importantes da carteira de produtos que você vende e reflita em que medida você considera que conhece esses produtos da sua carteira.</p>
+                            <p class="fonte18">Conhecer um produto significa conhecer os benefícios que esse produto leva ao cliente, que necessidades do cliente atende, os atributos diferenciais desse produto, sua composição, os obstáculos mais frequentes que você encontra para vendê-lo, entre outras dimensões.</p>
                             <p class="fonte18">Naturalmente que você pode conhecer alguns produtos mais do que outros.</p>
-                            <p class="fonte18">Na seguinte Matriz registre os 10 principais produtos que você comercializa e do lado, o nível de conhecimento que você considera ter de cada um deles.</p>
+                            <p class="fonte18">Na Matriz seguinte, registre os 10 principais produtos que você comercializa e ao lado, o nível de conhecimento que você considera ter de cada um deles.</p>
 
                             <p class="fonte18">Utilize a escala abaixo para estabelecer o quanto você conhece de cada produto.</p>
 
