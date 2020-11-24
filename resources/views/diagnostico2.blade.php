@@ -87,17 +87,17 @@
                 <center>Diagnóstico e Recomendações</center>
             </h4>
             <br>
-            <p class="fonte18">As situações ou problemas nos quais estamos envolvidos a maioria das vezes supera nossa disponibilidade de tempo e até nossa capacidade ou competência para resolvê-los.</p>
-            <p class="fonte18">O diagnóstico (identificação) de seus problemas lhe permitirá estabelecer as prioridades com que você deve intervir em cada um deles. Isto lhe ajudará a estabelecer foco, minimizar perdas e aumentar a produtividade do seu trabalho.</p>
+            <p class="fonte18">As situações ou problemas nos quais estamos envolvidos, a maioria das vezes supera nossa disponibilidade de tempo e até nossa capacidade ou competência para resolvê-los.</p>
+            <p class="fonte18">O Diagnóstico (Identificação) de seus problemas lhe permitirá estabelecer as prioridades com que você deve intervir em cada um deles. Isto lhe ajudará a estabelecer foco, minimizar perdas e aumentar a produtividade do seu trabalho.</p>
             <p class="fonte18">Sabemos que temos um problema quando surge um desvio entre o que foi planejado e a realidade.</p>
-            <p class="fonte18">Temos freqüentes desvios em nossas atividades.</p>
+            <p class="fonte18">Temos frequentes desvios em nossas atividades.</p>
 
             <center><img src="../posicionamento/public/img/instrumento2/diag2_1.jpg" style="width: 60%;"></center>
             <br>
             <p class="fonte18">Um problema surge quando se apresenta um desvio e não sabemos qual é a causa desse desvio.</p>
             <p class="fonte18">Se soubermos qual é a causa do desvio, não temos um problema.</p>
-            <p class="fonte18">Quando conhecemos a causa do desvio, temos que tomar uma decisão para corrigir-lo.</p>
-            <p class="fonte18">A seguir são feitas recomendações para você agir com método, com técnica, para estabelecer as prioridades de seus problemas, primeira etapa antes de se concentrar em resolvê-los.</p>
+            <p class="fonte18">Quando conhecemos a causa do desvio, temos que tomar uma decisão para corrigi-lo.</p>
+            <p class="fonte18">A seguir, são feitas Recomendações para você agir com método, com técnica, para estabelecer as prioridades de seus problemas. Esta é a primeira etapa antes de se concentrar em resolvê-los.</p>
 
             <br>
             <p class="fonte18">
@@ -106,20 +106,20 @@
                 </h4>
             </p>
 
-            <p class="fonte18">O diagnóstico que apresenta este instrumento permite estabelecer de maneira técnica e precisa a prioridade que esses problemas têm, para depois concentrar sua ação e resolvê-los.</p>
+            <p class="fonte18">O Diagnóstico que apresenta este Instrumento permite estabelecer de maneira técnica e precisa a prioridade que esses problemas têm, para depois concentrar sua ação e resolvê-los.</p>
             <p class="fonte18">Seus resultados foram analisados e avaliados combinando três fatores para estabelecer as prioridades de seus problemas:</p>
             <ul>
                 <li>
-                    <p class="fonte18"><b>GRAVIDADE</b> - Definida como dano ou prejuízo que pode decorrer e uma situação definida como problema.</p>
+                    <p class="fonte18"><b>GRAVIDADE</b> - Definida como dano ou prejuízo que pode decorrer de uma situação definida como problema.</p>
                 </li>
                 <li>
-                    <p class="fonte18"><b>URGÊNCIA</b> - Refere-se à velocidade que você sente ser necessária para tomar uma ação em relação ao problema</p>
+                    <p class="fonte18"><b>URGÊNCIA</b> - Refere-se à velocidade que você sente ser necessária para executar uma ação em relação ao problema.</p>
                 </li>
                 <li>
-                    <p class="fonte18"><b>TENDÊNCIA</b> - É a tendência que o problema tem para se agravar ou se minimizar ou mesmo se resolver com o passar do tempo, se nada for feito.</p>
+                    <p class="fonte18"><b>TENDÊNCIA</b> - É a tendência que o problema tem para se agravar, ou se minimizar, ou mesmo se resolver com o passar do tempo, se nada for feito.</p>
                 </li>
             </ul>
-            <p class="fonte18">Considerando suas respostas quando lhe foi solicitado apresentar seus maiores problemas para aumentar as vendas, após aplicar esta metodologia, a ordem técnica de prioridades é a seguinte:</p>
+            <p class="fonte18">Considerando suas respostas, quando lhe foi solicitado apresentar seus maiores problemas para aumentar as Vendas, após aplicar esta Metodologia, a ordem técnica de prioridades é a seguinte:</p>
 
             <!-- Primeira tabela ordem de prioridade-->
             <table class="table table-hover table-bordered">
@@ -143,7 +143,7 @@
             </table>
 
             <br>
-            <p class="fonte18">No gráfico seguinte é apresentada a comparação de prioridades entre sua avaliação inicial e o resultado da aplicação da nossa metodologia.</p>
+            <p class="fonte18">No gráfico seguinte, é apresentada a comparação de prioridades entre sua avaliação inicial e o resultado da aplicação da nossa Metodologia.</p>
 
             <table class="table table-hover table-bordered fonte18">
                 <thead class="bg-primary">
@@ -175,11 +175,11 @@
                 </h4>
             </p>
 
-            <p class="fonte18">A primeira recomendação é concentrar sua atenção nos seus principais problemas conforme a metodologia aplicada.</p>
-            <p class="fonte18">As prioridades técnicas dos seus problemas foi apresentada na planilha acima: Alteração das Prioridades dos Meus Problemas.</p>
-            <p class="fonte18">Considerando que um problema, conforme definido, é um desvio de causa desconhecida a segunda recomendação é identificar as causas desses desvios.</p>
+            <p class="fonte18">A primeira recomendação é concentrar a sua atenção nos seus principais problemas, conforme a Metodologia aplicada.</p>
+            <p class="fonte18">As prioridades técnicas dos seus problemas foram apresentadas na planilha acima: Alteração das Prioridades dos Meus Problemas.</p>
+            <p class="fonte18">Considerando que um problema, conforme definido, é um desvio de causa desconhecida, a segunda recomendação é identificar as causas desses desvios.</p>
             <p class="fonte18">Para remover as causas recomenda-se implementar o Instrumento 19 – Plano de Ação Quantitativo utilizando o formulário nele proposto.</p>
-            <p class="fonte18">O efetivo avanço na solução desses problemas você gerenciará implementando com as recomendações do Instrumento 20 – O Relatório de Progresso</p>
+            <p class="fonte18">O efetivo avanço na solução desses problemas você poderá gerenciar implementando as Recomendações do Instrumento 20 – O Relatório de Progresso.</p>
 
             <!-- RESPOSTA DE ACORDO COM REQUISIÇÃO -->
             <!-- <p class="fonte18"><h4>Diagnóstico - $retorno['titulo']</h4></p>
