@@ -81,7 +81,7 @@
                     <div class="col-12">
                     <h4><center>Diagnóstico e Recomendações</center></h4>
                     <br>
-                    <p class="fonte18">Conforme o modelo que utilizamos na metodologia, nossa personalidade está constituída por três subsistemas:</p>
+                    <p class="fonte18">Conforme o modelo que utilizamos na Metodologia, nossa personalidade está constituída por três subsistemas:</p>
                     <p class="fonte18">- O Pai<br>
                     - O Adulto<br>
                     - A Criança
@@ -90,15 +90,15 @@
                     <center><img src="../posicionamento/public/img/instrumento7/diag_7_1.jpg" style="width: 35%;"></center>
                     <br>
 
-                    <p class="fonte18">Antes de apresentar seu Diagnóstico e as Recomendações vamos considerar os conceitos básicos da metodologia para ter uma melhor compreensão da contribuição deste Instrumento.</p>
+                    <p class="fonte18">Antes de apresentar seu Diagnóstico e as Recomendações, vamos considerar os conceitos básicos da Metodologia, para ter uma melhor compreensão da contribuição deste Instrumento.</p>
                     
                     <p class="fonte18"><h4>O SUBSISTEMA PAI</h4></p>
                     
-                    <p class="fonte18">O Pai é o subsistema da personalidade que inclui padrões de sentimentos, gestos, idéias e comportamentos aprendidos cedo na vida pela observação e imitação dos pais, ou qualquer pessoa numa posição de autoridade sobre a criança.</p>
+                    <p class="fonte18">O Pai é o subsistema da personalidade, que inclui padrões de sentimentos, gestos, ideias e comportamentos aprendidos cedo na vida pela observação e imitação dos pais, ou qualquer pessoa numa posição de autoridade sobre a criança.</p>
                     <p class="fonte18">Durante o crescimento, as crianças observam os padrões comportamentais dos pais e copiam muitos deles, os quais se tornam parte de seu subsistema Pai.</p>
                     <p class="fonte18">Este processo de assimilação não é consciente.</p>
-                    <p class="fonte18">No subsistema Pai estão contidos “imperativos”, como: “faça isso”, “não faça aquilo”; considerações éticas e morais, como o certo e o errado, o bom e o mau; preconceitos para si próprio e para os outros; normas, regras e restrições; atitudes e opiniões várias.</p>
-                    <p class="fonte18">Este subsistema é também um repositório de sentimentos que encorajam o indivíduo a assumir autoridade, ou a exercer controle provocando as vezes, sentimentos de culpa no próprio e nos outros</p>
+                    <p class="fonte18">No subsistema Pai estão contidos “imperativos” como “faça isso”, “não faça aquilo”; considerações éticas e morais, como o certo e o errado; o bom e o mau; preconceitos para si próprio e para os outros; normas, regras e restrições; atitudes e opiniões várias.</p>
+                    <p class="fonte18">Este subsistema é também um repositório de sentimentos que encorajam o indivíduo a assumir autoridade, ou a exercer controle, provocando às vezes, sentimento de culpa no próprio indivíduo e nos outros.</p>
 
                     <p class="fonte18"><h4>O SUBSISTEMA ADULTO</h4></p>
 
@@ -109,12 +109,13 @@
 
                     <p class="fonte18"><h4>O SUBSISTEMA CRIANÇA</h4></p>
 
+
                     <p class="fonte18">A Criança é o subsistema ativador dos sentimentos, atitudes e comportamentos que são características da infância do indivíduo.</p>
-                    <p class="fonte18">A criança tende a se expressar de duas formas: ora adaptada ora natural e espontânea.</p>
+                    <p class="fonte18">A Criança tende a se expressar de duas formas: ora adaptada, ora natural e espontânea.</p>
                     <p class="fonte18">Atuando sob a influência do Pai, a Criança adaptada tende a mudar seus padrões comportamentais de tal modo que eles expressem obediência.</p>
                     <p class="fonte18">Já a Criança natural é espontânea e criativa.</p>
                     <p class="fonte18">A capacidade de ter curiosidade espontânea sobre as coisas e pessoas também é parte do Estado de Ego Criança.</p>
-                    <p class="fonte18">As práticas e sentimentos da criança são desejáveis e promovem vitalidade, intuição e felicidade.</p>
+                    <p class="fonte18">As práticas e sentimentos da Criança são desejáveis e promovem vitalidade, intuição e felicidade.</p>
                     <p class="fonte18">No gráfico seguinte é mostrada a forma de representar os três estados do ego, bem como suas características e conteúdos principais:</p>
 
                     <center><img src="../posicionamento/public/img/instrumento7/diag_7_2.jpg" style="width: 50%;"></center>
@@ -125,7 +126,7 @@
                     <br>
                     <p class="fonte18"><h4><center>DIAGNÓSTICO</center></h4></p>
 
-                    <p class="fonte18">Interpretados os resultados de suas respostas à primeira parte deste instrumento, aplicando a metodologia, é apresentado graficamente seu Perfil de Personalidade na figura seguinte. Os pesos representados pelos tamanhos dos círculos se traduzem nas influencias dos três estados do ego na sua personalidade.</p>
+                    <p class="fonte18">Interpretados os resultados de suas respostas à primeira parte deste Instrumento e aplicando a Metodologia, é apresentado graficamente seu Perfil de Personalidade na figura seguinte. Os pesos representados pelos tamanhos dos círculos, se traduzem nas influências dos três estados do ego na sua personalidade.</p>
 
 
                     <center>
@@ -322,47 +323,48 @@
 
 
 
-                    <p class="fonte18">Fica assim representada sua estrutura de personalidade.</p>
-                    <p class="fonte18">A partir desta estrutura, seus estados do ego se expressam e determinam seu modo de relacionar-se e de comunicar-se.</p>
+                    <p class="fonte18">Fica assim representada sua Estrutura de Personalidade.</p>
+                    <p class="fonte18">A partir desta estrutura, seus estados do ego se expressam e determinam seu modo de relacionar-se e de comunicar-se</p>
                     <p class="fonte18">Observe que seu cliente também tem seus estados do ego e sua forma de se expressar.</p>
-                    <p class="fonte18">Nas recomendações serão sugeridos comportamentos que devem ser adotados para você se adaptar aos estados do ego do seu cliente visando ter uma relação equilibrada e harmoniosa e evitar conflitos que possam comprometer a venda.</p>
+                    <p class="fonte18">Nas Recomendações serão sugeridos comportamentos que devem ser adotados para você se adaptar aos estados do ego do seu cliente, visando ter uma relação equilibrada e harmoniosa e evitar conflitos que possam comprometer a Venda.</p>
 
            
                         <br>
                         <p class="fonte18"><h4><center>RECOMENDAÇÃO</center></h4></p>
                         
-                        <p class="fonte18">Todos nós temos os três estados do ego, porém, em proporções diferentes. Portanto, devemos tomar algumas ações em relação aos três estados de ego da Personalidade, conforme o resultado do diagnóstico.</p>
-                        <p class="fonte18">A primeira recomendação é estabelecer um equilíbrio entre as forças ou intensidades dos três estados do ego. Para isto podem ser seguidas 2 estratégias que não se opõem, ao contrário se complementam para alcançar o recomendado equilíbrio.</p>
-                        <p class="fonte18">A primeira estratégia é focar o estado do ego com menor valor no seu diagnóstico para ser desenvolvido. A seguir, desenvolveremos o estado do ego que apresenta o segundo valor mais baixo.</p>
-                        <p class="fonte18">Serão feitas recomendações para os três estados do ego e você seguirá as prioridades conforme o resultado do seu diagnóstico.</p>
-                        <p class="fonte18">A segunda estratégia é inibir o estado de ego que apresenta uma desproporcional força em relação à intensidade dos outros dois estados do ego. Estas duas recomendações valem para os três estados do ego.</p>
+                        <p class="fonte18">Todos nós temos os três estados do ego, porém em proporções diferentes. Portanto, devemos tomar algumas ações em relação aos três estados de ego da Personalidade, conforme o resultado do Diagnóstico.</p>
+                        <p class="fonte18">A primeira recomendação é estabelecer um equilíbrio entre as forças ou intensidades dos três estados do ego. Para isto, podem ser seguidas 2 estratégias que não se opõem, ao contrário, se complementam para alcançar o recomendado equilíbrio.</p>
+                        <p class="fonte18">A primeira estratégia é focar o estado do ego com menor valor no seu Diagnóstico para ser desenvolvido. A seguir, desenvolveremos o estado do ego que apresenta o segundo valor mais baixo.</p>
+                        <p class="fonte18">Serão feitas Recomendações para os três estados do ego e você seguirá as prioridades conforme o resultado do seu Diagnóstico.</p>
+                        <p class="fonte18">A segunda estratégia é inibir o estado de ego que apresenta uma desproporcional força em relação à intensidade dos outros dois estados do ego. Estas duas Recomendações valem para os três estados do ego.</p>
                         <br>
                         <p class="fonte18"><h4>A. ESTADO DO EGO PAI</h4></p>
                         
                         <p class="fonte18">Quando o estado do ego Pai apresenta valores baixos, ele deve ser desenvolvido.</p>
                         <p class="fonte18">Você deve assumir um comportamento mais diretivo e desenvolver a autocrítica.</p>
-                        <p class="fonte18">Você também deve desenvolver sua sensibilidade para ser mais protetor e também para ser mais rigoroso com as pessoas, quando as situações impõem um destes comportamentos.</p>
+                        <p class="fonte18">Você também deve desenvolver sua sensibilidade, para ser mais protetor e também para ser mais rigoroso com as pessoas, quando as situações impõem um destes comportamentos.</p>
                         <p class="fonte18">O estado do ego Pai fraco se expressa em comportamentos de submissão e dependência.</p>
-                        <p class="fonte18">Frente a um vendedor com um estado do ego PAI de pouca expressão, o cliente pode assumir o controle do Campo Psicológico que se estabelece entre ele e o vendedor, dificultando que se alcance os objetivos da venda.</p>
+                        <p class="fonte18">Frente a um vendedor com um estado do ego PAI de pouca expressão, o cliente pode assumir o controle do Campo Psicológico que se estabelece entre ele e o vendedor, dificultando que se alcance os Objetivos da Venda.</p>
                         <br>
                         <p class="fonte18"><h4>B. ESTADO DO EGO ADULTO</h4></p>
                         
-                        <p class="fonte18">Este estado do ego faz com que a pessoa tenha um comportamento mais racional e menos intuitivo. Pessoas nas quais prevalece o estado do ego adulto trabalham com método e administram com menos envolvimento sócio-emocional.</p>
-                        <p class="fonte18">Para desenvolver o estado do ego adulto, a pessoa deve se interessar mais por dados, fatos, números. Mais razão e menos emoção.</p>
-                        <p class="fonte18">Nas relações de trabalho o estado do ego adulto deve ser o mais ativo dos três, ele é o subsistema adequado para tomar as melhores decisões, resolver da melhor maneira possível conflitos e solucionar problemas. Tente processar as informações, seguindo padrões objetivos, impessoais e lógicos.</p>
+                        <p class="fonte18">Este estado do ego faz com que a pessoa tenha um comportamento mais racional e menos intuitivo. Pessoas nas quais prevalece o estado do ego Adulto trabalham com método e administram com menos envolvimento socioemocional.</p>
+                        <p class="fonte18">Para desenvolver o estado do ego Adulto, a pessoa deve se interessar mais por dados, fatos, números. Mais razão e menos emoção.</p>
+                        <p class="fonte18">Nas relações de trabalho o estado do ego Adulto deve ser o mais ativo dos três, ele é o subsistema adequado para tomar as melhores decisões, resolver da melhor maneira possível conflitos e solucionar problemas. Tente processar as informações, seguindo padrões objetivos, impessoais e lógicos.</p>
                         <p class="fonte18">Para desenvolver este estado do ego, não se deixe levar por sentimentos, seja menos preconceituoso e procure ser racional.</p>
                         <br>
                         <p class="fonte18"><h4>C. ESTADO DO EGO CRIANÇA</h4></p>
 
                         <p class="fonte18">Este estado do ego é desenvolvido estimulando a criatividade e valorizando a intuição e a espontaneidade.</p>
-                        <p class="fonte18">Procure desenvolver e expressar suas emoções. Pratique atividades desinibidoras, como fazer teatro, dança e outras expressões de arte.</p>
+                        <p class="fonte18">Procure desenvolver e expressar suas emoções. Pratique atividades que te soltem, como fazer teatro, dança e outras expressões de arte.</p>
                         <p class="fonte18">Escreva poesias e não fique preso a preconceitos e à repressão de suas emoções, não sinta vergonha, fale em público.</p>
-                        <p class="fonte18">Pense como age uma criança e utilize o comportamento delas como modelo, procure agir seguindo esses padrões.</p>
-                        <p class="fonte18">O objetivo das recomendações, portanto, não é a exclusão de qualquer dos subsistemas, mas desenvolver um equilíbrio saudável entre os três, de modo que o sistema total seja capaz de uma interação e de um relacionamento mais empático e produtivo com os clientes.</p>
-                        <p class="fonte18">A implementação desta metodologia tem 3 etapas.</p>
+                        <p class="fonte18">Pense como age uma Criança e utilize o comportamento delas como modelo, procure agir seguindo esses padrões.</p>
+                        <p class="fonte18">O Objetivo das Recomendações, portanto, não é a exclusão de qualquer dos subsistemas, mas desenvolver um equilíbrio saudável entre os três, de modo que o sistema total seja capaz de uma interação e de um relacionamento mais empático e produtivo com os clientes.</p>
+                        
+                        <p class="fonte18">A implementação desta Metodologia tem 3 etapas:</p>
                         <p class="fonte18">A – Desenvolver o equilíbrio dos seus três estados do ego.</p>
                         <p class="fonte18">B – Identificar o estado ou os estados do ego predominantes no seu cliente.</p>
-                        <p class="fonte18">C – Buscar a complementação ou sintonia entre seus estados do ego e os estados de ego de seu cliente para evitar conflitos.</p>
+                        <p class="fonte18">C – Buscar a complementação ou a sintonia entre seus estados do ego e os estados do ego de seu cliente para evitar conflitos.</p>
 
                         <ul class="fonte18">
                         <li>Adulto se complementa com Adulto</li>
@@ -373,7 +375,7 @@
                         </ul>
 
                         <p class="fonte18">Lembre-se que as Vendas Consultivas têm como principal alicerce o bom relacionamento com seu cliente.</p>
-                        <p class="fonte18">Siga e aplique as recomendações feitas. Este instrumento é de fundamental importância para efetivamente desenvolver e colocar em prática a principal base das Vendas Consultivas.</p>
+                        <p class="fonte18">Siga e aplique as Recomendações feitas. Este Instrumento é de fundamental importância para efetivamente desenvolver e colocar em prática a principal base das Vendas Consultivas.</p>
 
 
 
