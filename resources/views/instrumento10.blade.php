@@ -89,20 +89,20 @@
                                 <center>Levantamento de Informações</center>
                             </h4>
 
-                            <p class="fonte18">Este é o quarto instrumento da série comportamental que começou com a avaliação do desenvolvimento dos Estados do Ego (a estrutura da Personalidade), continuou com o instrumento que nos permite equilibrar a relação entre Feedback e Exposição no relacionamento interpessoal e, o terceiro instrumento tratou do Gerenciamento das Comunicações utilizando os Canais Neurolinguísticos.</p>
+                            <p class="fonte18">Este é o quarto Instrumento da série comportamental, que começou com a avaliação do desenvolvimento dos Estados do Ego (a Estrutura da Personalidade). Em seguida, continuou com o Instrumento que nos permite equilibrar a relação entre Feedback e Exposição no relacionamento interpessoal, além do terceiro Instrumento que tratou do Gerenciamento das Comunicações utilizando os Canais Neurolinguísticos.</p>
                             <p class="fonte18">Este instrumento contribuirá para o desenvolvimento de sua Inteligência Emocional, condição fundamental para gerar EMPATIA junto a seus clientes, pois como sabemos, as Vendas Consultivas estão fundamentadas na qualidade do relacionamento e na empatia que se gera junto ao cliente.</p>
-                            <p class="fonte18">O relacionamento com seu cliente é “gerenciável”,e uma das principais técnicas para aumentar a qualidade do relacionamento é desenvolver sua Inteligência Emocional.</p>
+                            <p class="fonte18">O relacionamento com seu cliente é “gerenciável”. Uma das principais técnicas para aumentar a qualidade do seu relacionamento com o cliente é desenvolver sua Inteligência Emocional.</p>
                             <p class="fonte18">A Inteligência Emocional refere-se à capacidade de identificar nossos próprios sentimentos e os sentimentos dos outros, assim como a capacidade de lidar com eles.</p>
-                            <p class="fonte18">Inteligência Emocional é a capacidade de identificar, entender, utilizar e administrar emoções de forma eficiente e positiva. É a capacidade de gerir bem as emoções dentro de nós e nos nossos relacionamentos.</p>
-                            <p class="fonte18">A Inteligência Emocional é uma espécie de “Inteligência Social”</p>
-                            <p class="fonte18">Implementar Técnicas de Inteligência Emocional é fundamental para o sucesso em Vendas Consultivas.</p>
+                            <p class="fonte18">Inteligência Emocional é a capacidade de identificar, entender, utilizar e administrar emoções de forma eficiente e positiva. É a capacidade de gerir bem as emoções dentro de nós e em nossos relacionamentos.</p>
+                            <p class="fonte18">A Inteligência Emocional é uma espécie de “Inteligência Social”.</p>
+                            <p class="fonte18">Implementar técnicas de Inteligência Emocional é fundamental para o sucesso em Vendas Consultivas.</p>
 
                     </div>
                     <br>
                     <div class="col-12">
                         <p class="fonte18"><b>INSTRUÇÕES</b></p>
                         <!-- <h2 style="color: #35408f">PRIMEIRA PARTE</h2> -->
-                        <p class="fonte18">Para avaliar sua Inteligência Emocional responda as seguintes questões com transparência (sinceridade), escolhendo para cada uma delas a alternativa que mais se adéqua a você.</p>
+                        <p class="fonte18">Para avaliar sua Inteligência Emocional responda as seguintes questões com transparência e sinceridade, escolhendo para cada uma delas a alternativa que mais se identifica com você.</p>
                     </div>
 
                     <div></div>
@@ -110,26 +110,26 @@
                     @php
 
                     $questions = [
-                        '1. Quando estou chateado ou irritado consigo identificar a causa desse sentimento?',
-                        '2. Tenho uma visão realista de mim mesmo, e estou ciente de quais são as minhas potencialidades e limitações?',
-                        '3. Eu tendo a reagir de forma determinada frente a pequenos problemas?',
+                        '1. Quando estou chateado ou irritado, consigo identificar a causa desse sentimento?',
+                        '2. Tenho uma visão realista de mim mesmo e estou ciente de quais são as minhas potencialidades e limitações?',
+                        '3. Eu escolho reagir de forma determinada frente a pequenos problemas?',
                         '4. Tendo a manter o controle e a calma nos momentos difíceis?',
                         '5. Tenho confiança nas minhas habilidades, talentos e capacidades?',
-                        '6. Com freqüência acalmo colegas que estão descontrolados ou reagem agressivamente a uma determinada situação?',
-                        '7. Eu tenho boa auto estima, embora admito que devo mudar algumas coisas em minha vida?',
-                        '8. Quando alguma coisa que eu desejo dá errado, supero meus desapontamentos e frustrações, e trato de aprender com as experiências negativas?',
-                        '9. Quando cometo erros, costumo fazer auto critica e condeno a minha falta de competência?',
+                        '6. Com frequência acalmo os colegas que estão descontrolados ou reagem agressivamente a uma determinada situação?',
+                        '7. Eu tenho boa autoestima embora admito que devo mudar algumas coisas em minha vida?',
+                        '8. Quando alguma coisa que eu desejo dá errado, supero meus desapontamentos e frustrações e trato de aprender com as experiências negativas?',
+                        '9. Quando cometo erros, costumo fazer autocrítica e condeno a minha falta de competência?',
                         '10. Sempre me esforço e alcanço meus objetivos. Os obstáculos e a falta de apoio não me desmotivam.',
                         '11. Não me frustro nem me sinto inseguro frente a situações traumáticas.',
-                        '12. Sei me colocar no lugar do outro e compreender as necessidades e as dificuldades pelas quais esta pessoa está passando?',
-                        '13. Sempre trato e me esforço para dar o melhor de mim no trabalho?',
+                        '12. Sei me colocar no lugar do outro e compreender as necessidades e as dificuldades pelas quais a pessoa está passando?',
+                        '13. Sempre me esforço para dar o melhor de mim no trabalho?',
                         '14. Para mim é fácil iniciar contato com pessoas e fazer amigos?',
-                        '15. Sei o que eu quero da vida, tenho objetivos bem definidos e tenho métodos para alcançá-los?',
-                        '16. Gosto de colaborar e estou sempre disposto a ajudar os outros',
+                        '15. Sei o que quero da vida, tenho objetivos bem definidos e tenho métodos para alcançá-los?',
+                        '16. Gosto de colaborar e estou sempre disposto a ajudar os outros.',
                         '17. Aprendo com meus erros, o que tem me ajudado a melhorar pensamentos e atitudes?',
                         '18. Quando tenho dificuldade com alguma pessoa, converso diretamente com ela para esclarecer a situação de desconforto?',
-                        '19. Meus colegas me procuram quando necessitam de apoio psicológico e quando desejam contar um segredo ou algo intimo?',
-                        '20. Estou sempre procurando aprender algo novo, porque isto me ajuda a crescer e me desenvolver'
+                        '19. Meus colegas me procuram quando necessitam de apoio psicológico e quando desejam contar um segredo ou algo íntimo?',
+                        '20. Estou sempre procurando aprender algo novo. Isto me ajuda a crescer e me desenvolver.'
                         ];
                     @endphp
 

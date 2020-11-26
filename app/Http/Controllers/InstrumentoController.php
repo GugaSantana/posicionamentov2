@@ -837,16 +837,16 @@ class InstrumentoController extends Controller
             $inicio = 18;
             $fim = 20;
             $diagnostico = "<p class='fonte18'><b>De 18 a 20 pontos.</b></p>
-            <p class='fonte18'>Sua inteligência emocional é alta.</p>
+            <p class='fonte18'>Sua Inteligência Emocional é alta.</p>
             <p class='fonte18'>Pessoas com alta pontuação em Inteligência Emocional têm habilidade para interpretar, entender e agir sobre as emoções próprias e dos outros.</p>
-            <p class='fonte18'>Você têm facilidade para lidar com conflitos sociais e emocionais, sabe expressar seus sentimentos e administrar as situações emocionais.</p>
-            <p class='fonte18'>Você têm facilidade de fazer amigos e relacionar-se com as pessoas de maneira harmoniosa e produtiva.</p>";
+            <p class='fonte18'>Você tem facilidade para lidar com conflitos sociais e emocionais, sabe expressar seus sentimentos e administrar as situações emocionais.</p>
+            <p class='fonte18'>Você tem facilidade de fazer amigos e relacionar-se com as pessoas de maneira harmoniosa e produtiva.</p>";
         }
         elseif($total >= 11){
             $inicio = 11;
             $fim = 17;
             $diagnostico = "<p class='fonte18'><b>De 11 a 17 pontos.</b></p>
-            <p class='fonte18'>Sua inteligência emocional é média.</p>
+            <p class='fonte18'>Sua Inteligência Emocional é média.</p>
             <p class='fonte18'>Pessoas com pontuação média normalmente sabem interpretar e entender sentimentos e emoções próprias e dos outros.</p>
             <p class='fonte18'>Você se sente confortável quando tem que enfrentar situações de conflito social e emocional.</p>
             <p class='fonte18'>Embora muitas vezes você não tome a iniciativa, sabe fazer amizades e está apto (a) a trabalhar de forma harmoniosa com a equipe.</p>
@@ -857,10 +857,10 @@ class InstrumentoController extends Controller
             $fim = 11;
             $diagnostico = "<p class='fonte18'><b>Abaixo de 11 pontos.</b></p>
             <p class='fonte18'>Sua Inteligência Emocional precisa melhorar, desenvolver.</p>
-            <p class='fonte18'>Pessoas com esta pontuação podem sentir dificuldades de expressar suas próprias emoções e entender as emoções dos outros, diante dos quais tendem a sentir-se desconfortáveis.</p>
-            <p class='fonte18'>Em alguns casos pode significar que precisem melhorar sua auto-estima e autoconfiança como também precisam aprender a ter mais empatia com os outros.</p>
-            <p class='fonte18'>Analise mais suas atitudes e modo de agir e treine seus sentimentos de empatia.</p>
-            <p class='fonte18'>Procure-se colocar no lugar do outro e pense como você reagiria se outra pessoa agisse com você com o mesmo comportamento que você utiliza com ela.</p>";
+            <p class='fonte18'>Pessoas com esta pontuação podem sentir dificuldades de expressar suas próprias emoções e entender as emoções dos outros, diante dos quais tendem a sentirem-se desconfortáveis.</p>
+            <p class='fonte18'>Em alguns casos pode significar que precisem melhorar sua autoestima e autoconfiança como também precisam aprender a ter mais empatia com os outros.</p>
+            <p class='fonte18'>Analise mais suas atitudes, modo de agir e treine seus sentimentos de empatia.</p>
+            <p class='fonte18'>Procure colocar-se no lugar do outro e pense como você reagiria se outra pessoa agisse com você com o mesmo comportamento que você utiliza com ela.</p>";
         }
         
         //dd($total, $diagnostico, $inicio, $fim);
