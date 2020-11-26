@@ -89,21 +89,21 @@
                             <center>Levantamento de Informações</center>
                         </h4>
 
-                        <p class="fonte18">Este instrumento é uma continuação do anterior e seu objetivo também é “gerenciar” o relacionamento com o cliente, porem, desde outra perspectiva, desde a perspectiva específica do “Gerenciamento da Comunicação”.</p>
-                        <p class="fonte18">Você terá acesso a um modelo poderoso de comunicação que traz resultados muito práticos para melhorar o relacionamento com o cliente.</p>
+                        <p class="fonte18">Este Instrumento é uma continuação do anterior. Seu objetivo também é “gerenciar” o relacionamento com o cliente, porém, desde outra perspectiva, sob a perspectiva específica do “Gerenciamento da Comunicação”.</p>
+                        <p class="fonte18">Você terá acesso a um modelo poderoso de comunicação, que traz resultados muito práticos para melhorar o relacionamento com o cliente.</p>
                         <p class="fonte18">Um bom relacionamento é fundamental para desenvolver empatia e se identificar com o perfil psicológico do cliente.</p>
-                        <p class="fonte18">O relacionamento interpessoal é gerenciável e o Modelo Neurolinguistico na qual se apóia este instrumento é uma alternativa valiosa para isto.</p>
-                        <p class="fonte18">Este instrumento é o ponto de partida para que você aprenda a se comunicar com seu cliente, conforme o canal neurolinguistico preferencial do Modelo Mental dele, e isto de uma maneira muito simples, objetiva e prática</p>
+                        <p class="fonte18">O Relacionamento Interpessoal é gerenciável. O Modelo Neurolinguístico na qual se apoia este Instrumento é uma alternativa valiosa para isto.</p>
+                        <p class="fonte18">Este Instrumento é o ponto de partida para que você aprenda a se comunicar com seu cliente, conforme o Canal Neurolinguístico preferencial do Modelo Mental dele. E isto de uma maneira muito simples, objetiva e prática.</p>
 
                     </div>
                     <br>
                     <div class="col-12">
                         <p class="fonte18"><b>INSTRUÇÕES</b></p>
                         <!-- <h2 style="color: #35408f">PRIMEIRA PARTE</h2> -->
-                        <p class="fonte18">A seguir são apresentados três grupos de questões para você responder. Para cada uma das questões responda SIM ou NÃO, conforme seria seu comportamento, sua reação, a cada uma destas questões.</p>
-                        <p class="fonte18">Responda rapidamente como você sente. A resposta não deve ser racional, deve ser o mais espontânea possível</p>
-                        <p class="fonte18">As respostas perdem valor se você ficar pensando durante algum tempo antes de responder.</p>
-                        <p class="fonte18">Para cada afirmação, registre na coluna AVALIAÇÂO, sua preferência por SIM ou NÃO. Procure ser o mais objetivo e espontâneo possível.</p>
+                        <p class="fonte18">A seguir, são apresentados três grupos de questões para você responder. Para cada uma das questões responda SIM ou NÃO, conforme seria seu comportamento, sua reação, a cada uma destas questões.</p>
+                        <p class="fonte18">Responda rapidamente como você sente. A resposta não deve ser racional, deve ser a mais espontânea possível.</p>
+                        <p class="fonte18">As respostas perdem valor, se você ficar pensando durante algum tempo antes de responder.</p>
+                        <p class="fonte18">Para cada afirmação, registre na coluna AVALIAÇÃO sua preferência por SIM ou NÃO. Procure ser o mais objetivo e espontâneo possível.</p>
                     </div>
 
                     <div></div>
@@ -113,10 +113,10 @@
                     $grupoA = [
                         '1. Escrevo listas do que tenho a fazer',
                         '2. Consigo realizar coisas, desde que as instruções sejam bem detalhadas',
-                        '3. Gosto de fazer palavras cruzadas e jogos no meu celular',
+                        '3. Gosto de fazer palavras cruzadas e jogar jogos no meu celular.',
                         '4. Gosto de exposições e museus',
                         '5. Posso localizar cidades com facilidade, se eu tiver um mapa',
-                        '6. Gosto de assistir Filmes e Vídeos',
+                        '6. Gosto de assistir a filmes e vídeos.',
                         '7. Tenho uma boa impressão de alguém se estiver bem vestido',
                         '8. Gosto de observar as pessoas',
                         '9. Acho que flores, realmente embelezam a casa e o ambiente de trabalho',
@@ -125,7 +125,7 @@
 
                     $grupoB = [
                         '1. Gosto de longas conversas',
-                        '2. Gosto de programas de entrevistas no rádio, na TV e nas Mídias Sociais',
+                        '2. Gosto de programas de entrevistas no rádio, na TV e nas mídias sociais.',
                         '3. Sou bom ouvinte',
                         '4. Prefiro informar-me através dos noticiários de rádio e TV a ler jornais e revistas',
                         '5. Sinto-me mal quando meu carro faz algum barulho estranho',
@@ -137,7 +137,7 @@
                         ];
 
                     $grupoC = [
-                        '1. Quando ouço música não consigo deixar de batucar com os pés e as mãos',
+                        '1. Quando ouço música, não consigo deixar de batucar com os pés e as mãos.',
                         '2. Gosto muito de estar ao ar livre',
                         '3. Tenho boa coordenação motora',
                         '4. Gosto de sentir o cheiro das flores',

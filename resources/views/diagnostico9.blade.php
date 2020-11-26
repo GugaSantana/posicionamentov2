@@ -80,17 +80,17 @@
                     <div class="col-12">
                         <h4><center>Diagnóstico e Recomendações</center></h4>
                     <br>
-                    <p class="fonte18">Uma comunicação efetiva é a base para desenvolver um bom relacionamento com o cliente e um bom relacionamento com o cliente é o fundamento, é a base para implementar Vendas Consultivas.</p>
+                    <p class="fonte18">Uma comunicação efetiva é a base para desenvolver um bom relacionamento com o cliente e um bom relacionamento com o cliente é o fundamento, é a base para implementar as Vendas Consultivas.</p>
                     <p class="fonte18">Para estabelecer uma comunicação eficaz é preciso entender o Modelo Mental do Cliente e interagir conforme sua maneira de ver o mundo.</p>
-                    <p class="fonte18">Existem três Modelos Mentais que levam a três perfis diferentes de comunicação, como mostra o exemplo na figura seguinte</p>
+                    <p class="fonte18">Existem três Modelos Mentais que levam a três perfis diferentes de comunicação, como mostra o exemplo na figura seguinte:</p>
 
                     <center><img src="../posicionamento/public/img/instrumento9/diag_9_3_new.jpg" style="width: 50%"></center>
                     <br>
                     <p class="fonte18"><font style="color: #35408f">- O MODELO VISUAL:</font> É próprio das pessoas com um quadro mental que leva a entender o mundo por meio de imagens, gráficos, filmes, esquemas e outros recursos visuais.</p>
-                    <p class="fonte18">Estas pessoas tendem a se comunicar através de imagens. Desenham enquanto falam, traduzem as idéias em esquemas gráficos e usam palavras com conotação visual.</p>
-                    <p class="fonte18"><font style="color: #35408f">- O MODELO AUDITIVO:</font> as pessoas nas quais predomina este modelo gostam de falar, e falam de forma clara e pausada. Seu raciocínio é mais analítico. Querem ouvir e gostam de explicações.</p>
+                    <p class="fonte18">Estas pessoas tendem a se comunicar através de imagens. Desenham enquanto falam, traduzem as ideias em esquemas gráficos e usam palavras com conotação visual.</p>
+                    <p class="fonte18"><font style="color: #35408f">- O MODELO AUDITIVO:</font> as pessoas nas quais predomina este modelo gostam de falar e falam de forma clara e pausada. Seu raciocínio é mais analítico. Querem ouvir e gostam de explicações.</p>
                     <p class="fonte18"><font style="color: #35408f">- O MODELO CINESTESICO:</font> são pessoas que precisam sentir as coisas para compreendê-las. Por exemplo, costumam tocar nos outros quando falam. O sentimento e o tato são muito importantes na sua visão de mundo.</p>
-                    <p class="fonte18">Necessitam de sensações, necessitam experimentar para compreender</p>
+                    <p class="fonte18">Necessitam de sensações, necessitam experimentar para compreender.</p>
 
                     <br>
                     <p class="fonte18"><h4><center>DIAGNÓSTICO</center></h4></p>
@@ -100,7 +100,7 @@
                     - O Canal Visual<br>
                     - O Canal Auditivo<br>
                     - O Canal Cinestésico</p>
-                    <p class="fonte18">O instrumento que você respondeu permite diagnosticar qual é seu Canal de Comunicação Dominante. Seu diagnóstico está representado no seguinte gráfico</p>
+                    <p class="fonte18">O Instrumento que você respondeu permite diagnosticar qual é seu Canal de Comunicação Dominante. Seu Diagnóstico está representado no seguinte gráfico:</p>
 
 
                     <center>
@@ -108,33 +108,33 @@
                         </canvas>
                     </center>
 
-                    <p class="fonte18">No gráfico você pode visualizar e comparar a força de seus Canais Neurolinguisticos.</p>
-                    <p class="fonte18">É evidente que os três canais estão presentes no Modelo Mental de todas as pessoas, mas sempre um deles tende a prevalecer, esse será o Canal Neurolinguistico dominante de seu Modelo Mental</p>
-                    <p class="fonte18">Você identifica seu canal predominante e mede a força de cada canal neurolinguistico pela proximidade que cada um deles tem da nota 10.</p>
+                    <p class="fonte18">No gráfico, você pode visualizar e comparar a força de seus Canais Neurolinguísticos.</p>
+                    <p class="fonte18">É evidente que os três canais estão presentes no Modelo Mental de todas as pessoas, mas sempre um deles tende a prevalecer, esse será o Canal Neurolinguístico dominante de seu Modelo Mental.</p>
+                    <p class="fonte18">Você identifica seu canal predominante e mede a força de cada canal neurolinguístico pela proximidade que cada um deles tem da nota 10.</p>
                         
                         <br>
                         <p class="fonte18"><h4><center>RECOMENDAÇÕES</center></h4></p>
                         
-                        <p class="fonte18">Um vez que agora você conhece se Canal Neurolinguistico Dominante, a primeira e mais importante recomendação é que você identifique o Perfil Neurolinguistico do cliente: Se é um cliente visual, auditivo ou cinestésico.</p>
-                        <p class="fonte18">Identificado o Canal Neurolinguistico do cliente, você tem que passar a utilizar o canal preferencial de seu cliente para estabelecer uma comunicação eficaz com ele.</p>
-                        <p class="fonte18">Então temos aqui duas etapas: pelo Diagnóstico você já conhece seu canal de comunicação preferencial, agora, você tem que sintonizar seu canal de comunicação com o canal de comunicação do cliente.</p>
+                        <p class="fonte18">Uma vez que agora você conhece seu Canal Neurolinguístico dominante, a primeira e mais importante Recomendação é que você identifique o Perfil Neurolinguístico do cliente: Se é um cliente visual, auditivo ou cinestésico.</p>
+                        <p class="fonte18">Identificado o Canal Neurolinguístico do cliente, você tem que passar a utilizar o canal preferencial de seu cliente para estabelecer uma comunicação eficaz com ele.</p>
+                        <p class="fonte18">Então temos aqui duas etapas: pelo Diagnóstico você já conhece seu canal de comunicação preferencial. Agora, você tem que sintonizar seu canal de comunicação com o canal de comunicação do cliente.</p>
                         <p class="fonte18">Você tem que se comunicar com o canal preferencial do cliente porque assim se estabelecerá uma “identificação” com o cliente.</p>
                         <p class="fonte18">O raciocínio inconsciente de identificação do cliente com você, será o seguinte:</p>
-                        <p class="fonte18">“Somos iguais, eu sou igual que o vendedor e se somos iguais, posso confiar nele”</p>
-                        <p class="fonte18">Então, na pratica, a recomendação é que você aprenda a se comunicar, a argumentar em três “idiomas” diferentes que são os seguintes:</p>
+                        <p class="fonte18">“Somos iguais, eu sou igual ao vendedor e se somos iguais, posso confiar nele”.</p>
+                        <p class="fonte18">Então, na prática, a Recomendação é que você aprenda a se comunicar, a argumentar em três “idiomas” diferentes que são os seguintes:</p>
                         <p class="fonte18">- VISUALES<br>
                         - AUDITIVES<br>
                         - CINESTESES</p>
-                        <p class="fonte18">Por exemplo, se você está vendendo um carro para um cliente visual, você tem que se comunicar em “VISUALES”: você terá maior poder de persuasão se fala sobre o design do carro, sobre as belas cores disponíveis, a beleza do painel de comando, e assim por diante.</p>
+                        <p class="fonte18">Por exemplo, se você está vendendo um carro para um cliente visual, você tem que se comunicar em “VISUALES”: você terá maior poder de persuasão se fala sobre o design do carro, sobre as belas cores disponíveis, a beleza do painel de comando e assim por diante.</p>
                         <p class="fonte18">Em “AUDITIVES” você argumentará que o carro é silencioso, que não se ouve o motor em funcionamento e outros argumentos nesta linha.</p>
-                        <p class="fonte18">Já em “CINESTESES” você dirá ao cliente: experimente, entre no carro, pode sentar, sinta o conforto, a maciez do estofamento, e assim por diante.</p>
-                        <p class="fonte18">Observe que você está vendendo o mesmo produto, porem de maneira diferente, porque você está argumentando para diferentes canais lingüísticos.</p>
+                        <p class="fonte18">Já em “CINESTESES” você dirá ao cliente: experimente, entre no carro, pode sentar, sinta o conforto, a maciez do estofamento e assim por diante.</p>
+                        <p class="fonte18">Observe que você está vendendo o mesmo produto, porém de maneira diferente, porque você está argumentando para diferentes canais linguísticos.</p>
                         <p class="fonte18">Lembre-se:</p>
-                        <p class="fonte18">- Utilizamos os três canais lingüísticos porem você deve descobrir qual canal predomina no cliente e se concentrar nele.</p>
-                        <p class="fonte18">- Para que você possa gerenciar esses canais com eficácia os canais de comunicação dos clientes, você deve saber identificá-los no cliente.</p>
+                        <p class="fonte18">- Utilizamos os três canais linguísticos, porém você deve descobrir qual canal predomina no cliente e se concentrar nele.</p>
+                        <p class="fonte18">- Para que você possa gerenciar esses canais com eficácia, os canais de comunicação dos clientes, você deve saber identificá-los no cliente.</p>
                         <p class="fonte18">- Você também tem que aprender a falar em “Visuales, Auditives e Cinesteses”.</p>
-                        <p class="fonte18">- E finalmente você deve saber se comunicar nos três canais (“Idiomas”) conforme a situação.</p>
-                        <p class="fonte18">Siga estas recomendações e sua capacidade de comunicação e persuasão serão extraordinariamente maiores.</p>
+                        <p class="fonte18">- E finalmente, você deve saber se comunicar nos três canais (idiomas) conforme a situação.</p>
+                        <p class="fonte18">Siga estas Recomendações e sua capacidade de comunicação e persuasão serão extraordinariamente maiores.</p>
 
                         <!-- RESPOSTA DE ACORDO COM REQUISIÇÃO -->
                         <!-- <p class="fonte18"><h4>Diagnóstico - $retorno['titulo']</h4></p>
