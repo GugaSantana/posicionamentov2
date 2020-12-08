@@ -89,9 +89,9 @@
                             <center>Levantamento de Informações</center>
                         </h4>
 
-                            <p class="fonte18">Como vimos no instrumento anterior, a primeira etapa das Vendas Consultivas é a Prospecção de Clientes.</p>
-                            <p class="fonte18">Dois instrumentos foram aplicados para melhorar a eficácia da PROSPECÇÃO: o instrumento 11 – Definição do perfil do cliente ideal e o instrumento 12 – Matriz de Prospecção de Clientes.</p>
-                            <p class="fonte18">Este é o primeiro dos dois instrumentos da metodologia para aumentar a produtividade da segunda etapa das Vendas Consultivas, que é a etapa da QUALIFICAÇÃO dos Clientes.</p>
+                            <p class="fonte18">Como vimos no Instrumento anterior, a primeira etapa das Vendas Consultivas é a Prospecção de Clientes.</p>
+                            <p class="fonte18">Dois Instrumentos foram aplicados para melhorar a eficácia da PROSPECÇÃO: o Instrumento 11 – Definição do Perfil do Cliente Ideal; e o Instrumento 12 – Matriz de Prospecção de Clientes.</p>
+                            <p class="fonte18">Este é o primeiro dos dois Instrumentos da Metodologia para aumentar a produtividade da segunda etapa das Vendas Consultivas, que é a etapa da QUALIFICAÇÃO dos Clientes.</p>
                             <p class="fonte18">A Qualificação serve para decidir se vale a pena dedicar tempo e esforço para conquistar um cliente que foi prospectado.</p>
 
                     </div>
@@ -100,12 +100,12 @@
                         <p class="fonte18"><b>INSTRUÇÕES</b></p>
                         <!-- <h2 style="color: #35408f">PRIMEIRA PARTE</h2> -->
 
-                        <p class="fonte18">Responda em que medida, conforme a escala a seguir, você está aplicando atualmente os seguintes seis critérios para Qualificar seus Clientes Potenciais?
+                        <p class="fonte18">Responda em que medida, conforme a escala a seguir, você está aplicando atualmente os seguintes seis critérios para Qualificar seus Clientes Potenciais?</p>
                         <p class="fonte18">ESCALA<br>
-                        1 – Não tenho condições de responder esta pergunta
-                        <br>2 – Realmente me esforço por atender esta condição, porem faço com fortes restrições o requerido por esta questão
-                        <br>3 – Regularmente respondo esta questão de maneira não sistemática, só baseado na minha experiência e intuição.
-                        <br>4 – Trato desta questão para a maioria de meus clientes potenciais, porem sem metodologia bem definida
+                        1 – Não tenho condições de responder esta pergunta.
+                        <br>2 – Realmente me esforço para atender a esta condição, porém faço com fortes restrições o requerido por esta questão.
+                        <br>3 – Regularmente respondo esta questão de maneira não-sistemática, só baseado na minha experiência e intuição.
+                        <br>4 – Trato desta questão para a maioria de meus clientes potenciais, porém sem metodologia bem definida.
                         <br>5 – Sim, trato desta questão regularmente e de maneira sistemática e com método.</p>
 
                     </div>
@@ -115,12 +115,12 @@
                     @php
 
                     $questions = [
-                        '1 Eu avalio se o cliente potencial tem recursos financeiros para comprar meus produtos?',
-                        '2 Eu levo em consideração em que medida a pessoa com a qual estou falando tem o poder de decisão para fazer a compra?',
-                        '3 Em que medida sei se o cliente potencial realmente necessita dos produtos que lhe estou oferecendo? Sei se ele tem urgência para comprar?',
-                        '4 Posso saber se a decisão de comprar do cliente potencial levará muito tempo?',
-                        '5 Eu posso prever dificuldades no processo de vendas para este cliente?',
-                        '6 Em que medida sei se as reais necessidades do cliente podem ser atendidas pelos produtos e soluções que estou oferecendo?'
+                        '1. Eu avalio se o Cliente Potencial tem recursos financeiros para comprar meus produtos?',
+                        '2. Eu levo em consideração em que medida a pessoa com a qual estou falando tem o poder de decisão para fazer a compra?',
+                        '3. Em que medida sei se o Cliente Potencial realmente necessita dos produtos que lhe estou oferecendo? Sei se ele tem urgência para comprar?',
+                        '4. Posso saber se a decisão de comprar do Cliente Potencial levará muito tempo?',
+                        '5. Eu posso prever dificuldades no Processo de Vendas para este cliente?',
+                        '6. Em que medida sei se as reais necessidades do cliente podem ser atendidas pelos produtos e soluções que estou oferecendo?'
                         ];
                     @endphp
 

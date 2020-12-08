@@ -90,21 +90,21 @@
                 <div class="col-12">
                     <h4><center>Diagnóstico e Recomendações</center></h4>
                     <br>
+
                     <p class="fonte18">Depois de ter feito uma lista de possíveis clientes para entrar em contato, é necessário determinar se eles realmente têm potencial para se beneficiar com os produtos ou soluções oferecidas por você e também se tem condições de compra.</p>
-                    <p class="fonte18">A Qualificação é a segunda etapa da metodologia das Vendas Consultivas.</p>
-                    <p class="fonte18">A Qualificação é essencial para excluir possíveis clientes que não tem potencial de conversão para clientes reais.</p>
-                    <p class="fonte18">O gráfico seguinte mostra como o processo de Qualificação evolui na medida em que obtemos mais informações dos Clientes Potenciais.</p>
+                    <p class="fonte18">A Qualificação é a segunda etapa da Metodologia das Vendas Consultivas.</p>
+                    <p class="fonte18">A Qualificação é essencial para excluir possíveis clientes que não tem potencial de conversão para Clientes Reais.</p>
+                    <p class="fonte18">O gráfico seguinte mostra como o processo de Qualificação evolui na medida em que obtemos mais informações dos Clientes Potenciais:</p>
 
                     <center><img src="../posicionamento/public/img/instrumento13/diag_13_1_new.jpg" style="width: 60%;"></center><br>
 
-                    <p class="fonte18">Os potenciais de conversão entre as etapas e as técnicas para aumentar esse potencial, são analisados no INSTRUMENTO 18 da metodologia: O Funil de Vendas, com Objetivos e Métricas de Avanço.</p>
-                    <p class="fonte18">Em síntese, com a Qualificação dos clientes potenciais, se busca estabelecer uma relação entre o custo de aquisição de clientes e quanto se poderá ganhar com esses clientes.</p>
-
+                    <p class="fonte18">Os potenciais de conversão entre as etapas e as técnicas para aumentar esse potencial, são analisados no INSTRUMENTO 18 da Metodologia: O Funil de Vendas, com Objetivos e Métricas de Avanço.</p>
+                    <p class="fonte18">Em síntese, com a Qualificação dos Clientes Potenciais, se busca estabelecer uma relação entre o custo de aquisição de clientes e quanto se poderá ganhar com esses clientes.</p>
 
                     <br>
                     <p class="fonte18"><h4><center>DIAGNÓSTICO</center></h4></p>
 
-                    <p class="fonte18">O resultado das respostas que você deu ao questionário inicial leva ao seguinte perfil diagnóstico</p>
+                    <p class="fonte18">O resultado das respostas que você deu ao questionário inicial leva ao seguinte Perfil Diagnóstico:</p>
                     
                     <table class="table table-hover table-bordered fonte18">
                             <thead class="bg-primary">
@@ -122,11 +122,11 @@
                             </thead>
                             @php
                                 $questions = [  
-                                                '1. O cliente potencial tem recursos financeiros para comprar seus produtos?',
+                                                '1. O Cliente Potencial tem recursos financeiros para comprar seus produtos?',
                                                 '2. Em que medida a pessoa com a qual estou falando tem o poder de decisão para fazer a compra?',
-                                                '3. Em que medida o cliente potencial realmente necessita dos produtos que lhe estou oferecendo? Ele tem urgência para comprar?',
+                                                '3. Em que medida o Cliente Potencial realmente necessita dos produtos que lhe estou oferecendo? Ele tem urgência para comprar?',
                                                 '4. A decisão de comprar levará muito tempo?',
-                                                '5. Posso levar dificuldades no processo de vendas para este cliente?',
+                                                '5. Posso ter dificuldades no Processo de Vendas para este cliente?',
                                                 '6. Em que medida as reais necessidades do cliente podem ser atendidas pelos produtos e soluções que estou oferecendo?'
                                             ]
                             @endphp
@@ -146,11 +146,11 @@
 
                     <p class="fonte18">Conclusões</p>
 
-                    <p class="fonte18">1 – Posição absolutamente negativa em relação à questão colocada<br>
+                    <p class="fonte18">1 – Posição absolutamente negativa em relação à questão colocada.<br>
                     2 – Atende com restrições fortes o requerido por esta condição<br>
-                    3 – Atende de maneira intermediária<br>
-                    4 – Atende esta condição acima da média<br>
-                    5 – Apresenta a condição ideal em relação à questão colocada</p>
+                    3 – Atende de maneira intermediária.<br>
+                    4 – Atende esta condição acima da média.<br>
+                    5 – Apresenta a condição ideal em relação à questão colocada.</p>
 
                     <div class="row">
                         <div class="col-12" style="overflow: auto;">
@@ -178,14 +178,14 @@
                         <br>
                         <p class="fonte18"><h4><center>RECOMENDAÇÕES</center></h4></p>
 
-                        <p class="fonte18">Qualificar é o processo de reunir informações para entender o que seu cliente está buscando, descobrir suas necessidades e avaliar se ele tem valor para seu objetivo de vendas.</p>
+                        <p class="fonte18">Qualificar é o processo de reunir informações para entender o que seu cliente está buscando, descobrir suas necessidades e avaliar se ele tem valor para seu objetivo de Vendas.</p>
                         <p class="fonte18">Mais de 60% das vendas perdidas é o resultado de clientes que não foram adequadamente qualificados.</p>
-                        <p class="fonte18">A primeira recomendação é não partir da Prospecção e ir diretamente para a apresentação dos produtos.</p>
-                        <p class="fonte18">Antes da apresentação dos produtos você tem que saber se o cliente potencial quer, pode comprar e precisa de sua solução para então decidir se é conveniente agendar uma apresentação sobre os produtos que você oferece.</p>
-                        <p class="fonte18">Procure obter sistematicamente as informações requeridas pelos 6 Fatores da metodologia para qualificar clientes potenciais, começando pela atividade que apresenta o valor mais baixo em seu diagnóstico.</p>
-                        <p class="fonte18">As informações podem ser obtidas de maneira direta, com o próprio Cliente Potencial ou através de fontes secundárias, por exemplo, com pessoas próximas ao cliente potencial </p>
-                        <p class="fonte18">Você pode colocar os clientes potenciais em um gráfico de pirâmide como o seguinte, no nível em que se encontram, conforme as informações que você tem deles:</p>
-                        
+                        <p class="fonte18">A primeira Recomendação não é partir da Prospecção e ir diretamente para a apresentação dos produtos.</p>
+                        <p class="fonte18">Antes da apresentação dos produtos você tem que saber se o Cliente Potencial quer, pode comprar e precisa da sua solução, para então decidir se é conveniente agendar uma apresentação sobre os produtos que você oferece.</p>
+                        <p class="fonte18">Procure obter sistematicamente as informações requeridas pelos 6 Fatores da Metodologia para qualificar Clientes Potenciais, começando pela atividade que apresenta o valor mais baixo em seu Diagnóstico.</p>
+                        <p class="fonte18">As informações podem ser obtidas de maneira direta, com o próprio Cliente Potencial ou através de fontes secundárias, por exemplo, com pessoas próximas ao Cliente Potencial.</p>
+                        <p class="fonte18">Você pode colocar os Clientes Potenciais em um gráfico de pirâmide como o seguinte, no nível em que se encontram, conforme as informações que você tem deles:</p>
+
                         <center><img src="../posicionamento/public/img/instrumento13/diag_13_2_new.jpg" style="width: 40%;"></center>
                        <!--  <div class="row">
                             <div class="col-12" style="overflow: auto;">
@@ -205,20 +205,20 @@
                         </div> -->
                         <br>
 
-                        <p class="fonte18">Na base (Nível 3) você poderá registrar os Clientes Potenciais sobre os quais você sabe muito pouco em relação a sua qualificação.</p>
-                        <p class="fonte18">O objetivo é movê-los para os níveis seguintes na medida em que você obtém mais informações sobre eles, para efeito de QUALIFICAÇÃO. </p>
-                        <p class="fonte18">No nível 2 você poderá registar os Clientes Potenciais semiqualificados, ou seja, aqueles sobre os quais você ainda não tem todas as informações necessárias para qualificá-los com segurança.</p>
+                        <p class="fonte18">Na base (Nível 3) você poderá registrar os Clientes Potenciais sobre os quais você sabe muito pouco em relação a sua Qualificação.</p>
+                        <p class="fonte18">O objetivo é movê-los para os níveis seguintes na medida em que você obtém mais informações sobre eles, para efeito de QUALIFICAÇÃO.</p>
+                        <p class="fonte18">No nível 2 você poderá registrar os Clientes Potenciais semiqualificados, ou seja, aqueles sobre os quais você ainda não tem todas as informações necessárias para qualificá-los com segurança.</p>
                         <p class="fonte18">Assim, em cada nível ascendente da Pirâmide se situam os Clientes Potenciais mais qualificados.</p>
-                        <p class="fonte18">Este gráfico de Pirâmide é seu ponto de partida. Ele é dinâmico porque na medida em que você obtêm mais informações sobre os clientes potenciais, eles vão avançando de Nível até que alcançando o Nível 1, você se sentirá confortável para agendar a primeira reunião de Apresentação.</p>
-                        <p class="fonte18">A matriz seguinte complementa o Gráfico de Pirâmide anterior e serve para que você posicione o resultado da qualificação dos clientes potenciais que você fez a fim de identificar os potenciais de compras.</p>
-                        <p class="fonte18">Registre na Matriz os clientes que estão sendo Qualificados num dos quatro quadrantes conforme a combinação dos dois eixos:</p>
+                        <p class="fonte18">Este Gráfico de Pirâmide é seu ponto de partida. Ele é dinâmico porque na medida em que você obtém mais informações sobre os Clientes Potenciais, eles vão avançando de Nível até que, alcançando o Nível 1, você se sentirá confortável para agendar a primeira reunião de Apresentação.</p>
+                        <p class="fonte18">A Matriz seguinte complementa o Gráfico de Pirâmide anterior e serve para que você posicione o resultado da qualificação dos Clientes Potenciais que você fez a fim de identificar os potenciais de compras.</p>
+                        <p class="fonte18">Registre na Matriz os clientes que estão sendo Qualificados num dos quatro quadrantes, conforme a combinação dos dois eixos:</p>
                         <p class="fonte18">- Capacidade de Compra<br> 
                         - Intenção de Compra</p>
 
                         <center><img src="../posicionamento/public/img/instrumento13/diag_13_3_new.jpg" style="width: 50%;"></center><br>
 
-                        <p class="fonte18">- Quanto melhor for feita a Prospecção, maior será a taxa de conversão de Clientes Potenciais para Clientes Potenciais Qualificados, aqueles que tem potencial </p>
-                        <p class="fonte18">- Quanto melhor seja sua QUALIFICAÇÃO DE CLIENTES, maior será sua taxa de conversão para a etapa seguinte que é a APRESENTAÇÃO DOS PRODUTOS.</p>
+                        <p class="fonte18">- Quanto melhor for feita a Prospecção, maior será a taxa de conversão de Clientes Potenciais para Clientes Potenciais Qualificados, aqueles que têm potencial.</p>
+                        <p class="fonte18">- Quanto melhor seja sua QUALIFICAÇÃO DE CLIENTES, maior será sua taxa de conversão para a etapa seguinte, que é a APRESENTAÇÃO DOS PRODUTOS.</p>
 
                         <!-- RESPOSTA DE ACORDO COM REQUISIÇÃO -->
                         <!-- <p class="fonte18"><h4>Diagnóstico - $retorno['titulo']</h4></p>
