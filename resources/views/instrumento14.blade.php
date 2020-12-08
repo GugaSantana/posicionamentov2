@@ -134,10 +134,10 @@
                             <center>Levantamento de Informações</center>
                         </h4>
 
-                            <p class="fonte18">Com o instrumento anterior você recebeu as orientações técnicas para Qualificar Clientes Potenciais.</p>
-                            <p class="fonte18">Este é o segundo instrumento da segunda etapa das Vendas Consultivas, que é a Qualificação dos Clientes Potenciais. É evidente que os clientes não têm o mesmo potencial de geração de receitas: não tem o mesmo valor.</p>
-                            <p class="fonte18">Regularmente estabelecemos o valor ou a importância dos clientes através de um processo intuitivo ou baseado na experiência.</p>
-                            <p class="fonte18">Este instrumento lhe permitirá avaliar de maneira técnica e quantitativa o valor e a verdadeira importância de cada um de seus clientes para que você possa administrar sua carteira de clientes com maior eficácia e produtividade, seguindo as recomendações que você receberá depois da interpretação dos resultados de suas respostas.</p>
+                            <p class="fonte18">Com o Instrumento anterior, você recebeu as orientações técnicas para Qualificar os Clientes Potenciais.</p>
+                            <p class="fonte18">Este é o segundo Instrumento da segunda etapa das Vendas Consultivas, que é a Qualificação dos Clientes Potenciais. É evidente que os clientes não têm o mesmo potencial de geração de receitas: não têm o mesmo valor.</p>
+                            <p class="fonte18">Regularmente, estabelecemos o valor ou a importância dos clientes através de um processo intuitivo ou baseado na experiência.</p>
+                            <p class="fonte18">Este Instrumento lhe permitirá avaliar de maneira técnica e quantitativa o valor e a verdadeira importância de cada um de seus clientes para que você possa administrar sua carteira de clientes com maior eficácia e produtividade. Você seguirá as Recomendações que você receberá depois da interpretação dos resultados de suas respostas.</p>
 
                     </div>
                     <br>
@@ -145,18 +145,16 @@
                         <p class="fonte18"><b>INSTRUÇÕES</b></p>
                         <!-- <h2 style="color: #35408f">PRIMEIRA PARTE</h2> -->
 
-
-                        <p class="fonte18">Para responder este instrumento será utilizada a Matriz para Análise dos Clientes Prioritários.</p>
+                        <p class="fonte18">Para responder este Instrumento, será utilizada a Matriz para Análise dos Clientes Prioritários.</p>
                         <p class="fonte18">Siga as seguintes instruções para seu preenchimento:</p>
-                        <p class="fonte18">A – Na primeira coluna da Matriz para Análise dos Clientes Prioritários (denominada “Classificação Inicial”) registre os 8 clientes mais importantes da sua carteira, sendo o primeiro o mais importante, e registre os outros clientes numa seqüência decrescente de importância. Se você não tem 8 clientes atuais, você deve completar o formulário incluindo na lista clientes potenciais seguindo os mesmos critérios.</p>
-                        <p class="fonte18">B – Após o registro dos seus 8 clientes mais importantes, na sequência, você irá preencher a Matriz pontuando para cada cliente um valor para cada um dos 12 fatores de avaliação apresentados. São eles: faturamento, crescimento, adaptação dos produtos, rentabilidade, capacidade financeira, concorrência, receptividade do cliente, conhecimento, dificuldade, recompensas, investimento pessoal e tempo</p>
-                        <p class="fonte18">Para este preenchimento você irá se basear na Escala dos Fatores de Avaliação que vem logo abaixo da Matriz.</p>
+                        <p class="fonte18">A – Na primeira coluna da Matriz para Análise dos Clientes Prioritários (denominada “Classificação Inicial”), registre os 8 clientes mais importantes da sua carteira. O primeiro deverá ser o mais importante, e registre os outros clientes numa sequência decrescente de importância. Se você não tem 8 clientes atuais, você deve completar o formulário incluindo na lista os clientes potenciais seguindo os mesmos critérios.</p>
+                        <p class="fonte18">B – Após o registro dos seus 8 clientes mais importantes, na sequência você irá preencher a Matriz, pontuando para cada cliente um valor para cada um dos 12 fatores de avaliação apresentados. São eles: faturamento, crescimento, adaptação dos produtos, rentabilidade, capacidade financeira, concorrência, receptividade do cliente, conhecimento, dificuldade, recompensas, investimento pessoal e tempo.</p>
+                        <p class="fonte18">Para este preenchimento, você irá se basear na Escala dos Fatores de Avaliação, que vem logo abaixo da Matriz.</p>
+
                         <p class="fonte18">Na tabela, para cada um dos 12 fatores de avaliação dos clientes, você tem uma escala de 0 a 10 pontos.</p>
-                        <p class="fonte18">Avalie cada cliente que você registrou na primeira coluna da Matriz em cada um desses 12 fatores.</p>
-                        <p class="fonte18">Para isto comece pelo primeiro fator e atribua um valor entre 0 e 10 pontos para cada cliente. Feito isto repita o procedimento com o segundo fator, e assim sucessivamente até o 12º Fator.</p>
-                        <p class="fonte18">Observe que no final do seu trabalho todos os clientes terão um valor para cada um dos 12 fatores.</p>
-
-
+                        <p class="fonte18">Avalie cada cliente que você registrou na primeira coluna da Matriz, em cada um desses 12 fatores.</p>
+                        <p class="fonte18">Para isto, comece pelo primeiro fator e atribua um valor entre 0 e 10 pontos para cada cliente. Feito isto, repita o procedimento com o segundo fator, e assim sucessivamente até o 12º Fator.</p>
+                        <p class="fonte18">Observe que, no final do seu trabalho, todos os clientes terão um valor para cada um dos 12 fatores.</p>
                        
                     </div>
 

@@ -88,18 +88,18 @@
                 <div class="col-12">
                     <h4><center>Diagnóstico e Recomendações</center></h4>
                     <br>
-                    <p class="fonte18">Estabelecer corretamente quais são seus clientes prioritários é uma questão fundamental para ter foco, para economizar tempo, para aumentar suas vendas e alcançar seus objetivos.</p>
-                    <p class="fonte18">É importante classificar seus clientes segundo critérios técnicos e posicioná-los numa das seguintes categorias de importância, ou de <b>valor:</b></p>
+                    <p class="fonte18">Estabelecer corretamente quais são seus Clientes Prioritários é uma questão fundamental para se ter foco, para economizar tempo, para aumentar suas vendas e alcançar seus objetivos.</p>
+                    <p class="fonte18">É importante classificar seus clientes segundo critérios técnicos e posicioná-los numa das seguintes categorias de importância ou de <b>valor:</b></p>
 
                     <center><img src="../posicionamento/public/img/instrumento14/diag_14_1_new.jpg" style="width: 60%;"></center><br>
 
-                    <p class="fonte18">É um grave erro agir como se todos os clientes tem o mesmo valor.</p>
-                    <p class="fonte18">Errar na prioridade ou importância que você atribui a cada cliente reduz sua produtividade e certamente comprometerá seus resultados .</p>
+                    <p class="fonte18">É um grave erro agir como se todos os clientes tivessem o mesmo valor.</p>
+                    <p class="fonte18">Errar na prioridade ou importância que você atribui a cada cliente reduz sua produtividade e certamente comprometerá seus resultados.</p>
 
                     <br>
                     <p class="fonte18"><h4><center>DIAGNÓSTICO</center></h4></p>
 
-                    <p class="fonte18">A relação de clientes prioritários por ordem decrescente de importância, conforme seu critério inicial, antes de aplicar a metodologia utilizada neste instrumento era a seguinte:</p>
+                    <p class="fonte18">A relação de Clientes Prioritários por ordem decrescente de importância, conforme seu critério inicial, antes de aplicar a Metodologia utilizada neste Instrumento era a seguinte:</p>
                     
                     <div class="row">
                         <div class="col-12" style="overflow: auto;">
@@ -119,7 +119,7 @@
 
                     <br>
 
-                    <p class="fonte18">Agora são apresentados os 12 fatores que você utilizou para estabelecer, com metodologia, a ordem de importância ou prioridade de seus clientes atuais.</p>
+                    <p class="fonte18">Agora, são apresentados os 12 fatores que você utilizou para estabelecer, com Metodologia, a ordem de importância ou prioridade de seus clientes atuais.</p>
 
                     @php
                         $titles = ['Faturamento', 'Crescimento', 'Adaptação dos produtos', 'Rentabilidade', 'Capacidade Financeira', 'Concorrência', 'Receptividade do Cliente', 'Conhecimento', 'Dificuldade', 'Recompensas', 'Investimento Pessoal', 'Tempo'];
@@ -169,8 +169,8 @@
 
                     <br>
                     
-                    <p class="fonte18">A seguir comparamos a posição inicial de importância de seus clientes e a posição recomendada de prioridades.</p>
-                    <p class="fonte18">Seu diagnóstico apresenta os seguintes desvios entre as duas posições.</p>
+                    <p class="fonte18">A seguir, comparamos a posição inicial de importância de seus clientes e a posição recomendada de prioridades.</p>
+                    <p class="fonte18">Seu Diagnóstico apresenta os seguintes desvios entre as duas posições.</p>
                     
                     <div class="row">
                         <div class="col-12" style="overflow: auto;">
@@ -207,17 +207,18 @@
                         <br>
                         <p class="fonte18"><h4><center>RECOMENDAÇÕES</center></h4></p>
 
-                        <p class="fonte18">O valor dos desvios apresentados no seu diagnóstico com sua posição inicial com a posição recomendada pela metodologia, mostra em que medida você deve aumentar ou diminuir a prioridade que você está dando a cada um de seus clientes e, em consequência, como você deve alterar seu nível de esforço e de dedicação a cada um deles.</p>
-                        <p class="fonte18">Lembre conforme foi definido no INSTRUMENTO 4 – MATRIZ PARA AUMENTAR MINHA PRODUTIVIDADE NAS VENDAS, que produtividade é uma relação de:</p>
-                        <p class="fonte18">Insumo e Produto, (Input e Output) ou seja:</p>
-                        <p class="fonte18">PRODUTIVIDADE = PRODUTO / INSUMO</p>
-                        <p class="fonte18">No caso dos profissionais de vendas, o principal insumo é seu tempo: o tempo que dedicam a cada cliente</p>
-                        <p class="fonte18">Então a expressão da Produtividade para os profissionais de vendas é a relação entre vendas realizadas e tempo dedicado.</p>
-                        <p class="fonte18">PRODUTIVIDADE = VENDAS / TEMPO , ou seja, Quantas Vendas / Em Quanto Tempo</p>
-                        <p class="fonte18">A recomendação deste instrumento é concentrar sua atenção, suas ações e seu tempo na nova relação de Clientes Prioritários.</p>
-                        <p class="fonte18">É claro que se você concentra seu tempo nos clientes que efetivamente tem MAIOR VALOR e MAIOR POTENCIAL, você terá melhores resultados, ou seja, maior faturamento e você alcançará suas metas com maior facilidade, isto é: você será mais produtivo.</p>
-                        <p class="fonte18">A maior contribuição deste instrumento é ajudá-lo a MUDAR SEU FOCO em relação a seus clientes para que você seja mais produtivo.</p>
-                        <p class="fonte18">Atue nos clientes prioritários e aplique neles as recomendações feitas em todos os Instrumentos desta metodologia para aumentar sua eficácia junto a esses clientes prioritários.</p>
+                        <p class="fonte18">O valor dos desvios apresentados no seu Diagnóstico, com sua posição inicial e com a posição recomendada pela Metodologia, mostra em que medida você deve aumentar ou diminuir a prioridade que você está dando a cada um de seus clientes e, em consequência, como você deve alterar seu nível de esforço e de dedicação a cada um deles.</P>
+                        <p class="fonte18">Lembre-se, conforme foi definido no INSTRUMENTO 4 – MATRIZ PARA AUMENTAR MINHA PRODUTIVIDADE NAS VENDAS, que produtividade é uma relação de:</P>
+                        <p class="fonte18">Insumo e Produto, (Input e Output) ou seja:</P>
+                        <p class="fonte18">PRODUTIVIDADE = PRODUTO / INSUMO</P>
+                        <p class="fonte18">No caso dos profissionais de Vendas, o principal insumo é seu tempo: o tempo que dedicam a cada cliente.</P>
+                        <p class="fonte18">Então a expressão da Produtividade para os profissionais de vendas é a relação entre vendas realizadas e tempo dedicado.</P>
+                        <p class="fonte18">PRODUTIVIDADE = VENDAS / TEMPO, ou seja, Quantas Vendas / Em Quanto Tempo.</P>
+                        <p class="fonte18">A Recomendação deste Instrumento é concentrar sua atenção, suas ações e seu tempo na nova relação de Clientes Prioritários.</P>
+
+                        <p class="fonte18">É claro que, se você concentra seu tempo nos clientes que efetivamente tem MAIOR VALOR e MAIOR POTENCIAL, você terá melhores resultados, ou seja, maior faturamento e você alcançará suas metas com maior facilidade, isto é: <b>você será mais produtivo.</b></p>
+                        <p class="fonte18">A maior contribuição deste Instrumento é ajudá-lo a MUDAR SEU FOCO em relação a seus clientes para que você seja mais produtivo.</p>
+                        <p class="fonte18">Atue nos Clientes Prioritários e aplique neles as Recomendações feitas em todos os Instrumentos desta Metodologia para aumentar sua eficácia junto a esses Clientes Prioritários.</p>
 
                         <!-- RESPOSTA DE ACORDO COM REQUISIÇÃO -->
                         <!-- <p class="fonte18"><h4>Diagnóstico - $retorno['titulo']</h4></p>
