@@ -78,8 +78,8 @@
                         </h4>
 
                         <p class="fonte18">O Cliente Ideal é aquele que tem o perfil de quem realmente precisa comprar de você.</p>
-                        <p class="fonte18">Você deve definir as características que um cliente deve ter para que você consiga vender para ele com maior facilidade.</p>
-                        <p class="fonte18">Este instrumento tem por objetivo ajudar você a identificar o Perfil de seu Cliente Ideal de maneira estruturada.</p>
+                        <p class="fonte18">Você deve definir as características que um cliente deve ter, para que você consiga vender para ele com maior facilidade.</p>
+                        <p class="fonte18">Este Instrumento tem por objetivo ajudar você a identificar o Perfil de seu Cliente Ideal de maneira estruturada.</p>
 
                     </div>
                     <br>
@@ -87,7 +87,7 @@
                         <p class="fonte18"><b>INSTRUÇÕES</b></p>
                         <!-- <h2 style="color: #35408f">PRIMEIRA PARTE</h2> -->
 
-                        <p class="fonte18">Para definir o Perfil do Cliente Ideal responda as seguintes questões:</p>
+                        <p class="fonte18">Para definir o Perfil do Cliente Ideal responda às seguintes questões:</p>
                         <p class="fonte18"><b>1 – Escolha dez clientes atuais com os quais você gosta de fazer negócios e com os quais faz bons negócios.</b></p>
                         <p class="fonte18">Leve em conta não só a questão da qualidade do relacionamento com seus clientes, mas também o volume que você vende para eles e a lucratividade (maiores clientes, os que compram com mais frequência, os que geram mais lucratividade etc).</p>
 
@@ -119,10 +119,10 @@
                             <br>
 
                             <p class="fonte18"><b>2 – Características Demográficas</b></p>
-                            <p class="fonte18">Avalie o perfil desses clientes conforme as características demográficas que serão apresentadas</p>
-                            <p class="fonte18">Em cada questão, escolha uma posição <b><u>onde se situa a maioria deles</u></b></p>
+                            <p class="fonte18">Avalie o perfil desses clientes conforme as características demográficas que serão apresentadas.</p>
+                            <p class="fonte18">Em cada questão, escolha uma posição <b><u>onde se situa a maioria deles.</u></b></p>
                             <br>
-                            <p class="fonte18">2.1 – Idade dos Clientes (da maioria dos 10 selecionadas)</p>
+                            <p class="fonte18">2.1 – Idade dos Clientes (da maioria dos 10 selecionados).</p>
 
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">
@@ -195,7 +195,7 @@
 
                             <br>
                             
-                            <p class="fonte18">2.2 – Sexo dos Clientes (da maioria dos 10 selecionadas)</p>
+                            <p class="fonte18">2.2 – Sexo dos Clientes (da maioria dos 10 selecionados).</p>
 
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">
@@ -234,7 +234,7 @@
 
                             <br>
 
-                            <p class="fonte18">2.3 – Renda Estimada dos Clientes (da maioria dos 10 selecionadas)</p>
+                            <p class="fonte18">2.3 – Renda Estimada dos Clientes (da maioria dos 10 selecionados).</p>
 
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">
@@ -295,7 +295,7 @@
 
                             <br>
 
-                            <p class="fonte18">2.4 – Família dos Clientes (da maioria dos 10 selecionadas)</p>
+                            <p class="fonte18">2.4 – Família dos Clientes (da maioria dos 10 selecionados).</p>
 
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">
@@ -367,7 +367,7 @@
 
                             <br>
 
-                            <p class="fonte18">2.5 – Nível Educacional dos Clientes (da maioria dos 10 selecionadas)</p>
+                            <p class="fonte18">2.5 – Nível Educacional dos Clientes (da maioria dos 10 selecionados).</p>
 
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">
@@ -450,7 +450,7 @@
 
                             <br>
 
-                            <p class="fonte18">2.6 – Profissão dos Clientes (da maioria dos 10 selecionadas)</p>
+                            <p class="fonte18">2.6 – Profissão dos Clientes (da maioria dos 10 selecionados).</p>
 
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">
@@ -534,7 +534,7 @@
                             <br><br>
 
                             <p class="fonte18"><b>3 – Segmentação Geográfica</b></p>
-                            <p class="fonte18">3.1 – Bairros onde se concentram meus clientes (da maioria dos 10 selecionadas)</p>
+                            <p class="fonte18">3.1 – Bairros onde se concentram meus clientes (da maioria dos 10 selecionados).</p>
 
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">
@@ -606,7 +606,7 @@
 
                             <br>
                             
-                            <p class="fonte18">3.2 – Meus melhores clientes se localizam em zonas com (da maioria dos 10 selecionadas)</p>
+                            <p class="fonte18">3.2 – Meus melhores clientes se localizam em zonas com (da maioria dos 10 selecionados).</p>
 
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">
@@ -657,7 +657,7 @@
                             <br><br>
 
                             <p class="fonte18"><b>4 – Perfil de Consumo</b></p>
-                            <p class="fonte18">4.1 – Volume de compra de meus clientes (da maioria dos 10 selecionadas)</p>
+                            <p class="fonte18">4.1 – Volume de compra de meus clientes (da maioria dos 10 selecionados)</p>
 
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">
@@ -707,7 +707,7 @@
 
                             <br>
 
-                            <p class="fonte18">4.2 – Frequência de compra de meus clientes (da maioria dos 10 selecionadas)</p>
+                            <p class="fonte18">4.2 – Frequência de compra de meus clientes (da maioria dos 10 selecionados).</p>
 
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">
@@ -757,7 +757,7 @@
 
                             <br>
 
-                            <p class="fonte18">4.3 – O que meus clientes valorizam mais (da maioria dos 10 selecionadas)</p>
+                            <p class="fonte18">4.3 – O que meus clientes valorizam mais (da maioria dos 10 selecionados).</p>
 
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">

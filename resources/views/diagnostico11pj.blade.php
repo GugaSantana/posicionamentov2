@@ -87,13 +87,12 @@
                 <div class="col-12">
                     <h4><center>Diagnóstico e Recomendações</center></h4>
                     <br>
-                    <p class="fonte18">Definir o Perfil de Cliente Ideal é uma maneira de segmentação estratégica.</p>
-                    <p class="fonte18">Segmentação é a seleção do publico alvo para desenvolver o trabalho, dentre todos os públicos que constituem o mercado, e serve para dar Foco a seu trabalho e facilitar o alcance de suas metas de faturamento.</p>
+                    <p class="fonte18">Definir o Perfil de Cliente Ideal é uma maneira de Segmentação Estratégica.</p>
+                    <p class="fonte18">Segmentação é a seleção do público-alvo para desenvolver o trabalho, dentre todos os públicos que constituem o Mercado, e serve para dar Foco a seu trabalho e facilitar o alcance de suas Metas de Faturamento.</p>
                     <p class="fonte18">Vamos fazer uma analogia para entender o significado de Cliente Ideal. Imagine que os clientes sejam frutas. A melhor estratégia para vender (e vender rápido) é pegar em primeiro lugar as frutas que estão nos galhos mais baixos.</p>
-
                     <center><img src="../posicionamento/public/img/instrumento11/diag_11_1_new.jpg" style="width: 50%;"></center>
                     <br>
-                    <p class="fonte18">Se você tem um objetivo de quantidade de frutas para pegar (metas de venda), você pegará as que exigem menos esforço para colher, pois elas são as que darão maior retorno. Como analogia, esses serão seus clientes ideais.</p>
+                    <p class="fonte18">Se você tem um objetivo de quantidade de frutas para pegar (Metas de Venda), você pegará as que exigem menos esforço para colher, pois elas são as que darão maior retorno. Como analogia, esses serão seus Clientes Ideais.</p>
                     <br>
                     <p class="fonte18"><h4><center>DIAGNÓSTICO</center></h4></p>
                     
@@ -151,17 +150,17 @@
                     </table>
 
                     <p class="fonte18">Isto representa sua Situação Atual, não necessariamente a Situação Ideal.</p>
-                    <p class="fonte18">Nas recomendações serão apresentadas orientações para migrar à Situação Ideal.</p>
+                    <p class="fonte18">Nas Recomendações serão apresentadas orientações para migrar à Situação Ideal.</p>
 
                     <br>
                     <p class="fonte18"><h4><center>RECOMENDAÇÃO</center></h4></p>
                     
-                    <p class="fonte18">O Diagnóstico apresentou sua Situação atual em relação aos 8 fatores que são utilizados para definir seu cliente ideal.</p>
-                    <p class="fonte18">A partir da situação atual (<b>Real</b> – apresentada no diagnóstico) defina o que você considera que seja a posição <b>Ideal</b> para situar os seus clientes ideais em cada um dos 8 fatores</p>
-                    <p class="fonte18">- Pesquise, veja como estão posicionados os clientes de seus colegas em relação a esses 8 fatores e análise o posicionamento de mercado de seus concorrentes.</p>
+                    <p class="fonte18">O Diagnóstico apresentou sua Situação atual em relação aos 8 fatores que são utilizados para definir seu Cliente Ideal.</p>
+                    <p class="fonte18">A partir da situação atual (<b>Real</b> – apresentada no Diagnóstico) defina o que você considera que seja a posição <b>Ideal</b>para situar os seus Clientes Ideais em cada um dos 8 fatores.</p>
+                    <p class="fonte18">- Pesquise, veja como estão posicionados os clientes de seus colegas em relação a esses 8 fatores e analise o posicionamento de mercado de seus concorrentes.</p>
                     <p class="fonte18">- Pergunte aos colegas que apresentam os maiores faturamentos como eles posicionam seus clientes em relação a esses fatores.</p>
-                    <p class="fonte18">- Feito este levantamento, analise as informações, reflita, e de acordo com suas conclusões, mude seu posicionamento nas categorias que considere necessárias para aumentar seu faturamento.</p>
-                    <p class="fonte18">Utilize o formulário seguinte para definir em que medida os 8 fatores de avaliação devem estar presentes para ter um CLIENTE IDEAL</p>
+                    <p class="fonte18">- Feito este levantamento, analise as informações, reflita e de acordo com suas conclusões, mude seu posicionamento nas categorias que considere necessárias para aumentar seu faturamento.</p>
+                    <p class="fonte18">Utilize o formulário seguinte para definir em que medida os 8 fatores de avaliação devem estar presentes para ter um CLIENTE IDEAL.</p>
                 
                     <br>
 
@@ -261,8 +260,8 @@
                     
                     <p class="fonte18"><b>IMPORTANTE:</b></p>
 
-                    <p class="fonte18">- Feito isto, a recomendação é começar a Prospectar clientes com o perfil que você acaba de definir e registrou na tabela acima.</p>
-                    <p class="fonte18">Como prospectar clientes tecnicamente é o objetivo do instrumento seguinte (Instrumento 12 – Prospecção de Clientes)</p>
+                    <p class="fonte18">- Feito isto, a Recomendação é começar a Prospectar Clientes com o perfil que você acaba de definir e registrou na tabela acima.</p>
+                    <p class="fonte18">Como Prospectar Clientes tecnicamente é o objetivo do Instrumento seguinte (Instrumento 12 – Prospecção de Clientes).</p>
 
                     <!-- RESPOSTA DE ACORDO COM REQUISIÇÃO -->
                     <!-- <p class="fonte18"><h4>Diagnóstico - $retorno['titulo']</h4></p>

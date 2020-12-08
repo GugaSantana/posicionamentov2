@@ -76,17 +76,16 @@
                         <h4>
                             <center>Levantamento de Informações</center>
                         </h4>
-
-                        <p class="fonte18">Nos últimos quatro instrumentos nos preparamos para “Gerenciar o Campo Psicológico” que se estabelece entre você e seu cliente quando interagem.</p>
-                        <p class="fonte18">Com este instrumento iniciamos uma nova série da metodologia. Começaremos a trabalhar as ETAPAS ESPECÍFICAS das Vendas Consultivas. São cinco etapas e a primeira se refere à Prospecção de clientes que começa com a definição do Cliente Ideal.</p>
-                        <p class="fonte18">Definir o Perfil de Cliente Ideal é o primeiro passo para definir uma estratégia de vendas de sucesso.</p>
+                        <p class="fonte18">Nos últimos quatro Instrumentos, nos preparamos para “Gerenciar o Campo Psicológico” que se estabelece entre você e seu cliente quando interagem.</p>
+                        <p class="fonte18">Com este Instrumento, iniciamos uma nova série da Metodologia. Começaremos a trabalhar as ETAPAS ESPECÍFICAS das Vendas Consultivas. São cinco etapas e a primeira se refere à Prospecção de Clientes, que começa com a definição do Cliente Ideal.</p>
+                        <p class="fonte18">Definir o Perfil de Cliente Ideal é o primeiro passo para uma estratégia de Vendas de sucesso.</p>
                         <p class="fonte18">As preferências dos clientes estão se tornando mais amplas e mais opções estão disponíveis.</p>
-                        <p class="fonte18">Para encontrar seu publico alvo você deve segmentar o mercado para identificar que tipo de cliente prefere seu produto.</p>
+                        <p class="fonte18">Para encontrar seu público-alvo você deve segmentar o Mercado, para identificar que tipo de cliente prefere seu produto.</p>
                         <p class="fonte18">Então, o Cliente Ideal é aquele que tem o perfil de quem realmente precisa comprar de você.</p>
-                        <p class="fonte18">A segmentação do mercado serve para dar Foco a seu trabalho: segmentar é selecionar o público-alvo, definir onde você irá buscar seus clientes.</p>
-                        <p class="fonte18">A segmentação facilita seu trabalho e o alcance de suas metas de faturamento.</p>
+                        <p class="fonte18">A segmentação do Mercado serve para dar Foco a seu trabalho: segmentar é selecionar o público-alvo, definir onde você irá buscar seus clientes.</p>
+                        <p class="fonte18">A segmentação facilita seu trabalho e o alcance de suas Metas de Faturamento.</p>
                         <p class="fonte18">Em síntese, você deve definir as características que um cliente deve ter para que você consiga vender para ele com maior facilidade.</p>
-                        <p class="fonte18">Este instrumento tem por objetivo ajudar você a identificar o Perfil de seu Cliente Ideal de maneira estruturada.</p>
+                        <p class="fonte18">Este Instrumento tem por objetivo ajudar você a identificar o Perfil de seu Cliente Ideal de maneira estruturada.</p>
 
                     </div>
                     <br>
@@ -94,8 +93,8 @@
                         <p class="fonte18"><b>INSTRUÇÕES</b></p>
                         <!-- <h2 style="color: #35408f">PRIMEIRA PARTE</h2> -->
 
-                        <p class="fonte18">Para definir o Perfil do Cliente Ideal responda a seguinte questão:</p>
-                        <p class="fonte18">Seu cliente é uma pessoa física ou uma pessoa jurídica.</p>
+                        <p class="fonte18">Para definir o Perfil do Cliente Ideal responda à seguinte questão:</p>
+                        <p class="fonte18">Seu cliente é uma pessoa física ou uma pessoa jurídica?</p>
 
                         <a href="/instrumento11/pf" class="btn btn-primary">Pessoa Física</a>
                         <a href="/instrumento11/pj" class="btn btn-primary">Pessoa Jurídica</a>

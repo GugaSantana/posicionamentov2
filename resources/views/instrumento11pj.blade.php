@@ -78,8 +78,8 @@
                         </h4>
 
                         <p class="fonte18">O Cliente Ideal é aquele que tem o perfil de quem realmente precisa comprar de você.</p>
-                        <p class="fonte18">Você deve definir as características que um cliente deve ter para que você consiga vender para ele com maior facilidade.</p>
-                        <p class="fonte18">Este instrumento tem por objetivo ajudar você a identificar o Perfil de seu Cliente Ideal de maneira estruturada.</p>
+                        <p class="fonte18">Você deve definir as características que um cliente deve ter, para que você consiga vender para ele com maior facilidade.</p>
+                        <p class="fonte18">Este Instrumento tem por objetivo ajudar você a identificar o Perfil de seu Cliente Ideal de maneira estruturada.</p>
 
                     </div>
                     <br>
@@ -87,8 +87,8 @@
                         <p class="fonte18"><b>INSTRUÇÕES</b></p>
                         <!-- <h2 style="color: #35408f">PRIMEIRA PARTE</h2> -->
 
-                        <p class="fonte18">Para definir o Perfil do Cliente Ideal responda as seguintes questões:</p>
-                        <p class="fonte18">Em cada questão, escolha uma posição na escala apresentada</p>
+                        <p class="fonte18">Para definir o Perfil do Cliente Ideal responda às seguintes questões:</p>
+                        <p class="fonte18">Em cada questão, escolha uma posição na escala apresentada.</p>
                         <p class="fonte18"><b>Escolha dez clientes atuais com os quais você gosta de fazer negócios e com os quais faz bons negócios.</b></p>
 
                     </div>
@@ -107,19 +107,19 @@
                                         </thead>
                                         @for($i=0;$i<10;$i++)
                                             <tr>
-                                                <td style="font-size: 18px; vertical-align: middle;">Cliente {{$i+1}}: <input style="width: 100%;" type="text" name="cliente[]" required></td>
+                                                <td style="font-size: 18px; vertical-align: middle;">Cliente {{$i+1}}: <input style="width: 100%;" type="text" name="cliente[]" @if($i < 5) required @endif></td>
                                             </tr>
                                         @endfor
                                     </table>
                                 </div>
                             </div>
 
-                            <p class="fonte18">Avalie o perfil desses clientes conforme as características que serão apresentada</p>
-                            <p class="fonte18">Na escala de 1 a 10 assinale em que posição você se situa:</p>
+                            <p class="fonte18">Avalie o perfil desses clientes, conforme as características que serão apresentadas.</p>
+                            <p class="fonte18">Na escala de 1 a 10, assinale em que posição você se situa:</p>
                             <br>
 
                             <p class="fonte18"><b>1 – Segmentação</b></p>
-                            <p class="fonte18">Posição de segmentação da maioria dos 10 clientes selecionados</p>
+                            <p class="fonte18">Posição de segmentação da maioria dos 10 clientes selecionados.</p>
 
                             <!-- Questionário 1 -->
                             <div class="row">
@@ -294,7 +294,7 @@
                             <br>
                             
                             <p class="fonte18"><b>6 – Concorrência</b></p>
-                            <p class="fonte18">A concorrência nestes clientes, como fator que complica o processo de vendas é:</p>
+                            <p class="fonte18">A concorrência nestes clientes, como fator que complica o processo de Vendas é:</p>
 
                             <!-- Questionário 6 -->
                             <div class="row">
@@ -329,7 +329,7 @@
                             <br>
                             
                             <p class="fonte18"><b>7 – Tempo para fechar as Vendas</b></p>
-                            <p class="fonte18">Considerando diversos fatores como a cultura da empresa, personalidade dos compradores, etc... a quantidade de tempo que necessito para realizar uma venda é:</p>
+                            <p class="fonte18">Considerando diversos fatores como a cultura da empresa, personalidade dos compradores, etc., a quantidade de tempo que necessito para realizar uma venda é:</p>
 
                             <!-- Questionário 7 -->
                             <div class="row">
@@ -364,7 +364,7 @@
                             <br>
                             
                             <p class="fonte18"><b>8 – Frequência de Compra</b></p>
-                            <p class="fonte18">A freqüência com que estes clientes compram é:</p>
+                            <p class="fonte18">A frequência com que estes clientes compram é:</p>
 
                             <!-- Questionário 8 -->
                             <div class="row">
