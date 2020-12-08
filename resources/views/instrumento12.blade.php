@@ -90,20 +90,20 @@
                             </h4>
 
                             <p class="fonte18">Depois que você definiu o Perfil do seu Cliente Ideal, você deve fazer a Prospecção de Clientes, para encontrar futuros compradores de seus produtos.</p>
-                            <p class="fonte18">Um dos maiores desafios de qualquer vendedor é, de fato, prospectar novos clientes de maneira eficiente, isto porque sem possíveis clientes interessados em seus produtos não haverá fechamento de negócios</p>
-                            <p class="fonte18">A Prospecção de clientes é um processo estruturado para buscar novos clientes que comprem seus produtos.</p>
-                            <p class="fonte18">A Prospecção é a primeira etapa do Funil de Vendas (Instrumento 18 da metodologia), ferramenta-chave para administrar o processo de Vendas.</p>
-                            <p class="fonte18">A Prospecção de clientes é fundamental para canalizar seus esforços para os clientes que tem maior probabilidade de fazer negócios</p>
-                            <p class="fonte18">O seguinte questionário permite avaliar como você realiza atualmente a Prospecção de clientes.</p>
-                            <p class="fonte18">A partir do diagnóstico que será feito, você receberá recomendações para desenvolver as competências que lhe permitam melhorar seu processo de Prospecção.</p>
+                            <p class="fonte18">Um dos maiores desafios de qualquer vendedor é prospectar novos clientes de maneira eficiente, isto porque, sem possíveis clientes interessados em seus produtos, não haverá fechamento de negócios.</p>
+                            <p class="fonte18">A Prospecção de Clientes é um processo estruturado. Com ele, você buscará novos clientes que comprarão seus produtos.</p>
+                            <p class="fonte18">A Prospecção é a primeira etapa do Funil de Vendas (Instrumento 18 da Metodologia), ferramenta-chave para administrar o Processo de Vendas.</p>
+                            <p class="fonte18">A Prospecção de Clientes é fundamental para canalizar seus esforços para os clientes que tem maior probabilidade de fazer negócios.</p>
+                            <p class="fonte18">O seguinte questionário permite avaliar como você realiza atualmente a Prospecção de Clientes.</p>
+                            <p class="fonte18">A partir do Diagnóstico que será feito, você receberá Recomendações para desenvolver as competências que lhe permitirão melhorar seu processo de Prospecção.</p>
 
                     </div>
                     <br>
                     <div class="col-12">
                         <p class="fonte18"><b>INSTRUÇÕES</b></p>
                         <!-- <h2 style="color: #35408f">PRIMEIRA PARTE</h2> -->
-                        <p class="fonte18">No questionário seguinte responda SIM ou NÃO para expressar sua situação atual em relação as atividades que tecnicamente operacionalizam a Prospecção de clientes.</p>
-                        <p class="fonte18">Responda este questionário com atenção, pois suas respostas serão o ponto de partida para a melhoria de seu desempenho na atividade de Prospecção</p>
+                        <p class="fonte18">No questionário seguinte, responda SIM ou NÃO para expressar sua situação atual em relação as atividades que tecnicamente operacionalizam a Prospecção de Clientes.</p>
+                        <p class="fonte18">Responda este questionário com atenção, pois suas respostas serão o ponto de partida para a melhoria de seu desempenho na atividade de Prospecção.</p>
 
                     </div>
 
@@ -116,20 +116,20 @@
                         '2 – Você tem um indicador de desempenho para medir os resultados e a eficiência de suas prospecções?',
                         '3 – Você tem um planejamento e um cronograma de ações específicas de prospecção de novos clientes?',
                         '4 – Estes Planos de Ação são executados fielmente?',
-                        '5 – O perfil de seu cliente ideal com o qual você quer trabalhar, está claramente definido?',
+                        '5 – O Perfil de seu Cliente Ideal com o qual você quer trabalhar, está claramente definido?',
                         '6 – Você leva em consideração esse perfil definido na hora de prospectar?',
                         '7 – Sua Proposta está claramente definida e é comunicada para atrair novos clientes?',
-                        '8 – Você sabe qual é o tempo médio de fechamento entre o primeiro contato com um cliente potencial e o fechamento da venda. (horas, dias, semanas, meses)?',
+                        '8 – Você sabe qual é o tempo médio de fechamento entre o primeiro contato com um cliente potencial e o fechamento da venda (horas, dias, semanas, meses)?',
                         '9 – Você está satisfeito com a velocidade de fechamento das vendas?',
-                        '10 – Você sabe qual é o Tempo de Vida Médio (LTV= lifetime value) de um cliente? LTV é o período de tempo (meses, anos) que um cliente que compra de você se mantém ativo',
+                        '10 – Você sabe qual é o Tempo de Vida Médio (LTV= Lifetime Value) de um cliente? LTV é o período de tempo (meses, anos) que um cliente que compra de você se mantém ativo.',
                         '11 – Você sabe com segurança o valor médio das compras de seus clientes?',
                         '12 – Você tem implementado novas ações para aumentar o valor médio das compras de seus clientes?',
                         '13 – Você sabe quais são as formas de prospecção que atraem o maior número de clientes?',
                         '14 – Você sabe quais são as formas de prospecção que atraem os clientes de maior rentabilidade?',
                         '15 – Você sabe qual é o custo de aquisição de um novo cliente?',
                         '16 – Você está satisfeito com a quantidade e com a qualidade dos novos negócios vindos da sua forma de prospectar?',
-                        '17 – Você desenvolve uma atividade para saber os motivos do não fechamento da venda?',
-                        '18 – Você age de forma sistemática para melhorar o indicador “percentual de conversão”?'
+                        '17 – Você desenvolve uma atividade para saber os motivos do não-fechamento da venda?',
+                        '18 – Você age de forma sistemática para melhorar o indicador do “percentual de conversão”?'
                         ];
                     @endphp
 

@@ -86,20 +86,21 @@
                     <div class="col-12">
                     <h4><center>Diagnóstico e Recomendações</center></h4>
                     <br>
-                    <p class="fonte18">Sabemos que as conseqüências de uma Prospecção feita incorretamente fragilizam o processo de vendas porque traz os seguintes resultados negativos:</p>
+                    <p class="fonte18">Sabemos que as consequências de uma Prospecção feita incorretamente fragilizam o Processo de Vendas porque traz os seguintes resultados negativos:</p>
+                    
                     <p class="fonte18">A – Poucos clientes novos entrando e baixa oxigenação na carteira.</p>
                     <p class="fonte18">B – A Carteira de clientes começa a diminuir / encolher com o processo de perda natural.</p>
                     <p class="fonte18">C – Menos clientes potenciais conhecem sua empresa.</p>
-                    <p class="fonte18">D – Menor probabilidade de vendas para potenciais clientes que você contatou tempos atrás e voltam meses depois.</p>
+                    <p class="fonte18">D – Menor probabilidade de Vendas para potenciais clientes que você contatou tempos atrás e voltam meses depois.</p>
                     <p class="fonte18">E – Quantidade menor de indicações e recomendações.</p>
-                    <p class="fonte18">F – Perda de participação de mercado.</p>
-                    <p class="fonte18">G – Estagnação e retrocesso</p>
-                    <p class="fonte18">Determinadas atividades devem ser desenvolvidas para garantir uma prospecção de qualidade, com o objetivo de gerar uma ampla base de clientes potenciais. </p>
+                    <p class="fonte18">F – Perda de participação de Mercado.</p>
+                    <p class="fonte18">G – Estagnação e retrocesso.</p>
+                    <p class="fonte18">Determinadas atividades devem ser desenvolvidas para garantir uma Prospecção de qualidade, com o objetivo de gerar uma ampla base de clientes potenciais.</p>
 
                     <center><img src="../posicionamento/public/img/instrumento12/diag_12_1_new.jpg" style="width: 50%; "></center>
                     <br>
                     
-                    <p class="fonte18">A prospecção é a primeira Etapa do Funil de Vendas, uma técnica fundamental para a Gestão das Vendas Consultivas. O Funil de Vendas será apresentado no Instrumento 18 – O Funil de Vendas com objetivos e métricas de avanço.</p>
+                    <p class="fonte18">A Prospecção é a primeira etapa do Funil de Vendas, uma técnica fundamental para a Gestão das Vendas Consultivas. O Funil de Vendas será apresentado no Instrumento 18 – O Funil de Vendas com objetivos e métricas de avanço.</p>
                     <br>
                     <p class="fonte18"><h4><center>DIAGNÓSTICO</center></h4></p>
 
@@ -152,29 +153,29 @@
                     </canvas>
                 </center> -->
 
-                    <p class="fonte18">As respostas que levaram a este diagnóstico, e que você deu na primeira parte deste instrumento são as seguintes: </p>
+                    <p class="fonte18">As respostas que levaram a este Diagnóstico e que você deu na primeira parte deste Instrumento são as seguintes:</p>
 
                     @php
 
                     $questions = [
-                        '1 - Você sabe, com 100% de certeza, de onde vêm, ou seja como se originam os clientes novos? Como eles surgem?',
+                        '1 – Você sabe, com 100% de certeza, de onde vêm, ou seja, como se originam os clientes novos? Como eles surgem?',
                         '2 – Você tem um indicador de desempenho para medir os resultados e a eficiência de suas prospecções?',
-                        '3 – Você tem um planejamento e um cronograma de ações específicas de prospecção de novos clientes?',
+                        '3 – Você tem um planejamento e um cronograma de ações específicas de Prospecção de Novos Clientes?',
                         '4 – Estes Planos de Ação são executados fielmente?',
-                        '5 – O perfil de seu cliente ideal com o qual você quer trabalhar, está claramente definido?',
+                        '5 – O Perfil de seu Cliente Ideal, com o qual você quer trabalhar, está claramente definido?',
                         '6 – Você leva em consideração esse perfil definido na hora de prospectar?',
                         '7 – Sua Proposta está claramente definida e é comunicada para atrair novos clientes?',
-                        '8 – Você sabe qual é o ciclo médio de fechamento entre o primeiro contato com um cliente potencial e o fechamento da venda. (horas, dias, semanas, meses)?',
+                        '8 – Você sabe qual é o ciclo médio de fechamento entre o primeiro contato com um cliente potencial e o fechamento da venda (horas, dias, semanas, meses)?',
                         '9 – Você está satisfeito com a velocidade de fechamento das vendas?',
-                        '10 – Você sabe qual é o Tempo de Vida Médio (LTV= lifetime value) de um cliente? LTV é o período de tempo (meses, anos) que um cliente que compra de você se mantém ativo',
+                        '10 – Você sabe qual é o Tempo de Vida Médio (LTV= LifeTime Value) de um cliente? LTV é o período de tempo (meses, anos) que um cliente que compra de você se mantém ativo.',
                         '11 – Você sabe com segurança o valor médio das compras de seus clientes?',
                         '12 – Você tem implementado novas ações para aumentar o valor médio das compras de seus clientes?',
                         '13 – Você sabe quais são as formas de prospecção que atraem o maior número de clientes?',
                         '14 – Você sabe quais são as formas de prospecção que atraem os clientes de maior rentabilidade?',
                         '15 – Você sabe qual é o custo de aquisição de um novo cliente?',
                         '16 – Você está satisfeito com a quantidade e com a qualidade dos novos negócios vindos da sua forma de prospectar?',
-                        '17 – Você desenvolve uma atividade para saber os motivos do não fechamento da venda?',
-                        '18 – Você age de forma sistemática para melhorar o indicador “percentual de conversão”?'
+                        '17 – Você desenvolve uma atividade para saber os motivos do não-fechamento da venda?',
+                        '18 – Você age de forma sistemática para melhorar o indicador do “percentual de conversão”?'
                         ];
                     @endphp
 
@@ -200,9 +201,9 @@
                         </div>
                     </div>
                     <br>
-                    <p class="fonte18" style="color:red;"><b>Você teve {{number_format($percentNao, 2)}}% de respostas NÃO em relação a como deve ser feita uma Prospecção profissional</b></p>
+                    <p class="fonte18" style="color:red;"><b>Você teve {{number_format($percentNao, 2)}}% de respostas NÃO em relação a como deve ser feita uma Prospecção Profissional.</b></p>
                     @if($s >= 15)
-                        <p class="fonte18">Excelente!!  você tem um desempenho muito profissional e eficaz na maneira que desenvolve a atividade de Prospecção.</p>
+                        <p class="fonte18">Excelente! Você tem um desempenho muito profissional e eficaz na maneira que desenvolve a atividade de Prospecção.</p>
                         <p class="fonte18">Mantenha este nível para sustentar seu sucesso profissional.</p>
                     @endif
                     
@@ -213,19 +214,19 @@
                             <p class="fonte18">Você tem que desenvolver de maneira sistemática os conteúdos das atividades da Prospecção profissional que são apresentados a seguir.</p>
                             <p class="fonte18">Recomendamos se concentrar, trabalhar e desenvolver suas competências nas 18 atividades propostas para implementar uma Prospecção de Clientes eficaz.</p>
                             <p class="fonte18">Comece pelas atividades mais críticas, ou seja, aquelas que receberam NÃO como resposta, destacadas na relação em vermelho. </p>
-                            <p class="fonte18">Procure complementar seu desenvolvimento buscando informações e estudando outros conteúdos complementares sobre estas atividades disponíveis na internet. </p>
+                            <p class="fonte18">Procure complementar seu desenvolvimento buscando informações e estudando outros conteúdos complementares sobre estas atividades disponíveis na Internet.</p>
                         @elseif($s <= 14)
                             <p class="fonte18">Você tem que desenvolver de maneira sistemática os conteúdos das atividades da Prospecção profissional que são apresentados a seguir.</p>
                             <p class="fonte18">Recomendamos se concentrar, trabalhar e desenvolver suas competências nas 18 atividades propostas para implementar uma Prospecção de Clientes eficaz.</p>
                             <p class="fonte18">Comece pelas atividades mais críticas, ou seja, aquelas que receberam NÃO como resposta, destacadas na relação em vermelho. </p>
-                            <p class="fonte18">Procure complementar seu desenvolvimento buscando informações e estudando outros conteúdos complementares sobre estas atividades disponíveis na internet. </p>
+                            <p class="fonte18">Procure complementar seu desenvolvimento buscando informações e estudando outros conteúdos complementares sobre estas atividades disponíveis na Internet.</p>
                         @else 
                             <P class="fonte18">Você já pratica uma Prospecção de Clientes consistente e eficaz.</p>
                             <P class="fonte18">Todavia, sempre há espaço e possibilidade de melhoria.</p>
                             <P class="fonte18">Você tem que desenvolver de maneira sistemática os conteúdos das atividades da Prospecção profissional que são apresentados a seguir.</p>
                             <P class="fonte18">Recomendamos se concentrar, trabalhar e desenvolver suas competências nas 18 atividades propostas para implementar uma Prospecção de Clientes eficaz.</p>
                             <P class="fonte18">Comece pelas atividades críticas, se houver, ou seja, aquelas que receberam NÃO como resposta, destacadas na relação em vermelho. </p>
-                            <P class="fonte18">Procure complementar seu desenvolvimento buscando informações e estudando outros conteúdos complementares sobre estas atividades disponíveis na internet. </p>
+                            <P class="fonte18">Procure complementar seu desenvolvimento buscando informações e estudando outros conteúdos complementares sobre estas atividades disponíveis na Internet.</p>
                         @endif
 
                         <div class="row">
@@ -241,18 +242,18 @@
                         </div>
 
                         <br>
-                        <p class="fonte18">Para melhorar o desempenho de algumas atividades sugerimos consultar as recomendações dos seguintes instrumentos da metodologia:</p>
+                        <p class="fonte18">Para melhorar o desempenho de algumas atividades, sugerimos consultar as Recomendações dos seguintes Instrumentos da Metodologia:</p>
 
                         @php
                         $atividades = [
-                            ['ATIVIDADE 3',	'Instrumento 19 – Planos de Ação quantitativos para alcançar as metas'],
-                            ['ATIVIDADE 5',	'Instrumento 11 – Definição do perfil do cliente ideal'],
-                            ['ATIVIDADE 6',	'Instrumento 11 – Definição do perfil do cliente ideal'],
-                            ['ATIVIDADE 8',	'Instrumento 18 – O Funil de Vendas como objetivos e metas de avanço'],
-                            ['ATIVIDADE 9',	'Instrumento 15 - Avaliação da quantidade e da qualidade dos meus argumentos de vendas. (Forças Propulsoras)<br>Instrumento 16 – Neutralização de obstáculos. (Forças Restritivas)'],
-                            ['ATIVIDADE 12',	'Instrumento 19 – Planos de Ação quantitativos para alcançar as metas'],
-                            ['ATIVIDADE 17',	'Instrumento 15 - Avaliação da quantidade e da qualidade dos meus argumentos de vendas. (Forças Propulsoras)'],
-                            ['ATIVIDADE 18',	'Instrumento 18 – O Funil de Vendas como objetivos e metas de avanço']
+                            ['ATIVIDADE 3',	'Instrumento 19 – Planos de Ação quantitativos para alcançar as metas.'],
+                            ['ATIVIDADE 5',	'Instrumento 11 – Definição do perfil do cliente ideal.'],
+                            ['ATIVIDADE 6',	'Instrumento 11 – Definição do perfil do cliente ideal.'],
+                            ['ATIVIDADE 8',	'Instrumento 18 – O Funil de Vendas como objetivos e metas de avanço.'],
+                            ['ATIVIDADE 9',	'Instrumento 15 - Avaliação da quantidade e da qualidade dos meus argumentos de vendas (Forças Propulsoras).<br>Instrumento 16 – Neutralização de obstáculos (Forças Restritivas).'],
+                            ['ATIVIDADE 12',	'Instrumento 19 – Planos de Ação quantitativos para alcançar as metas.'],
+                            ['ATIVIDADE 17',	'Instrumento 15 - Avaliação da quantidade e da qualidade dos meus argumentos de vendas (Forças Propulsoras).'],
+                            ['ATIVIDADE 18',	'Instrumento 18 – O Funil de Vendas como objetivos e metas de avanço.']
                             ];
                         @endphp
 

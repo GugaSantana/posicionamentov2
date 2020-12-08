@@ -973,7 +973,7 @@ class InstrumentoController extends Controller
     public function instrumento12($s, $n, $resposta){
         if($s >= 15){
             $texto = "
-            <p class='fonte18'>Após avaliar os resultados sobre sua prática atual de Prospecção, na primeira parte deste instrumento que você respondeu, você se localiza no seguinte intervalo na escala de 1 a 10 que foi utilizada:</p>
+            <p class='fonte18'>Após avaliar os resultados sobre sua prática atual de Prospecção, na primeira parte deste Instrumento que você respondeu, você se localiza no seguinte intervalo na escala de 1 a 10 que foi utilizada:</p>
             <p class='fonte18'>Os resultados da sua atividade de Prospecção de clientes são muito confortáveis.</p>
             
             <p class='fonte18'>Numa escala onde:</p>
@@ -995,15 +995,15 @@ class InstrumentoController extends Controller
             <p class='fonte18'><b>Esta é sua posição na escala:</b></p>
             <center><img src='../posicionamento/public/img/instrumento12/diag_12_c.png' style='width: 20%;'></center><br>
             
-            <p class='fonte18' style='color: red'>De 9 a 10 – Seus resultados levam a concluir que sua atividade de Prospecção de  clientes apresenta um excelente nível de eficácia. </p>
+            <p class='fonte18' style='color: red'>De 9 a 10 – Seus resultados levam a concluir que sua atividade de Prospecção de Clientes apresenta um excelente nível de eficácia.</p>
             
             ";
             $numEscala = 10;
         }
         else if($s >= 11){
             $texto = "
-            <p class='fonte18'>Após avaliar os resultados sobre sua prática atual de Prospecção, na primeira parte deste instrumento que você respondeu, você se localiza no seguinte intervalo na escala de 1 a 10 que foi utilizada:</p>
-            <p class='fonte18'>Os resultados da sua atividade de Prospecção de clientes são de eficácia intermediária.</p>
+            <p class='fonte18'>Após avaliar os resultados sobre sua prática atual de Prospecção, na primeira parte deste Instrumento que você respondeu, você se localiza no seguinte intervalo na escala de 1 a 10 que foi utilizada:</p>
+            <p class='fonte18'>Os resultados da sua atividade de Prospecção de Clientes são de eficácia intermediária.</p>
             
             <p class='fonte18'>Numa escala onde:</p>
             <table>
@@ -1023,13 +1023,13 @@ class InstrumentoController extends Controller
             <p class='fonte18'><b>Esta é sua posição na escala:</b></p>
             <center><img src='../posicionamento/public/img/instrumento12/diag_12_b.png' style='width: 20%;'></center><br>
             
-            <p class='fonte18' style='color: red'>De 6 a 8 – Seus resultados mostram que sua atividade de Prospecção de clientes apresenta um nível intermediário de consistência. </p>
+            <p class='fonte18' style='color: red'>De 6 a 8 – Seus resultados mostram que sua atividade de Prospecção de Clientes apresenta um nível intermediário de consistência.</p>
             ";
             $numEscala = 6;
         }
         else{
             $texto = "
-            <p class='fonte18'>Após avaliar os resultados sobre sua prática atual de Prospecção, na primeira parte deste instrumento que você respondeu, você se localiza no seguinte intervalo na escala de 1 a 10 que foi utilizada:</p>
+            <p class='fonte18'>Após avaliar os resultados sobre sua prática atual de Prospecção, na primeira parte deste Instrumento que você respondeu, você se localiza no seguinte intervalo na escala de 1 a 10 que foi utilizada:</p>
             
             <p class='fonte18'>Numa escala onde:</p>
             <table>
@@ -1049,7 +1049,7 @@ class InstrumentoController extends Controller
             <p class='fonte18'><b>Esta é sua posição na escala:</b></p>
             <center><img src='../posicionamento/public/img/instrumento12/diag_12_a.png' style='width: 20%;'></center><br>
 
-            <p class='fonte18' style='color: red'>De 1 a 5 – Seus resultados mostram que sua atividade de Prospecção de clientes apresenta sérios problemas, tendo em conseqüência pouca eficácia.</p>
+            <p class='fonte18' style='color: red'>De 1 a 5 – Seus resultados mostram que sua atividade de Prospecção de Clientes apresenta sérios problemas, tendo em consequência pouca eficácia.</p>
         ";
         $numEscala = 2;
         }
