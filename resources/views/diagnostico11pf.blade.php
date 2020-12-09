@@ -56,7 +56,7 @@
         <h3><center>DEFINIÇÃO DO PERFIL DO CLIENTE IDEAL</center></h3>
         </div>
             <div class='col-12' style="margin-left: 1em">
-                <img src="../posicionamento/public/img/selo_top_seller.png" style="width: 7em; float:right">
+                <img src="/../posicionamento/public/img/selo_top_seller.png" style="width: 7em; float:right">
             </div>
         </div>
 
@@ -81,7 +81,7 @@
                     <p class="fonte18">Segmentação é a seleção do público-alvo para desenvolver o trabalho, dentre todos os públicos que constituem o mercado e serve para dar Foco ao seu trabalho e facilitar o alcance de suas Metas de Faturamento.</p>
                     <p class="fonte18">Vamos fazer uma analogia para entender o significado de Cliente Ideal. Imagine que os clientes sejam frutas: a melhor estratégia para vender (e vender rápido) é pegar em primeiro lugar as frutas que estão nos galhos mais baixos.</p>
 
-                    <center><img src="../posicionamento/public/img/instrumento11/diag_11_1_new.jpg" style="width: 50%;"></center>
+                    <center><img src="/../posicionamento/public/img/instrumento11/diag_11_1_new.jpg" style="width: 50%;"></center>
                     <br>
                     <p class="fonte18">Se você tem um objetivo de quantidade de frutas para pegar (Metas de Venda), você pegará as que exigem menos esforço para colher, pois elas são as que darão maior retorno. Como analogia, esses serão seus clientes ideais.</p>
 

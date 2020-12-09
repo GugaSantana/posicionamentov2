@@ -62,11 +62,11 @@
     <div class="card-header">
         <div class="row d-none d-xl-block">
             <div class="col-12" style="z-index: 1; position: absolute;">
-                <h3><center>INSTRUMENTO 11</center></h3>
+                <h3><center>INSTRUMENTO 11dasdas</center></h3>
         <h3><center>DEFINIÇÃO DO PERFIL DO CLIENTE IDEAL</center></h3>
         </div>
             <div class='col-12' style="margin-left: 1em">
-                <img src="../posicionamento/public/img/selo_top_seller.png" style="width: 7em; float:right">
+                <img src="/../posicionamento/public/img/selo_top_seller.png" style="width: 7em; float:right">
             </div>
         </div>
 
@@ -90,7 +90,7 @@
                     <p class="fonte18">Definir o Perfil de Cliente Ideal é uma maneira de Segmentação Estratégica.</p>
                     <p class="fonte18">Segmentação é a seleção do público-alvo para desenvolver o trabalho, dentre todos os públicos que constituem o Mercado, e serve para dar Foco a seu trabalho e facilitar o alcance de suas Metas de Faturamento.</p>
                     <p class="fonte18">Vamos fazer uma analogia para entender o significado de Cliente Ideal. Imagine que os clientes sejam frutas. A melhor estratégia para vender (e vender rápido) é pegar em primeiro lugar as frutas que estão nos galhos mais baixos.</p>
-                    <center><img src="../posicionamento/public/img/instrumento11/diag_11_1_new.jpg" style="width: 50%;"></center>
+                    <center><img src="/../posicionamento/public/img/instrumento11/diag_11_1_new.jpg" style="width: 50%;"></center>
                     <br>
                     <p class="fonte18">Se você tem um objetivo de quantidade de frutas para pegar (Metas de Venda), você pegará as que exigem menos esforço para colher, pois elas são as que darão maior retorno. Como analogia, esses serão seus Clientes Ideais.</p>
                     <br>
