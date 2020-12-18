@@ -82,13 +82,13 @@
                             <center>Levantamento de Informações</center>
                         </h4>
 
-                        <p class="fonte18">Este é o primeiro dos três instrumentos que foram desenvolvidos para que você possa Gerenciar de maneira profissional as etapas das Vendas Consultivas que lhe foram transferidas na etapa anterior da Metodologia.</p>
-                        <p class="fonte18">O Funil de Vendas é um modelo e uma técnica que acompanha as fases da jornada do cliente, desde o primeiro contato com ele, até o fechamento da venda.</p>
+                        <p class="fonte18">Este é o primeiro dos três Instrumentos que foram desenvolvidos para que você possa Gerenciar de maneira profissional as etapas das Vendas Consultivas, que lhe foram transferidas na etapa anterior da Metodologia.</p>
+                        <p class="fonte18">O Funil de Vendas é um modelo e uma técnica que acompanha as fases da jornada do cliente, desde o primeiro contato com ele, até o Fechamento da Venda.</p>
                         <p class="fonte18">Reconhecidamente, o Funil de Vendas é a técnica mais eficaz para gerenciar o processo de Vendas Consultivas.</p>
-                        <p class="fonte18">Ele permite acompanhar e gerenciar por objetivos o processo da venda ao longo das cinco etapas das Vendas Consultivas:</p>
-                        <p class="fonte18" style="color: #35408f; font-size: 21px">PROSPECÇÃO – QUALIFICAÇÃO – APRESENTAÇÃO – NEGOCIAÇÃO - FECHAMENTO</p>
-                        <p class="fonte18">Para todas estas 5 etapas foram apresentados instrumentos nesta metodologia.</p>
-                        <p class="fonte18">O Funil vai se estreitando na medida em que avançamos de uma etapa para a seguinte, até chegar ao Fechamento e, portanto, à realização da venda.</p>
+                        <p class="fonte18">Ele permite acompanhar e gerenciar por objetivos, o Processo da Venda, ao longo das cinco etapas das Vendas Consultivas:</p>
+                        <p class="fonte18" style="color: #35408f; font-size: 21px">PROSPECÇÃO – QUALIFICAÇÃO – APRESENTAÇÃO – NEGOCIAÇÃO – FECHAMENTO</p>
+                        <p class="fonte18">Para todas estas 5 etapas, foram apresentados Instrumentos nesta Metodologia.</p>
+                        <p class="fonte18">O Funil vai se estreitando, na medida em que avançamos de uma etapa para a seguinte, até chegar ao Fechamento e, portanto, à realização da Venda.</p>
 
                        
                         <!-- <center><img src="../img/inst5_1.png"></center> -->
@@ -98,18 +98,19 @@
                     <div class="col-12">
                         <p class="fonte18"><b>INSTRUÇÕES</b></p>
 
-                        <p class="fonte18">Você deve responder este instrumento avaliando percentualmente, os índices de avanço atual dos clientes potenciais ao longo das 5 etapas da Venda Consultiva.</p>
-                        <p class="fonte18">Chamamos este índice de avanço de Taxa de Conversão.</p>
-                        <p class="fonte18">O Instrumento consiste em definir qual é seu nível atual de conversão (Taxa de Conversão), ou seja, o percentual de passagem dos clientes potenciais de uma etapa da venda para outra.</p>
-                        <p class="fonte18">A figura seguinte, na qual você registrará suas respostas, apresenta um exemplo que ilustra como se deve proceder para preencher o instrumento.</p>
-                        <p class="fonte18">Para isto, defina e registre conforme sua pratica atual, que percentual de clientes potenciais avança de uma etapa para a seguinte do Funil.</p>
+
+                        <p class="fonte18">Você deve responder este Instrumento avaliando percentualmente os índices de avanço atual dos Clientes Potenciais, ao longo das 5 etapas da Venda Consultiva.</p>
+                        <p class="fonte18">Chamamos este índice de Avanço da Taxa de Conversão.</p>
+                        <p class="fonte18">O Instrumento consiste em definir qual é seu nível atual de Conversão (Taxa de Conversão), ou seja, o percentual de passagem dos Clientes Potenciais de uma etapa da venda para outra.</p>
+                        <p class="fonte18">No quadro a seguir, no qual você registrará suas respostas, apresenta um exemplo que ilustra como se deve proceder para preencher o Instrumento.</p>
+                        <p class="fonte18">Para isto, defina e registre no quadro, conforme sua prática atual, que percentual de Clientes Potenciais avança de uma etapa para a seguinte do Funil.</p>
                         <p class="fonte18">O exemplo que apresentamos lhe permitirá compreender plenamente como responder.</p>
                         <p class="fonte18">Imaginemos que os índices de conversão de cada etapa sejam os seguintes:</p>
-                        <p class="fonte18">- 40% das prospecções se tornam Clientes Potenciais</p>
-                        <p class="fonte18">- 30% dos Clientes Potenciais se tornam Clientes Potenciais qualificados</p>
-                        <p class="fonte18">- 40% dos Clientes Potenciais qualificados geram propostas</p>
-                        <p class="fonte18">- 50% das propostas implicam em fechamento da venda</p>
-                        <p class="fonte18">Apresentado este exemplo, registre na coluna à direita do gráfico, seus percentuais de conversão atuais para cada etapa do Funil.</p>
+                        <p class="fonte18">- 40% das prospecções se tornam Clientes Potenciais.</p>
+                        <p class="fonte18">- 30% dos Clientes Potenciais se tornam Clientes Potenciais Qualificados.</p>
+                        <p class="fonte18">- 40% dos Clientes Potenciais Qualificados geram propostas.</p>
+                        <p class="fonte18">- 50% das propostas implicam em Fechamento da Venda.</p>
+                        <p class="fonte18">Apresentado este exemplo, registre na coluna à direita do gráfico seus percentuais de conversão atuais para cada etapa do Funil.</p>
                         <p class="fonte18">Procure estimar esses valores percentuais com a maior precisão possível.</p>
 
                         <br>
