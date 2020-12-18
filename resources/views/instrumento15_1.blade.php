@@ -126,24 +126,23 @@
                             <center>Levantamento de Informações</center>
                         </h4>
 
-                        <p class="fonte18">Este é o instrumento que operacionaliza a terceira etapa das Vendas Consultivas: a etapa da APRESENTAÇÃO dos produtos para seus clientes.</p>
-                        <p class="fonte18">Este instrumento tem por objetivo aumentar significativamente a quantidade e a qualidade de seus argumentos para aumentar seu poder de persuasão e facilitar o processo decisório de seus clientes.</p>
-                        <p class="fonte18">Naturalmente, quanto mais e melhores argumentos de venda você tiver, mais eficaz e produtivo será seu desempenho, porque você estará aumentando seu poder de persuasão e estará influenciando a decisão de compra do cliente.</p>
-                        <p class="fonte18">A metodologia apresenta uma série de Fatores de Argumentação que denominamos de Forças Propulsoras das Vendas.</p>
-                        <p class="fonte18">O objetivo deste instrumento é avaliar o nível de desempenho atual que você apresenta nas Forças Propulsoras das Vendas.</p>
-                        <p class="fonte18">Você receberá um relatório com seu nível de desempenho nas Forças Propulsoras e recomendações específicas lhe serão dadas para que você aumente o número de argumentos disponíveis para vender seus produtos.</p>
-                        <p class="fonte18">Existe uma “Lógica Interna” entre as Forças Propulsoras que lhe será apresentada nas recomendações para potencializar ainda mais sua eficácia nas Vendas Consultivas.</p>
-
+                        <p class="fonte18">Este é o Instrumento que operacionaliza a terceira etapa das Vendas Consultivas: a etapa da APRESENTAÇÃO dos produtos para seus clientes.</p>
+                        <p class="fonte18">Este Instrumento tem por objetivo aumentar significativamente a quantidade e a qualidade de seus argumentos para aumentar seu poder de persuasão e facilitar o processo decisório de seus clientes.</p>
+                        <p class="fonte18">Naturalmente, quanto mais e melhores argumentos de venda você tiver, mais eficaz e produtivo será seu desempenho. Isto porque você estará aumentando seu poder de persuasão e estará influenciando a decisão de compra do cliente.</p>
+                        <p class="fonte18">A Metodologia apresenta uma série de Fatores de Argumentação que denominamos de Forças Propulsoras das Vendas.</p>
+                        <p class="fonte18">O objetivo deste Instrumento é avaliar o nível de desempenho atual que você apresenta nas Forças Propulsoras das Vendas.</p>
+                        <p class="fonte18">Você receberá um relatório com seu nível de desempenho nas Forças Propulsoras e Recomendações específicas lhe serão dadas para que você aumente o número de argumentos disponíveis para vender seus produtos.</p>
+                        <p class="fonte18">Existe uma “Lógica Interna” entre as Forças Propulsoras, que lhe será apresentada nas Recomendações, para potencializar ainda mais sua eficácia nas Vendas Consultivas.</p>
                     </div>
                     <br>
                     <div class="col-12">
                         <p class="fonte18"><b>INSTRUÇÕES</b></p>
                         <!-- <h2 style="color: #35408f">PRIMEIRA PARTE</h2> -->
 
-                        <p class="fonte18">Escolha um produto que você comercializa e que você conhece muito bem: deve ser um produto com o qual você já tenha experiência de vendas.</p>
-                        <p class="fonte18">A seguir, escreva como itens, de uma maneira breve, telegráfica, todos os argumentos que você tem para vender esse produto.</p>
-                        <p class="fonte18">Numere os argumentos de 1 até x, sendo x o número do ultimo argumento apresentado.</p>
-                        <p class="fonte18">Os números não representam ordem de importância dos argumentos, você não tem que fazer nenhuma classificação dos argumentos, só deve registrá-los</p>
+                        <p class="fonte18">Escolha um produto que você comercializa e que você conhece muito bem: deve ser um produto com o qual você já tenha experiência de Vendas.</p>
+                        <p class="fonte18">A seguir, escreva como itens, de uma maneira muito breve, telegráfica, todos os argumentos que você tem para vender esse produto.</p>
+                        <p class="fonte18">Numere os argumentos de 1 até x, sendo x o número do último argumento apresentado.</p>
+                        <p class="fonte18">Os números não representam a ordem de importância dos argumentos, você não tem que fazer nenhuma classificação dos argumentos, só deve registrá-los.</p>
                        
                     </div>
 
