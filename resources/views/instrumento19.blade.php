@@ -131,11 +131,11 @@
                                 <center>Levantamento de Informações</center>
                             </h4>
 
-                            <p class="fonte18">Este é o segundo instrumento para você fazer a Gestão das Vendas Consultivas.</p>
-                            <p class="fonte18">O primeiro instrumento foi o Funil de Vendas. Agora vamos tratar dos planos de ação que você desenvolverá para alcançar suas metas.</p>
-                            <p class="fonte18">É uma técnica simples, prática e poderosa que lhe permitirá ganhar tempo e precisão para alcançar seus objetivos de vendas.</p>
-                            <p class="fonte18">Com esta ferramenta você alcançará de maneira clara e estruturada suas metas de venda, seguindo conforme as recomendações objetivas que lhe serão apresentadas, depois de feita a avaliação diagnóstica.</p>
-                            <p class="fonte18">Este questionário analisa como você se posiciona em relação às 7 atividades que devem ser consideradas para fazer um Plano de Ação profissional para alcançar suas metas de venda</p>
+                            <p class="fonte18">Este é o segundo Instrumento para você fazer a Gestão das Vendas Consultivas.</p>
+                            <p class="fonte18">O primeiro Instrumento foi o Funil de Vendas. Agora, vamos tratar dos Planos de Ação que você desenvolverá para alcançar suas Metas.</p>
+                            <p class="fonte18">É uma técnica simples, prática e poderosa, que lhe permitirá ganhar tempo e precisão para alcançar seus Objetivos de Vendas.</p>
+                            <p class="fonte18">Com esta ferramenta, você alcançará de maneira clara e estruturada suas Metas de Venda. Isto se dará seguindo conforme as Recomendações objetivas que lhe serão apresentadas, depois de feita a Avaliação Diagnóstica.</p>
+                            <p class="fonte18">Este questionário analisa como você se posiciona em relação às 7 atividades que devem ser consideradas para fazer um Plano de Ação profissional para alcançar suas Metas de Venda.</p>
 
                     </div>
                     <br>
@@ -143,13 +143,12 @@
                         <p class="fonte18"><b>INSTRUÇÕES</b></p>
                         <!-- <h2 style="color: #35408f">PRIMEIRA PARTE</h2> -->
 
-
-                        <p class="fonte18">Responda em que medida você implementa as sete atividades seguintes quando desenvolve Planos de Ação para alcançar seus objetivos de vendas.</p>
+                        <p class="fonte18">Responda em que medida você implementa as sete atividades seguintes quando desenvolve Planos de Ação para alcançar seus Objetivos de Vendas.</p>
                         <p class="fonte18">Na escala seguinte de 10 graus são definidas as posições extremas 1 e 10, onde:</p>
 
-                        <p class="fonte18">1 : (Eu não levo em consideração esta atividade) e;<br>
-                        10 : (Eu defino e implemento corretamente esta atividade quando desenvolvo um Plano de Ação).</p>
-                        <p class="fonte18">Leve em consideração essas duas definições extremas e coloque um (X) no intervalo da escala que melhor representa como você age em relação a cada uma das 7 atividades quando elabora um Plano de Ação na área de Vendas</p>
+                        <p class="fonte18">1: (Eu não levo em consideração esta atividade); e<br>
+                        10: (Eu defino e implemento corretamente esta atividade quando desenvolvo um Plano de Ação).</p>
+                        <p class="fonte18">Leve em consideração essas duas definições extremas e coloque um (X) no intervalo da escala que melhor representa como você age, em relação a cada uma das 7 atividades quando elabora um Plano de Ação na área de Vendas.</p>
 
                         @php
                             $questions = [
