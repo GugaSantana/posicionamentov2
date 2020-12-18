@@ -131,7 +131,7 @@
                             <center>Levantamento de Informações</center>
                         </h4>
 
-                            <p class="fonte18">Nesta etapa você está recebendo as definições das 14 Forças Restritivas assim como os obstáculos que você formulou.</p>
+                            <p class="fonte18">Nesta etapa, você está recebendo as definições das 14 Forças Restritivas, assim como os obstáculos que você formulou.</p>
                     </div>
                     
                     
@@ -169,46 +169,46 @@
                         <br>
                      
                         <p class="fonte18"><b>R1- Hábito</b></p>
-                        <p class="fonte18">Representa a dificuldade do cliente em aderir à nossa proposta por ela representar algo novo ou diferente do que ele conhece. Apresenta-se com máxima intensidade quando são oferecidos produtos/serviços inovadores.</p>
+                        <p class="fonte18">Representa a dificuldade do cliente em aderir à nossa proposta, por ela representar algo novo ou diferente do que ele conhece. Apresenta-se com máxima intensidade, quando são oferecidos produtos/serviços inovadores.</p>
 
                         <p class="fonte18"><b>R2- Receio</b></p>
                         <p class="fonte18">Decorre do instinto de proteção e faz com que o cliente não aceite nossa proposta, temendo ter prejuízos.</p>
 
                         <p class="fonte18"><b>R3- Preço</b></p>
-                        <p class="fonte18">Tendência natural em querer pagar menos, ou obter maior prazo de pagamento do que o estabelecido.</p>
+                        <p class="fonte18">Tendência natural em querer pagar menos ou obter maior prazo de pagamento do que o estabelecido.</p>
 
                         <p class="fonte18"><b>R4- Reclamação</b></p>
                         <p class="fonte18">Este obstáculo se apresenta quando o cliente não está percebendo os benefícios que espera do produto ou serviço oferecido ou por qualquer outra razão que o incomode.</p>
 
                         <p class="fonte18"><b>R5- Detalhe</b></p>
-                        <p class="fonte18">Representa a dificuldade do cliente para compreender a nossa proposta ou parte dela. Aprofunda-se um aspecto do produto/serviço oferecido, ou das condições da proposta e perde-se a visão do conjunto. Pode traduzir insegurança e desconfiança.</p>
+                        <p class="fonte18">Representa a dificuldade do cliente para compreender a nossa proposta ou parte dela. Aprofunda-se num aspecto do produto/serviço oferecido ou das condições da proposta e perde-se a visão do conjunto. Pode traduzir insegurança e desconfiança.</p>
 
                         <p class="fonte18"><b>R6- Ignorância</b></p>
-                        <p class="fonte18">Expressa falta de conhecimentos específicos em relação a nossa proposta o que impede que o cliente possa avaliá-la corretamente.</p>
+                        <p class="fonte18">Expressa falta de conhecimentos específicos em relação à nossa proposta, o que impede que o cliente possa avaliá-la corretamente.</p>
 
                         <p class="fonte18"><b>R7- Concorrência</b></p>
-                        <p class="fonte18">É a manifestação de desinteresse do cliente em relação a nossa proposta, em função de sua preferência por uma proposta ou produto/serviço concorrente.</p>
+                        <p class="fonte18">É a manifestação de desinteresse do cliente em relação à nossa proposta, em função de sua preferência por uma proposta ou produto/serviço concorrente.</p>
 
                         <p class="fonte18"><b>R8- Concorrência de Amizade</b></p>
                         <p class="fonte18">É o desinteresse do cliente na nossa proposta, em função de seu relacionamento pessoal com um vendedor concorrente.</p>
 
                         <p class="fonte18"><b>R9- Personalidade Difícil</b></p>
-                        <p class="fonte18">Quando o cliente manifesta agressivamente qualquer opinião contrária à nossa proposta. O cliente faz comentários que tendem a desqualificar o vendedor e o provoca consciente ou inconscientemente. Este obstáculo está vinculado a características de personalidade do cliente.</p>
+                        <p class="fonte18">Quando o cliente manifesta agressivamente qualquer opinião contrária à nossa proposta. O cliente faz comentários que tendem a desqualificar o vendedor e o provoca consciente ou inconscientemente. Este obstáculo está vinculado às características de personalidade do cliente.</p>
 
                         <p class="fonte18"><b>R10- Tempo</b></p>
-                        <p class="fonte18">Consiste na argumentação do cliente de que não dispõe de tempo para realizar a reunião de vendas ou de que não é o momento apropriado para comprar.</p>
+                        <p class="fonte18">Consiste na argumentação do cliente de que não dispõe de tempo para realizar a Reunião de Vendas ou de que não é o momento apropriado para comprar.</p>
 
                         <p class="fonte18"><b>R11- Corte do Vínculo</b></p>
-                        <p class="fonte18">É caracterizado por atitudes do cliente que mostram seu interesse por finalizar a reunião de vendas, mesmo que o vendedor não tenha concluído sua apresentação.</p>
+                        <p class="fonte18">É caracterizado por atitudes do cliente que mostram seu interesse por finalizar a Reunião de Vendas, mesmo que o vendedor não tenha concluído sua apresentação.</p>
 
                         <p class="fonte18"><b>R12- Decisão Dividida</b></p>
                         <p class="fonte18">Manifesta-se pelo adiamento da decisão porque o comprador afirma que não tem autoridade para decidir sozinho.</p>
 
                         <p class="fonte18"><b>R13- Ambiente Negativo</b></p>
-                        <p class="fonte18">Qualquer atitude do cliente ou do vendedor, que possa comprometer o campo psicológico e o diálogo de vendas.</p>
+                        <p class="fonte18">Qualquer atitude do cliente ou do vendedor que possa comprometer o Campo Psicológico e o Diálogo de Vendas.</p>
 
                         <p class="fonte18"><b>R14- Atitudes Impróprias</b></p>
-                        <p class="fonte18">Refere-se a palavras ou atitudes inconvenientes do cliente que prejudicam o progresso da venda. Muitas vezes este obstáculo decorre de falhas na comunicação e a precária inteligência emocional do vendedor.</p>
+                        <p class="fonte18">Referem-se às palavras ou atitudes inconvenientes do cliente que prejudicam o Progresso da Venda. Muitas vezes, este obstáculo decorre de falhas na comunicação e a precária inteligência emocional do vendedor.</p>
 
                         <br><br>
 
@@ -216,8 +216,8 @@
 
                         <br>
 
-                        <p class="fonte18">Na tabela abaixo, após lidas atentamente as definições das Forças Restritivas, classifique cada um dos obstáculos que você registrou em uma única Força Restritiva e na segunda coluna repita o numero de vezes (freqüência) que este obstáculo apareceu na Parte 1.</p>
-                        <p class="fonte18">Se o argumento não coincide exatamente como uma Força Restritiva, classifique por aproximação naquela Força Restritiva que melhor o representa.</p>
+                        <p class="fonte18">Na tabela abaixo, após lidas atentamente as definições das Forças Restritivas, classifique cada um dos obstáculos que você registrou em uma única Força Restritiva e na segunda coluna repita o número de vezes (frequência) que este obstáculo apareceu na Parte 1.</p>
+                        <p class="fonte18">Se o argumento não coincide exatamente com uma Força Restritiva, classifique-o por aproximação naquela Força Restritiva que melhor o representa.</p>
                         <p class="fonte18">Leia atentamente as definições e aloque cada obstáculo a uma Força Restritiva.</p>
                         <p class="fonte18">Cada obstáculo só pode ser classificado numa só Força Restritiva.</p>
 

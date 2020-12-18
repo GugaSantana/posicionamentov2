@@ -131,12 +131,12 @@
                             <center>Levantamento de Informações</center>
                         </h4>
 
-                        <p class="fonte18">O Instrumento 15 que já foi aplicado tem por objetivo avaliar e desenvolver as Forças Propulsoras das Vendas, como parte da etapa de APRESENTAÇÃO das Vendas Consultivas.</p>
-                        <p class="fonte18">Este instrumento operacionaliza a etapa seguinte das Vendas Consultivas, que é a etapa da NEGOCIAÇÃO.</p>
-                        <p class="fonte18">Na etapa da NEGOCIAÇÃO da metodologia de Vendas Consultivas, naturalmente, o cliente pode apresentar obstáculos à venda. Chamamos os obstáculos de Forças Restritivas.</p>
-                        <p class="fonte18">A negociação na verdade é uma interação entre as Forças Propulsoras e as Forças Restritivas, gerando o que chamamos de <b>Campo de Forças</b>.</p>
+                        <p class="fonte18">O Instrumento 15, que já foi aplicado, tem por objetivo avaliar e desenvolver as Forças Propulsoras das Vendas, como parte da etapa de APRESENTAÇÃO das Vendas Consultivas.</p>
+                        <p class="fonte18">Este Instrumento operacionaliza a etapa seguinte das Vendas Consultivas, que é a etapa da NEGOCIAÇÃO.</p>
+                        <p class="fonte18">Na etapa da NEGOCIAÇÃO da Metodologia de Vendas Consultivas, naturalmente, o cliente pode apresentar obstáculos à venda. Chamamos os obstáculos de Forças Restritivas.</p>
+                        <p class="fonte18">A Negociação, na verdade, é uma interação entre as Forças Propulsoras e as Forças Restritivas, gerando o que chamamos de <b>Campo de Forças</b>.</p>
                         <p class="fonte18">Se as Forças Propulsoras prevalecem sobre as Forças Restritivas, a venda é realizada.</p>
-                        <p class="fonte18">Assim como no instrumento 15 foram abordadas as Forças Propulsoras, este instrumento tratará das Forças Restritivas, com o objetivo que você possa GERENCIAR o Campo de Força das Vendas.</p>
+                        <p class="fonte18">Assim como no Instrumento 15 foram abordadas as Forças Propulsoras, este Instrumento tratará das Forças Restritivas, com o objetivo que você possa GERENCIAR o Campo de Forças das Vendas.</p>
 
                     </div>
                     <br>
@@ -144,16 +144,16 @@
                         <p class="fonte18"><b>INSTRUÇÕES</b></p>
                         <!-- <h2 style="color: #35408f">PRIMEIRA PARTE</h2> -->
 
-                        <p class="fonte18">Você responderá este instrumento preenchendo a Matriz dos Obstáculos abaixo através dos seguintes passos:</p>
+                        <p class="fonte18">Você responderá este Instrumento, preenchendo a Matriz dos Obstáculos abaixo, através dos seguintes passos:</p>
 
-                        <p class="fonte18" style="color: blue">1 – Registre os Obstáculos que geralmente aparecem</p>
-                        <p class="fonte18">Considere suas ultimas 10 negociações feitas.</p>
-                        <p class="fonte18">Na primeira coluna da Matriz abaixo relacione como itens, os obstáculos mais freqüentes que se apresentaram durante a fase de <b>NEGOCIAÇÃO</b> da Venda nessas 10 negociações.</p>
-                        <p class="fonte18"><u>Atenção:</u> Numa negociação poderá se apresentar vários obstáculos: Relacione todos eles.</p>
+                        <p class="fonte18" style="color: blue">1 – Registre os Obstáculos que geralmente aparecem.</p>
+                        <p class="fonte18">Considere suas últimas 10 negociações feitas.</p>
+                        <p class="fonte18">Na primeira coluna da Matriz abaixo, relacione como itens os obstáculos mais frequentes, que se apresentaram durante a fase de <b>NEGOCIAÇÃO</b> da Venda nessas 10 negociações.</p>
+                        <p class="fonte18"><u>Atenção:</u> Numa negociação poderá se apresentar vários obstáculos: relacione todos eles.</p>
 
-                        <p class="fonte18" style="color: blue">2 – A Frequência dos Obstáculos</p>
-                        <p class="fonte18">Na segunda coluna da Matriz, registre a freqüência com que os obstáculos que você relacionou apareceram nas negociações.</p>
-                        <p class="fonte18">Por exemplo: Se o <u>preço</u> foi um obstáculo apresentado em 3 das 10 negociações teríamos:</p>
+                        <p class="fonte18" style="color: blue">2 – A Frequência dos Obstáculos.</p>
+                        <p class="fonte18">Na segunda coluna da Matriz, registre a frequência com que os obstáculos que você relacionou apareceram nas negociações.</p>
+                        <p class="fonte18">Por exemplo: se o <u>preço</u> foi um obstáculo apresentado em 3 das 10 negociações, teríamos:</p>
                         <p class="fonte18">Obstáculo = Preço | Frequência = 3</p>
 
                     </div>
@@ -186,7 +186,7 @@
                             </div>
 
                             <br>
-                            <p class="fonte18">Após registrar todos os obstáculos que se apresentaram em suas negociações passaremos para a Parte 2 deste levantamento.</p>
+                            <p class="fonte18">Após registrar todos os obstáculos que se apresentaram em suas negociações, passaremos para a Parte 2 deste levantamento.</p>
 
                             <br>
                             
