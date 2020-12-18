@@ -132,12 +132,12 @@
                         </h4>
 
                         <p class="fonte18">As etapas anteriores que já foram instrumentalizadas são: a etapa da <b>Prospecção</b> (Instrumentos 11 e 12), a etapa de <b>Qualificação</b> (Instrumentos 13 e 14), a etapa de <b>Apresentação</b> (Instrumento 15) e a etapa de <b>Negociação</b> (Instrumento 16).</p>
-                        <p class="fonte18">A Venda Consultiva é um Processo de vendas diferente do processo de venda tradicional, em que o vendedor se preocupa apenas em vender, em “empurrar” seu produto.</p>
-                        <p class="fonte18">Em uma Venda Consultiva, você atua como consultor, compreendendo as necessidades do cliente e juntos definem a melhor solução ou alternativa para atender suas necessidades com os produtos por você oferecidos.</p>
-                        <p class="fonte18">Com a atividade consultiva, o processo da venda acontece de uma forma suave (“Soft Sell”).</p>
-                        <p class="fonte18">Por este motivo, o fechamento da venda é mais natural que nas técnicas de vendas tradicionais chamadas de vendas “Hard Sell” cujos fechamentos são mais impositivos.</p>
+                        <p class="fonte18">A Venda Consultiva é um Processo de Vendas diferente do processo de venda tradicional, em que o vendedor se preocupa apenas em vender, em “empurrar” seu produto.</p>
+                        <p class="fonte18">Em uma Venda Consultiva, você atua como consultor compreendendo as necessidades do cliente e juntos definem a melhor solução ou alternativa para atender suas necessidades, com os produtos por você oferecidos.</p>
+                        <p class="fonte18">Com a atividade consultiva, o Processo da Venda acontece de uma forma suave (“Soft Sell”).</p>
+                        <p class="fonte18">Por este motivo, o Fechamento da Venda é mais natural que nas técnicas de vendas tradicionais, chamadas de vendas “Hard Sell”, cujos fechamentos são mais impositivos.</p>
                         <p class="fonte18">O FECHAMENTO DA VENDA é a última etapa da Venda Consultiva.</p>
-                        <p class="fonte18">Neste instrumento são apresentadas 12 técnicas para conduzir o fechamento de uma venda.</p>
+                        <p class="fonte18">Neste Instrumento são apresentadas 12 técnicas para conduzir o Fechamento de uma Venda.</p>
 
                     </div>
                     <br>
@@ -146,15 +146,15 @@
                         <!-- <h2 style="color: #35408f">PRIMEIRA PARTE</h2> -->
 
 
-                        <p class="fonte18">Este instrumento lhe permitirá levar à prática a última etapa das Vendas Consultivas.</p>
-                        <p class="fonte18">Utilizando a escala de 0 a 4 que propomos, responda com que freqüência você utiliza cada uma dessas técnicas de fechamento da venda.</p>
+                        <p class="fonte18">Este Instrumento lhe permitirá levar à prática a última etapa das Vendas Consultivas.</p>
+                        <p class="fonte18">Utilizando uma escala de 0 a 4 que propomos, responda com que frequência você utiliza cada uma dessas técnicas de Fechamento da Venda.</p>
 
                         <p class="fonte18"><font style="color:blue">Escala:</font><br>
-                        0- Nunca utilizo esta técnica<br>
-                        1- Raramente utilizo esta técnica<br>
-                        2- As vezes, de vez em quando utilizo esta técnica<br>
-                        3- Com certa freqüência utilizo esta técnica<br>
-                        4- Com muita freqüência utilizo esta técnica<br>
+                        0- Nunca utilizo esta técnica.<br>
+                        1- Raramente utilizo esta técnica.<br>
+                        2- Às vezes, de vez em quando utilizo esta técnica.<br>
+                        3- Com certa frequência utilizo esta técnica.<br>
+                        4- Com muita frequência utilizo esta técnica.<br>
                         </p>
                     </div>
 
@@ -163,14 +163,14 @@ $questions = [
 ['1- FECHAMENTO DIRETO',
 'Faço uma pergunta direta quando há sinais de concordância.
 <br>
-Exemplo: " você confirma a compra?'
+Exemplo: “você confirma a compra?”'
 ],[
 '2- FECHAMENTO POR ALTERNATIVAS',
-'Eu faço uma pergunta com duas alternativas direcionadas para a conclusão do negocio
+'Eu faço uma pergunta com duas alternativas direcionadas para a conclusão do negócio.
 <br>
-Utilizo esta técnica quando tenho um mínimo de segurança que o cliente fechará a compra
+Utilizo esta técnica quando tenho um mínimo de segurança de que o cliente fechará a compra.
 <br>
-Exemplo: "você pagará em dinheiro ou com cartão? "o cadastro será em seu nome ou no nome de outra pessoa?'
+Exemplo: "você pagará em dinheiro ou com cartão?”, "o cadastro será em seu nome ou no nome de outra pessoa?”'
 ],[
 '3- FECHAMENTO PELA OPORTUNIDADE',
 'É o fechamento pelo medo da perda.
@@ -179,34 +179,32 @@ Eu crio "senso de urgência" no cliente, do tipo agora ou nunca, porque o ser hu
 <br>
 Eu mostro os prejuízos que lhe podem acontecer ao cliente se no fecha a compra agora.
 <br>
-Exemplo: " O estoque está acabando e você não poderá se beneficiar da utilização do produto"'
+Exemplo: “o estoque está acabando e você não poderá se beneficiar da utilização do produto.”'
 ],[
 '4- FECHAMENTO PELOS PRÓXIMOS PASSOS',
-'Eu parto do principio que o cliente já fechou a compra e faço uma pergunta em relação ao que vem depois.
+'Eu parto do princípio que o cliente já fechou a compra e faço uma pergunta em relação ao que vem depois.
 <br>
-Exemplo: " posso entregar na segunda feira"'
+Exemplo: "posso entregar na segunda-feira?"'
 ],[
 '5- FECHAMENTO PELA BALANÇA',
-'Eu fecho provocado uma comparação entre os benefícios e os prejuízos de comprar o produto
+'Eu fecho a negociação provocando uma comparação entre os benefícios e os prejuízos de comprar o produto.
 <br>
-Exemplo: " pego uma folha de papel, faço duas colunas e listo os pros e os contras do produto que estou vendendo.
-<br>
-Listo uns 10 benefícios e os contras são colocados na segunda coluna pelo cliente"'
+Exemplo: "pego uma folha de papel, faço duas colunas e listo os prós e os contras do produto que estou lhe vendendo” (listo uns 10 benefícios e os contras são colocados na segunda coluna pelo cliente).'
 ],[
 '6- FECHAMENTO PELA EXPERIMENTAÇÃO',
 'Eu faço que o cliente sinta, que experimente o produto, porque isto cria um sentimento inconsciente de pertencimento.
 <br>
-Exemplo: "Vamos experimentar o produto, nada mais prático para decidir"'
+Exemplo: "vamos experimentar o produto, nada mais prático para decidir!"'
 ],[
 '7- FECHAMENTO PELO VALOR',
-'Eu mostro todos os benefícios de modo que o produto pareça barato. Eu não falo em preço, falo em valor e então passo para o fechamento direto (técnica número 1)
+'Eu mostro todos os benefícios, de modo que o produto pareça barato. Eu não falo em preço, falo em valor e então passo para o fechamento direto (técnica número 1).
 <br>
-Exemplo: " Valor é beneficio menos custo,e não tenho dúvidas que os benefícios que você terá supera em muito o preço que você pagará"'
+Exemplo: "valor é benefício menos custo e não tenho dúvidas que os benefícios que você terá supera em muito o preço que você pagará!"'
 ],[
 '8- FECHAMENTO EXPERIMENTAL',
 'Para fechar, apresento primeiro o produto mais caro, depois um produto cujo preço é meu objetivo da venda, e se houver resistência, finalmente apresento uma opção mais barata, para que a compra aconteça.
 <br>
-Exemplo: " você fez a melhor opção e ficará muito satisfeito com a compra"'
+Exemplo: "você fez a melhor opção e ficará muito satisfeito com a compra!"'
 ],[
 '9- FECHAMENTO INDUZIDO',
 'Quando não há objeções e o cliente está decidido a comprar, eu concluo minha apresentação e pergunto quando posso entregar o produto.
@@ -214,17 +212,17 @@ Exemplo: " você fez a melhor opção e ficará muito satisfeito com a compra"'
 Exemplo: "sendo assim, quando posso lhe entregar o produto?"'
 ],[
 '10- FECHAMENTO POR PERGUNTA',
-'Eu posso fechar a venda em forma de pergunta
+'Eu posso fechar a venda em forma de pergunta.
 <br>
-Exemplo:"Você tem alguma dúvida que meu produto não resolveria sua necessidade?"'
+Exemplo: "você tem alguma dúvida que meu produto não resolveria sua necessidade?"'
 ],[
 '11- FECHAMENTO POR SINAIS DE LINGUAGEM CORPORAL',
 'Para fechar a venda, eu escuto ativamente e observo sinais e gestos para perceber se o cliente está realmente interessado em comprar o produto que lhe estou oferecendo.
 <br>
-Exemplo: " utilizando as técnicas do gerenciamento de Campo Psicológico, observo o comportamento do cliente e então, no momento oportuno, passo a utilizar alguma das outras 11 técnicas apresentadas.'
+Exemplo: "utilizando as técnicas do Gerenciamento de Campo Psicológico, observo o comportamento do cliente e então, no momento oportuno, passo a utilizar algumas das outras 11 técnicas apresentadas.'
 ],[
 '12- FECHAMENTO NATURAL',
-'Eu conduzo a reunião focado nas técnicas de Vendas Consultivas e o fechamento é tão natural que parece que “eu não vendo”e sim que o “cliente compra”'
+'Eu conduzo a reunião focado nas técnicas de Vendas Consultivas e o fechamento é tão natural que parece que “eu não vendo” e sim que o “cliente compra”.'
 ]]
     @endphp
 
