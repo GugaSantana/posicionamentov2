@@ -90,24 +90,24 @@
                 <div class="col-12">
                     <h4><center>Diagnóstico e Recomendações</center></h4>
                     <br>
-                    <p class="fonte18">Vamos tratar de seus resultados e das recomendações específicas para você utilizar um importante e valioso instrumento que lhe permitirá aumentar significativamente a produtividade do seu trabalho e alcançar as metas de vendas com maior facilidade.</p>
-                    <p class="fonte18">Estamos chegando aos últimos instrumentos da metodologia, que são os integradores de toda a lógica apresentada nos primeiros 18 instrumentos.</p>
-                    <p class="fonte18">No instrumento anterior foi operacionalizado o FUNIL DE VENDAS.</p>
-                    <p class="fonte18">Neste instrumento é apresentada a metodologia para desenvolver os Planos de Ação que permitam alcançar os objetivos que você se propõe alcançar.</p>
-                    <p class="fonte18">O processo de administração profissional consiste basicamente em Tomar Decisões e Implementar essas decisões tomadas. Este instrumento serve para implementar as decisões que você tomou para alcançar suas metas.</p>
+                    <p class="fonte18">Vamos tratar de seus resultados e das Recomendações específicas, para você utilizar um importante e valioso Instrumento, que lhe permitirá aumentar significativamente a produtividade do seu trabalho e alcançar as Metas de Vendas com maior facilidade.</p>
+                    <p class="fonte18">Estamos chegando aos últimos Instrumentos da Metodologia, que são os integradores de toda a lógica apresentada nos primeiros 18 Instrumentos.</p>
+                    <p class="fonte18">No Instrumento anterior foi operacionalizado o FUNIL DE VENDAS.</p>
+                    <p class="fonte18">Neste Instrumento é apresentada a Metodologia para desenvolver os Planos de Ação que permitirão alcançar os objetivos aos quais você se propõe.</p>
+                    <p class="fonte18">O processo de administração profissional consiste basicamente em Tomar Decisões e Implementar essas decisões tomadas. Este Instrumento serve para implementar as decisões que você tomou para alcançar suas Metas.</p>
 
                     <center><img src="../posicionamento/public/img/instrumento19/diag_19_1.jpg" style="width: 50%;"></center><br>
 
-                    <p class="fonte18">Trata-se de um Plano de Ação estruturado que permitirá o deslocamento da Etapa A - Decisão tomada, porém não implementada até a Etapa C - quando a Decisão tomada já foi implementada e os resultados são alcançados.</p>
-                    <p class="fonte18">As atividades que devem ser gerenciadas pelo Plano de Ação proposto nesta metodologia são os seguintes:</p>
-                    <p class="fonte18">1 – O que será feito (What)<br>
-                    2 – Quando será feito (When)<br>
-                    3 – Quem fará (Who)<br>
-                    4 – Porque de ser feito (Why)<br>
-                    5 – Onde será feito (Where)<br>
-                    6 – Como será feito (How)<br>
-                    7 – Quanto custará fazer (How Much)</p>
-                    <p class="fonte18">Denominamos este instrumento de 5W+2H, que é a sigla formada pelas iniciais em inglês das 7 atividades que devem ser desenvolvidas para implementar uma decisão tomada e sobre as quais você respondeu na primeira parte deste instrumento.</p>
+                    <p class="fonte18">Trata-se de um Plano de Ação estruturado que permitirá o deslocamento da Etapa A - Decisão Tomada, porém não implementada até a Etapa C - quando a Decisão Tomada já foi implementada e os resultados são alcançados.</p>
+                    <p class="fonte18">As atividades que devem ser gerenciadas pelo Plano de Ação proposto nesta Metodologia são os seguintes:</p>
+                    <p class="fonte18">1 – O que será feito? (What)<br>
+                    2 – Quando será feito? (When)<br>
+                    3 – Quem fará? (Who)<br>
+                    4 – Porque de ser feito? (Why)<br>
+                    5 – Onde será feito? (Where)<br>
+                    6 – Como será feito? (How)<br>
+                    7 – Quanto custará fazer? (How Much)</p>
+                    <p class="fonte18">Denominamos este Instrumento de 5W+2H, que é a sigla formada pelas iniciais em inglês das 7 atividades que devem ser desenvolvidas para implementar uma decisão tomada e sobre as quais você respondeu na primeira parte deste Instrumento.</p>
                     
 
                     <br>
@@ -122,7 +122,7 @@
                             '<b>3 – </b>Você estabelece <b>Quem</b> será o responsável em cada etapa do plano (pode ser outra pessoa e não você) pela realização do que deve ser feito?',
                             '<b>4 – </b>Você tem clara a razão, o <b>Porquê</b> a atividade descrita no item 1 deve ser realizada?',
                             '<b>5 – </b>Você define <b>Onde</b>, em que local, o trabalho deve ser realizado?',
-                            '<b>6 – </b>Você presta atenção, você se preocupa em relação a <b>Como</b> (com que metodologia) o trabalho deve ser realizado para alcançar os objetivos?',
+                            '<b>6 – </b>Você presta atenção, você se preocupa em relação ao <b>Como</b> (com que metodologia) o trabalho deve ser realizado para alcançar os objetivos?',
                             '<b>7 – </b>Você define <b>Quanto</b> custa implementar o Plano de Ação para alcançar o que você definiu que deve ser feito, na etapa 1?'
                             ]
                     @endphp
@@ -162,8 +162,8 @@
 
                     <br>
 
-                    <p class="fonte18">Este é seu perfil de resultados, ou seja, seu nível de competência para formular um Plano de Ação metodologicamente consistente.</p>
-                    <p class="fonte18">No quadro seguinte são apresentadas as defasagens que você registrou em cada atividade para desenvolvê-la com excelência, indo desde as atividades mais críticas às menos críticas.</p>
+                    <p class="fonte18">Este é seu Perfil de Resultados, ou seja, seu nível de competência para formular um Plano de Ação metodologicamente consistente.</p>
+                    <p class="fonte18">No quadro seguinte, são apresentadas as defasagens que você registrou em cada atividade para desenvolvê-la com excelência. Indo desde as atividades mais críticas às menos críticas.</p>
 
                     
                     <div class="row">
@@ -190,7 +190,7 @@
                         <br>
                         <p class="fonte18"><h4><center>RECOMENDAÇÕES</center></h4></p>
 
-                        <p class="fonte18">A recomendação para este instrumento é ler atentamente as definições das sete atividades do Plano de Ação e a seguir as respectivas orientações para melhorar seu desempenho em cada uma das atividades que compõem um Plano de Ação 5W +2H</p>
+                        <p class="fonte18">A Recomendação para este Instrumento é ler atentamente as definições das sete atividades do Plano de Ação e a seguir, as respectivas orientações para melhorar seu desempenho em cada uma das atividades que compõem um Plano de Ação 5W +2H.</p>
 
                     <div class="row">
                         <div class="col-12" style="overflow: auto;">
@@ -201,7 +201,7 @@
                                 <p class="fonte18">Você tem que definir com precisão o que você deve fazer para alcançar seu objetivo.<br>
                                 São as atividades que terão que ser realizadas.<br>
                                 Você não deve utilizar expressões genéricas para definir o que deve ser feito.<br>
-                                As atividades têm de ser definidas de maneira que possam ser alcançadas, isto é, devem ser especificas e administráveis. Por tanto às vezes será necessário quebrar uma atividade muito ampla em atividades de menor abrangência.</p>
+                                As atividades têm de ser definidas de maneira que possam ser alcançadas, isto é, devem ser específicas e administráveis. Portanto, às vezes será necessário quebrar uma atividade muito ampla em atividades de menor abrangência.</p>
                                 </td>
                             </tr>
                             <tr>
@@ -210,35 +210,35 @@
                                 <p class="fonte18">Todas as atividades devem ter um prazo para serem concluídas.<br>
                                 Sem um prazo definido para concluir cada etapa, você não pode gerenciar o Plano de Ação de modo a alcançar o objetivo que você se propõe dentro do prazo que você necessita.<br>
                                 O prazo que você estabelecer tem que ser realista, levando em conta os recursos e o tempo de que você dispõe.<br>
-                                Naturalmente, se aumenta o investimento a ser feito para desenvolver o Plano de Ação (How Much), você pode reduzir os prazos.</p>
+                                Naturalmente, se o investimento a ser feito para desenvolver o Plano de Ação (How Much) aumenta, você pode reduzir os prazos.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <td style="vertical-align: top; width: 10%">3 – QUEM – <br>(WHO)</td>
                                 <td style="padding-left: 2%;">
-                                <p class="fonte18">Esta etapa consiste em registrar quem é responsável para a realização da atividade 1 (WHAT) . Provavelmente seja você mesmo, mas é possível que você delegue algumas etapas ou atividades em outra pessoa.<br>
+                                <p class="fonte18">Esta etapa consiste em registrar quem é responsável para a realização da atividade 1 (WHAT). Provavelmente seja você mesmo, mas é possível que você delegue algumas etapas ou atividades para outra pessoa.<br>
                                 Sempre temos que ter alguém responsável pela etapa. Isto é obrigatório. Se não definirmos quem será responsável pela realização da etapa, não poderemos cobrar resultados.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <td style="vertical-align: top; width: 10%">4 – PORQUE – <br>(WHY)</td>
                                 <td style="padding-left: 2%;">
-                                <p class="fonte18">Esta etapa é importante porque apresenta a razão, o motivo pelo qual a etapa 1 ( WHAT) deve ser realizada.<br>
-                                Se não existe uma causa, uma razão clara e necessária, você pode eliminar a atividade que registrou na etapa 1, a etapa que define o QUE fazer.<br>
-                                Tudo “QUE” fazer tem que ter um “PORQUE” FAZER.</p>
+                                <p class="fonte18">Esta etapa é importante porque apresenta a razão, o motivo pelo qual a etapa 1 (WHAT) deve ser realizada.<br>
+                                Se não existe uma causa, uma razão clara e necessária, você pode eliminar a atividade que registrou na etapa 1, a etapa que define “O QUE” fazer.<br>
+                                Tudo “O QUE” fazer tem que ter um “PORQUE” fazer.</p>
                                 </td>
                             </tr>
                             <tr>
                                 <td style="vertical-align: top; width: 10%">5 – ONDE – <br>(WHERE)</td>
                                 <td style="padding-left: 2%;">
                                 <p class="fonte18">É claro que as atividades devem ser desenvolvidas em algum lugar.<br>
-                                Às vezes em outro lugar que não onde você está, neste caso se impõe uma logística. Identifique claramente o local onde deve ser realizada cada tarefa, para que você possa tomar as providências necessárias. Esta atividade não pode comprometer o prazo que você estabeleceu para finalizar esta atividade (atividade 3 – When)</p>
+                                Às vezes, as atividades devem ser desenvolvidas onde você não está e neste caso se impõe uma logística. Identifique claramente o local onde deve ser realizada cada tarefa, para que você possa tomar as providências necessárias. Esta atividade não pode comprometer o prazo que você estabeleceu para finalizar esta atividade (atividade 3 – When)</p>
                                 </td>
                             </tr>
                             <tr>
                                 <td style="vertical-align: top; width: 10%">6 – COMO – <br>(HOW)</td>
                                 <td style="padding-left: 2%;">
-                                <p class="fonte18">Nesta atividade você tem que estabelecer como será realizada cada etapa do Plano de Ação. Refere-se ao método que você vai utilizar.<br>
+                                <p class="fonte18">Nesta atividade, você tem que estabelecer como será realizada cada etapa do Plano de Ação. Refere-se ao método que você vai utilizar.<br>
                                 Você tem que programar esta atividade, porque não se pode improvisar na realização das etapas para não comprometer o cronograma (atividade 2 – QUANDO). Pode ser necessário que você tenha que se preparar, que estudar ou buscar ajuda de outras pessoas.<br>
                                 Realizar corretamente o “COMO” significa evitar erros e aumentar a produtividade na realização do Plano de Ação, garantindo o cumprimento dos prazos (WHEN).</p>
                                 </td>
@@ -247,7 +247,7 @@
                                 <td style="vertical-align: top; width: 10%">7 – QUANTO CUSTARA – <br>(HOW MUCH)</td>
                                 <td style="padding-left: 2%;">
                                 <p class="fonte18">Toda atividade tem um custo e nesta etapa deve ser definido que investimento é necessário para realizar cada etapa.<br>
-                                Observe que tempo é dinheiro. Se você não tem que comprar nada para realizar uma atividade, você no mínimo dedicará tempo para realizá-la e seu tempo também é dinheiro. Estime o custo do tempo que você dedicar a cada atividade.</p>
+                                Observe que tempo é dinheiro. Se você não tem que comprar nada para realizar uma atividade, você no mínimo dedicará tempo para realizá-la e seu tempo também é dinheiro. Estime o custo do tempo que você dedicar à cada atividade.</p>
                                 </td>
                             </tr>
                             
@@ -257,12 +257,11 @@
 
                     <br>
 
-                    <p class="fonte18">Aplique estas recomendações para aumentar sua capacidade de desenvolver um Plano de Ação Profissional e metodologicamente consistente.</p>
-                    <p class="fonte18">Procure medir seu progresso no domínio deste instrumento, até alcançar o ponto 10 da escala, para cada atividade, que é a posição ideal.</p>
-                    <p class="fonte18">Parta dos resultados que você obteve em seu Diagnóstico.</p>
-                    <p class="fonte18">Este instrumento é um valioso suporte para os outros instrumentos desta metodologia, e ele forma parte das recomendações para implementar vários instrumentos já apresentados.</p>
-                    <p class="fonte18">Utilize o formulário abaixo: Plano de Ação 5W + 2H, cada vez que você tiver que elaborar um de plano de ação</p>
-                    
+                    <p class="fonte18">Aplique estas Recomendações para aumentar sua capacidade de desenvolver um Plano de Ação Profissional e metodologicamente consistente.</p>
+                    <p class="fonte18">Procure medir seu progresso no domínio deste Instrumento, até alcançar o ponto 10 da escala, para cada atividade, que é a posição ideal.</p>
+                    <p class="fonte18">Parta dos resultados, que você obteve em seu Diagnóstico.</p>
+                    <p class="fonte18">Este Instrumento é um valioso suporte para os outros Instrumentos desta Metodologia e ele forma parte das Recomendações para implementar vários Instrumentos já apresentados.</p>
+                    <p class="fonte18">Utilize o formulário abaixo: Plano de Ação 5W + 2H, cada vez que você tiver que elaborar um de Plano de Ação.</p>
                     <br>
                     
                     <p class="fonte18"><h4><center>PLANO DE AÇÃO</center></h4></p>
@@ -308,16 +307,16 @@
 
                     <br>
 
-                    <p class="fonte18">Este instrumento também poderá ser utilizado para complementar e detalhar mais o Plano de Ação para implementar as Recomendações , instrumento apresentado na Autogestão da Metodologia, que reproduzimos a seguir:</p>
+                    <p class="fonte18">Este Instrumento também poderá ser utilizado para complementar e detalhar mais o Plano de Ação para implementar as Recomendações, Instrumento apresentado na Autogestão da Metodologia, que reproduzimos a seguir:</p>
 
                     <center><img src="../posicionamento/public/img/instrumento19/diag_19_2.png" style="width: 70%;"></center><br>
 
-                    <p class="fonte18">Se você utilizar os Planos de Ação 5W +2H para implementar as recomendações feitas, você estará implementando o Kaizen.</p>
-                    <p class="fonte18">Kaizen é uma técnica japonesa de Melhoria Continua das atividades. Consiste em aplicar cada vez mais metodologia no trabalho para obter melhores resultados com o passar do tempo, com pode ser representado na figura seguinte:</p>
+                    <p class="fonte18">Se você utilizar os Planos de Ação 5W +2H para implementar as Recomendações feitas, você estará implementando o Kaizen.</p>
+                    <p class="fonte18">Kaizen é uma técnica japonesa de Melhoria Contínua das atividades. Consiste em aplicar cada vez mais metodologia no trabalho para obter melhores resultados com o passar do tempo, como pode ser representado na figura seguinte:</p>
 
                     <center><img src="../posicionamento/public/img/instrumento19/diag_19_3.jpg" style="width: 70%;"></center><br>
                     
-                    <p class="fonte18">O Kaizen acaba sendo uma filosofia de trabalho, caracterizada por fazer cada vez melhor as mesmas coisas aumentando assim a eficácia e melhorando sistematicamente os resultados.</p>
+                    <p class="fonte18">O Kaizen acaba sendo uma filosofia de trabalho, caracterizada por fazer cada vez melhor as mesmas coisas, aumentando assim a eficácia e melhorando sistematicamente os resultados.</p>
                     
                     <br>
                         <!-- RESPOSTA DE ACORDO COM REQUISIÇÃO -->
