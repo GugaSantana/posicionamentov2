@@ -79,16 +79,17 @@
                             <center>Diagnóstico e Recomendações</center>
                         </h4>
                         <br>
-                        <p class="fonte18">O Funil de Vendas é uma técnica fundamental para gerenciar o processo de vendas e alcançar sua meta de vendas e de faturamento.</p>
+
+                        <p class="fonte18">O Funil de Vendas é uma técnica fundamental para gerenciar o Processo de Vendas e alcançar sua meta de vendas e de faturamento.</p>
                         <p class="fonte18">O Funil de Vendas é uma representação gráfica da Jornada dos Clientes, que começa na PROSPECÇÃO e se estende até o FECHAMENTO DA VENDA.</p>
-                        <p class="fonte18">Todas as etapas das Vendas Consultivas podem ser gerenciadas com o Funil de Vendas, como mostra a figura: </p>
+                        <p class="fonte18">Todas as etapas das Vendas Consultivas podem ser gerenciadas com o Funil de Vendas, como mostra a figura:</p>
 
                         <center><img src="../posicionamento/public/img/instrumento18/diag18_1.png" style="width: 50%; padding-bottom: 2%;"></center> <!-- ../posicionamento/public/img/instrumento18/diag6_1.png -->
 
-                        <p class="fonte18">O Funil de Vendas lhe permite ter uma visão sistêmica de como está avançando o processo de vendas com seu cliente.</p>
+                        <p class="fonte18">O Funil de Vendas lhe permite ter uma visão sistêmica de como está avançando o Processo de Vendas com seu cliente.</p>
                         <p class="fonte18">O funil representa e permite gerenciar as 5 etapas sequenciais das Vendas Consultivas.</p>
-                        <p class="fonte18">Você deve gerenciar não apenas cada etapa do processo de venda como também a <b>Transição</b> ou <b>Passagem</b> de uma etapa para a seguinte.</p>
-                        <p class="fonte18">Como gerenciar essa transição é a principal contribuição deste instrumento da nossa metodologia.</p>
+                        <p class="fonte18">Você deve gerenciar não apenas cada etapa do Processo de Venda, como também a <b>Transição</b> ou <b>Passagem</b> de uma etapa para a seguinte.</p>
+                        <p class="fonte18">Como gerenciar essa transição é a principal contribuição deste Instrumento da nossa Metodologia.</p>
 
                         <br>
                         <p class="fonte18">
@@ -97,7 +98,7 @@
                             </h4>
                         </p>
 
-                        <p class="fonte18">Os resultados de Conversão que você apresentou nas suas respostas foi o seguinte</p>
+                        <p class="fonte18">Os resultados de Conversão que você apresentou nas suas respostas foi o seguinte:</p>
 
                         <table class="table table-hover table-bordered fonte18">
                             <thead class="bg-primary">
@@ -129,9 +130,9 @@
                             </tr>
                         </table>
 
-                        <p class="fonte18">Não existem padrões para estabelecer o percentual de clientes potenciais que devem evoluir de etapa para etapa.</p>
+                        <p class="fonte18">Não existem padrões para estabelecer o percentual de Clientes Potenciais que devem evoluir de etapa para etapa.</p>
                         <p class="fonte18">Claro que o ideal, embora impossível, é 100%.</p>
-                        <p class="fonte18">Certamente, com a aplicação das recomendações dos 20 instrumentos da metodologia você aumentará significativamente seus ÍNDICES DE CONVERSÃO entre as etapas.</p>
+                        <p class="fonte18">Certamente, com a aplicação das Recomendações dos 20 Instrumentos da Metodologia, você aumentará significativamente seus ÍNDICES DE CONVERSÃO entre as etapas.</p>
 
                         <br>
 
@@ -141,10 +142,10 @@
                             </h4>
                         </p>
 
-                        <p class="fonte18">A partir de seus resultados apresentados no Diagnóstico, a primeira recomendação para você gerenciar e melhorar seu desempenho com a implementação do Funil de Vendas, consiste em estabelecer <b>metas de melhoria nos índices de conversão entre todas as etapas.</b></p>
+                        <p class="fonte18">A partir de seus resultados apresentados no Diagnóstico, a primeira Recomendação para você gerenciar e melhorar seu desempenho com a implementação do Funil de Vendas consiste em estabelecer <b>metas de melhoria nos índices de conversão entre todas as etapas.</b></p>
                         <p class="fonte18">Temos quatro Índices de Passagem de uma etapa para outra que você deve monitorar e melhorar.</p>
-                        <p class="fonte18">Para aumentar esses Índices de Conversão a orientação é implementar as recomendações que foram feitas nos Instrumentos específicos para cada etapa das Vendas Consultivas que compõem esta metodologia.</p>
-                        <p class="fonte18">A seguir você visualiza os Instrumentos específicos de cada etapa das Vendas Consultivas:</p>
+                        <p class="fonte18">Para aumentar esses Índices de Conversão, a orientação é implementar as Recomendações que foram feitas nos Instrumentos específicos para cada etapa das Vendas Consultivas que compõem esta Metodologia.</p>
+                        <p class="fonte18">A seguir, você visualiza os Instrumentos específicos de cada etapa das Vendas Consultivas:</p>
 
                         
                         <table class="table table-hover table-bordered fonte18">
@@ -176,17 +177,17 @@
                             </tr>
                         </table>
                         
-                        <p class="fonte18">As recomendações específicas para você otimizar os resultados com a utilização do Funil de Vendas são as seguintes:</p>
-                        <p class="fonte18">1 – Calcule o faturamento médio com cada cliente. Suponhamos que seja R$1.000,00</p>
-                        <p class="fonte18">2 – Defina sua meta de faturamento mensal. Por hipótese, R$ 10.000,00</p>
-                        <p class="fonte18">3 – Para alcançar essa meta você necessita vender para 10 clientes por mês, considerando o faturamento médio de R$ 1.000,00.</p>
+                        <p class="fonte18">As Recomendações específicas para você otimizar os resultados com a utilização do Funil de Vendas são as seguintes:</p>
+                        <p class="fonte18">1 – Calcule o faturamento médio com cada cliente. Suponhamos que seja R$1.000,00.</p>
+                        <p class="fonte18">2 – Defina sua meta de faturamento mensal. Por hipótese, R$ 10.000,00.</p>
+                        <p class="fonte18">3 – Para alcançar essa meta, você necessita vender para 10 clientes por mês, considerando o faturamento médio de R$ 1.000,00.</p>
                         <p class="fonte18">Vamos ver como se administra o Funil de Vendas num exemplo, utilizando os dados apresentados acima. Este deve ser seu raciocínio:</p>
                         <p class="fonte18">- Se 60% das Prospecções se tornam Clientes Potenciais.</p>
                         <p class="fonte18">- Se 50% dos Clientes Potenciais se tornam Clientes Potenciais Qualificados.</p>
-                        <p class="fonte18">- Se 35% dos Clientes Potenciais Qualificados geram propostas e se,</p>
-                        <p class="fonte18">- 50% das propostas implicam em fechamento da venda,</p>
-                        <p class="fonte18">Você deve prospectar 200 clientes para, aplicando essas taxas de conversão, chegar a 10 clientes, que é seu objetivo para alcançar sua meta de faturamento.</p>
-                        <p class="fonte18">Agora estabeleça Metas de Conversão entre as etapas tomando como referência ou ponto de partida os Índices de Conversão que você apresentou no diagnóstico.</p>
+                        <p class="fonte18">- Se 35% dos Clientes Potenciais Qualificados geram propostas.</p>
+                        <p class="fonte18">- Se 50% das propostas implicam em Fechamento da Venda.</p>
+                        <p class="fonte18">Você deve prospectar 200 clientes para que consiga, aplicando essas taxas de conversão, chegar a 10 clientes, que é seu objetivo para alcançar sua Meta de Faturamento.</p>
+                        <p class="fonte18">Agora estabeleça Metas de Conversão entre as etapas, tomando como referência ou ponto de partida os Índices de Conversão que você apresentou no Diagnóstico.</p>
 
                         <form name="formulario" role="form" method="post" action="/instrumento/18_2">
                             {!! csrf_field() !!}
@@ -234,34 +235,34 @@
 
                         <br>
 
-                        <p class="fonte18">Como vimos, para melhorar os Índices de Conversão das etapas você utilizará as recomendações de vários instrumentos da metodologia, isto porque o <font style="color: #35408f"><b>Funil de Vendas é o instrumento gerenciador da metodologia.</b></font></p>
+                        <p class="fonte18">Como vimos, para melhorar os Índices de Conversão das etapas, você utilizará as Recomendações de vários Instrumentos da Metodologia, isto porque o <font style="color: #35408f"><b>Funil de Vendas é o Instrumento gerenciador da Metodologia.</b></font></p>
 
-                        <p class="fonte18">Estas são as recomendações específicas para melhorar o desempenho de cada etapa do Funil para assim melhorar e viabilizar as Metas de Conversão que você estabeleceu.</p>
+                        <p class="fonte18">Estas são as Recomendações específicas para melhorar o desempenho de cada etapa do Funil, para assim melhorar e viabilizar as Metas de Conversão que você estabeleceu.</p>
                         <br>
                         <h4 style="color: #35408f">PRIMEIRA ETAPA</h4>
-                        <p class="fonte18">Intensifique e dedique mais tempo à atividade de PROSPECÇÃO de clientes, e faça uma prospecção profissional. Para isto, siga as recomendações do Instrumento 11 – Definição do Perfil do Cliente Ideal, e do Instrumento 12 – Prospecção de Clientes.</p>
+                        <p class="fonte18">Intensifique e dedique mais tempo à atividade de PROSPECÇÃO de clientes, e faça uma prospecção profissional. Para isto, siga as Recomendações do <b>Instrumento 11 – Definição do Perfil do Cliente Ideal</b>, e do <b>Instrumento 12 – Prospecção de Clientes.</b></p>
                         <br>
                         <h4 style="color: #35408f">SEGUNDA ETAPA</h4>
-                        <p class="fonte18">Melhore a QUALIFICAÇÃO de seus clientes potenciais. Para isto, aplique as recomendações do Instrumento 13 – Qualificação dos Clientes Potenciais e do Instrumento 14 – Matriz para Identificar Clientes Prioritários.</p>
+                        <p class="fonte18">Melhore a QUALIFICAÇÃO de seus Clientes Potenciais. Para isto, aplique as Recomendações do <b>Instrumento 13 – Qualificação dos Clientes Potenciais</b> e do <b>Instrumento 14 – Matriz para Identificar Clientes Prioritários.</b></p>
                         <br>
                         <h4 style="color: #35408f">TERCEIRA ETAPA</h4>
-                        <p class="fonte18">Para aumentar a Produtividade da etapa de APRESENTAÇÃO, implemente as recomendações do instrumento 15 – Desenvolvimento da Quantidade e da Qualidade dos meus Argumentos de Vendas (Forças Propulsoras) e do Instrumento 16 – Neutralização dos Obstáculos da Venda (Forças Restritivas).</p>
+                        <p class="fonte18">Para aumentar a Produtividade da etapa de APRESENTAÇÃO, implemente as Recomendações do <b>Instrumento 15 – Desenvolvimento da Quantidade e da Qualidade dos meus Argumentos de Vendas (Forças Propulsoras)</b> e do <b>Instrumento 16 – Neutralização dos Obstáculos da Venda (Forças Restritivas).</b></p>
                         <br>
                         <h4 style="color: #35408f">QUARTA ETAPA</h4>
-                        <p class="fonte18">Aumente a produtividade da etapa de NEGOCIAÇÃO, aplicando as recomendações do Instrumento 15 – Desenvolvimento da Quantidade e da Qualidade dos meus Argumentos de Vendas (Forças Propulsoras) e do Instrumento 16 – Neutralização dos Obstáculos da Venda (Forças Restritivas).</p>
-                        <p class="fonte18">Para gerenciar o Campo Psicológico, aplique as recomendações dos Instrumentos:</p>
+                        <p class="fonte18">Aumente a produtividade da etapa de NEGOCIAÇÃO, aplicando as Recomendações do <b>Instrumento 15 – Desenvolvimento da Quantidade e da Qualidade dos meus Argumentos de Vendas (Forças Propulsoras)</b> e do <b>Instrumento 16 – Neutralização dos Obstáculos da Venda (Forças Restritivas).</b></p>
+                        <p class="fonte18">Para gerenciar o Campo Psicológico, aplique as Recomendações dos Instrumentos:</p>
                         <p class="fonte18">7 – Gerenciamento do Relacionamento através dos Estados do Ego.</p>
                         <p class="fonte18">8 – Gerenciamento do Relacionamento através da Exposição e do Feddback.</p>
                         <p class="fonte18">9 – Gerenciamento do Relacionamento utilizando os Canais Neurolinguísticos.</p>
                         <p class="fonte18">10 – Gerenciamento do Relacionamento através da Inteligência Emocional.</p>
                         <br>
                         <h4 style="color: #35408f">QUINTA ETAPA</h4>
-                        <p class="fonte18">Melhore seu desempenho na etapa de FECHAMENTO, aplicando as recomendações do Instrumento 17 – Técnicas de Fechamento de Vendas.</p>
+                        <p class="fonte18">Melhore seu desempenho na etapa de FECHAMENTO, aplicando as Recomendações do <b>Instrumento 17 – Técnicas de Fechamento de Vendas.</b></p>
                         <p class="fonte18">- Estabeleça Metas de Conversão precisas entre as etapas e assuma o compromisso de tornar essas metas progressivamente mais exigentes.</p>
                         <p class="fonte18">Este é o processo denominado de KAIZEN, ou melhoria constante.</p>
                         <p class="fonte18">- Visualize onde, em que etapas os clientes potenciais estão saindo do Funil.</p>
-                        <p class="fonte18">Analise as taxas de conversão entre os estágios e identificados os problemas, siga as recomendações do Instrumento 19 – Planos de Ação Quantitativos Para Alcançar as Metas.</p>
-                        <p class="fonte18">Como pode se apreciar, o do Funil de Vendas tem um alto valor de integração desta metodologia de Vendas Consultivas, pois é a técnica chave para você gerenciar o processo de vendas e aumentar sua eficácia e profissionalismo para alcançar suas metas de vendas.</p>
+                        <p class="fonte18">Analise as taxas de conversão entre os estágios e identificados os problemas, siga as Recomendações do <b>Instrumento 19 – Planos de Ação Quantitativos Para Alcançar as Metas.</b></p>
+                        <p class="fonte18">Como pode se apreciar, o Funil de Vendas tem um alto valor de integração nesta Metodologia de Vendas Consultivas, pois é a técnica chave para você gerenciar o Processo de Vendas e aumentar sua eficácia e profissionalismo para alcançar suas Metas de Vendas.</p>
                         <!-- <p class="fonte18">Até aqui, temos considerado como definir e aumentar a Taxa de Conversão</p>
                         <p class="fonte18">A segunda recomendação se refere ao GERENCIAMENTO DA VELOCIDADE DO FUNIL.</p>
                         <p class="fonte18">A Velocidade do Funil é a VELOCIDADE com que você avança nas etapas que compõem o FUNIL.</p>
