@@ -2,7 +2,9 @@
 <html lang="pt-br">
 
   <head>
-    @include('site.head')    
+    @include('site.head')
+    
+    @yield('site.css')
   </head>
 
   <body>
@@ -14,14 +16,14 @@
     @include('site.footer')
 
     <!-- Bootstrap core JavaScript -->
-    <script src="../posicionamento/public/vendor/jquery/jquery.min.js"></script>
-    <script src="../posicionamento/public/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Additional Scripts -->
-    <script src="../posicionamento/public/js/custom.js?v={{time()}}"></script>
-    <script src="../posicionamento/public/js/owl.js"></script>
-    <script src="../posicionamento/public/js/slick.js"></script>
-    <script src="../posicionamento/public/js/accordions.js"></script>
+    <script src="../js/custom.js?v={{time()}}"></script>
+    <script src="../js/owl.js"></script>
+    <script src="../js/slick.js"></script>
+    <script src="../js/accordions.js"></script>
 
     <!-- Sweet alert -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>

@@ -113,6 +113,13 @@
                 Relatórios
             </a>
             @endif
+            @if(Auth::User()->role_id == 1)
+            <a class="btn btn-default btn-flat float-right @if(!$profile_url) btn-block @endif"
+               href="/product/list">
+                <i class="fa fa-cube"></i>
+                Produtos
+            </a>
+            @endif
             
             <a class="btn btn-default btn-flat float-right @if(!$profile_url) btn-block @endif"
                href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">

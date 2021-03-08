@@ -34,7 +34,7 @@
       <nav class="navbar navbar-expand-lg">
         <div class="container">
           <!-- <a class="navbar-brand" href="index.html"><h2>Posicionamento</h2></a> -->
-          <img id="sus" class="navbar-brand" src="../posicionamento/public/img/LogoAjusteBranco.png">
+          <img id="sus" class="navbar-brand" src="{{asset('/img/LogoAjusteBranco.png')}}">
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -57,6 +57,9 @@
                   </li>
                   <li>
                     <a class="nav-link" href="/programatopseller2">Estrutura e Implantação</a>
+                  </li>
+                  <li>
+                    <a class="nav-link" href="/nextSteps">Próximos Passos</a>
                   </li>
                   <li>
                     <a class="nav-link" href="/login">Login</a>

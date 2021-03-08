@@ -8,7 +8,7 @@
           <div class="col-md-12">
             <h1 style="color: #c2a94d;">PROGRAMA TOP SELLER</h1>
             <span>METODOLOGIA PARA AUMENTAR AS VENDAS, EM BASES OBJETIVAS, QUANTITATIVAS E MENSURÁVEIS</span>
-            <img style="width: 20%;" src="../posicionamento/public/images/logo_topseller.png" alt="">
+            <img style="width: 20%;" src="/images/logo_topseller.png" alt="">
           </div>
         </div>
       </div>

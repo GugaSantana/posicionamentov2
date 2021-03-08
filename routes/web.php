@@ -203,8 +203,26 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 	
 	Route::get('/contato', 'SiteController@contact');
 	Route::post('/mail', 'SiteController@sendMail');
+	
 	Route::get('/topseller', 'Auth\LoginController@showLoginForm');
 	
 	Route::get('/site/login', 'SiteController@login');
-	
+	Route::get('/nextSteps', 'SiteController@nextSteps');
+	// Route::get('/payment/checkout', 'SiteController@checkout');
+
+	// Checkout
+	Route::get('/payment/checkout', 'PaymentController@checkout');
+	Route::post('/payment/session', 'PaymentController@createSession');
+
+	//Product
+	Route::group(['prefix' => 'product', "middleware" => ["auth","admin"]], function() {
+        Route::post('/enable', 'ProductController@enableProduct');
+		Route::post('/disable', 'ProductController@disableProduct');
+		Route::get('/list', 'ProductController@listProduct')->name('product_list');
+		Route::get('/create', 'ProductController@createProductView');
+		Route::post('/create', 'ProductController@createProduct');
+		Route::post('/edit', 'ProductController@editProduct');
+		Route::post('/remove', 'ProductController@removeProduct');
+		Route::post('/update', 'ProductController@updateProduct');
+	});
 	

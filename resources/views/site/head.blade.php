@@ -7,14 +7,16 @@
     <title>Posicionamento</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../posicionamento/public/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="../posicionamento/public/css/fontawesome.css">
-    <link rel="stylesheet" href="../posicionamento/public/css/templatemo-finance-business.css?v={{time()}}">
-    <link rel="stylesheet" href="../posicionamento/public/css/owl.css">
+    <link rel="stylesheet" href="../css/fontawesome.css">
+    <link rel="stylesheet" href="../css/templatemo-finance-business.css?v={{time()}}">
+    <link rel="stylesheet" href="../css/owl.css">
 
-    <link rel="stylesheet" href="{{ asset('vendor/icheck-bootstrap/icheck-bootstrap.min.css') }}">
+    <!-- <link rel="stylesheet" href="{{ asset('vendor/icheck-bootstrap/icheck-bootstrap.min.css') }}"> -->
+
+ 
 
     <!-- <link rel="stylesheet" href="{{ asset('vendor/fontawesome-free/css/all.min.css') }}"> -->
 <!-- <link rel="stylesheet" href="{{ asset('vendor/adminlte/dist/css/adminlte.min.css') }}"> -->
