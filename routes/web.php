@@ -213,6 +213,8 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 	// Checkout
 	Route::get('/payment/checkout', 'PaymentController@checkout');
 	Route::post('/payment/session', 'PaymentController@createSession');
+	Route::get('/payment/finish', 'PaymentController@finishPayment')->name('finalizar_pagamento');
+	
 
 	//Product
 	Route::group(['prefix' => 'product', "middleware" => ["auth","admin"]], function() {
