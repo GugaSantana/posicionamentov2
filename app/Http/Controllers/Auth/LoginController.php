@@ -46,7 +46,7 @@ class LoginController extends Controller
             if ($request['previousPage'] === \URL::route('next_steps')) {
                 return redirect()->route('next_steps');
             }
-            return redirect()->route('dashboard');
+            return redirect()->route('start');
         }
     }
 }

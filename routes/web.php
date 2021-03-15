@@ -87,7 +87,7 @@ Route::get('/slide1', 'HomeController@slide1');
 
 Route::get('/inicioInstrumentos', 'HomeController@inicioInstrumentos');
 
-Route::get('/', 'HomeController@slide1')->name('dashboard');
+Route::get('/start', 'HomeController@slide1')->name('start');
 
 Route::get('/teste', 'InstrumentoController@teste1');
 
