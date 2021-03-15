@@ -69,7 +69,7 @@
                                           <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" name="email">
                                         </div>
                                         <div class="form-group">
-                                          <label for="password">Password</label>
+                                          <label for="password">Senha</label>
                                           <input type="password" class="form-control" id="password" placeholder="Senha" name="senha">
                                         </div>
                                         <div class="form-group">

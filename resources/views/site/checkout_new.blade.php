@@ -191,7 +191,7 @@
 @section('site.js')
     {{-- <script type="text/javascript" src="../checkout/js/numeral.min.js"></script> --}}
     {{-- Input mask --}}
-    <script type="text/javascript" src="../checkout/js/jquery.inputmask.bundle.min.js"></script>
+    <script type="text/javascript" src="{{ asset('/checkout/js/jquery.inputmask.bundle.min.js') }}"></script>
 
     {{-- Javascript do Pagseguro --}}
     <script type="text/javascript"
