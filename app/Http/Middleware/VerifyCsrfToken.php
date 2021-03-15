@@ -14,6 +14,7 @@ class VerifyCsrfToken extends Middleware
     protected $except = [
         '/mail',
         '/planoacao/*',
-        '/payment/session'
+        '/payment/session',
+        '/payment/finish'
     ];
 }

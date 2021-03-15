@@ -5,7 +5,7 @@
 <div class="card card-primary">
     <div class="card-header">
         <h3>
-            <center>LISTA DE PRODUTOS</center>
+            <center>LISTA DE PEDIDOS</center>
         </h3>
     </div>
     <div class="card-body">
@@ -15,39 +15,39 @@
                 <thead class="center">
                 <tr>
                     <th style="vertical-align: middle;">ID</th>
-                    <th style="vertical-align: middle;">Nome</th>
-                    <th style="vertical-align: middle;">Voucher</th>
+                    <th style="vertical-align: middle;">Usuário</th>
+                    <th style="vertical-align: middle;">Produto</th>
                     <th style="vertical-align: middle;">Preço</th>
                     <th style="vertical-align: middle;">Parcelas</th>
-                    <th style="vertical-align: middle;">Parcelas sem Juros</th>
-                    <th style="vertical-align: middle;">Quantidade</th>
+                    <th style="vertical-align: middle;">Valor das Parcelas</th>
+                    <th style="vertical-align: middle;">Status</th>
                     <th style="vertical-align: middle;">Ações</th>
                 </tr>
                 </thead>
                 <tbody>
-                    @foreach($products as $product)
+                    @foreach($orders as $order)
                     <tr>
-                        <td class="center">{{$product->id}}</td>
-                        <td class="center">{{$product->name}}</td>
-                        <td class="center">{{$product->voucher}}</td>
-                        <td class="center">{{$product->price}}</td>
-                        <td class="center">{{$product->installment}}</td>
-                        <td class="center">{{$product->installment_free}}</td>
-                        <td class="center">{{$product->limit}}</td>
+                        <td class="center">{{$order->id}}</td>
+                        <td class="center">{{$order->user->name}}</td>
+                        <td class="center">{{$order->product->name}}</td>
+                        <td class="center">{{$order->price}}</td>
+                        <td class="center">{{$order->installment}}</td>
+                        <td class="center">{{$order->installment_value}}</td>
+                        <td class="center">{{$order->status}}</td>
                         
-                        <td class="center">
+                        {{-- <td class="center">
 
                             <!-- <div class="btn-group" role="group" aria-label="Basic example"> -->
-                            <form method="post" action="/product/edit">
+                            <form method="post" action="/order/edit">
                                 {!! csrf_field() !!}
-                                <input hidden name="product_id" value="{{$product->id}}">
+                                <input hidden name="order_id" value="{{$order->id}}">
                                 <button type="submit" class="btn btn-info"><i class="fa fa-edit" aria-hidden="true"></i> Editar</button>
                             </form>
                             
-                            <!-- @if($product->enable == 0)
-                                <form method="post" action="/product/enable">
+                            <!-- @if($order->enable == 0)
+                                <form method="post" action="/order/enable">
                                 {!! csrf_field() !!}
-                                <input hidden name="product_id" value="{{$product->id}}">
+                                <input hidden name="order_id" value="{{$order->id}}">
                                 <button class="btn btn-success" href="#">
                                     <i class="fas fa-check">
                                     </i>
@@ -55,9 +55,9 @@
                                 </button>
                                 </form>
                             @else
-                                <form method="post" action="/product/disable">
+                                <form method="post" action="/order/disable">
                                 {!! csrf_field() !!}
-                                <input hidden name="product_id" value="{{$product->id}}">
+                                <input hidden name="order_id" value="{{$order->id}}">
                                 <button class="btn btn-danger" href="#">
                                     <i class="fas fa-trash">
                                     </i>
@@ -67,19 +67,19 @@
                             @endif -->
                             
                            
-                        </td>
+                        </td> --}}
                     </tr>
                     @endforeach
                 </tbody>
             </table>
 
             <div class="card-footer clearfix">
-                {{$products->render()}}
+                {{$orders->render()}}
             </div>
 
         </div>
     
-        <a href="/product/create" class="btn btn-primary fonte18">Adicionar novo produto</a>
+        {{-- <a href="/order/create" class="btn btn-primary fonte18">Adicionar novo produto</a> --}}
     </div>
     <!-- /.card-header -->
     <!-- form start -->

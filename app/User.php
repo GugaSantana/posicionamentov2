@@ -135,4 +135,8 @@ class User extends Authenticatable
     public function instrumento20(){
         return $this->hasOne(\App\Instrumento20::class, 'user_id');
     }
+
+    public function order(){
+        return $this->hasOne(\App\Order::class, "user_id");
+    }
 }

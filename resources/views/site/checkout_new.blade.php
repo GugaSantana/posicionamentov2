@@ -1,6 +1,8 @@
 @extends('site.page')
 
 @section('site.content')
+    <div id="loader" class="lds-dual-ring hidden overlay"></div>
+
     <!-- Page Content -->
     <div class="page-heading-topseller header-text">
         <div class="container">
@@ -15,111 +17,161 @@
     </div>
 
     <div class="barra-dourada-divisao">
-        <h2>PRÓXIMOS PASSOS</h2>
+        <h2>PAGAMENTO</h2>
     </div>
 
     <!-- TOPSELLER 2-1 -->
     <div class="container">
-        <div class="row">
+        <div class="row mt-2">
             <div class="col-md-12">
                 <div class="center-content">
 
 
                     {{-- INICIO DE FORMULARIO DE INTEGRAÇÃO --}}
-                  <form id="formulario" method="get" action="{{ route("finalizar_pagamento") }}">
-                    <div class="text-center">
+                    <form id="formulario" method="post" action="{{ route('finalizar_pagamento') }}">
+                        {{-- <div class="text-center"> --}}
                         {{-- <img src="https://assets.pagseguro.com.br/ps-website-assets/v13.13.22/img/for-your-business/online/checkout/banner-image.png" class="img-fluid" alt="Responsive image"> --}}
-                        <h1 class="text-center">Pagamento</h1>
-                        <hr>
-                    </div>
-                    <fieldset>
+                        {{-- <h1 class="text-center"></h1>
+                            <hr> --}}
+                        {{-- </div> --}}
+                        {{-- <fieldset>
                         <div class="row mx-md-n5">
                             <div class="col px-md-5">
                                 <div class="p-3 border bg-light">
 
                                     <legend class="text-center">GERAR SENDERHASH</legend>
-                                    <div>
-                                        <input class="form-control" type="text" id="senderHash" class="creditcard"
-                                            name="senderHash">
-                                        <button class="btn btn-info" id="generateSenderHash">Gerar</button>
+                                    <div> --}}
+                        <input class="form-control" type="text" id="senderHash" class="creditcard" name="senderHash" hidden>
+                        <input class="form-control" type="text" id="user_email" class="creditcard" name="user_email" value="{{ $user_email }}" hidden>
+                        
+                        {{-- <button class="btn btn-info" id="generateSenderHash">Gerar</button> --}}
 
-                                    </div>
+                        {{-- </div>
                                 </div>
                             </div>
                     </fieldset>
-                    <br>
+                    <br> --}}
 
-                    <fieldset>
-                        <legend class="text-center">Dados de pagamento</legend>
+                        <fieldset>
+                            <legend class="text-center">Dados de pagamento</legend>
 
-                        <div class="row mx-md-n5">
-                            <div class="col px-md-5">
-                                <div class="p-3 border bg-light">
-                                    <div class="row">
-                                        <div class="col-sm-4">
-                                            <div>
-                                                <label for="creditCardNumber" <b>Número do cartão:</b></label>
-                                                <input type="text" class="form-control" id="creditCardNumber"
-                                                    class="creditcard" name="creditCardNumber">
+                            <div class="row mx-md-n5">
+                                <div class="col px-md-5">
+                                    <div class="p-3 border bg-light">
+                                        <div class="row">
+                                            <div class="col-sm-6">
+                                                <div>
+                                                    <label for="nameHolder" <b>Nome:</b></label>
+                                                    <input type="text" class="form-control" id="nameHolder"
+                                                        class="creditcard" name="nameHolder">
+                                                </div>
+                                                <div>
+                                                    <label for="cpfHolder" <b>CPF:</b></label>
+                                                    <input type="text" class="form-control" id="cpfHolder"
+                                                        class="creditcard" name="cpfHolder">
+                                                </div>
                                             </div>
-                                            <div>
-                                                <label for="creditCardBrand" <b>Bandeira:</b></label>
-                                                <input type="text" class="form-control" id="creditCardBrand"
-                                                    class="creditcard" name="creditCardBrand">
+                                            <div class="col-sm-6">
+                                                <label for="birthdayHolder" <b>Data de Nascimento</b></label>
+                                                <input type="text" class="form-control" id="birthdayHolder"
+                                                    class="creditcard" name="birthdayHolder" size="2"> &nbsp;
+
+
+                                                <label for="phoneHolder" <b>Celular:</b></label>
+                                                <input type="text" class="form-control" id="phoneHolder" class="creditcard"
+                                                    name="phoneHolder" size="4">
+                                            </div>
+
+                                            <div class="col-sm-4 mt-2">
+                                                <div>
+                                                    <label for="creditCardNumber" <b>Número do cartão:</b></label>
+                                                    <input type="text" class="form-control" id="creditCardNumber"
+                                                        class="creditcard" name="creditCardNumber">
+                                                </div>
+                                                <div>
+                                                    <label for="creditCardBrand" <b>Bandeira:</b></label>
+                                                    <input tabindex="-1" type="text" class="form-control"
+                                                        id="creditCardBrand" class="creditcard" name="creditCardBrand"
+                                                        readonly>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-4 mt-2">
+                                                <label for="creditCardExpMonth" <b>Validade Mês (mm):</b></label>
+                                                <input type="text" class="form-control" id="creditCardExpMonth"
+                                                    class="creditcard" name="creditCardExpMonth" size="2"> &nbsp;
+
+
+                                                <label for="creditCardExpYear" <b>Ano (yyyy):</b></label>
+                                                <input type="text" class="form-control" id="creditCardExpYear"
+                                                    class="creditcard" name="creditCardExpYear" size="4">
+                                            </div>
+
+                                            <div class="col-sm-4 mt-2">
+                                                <label for="creditCardCvv" <b>CVV:</b></label>
+                                                <input type="text" class="form-control" id="creditCardCvv"
+                                                    class="creditcard" name="creditCardCvv">
+
+                                                {{-- <label <b>Token:</b></label> --}}
+                                                <input type="text" id="creditCardToken" class="form-control"
+                                                    name="creditCardToken" hidden>
+                                                {{-- <button class="btn btn-info" id="generateCreditCardToken">Gerar Token</button> --}}
+
+
+                                            </div>
+
+                                            <div id="diverror" class="col-12 mt-2">
+                                                <div class="alert alert-danger alert-dismissible">
+                                                    <button type="button" class="close" data-dismiss="alert"
+                                                        aria-hidden="true">×</button>
+                                                    <h5><i class="icon fa fa-ban"></i> Dados incorretos!</h5>
+                                                    <p id="msgerror">Mensagem</p>
+                                                </div>
+
+                                            </div>
+
+
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                        <br>
+                        <fieldset>
+                            <legend class="text-center">Parcelamento</legend>
+                            <div class="row mx-md-n5">
+                                <div class="col px-md-5">
+                                    <div class="p-3 border bg-light">
+                                        <div class="row">
+                                            <div class="col-sm-4">
+                                                Produto: <input class="form-control" type="text" id="product_name"
+                                                    name="product_name" value="{{ $product->name }}" tabindex="-1"
+                                                    readonly>
+                                                {{-- <button class="btn btn-info" id="installmentCheck">Ver Parcelamento</button> --}}
+                                            </div>
+                                            <div class="col-sm-4">
+                                                Preço: <input class="form-control" type="text" id="checkoutValue"
+                                                    name="checkoutValue" value="{{ $product->price }}" tabindex="-1"
+                                                    readonly>
+                                                {{-- <button class="btn btn-info" id="installmentCheck">Ver Parcelamento</button> --}}
+                                            </div>
+                                            <div class="col-sm-4">
+                                                Parcelas: <select name="installmentCombo" id="InstallmentCombo"
+                                                    class="form-control">
+                                                </select>
                                             </div>
                                         </div>
-                                        <div class="col-sm-4">
-                                            <label for="creditCardExpMonth" <b>Validade Mês (mm):</b></label>
-                                            <input type="text" class="form-control" id="creditCardExpMonth"
-                                                class="creditcard" name="creditCardExpMonth" size="2"> &nbsp;
-
-
-                                            <label for="creditCardExpYear" <b>Ano (yyyy):</b></label>
-                                            <input type="text" class="form-control" id="creditCardExpYear"
-                                                class="creditcard" name="creditCardExpYear" size="4">
-                                        </div>
-
-                                        <div class="col-sm-4">
-                                            <label for="creditCardCvv" <b>CVV:</b></label>
-                                            <input type="text" class="form-control" id="creditCardCvv" class="creditcard"
-                                                name="creditCardCvv">
-
-                                            <label <b>Token:</b></label>
-                                            <input type="text" id="creditCardToken" class="form-control"
-                                                name="creditCardToken">
-                                            <button class="btn btn-info" id="generateCreditCardToken">Gerar Token</button>
-
-
+                                        <div class="row mt-5">
+                                            <div class="col-sm-4">
+                                                <a onclick="finishPayment()" class="btn btn-info"
+                                                    id="installmentCheck">Finalizar Pagamento</a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </fieldset>
-                    <br>
-                    <fieldset>
-                        <legend class="text-center">PARCELAMENTO</legend>
-                        <div class="row mx-md-n5">
-                            <div class="col px-md-5">
-                                <div class="p-3 border bg-light">
-                                    <div class="row">
-                                        <div class="col-sm-4">
-                                            Valor a ser pago: <input class="form-control" type="text" id="checkoutValue"
-                                                name="checkoutValue" value="{{ $price }}" disabled>
-                                            {{-- <button class="btn btn-info" id="installmentCheck">Ver Parcelamento</button> --}}
-                                        </div>
-                                        <div class="col-sm-4">
-                                            Parcelas: <select id="InstallmentCombo" class="form-control">
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                    </fieldset>
-                    <button onclick="finalizarPagamento()" class="btn btn-info" id="installmentCheck">Finalizar Pagamento</button>
+                        </fieldset>
 
-                    <br>
-                  </form>
+                        <br>
+                    </form>
                     {{-- FIM DE FORMULARIO DE INTEGRAÇÃO --}}
 
                 </div>
@@ -148,23 +200,25 @@
     <script>
         $(document).ready(function() {
 
+            $("#diverror").hide();
+
             //Gera o SenderHash ao Carregar a tela
             generateSenderHash();
 
 
-            $("#cartao_celular").inputmask2('(99) 9 9999-9999', {
+            $("#phoneHolder").inputmask2('(99) 9 9999-9999', {
                 showMaskOnFocus: false,
                 showMaskOnHover: false,
                 clearMaskOnLostFocus: true
             });
 
-            $("#cartao_cpf").inputmask2('999.999.999-99', {
+            $("#cpfHolder").inputmask2('999.999.999-99', {
                 showMaskOnFocus: false,
                 showMaskOnHover: false,
                 clearMaskOnLostFocus: true
             });
 
-            $("#cartao_data_nascimento").inputmask2('99/99/9999', {
+            $("#birthdayHolder").inputmask2('99/99/9999', {
                 showMaskOnFocus: false,
                 showMaskOnHover: false,
                 clearMaskOnLostFocus: true
@@ -221,9 +275,11 @@
                         $("#creditCardBrand").val(response['brand']['name'].toUpperCase());
                         $("#creditCardCvv").attr('size', response['brand']['cvvSize']);
                         installmentCheck();
+                        $("#creditCardNumber").removeClass('is-invalid');
                     },
                     error: function(response) {
                         console.log(response);
+                        $("#creditCardNumber").addClass('is-invalid');
                     }
                 })
             };
@@ -248,9 +304,20 @@
             })
         }
 
+        function mostrar_erros(response) {
+            var errosCartao = '';
+            var promises = [];
+            $.each(response, function(key, value) {
+                promises.push(errosCartao += "<li>" + value + "</li>");
+            });
+            $.when.apply($, promises).then(function() {
+                alerta("error", "Erro", errosCartao);
+            });
+        }
+
         //Generates the creditCardToken
-        function generateCreditCardToken(){
-          var param = {
+        function generateCreditCardToken() {
+            var param = {
                 cardNumber: $("#creditCardNumber").val(),
                 cvv: $("#creditCardCvv").val(),
                 expirationMonth: $("#creditCardExpMonth").val(),
@@ -258,10 +325,14 @@
                 success: function(response) {
                     console.log(response);
                     $("#creditCardToken").val(response['card']['token']);
+                    // $("#diverror").hide();
                 },
                 error: function(response) {
-                    console.log(response);
-                    printError(response);
+                    console.log(response.errors);
+                    // $("#msgerror").html(response.errors);
+                    // alert(response.errors[0]);
+                    // $("#diverror").show();
+                    // alert('awui');
                 }
             }
             //parâmetro opcional para qualquer chamada
@@ -285,7 +356,7 @@
             PagSeguroDirectPayment.getInstallments({
                 amount: $("#checkoutValue").val().replace(",", "."),
                 brand: brand,
-                maxInstallmentNoInterest: 5, //calculo de parcelas sem juros
+                maxInstallmentNoInterest: {{ $product->installment_free }}, //calculo de parcelas sem juros
                 success: function(response) {
                     var installments = response['installments'][brand];
                     buildInstallmentSelect(installments);
@@ -297,21 +368,217 @@
         }
 
         function buildInstallmentSelect(installments) {
+
             $.each(installments, (function(key, value) {
-                $("#InstallmentCombo").append("<option value = " + value['quantity'] + ">" + value['quantity'] +
+                if (key == {{ $product->installment }}) {
+                    return false;
+                }
+                $("#InstallmentCombo").append("<option value = '" + value['quantity'] + "|" + value[
+                        'installmentAmount'].toFixed(2) + "'>" + value['quantity'] +
                     "x de " + value['installmentAmount'].toFixed(2) + " - Total de " + value['totalAmount']
                     .toFixed(2) + "</option>");
             }))
         }
 
-        function finalizarPagamento(){
-          $("#formulario").submit();
+        function finalizarPagamento() {
+            // $("#formulario").submit();
+            alerta('success', 'Teste', 'Finalizado com sucesso');
         }
 
-        $("#creditCardCvv").keyup(function() {
-          generateCreditCardToken();
+        $("#creditCardNumber").keyup(function() {
+            generateCreditCardToken();
         })
+
+        $("#creditCardExpMonth").keyup(function() {
+            generateCreditCardToken();
+        })
+
+        $("#creditCardExpYear").keyup(function() {
+            generateCreditCardToken();
+        })
+
+        $("#creditCardCvv").keyup(function() {
+            generateCreditCardToken();
+        })
+
+        // Validações
+        function alerta(tipo, titulo, texto) {
+            if (tipo == "error") {
+                var classe = "bg-danger-400"
+            }
+            if (tipo == "success") {
+                var classe = "bg-teal-400"
+            }
+            const wrapper = document.createElement('div');
+            wrapper.innerHTML = texto;
+            swal({
+                title: titulo,
+                content: wrapper,
+                icon: tipo,
+                button: {
+                    text: "Ok",
+                    closeModal: !0,
+                    className: classe
+                }
+            })
+        }
+
+        // Envio para o backend
+        function finishPayment() {
+            var senderHash = $("#senderHash").val();
+            var nameHolder = $("#nameHolder").val();
+            var cpfHolder = $("#cpfHolder").val();
+            var birthdayHolder = $("#birthdayHolder").val();
+            var phoneHolder = $("#phoneHolder").val();
+            var creditCardToken = $("#creditCardToken").val();
+            var installmentCombo = $("select[name=installmentCombo]").val();
+            var product_name = $("#product_name").val();
+            var user_email = $("#user_email").val();
+
+            if (senderHash == '0' || senderHash == '' || senderHash == 'undefined' || senderHash == null) {
+                $("#senderHash").focus();
+                return false;
+            }
+
+            if (nameHolder == '0' || nameHolder == '' || nameHolder == 'undefined' || nameHolder == null) {
+                $("#nameHolder").focus();
+                alerta('error', 'Validação', 'Preencha o seu nome');
+                return false;
+            }
+
+            if (cpfHolder == '0' || cpfHolder == '' || cpfHolder == 'undefined' || cpfHolder == null) {
+                $("#cpfHolder").focus();
+                alerta('error', 'Validação', 'Preencha o seu CPF');
+                return false;
+            }
+
+            if (birthdayHolder == '0' || birthdayHolder == '' || birthdayHolder == 'undefined' || birthdayHolder == null) {
+                $("#birthdayHolder").focus();
+                alerta('error', 'Validação', 'Preencha sua data de nascimento');
+                return false;
+            }
+
+            if (phoneHolder == '0' || phoneHolder == '' || phoneHolder == 'undefined' || phoneHolder == null) {
+                $("#phoneHolder").focus();
+                alerta('error', 'Validação', 'Preencha o seu Telefone')
+                return false;
+            }
+
+            if (creditCardToken == '0' || creditCardToken == '' || creditCardToken == 'undefined' || creditCardToken ==
+                null) {
+                $("#creditCardNumber").focus();
+                alerta('error', 'Validação', 'Dados do cartão de crédito estão incorretos');
+                return false;
+            }
+
+            if (installmentCombo == '0' || installmentCombo == '' || installmentCombo == 'undefined' || installmentCombo ==
+                null) {
+                $("#installmentCombo").focus();
+                alerta('error', 'Validação', 'Selecione uma forma de pagamento');
+                return false;
+            }
+
+
+
+            $.ajax({
+                type: 'POST',
+                url: "{{ route('finalizar_pagamento') }}",
+                data: {
+                    senderHash: senderHash,
+                    nameHolder: nameHolder,
+                    cpfHolder: cpfHolder,
+                    birthdayHolder: birthdayHolder,
+                    phoneHolder: phoneHolder,
+                    creditCardToken: creditCardToken,
+                    installmentCombo: installmentCombo,
+                    product_name: product_name,
+                    user_email: user_email,
+                },
+
+                beforeSend: function() {
+                    $('#loader').removeClass('hidden');
+                },
+
+                success: function(e) {
+                    if (e.success == 0) {
+                        alerta('error', 'Falha ao enviar pagamento', e.message +
+                            "<br>Corriga os dados e tente novamente");
+                    } else {
+                        var classe = "bg-teal-400"
+                        const wrapper = document.createElement('div');
+                        wrapper.innerHTML = "Aguarde a aprovação do pagamento para a liberação do seu acesso <br><br> Código de pagamento do Pagseguro: <br>" + e.message;
+                        swal({
+                            title: 'Pagamento enviado!',
+                            content: wrapper,
+                            icon: 'success',
+                            button: {
+                                text: "Ok",
+                                closeModal: !0,
+                                className: classe
+                            }
+                        }).then(function() {
+                            window.location = "{{ route('site') }}";
+                        });
+                    }
+                },
+
+                complete: function() {
+                    $('#loader').addClass('hidden');
+                },
+            })
+
+        }
 
     </script>
 
+@endsection
+
+@section('site.css')
+
+<style>
+.lds-dual-ring.hidden {
+    display: none;
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    margin: 5% auto;
+    margin-top: 20%;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #fff transparent #fff transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, .8);
+    z-index: 999;
+    opacity: 1;
+    transition: all 0.5s;
+}
+</style>
 @endsection

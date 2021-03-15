@@ -87,7 +87,7 @@ Route::get('/slide1', 'HomeController@slide1');
 
 Route::get('/inicioInstrumentos', 'HomeController@inicioInstrumentos');
 
-Route::get('/', 'HomeController@slide1');
+Route::get('/', 'HomeController@slide1')->name('dashboard');
 
 Route::get('/teste', 'InstrumentoController@teste1');
 
@@ -207,13 +207,15 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 	Route::get('/topseller', 'Auth\LoginController@showLoginForm');
 	
 	Route::get('/site/login', 'SiteController@login');
-	Route::get('/nextSteps', 'SiteController@nextSteps');
+	Route::get('/nextSteps', 'SiteController@nextSteps')->name('next_steps');
 	// Route::get('/payment/checkout', 'SiteController@checkout');
 
 	// Checkout
-	Route::get('/payment/checkout', 'PaymentController@checkout');
-	Route::post('/payment/session', 'PaymentController@createSession');
-	Route::get('/payment/finish', 'PaymentController@finishPayment')->name('finalizar_pagamento');
+	Route::post('/payment/checkout', 'PaymentController@checkout')->name('checkout');
+	// Route::post('/payment/session', 'PaymentController@createSession');
+	Route::post('/payment/finish', 'PaymentController@finishPayment')->name('finalizar_pagamento');
+	Route::get('/payment/verify', 'PaymentController@verifyPayment');
+	Route::post('/payment/callback', 'PaymentController@callback');
 	
 
 	//Product
@@ -228,3 +230,14 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 		Route::post('/update', 'ProductController@updateProduct');
 	});
 	
+	//Order
+	Route::group(['prefix' => 'order', "middleware" => ["auth","admin"]], function() {
+        // Route::post('/enable', 'ProductController@enableProduct');
+		// Route::post('/disable', 'ProductController@disableProduct');
+		Route::get('/list', 'OrderController@listOrder')->name('order_list');
+		// Route::get('/create', 'ProductController@createProductView');
+		// Route::post('/create', 'ProductController@createProduct');
+		// Route::post('/edit', 'ProductController@editProduct');
+		// Route::post('/remove', 'ProductController@removeProduct');
+		// Route::post('/update', 'ProductController@updateProduct');
+	});

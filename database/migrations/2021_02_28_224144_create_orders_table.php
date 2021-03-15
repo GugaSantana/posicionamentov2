@@ -19,8 +19,11 @@ class CreateOrdersTable extends Migration
             $table->foreign('product_id')->references('id')->on('products')->onUpdate('cascade')->onDelete('cascade');
             $table->bigInteger('user_id')->unsigned()->index();
             $table->foreign('user_id')->references('id')->on('users')->onUpdate('cascade')->onDelete('cascade');
+            $table->decimal('price');
             $table->integer('installment');
-            $table->string('payment_code');
+            $table->decimal('installment_value');
+            $table->string('payment_code')->nullable();
+            $table->string('status')->default('Aguardando Confirmação');
             $table->boolean('confirmed')->default(false);
             $table->timestamps();
         });

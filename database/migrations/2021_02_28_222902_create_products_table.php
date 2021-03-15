@@ -19,6 +19,7 @@ class CreateProductsTable extends Migration
             $table->string('voucher');
             $table->decimal('price');
             $table->integer('installment');
+            $table->integer('installment_free');
             $table->integer('limit');
             $table->timestamps();
         });

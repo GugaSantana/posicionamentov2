@@ -2,7 +2,12 @@
 
 namespace App\Http\Controllers;
 
+use App\Order;
+use App\Product;
+use App\User;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\URL;
 
 class PaymentController extends Controller
 {
@@ -11,7 +16,7 @@ class PaymentController extends Controller
     private $token = "2C3C864C26984A90BEAC59E1D4B7CBB0";
     private $pagseguro_url_js = "https://stc.sandbox.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js";
 
-    private $url = "https://ws.sandbox.pagseguro.uol.com.br/v2/"; // Homolog
+    private $url = "https://ws.sandbox.pagseguro.uol.com.br/"; // Homolog
 
     public function config()
     {
@@ -30,8 +35,34 @@ class PaymentController extends Controller
         $pagseguro_retorno = "https://seusite.com.br/pagseguro/retorno.php";
     }
 
-    public function checkout()
+    /**
+     * Tela de Checkout/Pagamento
+     *
+     * @return void
+     */
+    public function checkout(Request $request)
     {
+        $auth = $this->authenticationUsers($request['email'], $request['senha']);
+
+        if(!$auth[0]){
+            return back()->with('message', $auth[1]);
+        }
+
+        // Verificar se o usuario ta com pagamento pendente 
+        if(User::where('email', $request['email'])->whereHas('order')->exists()){
+            //Ja tem um pagamento
+            $status = User::with('order')->where('email', $request['email'])->whereHas('order')->first();
+            return back()->with('message', 'Você ja possui uma compra com status '. $status->order->status);
+        }
+
+        // Busca o voucher no banco
+        $product = Product::where('voucher', $request['voucher'])->first();
+        if(empty($product)){
+            return back()->with('message', 'Voucher inválido');
+        }
+        // dd(Auth::user()->order);
+
+        // dd(Auth::user());
         // $this->getPaymentMethods();
         $session = json_decode($this->createSession());
 
@@ -43,7 +74,8 @@ class PaymentController extends Controller
             'pagseguro_email' => $this->email,
             'pagseguro_token' => $this->token,
             'pagseguro_url_js' => $this->pagseguro_url_js,
-            'price' => 50
+            'product' => $product,
+            'user_email' => $request['email']
         ]);
     }
 
@@ -73,85 +105,147 @@ class PaymentController extends Controller
 
     public function finishPayment(Request $request)
     {
+        // Verificar se o usuario ta com pagamento pendente 
+        if(isset(Auth::user()->order)){
+            //Ja tem um pagamento
+            return [
+                "success" => 0,
+                "message" => 'Você já possui um pedido de compra'
+            ];
+        }
+
+        // dd($request);
         // code de pagamento  = 07399B55-5871-48DB-8418-042954715D00;
         $senderHash = $request["senderHash"];
-        $creditCardNumber = $request["creditCardNumber"];
-        $creditCardExpMonth = $request["creditCardExpMonth"];
-        $creditCardExpYear = $request["creditCardExpYear"];
-        $creditCardCvv = $request["creditCardCvv"];
+        $nameHolder = $request["nameHolder"];
+        $cpfHolder = $request["cpfHolder"];
+        $birthdayHolder = $request["birthdayHolder"];
+        $phoneHolder = $request["phoneHolder"];
+        // $creditCardNumber = $request["creditCardNumber"];
+        // $creditCardBrand = $request["creditCardBrand"];
+        // $creditCardExpMonth = $request["creditCardExpMonth"];
+        // $creditCardExpYear = $request["creditCardExpYear"];
+        // $creditCardCvv = $request["creditCardCvv"];
         $creditCardToken = $request["creditCardToken"];
+        $installmentCombo = $request["installmentCombo"];
+        $product_name = $request['product_name'];
+        $user_email = $request['user_email'];
 
-        $data = $this->prepareDataTransaction($senderHash, $creditCardToken);
-        $this->sendTransaction($data);
+        $product = Product::where('name', $product_name)->first();
+
+        $user = User::where('email', $user_email)->first();
+
+        $data = $this->prepareDataTransaction($user, $product, $senderHash, $creditCardToken, $phoneHolder, $cpfHolder, $installmentCombo, $nameHolder, $birthdayHolder);
+
+        // dd($data);
+
+        $transaction = $this->sendTransaction($data);
+        
+        $result = $this->formatXml($transaction[1]);
+
+        if (!isset($result['error'])) {
+            $order = Order::where('user_id', $user->id)->first();
+            $order->payment_code = $result['code'];
+            $order->save();
+
+            return [
+                "success" => 1,
+                "message" => $result['code']
+            ];
+        } else {
+            // ERROR
+            return [
+                "success" => 0,
+                "message" => $result['error']['message']
+            ];
+        }
     }
 
-    public function prepareDataTransaction($senderHash, $creditCardToken)
+    public function formatXml($xml)
     {
-        
+        $xml = simplexml_load_string($xml);
+        $json = json_encode($xml);
+        $array = json_decode($json, TRUE);
+
+        return $array;
+    }
+
+    public function prepareDataTransaction($user, $product, $senderHash, $creditCardToken, $phoneHolder, $cpfHolder, $installmentCombo, $nameHolder, $birthdayHolder)
+    {
+        $installments = explode('|', $installmentCombo);
+        // dd($user);
+        //Cria uma order
+        $order = Order::create([
+            'product_id' => $product->id,
+            'user_id' => $user->id,
+            'price' => $product->price,
+            'installment' => $installments[0],
+            'installment_value' => $installments[1],
+        ]);
         // Payment
         $data['paymentMode'] = 'default';
         $data['paymentMethod'] = 'creditCard';
         $data['currency'] = 'BRL';
         //Sender
         $data['senderHash'] = $senderHash;
-        $data['senderName'] = 'Jose Comprador';
-        $data['senderEmail'] = 'comprador@sandbox.pagseguro.com.br';
+        $data['senderName'] = $user->name; //name cliente
+        $data['senderEmail'] = 'gustavosantana@sandbox.pagseguro.com.br'; // email cliente
         // Phone
-        $data['senderAreaCode'] = '11';
-        $data['senderPhone'] = '56273440';
+        $data['senderAreaCode'] = substr($phoneHolder, 1, 2); //area telefone
+        $data['senderPhone'] = substr(str_replace([' ', '-'], '', $phoneHolder), 4); // telefone
         // Documents
-        $data['senderCPF'] = '22111944785';
-        
-        $data['receiverEmail'] = "gustavo_ssantana@hotmail.com";
-        $data['extraAmount'] = '0.00';
-        $data['itemId1'] = '0001';
-        $data['itemDescription1'] = 'Notebook Prata';
-        $data['itemAmount1'] = '10300.00';
-        $data['itemQuantity1'] = '1';
-        $data['itemId2'] = '0002';
-        $data['itemDescription2'] = 'Notebook Azul';
-        $data['itemAmount2'] = '10000.00';
-        $data['itemQuantity2'] = '1';
-        $data['notificationURL'] = 'https://sualoja.com.br/notificacao.html';
-        $data['reference'] = 'REF1234';
-        $data['shippingAddressStreet'] = 'Av. Brig. Faria Lima';
-        $data['shippingAddressNumber'] = '1384';
-        $data['shippingAddressComplement'] = '5o andar';
-        $data['shippingAddressDistrict'] = 'Jardim Paulistano';
-        $data['shippingAddressPostalCode'] = '01452002';
-        $data['shippingAddressCity'] = 'Sao Paulo';
-        $data['shippingAddressState'] = 'SP';
+        $data['senderCPF'] = str_replace(['.', '-'], '', $cpfHolder); // cpf
+        $data['receiverEmail'] = "gustavo_ssantana@hotmail.com"; //Email do receptor
+        // Items
+        $data['extraAmount'] = '0.00'; //Valor extra
+        // Produto
+        $data['itemId1'] = $product->id; //Id do produto
+        $data['itemDescription1'] = $product->name; //Descrição do produto
+        $data['itemAmount1'] = $product->price; // preço do produto
+        $data['itemQuantity1'] = '1'; // quantidade do produto
+        $data['notificationURL'] = 'https://sualoja.com.br/notificacao.html'; // url de callback de confirmação
+        $data['reference'] = $order->id; //id da compra criada no sistema
+        //Dados de entrega
+        $data['shippingAddressStreet'] = $user->address; // rua
+        $data['shippingAddressNumber'] = $user->number; // numero
+        $data['shippingAddressComplement'] = $user->compĺement; // complemento
+        $data['shippingAddressDistrict'] = $user->quarter; // bairro
+        $data['shippingAddressPostalCode'] = $user->cep; // cep
+        $data['shippingAddressCity'] = $user->city; // cidade
+        $data['shippingAddressState'] = $user->state; // estado
         $data['shippingAddressCountry'] = 'BRA';
-        $data['shippingType'] = '1';
-        $data['shippingCost'] = '01.00';
+
+        // $data['shippingType'] = '1';
+        // $data['shippingCost'] = '01.00';
         $data['creditCardToken'] = $creditCardToken;
-        $data['installmentQuantity'] = '7';
-        $data['installmentValue'] = '3030.94';
-        $data['noInterestInstallmentQuantity'] = '5';
-        $data['creditCardHolderName'] = 'Jose Comprador';
-        $data['creditCardHolderCPF'] = '22111944785';
-        $data['creditCardHolderBirthDate'] = '27/10/1987';
-        $data['creditCardHolderAreaCode'] = '11';
-        $data['creditCardHolderPhone'] = '56273440';
-        $data['billingAddressStreet'] = 'Av. Brig. Faria Lima';
-        $data['billingAddressNumber'] = '1384';
-        $data['billingAddressComplement'] = '5o andar';
-        $data['billingAddressDistrict'] = 'Jardim Paulistano';
-        $data['billingAddressPostalCode'] = '01452002';
-        $data['billingAddressCity'] = 'Sao Paulo';
-        $data['billingAddressState'] = 'SP';
+
+        $data['installmentQuantity'] = $installments[0]; // quantidade de parcelas
+        $data['installmentValue'] = $installments[1]; // valor das parcelas
+        $data['noInterestInstallmentQuantity'] = $product->installment; // quantidade de parcelas sem juros
+
+        // Info do cartao
+        $name = explode(' ', $nameHolder);
+        $data['creditCardHolderName'] = $name[0] . ' ' . $name[1];
+        $data['creditCardHolderCPF'] = str_replace(['.', '-'], '', $cpfHolder);
+        $data['creditCardHolderBirthDate'] = $birthdayHolder;
+        $data['creditCardHolderAreaCode'] = substr($phoneHolder, 1, 2);
+        $data['creditCardHolderPhone'] = substr(str_replace([' ', '-'], '', $phoneHolder), 4);
+
+        $data['billingAddressStreet'] = $user->address;
+        $data['billingAddressNumber'] = $user->number;
+        $data['billingAddressComplement'] = $user->complement;
+        $data['billingAddressDistrict'] = $user->quarter;
+        $data['billingAddressPostalCode'] = $user->cep;
+        $data['billingAddressCity'] = $user->city;
+        $data['billingAddressState'] = $user->state;
         $data['billingAddressCountry'] = 'BRA';
 
         return $data;
     }
 
-
-
-
-
     public function sendTransaction($data)
     {
-        $url = $this->url . "transactions?email={$this->email}&token={$this->token}";
+        $url = $this->url . "v2/transactions?email={$this->email}&token={$this->token}";
         $curl = curl_init();
         curl_setopt_array($curl, array(
             CURLOPT_URL => $url,
@@ -164,7 +258,6 @@ class PaymentController extends Controller
             CURLOPT_POSTFIELDS =>  http_build_query($data),
             CURLOPT_HTTPHEADER => array(
                 "Content-Type: application/x-www-form-urlencoded",
-                "Postman-Token: a54808d4-b08a-4f19-8687-d56eeeb6680c",
                 "cache-control: no-cache"
             ),
         ));
@@ -175,9 +268,9 @@ class PaymentController extends Controller
         curl_close($curl);
 
         if ($err) {
-            dd($err);
+            return [false, $err];
         } else {
-            dd($response);
+            return [true, $response];
         }
     }
     public function session()
@@ -193,8 +286,83 @@ class PaymentController extends Controller
         // echo json_encode($session);
     }
 
-    public function getPaymentMethods()
+    public function verifyPayment()
     {
-        dd('oi');
+        $order = Order::find(4);
+
+        $url = $this->url . "v3/transactions/9FBFAE482A514D2E82BE06489D53AB28?email={$this->email}&token={$this->token}";
+
+        $curl = curl_init();
+
+        curl_setopt_array($curl, array(
+            CURLOPT_URL => $url,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_ENCODING => "",
+            CURLOPT_MAXREDIRS => 10,
+            CURLOPT_TIMEOUT => 30,
+            CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
+            CURLOPT_CUSTOMREQUEST => "GET",
+            CURLOPT_HTTPHEADER => array(
+                "Content-Type: application/x-www-form-urlencoded",
+                "cache-control: no-cache"
+            ),
+        ));
+
+        $response = curl_exec($curl);
+        $err = curl_error($curl);
+
+        curl_close($curl);
+
+        if ($err) {
+            dd($err);
+        } else {
+            $return = $this->formatXml($response);
+            // $return->status;
+            dump($return['status']);
+            dd($this->getStatus($return['status']));
+        }
+    }
+
+    public function callback(Request $request)
+    {
+    }
+
+    public function getStatus($statusCode)
+    {
+        switch ($statusCode) {
+            case '1':
+                return 'Aguardando pagamento';
+                break;
+            case '2':
+                return 'Em análise';
+                break;
+            case '3':
+                return 'Paga';
+                break;
+            case '4':
+                return 'Disponível';
+                break;
+            case '7':
+                return 'Cancelada';
+                break;
+
+            default:
+                # code...
+                break;
+        }
+    }
+
+    public function authenticationUsers($email, $password)
+    {
+        $user = User::where('email', $email)->first();
+        if (isset($user)) {
+            $check = \Hash::check($password, $user->password);
+
+            if ($check == true) {
+                return [true, "Ok"];
+            }
+            return [false, "Senha incorreta"];    
+        }
+        return [false, "Email não encontrado"];
     }
 }

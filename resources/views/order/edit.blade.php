@@ -5,42 +5,38 @@
 <div class="card card-primary">
     <div class="card-header">
         <h3>
-            <center>CRIAÇÃO DE PRODUTO</center>
+            <center>EDITAR PRODUTO - #{{$product->id}} {{strtoupper($product->name)}}</center>
         </h3>
     </div>
     <div class="card-body">
         
-    <form name="formulario" role="form" method="post" action="/product/create">
-        {!! csrf_field() !!}
-
+    <form name="formulario" role="form" method="post" action="/product/update">
+    {!! csrf_field() !!}
+        <input type="text" name="product_id" value="{{$product->id}}" hidden>
+        
         <div class="form-group">
             <label for="name">Nome do Produto</label>
-            <input type="text" class="form-control" id="name" name="name" aria-describedby="Nome" placeholder="Nome">
+            <input type="text" class="form-control" id="name" name="name" aria-describedby="Nome" value="{{$product->name}}">
         </div>
         <div class="form-group">
             <label for="voucher">Voucher</label>
-            <input type="text" class="form-control" id="voucher" name="voucher" aria-describedby="Voucher" placeholder="Voucher">
+            <input type="text" class="form-control" id="voucher" name="voucher" aria-describedby="Voucher" value="{{$product->voucher}}">
         </div>
         <div class="form-group">
             <label for="price">Preço</label>
-            <input type="text" class="form-control" id="price" name="price" aria-describedby="Price" placeholder="Preço">
+            <input type="text" class="form-control" id="price" name="price" aria-describedby="Price" value="{{$product->price}}">
         </div>
         <div class="form-group">
-            <label for="installment">Quantidade de Parcelas</label>
-            <input type="text" class="form-control" id="installment" name="installment" aria-describedby="Installment" placeholder="Quantidade de Parcelas">
-        </div>
-        <div class="form-group">
-            <label for="installment_free">Parcelas Sem Juros</label>
-            <input type="text" class="form-control" id="installment_free" name="installment_free" aria-describedby="InstallmentFree" placeholder="Parcelas sem Juros">
+            <label for="installment">Parcelas</label>
+            <input type="text" class="form-control" id="installment" name="installment" aria-describedby="Installment" value="{{$product->installment}}">
         </div>
         <div class="form-group">
             <label for="limit">Limite de Voucher</label>
-            <input type="text" class="form-control" id="limit" name="limit" aria-describedby="Voucher" placeholder="Limite">
+            <input type="text" class="form-control" id="limit" name="limit" aria-describedby="Voucher" value="{{$product->limit}}">
         </div>
-        
-        <button type="submit" class="btn btn-primary">Cadastrar</button>
-        </form>    
-    
+                
+        <button type="submit" class="btn btn-primary">Salvar Alterações</button>
+        </form>
     </div>
     <!-- /.card-header -->
     <!-- form start -->

@@ -37,4 +37,16 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+
+    // check if authenticated, then redirect to dashboard
+    protected function authenticated($request)
+    {
+        if (\Auth::check()) {
+            //Verifica se o login veio da tela de nextSteps para fazer o checkout
+            if ($request['previousPage'] === \URL::route('next_steps')) {
+                return redirect()->route('next_steps');
+            }
+            return redirect()->route('dashboard');
+        }
+    }
 }
