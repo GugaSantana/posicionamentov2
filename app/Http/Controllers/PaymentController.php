@@ -106,7 +106,7 @@ class PaymentController extends Controller
     public function finishPayment(Request $request)
     {
         // Verificar se o usuario ta com pagamento pendente 
-        if(isset(Auth::user()->order)){
+        if(isset(Auth::user()->order) && !empty(Auth::user()->order->wherenotnull('payment_code')->first())){
             //Ja tem um pagamento
             return [
                 "success" => 0,
@@ -189,7 +189,7 @@ class PaymentController extends Controller
         //Sender
         $data['senderHash'] = $senderHash;
         $data['senderName'] = $user->name; //name cliente
-        $data['senderEmail'] = 'gustavosantana@sandbox.pagseguro.com.br'; // email cliente
+        $data['senderEmail'] = strtolower(str_replace(" ","",$user->name))."@sandbox.pagseguro.com.br"; // email cliente
         // Phone
         $data['senderAreaCode'] = substr($phoneHolder, 1, 2); //area telefone
         $data['senderPhone'] = substr(str_replace([' ', '-'], '', $phoneHolder), 4); // telefone

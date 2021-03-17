@@ -33,54 +33,33 @@
     </div>
 
     <!-- TOPSELLER 2-1 -->
-    <div class="topseller2-1">
+    <div class="nextsteps">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="topseller2-1-content">
+                    <div class="nextsteps-content">
                         <div class="row">
-                            <div class="col-md-12">
+                          <div class="col-md-2">
+                            <img src="{{asset('images/question.png')}}" style="margin-top: 38%; width: 76%">
+                          </div>
+                            <div class="col-md-10">
                                 <div class="center-content">
                                   @if(session('message'))
-<div class="alert alert-warning alert-dismissible">
-    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-    <h5><i class="fa fa-exclamation-triangle"></i> Alerta!</h5>
-    
-    {{ session('message') }}
-  </div>
-  @endif
-
-                                    <!-- <h2>ESTRUTURA DA METODOLOGIA</h2><br> -->
+                                    <div class="alert alert-warning alert-dismissible">
+                                      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
+                                      <h5><i class="fa fa-exclamation-triangle"></i> Alerta!</h5>
+                                      
+                                      {{ session('message') }}
+                                    </div>
+                                  @endif
+                                    <h2>COMO CONTINUAR......</h2><br>
                                     <p>SE VOCÊ QUER SABER SOBRE O INVESTIMENTO PARA ADQUIRIR O <b
                                             style="color: #ffde66;">PROGRAMA TOP SELLER</b>, POR FAVOR ENTRE EM CONTATO
-                                        CONOSCO CLICANDO <a style="color: white; text-decoration: underline !important;"
+                                        CONOSCO CLICANDO <a style="text-decoration: underline !important;"
                                             href="/contato">AQUI.</a></p>
                                 </div>
-                                <div class="center-content">
-                                    <!-- <h2>ESTRUTURA DA METODOLOGIA</h2><br> -->
-                                    <p>SE VOCÊ QUER EFETUAR O PAGAMENTO DO SEU INVESTIMENTO NO <b
-                                            style="color: #ffde66;">PROGRAMA TOP SELLER</b> POR FAVOR INSIRA ABAIXO O NÚMERO
-                                        DO SEU VOUCHER:</p>
-                                    <form method="post" action="{{ route('checkout') }}">
-                                        {!! csrf_field() !!}
+                              </div>
 
-                                        <div class="form-group">
-                                          <label for="email">Email</label>
-                                          <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" name="email">
-                                        </div>
-                                        <div class="form-group">
-                                          <label for="password">Senha</label>
-                                          <input type="password" class="form-control" id="password" placeholder="Senha" name="senha">
-                                        </div>
-                                        <div class="form-group">
-                                          <label for="voucher">Voucher</label>
-                                          <input type="text" class="form-control" id="voucher" aria-describedby="Voucher" placeholder="Voucher" name="voucher">
-                                        </div>
-
-                                        <button type="submit" class="btn btn-warning ml-2">Enviar</button>
-                                    </form>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -89,6 +68,56 @@
     </div>
 
     </div>
+
+    
+    <div class="barra-dourada-divisao" style="padding: 10px 0px;">
+    </div>
+
+    <!-- TOPSELLER 2-1 -->
+    <div class="nextsteps">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="nextsteps-content">
+                      <div class="row">
+
+                            <div class="col-md-2">
+                              <img src="{{asset('images/carrinho.jpg')}}" style="margin-top: 38%">
+                            </div>
+                            <div class="col-md-10">
+                              <div class="center-content">
+                                  <h2>AGORA SE VOCÊ......</h2><br>
+
+                                  <p>QUER EFETUAR O PAGAMENTO DO SEU INVESTIMENTO NO <b
+                                          style="color: #ffde66;">PROGRAMA TOP SELLER</b> POR FAVOR INSIRA ABAIXO OS SEUS DADOS DE EMAIL E SENHA DO SEU CADASTRO E O NÚMERO DO SEU VOUCHER:</p>
+                                  <form method="post" action="{{ route('checkout') }}">
+                                      {!! csrf_field() !!}
+
+                                      <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" name="email">
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="password">Senha</label>
+                                        <input type="password" class="form-control" id="password" placeholder="Senha" name="senha">
+                                      </div>
+                                      <div class="form-group">
+                                        <label for="voucher">Voucher</label>
+                                        <input type="text" class="form-control" id="voucher" aria-describedby="Voucher" placeholder="Voucher" name="voucher">
+                                      </div>
+
+                                      <button type="submit" class="btn btn-warning ml-2">Enviar</button>
+                                  </form>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  </div>
 
 
     <div class="barra-dourada-divisao">
