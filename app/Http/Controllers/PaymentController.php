@@ -48,12 +48,12 @@ class PaymentController extends Controller
             return back()->with('message', $auth[1]);
         }
 
-        // Verificar se o usuario ta com pagamento pendente 
-        if(User::where('email', $request['email'])->whereHas('order')->exists()){
-            //Ja tem um pagamento
-            $status = User::with('order')->where('email', $request['email'])->whereHas('order')->first();
-            return back()->with('message', 'Você ja possui uma compra com status '. $status->order->status);
-        }
+        // // Verificar se o usuario ta com pagamento pendente 
+        // if(User::where('email', $request['email'])->whereHas('order')->exists()){
+        //     //Ja tem um pagamento
+        //     $status = User::with('order')->where('email', $request['email'])->whereHas('order')->first();
+        //     return back()->with('message', 'Você ja possui uma compra com status '. $status->order->status);
+        // }
 
         // Busca o voucher no banco
         $product = Product::where('voucher', $request['voucher'])->first();

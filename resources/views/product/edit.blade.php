@@ -31,6 +31,10 @@
             <input type="text" class="form-control" id="installment" name="installment" aria-describedby="Installment" value="{{$product->installment}}">
         </div>
         <div class="form-group">
+            <label for="installment">Parcelas Sem Juros</label>
+            <input type="text" class="form-control" id="installment" name="installment_free" aria-describedby="Installment" value="{{$product->installment_free}}">
+        </div>
+        <div class="form-group">
             <label for="limit">Limite de Voucher</label>
             <input type="text" class="form-control" id="limit" name="limit" aria-describedby="Voucher" value="{{$product->limit}}">
         </div>

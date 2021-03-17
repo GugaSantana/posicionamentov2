@@ -44,6 +44,12 @@ class ProductController extends Controller
     public function updateProduct(Request $request){
         $product = Product::find($request['product_id']);
         $product->name = $request['name'];
+        $product->voucher = $request['voucher'];
+        $product->price = $request['price'];
+        $product->installment = $request['installment'];
+        $product->installment_free = $request['installment_free'];
+        $product->limit = $request['limit'];
+        
         $product->save();
         return redirect()->route('product_list');
     }
