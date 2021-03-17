@@ -42,7 +42,7 @@
                           <div class="col-md-2">
                             <img src="{{asset('images/question.png')}}" style="margin-top: 38%; width: 76%">
                           </div>
-                            <div class="col-md-8">
+                            <div class="col-md-10">
                                 <div class="center-content">
                                   @if(session('message'))
                                     <div class="alert alert-warning alert-dismissible">
@@ -52,7 +52,7 @@
                                       {{ session('message') }}
                                     </div>
                                   @endif
-                                    <h2>COMO CONTINUAR......</h2><br>
+                                    <h2 style="text-align: left">COMO CONTINUAR......</h2><br>
                                     <p>SE VOCÊ QUER SABER SOBRE O INVESTIMENTO PARA ADQUIRIR O <b
                                             style="color: #c2a94d;">PROGRAMA TOP SELLER</b>, POR FAVOR ENTRE EM CONTATO
                                         CONOSCO CLICANDO <a style="text-decoration: underline !important;"
@@ -84,9 +84,9 @@
                             <div class="col-md-2">
                               <img src="{{asset('images/carrinho.jpg')}}" style="margin-top: 38%">
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-10">
                               <div class="center-content">
-                                  <h2>AGORA SE VOCÊ......</h2><br>
+                                  <h2 style="text-align: left">AGORA SE VOCÊ......</h2><br>
 
                                   <p>QUER EFETUAR O PAGAMENTO DO SEU INVESTIMENTO NO <b
                                           style="color: #c2a94d;">PROGRAMA TOP SELLER</b>, POR FAVOR INSIRA ABAIXO OS SEUS DADOS DE EMAIL E SENHA DO SEU CADASTRO E O NÚMERO DO SEU VOUCHER:</p>
