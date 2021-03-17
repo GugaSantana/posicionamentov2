@@ -54,7 +54,7 @@
                                   @endif
                                     <h2>COMO CONTINUAR......</h2><br>
                                     <p>SE VOCÊ QUER SABER SOBRE O INVESTIMENTO PARA ADQUIRIR O <b
-                                            style="color: #ffde66;">PROGRAMA TOP SELLER</b>, POR FAVOR ENTRE EM CONTATO
+                                            style="color: #c2a94d;">PROGRAMA TOP SELLER</b>, POR FAVOR ENTRE EM CONTATO
                                         CONOSCO CLICANDO <a style="text-decoration: underline !important;"
                                             href="/contato">AQUI.</a></p>
                                 </div>
@@ -89,21 +89,21 @@
                                   <h2>AGORA SE VOCÊ......</h2><br>
 
                                   <p>QUER EFETUAR O PAGAMENTO DO SEU INVESTIMENTO NO <b
-                                          style="color: #ffde66;">PROGRAMA TOP SELLER</b> POR FAVOR INSIRA ABAIXO OS SEUS DADOS DE EMAIL E SENHA DO SEU CADASTRO E O NÚMERO DO SEU VOUCHER:</p>
+                                          style="color: #c2a94d;">PROGRAMA TOP SELLER</b> POR FAVOR INSIRA ABAIXO OS SEUS DADOS DE EMAIL E SENHA DO SEU CADASTRO E O NÚMERO DO SEU VOUCHER:</p>
                                   <form method="post" action="{{ route('checkout') }}">
                                       {!! csrf_field() !!}
 
                                       <div class="form-group">
                                         <label for="email">Email</label>
-                                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" name="email">
+                                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Email" name="email" style="width: 50%">
                                       </div>
                                       <div class="form-group">
                                         <label for="password">Senha</label>
-                                        <input type="password" class="form-control" id="password" placeholder="Senha" name="senha">
+                                        <input type="password" class="form-control" id="password" placeholder="Senha" name="senha" style="width: 50%">
                                       </div>
                                       <div class="form-group">
                                         <label for="voucher">Voucher</label>
-                                        <input type="text" class="form-control" id="voucher" aria-describedby="Voucher" placeholder="Voucher" name="voucher">
+                                        <input type="text" class="form-control" id="voucher" aria-describedby="Voucher" placeholder="Voucher" name="voucher" style="width: 50%">
                                       </div>
 
                                       <button type="submit" class="btn btn-warning ml-2">Enviar</button>
