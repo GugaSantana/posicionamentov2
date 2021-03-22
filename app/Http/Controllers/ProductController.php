@@ -18,6 +18,7 @@ class ProductController extends Controller
 
     public function createProduct(Request $request){
         $data = $request->all();
+        $data['price'] = str_replace(',', '.', $data['price']);
         Product::create($data);
         return redirect()->route('product_list');
     }
@@ -45,7 +46,7 @@ class ProductController extends Controller
         $product = Product::find($request['product_id']);
         $product->name = $request['name'];
         $product->voucher = $request['voucher'];
-        $product->price = $request['price'];
+        $product->price = str_replace(',', '.', $request['price']);
         $product->installment = $request['installment'];
         $product->installment_free = $request['installment_free'];
         $product->limit = $request['limit'];

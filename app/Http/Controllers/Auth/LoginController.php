@@ -43,9 +43,9 @@ class LoginController extends Controller
     {
         if (\Auth::check()) {
             //Verifica se o login veio da tela de nextSteps para fazer o checkout
-            if ($request['previousPage'] === \URL::route('next_steps')) {
-                return redirect()->route('next_steps');
-            }
+            //if ($request['previousPage'] === \URL::route('next_steps')) {
+            //    return redirect()->route('next_steps');
+            //}
             return redirect()->route('start');
         }
     }
