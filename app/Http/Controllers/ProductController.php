@@ -3,12 +3,13 @@
 namespace App\Http\Controllers;
 
 use App\Product;
+use App\Stock;
 use Illuminate\Http\Request;
 
 class ProductController extends Controller
 {
     public function listProduct(){
-        $products = Product::paginate(30);
+        $products = Product::with('stock')->paginate(30);
         return view('product.list')->with(compact('products'));
     }
 
@@ -19,7 +20,15 @@ class ProductController extends Controller
     public function createProduct(Request $request){
         $data = $request->all();
         $data['price'] = str_replace(',', '.', $data['price']);
-        Product::create($data);
+        $product = Product::create($data);
+        Stock::create(
+            [
+                "product_id" => $product->id,
+                "movement" => $data['limit'],
+                "total" => $data['limit']
+            ]
+        );
+        
         return redirect()->route('product_list');
     }
 
@@ -38,7 +47,7 @@ class ProductController extends Controller
     }
 
     public function editProduct(Request $request){
-        $product = Product::find($request['product_id']);
+        $product = Product::with('stock')->find($request['product_id']);
         return view('product.edit')->with(compact('product'));
     }
 
@@ -50,7 +59,16 @@ class ProductController extends Controller
         $product->installment = $request['installment'];
         $product->installment_free = $request['installment_free'];
         $product->limit = $request['limit'];
-        
+        if($product->stock->total != $request['limit']){
+            Stock::create(
+                [
+                    "product_id" => $product->id,
+                    "movement" => $request['limit'] - $product->stock->total,
+                    "total" => $request['limit']
+                ]
+            );
+        }
+
         $product->save();
         return redirect()->route('product_list');
     }

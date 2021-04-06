@@ -368,7 +368,7 @@
         }
 
         function buildInstallmentSelect(installments) {
-
+            $("#InstallmentCombo").empty();
             $.each(installments, (function(key, value) {
                 if (key == {{ $product->installment }}) {
                     return false;

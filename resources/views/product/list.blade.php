@@ -33,7 +33,7 @@
                         <td class="center">{{$product->price}}</td>
                         <td class="center">{{$product->installment}}</td>
                         <td class="center">{{$product->installment_free}}</td>
-                        <td class="center">{{$product->limit}}</td>
+                        <td class="center">{{$product->stock->total}}</td>
                         
                         <td class="center">
 

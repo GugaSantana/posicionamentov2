@@ -36,7 +36,7 @@
         </div>
         <div class="form-group">
             <label for="limit">Limite de Voucher</label>
-            <input type="text" class="form-control" id="limit" name="limit" aria-describedby="Voucher" value="{{$product->limit}}">
+            <input type="text" class="form-control" id="limit" name="limit" aria-describedby="Voucher" value="{{$product->stock->total}}">
         </div>
                 
         <button type="submit" class="btn btn-primary">Salvar Alterações</button>

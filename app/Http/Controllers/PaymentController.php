@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Order;
 use App\Product;
+use App\Stock;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -131,7 +132,7 @@ class PaymentController extends Controller
         $product_name = $request['product_name'];
         $user_email = $request['user_email'];
 
-        $product = Product::where('name', $product_name)->first();
+        $product = Product::with('stock')->where('name', $product_name)->first();
 
         $user = User::where('email', $user_email)->first();
 
@@ -147,6 +148,15 @@ class PaymentController extends Controller
             $order = Order::where('user_id', $user->id)->first();
             $order->payment_code = $result['code'];
             $order->save();
+
+            // Atualiza o estoque
+            Stock::create(
+                [
+                    "product_id" => $product->id,
+                    "movement" => 1,
+                    "total" => $product->stock->total - 1
+                ]
+            );
 
             return [
                 "success" => 1,

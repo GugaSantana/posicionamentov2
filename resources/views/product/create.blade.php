@@ -34,7 +34,7 @@
             <input type="text" class="form-control" id="installment_free" name="installment_free" aria-describedby="InstallmentFree" placeholder="Parcelas sem Juros">
         </div>
         <div class="form-group">
-            <label for="limit">Limite de Voucher</label>
+            <label for="limit">Limite de Voucher (Estoque)</label>
             <input type="text" class="form-control" id="limit" name="limit" aria-describedby="Voucher" placeholder="Limite">
         </div>
         
