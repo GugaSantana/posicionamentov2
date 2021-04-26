@@ -61,6 +61,13 @@ class PaymentController extends Controller
         if(empty($product)){
             return back()->with('message', 'Voucher inválido');
         }
+
+        // Verifica se tem estoque
+
+        if($product->stock->total == 0){
+            return back()->with('message', 'Voucher esgotado!');
+        }
+
         // dd(Auth::user()->order);
 
         // dd(Auth::user());
@@ -207,7 +214,7 @@ class PaymentController extends Controller
         $data['senderCPF'] = str_replace(['.', '-'], '', $cpfHolder); // cpf
         $data['receiverEmail'] = "gustavo_ssantana@hotmail.com"; //Email do receptor
         // Items
-        $data['extraAmount'] = '0.00'; //Valor extra
+        $data['extraAmount'] = ($installments[0] * $installments[1]) - $product->price; //Valor extra
         // Produto
         $data['itemId1'] = $product->id; //Id do produto
         $data['itemDescription1'] = $product->name; //Descrição do produto
