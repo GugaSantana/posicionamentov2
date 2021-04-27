@@ -214,7 +214,7 @@ class PaymentController extends Controller
         $data['senderCPF'] = str_replace(['.', '-'], '', $cpfHolder); // cpf
         $data['receiverEmail'] = "gustavo_ssantana@hotmail.com"; //Email do receptor
         // Items
-        $data['extraAmount'] = ($installments[0] * $installments[1]) - $product->price; //Valor extra
+        $data['extraAmount'] = number_format(($installments[0] * $installments[1]) - $product->price, 2); //Valor extra
         // Produto
         $data['itemId1'] = $product->id; //Id do produto
         $data['itemDescription1'] = $product->name; //Descrição do produto
