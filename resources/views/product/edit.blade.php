@@ -41,6 +41,26 @@
                 
         <button type="submit" class="btn btn-primary">Salvar Alterações</button>
         </form>
+
+        <h4 class="mt-5">Histórico de estoque</h4>
+        <table class="table table-hover table-striped">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Movimentação</th>
+                    <th>Total</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach ($product->stocks->sortByDesc('created_at') as $stock)
+                    <tr>
+                        <td>{{ $stock->created_at }}</td>
+                        <td>{{ $stock->movement }}</td>
+                        <td>{{ $stock->total }}</td>
+                    </tr>
+                @endforeach
+            </tbody>
+        </table>
     </div>
     <!-- /.card-header -->
     <!-- form start -->
