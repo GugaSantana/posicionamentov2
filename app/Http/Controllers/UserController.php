@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Company;
 use App\Roles;
 use App\User;
+use Carbon\Carbon;
 use Illuminate\Http\Request;
 
 class UserController extends Controller
@@ -23,10 +24,29 @@ class UserController extends Controller
         return back()->with('success', 'Usuário desativado com sucesso!');
     }
 
-    public function listUser(){
-        $users = User::paginate(30);
+    public function listUser(Request $request){
+        $users = User::orderby('id');
+
+        // Filtro Data
+        if(isset($request->periodo)){
+            $date = explode(" - ", $request->periodo);
+            $start = Carbon::createFromFormat('d/m/Y', $date[0])->format('Y-m-d');
+            $finish = Carbon::createFromFormat('d/m/Y', $date[1])->format('Y-m-d');
+            
+            $users = $users->whereDate('created_at', '>=', $start)
+                            ->whereDate('created_at', '<=', $finish);
+        }
+
+        // Filtro empresa
+        if(!empty($request->empresa)){
+            $users = $users->where('company_id', $request->empresa);
+        }
+
+        $users = $users->paginate(30);
+
         $roles = Roles::get();
-        return view('list_users')->with(compact('users', 'roles'));
+        $companies = Company::orderby('name','asc')->get();
+        return view('list_users')->with(compact('users', 'roles', 'companies', 'request'));
     }
 
     public function changeRole(Request $request){

@@ -9,25 +9,50 @@
         </h3>
     </div>
     <div class="card-body">
+
+        <div class="row mb-4 inline">
+            <div class="col-12">
+                <form class="form-inline">
+                    <select name="empresa" id="empresa" class="form-control mr-2">
+                        <option value="0">Selecione uma Empresa</option>
+                        @foreach ($companies as $company)
+                            <option value="{{ $company->id }}" @if($request->empresa == $company->id) selected @endif>{{ $company->name }}</option>
+                        @endforeach
+                    </select>
+                    <select name="status_payment" id="status_payment" class="form-control mr-2">
+                        <option value="0">Selecione um Status do Pagamento</option>
+                        @foreach ($status_payments as $status_payment)
+                            <option value="{{ $status_payment->status }}" @if($request->status_payment == $status_payment->status) selected @endif>{{ $status_payment->status }}</option>
+                        @endforeach
+                    </select>
+                    <input type="text" name="periodo" class="form-control mr-2" value="{{ $request->periodo }}" />
+                    <input type="submit" class="btn btn-primary" value="Filtrar" />
+                </form>
+            </div>
+        </div>
         
         <div class="table-responsive p-0">
             <table class="table table-head-fixed fonte18">
                 <thead class="center">
                 <tr>
                     <th style="vertical-align: middle;">ID</th>
+                    <th style="vertical-align: middle;">Data</th>
+                    <th style="vertical-align: middle;">Empresa</th>
                     <th style="vertical-align: middle;">Usuário</th>
                     <th style="vertical-align: middle;">Produto</th>
                     <th style="vertical-align: middle;">Preço</th>
                     <th style="vertical-align: middle;">Parcelas</th>
                     <th style="vertical-align: middle;">Valor das Parcelas</th>
                     <th style="vertical-align: middle;">Status</th>
-                    <th style="vertical-align: middle;">Ações</th>
+                    {{-- <th style="vertical-align: middle;">Ações</th> --}}
                 </tr>
                 </thead>
                 <tbody>
                     @foreach($orders as $order)
                     <tr>
                         <td class="center">{{$order->id}}</td>
+                        <td class="center">{{date('d/m/y H:i:s', strtotime($order->created_at))}}</td>
+                        <td class="center">{{$order->user->company->name ?? ''}}</td>
                         <td class="center">{{$order->user->name}}</td>
                         <td class="center">{{$order->product->name}}</td>
                         <td class="center">{{$order->price}}</td>
@@ -74,7 +99,7 @@
             </table>
 
             <div class="card-footer clearfix">
-                {{$orders->render()}}
+                {{ $orders->appends($request->all())->render() }}
             </div>
 
         </div>
@@ -125,4 +150,55 @@
 @stop
 
 @section('js')
+<script type="text/javascript" src="//cdn.jsdelivr.net/jquery/1/jquery.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
+<script type="text/javascript" src="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.js"></script>
+<link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/bootstrap.daterangepicker/2/daterangepicker.css" />
+
+<script>
+
+$('input[name="periodo"]').daterangepicker({
+    ranges: {
+           'Hoje': [moment(), moment()],
+           'Ontem': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
+           'Últimos 7 dias': [moment().subtract(6, 'days'), moment()],
+           'Últimos 30 dias': [moment().subtract(29, 'days'), moment()],
+           'Esse Mês': [moment().startOf('month'), moment().endOf('month')],
+           'Último Mês': [moment().subtract(1, 'month').startOf('month'), moment().subtract(1, 'month').endOf('month')],
+           'Tudo' : [moment().subtract(3, 'year').startOf('year'), moment()],
+        },
+  "locale": {
+    "format": "DD/MM/YYYY",
+    "separator": " - ",
+    "applyLabel": "Aplicar",
+    "cancelLabel": "Cancelar",
+    "daysOfWeek": [
+      "Dom",
+      "Seg",
+      "Ter",
+      "Qua",
+      "Qui",
+      "Sex",
+      "Sab"
+    ],
+    "monthNames": [
+      "Janeiro",	
+      "Fevereiro",
+      "Março",
+      "Abril",
+      "Maio",
+      "Junho",
+      "Julho",
+      "Agosto",
+      "Setembro",
+      "Outubro",
+      "Novembro",
+      "Dezembro"
+    ],
+    "firstDay": 1,
+    "customRangeLabel": "Selecione uma data",
+    "rangeTodayLabel": "hoje"
+  }
+});
+</script>
 @stop
