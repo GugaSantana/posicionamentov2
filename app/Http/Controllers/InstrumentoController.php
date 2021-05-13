@@ -95,123 +95,290 @@ class InstrumentoController extends Controller
     public function instrumento1($visao, $acao){
         if($visao >= 8){
             if($acao <= 3){
-                //3
+                //3 G
                 $retorno['titulo'] = "Visão Alta - Ação Baixa";
                 $retorno['diagnostico'] = "<p class='fonte18'>Você apresenta uma Visão clara e bem definida, você sabe o que quer, onde quer chegar, porém carece de determinação para pôr em prática sua Visão, para implementá-la.</p>
                 <p class='fonte18'>Do ponto de vista da Ação sua postura é muito passiva.</p> 
-                <p class='fonte18'>Caracterizamos esta posição como a posição de um <b>SONHADOR</b>, com grande potencial para melhorar seus resultados, pois você conta com uma forte Visão, que é a bússola para configurar o futuro.</p>";
-                $retorno['recomendacao'] = "<p class='fonte18'>Sua Visão está bem-estruturada, ela é forte, porém deve ser operacionalizada, deve ser levada à pratica.</p>
-                <p class='fonte18'>Para isto, você necessita de Ação. Ação é basicamente tomar e implementar decisões, preferencialmente respaldado por uma Metodologia.</p>
-                <p class='fonte18'>Você encontrará nas Recomendações do Instrumento 19 desta Metodologia, um Plano de Ação Estruturado, inclusive com um formulário próprio que apresenta instruções específicas que você deverá implementar.</p>
-                <p class='fonte18'>Mas, além da Metodologia, você necessita de motivação e você pode extrair essa motivação da sua Visão, pois a Ação é um meio para fazer da sua Visão uma realidade.</p>";
+                <p class='fonte18'>Esta é uma posição com grande potencial para melhorar seus resultados, pois você conta com uma forte Visão, que é a bússola para configurar o futuro e alcançar grandes realizações.</p>";
+                
+                $retorno['recomendacao'] = "<p class='fonte18'>Em segundo lugar, e não menos importante, você deve articular a Ação, isto é, suas atividades com sua Visão para obter mais produtividade e sinergia do seu trabalho.</p>
+                <p class='fonte18'>Sua Visão está bem estruturada, ela é forte e desafiante, porém deve ser melhor operacionalizada, deve ser levada à prática com alto nível de eficácia.</p>
+                <p class='fonte18'>Com relação à Visão ainda gostaríamos de fazer algumas considerações importantes.</p>
+                <p class='fonte18'>Relacione sua Visão Profissional com seu <b>Plano de Vida e Carreira</b> nos seus diversos âmbitos: pessoal, familiar, profissional, econômico, social e espiritual, Seu <b>Plano de Vida e Carreira</b> é uma parte fundamental de sua Visão de Futuro.</p>
+                <p class='fonte18'>Lembre-se que a Visão se relaciona com sua “razão de ser”, é aí que você insere seus objetivos profissionais.</p>
+                <p class='fonte18'>Lembre-se também que Visão é sinônimo de objetivos valiosos, ambiciosos e muito motivadores aos quais você terá que subordinar todas suas decisões e ações.</p>
+                <p class='fonte18'>A Visão é sua bússola, e nas situações mais difíceis, entre as alternativas que você terá como opções para decidir, o fará por aquela mais coerente com sua Visão.</p>
+                <p class='fonte18'>Quando tiver uma dúvida em relação à qual é a melhor decisão, consulte sua Visão, ela lhe ajudará a desempatar. Implemente conscientemente sua Visão.</p>
+                <p class='fonte18'>. Para implementar conscientemente sua Visão, você necessita de Ações eficazes.</p>
+                <p class='fonte18'>Ação é basicamente tomar e implementar decisões sintonizadas com sua Visão e respaldadas por uma metodologia.</p>
+                <p class='fonte18'>Conforme seu Diagnóstico, em relação à Ação, você deve aumentar a eficácia, a produtividade.</p>
+                <p class='fonte18'>Lembre-se da figura que apresentamos na introdução deste diagnóstico. Ela mostra com eloquência, de maneira gráfica, o que é este alinhamento entre Visão e Ação.</p>
+                <p class='fonte18'>Para melhorar sua Ação, você deve dar mais contexto estratégico a suas atividades, agir com mais metodologia e com menos imediatismo.</p>
+                <p class='fonte18'>Para que suas atividades sejam mais produtivas, além de coerentes com a Visão, devem seguir um plano e ser estruturadas tecnicamente.</p>
+                <p class='fonte18'>Recomendamos que para cada Ação, você desenvolva um Plano, respondendo às seguintes perguntas:</p>
+                <p class='fonte18'>. QUE devo fazer, quais são as etapas para chegar ao objetivo e suas atividades?</p>
+                <p class='fonte18'>. QUANDO devo fazer essas atividades e etapas.? É o que chamamos de cronograma: para cada atividade temos que ter um prazo, uma data para ser concluída.</p>
+                <p class='fonte18'>. COMO fazer? Esta etapa se refere ao método, à maneira em que a atividade será desenvolvida. O objetivo desta etapa é evitar a improvisação.</p>
+                <p class='fonte18'>Com o passar do tempo você irá adquirindo confiança nesta forma de trabalhar, articulando a Visão com uma Ação eficaz.</p>
+                <p class='fonte18'>Isto se tornará hábito, e seus resultados cada vez melhores o motivarão o suficiente para que esta forma de trabalhar se torne algo automático, quase inconsciente.</p>
+                <p class='fonte18'>Implemente estas recomendações e você verificará mudanças significativas nos seus resultados e alcançará com mais facilidades suas metas de vendas.</p>";
             }
             else if($acao > 3 && $acao <= 7){
+                //D
                 $retorno['titulo'] = "Visão Alta - Ação Média";
                 $retorno['diagnostico'] = "<p class='fonte18'>Você tem uma Visão clara e bem desenvolvida, sabe aonde quer chegar, porém a capacidade de agir e de tomar e implementar decisões para a realização de sua Visão não apresenta a mesma força ou intensidade. É a posição própria dos <b>INVENTORES</b>.</p>
                 <p class='fonte18'>Desenvolvendo o eixo da Ação, você tem um enorme potencial para aumentar sua produtividade e seus resultados profissionais.</p>";
-                $retorno['recomendacao'] = "<p class='fonte18'>Mantenha o comprometimento com a sua Visão: ela pode ser impactada por suas experiências e pelas mudanças do meio o qual você está inserido.</p>
-                <p class='fonte18'>Em relação à Ação, você deve dar a ela mais contexto estratégico, relacionando-a e ajustando-a à sua Visão que é clara e bem-estruturada.</p>
-                <p class='fonte18'>No que se refere à Ação, procure agir com método, com técnica para evitar a dispersão. Utilize o Instrumento 19 – Plano de Ação. Não perca a oportunidade de levar à prática sua Visão. Isto vai lhe trazer muitas satisfações profissionais.</p>";
+                $retorno['recomendacao'] = "<p class='fonte18'>Em segundo lugar, e não menos importante, você deve articular a Ação, isto é, suas atividades com sua Visão para obter mais produtividade e sinergia do seu trabalho.</p>
+                <p class='fonte18'>Você apresenta uma Visão clara, desafiadora e bem estruturada e mostra um nível intermediário de eficácia em suas ações.</p>
+                <p class='fonte18'>A recomendação é manter e sustentar sua Visão, ao tempo que deve aumentar a produtividade de suas ações e integrá-las melhor com sua Visão.</p>
+                <p class='fonte18'>Desta forma, suas Ações contribuirão, ao mesmo tempo, com seus objetivos de curto e de longo prazo. Estamos nos referindo ao importante conceito de Futuridade da decisão presente.</p>
+                <p class='fonte18'>Com relação à Visão ainda gostaríamos de fazer algumas considerações importantes.</p>
+                <p class='fonte18'>Relacione sua Visão Profissional com seu <b>Plano de Vida e Carreira</b> nos seus diversos âmbitos: pessoal, familiar, profissional, econômico, social e espiritual, Seu Plano de Vida e Carreira é uma parte fundamental de sua Visão de Futuro.</p>
+                <p class='fonte18'>Lembre-se que a Visão se relaciona com sua “razão de ser”, é aí que você insere seus objetivos profissionais.</p>
+                <p class='fonte18'>Lembre-se também que Visão é sinônimo de objetivos valiosos, ambiciosos e muito motivadores aos quais você terá que subordinar todas suas decisões e ações.</p>
+                <p class='fonte18'>A Visão é sua bússola, e nas situações mais difíceis, entre as alternativas que você terá como opções para decidir, o fará por aquela mais coerente com sua Visão.</p>
+                <p class='fonte18'>Quando tiver uma dúvida em relação à qual é a melhor decisão, consulte sua Visão, ela lhe ajudará a desempatar. Implemente conscientemente sua Visão.</p>
+                <p class='fonte18'>. Em relação à Ação, estruture suas atividades com total coerência em relação a sua Visão.</p>
+                <p class='fonte18'>Suas ações não devem ser dissociadas da Visão e nem aleatórias. Lembre a figura que apresentamos na introdução deste diagnóstico. Ela mostra com eloquência e de maneira gráfica o que é este alinhamento entre Visão e Ação.</p>
+                <p class='fonte18'>Lembramos que as ações para serem produtivas, além de coerentes com a Visão, devem seguir um plano e ser estruturadas tecnicamente.</p>
+                <p class='fonte18'>Recomendamos que, para cada ação importante, você desenvolva um Plano, respondendo às seguintes perguntas:</p>
+                <p class='fonte18'>. QUE devo fazer? Esta pergunta refere-se a quais são as etapas e as atividades que devem ser realizadas para chegar ao objetivo proposto.</p>
+                <p class='fonte18'>. QUANDO devo fazer essas atividades e etapas? É o que chamamos de cronograma: para cada atividade temos que ter um prazo, uma data para ser concluída.</p>
+                <p class='fonte18'>. COMO fazer? Esta etapa se refere ao método, à maneira em que a atividade será desenvolvida. O objetivo desta etapa do plano é evitar a improvisação.</p>
+                <p class='fonte18'>Com o passar do tempo esta forma de trabalhar se tornará hábito, e seus resultados cada vez melhores o motivarão para que esta abordagem integrada e da alta produtividade se torne algo automático, quase inconsciente.</p>
+                <p class='fonte18'>Implemente estas recomendações e você verificará mudanças significativas nos seus resultados e alcançará com mais facilidades suas metas de vendas.</p>
+                <p class='fonte18'>Mantenha o comprometimento com sua Visão; sua Visão pode ser impactada por suas experiências e pelas mudanças do meio que você está inserido.</p>
+                <p class='fonte18'>Em relação à Ação, você deve dar a elas mais contexto estratégico, relacionando-as e ajustando-as à sua visão que é clara e bem estruturada.</p>
+                <p class='fonte18'>Em relação a Ação procure agir com método, com técnica para evitar a dispersão. Utilize o Instrumento 19 – Plano de Ação. Não perca a oportunidade de levar à prática sua Visão. Isto vai lhe trazer muitas satisfações profissionais.</p>";
+
             }
             else if($acao >7){
-                //1
+                //1 A
                 $retorno['titulo'] = "Visão Alta - Ação Alta";
                 $retorno['diagnostico'] = "<p class='fonte18'>Você tem uma visão clara e bem desenvolvida, sabe aonde quer chegar e tem capacidade de agir e de tomar e implementar decisões para a realização de sua Visão.</p>
                 <p class='fonte18'>Caracterizamos sua posição como sendo uma posição <b>EMPREENDEDORA</b> e de alta Produtividade.</p>
                 <p class='fonte18'>Excelente Diagnóstico.</p>";
-                $retorno['recomendacao'] = "<p class='fonte18'>Você está na posição ideal do Modelo, apresentando Visão clara e estruturada e mostra forte disposição para a Ação.</p>
-                <p class='fonte18'>A Recomendação é manter e sustentar esta posição.</p>
-                <p class='fonte18'>Para isto, reflita e mantenha atualizada sua Visão. Aumente seu comprometimento com ela, não se acomode, sua Visão pode ser impactada por suas experiências e pelas mudanças do meio em que você está inserido.</p>
-                <p class='fonte18'>E quanto à Ação, procure mantê-la atrelada e não dissociada da Visão. Pergunte-se se as Ações que você empreende, a forma em que você trabalha contribui para a realização da Visão.</p>
-                <p class='fonte18'>Basicamente, você tem que controlar as duas dimensões Visão/Ação, para que continuem articuladas e com alto nível de desempenho.</p>
-                <p class='fonte18'>Sua situação em relação a este Instrumento é muito confortável. Você deve fazer apenas um trabalho de <b>Manutenção</b>.</p>";
+                $retorno['recomendacao'] = "<p class='fonte18'>Em segundo lugar, e não menos importante, você deve articular a Ação, isto é, suas atividades com sua Visão para obter mais produtividade e sinergia do seu trabalho.</p>
+                <p class='fonte18'>Você está na posição ideal do Modelo, apresentando Visão clara, desafiadora e estruturada, e também mostra forte disposição para a Ação.</p>
+                <p class='fonte18'>A recomendação é manter e sustentar esta posição.</p>
+                <p class='fonte18'>Para isto, reflita e mantenha atualizada sua Visão. Aumente seu comprometimento com ela, não se acomode.</p>
+                <p class='fonte18'>Com relação à Visão ainda gostaríamos de fazer algumas considerações importantes.</p>
+                <p class='fonte18'>Relacione sua Visão Profissional com seu <b>Plano de Vida e Carreira</b> nos seus diversos âmbitos: pessoal, familiar, profissional, econômico, social e espiritual, Seu Plano de Vida e Carreira é uma parte fundamental de sua Visão de Futuro.</p>
+                <p class='fonte18'>Lembre-se que a Visão se relaciona com sua “razão de ser”, é aí que você insere seus objetivos profissionais.</p>
+                <p class='fonte18'>Lembre-se também que Visão é sinônimo de objetivos valiosos, ambiciosos e muito motivadores aos quais você terá que subordinar todas suas decisões e ações.</p>
+                <p class='fonte18'>A Visão é sua bússola, e nas situações mais difíceis, entre as alternativas que você terá como opções para decidir, o fará por aquela mais coerente com sua Visão.</p>
+                <p class='fonte18'>Quando tiver uma dúvida em relação à qual é a melhor decisão, consulte sua Visão, ela lhe ajudará a desempatar. Implemente conscientemente sua Visão.</p>
+                <p class='fonte18'>. Em relação à Ação, continue a mantê-la atrelada e não dissociada da Visão. Pergunte-se sempre se as ações que você empreende, a forma em que você trabalha contribui para a realização da Visão.</p>
+                <p class='fonte18'>Lembre-se da figura que apresentamos na introdução deste diagnóstico. Ela mostra com eloquência e de maneira gráfica o que é este alinhamento entre <b>Visão</b> e <b>Ação</b>.</p>
+                <p class='fonte18'>Para manter sua produtividade, recomendamos que, para cada ação importante, você desenvolva um Plano, respondendo às seguintes perguntas.</p>
+                <p class='fonte18'>. QUE devo fazer, quais são as etapas para chegar ao objetivo e suas atividades?</p>
+                <p class='fonte18'>. QUANDO devo fazer essas atividades e etapas? É o que chamamos de cronograma: para cada atividade temos que ter um prazo, uma data para ser concluída.</p>
+                <p class='fonte18'>. COMO fazer? Esta etapa se refere ao método, à maneira em que a atividade será desenvolvida. O objetivo desta etapa é evitar a improvisação.</p>
+                <p class='fonte18'>Com o passar do tempo esta forma de trabalhar, se tornará hábito, e seus resultados cada vez melhores o motivarão para que esta abordagem se torne algo automático, quase inconsciente.</p>
+                <p class='fonte18'>Implemente estas recomendações e você verificará mudanças significativas nos seus resultados e alcançará com mais facilidades suas metas de vendas.</p>
+                <p class='fonte18'>Sua situação em relação a este instrumento é muito confortável. Você deve fazer apenas um trabalho de <b>Manutenção</b>.</p>";
             }
         }
         if($visao < 8 && $visao >= 3){
             if($acao <= 3){
+                // H
                 $retorno['titulo'] = "Visão Média - Ação Baixa";
-                $retorno['diagnostico'] = "<p class='fonte18'>Sua Visão está relativamente estruturada, porém ainda não tem força para motivar sua Ação.</p>
-                <p class='fonte18'>Esta pode ser a causa do seu nível baixo de Ação. Esta combinação de Visão e Ação compromete sua produtividade, que, como consequência, é baixa, mas ao mesmo tempo representa grande oportunidade de desenvolver sua produtividade e alcançar extraordinários resultados.</p>";
-                $retorno['recomendacao'] = " <p class='fonte18'>De acordo com seu Diagnóstico, você tem que definir e estruturar ainda mais sua Visão e aumentar seu nível de Ação.</p>
-                <p class='fonte18'>Para desenvolver sua Visão, pense e reflita o que você quer para seu futuro, onde você gostaria de chegar. Sonhe o que é ideal para seu futuro, pense no seu Plano de Vida, defina objetivos estratégicos.</p>
-                <p class='fonte18'>A Visão se desenvolve quando você busca um objetivo maior para sua vida, e nessa “razão de ser” você insere seus objetivos profissionais. Pergunte-se: qual é a minha missão nessa vida, onde eu quero chegar, o que me faz realmente feliz? Isto não é autoajuda, isto é ter uma estratégia para a vida.</p>
-                <p class='fonte18'>Até a Medicina Pós-genômica, a mais avançada que existe, recomenda esta postura perante a vida para prevenir doenças!</p>
-                <p class='fonte18'>Em relação à Ação, procure agir com método, com técnica, para evitar a dispersão. Utilize o Instrumento 19 – Plano de Ação, porque ele permite estruturar as atividades que devem ser desenvolvidas para aumentar a produtividade de suas Ações.</p>
-                <p class='fonte18'>Implemente estas Recomendações e você verificará uma mudança significativa nos seus resultados e alcançará com mais facilidade suas Metas de Vendas.</p>";
+                $retorno['diagnostico'] = "<p class='fonte18'>Sua Visão está relativamente estruturada e definida, porém ainda não tem força para motivar, direcionar e orientar sua Ação.</p>
+                <p class='fonte18'>Esta pode ser a causa do seu nível baixo de Ação. Esta combinação pouco eficaz entre Visão e Ação compromete sua produtividade, que, como consequência, é baixa, mas ao mesmo tempo representa uma grande oportunidade para desenvolver sua produtividade e alcançar extraordinários resultados.</p>";
+                $retorno['recomendacao'] = "<p class='fonte18'>Em segundo lugar, e não menos importante, você deve articular a Ação, isto é, suas atividades com sua Visão para obter mais produtividade e sinergia do seu trabalho.</p>
+                <p class='fonte18'>De acordo com seu Diagnóstico, você tem que definir melhor e estruturar ainda mais sua Visão e aumentar a eficácia e a produtividade do seu nível de Ação.</p>
+                <p class='fonte18'>Ao mesmo tempo, e não menos importante, para garantir eficácia e alta produtividade, articule suas atividades com as diretrizes de sua Visão. Esta será sua garantia de atividades sintonizadas com seus</p>
+                <p class='fonte18'>objetivos de longo prazo, noutras palavras, suas Ações contribuirão, ao mesmo tempo, tanto no curto como no longo prazo.</p>
+                <p class='fonte18'>. Para desenvolver sua <b>Visão nota 10</b>, você deve começar por fazer uma reflexão profunda sobre seu <b>Plano de Vida e Carreira</b> nos seus diversos âmbitos: pessoal, familiar, profissional, económico, social e espiritual e, em função de suas conclusões, estabelecer objetivos de longo prazo, que denominamos de Visão de Futuro.</p>
+                <p class='fonte18'>Se você ainda não refletiu sobre seu Plano de Vida e Carreira, esta é uma oportunidade estratégica para seu futuro.</p>
+                <p class='fonte18'>Formule objetivos valiosos, ambiciosos e muito motivadores aos quais você terá que subordinar todas suas decisões, inclusive as decisões profissionais.</p>
+                <p class='fonte18'>Você terá que assumir o compromisso de condicionar todas suas decisões e ações profissionais a sua Visão de Futuro.</p>
+                <p class='fonte18'>Você não necessitará mais do que dois dias para formular (ou reformular) sua Visão. Reflita e escreva sua Visão, deixe passar alguns dias, internalize seu conteúdo, se você faz este trabalho com real compromisso, seu inconsciente também trabalhará com você durante esses dias.</p>
+                <p class='fonte18'>Após dois ou três dias volte a sua Visão e ajuste e feche seu conteúdo.</p>
+                <p class='fonte18'>Lembre-se, a Visão profissional decorrente de sua Visão de Futuro tem que ser energizante e altamente desafiadora: sua Visão tem que ‘valer a pena’ e justificar os esforços e as renúncias que você deverá realizar para alcançá-la.</p>
+                <p class='fonte18'>Uma Visão de nível 10 é uma bússola, e nas situações mais difíceis, entre as alternativas que você terá como opções para decidir, o fará por aquela mais coerente com sua Visão.</p>
+                <p class='fonte18'>Escreva sua Visão Profissional com detalhes e memorize-a, ou então tenha ela sempre ao seu lado. Quando tiver uma dúvida em relação à qual é a melhor decisão, consulte sua Visão, ela lhe ajudará a desempatar.</p>
+                <p class='fonte18'>É assim que você formulará uma Visão nota 10. É evidente que você deve definir sua Visão imediatamente, logo nos próximos dias, talvez</p>
+                <p class='fonte18'>no próximo final de semana e é claro que poderá enriquecê-la com o passar do tempo.</p>
+                <p class='fonte18'>Ela terá de ser mais e mais ambiciosa!</p>
+                <p class='fonte18'>Sua visão tem que ser implementada assim que for formulada.</p>
+                <p class='fonte18'>. Em relação à Ação, estruture suas atividades com total coerência em relação a sua Visão.</p>
+                <p class='fonte18'>Suas ações não devem ser dissociadas da Visão e nem aleatórias. Lembre a figura que apresentamos na introdução deste Diagnóstico. Ela mostra com eloquência e de maneira gráfica o que é este alinhamento entre Visão e Ação.</p>
+                <p class='fonte18'>Você deve dar mais contexto estratégico a suas ações, isto é, você deve aumentar o Poder da sua Visão e atrelar suas ações, as quais deverão ser mais produtivas e melhor estruturadas, a esta Visão energizada.</p>
+                <p class='fonte18'>Para que suas ações sejam produtivas, além de coerentes com a Visão, devem seguir um plano e ser estruturadas tecnicamente.</p>
+                <p class='fonte18'>Recomendamos que, para cada ação importante, você desenvolva um Plano, respondendo às seguintes perguntas:</p>
+                <p class='fonte18'>. QUE devo fazer? Você deve estabelecer quais são as etapas e as atividades para chegar ao objetivo proposto.</p>
+                <p class='fonte18'>. QUANDO devo fazer essas atividades e etapas? É o que chamamos de cronograma: para cada atividade temos que ter um prazo, uma data para ser concluída.</p>
+                <p class='fonte18'>. COMO fazer? Esta etapa se refere ao método, à maneira em que a atividade será desenvolvida. O objetivo desta etapa é evitar a improvisação.</p>
+                <p class='fonte18'>Com o passar do tempo você irá adquirindo confiança nesta forma de trabalhar, articulando a Visão e a Ação. Esta prática se tornará hábito, e seus resultados cada vez melhores o motivarão para que esta forma de trabalhar vire algo automático, quase inconsciente.</p>
+                <p class='fonte18'>Implemente estas recomendações e você verificará mudanças significativas nos seus resultados e alcançará com mais facilidade suas metas de vendas.</p>";
             }
             else if($acao > 3 && $acao <= 7){
-                //4
+                //4 E
                 $retorno['titulo'] = "Visão Média - Ação Média";
-                $retorno['diagnostico'] = "<p class='fonte18'>Você apresenta uma Visão não muito clara, não muito estruturada, ela existe, mas não está suficientemente desenvolvida ou elaborada.</p>
+                $retorno['diagnostico'] = "<p class='fonte18'>Você apresenta uma Visão não muito clara, não muito estruturada e definida, ela existe, mas não está suficientemente desenvolvida ou elaborada.</p>
                 <p class='fonte18'>Sua energia e determinação para a Ação, para implementar decisões tomadas, apresenta um nível intermediário.</p>
                 <p class='fonte18'>Seu resultado o coloca na posição do <b>MEIO-TERMO</b>. Você apresenta um grande potencial para aumentar sua produtividade e melhorar seus resultados nas duas dimensões.</p>";
-                $retorno['recomendacao'] = "<p class='fonte18'>A Recomendação, conforme o resultado do seu Diagnóstico, consiste em estruturar, em desenvolver mais, tanto sua Visão como sua Ação.</p>
-                <p class='fonte18'>Você poderá alcançar objetivos estratégicos aplicando o Plano de Ação proposto no Instrumento 19 – Planos de Ação Quantitativos para alcançar Metas de Vendas.</p>
-                <p class='fonte18'>Quando você receber as Recomendações do Instrumento 19, você poderá aplicar um formulário específico para estruturar e operacionalizar sua Visão.</p>
-                <p class='fonte18'>Este Plano de Ação também pode ser aplicado para seus objetivos de vida, não apenas para seus objetivos profissionais.</p>
-                <p class='fonte18'>Em relação à Ação, utilize e implemente o mesmo Instrumento 19, porque ele permite estruturar as atividades que devem ser desenvolvidas e aumentar sua motivação para energizar sua Visão e suas Ações.</p>
-                <p class='fonte18'>Desenvolva sua Visão e atrele suas Ações à sua Visão, como um meio para alcançá-la.</p>";
+                $retorno['recomendacao'] = "<p class='fonte18'>Em segundo lugar, e não menos importante, você deve articular a Ação, isto é, suas atividades com sua Visão para obter mais produtividade e sinergia do seu trabalho.</p>
+                <p class='fonte18'>A Recomendação, conforme o resultado do seu Diagnóstico, consiste em estruturar e em desenvolver mais, tanto sua Visão como sua Ação.</p>
+                <p class='fonte18'>Além do desenvolvimento dos dois eixos do modelo, é muito importante que articule suas atividades com sua Visão reestruturada e</p>
+                <p class='fonte18'>energizada, para que estas tenham alinhamento com seus objetivos maiores e sua estratégia profissional</p>
+                <p class='fonte18'>. Para desenvolver sua <b>Visão nota 10</b>, você deve começar por fazer uma reflexão profunda sobre seu <b>Plano de Vida e Carreira</b> nos seus diversos âmbitos: pessoal, familiar, profissional, econômico, social e espiritual e, em função de suas conclusões, estabelecer objetivos de longo prazo, que denominamos de Visão de Futuro.</p>
+                <p class='fonte18'>Se você ainda não refletiu sobre seu Plano de Vida e Carreira, esta é uma oportunidade estratégica para seu futuro.</p>
+                <p class='fonte18'>Formule objetivos valiosos, ambiciosos e muito motivadores aos quais você terá que subordinar todas suas decisões, inclusive as decisões profissionais.</p>
+                <p class='fonte18'>Você terá que assumir o compromisso de condicionar todas suas decisões e ações profissionais a sua Visão de Futuro.</p>
+                <p class='fonte18'>Você não necessitará mais do que dois dias para formular sua Visão. Reflita e escreva sua Visão, deixe passar alguns dias, internalize seu conteúdo, se você faz este trabalho com real compromisso, seu inconsciente também trabalhará com você.</p>
+                <p class='fonte18'>Dois ou três dias depois volte a sua Visão, se necessário, faça ajustes e feche seu conteúdo.</p>
+                <p class='fonte18'>Lembre-se, a Visão profissional decorrente de sua Visão de Futuro tem que ser energizante e altamente desafiadora. Sua Visão tem que ‘valer a pena’ e justificar os esforços e as renúncias que você deverá realizar para alcançá-la.</p>
+                <p class='fonte18'>Uma Visão de nível 10 é uma bússola, e nas situações mais difíceis, entre as alternativas que você terá como opções para decidir, o fará por aquela mais coerente com sua Visão.</p>
+                <p class='fonte18'>Escreva sua Visão Profissional com detalhes e memorize-a, ou então tenha ela sempre ao seu lado. Quando tiver uma dúvida em relação à qual é a melhor decisão, consulte sua Visão, ela lhe ajudará a desempatar.</p>
+                <p class='fonte18'>É assim que você formulará uma Visão nota 10. É evidente que você deve estabelecer sua Visão imediatamente, logo nos próximos dias,</p>
+                <p class='fonte18'>talvez no próximo final de semana e é claro que poderá enriquecê-la com o passar do tempo.</p>
+                <p class='fonte18'>Ela terá de ser mais e mais ambiciosa!</p>
+                <p class='fonte18'>Sua visão tem que ser implementada assim que for formulada.</p>
+                <p class='fonte18'>. Em relação à Ação, estruture suas atividades com total coerência em relação a sua Visão.</p>
+                <p class='fonte18'>Suas ações não devem ser dissociadas da Visão e nem aleatórias.</p>
+                <p class='fonte18'>Lembre-se da figura que apresentamos na introdução deste diagnóstico. Ela mostra com eloquência e de maneira gráfica o que é este alinhamento entre Visão e Ação.</p>
+                <p class='fonte18'>Lembramos que as ações para serem produtivas, além de coerentes com a Visão, devem seguir um plano e serem estruturadas.</p>
+                <p class='fonte18'>Recomendamos que, para cada ação, você desenvolva um Plano, respondendo às seguintes perguntas:</p>
+                <p class='fonte18'>. QUE devo fazer, quais são as etapas para chegar ao objetivo e suas atividades.</p>
+                <p class='fonte18'>. QUANDO devo fazer essas atividades e etapas. É o que chamamos de cronograma: para cada atividade temos que ter um prazo, uma data para ser concluída.</p>
+                <p class='fonte18'>. COMO fazer. Esta etapa se refere ao método, à maneira em que a atividade será desenvolvida. O objetivo desta etapa é evitar a improvisação.</p>
+                <p class='fonte18'>Com o passar do tempo você irá adquirindo confiança nesta forma de trabalhar, articulando a <b>Visão</b> e a <b>Ação</b>. Se tornará um hábito, e seus resultados cada vez melhores o motivarão o suficiente para que esta forma de trabalhar se torne algo automático, inconsciente.</p>";
             }
             else if($acao > 7){
+                // B
                 $retorno['titulo'] = "Visão Média - Ação Alta";
                 $retorno['diagnostico'] = "<p class='fonte18'>Você apresenta uma Visão não muito clara, não muito estruturada, ela existe, mas não está suficientemente desenvolvida ou elaborada.</p>
-                <p class='fonte18'>O nível de Ação alto significa tendência a uma atividade intensa, porém não muito associada à sua Visão, o que faz com que suas decisões e atividades não tenham um contexto estratégico.</p>
-                <p class='fonte18'>Esta é uma posição própria de uma Ação Gerencial, um Perfil Gerencial.</p>
-                <p class='fonte18'>Você tem um enorme espaço para melhorar seus resultados e aumentar sua produtividade, desenvolvendo os dois eixos do modelo.</p>";
-                $retorno['recomendacao'] = "<p class='fonte18'>Seu nível de Ação é excelente, mas você tem que desenvolver a força de sua Visão, ela deve estar mais clara e estruturada. Para desenvolver a Visão, pense e reflita sobre o que você quer para seu futuro, onde você gostaria de chegar.</p>
-                <p class='fonte18'>Sonhe o que é ideal para seu futuro, pense no seu Plano de Vida e defina objetivos estratégicos.</p>
-                <p class='fonte18'>Você poderá alcançar objetivos estratégicos aplicando o Plano de Ação proposto no Instrumento 19.</p>
-                <p class='fonte18'>A Visão se desenvolve quando você busca um objetivo maior para sua vida e nessa 0“razão de ser“ você insere seus objetivos profissionais.</p>
-                <p class='fonte18'>Feito isto, procure manter a Ação atrelada e não dissociada da Visão. Pergunte-se se as Ações que você empreende, a forma que você trabalha, contribui para a realização da Visão.</p>
-                <p class='fonte18'>Basicamente, você tem que controlar as duas dimensões Visão/Ação, para que estejam articuladas e com alto nível de desempenho.</p>";
+                <p class='fonte18'>O nível de Ação alto significa tendência a uma atividade intensa, porém não muito associada à sua Visão, porque ela não tem força, o que faz com que suas decisões e atividades não tenham um contexto estratégico, e, em consequência, às vezes, podem se apresentar como aleatórias.</p>
+                <p class='fonte18'>Você tem um enorme espaço para melhorar seus resultados e aumentar sua produtividade, desenvolvendo e articulando os dois eixos do modelo.</p>";
+                $retorno['recomendacao'] = "<p class='fonte18'>Em segundo lugar, e não menos importante, você deve articular a Ação, isto é, suas atividades com sua Visão para obter mais produtividade e sinergia do seu trabalho.</p>
+                <p class='fonte18'>De acordo com seu Diagnóstico, agora em termos mais analíticos, você tem que definir melhor e estruturar ainda mais sua Visão.</p>
+                <p class='fonte18'>Seu nível de Ação é excelente, entretanto, sempre cabem recomendações.</p>
+                <p class='fonte18'>. Para desenvolver sua <b>Visão nota 10</b>, você deve começar por fazer uma reflexão profunda sobre seu <b>Plano de Vida e Carreira</b> nos seus diversos âmbitos: pessoal, familiar, profissional, económico, social e espiritual e, em função de suas conclusões, estabelecer objetivos de longo prazo, o que denominamos de Visão de Futuro.</p>
+                <p class='fonte18'>Se você ainda não refletiu sobre seu Plano de Vida e Carreira, esta é uma oportunidade estratégica para seu futuro.</p>
+                <p class='fonte18'>Formule objetivos valiosos, ambiciosos e muito motivadores aos quais você terá que subordinar todas suas decisões, inclusive as decisões profissionais.</p>
+                <p class='fonte18'>Você terá que assumir o compromisso de condicionar todas suas decisões e ações profissionais a sua Visão de Futuro.</p>
+                <p class='fonte18'>Você não necessitará mais do que dois dias para formular (ou reformular) sua Visão. Reflita e escreva sua Visão, deixe passar alguns dias, incube seu conteúdo, se você faz este trabalho com real compromisso, seu inconsciente também trabalhará com você durante esses dias.</p>
+                <p class='fonte18'>Após dois ou três dias volte a sua Visão e ajuste e feche seu conteúdo.</p>
+                <p class='fonte18'>Lembre-se, a Visão profissional decorrente de sua Visão de Futuro tem que ser energizante e altamente desafiadora: sua Visão tem que ‘valer a pena’ e justificar os esforços e as renúncias que você deverá realizar para alcançá-la.</p>
+                <p class='fonte18'>Uma Visão de nível 10 é uma bússola, e nas situações mais difíceis, entre as alternativas que você terá como opções para decidir, o fará por aquela mais coerente com sua Visão.</p>
+                <p class='fonte18'>Escreva sua Visão Profissional com detalhes e memorize-a, ou então tenha ela sempre ao seu lado. Quando tiver uma dúvida em relação à qual é a melhor decisão, consulte sua Visão, ela lhe ajudará a desempatar.</p>
+                <p class='fonte18'>É assim que você formulará uma Visão nota 10. É evidente que você deve definir sua Visão imediatamente, logo nos próximos dias, talvez no próximo final de semana e é claro que poderá enriquecê-la com o passar do tempo.</p>
+                <p class='fonte18'>Ela terá de ser mais e mais ambiciosa!</p>
+                <p class='fonte18'>Sua visão tem que ser implementada assim que for formulada e explicitada.</p>
+                <p class='fonte18'>. Em relação à Ação, relacione-a e subordine-a à Visão. Pergunte-se sempre se as atividades que você empreende, a forma em que você trabalha contribui para a realização da Visão.</p>
+                <p class='fonte18'>Lembre a figura que apresentamos na introdução deste diagnóstico. Ela mostra com eloquência e de maneira gráfica o que é este alinhamento entre Visão e Ação.</p>
+                <p class='fonte18'>Sua produtividade em relação à dimensão Ação é alta, entretanto, recomendamos que, para cada ação importante, você desenvolva um Plano estruturado, respondendo às seguintes perguntas:</p>
+                <p class='fonte18'>. QUE devo fazer, quais são as etapas para chegar ao objetivo e suas atividades?</p>
+                <p class='fonte18'>. QUANDO devo fazer essas atividades e etapas? É o que chamamos de cronograma: para cada atividade temos que ter um prazo, uma data para ser concluída.</p>
+                <p class='fonte18'>. COMO fazer? Esta etapa se refere ao método, à maneira em que a atividade será desenvolvida. O objetivo desta etapa é evitar a improvisação.</p>
+                <p class='fonte18'>Com o passar do tempo esta forma de trabalhar se tornará hábito, e seus resultados cada vez melhores o motivarão para que esta abordagem integrada e da alta produtividade se torne algo automático, quase inconsciente.</p>
+                <p class='fonte18'>Implemente estas recomendações e você verificará mudanças significativas nos seus resultados e alcançará com mais facilidades suas metas de vendas.</p>
+                <p class='fonte18'>Feito isto, procure manter a Ação atrelada e não dissociada da Visão. Pergunte-se se as ações que você empreende, a forma em que você trabalha, contribui para a realização da Visão.</p>
+                <p class='fonte18'>Basicamente você tem que controlar que as duas dimensões Visão/Ação estejam articuladas e com alto nível de desempenho.</p>";
             }
         } 
         if($visao < 3){
             if($acao <= 3){
-                //2
+                //2 I
                 $retorno['titulo'] = "Visão Baixa - Ação Baixa";
-                $retorno['diagnostico'] = "<p class='fonte18'>Você não apresenta uma Visão clara e estruturada, o que significa que suas decisões e ações tendem a ser tomadas focalizando o curto prazo, sem contexto estratégico. Visão Baixa leva ao imediatismo. Ação Baixa significa ter pouca energia e motivação para desenvolver trabalhos. Esta combinação de Visão e Ação se traduz em posturas mais contemplativas.</p>
-                <p>É uma posição de <b>APATIA</b>, porém com grande potencial para aumentar sua Produtividade e melhorar seus resultados.</p>";
-                $retorno['recomendacao'] = "<p class='fonte18'>Você tem que desenvolver sua Visão e energizar sua Ação.</p>
-                <p class='fonte18'>Para desenvolver sua Visão, pense e reflita o que você quer para seu futuro, onde você gostaria de chegar. Sonhe o que é ideal para seu futuro, pense no seu Plano de Vida, defina objetivos estratégicos.</p>
-                <p class='fonte18'>Você poderá alcançar objetivos estratégicos aplicando o Plano de Ação proposto no Instrumento 19 – Planos de Ação Quantitativos para alcançar Metas de Vendas.</p>
-                <p class='fonte18'>Quando você receber as recomendações do Instrumento 19, você poderá aplicar um formulário para estruturar e operacionalizar sua Visão.</p>
-                <p class='fonte18'>A recomendação conforme o resultado do seu diagnóstico consiste em estruturar, em desenvolver mais sua Visão.</p>
-                <p class='fonte18'>O plano de ação também pode ser aplicado para seus objetivos de vida, não apenas para seus objetivos profissionais.</p>
-                <p class='fonte18'>Em relação a Ação, utilize o mesmo instrumento (Plano de Ação do Instrumento 19) porque ele permite estruturar as atividades que devem ser desenvolvidas, aumentar sua motivação e para energizar sua Visão e suas Ações. </p>
-                <p class='fonte18'>Desenvolva sua Visão e atrele suas ações à sua Visão, como um meio para alcançá-la </p>
-                <p class='fonte18'>Você deve dar mais contexto estratégico a suas ações e menos imediatismo, em síntese, você deve aumentar o Poder da Visão e atrelar a ela suas ações.</p>";
+                $retorno['diagnostico'] = "<p class='fonte18'>Você não apresenta uma Visão clara e estruturada, o que significa que suas decisões e ações tendem a ser tomadas focalizando o curto prazo, sem contexto estratégico. Visão Baixa leva ao imediatismo.</p>
+                <p class='fonte18'>Ação Baixa significa ter pouca energia e motivação para desenvolver trabalhos. Esta combinação de Visão e Ação se traduz em posturas mais contemplativas.</p>
+                <p class='fonte18'>É uma posição de <b>APATIA</b>, porém com grande potencial para aumentar sua Produtividade e melhorar seus resultados.</p>";
+                $retorno['recomendacao'] = "<p class='fonte18'>Em segundo lugar, e não menos importante, você deve articular a Ação, isto é, suas atividades com sua Visão para obter mais produtividade e sinergia do seu trabalho.</p>
+                <p class='fonte18'>Você tem que desenvolver sua Visão e, ao mesmo tempo, aumentar a eficácia e a produtividade da sua Ação.</p>
+                <p class='fonte18'>Além de desenvolver os dois eixos do modelo, é igualmente importante que você articule e integre suas atividades com sua Visão, para que elas tenham contexto estratégico e contribuam para que você alcance seus objetivos mais importantes.</p>
+                <p class='fonte18'>. Para desenvolver sua <b>Visão nota 10</b>, você deve começar por fazer uma reflexão profunda sobre seu <b>Plano de Vida e Carreira</b> nos seus diversos âmbitos: pessoal, familiar, profissional, econômico, social e espiritual e, em função de suas conclusões, estabelecer objetivos de longo prazo, que denominamos de Visão de Futuro.</p>
+                <p class='fonte18'>A Visão se desenvolve quando você busca um objetivo maior para sua vida, e nessa “razão de ser” você insere seus objetivos profissionais.</p>
+                <p class='fonte18'>Pergunte-se: qual é a minha missão nessa vida, onde eu quero chegar, o que me faz realmente feliz?</p>
+                <p class='fonte18'>Se você ainda não refletiu sobre seu Plano de Vida e Carreira, esta é uma oportunidade estratégica para seu futuro.</p>
+                <p class='fonte18'>Formule objetivos valiosos, ambiciosos e muito motivadores aos quais você terá que subordinar todas suas decisões, inclusive as decisões profissionais.</p>
+                <p class='fonte18'>Você terá que assumir o compromisso de condicionar todas suas decisões e ações profissionais a sua Visão de Futuro.</p>
+                <p class='fonte18'>Você não necessitará mais do que dois dias para formular sua Visão. Reflita e escreva sua Visão, deixe passar alguns dias, internalize seu conteúdo, se você faz este trabalho com real compromisso, seu inconsciente também trabalhará com você.</p>
+                <p class='fonte18'>Dois ou três dias depois volte a sua Visão, se necessário, faça ajustes e feche seu conteúdo.</p>
+                <p class='fonte18'>Lembre-se, a Visão profissional decorrente de sua Visão de Futuro tem que ser energizante e altamente desafiadora: sua Visão tem que ‘valer a pena’ e justificar os esforços e as renúncias que você deverá realizar para alcançá-la.</p>
+                <p class='fonte18'>Uma Visão de nível 10 é uma bússola, e nas situações mais difíceis, entre as alternativas que você terá como opções para decidir, o fará por aquela mais coerente com sua Visão.</p>
+                <p class='fonte18'>Escreva sua Visão Profissional com detalhes e memorize-a, ou então tenha ela sempre ao seu lado. Quando tiver uma dúvida em relação à qual é a melhor decisão, consulte sua Visão, ela lhe ajudará a desempatar.</p>
+                <p class='fonte18'>É assim que você formulará uma Visão nota 10. É evidente que você deve estabelecer sua Visão imediatamente, logo nos próximos dias, talvez no próximo final de semana e é claro que poderá enriquecê-la com o passar do tempo.</p>
+                <p class='fonte18'>Ela terá de ser mais e mais ambiciosa!</p>
+                <p class='fonte18'>Sua visão tem que ser implementada assim que for formulada.</p>
+                <p class='fonte18'>. Em relação à Ação, estruture suas atividades com total coerência em relação a sua Visão.</p>
+                <p class='fonte18'>Suas ações não devem ser dissociadas da Visão e nem aleatórias. Lembre-se da figura que apresentamos na introdução deste diagnóstico. Ela mostra com eloquência e de maneira gráfica o que é este alinhamento entre Visão e Ação.</p>
+                <p class='fonte18'>Você deve dar mais contexto estratégico a suas ações e menos imediatismo, em síntese, você deve aumentar o Poder da sua Visão e atrelar suas ações a esta Visão energizada.</p>
+                <p class='fonte18'>Para que suas ações sejam produtivas, além de coerentes com a Visão, devem seguir um plano e ser estruturadas tecnicamente.</p>
+                <p class='fonte18'>Recomendamos que, para cada ação, você desenvolva um Plano, respondendo às seguintes perguntas:</p>
+                <p class='fonte18'>. QUE devo fazer, quais são as etapas para chegar ao objetivo e suas atividades</p>
+                <p class='fonte18'>. QUANDO devo fazer essas atividades e etapas. É o que chamamos de cronograma: para cada atividade temos que ter um prazo, uma data para ser concluída.</p>
+                <p class='fonte18'>. COMO fazer. Esta etapa se refere ao método, à maneira em que a atividade será desenvolvida. O objetivo desta etapa é evitar a improvisação.</p>
+                <p class='fonte18'>Com o passar do tempo você irá adquirindo confiança nesta forma de trabalhar, articulando a <b>Visão</b> e a <b>Ação</b>. Se tornará hábito, e seus resultados cada vez melhores o motivarão o suficiente para que esta forma de trabalhar se torne algo automático, quase inconsciente.</p>
+                <p class='fonte18'>Implemente estas recomendações e você verificará mudanças significativas nos seus resultados e alcançará com mais facilidades suas metas de vendas.</p>";
             }
             else if($acao > 3 && $acao <= 7){
+                // F
                 $retorno['titulo'] = "Visão Baixa - Ação Média";
                 $retorno['diagnostico'] = "<p class='fonte18'>Você não apresenta uma Visão clara e estruturada, o que significa que suas decisões e ações tendem a serem tomadas focalizando o curto prazo, sem contexto estratégico.</p>
                 <p class='fonte18'>Visão Baixa leva ao imediatismo. Ação Média significa ter uma relativa energia e determinação para desenvolver trabalhos.</p>
                 <p class='fonte18'>Este perfil lhe dá um enorme espaço para melhorar seus resultados e aumentar sua produtividade, desenvolvendo os dois eixos do modelo.</p>";
-                $retorno['recomendacao'] = "<p class='fonte18'>Você tem que desenvolver sua Visão e energizar sua Ação.</p>
-                <p class='fonte18'>Para desenvolver sua Visão, pense e reflita o que você quer para seu futuro, onde você gostaria de chegar. Sonhe o que é ideal para seu futuro, pense no seu Plano de Vida, defina objetivos estratégicos.</p>
-                <p class='fonte18'>A Visão se desenvolve quando você busca um objetivo maior para sua vida, e nessa “razão de ser” você insere seus objetivos profissionais. Pergunte-se: qual é a minha missão nessa vida, onde eu quero chegar, o que me faz realmente feliz? Isto não é autoajuda, isto é ter uma estratégia para a vida.</p>
-                <p class='fonte18'>Até a Medicina Pós-genômica, a mais avançada que existe, recomenda esta postura perante a vida para prevenir doenças!</p>
-                <p class='fonte18'>Você poderá alcançar objetivos estratégicos aplicando o Plano de Ação proposto no Instrumento 19 – Planos de Ação Quantitativos, para alcançar as Metas de Vendas.</p>
-                <p class='fonte18'>A Recomendação conforme o resultado do seu Diagnóstico consiste em estruturar, em desenvolver mais sua Visão.</p>
-                <p class='fonte18'>Em relação à Ação procure agir com método, com técnica para evitar a dispersão.</p>
-                <p class='fonte18'>Utilize o Instrumento 19 (Plano de Ação) porque ele permite estruturar as atividades que devem ser desenvolvidas para aumentar a Produtividade de suas Ações.</p>
-                <p class='fonte18'>Desenvolva sua Visão e atrele suas Ações à sua Visão, como um meio para alcançá-la.</p>
-                <p class='fonte18'>Você deve dar mais contexto estratégico a suas Ações e menos imediatismo, em síntese, você deve aumentar o Poder da Visão e atrelar a ela suas Ações.</p>
-                <p class='fonte18'>Implemente estas Recomendações e você verificará mudanças significativas nos seus resultados e alcançará com mais facilidades as suas Metas de Vendas.</p>";
+                $retorno['recomendacao'] = "<p class='fonte18'>Em segundo lugar, e não menos importante, você deve articular a Ação, isto é, suas atividades com sua Visão para obter mais produtividade e sinergia do seu trabalho.</p>
+                <p class='fonte18'>Você tem que desenvolver sua Visão, tem que torná-la explícita, estratégica, ambiciosa e energizante e, ao mesmo tempo, deve aumentar ainda mais a eficácia e o nível de produtividade da sua dimensão Ação.</p>
+                <p class='fonte18'>Seu terceiro desafio com relação a este Instrumento, além de melhorar sua Visão e aumentar o nível de produtividade de seu eixo Ação, será a integração de suas atividades com sua Visão, agora reformulada e poderosa.</p>
+                <p class='fonte18'>Isto lhe permitirá articular seus esforços com seus objetivos estratégicos mais importantes.</p>
+                <p class='fonte18'>. Para desenvolver sua <b>Visão nota 10</b>, você deve começar por fazer uma reflexão profunda sobre seu <b>Plano de Vida e Carreira</b> nos seus diversos âmbitos: pessoal, familiar, profissional, económico, social e espiritual e, em função de suas conclusões, estabelecer objetivos de longo prazo, que denominamos de Visão de Futuro.</p>
+                <p class='fonte18'>A Visão se desenvolve quando você busca um objetivo maior para sua vida, e nessa “razão de ser” você insere seus objetivos profissionais.</p>
+                <p class='fonte18'>Pergunte-se: qual é a minha missão nessa vida, onde eu quero chegar, o que me faz realmente feliz?</p>
+                <p class='fonte18'>Se você ainda não refletiu sobre seu Plano de Vida e Carreira, esta é uma oportunidade estratégica para seu futuro.</p>
+                <p class='fonte18'>Formule objetivos valiosos, ambiciosos e muito motivadores aos quais você terá que subordinar todas suas decisões, inclusive as decisões profissionais.</p>
+                <p class='fonte18'>Você terá que assumir o compromisso de condicionar todas suas decisões e ações profissionais a sua Visão de Futuro.</p>
+                <p class='fonte18'>Você não necessitará mais do que dois dias para formular sua Visão. Reflita e escreva sua Visão, deixe passar alguns dias, incube seu conteúdo, se você faz este trabalho com real compromisso, seu inconsciente também trabalhará com você.</p>
+                <p class='fonte18'>Dois ou três dias depois volte a sua Visão e ajuste e feche seu conteúdo.</p>
+                <p class='fonte18'>Lembre-se, a Visão profissional decorrente de sua Visão de Futuro tem que ser energizante e altamente desafiadora: sua Visão tem que ‘valer a pena’ e justificar os esforços e as renúncias que você deverá realizar para alcançá-la.</p>
+                <p class='fonte18'>Uma Visão de nível 10 é uma bússola, e nas situações mais difíceis, entre as alternativas que você terá como opções para decidir, o fará por aquela mais coerente com sua Visão.</p>
+                <p class='fonte18'>Escreva sua Visão Profissional com detalhes e memorize-a, ou então tenha ela sempre ao seu lado. Quando tiver uma dúvida em relação à qual é a melhor decisão, consulte sua Visão, ela lhe ajudará a desempatar.</p>
+                <p class='fonte18'>É assim que você formulará uma Visão nota 10. É evidente que você deve estabelecer sua Visão imediatamente, logo nos próximos dias, talvez no próximo final de semana e é claro que poderá enriquecê-la com o passar do tempo.</p>
+                <p class='fonte18'>Ela terá de ser mais e mais ambiciosa!</p>
+                <p class='fonte18'>Sua visão tem que ser implementada assim que for formulada.</p>
+                <p class='fonte18'>. Em relação à Ação, estruture suas atividades com total coerência em relação a sua Visão.</p>
+                <p class='fonte18'>Suas ações não devem ser dissociadas da Visão e nem aleatórias. Lembre a figura que apresentamos na introdução deste diagnóstico. Ela mostra com eloquência e de maneira gráfica o que é este alinhamento entre Visão e Ação.</p>
+                <p class='fonte18'>Lembramos que as ações para serem produtivas, além de coerentes com a Visão, devem seguir um plano e ser estruturadas tecnicamente.</p>
+                <p class='fonte18'>Recomendamos que, para cada ação importante, você desenvolva um Plano, respondendo às seguintes perguntas:</p>
+                <p class='fonte18'>. QUE devo fazer? Esta pergunta refere-se a quais são as etapas e as atividades que devem ser realizadas para chegar ao objetivo proposto.</p>
+                <p class='fonte18'>. QUANDO devo fazer essas atividades e etapas? É o que chamamos de cronograma: para cada atividade temos que ter um prazo, uma data para ser concluída.</p>
+                <p class='fonte18'>. COMO fazer? Esta etapa se refere ao método, à maneira em que a atividade será desenvolvida. O objetivo desta etapa do plano é evitar a improvisação.</p>
+                <p class='fonte18'>Com o passar do tempo esta forma de trabalhar se tornará hábito, e seus resultados cada vez melhores o motivarão para que esta abordagem integrada e da alta produtividade se torne algo automático, quase inconsciente.</p>
+                <p class='fonte18'>Implemente estas recomendações e você verificará mudanças significativas nos seus resultados e alcançará com mais facilidades suas metas de vendas.</p>";
             }
             else if($acao >7){
-                //5
+                //5 C
                 $retorno['titulo'] = "Visão Baixa - Ação Alta";
                 $retorno['diagnostico'] = "<p class='fonte18'>Você privilegia a Ação, e a Visão não tem uma estrutura clara e nem definida. Suas ações são táticas e orientadas para o curto prazo.</p>
                 <p class='fonte18'>Sua Ação não é estratégica, porém você tem energia e determinação para desenvolver atividades.</p>
-                <p class='fonte18'>É a posição do <b>TRABALHADOR</b>. Você tem Ação Alta, portanto um grande potencial para aumentar sua produtividade e melhorar seus resultados, desenvolvendo o eixo da Visão.</p>";
-                $retorno['recomendacao'] = "<p class='fonte18'>A Recomendação, conforme o resultado do seu Diagnóstico, consiste em estruturar e em desenvolver mais sua Visão.</p>
-                <p class='fonte18'>Você poderá alcançar os objetivos estratégicos da Visão aplicando o Plano de Ação proposto no Instrumento 19 – Planos de Ação Quantitativos para alcançar Metas de Vendas.</p>
-                <p class='fonte18'>Este Plano de Ação também pode ser aplicado para seus objetivos de vida, não apenas para seus objetivos profissionais.</p>
-                <p class='fonte18'>Em relação à Ação, utilize o mesmo Instrumento 19 porque ele permite estruturar as atividades que devem ser desenvolvidas e aumentar a sua motivação para energizar sua Visão e suas Ações.</p>
-                <p class='fonte18'>Desenvolva sua Visão e atrele suas Ações à sua Visão, como um meio para alcançá-la.</p>
-                <p class='fonte18'>Você deve dar mais contexto estratégico às suas Ações e ter menos imediatismo.</p>
-                <p class='fonte18'>Em síntese, você deve aumentar o Poder da Visão e atrelar a ela suas Ações.</p>";
+                <p class='fonte18'>É a posição do <b>TRABALHADOR</b>. Você tem Ação Alta, portanto um grande potencial para aumentar sua produtividade e melhorar seus resultados, desenvolvendo o eixo da Visão e integrando <b>Visão</b> e <b>Ação</b></p>";
+                $retorno['recomendacao'] = "<p class='fonte18'>Em segundo lugar, e não menos importante, você deve articular a Ação, isto é, suas atividades com sua Visão para obter mais produtividade e sinergia do seu trabalho.</p>
+                <p class='fonte18'>A recomendação, conforme o resultado do seu Diagnóstico, consiste em estruturar melhor e em desenvolver mais sua Visão e manter o nível de eficácia e de produtividade de sua Ação.</p>
+                <p class='fonte18'>Insistimos na importância de articular suas atividades com sua Visão, para que não sejam aleatórias e tenham contexto estratégico</p>
+                <p class='fonte18'>. Para desenvolver sua <b>Visão nota 10</b>, você deve começar por fazer uma reflexão profunda sobre seu <b>Plano de Vida e Carreira</b> nos seus diversos âmbitos: pessoal, familiar, profissional, econômico, social e espiritual e, em função de suas conclusões, estabelecer objetivos de longo prazo, que denominamos de Visão de Futuro.</p>
+                <p class='fonte18'>A Visão se desenvolve quando você busca um objetivo maior para sua vida, e nessa “razão de ser” você insere seus objetivos profissionais.</p>
+                <p class='fonte18'>Pergunte-se: qual é a minha missão nessa vida, onde eu quero chegar, o que me faz realmente feliz?</p>
+                <p class='fonte18'>Se você ainda não refletiu sobre seu Plano de Vida e Carreira, esta é uma oportunidade estratégica para seu futuro.</p>
+                <p class='fonte18'>Formule objetivos valiosos, ambiciosos e muito motivadores aos quais você terá que subordinar todas suas decisões, inclusive as decisões profissionais.</p>
+                <p class='fonte18'>Você terá que assumir o compromisso de condicionar todas suas decisões e ações profissionais a sua Visão de Futuro.</p>
+                <p class='fonte18'>Você não necessitará mais do que dois dias para formular ou revisar sua Visão. Reflita e escreva sua Visão, deixe passar alguns dias, incube seu conteúdo, se você faz este trabalho com real compromisso, seu inconsciente também trabalhará com você.</p>
+                <p class='fonte18'>Dois ou três dias depois volte a sua Visão e ajuste e feche seu conteúdo.</p>
+                <p class='fonte18'>Lembre-se, a Visão profissional decorrente de sua Visão de Futuro tem que ser energizante e altamente desafiadora: sua Visão tem que ‘valer a pena’ e justificar os esforços e as renúncias que você deverá realizar para alcançá-la.</p>
+                <p class='fonte18'>Uma Visão de nível 10 é uma bússola, e nas situações mais difíceis, entre as alternativas que você terá como opções para decidir, o fará por aquela mais coerente com sua Visão.</p>
+                <p class='fonte18'>Escreva sua Visão Profissional com detalhes e memorize-a, ou então tenha ela sempre ao seu lado. Quando tiver uma dúvida em relação à qual é a melhor decisão, consulte sua Visão, ela lhe ajudará a desempatar.</p>
+                <p class='fonte18'>É assim que você formulará uma Visão nota 10. É evidente que você deve estabelecer sua Visão imediatamente, logo nos próximos dias, talvez no próximo final de semana e é claro que poderá enriquecê-la com o passar do tempo.</p>
+                <p class='fonte18'>Ela terá de ser mais e mais ambiciosa!</p>
+                <p class='fonte18'>Sua visão tem que ser implementada assim que for formulada (ou reformulada).</p>
+                <p class='fonte18'>. Em relação à Ação relacione e a subordine a Visão. Pergunte-se sempre se as atividades que você empreende, a forma em que você trabalha contribui para a realização da Visão.</p>
+                <p class='fonte18'>Lembre-se da figura que apresentamos na introdução deste diagnóstico. Ela mostra com eloquência e de maneira gráfica o que é este alinhamento entre Visão e Ação.</p>
+                <p class='fonte18'>Sua produtividade em relação à dimensão Ação é alta, entretanto, recomendamos que, para cada ação importante, você desenvolva um Plano estruturado, respondendo às seguintes perguntas:</p>
+                <p class='fonte18'>. QUE devo fazer, quais são as etapas para chegar ao objetivo e suas atividades?</p>
+                <p class='fonte18'>. QUANDO devo fazer essas atividades e etapas? É o que chamamos de cronograma: para cada atividade temos que ter um prazo, uma data para ser concluída.</p>
+                <p class='fonte18'>. COMO fazer? Esta etapa se refere ao método, à maneira em que a atividade será desenvolvida. O objetivo desta etapa é evitar a improvisação.</p>
+                <p class='fonte18'>Com o passar do tempo esta forma de trabalhar se tornará hábito, e seus resultados cada vez melhores o motivarão para que esta abordagem integrada e da alta produtividade se torne algo automático, quase inconsciente.</p>
+                <p class='fonte18'>Implemente estas recomendações e você verificará mudanças significativas nos seus resultados e alcançará com mais facilidades suas metas de vendas.</p>";
             }
         }
 

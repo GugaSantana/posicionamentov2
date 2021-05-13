@@ -17,6 +17,15 @@
     #bola {
         background: radial-gradient(circle at center, #f00 0%, #f00 0%, #f00 6px, rgba(0, 0, 0, 0) 8px);
     }
+
+    #borderTitle {
+        border: 5px outset #4F50FF;
+        border-radius: 10px;
+        width: 25%;
+        padding-top: 3px;
+        text-align: center;
+        box-shadow: 0 0 1em #4F50FF;
+    }
 </style>
 <style type="text/css">
     .tg {
@@ -354,17 +363,10 @@
                 </h4>
             </p>
 
-            <p class="fonte18">Conforme seu Diagnóstico, as Recomendações são as seguintes:</p>
-            <p class="fonte18">Num sentido amplo e estratégico você deve desenvolver sua Visão e sua Ação passando do seu atual Nível de Visão <b>{{$visao}}</b> para o Nível de Visão 10 e passando do seu atual Nível de Ação <b>{{$acao}}</b> para o Nível de Ação 10.</p>
-            <p class="fonte18">No seu caso a Recomendação é:</p>
+            <p class='fonte18'>A Recomendação para este Instrumento, num sentido amplo e estratégico é desenvolver sua Visão e sua Ação passando do seu atual Nível de Visão <b>{{$visao}}</b> para o Nível de Visão 10 e passando do seu atual Nível de Ação <b>{{$acao}}</b> para o Nível de Ação 10.</p>
+            <p class="fonte18">A Recomendação sempre será:</p>
 
-            <table border=1>
-                <tr>
-                    <td>
-                        <h4 style="color:red">{{$retorno['titulo']}}</h4>
-                    </td>
-                </tr>
-            </table>
+            <div id="borderTitle"><h4 style="color:red">Visão Alta - Ação Alta</h4></div>
 
             <p class="fonte18">{!! $retorno['recomendacao'] !!}</p>
             <br>
