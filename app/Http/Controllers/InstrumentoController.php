@@ -111,7 +111,7 @@ class InstrumentoController extends Controller
                 <p class='fonte18'>Quando tiver uma dúvida em relação à qual é a melhor decisão, consulte sua Visão, ela lhe ajudará a desempatar. Implemente conscientemente sua Visão.</p>
                 <p class='fonte18'>. Para implementar conscientemente sua Visão, você necessita de Ações eficazes.</p>
                 <p class='fonte18'>Ação é basicamente tomar e implementar decisões sintonizadas com sua Visão e respaldadas por uma metodologia.</p>
-                <p class='fonte18'>Conforme seu Diagnóstico, em relação à Ação, você deve aumentar a eficácia, a produtividade.</p>
+                <p class='fonte18'>Conforme seu Diagnóstico, em relação à Ação, você deve aumentar a sua eficácia, a produtividade.</p>
                 <p class='fonte18'>Lembre-se da figura que apresentamos na introdução deste diagnóstico. Ela mostra com eloquência, de maneira gráfica, o que é este alinhamento entre Visão e Ação.</p>
                 <p class='fonte18'>Para melhorar sua Ação, você deve dar mais contexto estratégico a suas atividades, agir com mais metodologia e com menos imediatismo.</p>
                 <p class='fonte18'>Para que suas atividades sejam mais produtivas, além de coerentes com a Visão, devem seguir um plano e ser estruturadas tecnicamente.</p>
@@ -187,8 +187,7 @@ class InstrumentoController extends Controller
                 <p class='fonte18'>Esta pode ser a causa do seu nível baixo de Ação. Esta combinação pouco eficaz entre Visão e Ação compromete sua produtividade, que, como consequência, é baixa, mas ao mesmo tempo representa uma grande oportunidade para desenvolver sua produtividade e alcançar extraordinários resultados.</p>";
                 $retorno['recomendacao'] = "<p class='fonte18'>Em segundo lugar, e não menos importante, você deve articular a Ação, isto é, suas atividades com sua Visão para obter mais produtividade e sinergia do seu trabalho.</p>
                 <p class='fonte18'>De acordo com seu Diagnóstico, você tem que definir melhor e estruturar ainda mais sua Visão e aumentar a eficácia e a produtividade do seu nível de Ação.</p>
-                <p class='fonte18'>Ao mesmo tempo, e não menos importante, para garantir eficácia e alta produtividade, articule suas atividades com as diretrizes de sua Visão. Esta será sua garantia de atividades sintonizadas com seus</p>
-                <p class='fonte18'>objetivos de longo prazo, noutras palavras, suas Ações contribuirão, ao mesmo tempo, tanto no curto como no longo prazo.</p>
+                < class='fonte18'>Ao mesmo tempo, e não menos importante, para garantir eficácia e alta produtividade, articule suas atividades com as diretrizes de sua Visão. Esta será sua garantia de atividades sintonizadas com seus objetivos de longo prazo, noutras palavras, suas Ações contribuirão, ao mesmo tempo, tanto no curto como no longo prazo.</p>
                 <p class='fonte18'>. Para desenvolver sua <b>Visão nota 10</b>, você deve começar por fazer uma reflexão profunda sobre seu <b>Plano de Vida e Carreira</b> nos seus diversos âmbitos: pessoal, familiar, profissional, económico, social e espiritual e, em função de suas conclusões, estabelecer objetivos de longo prazo, que denominamos de Visão de Futuro.</p>
                 <p class='fonte18'>Se você ainda não refletiu sobre seu Plano de Vida e Carreira, esta é uma oportunidade estratégica para seu futuro.</p>
                 <p class='fonte18'>Formule objetivos valiosos, ambiciosos e muito motivadores aos quais você terá que subordinar todas suas decisões, inclusive as decisões profissionais.</p>
@@ -198,8 +197,7 @@ class InstrumentoController extends Controller
                 <p class='fonte18'>Lembre-se, a Visão profissional decorrente de sua Visão de Futuro tem que ser energizante e altamente desafiadora: sua Visão tem que ‘valer a pena’ e justificar os esforços e as renúncias que você deverá realizar para alcançá-la.</p>
                 <p class='fonte18'>Uma Visão de nível 10 é uma bússola, e nas situações mais difíceis, entre as alternativas que você terá como opções para decidir, o fará por aquela mais coerente com sua Visão.</p>
                 <p class='fonte18'>Escreva sua Visão Profissional com detalhes e memorize-a, ou então tenha ela sempre ao seu lado. Quando tiver uma dúvida em relação à qual é a melhor decisão, consulte sua Visão, ela lhe ajudará a desempatar.</p>
-                <p class='fonte18'>É assim que você formulará uma Visão nota 10. É evidente que você deve definir sua Visão imediatamente, logo nos próximos dias, talvez</p>
-                <p class='fonte18'>no próximo final de semana e é claro que poderá enriquecê-la com o passar do tempo.</p>
+                <p class='fonte18'>É assim que você formulará uma Visão nota 10. É evidente que você deve definir sua Visão imediatamente, logo nos próximos dias, talvez no próximo final de semana e é claro que poderá enriquecê-la com o passar do tempo.</p>
                 <p class='fonte18'>Ela terá de ser mais e mais ambiciosa!</p>
                 <p class='fonte18'>Sua visão tem que ser implementada assim que for formulada.</p>
                 <p class='fonte18'>. Em relação à Ação, estruture suas atividades com total coerência em relação a sua Visão.</p>
@@ -221,8 +219,7 @@ class InstrumentoController extends Controller
                 <p class='fonte18'>Seu resultado o coloca na posição do <b>MEIO-TERMO</b>. Você apresenta um grande potencial para aumentar sua produtividade e melhorar seus resultados nas duas dimensões.</p>";
                 $retorno['recomendacao'] = "<p class='fonte18'>Em segundo lugar, e não menos importante, você deve articular a Ação, isto é, suas atividades com sua Visão para obter mais produtividade e sinergia do seu trabalho.</p>
                 <p class='fonte18'>A Recomendação, conforme o resultado do seu Diagnóstico, consiste em estruturar e em desenvolver mais, tanto sua Visão como sua Ação.</p>
-                <p class='fonte18'>Além do desenvolvimento dos dois eixos do modelo, é muito importante que articule suas atividades com sua Visão reestruturada e</p>
-                <p class='fonte18'>energizada, para que estas tenham alinhamento com seus objetivos maiores e sua estratégia profissional</p>
+                < class='fonte18'>Além do desenvolvimento dos dois eixos do modelo, é muito importante que articule suas atividades com sua Visão reestruturada e energizada, para que estas tenham alinhamento com seus objetivos maiores e sua estratégia profissional</p>
                 <p class='fonte18'>. Para desenvolver sua <b>Visão nota 10</b>, você deve começar por fazer uma reflexão profunda sobre seu <b>Plano de Vida e Carreira</b> nos seus diversos âmbitos: pessoal, familiar, profissional, econômico, social e espiritual e, em função de suas conclusões, estabelecer objetivos de longo prazo, que denominamos de Visão de Futuro.</p>
                 <p class='fonte18'>Se você ainda não refletiu sobre seu Plano de Vida e Carreira, esta é uma oportunidade estratégica para seu futuro.</p>
                 <p class='fonte18'>Formule objetivos valiosos, ambiciosos e muito motivadores aos quais você terá que subordinar todas suas decisões, inclusive as decisões profissionais.</p>
@@ -232,8 +229,7 @@ class InstrumentoController extends Controller
                 <p class='fonte18'>Lembre-se, a Visão profissional decorrente de sua Visão de Futuro tem que ser energizante e altamente desafiadora. Sua Visão tem que ‘valer a pena’ e justificar os esforços e as renúncias que você deverá realizar para alcançá-la.</p>
                 <p class='fonte18'>Uma Visão de nível 10 é uma bússola, e nas situações mais difíceis, entre as alternativas que você terá como opções para decidir, o fará por aquela mais coerente com sua Visão.</p>
                 <p class='fonte18'>Escreva sua Visão Profissional com detalhes e memorize-a, ou então tenha ela sempre ao seu lado. Quando tiver uma dúvida em relação à qual é a melhor decisão, consulte sua Visão, ela lhe ajudará a desempatar.</p>
-                <p class='fonte18'>É assim que você formulará uma Visão nota 10. É evidente que você deve estabelecer sua Visão imediatamente, logo nos próximos dias,</p>
-                <p class='fonte18'>talvez no próximo final de semana e é claro que poderá enriquecê-la com o passar do tempo.</p>
+                <p class='fonte18'>É assim que você formulará uma Visão nota 10. É evidente que você deve estabelecer sua Visão imediatamente, logo nos próximos dias, talvez no próximo final de semana e é claro que poderá enriquecê-la com o passar do tempo.</p>
                 <p class='fonte18'>Ela terá de ser mais e mais ambiciosa!</p>
                 <p class='fonte18'>Sua visão tem que ser implementada assim que for formulada.</p>
                 <p class='fonte18'>. Em relação à Ação, estruture suas atividades com total coerência em relação a sua Visão.</p>
