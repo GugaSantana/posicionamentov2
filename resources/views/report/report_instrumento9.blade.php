@@ -46,7 +46,7 @@
   <div class="flex-box container-box">
     <div class="content-box">
       <img src="../posicionamento/public/img/logo_capa.png" style="float: left;width: 30%;margin-top: 2%;">
-      <img src="../posicionamento/public/img/selo_top_seller.png" style="float: right;width: 12%;">
+      <img src="{{ asset('img/botton_ts.png') }}" style="float: right;width: 8%;margin-top: 2%;">
 
       <h3 style="color: #35408f;text-align: center;margin-top: 10%;">INSTRUMENTO 9</h3>
       <h3 style="color: #35408f;text-align: center;">GERENCIAMENTO DO RELACIONAMENTO UTILIZANDO OS CANAIS NEUROLINGUISTICOS</h3>
