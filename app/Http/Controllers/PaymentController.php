@@ -15,7 +15,7 @@ class PaymentController extends Controller
 {
     // private $url = ;
     private $email = "posicionamento@gmail.com";
-    private $token = "52DD0B5D9292007AA4D84FABC40C4383";
+    private $token = "C50134A327174573B624C1CE6DE54B8A";
     private $pagseguro_url_js = "https://stc.sandbox.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js";
 
     // Token homolog posicionamento 52DD0B5D9292007AA4D84FABC40C4383
