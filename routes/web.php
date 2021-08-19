@@ -214,7 +214,7 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 	Route::post('/payment/checkout', 'PaymentController@checkout')->name('checkout');
 	// Route::post('/payment/session', 'PaymentController@createSession');
 	Route::post('/payment/finish', 'PaymentController@finishPayment')->name('finalizar_pagamento');
-	Route::get('/payment/verify', 'PaymentController@verifyPayment');
+	Route::get('/payment/verify/{notificationCode}', 'PaymentController@verifyPayment');
 	Route::post('/payment/callback', 'PaymentController@callback');
 	
 

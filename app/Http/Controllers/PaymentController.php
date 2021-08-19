@@ -308,11 +308,9 @@ class PaymentController extends Controller
         // echo json_encode($session);
     }
 
-    public function verifyPayment()
+    public function verifyPayment($notificationCode)
     {
-        $order = Order::find(4);
-
-        $url = $this->url . "v3/transactions/9FBFAE482A514D2E82BE06489D53AB28?email={$this->email}&token={$this->token}";
+        $url = $this->url . "v3/transactions/notifications/{$notificationCode}?email={$this->email}&token={$this->token}";
 
         $curl = curl_init();
 
@@ -336,18 +334,28 @@ class PaymentController extends Controller
         curl_close($curl);
 
         if ($err) {
-            dd($err);
+            Log::critical("message", $err);
         } else {
             $return = $this->formatXml($response);
             // $return->status;
-            dump($return['status']);
-            dd($this->getStatus($return['status']));
+            //dump($return['code']);
+            //dump($return['status']);
+            //dump($this->getStatus($return['status']));
+            $this->updateStatusOrder($return['code'], $this->getStatus($return['status']));
         }
+    }
+
+    public function updateStatusOrder($paymentCode, $status){
+        $order = Order::where('payment_code', $paymentCode)->first();
+        $order->status = $status;
+        $order->save();
     }
 
     public function callback(Request $request)
     {
         Log::alert("Recebimento de callback pagseguro", $request->all());
+        $this->verifyPayment($request['notificationCode']);
+        Log::alert("Pedido atualizado com sucesso");
     }
 
     public function getStatus($statusCode)
