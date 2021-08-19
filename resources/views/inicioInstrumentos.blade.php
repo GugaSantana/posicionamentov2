@@ -63,11 +63,12 @@
   
   <div class="card-body">
 
-    <table border=1>
+    <table class="table table-hover table-bordered fonte18">
       <tr>
         <td colspan="2" style="color: white;font-size: 20px;text-align: center; background-color: #35408f">
           ETAPAS DA METODOLOGIA E INSTRUMENTOS
-          <img src="../posicionamento/public/img/selo_top_seller.png" style="width: 10%;">
+          <img src="{{ asset('img/botton_ts.png') }}" style="width: 6%;">
+          {{-- <img src="{{ asset('img/botton_ts.png') }}" style="float: right;width: 8%;margin-top: 2%;"> --}}
         </td>
       </tr>
       <tr>
