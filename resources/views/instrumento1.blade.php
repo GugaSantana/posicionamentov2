@@ -14,7 +14,7 @@
         <div class="row d-none d-xl-block">
             <div class="col-12" style="z-index: 1; position: absolute;">
                 <h3>
-                    <center>INSTRUMENTO 1999999999</center>
+                    <center>INSTRUMENTO 1</center>
                 </h3>
                 <h3>
                     <center>MEU NÍVEL DE EMPREENDEDORISMO</center>
