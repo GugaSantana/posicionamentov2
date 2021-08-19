@@ -21,7 +21,7 @@
                 </h3>
             </div>
             <div class='col-12' style="margin-left: 1em">
-                <img src="{{ asset('img/botton_ts.png') }}" style="width: 6em; float:right">
+                <img src="{{ asset('img/botton_ts.png') }}" style="width: 6em; float:right; margin-right: 1%">
             </div>
         </div>
         <div class="row d-block d-xl-none">
