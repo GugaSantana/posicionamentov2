@@ -373,6 +373,12 @@ class PaymentController extends Controller
             case '4':
                 return 'Disponível';
                 break;
+            case '5':
+                return 'Em disputa';
+                break;
+            case '6':
+                return 'Devolvida';
+                break;
             case '7':
                 return 'Cancelada';
                 break;
