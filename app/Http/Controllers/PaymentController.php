@@ -157,7 +157,7 @@ class PaymentController extends Controller
         $result = $this->formatXml($transaction[1]);
 
         if (!isset($result['error'])) {
-            $order = Order::where('user_id', $user->id)->first();
+            $order = Order::where('user_id', $user->id)->orderby('id', 'desc')->first();
             $order->payment_code = $result['code'];
             $order->save();
 
