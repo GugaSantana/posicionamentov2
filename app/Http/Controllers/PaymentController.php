@@ -8,14 +8,19 @@ use App\Stock;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\URL;
 
 class PaymentController extends Controller
 {
     // private $url = ;
-    private $email = "gustavo_ssantana@hotmail.com";
-    private $token = "2C3C864C26984A90BEAC59E1D4B7CBB0";
+    private $email = "posicionamento@gmail.com";
+    private $token = "52DD0B5D9292007AA4D84FABC40C4383";
     private $pagseguro_url_js = "https://stc.sandbox.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js";
+
+    // Token homolog posicionamento 52DD0B5D9292007AA4D84FABC40C4383
+    // Token produção bd54cf6b-91df-4a23-94dd-a6654443844eb39110414686aad5b54d4bc42b892d17ab78-5d56-46a6-aa93-6c21d46ebeb8
+
 
     private $url = "https://ws.sandbox.pagseguro.uol.com.br/"; // Homolog
 
@@ -212,7 +217,7 @@ class PaymentController extends Controller
         $data['senderPhone'] = substr(str_replace([' ', '-'], '', $phoneHolder), 4); // telefone
         // Documents
         $data['senderCPF'] = str_replace(['.', '-'], '', $cpfHolder); // cpf
-        $data['receiverEmail'] = "gustavo_ssantana@hotmail.com"; //Email do receptor
+        $data['receiverEmail'] = "posicionamento@gmail.com"; //Email do receptor
         // Items
         $data['extraAmount'] = number_format(($installments[0] * $installments[1]) - $product->price, 2); //Valor extra
         // Produto
@@ -342,6 +347,7 @@ class PaymentController extends Controller
 
     public function callback(Request $request)
     {
+        Log::alert("Recebimento de callback pagseguro", $request->all());
     }
 
     public function getStatus($statusCode)
