@@ -52,7 +52,7 @@
     @include('estilo')
   </head>
   <body >
-  <img src="../posicionamento/public/img/logo_capa.png" class="imgpos">
+  <img src="{{ asset('img/logo_capa.png') }}" class="imgpos">
     <!-- <div class="flex-box container-box">
         <div class="content-box">
         PROJETO PARA AUMENTAR SUAS VENDAS COM TECNOLOGIA DIGITAL, EM BASES PRÁTICAS, OBJETIVAS, QUANTITATIVAS E MENSURÁVEIS
