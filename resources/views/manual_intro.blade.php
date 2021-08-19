@@ -43,7 +43,7 @@
 ">
       <div class="content-box">
 <img src="img/logo_capa.png" style="float: left;width: 30%;margin-top: 2%;">
-<img src="../posicionamento/public/img/selo_top_seller.png" style="float: right;width: 12%;">
+<img src="{{ asset('img/botton.png') }}" style="float: right;width: 10%;">
 
 <h2 style="color: #35408f;text-align: center;margin-top: 10%">Bem-vindo ao Programa TOP SELLER!<h2>
         
