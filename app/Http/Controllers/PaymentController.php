@@ -88,7 +88,6 @@ class PaymentController extends Controller
             'session' => $session->id,
             'pagseguro_email' => $this->email,
             'pagseguro_token' => $this->token,
-            'pagseguro_url_js' => $this->pagseguro_url_js,
             'product' => $product,
             'user_email' => $request['email']
         ]);
