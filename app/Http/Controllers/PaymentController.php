@@ -15,16 +15,18 @@ class PaymentController extends Controller
 {
     // private $url = ;
     private $email = "posicionamento@gmail.com";
-    private $token = "C50134A327174573B624C1CE6DE54B8A";
-    private $pagseguro_url_js = "https://stc.sandbox.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js";
+    private $token = "cc3020e4-7466-44d0-bf7a-e76ae1e8a38efa33c8ab4562bea001188265ed183592ba3c-b0c4-4936-bef2-9c29eeea7a3a";
+    //private $pagseguro_url_js = "https://stc.sandbox.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js"; //Homolog
+    
 
-    // Token homolog posicionamento 52DD0B5D9292007AA4D84FABC40C4383
-    // Token produção bd54cf6b-91df-4a23-94dd-a6654443844eb39110414686aad5b54d4bc42b892d17ab78-5d56-46a6-aa93-6c21d46ebeb8
+    // Token homolog posicionamento C50134A327174573B624C1CE6DE54B8A
+    // Token produção cc3020e4-7466-44d0-bf7a-e76ae1e8a38efa33c8ab4562bea001188265ed183592ba3c-b0c4-4936-bef2-9c29eeea7a3a
 
 
-    private $url = "https://ws.sandbox.pagseguro.uol.com.br/"; // Homolog
+    //private $url = "https://ws.sandbox.pagseguro.uol.com.br/"; // Homolog
+    private $url = "https://ws.pagseguro.uol.com.br/"; //Prod
 
-    public function config()
+/*     public function config()
     {
         //E-mail usado na sua conta do pagseguro
         $pagseguro_email = "seu@email.com";
@@ -39,7 +41,7 @@ class PaymentController extends Controller
         $pagseguro_url_js = "https://stc" . $sandbox . ".pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js";
         //Essa URL será acionada quando o status de uma transação for modificado para Pago ou outro status. Mude essa URL de acordo com o endereço do seu site e de onde está a aplicação.
         $pagseguro_retorno = "https://seusite.com.br/pagseguro/retorno.php";
-    }
+    } */
 
     /**
      * Tela de Checkout/Pagamento
@@ -99,7 +101,7 @@ class PaymentController extends Controller
      */
     public function createSession()
     {
-        $url = "https://ws.sandbox.pagseguro.uol.com.br/v2/sessions";
+        $url = $this->url."v2/sessions";
 
         $credenciais = array(
             "email" => $this->email,
@@ -211,7 +213,7 @@ class PaymentController extends Controller
         //Sender
         $data['senderHash'] = $senderHash;
         $data['senderName'] = $user->name; //name cliente
-        $data['senderEmail'] = strtolower(str_replace(" ","",$user->name))."@sandbox.pagseguro.com.br"; // email cliente
+        $data['senderEmail'] = $user->email;//strtolower(str_replace(" ","",$user->name))."@sandbox.pagseguro.com.br"; // email cliente
         // Phone
         $data['senderAreaCode'] = substr($phoneHolder, 1, 2); //area telefone
         $data['senderPhone'] = substr(str_replace([' ', '-'], '', $phoneHolder), 4); // telefone
