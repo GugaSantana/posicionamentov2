@@ -244,7 +244,9 @@ class PaymentController extends Controller
 
         $data['installmentQuantity'] = $installments[0]; // quantidade de parcelas
         $data['installmentValue'] = $installments[1]; // valor das parcelas
-        $data['noInterestInstallmentQuantity'] = $product->installment; // quantidade de parcelas sem juros
+        if($product->installment_free > 1){
+            $data['noInterestInstallmentQuantity'] = $product->installment_free; // quantidade de parcelas sem juros
+        }
 
         // Info do cartao
         $name = explode(' ', $nameHolder);
