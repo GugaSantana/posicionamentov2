@@ -226,7 +226,7 @@ class PaymentController extends Controller
         $data['itemDescription1'] = $product->name; //Descrição do produto
         $data['itemAmount1'] = $product->price; // preço do produto
         $data['itemQuantity1'] = '1'; // quantidade do produto
-        $data['notificationURL'] = 'https://sualoja.com.br/notificacao.html'; // url de callback de confirmação
+        //$data['notificationURL'] = 'https://sualoja.com.br/notificacao.html'; // url de callback de confirmação
         $data['reference'] = $order->id; //id da compra criada no sistema
         //Dados de entrega
         $data['shippingAddressStreet'] = $user->address; // rua
