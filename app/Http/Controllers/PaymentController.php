@@ -16,6 +16,11 @@ class PaymentController extends Controller
     // private $url = ;
     private $email = "posicionamento@gmail.com";
     private $token = "cc3020e4-7466-44d0-bf7a-e76ae1e8a38efa33c8ab4562bea001188265ed183592ba3c-b0c4-4936-bef2-9c29eeea7a3a";
+
+    // teste
+    //private $email = "gustavo_ssantana@hotmail.com";
+    //private $token = "2C3C864C26984A90BEAC59E1D4B7CBB0";
+
     //private $pagseguro_url_js = "https://stc.sandbox.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js"; //Homolog
     
 
@@ -218,9 +223,9 @@ class PaymentController extends Controller
         $data['senderPhone'] = substr(str_replace([' ', '-'], '', $phoneHolder), 4); // telefone
         // Documents
         $data['senderCPF'] = str_replace(['.', '-'], '', $cpfHolder); // cpf
-        $data['receiverEmail'] = "posicionamento@gmail.com"; //Email do receptor
+        $data['receiverEmail'] = $this->email; //Email do receptor
         // Items
-        $data['extraAmount'] = number_format(($installments[0] * $installments[1]) - $product->price, 2); //Valor extra
+        //$data['extraAmount'] = number_format(($installments[0] * $installments[1]) - $product->price, 2); //Valor extra
         // Produto
         $data['itemId1'] = $product->id; //Id do produto
         $data['itemDescription1'] = $product->name; //Descrição do produto
