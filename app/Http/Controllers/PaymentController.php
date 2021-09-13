@@ -2,6 +2,9 @@
 
 namespace App\Http\Controllers;
 
+use App\Notifications\PaymentCanceled;
+use App\Notifications\PaymentConfirmed;
+use App\Notifications\PaymentWaiting;
 use App\Order;
 use App\Product;
 use App\Stock;
@@ -14,12 +17,12 @@ use Illuminate\Support\Facades\URL;
 class PaymentController extends Controller
 {
     // private $url = ;
-    private $email = "posicionamento@gmail.com";
-    private $token = "cc3020e4-7466-44d0-bf7a-e76ae1e8a38efa33c8ab4562bea001188265ed183592ba3c-b0c4-4936-bef2-9c29eeea7a3a";
+    //private $email = "posicionamento@gmail.com";
+    //private $token = "cc3020e4-7466-44d0-bf7a-e76ae1e8a38efa33c8ab4562bea001188265ed183592ba3c-b0c4-4936-bef2-9c29eeea7a3a";
 
     // teste
-    //private $email = "gustavo_ssantana@hotmail.com";
-    //private $token = "2C3C864C26984A90BEAC59E1D4B7CBB0";
+    private $email = "gustavo_ssantana@hotmail.com";
+    private $token = "2C3C864C26984A90BEAC59E1D4B7CBB0";
 
     //private $pagseguro_url_js = "https://stc.sandbox.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js"; //Homolog
     
@@ -28,8 +31,8 @@ class PaymentController extends Controller
     // Token produção cc3020e4-7466-44d0-bf7a-e76ae1e8a38efa33c8ab4562bea001188265ed183592ba3c-b0c4-4936-bef2-9c29eeea7a3a
 
 
-    //private $url = "https://ws.sandbox.pagseguro.uol.com.br/"; // Homolog
-    private $url = "https://ws.pagseguro.uol.com.br/"; //Prod
+    private $url = "https://ws.sandbox.pagseguro.uol.com.br/"; // Homolog
+    //private $url = "https://ws.pagseguro.uol.com.br/"; //Prod
 
 /*     public function config()
     {
@@ -210,6 +213,10 @@ class PaymentController extends Controller
             'installment' => $installments[0],
             'installment_value' => $installments[1],
         ]);
+
+        //Email de recebimento de pagamento
+        $order->user->notify(new PaymentWaiting($order->user));
+        
         // Payment
         $data['paymentMode'] = 'default';
         $data['paymentMethod'] = 'creditCard';
@@ -217,7 +224,9 @@ class PaymentController extends Controller
         //Sender
         $data['senderHash'] = $senderHash;
         $data['senderName'] = $user->name; //name cliente
-        $data['senderEmail'] = $user->email;//strtolower(str_replace(" ","",$user->name))."@sandbox.pagseguro.com.br"; // email cliente
+        //$data['senderEmail'] = $user->email;//strtolower(str_replace(" ","",$user->name))."@sandbox.pagseguro.com.br"; // Produção
+        $data['senderEmail'] = strtolower(str_replace(" ","",$user->name))."@sandbox.pagseguro.com.br"; // Homolog
+        
         // Phone
         $data['senderAreaCode'] = substr($phoneHolder, 1, 2); //area telefone
         $data['senderPhone'] = substr(str_replace([' ', '-'], '', $phoneHolder), 4); // telefone
@@ -349,7 +358,21 @@ class PaymentController extends Controller
             //dump($return['code']);
             //dump($return['status']);
             //dump($this->getStatus($return['status']));
-            $this->updateStatusOrder($return['code'], $this->getStatus($return['status']));
+
+            $order = $this->updateStatusOrder($return['code'], $this->getStatus($return['status']));
+
+            // Disparo de email
+            switch ($return['status']) {
+                case 'Paga':
+                    $order->user->notify(new PaymentConfirmed($order->user));
+                    break;
+                case 'Cancelada':
+                    $order->user->notify(new PaymentCanceled($order->user));
+                    break;
+                default:
+                    # code...
+                    break;
+            }
         }
     }
 
@@ -357,6 +380,7 @@ class PaymentController extends Controller
         $order = Order::where('payment_code', $paymentCode)->first();
         $order->status = $status;
         $order->save();
+        return $order;
     }
 
     public function callback(Request $request)

@@ -25,6 +25,8 @@ Auth::routes();
 Route::get('/form3', 'HomeController@form3');
 Route::get('/form4', 'HomeController@form4');
 
+Route::get('/testemail', 'HomeController@testemail');
+
 Route::get('/instrumento1', 'HomeController@instrumento1')->middleware('instrumento_permission:1');
 Route::get('/instrumento2', 'HomeController@instrumento2')->middleware('instrumento_permission:2');
 Route::get('/instrumento3', 'HomeController@instrumento3')->middleware('instrumento_permission:3');

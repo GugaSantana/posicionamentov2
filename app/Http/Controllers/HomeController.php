@@ -24,8 +24,14 @@ use App\User;
 use App\AutoGestao;
 use App\Instrumento15;
 use App\Instrumento16;
+use App\Notifications\PaymentCanceled;
+use App\Notifications\PaymentConfirmed;
+use App\Notifications\PaymentWaiting;
+use App\Notifications\UserCreated;
 use Illuminate\Http\Request;
+use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Lang;
 
 class HomeController extends Controller
 {
@@ -529,5 +535,17 @@ class HomeController extends Controller
         $autogestao->$etapa = true;
         $autogestao->save();
         return redirect()->route('autogestao');
+    }
+
+    public function testemail(){
+
+
+        $user = User::find(2);
+
+        
+        //return (new PaymentConfirmed($user))->toMail($user); //Função de teste
+
+
+        return $user->notify(new PaymentWaiting($user));// função de disparo
     }
 }

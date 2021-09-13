@@ -194,11 +194,12 @@
     <script type="text/javascript" src="{{ asset('/checkout/js/jquery.inputmask.bundle.min.js') }}"></script>
 
     {{-- Javascript do Pagseguro --}}
-    {{-- HOMOLOG <script type="text/javascript"
-        src="https://stc.sandbox.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js"></script> --}}
+    {{-- HOMOLOG --}} 
+        <script type="text/javascript"
+        src="https://stc.sandbox.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js"></script>
 
     {{-- PRODUÇÃO --}}
-    <script type="text/javascript" src= "https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js"></script>
+    {{-- <script type="text/javascript" src= "https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js"></script> --}}
 
     <script>
         $(document).ready(function() {
@@ -503,7 +504,10 @@
                 },
 
                 success: function(e) {
+                    console.log(e);
+                    console.log('irineu');
                     if (e.success == 0) {
+                        console.log(e);
                         alerta('error', 'Falha ao enviar pagamento', e.message +
                             "<br>Corriga os dados e tente novamente");
                     } else {

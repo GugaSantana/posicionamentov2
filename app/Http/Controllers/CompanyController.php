@@ -45,6 +45,7 @@ class CompanyController extends Controller
     public function updateCompany(Request $request){
         $company = Company::find($request['company_id']);
         $company->name = $request['name'];
+        $company->welcome_mail = $request['welcome_mail'];
         $company->save();
         return redirect()->route('company_list');
     }

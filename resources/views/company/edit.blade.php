@@ -18,6 +18,11 @@
             <label for="name">Nome da Empresa</label>
             <input type="text" class="form-control" id="name" name="name" aria-describedby="Nome" value="{{$company->name}}">
         </div>
+
+        <div class="form-group">
+            <label for="welcome_mail">Email de cadastro</label>
+            <textarea id="welcome_mail" name="welcome_mail">{{ $company->welcome_mail }}</textarea>
+        </div>
                 
         <button type="submit" class="btn btn-primary">Salvar Alterações</button>
         </form>    
@@ -67,4 +72,46 @@
 @stop
 
 @section('js')
+<!-- include summernote css/js-->
+<link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/lang/summernote-pt-BR.min.js"></script>
+
+<!-- Print summernote -->
+<script src="../posicionamento/public/js/summernote-ext-print.js"></script>
+
+<!-- Table summernote -->
+<link href="../posicionamento/public/summernote/plugin/table/summernote-ext-table.css" rel="stylesheet" type="text/css">
+<!-- javascript -->
+<script src="../posicionamento/public/summernote/plugin/table/summernote-ext-table.js"></script>
+
+<!-- Paper Summernote -->
+<script src="../posicionamento/public/summernote/paper-size/summernote-print-size.js"></script>
+<script src="../posicionamento/public/summernote/paper-size/lang/en-US.js"></script>
+
+<!-- Sweet alert -->
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+<script>
+  $(document).ready(function() {
+    $('#welcome_mail').summernote({
+      @if(!empty($autogestao) && empty($autogestao->quando)) height: 200, @endif
+      lang: 'pt-BR',
+      height: 400,
+      toolbar: [
+        ['style', ['style']],
+        ['font', ['bold', 'italic', 'underline', 'strikethrough', 'superscript', 'subscript', 'clear']],
+        ['fontname', ['fontname', 'fontsize', 'color']],
+        ['para', ['ul', 'ol', 'paragraph']],
+        ['table', ['table']],
+        ['insert', ['link', 'picture', 'video']],
+        ['view', ['fullscreen', 'codeview', 'help']],
+        ['misc', ['print']]
+      ],
+    });
+  });
+
+</script>
+
+
 @stop

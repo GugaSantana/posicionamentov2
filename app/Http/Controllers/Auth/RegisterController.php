@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\Auth;
 
 use App\Http\Controllers\Controller;
+use App\Notifications\UserCreated;
 use App\Providers\RouteServiceProvider;
 use App\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
@@ -84,7 +85,7 @@ class RegisterController extends Controller
      */
     protected function create(array $data)
     {
-        return User::create([
+        $user = User::create([
             'name' => $data['name'].' '.$data['lastname'],
             'gender' => $data['sexo'],
             'nascimento' =>$data['nascimento'],
@@ -108,5 +109,9 @@ class RegisterController extends Controller
             'office' =>$data['cargo'],
             'role_id' => null,
         ]);
+
+        $user->notify(new UserCreated($user));
+
+        return $user;
     }
 }
