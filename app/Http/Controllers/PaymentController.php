@@ -363,10 +363,10 @@ class PaymentController extends Controller
 
             // Disparo de email
             switch ($return['status']) {
-                case 'Paga':
+                case '3':
                     $order->user->notify(new PaymentConfirmed($order->user));
                     break;
-                case 'Cancelada':
+                case '7':
                     $order->user->notify(new PaymentCanceled($order->user));
                     break;
                 default:
