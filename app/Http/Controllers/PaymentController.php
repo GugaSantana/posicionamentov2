@@ -215,7 +215,7 @@ class PaymentController extends Controller
         ]);
 
         //Email de recebimento de pagamento
-        $order->user->notify(new PaymentWaiting($order->user));
+        //$order->user->notify(new PaymentWaiting($order->user));
         
         // Payment
         $data['paymentMode'] = 'default';
