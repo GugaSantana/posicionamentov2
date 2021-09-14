@@ -107,7 +107,7 @@
             
             - Design: <a rel="nofollow noopener" href="https://templatemo.com" target="_blank">TemplateMo</a></p> -->
           
-            <p>2020 - Posicionamento Consultores de Empresas - Versão 1.0.11</p>
+            <p>2020 - Posicionamento Consultores de Empresas - Versão 1.0.12</p>
           
           
           </div>

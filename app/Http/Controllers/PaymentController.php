@@ -360,7 +360,18 @@ class PaymentController extends Controller
             //dump($this->getStatus($return['status']));
 
             $order = $this->updateStatusOrder($return['code'], $this->getStatus($return['status']));
+            $name = $order->user->name;
+            $email = $order->user->email;
+            $subject = 'Seu pagamento foi Confirmado!';
+            $message = 'Teste';
 
+            $body = "O seu pagamento foi confirmado e o seu acesso ao Programa Top Seller foi liberado!"; 
+            
+            \Mail::raw($body, function($message) use($subject, $email){
+                $message->from('noreply@posicionamento.com.br');
+                $message->to([$email])
+                ->subject($subject);
+            });
             // Disparo de email
             switch ($return['status']) {
                 case '3':
@@ -374,6 +385,7 @@ class PaymentController extends Controller
                     break;
             }
 
+            
             
         }
     }
