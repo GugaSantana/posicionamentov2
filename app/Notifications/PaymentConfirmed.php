@@ -40,10 +40,16 @@ class PaymentConfirmed extends Notification
      */
     public function toMail($notifiable)
     {
+        if($notifiable->company_id == 5){
+            $text = 'O seu pagamento foi confirmado e seu acesso será liberado na data que o SINCOR - PR definir para início da turma.';
+        }
+        else{
+            $text = 'O seu pagamento foi confirmado e o seu acesso ao Programa Top Seller foi liberado!';
+        }
         return (new MailMessage)
                 ->subject('Seu pagamento foi Confirmado!')
                 ->greeting('Olá '.explode(' ', $notifiable->name)[0].',')
-                ->line('O seu pagamento foi confirmado e o seu acesso ao Programa Top Seller foi liberado!')
+                ->line($text)
                 ->from('noreply@posicionamento.com.br', 'Posicionamento');
                 //->action('Notification Action', url('/'))
                 //->line('Thank you for using our application!');

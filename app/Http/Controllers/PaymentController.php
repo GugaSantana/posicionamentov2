@@ -366,12 +366,7 @@ class PaymentController extends Controller
             $message = 'Teste';
 
             $body = "O seu pagamento foi confirmado e o seu acesso ao Programa Top Seller foi liberado!"; 
-            
-            \Mail::raw($body, function($message) use($subject, $email){
-                $message->from('noreply@posicionamento.com.br');
-                $message->to([$email])
-                ->subject($subject);
-            });
+
             // Disparo de email
             switch ($return['status']) {
                 case '3':
