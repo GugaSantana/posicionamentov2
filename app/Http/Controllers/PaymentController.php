@@ -17,12 +17,12 @@ use Illuminate\Support\Facades\URL;
 class PaymentController extends Controller
 {
     // private $url = ;
-    //private $email = "posicionamento@gmail.com";
-    //private $token = "cc3020e4-7466-44d0-bf7a-e76ae1e8a38efa33c8ab4562bea001188265ed183592ba3c-b0c4-4936-bef2-9c29eeea7a3a";
+    private $email = "posicionamento@gmail.com";
+    private $token = "cc3020e4-7466-44d0-bf7a-e76ae1e8a38efa33c8ab4562bea001188265ed183592ba3c-b0c4-4936-bef2-9c29eeea7a3a";
 
     // teste
-    private $email = "gustavo_ssantana@hotmail.com";
-    private $token = "2C3C864C26984A90BEAC59E1D4B7CBB0";
+    //private $email = "gustavo_ssantana@hotmail.com";
+    //private $token = "2C3C864C26984A90BEAC59E1D4B7CBB0";
 
     //private $pagseguro_url_js = "https://stc.sandbox.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.directpayment.js"; //Homolog
     
@@ -31,8 +31,8 @@ class PaymentController extends Controller
     // Token produção cc3020e4-7466-44d0-bf7a-e76ae1e8a38efa33c8ab4562bea001188265ed183592ba3c-b0c4-4936-bef2-9c29eeea7a3a
 
 
-    private $url = "https://ws.sandbox.pagseguro.uol.com.br/"; // Homolog
-    //private $url = "https://ws.pagseguro.uol.com.br/"; //Prod
+    //private $url = "https://ws.sandbox.pagseguro.uol.com.br/"; // Homolog
+    private $url = "https://ws.pagseguro.uol.com.br/"; //Prod
 
 /*     public function config()
     {
@@ -224,8 +224,8 @@ class PaymentController extends Controller
         //Sender
         $data['senderHash'] = $senderHash;
         $data['senderName'] = $user->name; //name cliente
-        //$data['senderEmail'] = $user->email;//strtolower(str_replace(" ","",$user->name))."@sandbox.pagseguro.com.br"; // Produção
-        $data['senderEmail'] = strtolower(str_replace(" ","",$user->name))."@sandbox.pagseguro.com.br"; // Homolog
+        $data['senderEmail'] = $user->email;//strtolower(str_replace(" ","",$user->name))."@sandbox.pagseguro.com.br"; // Produção
+        //$data['senderEmail'] = strtolower(str_replace(" ","",$user->name))."@sandbox.pagseguro.com.br"; // Homolog
         
         // Phone
         $data['senderAreaCode'] = substr($phoneHolder, 1, 2); //area telefone
@@ -360,12 +360,6 @@ class PaymentController extends Controller
             //dump($this->getStatus($return['status']));
 
             $order = $this->updateStatusOrder($return['code'], $this->getStatus($return['status']));
-            $name = $order->user->name;
-            $email = $order->user->email;
-            $subject = 'Seu pagamento foi Confirmado!';
-            $message = 'Teste';
-
-            $body = "O seu pagamento foi confirmado e o seu acesso ao Programa Top Seller foi liberado!"; 
 
             // Disparo de email
             switch ($return['status']) {
