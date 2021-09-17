@@ -110,7 +110,7 @@ class RegisterController extends Controller
             'role_id' => null,
         ]);
 
-        $user->notify(new UserCreated($user));
+        if(!empty($user->company->welcome_mail)) $user->notify(new UserCreated($user));
 
         return $user;
     }

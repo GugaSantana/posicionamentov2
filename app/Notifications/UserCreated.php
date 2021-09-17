@@ -40,8 +40,6 @@ class UserCreated extends Notification
      */
     public function toMail($notifiable)
     {
-        if(empty($notifiable->company->welcome_mail)) return;
-
         return (new MailMessage)
                 ->subject('Bem vindo ao Programa Top Seller')
                 ->greeting('Olá '.explode(' ', $notifiable->name)[0].',')
