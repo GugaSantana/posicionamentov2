@@ -42,7 +42,7 @@
 <div class="alert alert-info alert-dismissible">
     <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
     <h5><i class="icon fas fa-info"></i> Aviso!</h5>
-    Seu cadastro foi criado com sucesso, aguarde a liberação do seu acesso.
+    {{ $info }}
 </div>
 @endif
 

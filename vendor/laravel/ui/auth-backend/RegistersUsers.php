@@ -39,7 +39,14 @@ trait RegistersUsers
             return $response;
         }
 
-        return view('auth.login')->with('info', true);
+        if(in_array($user->company_id, [3,5])){
+            $info = 'Seu cadastro foi criado com sucesso, você receberá um email com as instruções para os próximos passos.';
+        }
+        else{
+            $info = 'Seu cadastro foi criado com sucesso, aguarde a liberação do seu acesso.';
+        }
+
+        return view('auth.login')->with('info', $info);
 
         return $request->wantsJson()
                     ? new Response('', 201)
