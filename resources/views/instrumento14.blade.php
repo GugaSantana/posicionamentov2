@@ -194,7 +194,7 @@
                                         </thead>
                                             @for($i=0;$i<8;$i++) 
                                                 <tr>
-                                                    <td width="10px" style="font-size: 18px; text-align: center; vertical-align: middle;"><input name="cliente[]" type="text" required></td>    
+                                                    <td width="10px" style="font-size: 18px; text-align: center; vertical-align: middle;"><input name="cliente[]" id="{{ $i }}" type="text" required></td>    
                                                 @for($j=0;$j<12;$j++) 
                                                     <td width="10px" style="font-size: 18px; text-align: center">
                                                     <select class="select-custom" id="exampleFormControlSelect1" name="valor{{$i}}[]" required>
@@ -286,6 +286,24 @@
             else return false;
         }
     }
+
+
+    $(function(){
+        $('input[name="cliente[]"]').change(function() {
+            var current = $(this);
+
+            $('input[name="cliente[]"]').each(function() {
+                if ($(this).val() == current.val() && $(this).attr('id') != current.attr('id') && $(this).val() != '' )
+                {
+                    alert('Cliente ja informado, digite outro cliente');
+                    current.val('');
+                    current.focus();
+
+                    
+                }
+            });
+        });
+    });
 </script>
 <script>window.onload = function(){history.go(+1)};</script>
 @endpush

@@ -31,7 +31,7 @@
             <input type="text" class="form-control" id="installment" name="installment" aria-describedby="Installment" value="{{$product->installment}}">
         </div>
         <div class="form-group">
-            <label for="installment">Parcelas Sem Juros</label>
+            <label for="installment">Parcelas Sem Juros <font color="red">(0 - Com juros | A partir de 2, sem juros para o cliente)</font></label>
             <input type="text" class="form-control" id="installment" name="installment_free" aria-describedby="Installment" value="{{$product->installment_free}}">
         </div>
         <div class="form-group">

@@ -30,7 +30,7 @@
             <input type="text" class="form-control" id="installment" name="installment" aria-describedby="Installment" placeholder="Quantidade de Parcelas">
         </div>
         <div class="form-group">
-            <label for="installment_free">Quantidade de Parcelas Sem Juros</label>
+            <label for="installment_free">Quantidade de Parcelas Sem Juros <font color="red">(0 - Com juros | A partir de 2, sem juros para o cliente)</font></label>
             <input type="text" class="form-control" id="installment_free" name="installment_free" aria-describedby="InstallmentFree" placeholder="Parcelas sem Juros">
         </div>
         <div class="form-group">

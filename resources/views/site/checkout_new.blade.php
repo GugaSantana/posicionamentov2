@@ -61,7 +61,7 @@
                                         <div class="row">
                                             <div class="col-sm-6">
                                                 <div>
-                                                    <label for="nameHolder" <b>Nome:</b></label>
+                                                    <label for="nameHolder" <b>Nome no Cartão:</b></label>
                                                     <input type="text" class="form-control" id="nameHolder"
                                                         class="creditcard" name="nameHolder">
                                                 </div>
