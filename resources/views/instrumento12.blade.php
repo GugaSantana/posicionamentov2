@@ -89,13 +89,13 @@
                                 <center>Levantamento de Informações</center>
                             </h4>
 
-                            <p class="fonte18">Depois que você definiu o Perfil do seu Cliente Ideal, você deve fazer a Prospecção de Clientes, para encontrar futuros compradores de seus produtos.</p>
-                            <p class="fonte18">Um dos maiores desafios de qualquer vendedor é prospectar novos clientes de maneira eficiente, isto porque, sem possíveis clientes interessados em seus produtos, não haverá fechamento de negócios.</p>
+                            <p class="fonte18">Depois que você definiu o Perfil do seu Cliente Ideal, o próximo passo é fazer a Prospecção de Clientes para encontrar futuros compradores de seus produtos.</p>
+                            <p class="fonte18">Um dos maiores desafios de qualquer vendedor é prospectar novos clientes de maneira eficiente. Acontece que, sem possíveis clientes interessados em seus produtos, não haverá fechamento de negócios.</p>
                             <p class="fonte18">A Prospecção de Clientes é um processo estruturado. Com ele, você buscará novos clientes que comprarão seus produtos.</p>
                             <p class="fonte18">A Prospecção é a primeira etapa do Funil de Vendas (Instrumento 18 da Metodologia), ferramenta-chave para administrar o Processo de Vendas.</p>
                             <p class="fonte18">A Prospecção de Clientes é fundamental para canalizar seus esforços para os clientes que tem maior probabilidade de fazer negócios.</p>
                             <p class="fonte18">O seguinte questionário permite avaliar como você realiza atualmente a Prospecção de Clientes.</p>
-                            <p class="fonte18">A partir do Diagnóstico que será feito, você receberá Recomendações para desenvolver as competências que lhe permitirão melhorar seu processo de Prospecção.</p>
+                            <p class="fonte18">A partir do Diagnóstico que será feito, você receberá Recomendações para desenvolver as Competências que lhe permitirão melhorar seu processo de Prospecção.</p>
 
                     </div>
                     <br>
@@ -116,11 +116,11 @@
                         '2 – Você tem um indicador de desempenho para medir os resultados e a eficiência de suas prospecções?',
                         '3 – Você tem um planejamento e um cronograma de ações específicas de prospecção de novos clientes?',
                         '4 – Estes Planos de Ação são executados fielmente?',
-                        '5 – O Perfil de seu Cliente Ideal com o qual você quer trabalhar, está claramente definido?',
+                        '5 – O Perfil de seu Cliente Ideal com o qual você quer trabalhar está claramente definido?',
                         '6 – Você leva em consideração esse perfil definido na hora de prospectar?',
                         '7 – Sua Proposta está claramente definida e é comunicada para atrair novos clientes?',
-                        '8 – Você sabe qual é o tempo médio de fechamento entre o primeiro contato com um cliente potencial e o fechamento da venda (horas, dias, semanas, meses)?',
-                        '9 – Você está satisfeito com a velocidade de fechamento das vendas?',
+                        '8 – Você sabe qual é o tempo médio de Fechamento entre o primeiro contato com um cliente potencial e o Fechamento da Venda (horas, dias, semanas, meses)?',
+                        '9 – Você está satisfeito com a velocidade de Fechamento das Vendas?',
                         '10 – Você sabe qual é o Tempo de Vida Médio (LTV= Lifetime Value) de um cliente? LTV é o período de tempo (meses, anos) que um cliente que compra de você se mantém ativo.',
                         '11 – Você sabe com segurança o valor médio das compras de seus clientes?',
                         '12 – Você tem implementado novas ações para aumentar o valor médio das compras de seus clientes?',

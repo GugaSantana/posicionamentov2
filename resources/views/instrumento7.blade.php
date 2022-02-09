@@ -87,9 +87,9 @@
                             <center>Levantamento de Informações</center>
                         </h4>
 
-                            <p class="fonte18">Este Instrumento permite analisar e avaliar a dinâmica da comunicação e o perfil das trocas de perguntas e respostas na comunicação com seus clientes. O objetivo é estabelecer o melhor relacionamento possível com ele.</p>
-                            <p class="fonte18">Você poderá, com este Instrumento, fazer os ajustes necessários no seu comportamento atual. A mudança acontecerá depois da implementação das recomendações que este Instrumento lhe proporcionará.</p>
-                            <p class="fonte18">A qualidade do relacionamento é o pilar fundamental da Venda Consultiva. Este Instrumento contribuirá para que você possa gerenciar o Campo Psicológico que se estabelece quando você interage com seu cliente.</p>
+                            <p class="fonte18">Este Instrumento permite analisar e avaliar a dinâmica da comunicação e o perfil das trocas de perguntas e respostas na comunicação com seus clientes. O objetivo é estabelecer o melhor relacionamento possível com eles.</p>
+                            <p class="fonte18">Você poderá, com este Instrumento, fazer os ajustes necessários no seu comportamento atual. A mudança acontecerá depois da implementação das Recomendações que este Instrumento lhe proporcionará.</p>
+                            <p class="fonte18">A qualidade do relacionamento é o pilar fundamental da Venda Consultiva. Este Instrumento contribuirá para que você possa gerenciar o <b>Campo Psicológico</b> que se estabelece quando você interage com seu cliente.</p>
 
                     </div>
                     <br>
@@ -98,11 +98,11 @@
                         <!-- <h4 style="color: #35408f">PRIMEIRA PARTE</h4> -->
 
                         <p class="fonte18">Neste Instrumento são apresentadas 18 perguntas.</p>
-                        <p class="fonte18">Você deve usar os 5 pontos de cada questão. Eles podem ser divididos nas três opções se todas forem escolhidas, duas opções se apenas duas forem aplicáveis no seu caso, ou apenas uma se as outras duas não refletirem como você reagiria.</p>
+                        <p class="fonte18">Você deve usar os 5 pontos de cada questão. Eles podem ser divididos nas três opções apresentadas em cada questão, se todas forem escolhidas, duas opções, se apenas duas forem aplicáveis no seu caso, ou apenas uma, se as outras duas não refletirem como você reagiria.</p>
                         <p class="fonte18">Responda tendo em mente qual seria sua reação, frente a cada situação apresentada. Não procure ser “consistente”; as respostas espontâneas produzem os dados mais representativos de sua realidade.</p>
 
                         <br>
-                        <p class="fonte18"><b>Exemplo 1:</b> Suponhamos que você concorde, ou seja, que você se identifique inteiramente com a alternativa A e discorda das outras duas. Neste caso, você distribuirá os 5 pontos da seguinte maneira:</p>
+                        <p class="fonte18"><b>Exemplo 1:</b> Suponhamos que você concorde, ou seja, que você se identifique inteiramente com a alternativa A e discorde das outras duas. Neste caso, você distribuirá os 5 pontos da seguinte maneira:</p>
 
                         <div class="table-responsive">
                         <table class="table table-hover table-bordered fonte18">                            
@@ -131,7 +131,7 @@
                         </div>
 
                             <br>
-                            <p class="fonte18"><b>Exemplo 2:</b> Suponhamos que você não concorde inteiramente com uma alternativa e as outras alternativas também poderiam representar seu comportamento em alguma medida. Neste caso, por hipótese, você distribuirá os 5 pontos da seguinte maneira:</p>
+                            <p class="fonte18"><b>Exemplo 2:</b> Suponhamos que você não concorde inteiramente com uma alternativa e que as outras alternativas também possam representar seu comportamento em alguma medida. Neste caso, por hipótese, você distribuirá os 5 pontos da seguinte maneira:</p>
 
                             <div class="table-responsive">
                             <table class="table table-hover table-bordered fonte18">                            

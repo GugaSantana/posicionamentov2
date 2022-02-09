@@ -53,7 +53,7 @@
 <h3 style="color: #35408f">3 - ETAPAS DA METODOLOGIA E INSTRUMENTOS DE CADA ETAPA</h3>
 <br>
 
-<p>Este Projeto e esta Metodologia permitem aumentar suas Vendas por Objetivos. Isto se dá através da transferência digital e à distância de 20 Instrumentos quantitativos, altamente estruturados e objetivos. À Metodologia se contempla ainda Planos de Ação, também estruturados e de simples resolução, para aumentar as Vendas, com Metas Definidas de Desempenho e Avaliação do Progresso da sua implementação.</p>
+<p>Este Projeto e esta Metodologia permitem aumentar suas Vendas por Objetivos. Isto se dá através da transferência digital e à distância, com 20 Instrumentos quantitativos, altamente estruturados e objetivos. À Metodologia também contempla a formulação de Planos de Ação, também estruturados e de simples resolução, para aumentar as Vendas, com Metas Definidas de Desempenho e Avaliação do Progresso da sua implementação.</p>
 <p>O Projeto está estruturado em 3 etapas:</p>
 <p>A - Precondições para aumentar as Vendas.</p>
 <p>B - Como aumentar as Vendas através das Técnicas de Vendas Consultivas.</p>
@@ -68,7 +68,7 @@
 <p>São variáveis ou fatores que devem ser gerenciados para obter os melhores resultados.</p>
 <p>Esta etapa inclui os primeiros 6 Instrumentos da Metodologia que estão orientados a aumentar sua Produtividade em Vendas, independentemente das Vendas Consultivas. O objetivo destes seis Instrumentos é aumentar sua base de Produtividade.</p>
 <p>São de fato precondições que devem ser desenvolvidas e nas quais você deve melhorar para aumentar sua Produtividade e otimizar, a seguir, a prática específica de Vendas Consultivas.</p>
-<p>A eficácia dos Instrumentos de Vendas Consultivas que será colocada em prática na etapa seguinte da Metodologia, estará diretamente relacionada à melhoria destas condições que você operacionalizará com estes seis Instrumentos:</p>
+<p>A eficácia dos Instrumentos de Vendas Consultivas que será colocada em prática na etapa seguinte da Metodologia, estará diretamente relacionada à melhoria destas condições que você operacionalizará com estes 6 Instrumentos:</p>
 <p>1 - Meu Nível de Empreendedorismo.</p>
 <p>2 - Meus maiores problemas para Aumentar as Vendas.</p>
 <p>3 - Meu perfil como Profissional de Vendas.</p>
@@ -81,7 +81,7 @@
 <p style="color: #ef6502">- OBJETIVOS DA ETAPA</p>
 <p style="color: #ef6502">Desenvolver sistematicamente à distância e por meio digital, as Competências que operacionalizam a Metodologia das Vendas Consultivas, através de Instrumentos estruturados que permitem fazer uma avaliação quantitativa dos resultados.</p>
 <p>Nesta etapa, após otimizadas as precondições para aumentar as Vendas, serão transferidas para você as técnicas das Vendas Consultivas, através de 11 Instrumentos específicos que foram organizados em 6 grupos, para atender as etapas da Metodologia das Vendas Consultivas.</p>
-<p>Os objetivos desses cinco grupos e dos Instrumentos que os compõem são os seguintes:</p>
+<p>Os objetivos desses 6 grupos e dos Instrumentos que os compõem são os seguintes:</p>
 <br>
 <p><b>1 - O Gerenciamento do Campo Psicológico</b></p>
 <p>A premissa fundamental das Vendas Consultivas é estabelecer o melhor relacionamento com o cliente.</p>
@@ -99,7 +99,7 @@
 <p><b>2 - Aumento da Produtividade da PROSPECÇÃO de Clientes</b></p>
 <p>Sem potenciais clientes interessados nos produtos que você vende, não haverá fechamento de negócios.</p>
 <p>Com a Prospecção você identifica pessoas que poderão estar interessadas em seus produtos.</p>
-<p>Os dois Instrumentos desta fase habilitarão você a desenvolver com técnicas apropriadas, esta primeira e fundamental atividade para aumentar suas vendas. Os Instrumentos são:</p>
+<p>Os dois Instrumentos desta fase habilitarão você a desenvolver com técnicas apropriadas esta primeira e fundamental atividade para aumentar suas vendas. Os Instrumentos são:</p>
 <p>11 - Definição do Perfil do Cliente Ideal.</p>
 <p>12 - Como fazer a Prospecção de Clientes.</p>
 <br>
@@ -117,7 +117,7 @@
 <br>
 <p><b>5 - Aumento da Produtividade da NEGOCIAÇÃO com os Clientes (a Venda como um Campo de Forças)</b></p>
 <p>Negociar requer técnicas. O conceito fundamental da Metodologia nesta fase da Venda Consultiva é o de “<b>Campo de Forças</b>”</p>
-<p>A apresentação está apoiada nas <b>Forças Propulsoras</b>, porém na Negociação temos que lidar com <b>Forças Restritivas</b> ou obstáculos e é por isto que surge e se configura o <b>Campo de Forças</b>.</p>
+<p>A apresentação está apoiada nas <b>Forças Propulsoras</b>, porém, na Negociação temos que lidar com <b>Forças Restritivas</b> ou obstáculos e é por isto que surge e se configura o <b>Campo de Forças</b>.</p>
 <p>Criado o <b>Campo de Forças</b> entre as <b>Forças Propulsoras</b> e as <b>Forças Restritivas</b>, o Instrumento desta fase o habilitará para que a “resultante de forças” favoreça as <b>Forças Propulsoras</b> e assim você conseguirá a Venda.</p>
 <p>As técnicas para uma negociação bem-sucedida lhe serão transferidas pelo Instrumento:</p>
 <p>16 - Neutralização dos obstáculos da venda (Forças Restritivas).</p>
@@ -134,14 +134,14 @@
 <p>A. No nível do <b>Diagnóstico</b> de suas competências para implementar as Vendas Consultivas e,</p>
 <p>B. No nível da <b>Aquisição</b> de competências para alcançar suas metas de vendas a partir do seu diagnóstico,</p>
 -->
-<p style="color: #ef6502">Uma coisa é o domínio e a aplicação das técnicas para aumentar as vendas, outra é o gerenciamento do seu processo de vendas.</p>
+<p style="color: #ef6502">Uma coisa é o domínio e a aplicação das técnicas para Aumentar as Vendas, outra é o gerenciamento do seu Processo de Vendas.</p>
 <p>Esta etapa se refere ao gerenciamento do Processo de Vendas, ou seja, o gerenciamento dos 17 Instrumentos até aqui apresentados.</p>
 <p>Partimos da premissa que <b>“o que não se pode medir, não se pode gerenciar”</b>.</p>
 <p>Por esta razão, os 20 Instrumentos da Metodologia se baseiam em informações quantitativas e apresentam resultados quantitativos.</p>
 
 <p>Três são os Instrumentos para operacionalizar esta etapa:</p>
 <p>18 - O Funil de Vendas, com objetivos e métricas de avanço.</p>
-<p>19 - Planos de Ação quantitativos para alcançar as metas de vendas.</p>
+<p>19 - Planos de Ação quantitativos para alcançar as Metas de Vendas.</p>
 <p>20 - O Relatório de Progresso.</p>
 
 

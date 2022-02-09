@@ -87,10 +87,10 @@
                         <h4>
                             <center>Levantamento de Informações</center>
                         </h4>
-                        <p class="fonte18">No Instrumento anterior, foi avaliada a estrutura da personalidade e as Recomendações foram orientadas para equilibrar os três sistemas da Personalidade: PAI, ADULTO e CRIANÇA.</p>
+                        <p class="fonte18">No Instrumento anterior, foi avaliada a estrutura da Personalidade e as Recomendações foram orientadas para equilibrar os três sistemas da Personalidade: PAI, ADULTO e CRIANÇA.</p>
                         <p class="fonte18">Este Instrumento tem por objetivo melhorar a qualidade do seu relacionamento com seus clientes. Esta é uma condição fundamental nas Vendas Consultivas.</p>
                         <p class="fonte18">A maneira como você se posiciona em relação às Relações Interpessoais associadas ao seu trabalho determina o seu sucesso profissional.</p>
-                        <p class="fonte18">Este questionário se destina a avaliar suas Práticas Interpessoais e seus estilos de abordagem com seus clientes. O objetivo é o de lhe oferecer Recomendações para melhorar sua relação comportamental com eles, otimizando a dinâmica do seu estilo como vendedor.</p>
+                        <p class="fonte18">Este questionário se destina a avaliar suas Práticas Interpessoais e seu estilo de abordagem com seus clientes. O objetivo é o de oferecer Recomendações para melhorar sua relação comportamental com eles, otimizando a dinâmica do seu estilo como vendedor.</p>
                         <p class="fonte18">Não há respostas “certas” ou “erradas” para as questões. Na verdade, a <b>melhor</b> resposta é simplesmente aquela que melhor reflete o que você sente. Isto é, a resposta que melhor representa suas práticas ao lidar com os clientes.</p>
                         <p class="fonte18">Este Instrumento se complementa com o Instrumento 7 – Gerenciamento do Relacionamento através dos Estados do Ego. Somando as contribuições destes dois Instrumentos com os Instrumentos 9 e 10, você terá desenvolvido uma “Massa Crítica” poderosa para implementar as Vendas Consultivas. Assim sendo, você estará em condições de gerenciar seus fundamentos comportamentais.</p>
 
@@ -188,7 +188,7 @@
 <br>B. Eu lhe diria que estou preocupado com algumas pressões pessoais e que continuaria assim por algum tempo. Por isso, gostaria que ele fosse paciente comigo.
 ','
 6. Se um de meus clientes se mostrasse de tal modo convencido com meus argumentos, que estaria disposto a adquirir meu produto a níveis que, em minha opinião, estariam muito além de suas necessidades ou recursos, eu:
-<br>A. Não mencionaria absolutamente minhas dúvidas, mas simplesmente deixaria que o próprio cliente fosse o melhor juiz de seus atos. De modo que eu limitaria meus esforços a ajudá-lo nos detalhes da compra da melhor maneira possível
+<br>A. Não mencionaria absolutamente minhas dúvidas, mas simplesmente deixaria que o próprio cliente fosse o melhor juiz de seus atos. De modo que eu limitaria meus esforços a ajudá-lo nos detalhes da compra da melhor maneira possível.
 <br><b>OU</b>
 <br>B. Expressaria minhas dúvidas e tentaria vender menos, mesmo que isso significasse a perda da venda por inteiro.
 ','
@@ -218,7 +218,7 @@
 <br>B. Mostraria os efeitos que a controvérsia estaria tendo em nosso relacionamento e sugeriria que a discutíssemos – apesar de tudo – até que a resolvêssemos.
 ','
 12. Se numa das ocasiões em que meu chefe estivesse me acompanhando, encontrássemos um de meus clientes com que eu viesse tendo problemas e ele começasse a aludir a algumas queixas, as quais, se detalhadas, me colocariam em má situação aos olhos do meu chefe, eu:
-<br>A. Tentaria colocar o assunto de lado, talvez fazendo piada com o cliente sobre suas queixas, ou sugerindo que deveria ser realmente abordado quando tivéssemos mais tempo para analisá-lo em profundidade.
+<br>A. Tentaria colocar o assunto de lado, talvez fazendo piada com o cliente sobre suas queixas, ou sugerindo o que deveria ser realmente abordado quando tivéssemos mais tempo para analisá-lo em profundidade.
 <br><b>OU</b>
 <br>B. Sugeriria que o momento seria propício para ele desabafar, esperando que meu chefe assim pudesse nos ajudar.
 ','

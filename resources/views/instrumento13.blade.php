@@ -91,8 +91,8 @@
 
                             <p class="fonte18">Como vimos no Instrumento anterior, a primeira etapa das Vendas Consultivas é a Prospecção de Clientes.</p>
                             <p class="fonte18">Dois Instrumentos foram aplicados para melhorar a eficácia da PROSPECÇÃO: o Instrumento 11 – Definição do Perfil do Cliente Ideal; e o Instrumento 12 – Matriz de Prospecção de Clientes.</p>
-                            <p class="fonte18">Este é o primeiro dos dois Instrumentos da Metodologia para aumentar a produtividade da segunda etapa das Vendas Consultivas, que é a etapa da QUALIFICAÇÃO dos Clientes.</p>
-                            <p class="fonte18">A Qualificação serve para decidir se vale a pena dedicar tempo e esforço para conquistar um cliente que foi prospectado.</p>
+                            <p class="fonte18">Este é o primeiro dos dois Instrumentos da Metodologia para aumentar a Produtividade da segunda etapa das Vendas Consultivas, que é a etapa da QUALIFICAÇÃO dos Clientes.</p>
+                            <p class="fonte18">A QUALIFICAÇÃO serve para decidir se vale a pena dedicar tempo e esforço para conquistar um cliente que foi prospectado.</p>
 
                     </div>
                     <br>
@@ -117,7 +117,7 @@
                     $questions = [
                         '1. Eu avalio se o Cliente Potencial tem recursos financeiros para comprar meus produtos?',
                         '2. Eu levo em consideração em que medida a pessoa com a qual estou falando tem o poder de decisão para fazer a compra?',
-                        '3. Em que medida sei se o Cliente Potencial realmente necessita dos produtos que lhe estou oferecendo? Sei se ele tem urgência para comprar?',
+                        '3. Em que medida sei se o Cliente Potencial realmente necessita dos produtos que estou oferecendo? Sei se ele tem urgência para comprar?',
                         '4. Posso saber se a decisão de comprar do Cliente Potencial levará muito tempo?',
                         '5. Eu posso prever dificuldades no Processo de Vendas para este cliente?',
                         '6. Em que medida sei se as reais necessidades do cliente podem ser atendidas pelos produtos e soluções que estou oferecendo?'

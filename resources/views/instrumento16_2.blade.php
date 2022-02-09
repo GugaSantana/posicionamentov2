@@ -131,7 +131,7 @@
                             <center>Levantamento de Informações</center>
                         </h4>
 
-                            <p class="fonte18">Nesta etapa, você está recebendo as definições das 14 Forças Restritivas, assim como os obstáculos que você formulou.</p>
+                            <p class="fonte18">Nesta etapa você está recebendo as definições das 14 Forças Restritivas, assim como os obstáculos que você formulou.</p>
                     </div>
                     
                     
@@ -208,7 +208,7 @@
                         <p class="fonte18">Qualquer atitude do cliente ou do vendedor que possa comprometer o Campo Psicológico e o Diálogo de Vendas.</p>
 
                         <p class="fonte18"><b>R14- Atitudes Impróprias</b></p>
-                        <p class="fonte18">Referem-se às palavras ou atitudes inconvenientes do cliente que prejudicam o Progresso da Venda. Muitas vezes, este obstáculo decorre de falhas na comunicação e a precária inteligência emocional do vendedor.</p>
+                        <p class="fonte18">Referem-se às palavras ou atitudes inconvenientes do cliente que prejudicam o Progresso da Venda. Muitas vezes, este obstáculo decorre de falhas na comunicação e a precária Inteligência Emocional do vendedor.</p>
 
                         <br><br>
 

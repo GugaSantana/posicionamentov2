@@ -137,7 +137,7 @@
                             <p class="fonte18">Com o Instrumento anterior, você recebeu as orientações técnicas para Qualificar os Clientes Potenciais.</p>
                             <p class="fonte18">Este é o segundo Instrumento da segunda etapa das Vendas Consultivas, que é a Qualificação dos Clientes Potenciais. É evidente que os clientes não têm o mesmo potencial de geração de receitas: não têm o mesmo valor.</p>
                             <p class="fonte18">Regularmente, estabelecemos o valor ou a importância dos clientes através de um processo intuitivo ou baseado na experiência.</p>
-                            <p class="fonte18">Este Instrumento lhe permitirá avaliar de maneira técnica e quantitativa o valor e a verdadeira importância de cada um de seus clientes para que você possa administrar sua carteira de clientes com maior eficácia e produtividade. Você seguirá as Recomendações que você receberá depois da interpretação dos resultados de suas respostas.</p>
+                            <p class="fonte18">Este Instrumento lhe permitirá avaliar de maneira técnica e quantitativa o valor e a verdadeira importância de cada um de seus clientes para que você possa administrar sua carteira de clientes com maior Eficácia e Produtividade. Você seguirá as Recomendações que você receberá depois da interpretação dos resultados de suas respostas.</p>
 
                     </div>
                     <br>
@@ -154,7 +154,7 @@
                         <p class="fonte18">Na tabela, para cada um dos 12 fatores de avaliação dos clientes, você tem uma escala de 0 a 10 pontos.</p>
                         <p class="fonte18">Avalie cada cliente que você registrou na primeira coluna da Matriz, em cada um desses 12 fatores.</p>
                         <p class="fonte18">Para isto, comece pelo primeiro fator e atribua um valor entre 0 e 10 pontos para cada cliente. Feito isto, repita o procedimento com o segundo fator, e assim sucessivamente até o 12º Fator.</p>
-                        <p class="fonte18">Observe que, no final do seu trabalho, todos os clientes terão um valor para cada um dos 12 fatores.</p>
+                        <p class="fonte18">Observe que no final do seu trabalho, todos os clientes terão um valor para cada um dos 12 fatores.</p>
                        
                     </div>
 

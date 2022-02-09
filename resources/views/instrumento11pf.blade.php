@@ -657,7 +657,7 @@
                             <br><br>
 
                             <p class="fonte18"><b>4 – Perfil de Consumo</b></p>
-                            <p class="fonte18">4.1 – Volume de compra de meus clientes (da maioria dos 10 selecionados)</p>
+                            <p class="fonte18">4.1 – Volume de compra de meus clientes (da maioria dos 10 selecionados).</p>
 
                             <div class="row">
                                 <div class="col-12" style="overflow: auto;">

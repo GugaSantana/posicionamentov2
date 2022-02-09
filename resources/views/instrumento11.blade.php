@@ -77,7 +77,7 @@
                             <center>Levantamento de Informações</center>
                         </h4>
                         <p class="fonte18">Nos últimos quatro Instrumentos, nos preparamos para “Gerenciar o Campo Psicológico” que se estabelece entre você e seu cliente quando interagem.</p>
-                        <p class="fonte18">Com este Instrumento, iniciamos uma nova série da Metodologia. Começaremos a trabalhar as ETAPAS ESPECÍFICAS das Vendas Consultivas. São cinco etapas e a primeira se refere à Prospecção de Clientes, que começa com a definição do Cliente Ideal.</p>
+                        <p class="fonte18">Com este Instrumento, iniciamos uma nova série da Metodologia. Começaremos a trabalhar as ETAPAS ESPECÍFICAS das Vendas Consultivas. São cinco etapas e a primeira refere-se à Prospecção de Clientes, que começa com a definição do Cliente Ideal.</p>
                         <p class="fonte18">Definir o Perfil de Cliente Ideal é o primeiro passo para uma estratégia de Vendas de sucesso.</p>
                         <p class="fonte18">As preferências dos clientes estão se tornando mais amplas e mais opções estão disponíveis.</p>
                         <p class="fonte18">Para encontrar seu público-alvo você deve segmentar o Mercado, para identificar que tipo de cliente prefere seu produto.</p>

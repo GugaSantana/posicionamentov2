@@ -43,10 +43,10 @@
             <p class="fonte18">Todas as pessoas têm combinações de VISÃO e AÇÃO em tudo o que fazem. Naturalmente, esta combinação varia de pessoa para pessoa.</p>
             <p class="fonte18">Empreendedor é alguém que toma a iniciativa e age com uma clara Visão de Futuro.</p>
             <p class="fonte18">Quem tem Visão sabe identificar as oportunidades e transformá-las em atividades lucrativas.</p>
-            <p class="fonte18">A Ação é fundamental para implementar a Visão, para levar a Visão à pratica.</p>
+            <p class="fonte18">A Ação é fundamental para implementar a Visão, para levar a Visão à prática.</p>
             <p class="fonte18">Este Instrumento se propõe a avaliar as duas dimensões apresentadas de VISÃO e AÇÃO, para que você possa desenvolvê-las de maneira estruturada e assim aumentar sua</p>
             <p class="fonte18"><b style="color: #35408f">EFICÁCIA</b> (fazer as coisas certas) = <b style="color: #35408f">VISÃO</b></p>
-            <p>e sua</p>
+            <p class="fonte18">e sua</p>
             <p class="fonte18"><b style="color: #35408f">EFICIÊNCIA</b> (fazer as coisas da maneira certa) = <b style="color: #35408f">AÇÃO</b></p>
         </div>
         <br>

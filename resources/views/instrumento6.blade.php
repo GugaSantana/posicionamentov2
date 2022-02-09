@@ -36,13 +36,13 @@
 
                         <p class="fonte18">Com os Instrumentos anteriores, você teve a oportunidade de avaliar sua Visão e seu Nível de Ação, estabelecer quais são seus problemas prioritários, seu perfil profissional e avaliar em que medida você conhece os produtos que vende e os produtos concorrentes.</p>
                         <p class="fonte18">Esta primeira etapa da Metodologia, que denominamos de <b>Precondições para Aumentar as Vendas</b>, se encerra com este Instrumento.</p>
-                        <p class="fonte18">É uma oportunidade única de você obter esta informação e mais do que isto, de receber as Recomendações para aumentar seu nível de produtividade atual.</p>
+                        <p class="fonte18">É uma oportunidade única de você obter esta informação e mais do que isto, de receber as Recomendações para aumentar seu nível de Produtividade atual.</p>
                         <p class="fonte18">Avaliar a Produtividade é um procedimento técnico, que requer um certo grau de concentração.</p>
                         <p class="fonte18">A Produtividade é sempre uma relação entre um INPUT, que são recursos que colocamos para obter alguma coisa (dinheiro, tempo, matérias-primas) e um OUTPUT, ou seja, um resultado: o que obtemos com o INPUT.</p>
-                        <p class="fonte18">Quanto maior o OUTPUT e menor o INPUT, mais produtivos seremos. Por exemplo: Se com 1 litro de gasolina (Input = insumo) fazemos com o carro 12 Km (Output = resultado), temos maior produtividade que se o carro consumir 2 litros para percorrer a mesma distância.</p>
+                        <p class="fonte18">Quanto maior o OUTPUT e menor o INPUT, mais produtivos seremos. Por exemplo: Se com 1 litro de gasolina (Input = insumo) fazemos com o carro 12 Km (Output = resultado), teremos maior produtividade do que se o carro consumir 2 litros para percorrer a mesma distância.</p>
                         <p class="fonte18">No caso dos vendedores, OUTPUT são as vendas realizadas e INPUT a quantidade de esforço, basicamente tempo, que é dedicado para obter o OUTPUT planejado.</p>
-                        <p class="fonte18">Na área de Vendas, pouco se aplica este conceito de produtividade, apesar de seu resultado ser extraordinário.</p>
-                        <p class="fonte18">Este Instrumento avaliará com precisão e objetividade seu Nível de Produtividade e as Recomendações que serão feitas a partir do resultado obtido, o que garantirá, de maneira objetiva e mensurável, o aumento de sua eficácia e a conquista de suas metas.</p>
+                        <p class="fonte18">Na área de Vendas, pouco se aplica este conceito de Produtividade, apesar de seu resultado ser extraordinário.</p>
+                        <p class="fonte18">Este Instrumento avaliará com precisão e objetividade seu Nível de Produtividade e as Recomendações que serão feitas a partir do resultado obtido. Isto garantirá, de maneira objetiva e mensurável, o aumento de sua Eficácia e a conquista de suas Metas.</p>
 
 
                         <!-- <center><img src="../img/inst5_1.png"></center> -->
@@ -129,7 +129,7 @@
                         </form>
                         <br>
                         <p class="fonte18">Instruções de preenchimento da Matriz passo a passo:</p>
-                        <p class="fonte18">A – Na Matriz, a primeira coluna refere-se aos <u>Objetivos</u> que você deve alcançar para realizar sua meta de vendas e a segunda coluna é a de <u>Pesos Relativos</u>, ou seja, a importância, em percentual, de cada um desses objetivos.</p>
+                        <p class="fonte18">A – Na Matriz, a primeira coluna refere-se aos <u>Objetivos</u> que você deve alcançar para realizar sua Meta de Vendas e a segunda coluna é a de <u>Pesos Relativos</u>, ou seja, a importância, em percentual, de cada um desses objetivos.</p>
                         <p class="fonte18">Estas colunas estão divididas em 2 blocos: Objetivos de Alta Importância e Objetivos de Baixa Importância. Você pode registrar até 4 Objetivos de Alta Importância e 4 Objetivos de Baixa Importância, isto é, você pode registrar um total de até 8 Objetivos (podendo ser menos de 8 Objetivos a serem atingidos).</p>
                         <p class="fonte18">Os Objetivos de <b>Alta Importância</b> são aqueles que representam 15% ou mais de importância para se atingir a Meta de Vendas.</p>
                         <p class="fonte18">Os Objetivos de <b>Baixa Importância</b> são aqueles que representam menos de 15% de importância para se atingir a Meta de Vendas.</p>
@@ -137,26 +137,26 @@
                         <p class="fonte18">Não se esqueça de que cada Objetivo deve ter um peso em valor percentual e que a soma total dos pesos dos Objetivos é de 100%.</p>
                         <p class="fonte18">B – Na Matriz, a primeira linha horizontal a ser preenchida é a de <u>Atividades que Desenvolvo</u>. Nesta linha, você deve identificar as principais atividades que você realiza para alcançar seus Objetivos de Vendas.</p>
                         <p class="fonte18">Para facilitar o entendimento do conteúdo de cada atividade descrita, apresentamos suas descrições:</p>
-                        <p class="fonte18"><b>1 – Prospecção de Clientes</b> – Tempo dedicado a busca de novos clientes.<br>
-                        <b>2 – Qualificação de Clientes</b> – Tempo dedicado a identificação do potencial de negócios com os clientes prospectados.<br>
-                        <b>3 – Planejamento/Pré venda</b> – Tempo dedicado a definição de prioridades, elaboração de Planos de abordagem, contatos, etc.<br>
+                        <p class="fonte18"><b>1 – Prospecção de Clientes</b> – Tempo dedicado à busca de novos clientes.<br>
+                        <b>2 – Qualificação de Clientes</b> – Tempo dedicado à identificação do potencial de negócios com os clientes prospectados.<br>
+                        <b>3 – Planejamento/Pré venda</b> – Tempo dedicado à definição de prioridades, elaboração de Planos de abordagem, contatos, etc.<br>
                         <b>4 – Apresentações, Negociações, Fechamentos</b> – Tempo dedicado ao trabalho junto ao cliente, seja presencial ou remoto.<br>
-                        <b>5 – Follow up / Pós Venda</b> – Tempo dedicado ao cliente para dar apoio no pós-venda e para criar um vínculo de longo prazo.<br>
-                        <b>6 – Capacitação / Aprimoramento / Coaching</b> - Tempo dedicado a melhoria do seu desempenho profissional.<br>
+                        <b>5 – Follow-up / Pós-Venda</b> – Tempo dedicado ao cliente para dar apoio no pós-venda e para criar um vínculo de longo prazo.<br>
+                        <b>6 – Capacitação / Aprimoramento / Coaching</b> - Tempo dedicado à melhoria do seu desempenho profissional.<br>
                         <b>7 – Atividades administrativas</b> – Tempo dedicado às reuniões, elaboração de relatórios, solicitação de pedidos, etc.<br>
                         <b>8 – Outras atividades</b> - Tempo dedicado às atividades que não se enquadram nas anteriormente descritas, tais como: viagens, tempo de espera para atendimento ao cliente, etc.</p>
-                        <p class="fonte18">C – Na Matriz, a segunda linha horizontal a qual você deve preencher, refere-se ao Percentual de Tempo que você gasta em cada Atividade. Nesta linha, você deve registrar quanto tempo, em termos percentuais, você dedica a cada uma das atividades que foram definidas. Você ainda pode alocar um percentual de tempo a OUTRAS ATIVIDADES que você realiza, além das sete descritas. A soma dos percentuais dedicados a todas essas atividades deve totalizar 100%.</p>
+                        <p class="fonte18">C – Na Matriz, a segunda linha horizontal a qual você deve preencher, refere-se ao Percentual de Tempo que você gasta em cada Atividade. Nesta linha, você deve registrar quanto tempo, em termos percentuais, você dedica a cada uma das atividades que foram definidas. Você ainda pode alocar um percentual de tempo às OUTRAS ATIVIDADES que você realiza, além das sete descritas. A soma dos percentuais dedicados a todas essas atividades deve totalizar 100%.</p>
                         <p class="fonte18">IMPORTANTE: No caso de você não desenvolver uma ou mais das atividades descritas, simplesmente não lhe atribua um percentual de tempo dedicado.</p>
                         <p class="fonte18">D- Agora, com as duas dimensões da Matriz preparadas, você deve preencher a Matriz respondendo à seguinte pergunta:</p>
-                        <p class="fonte18">Em que medida, em uma escala de 1 a 10, cada uma dessas atividades contribui para alcançar cada objetivo? Utilize as definições da escala que a seguir:</p>
+                        <p class="fonte18">Em que medida, em uma escala de 1 a 10, cada uma dessas atividades contribui para alcançar cada Objetivo? Utilize as definições da escala que a seguir:</p>
                         
                         <center><img src="../posicionamento/public/img/instrumento6/inst6_1.png"></center>
 
                         <br>
 
-                        <p class="fonte18">Iniciando pela primeira atividade e pelo primeiro objetivo que você escreveu, no cruzamento entre a atividade que você está avaliando e o Objetivo 1, você colocará o número da escala que representará para você a contribuição dessa atividade para alcançar este objetivo.</p>
-                        <p class="fonte18">Na sequência, você faz a mesma pergunta para o Objetivo 2, Objetivo 3, e assim sucessivamente para todos os objetivos.</p>
-                        <p class="fonte18">Verifique se você cruzou todas as atividades com todos os objetivos.</p>
+                        <p class="fonte18">Iniciando pela primeira atividade e pelo primeiro Objetivo que você escreveu, no cruzamento entre a atividade que você está avaliando e o Objetivo 1, você colocará o número da escala que representará para você a contribuição dessa atividade para alcançar este Objetivo.</p>
+                        <p class="fonte18">Na sequência, faça a mesma pergunta para o Objetivo 2, Objetivo 3, e assim sucessivamente para todos os Objetivos.</p>
+                        <p class="fonte18">Verifique se você cruzou todas as atividades com todos os Objetivos.</p>
                         <p class="fonte18"><b>Ao passar o mouse sobre os campos da matriz são exibidas as instruções de preenchimento.</b></p>
                         
                         

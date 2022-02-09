@@ -35,7 +35,7 @@
                         <p class="fonte18">Assim, sabendo em que ordem você deve tratar de seus problemas, você otimizará seu tempo e aumentará sua Produtividade.</p>
                         <p class="fonte18">Neste Instrumento vamos tratar de você: Aqui você terá a oportunidade de fazer uma autoavaliação de seu perfil profissional e poderá concluir o potencial que você tem para melhorar seu desempenho, sua produtividade, enfim, sua eficácia como Profissional de Vendas. Nas Recomendações serão dadas as instruções para converter este potencial em realidade.</p>
                         <p class="fonte18">Todo Profissional de Vendas apresenta diferentes níveis de excelência nas diversas competências requeridas para obter os melhores resultados.</p>
-                        <p class="fonte18">Este Instrumento é de grande valor para visualizar seu perfil profissional e, portanto, o nível em que se encontram suas competências para Vendas.</p>
+                        <p class="fonte18">Este Instrumento é de grande valor para visualizar seu perfil profissional e portanto, o nível em que se encontram suas competências para Vendas.</p>
                         <p class="fonte18">Os resultados serão muito específicos e objetivos.</p>
                             
 
@@ -44,10 +44,10 @@
                         <div class="col-12">
                             <p class="fonte18"><b>INSTRUÇÕES</b></p>
 
-                            <p class="fonte18">Para responder este Instrumento, você deve autoavaliar em que medida você apresenta cada uma das 19 competências seguintes, relevantes para alcançar suas metas de Vendas.</p>
-                            <p class="fonte18">Procure ser o mais objetivo possível, pois as respostas serão o ponto de partida para um Programa de Desenvolvimento de suas Competências, o qual lhe permitirá alcançar suas metas de Vendas com maior facilidade, e com menor tempo de dedicação (redução do ciclo de venda).</p>
+                            <p class="fonte18">Para responder este Instrumento, você deve autoavaliar em que medida você apresenta cada uma das 19 competências seguintes, relevantes para alcançar suas Metas de Vendas.</p>
+                            <p class="fonte18">Procure ser o mais objetivo possível, pois as respostas serão o ponto de partida para um Programa de Desenvolvimento de suas Competências, o qual lhe permitirá alcançar suas Metas de Vendas com maior facilidade, e com menor tempo de dedicação (redução do Ciclo de Venda).</p>
                             <p class="fonte18">Responda o Questionário de Autoavaliação das Competências de Vendas que apresentamos a seguir.</p>
-                            <p class="fonte18">Antes de preencher o questionário leia atentamente as definições das 19 competências contidas nas perguntas que você responderá.</p>
+                            <p class="fonte18">Antes de preencher o questionário, leia atentamente as definições das 19 competências contidas nas perguntas que você responderá.</p>
 @php
 $table1 = 
 [

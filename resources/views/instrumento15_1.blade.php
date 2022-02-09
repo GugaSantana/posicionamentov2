@@ -128,7 +128,7 @@
 
                         <p class="fonte18">Este é o Instrumento que operacionaliza a terceira etapa das Vendas Consultivas: a etapa da APRESENTAÇÃO dos produtos para seus clientes.</p>
                         <p class="fonte18">Este Instrumento tem por objetivo aumentar significativamente a quantidade e a qualidade de seus argumentos para aumentar seu poder de persuasão e facilitar o processo decisório de seus clientes.</p>
-                        <p class="fonte18">Naturalmente, quanto mais e melhores argumentos de venda você tiver, mais eficaz e produtivo será seu desempenho. Isto porque você estará aumentando seu poder de persuasão e estará influenciando a decisão de compra do cliente.</p>
+                        <p class="fonte18">Naturalmente, quanto mais e melhores Argumentos de Venda você tiver, mais eficaz e produtivo será seu desempenho. Isto porque você estará aumentando seu poder de persuasão e estará influenciando a decisão de compra do cliente.</p>
                         <p class="fonte18">A Metodologia apresenta uma série de Fatores de Argumentação que denominamos de Forças Propulsoras das Vendas.</p>
                         <p class="fonte18">O objetivo deste Instrumento é avaliar o nível de desempenho atual que você apresenta nas Forças Propulsoras das Vendas.</p>
                         <p class="fonte18">Você receberá um relatório com seu nível de desempenho nas Forças Propulsoras e Recomendações específicas lhe serão dadas para que você aumente o número de argumentos disponíveis para vender seus produtos.</p>

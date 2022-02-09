@@ -111,42 +111,42 @@
                     @php
 
                     $grupoA = [
-                        '1. Escrevo listas do que tenho a fazer',
-                        '2. Consigo realizar coisas, desde que as instruções sejam bem detalhadas',
+                        '1. Escrevo listas do que tenho a fazer.',
+                        '2. Consigo realizar coisas, desde que as instruções sejam bem detalhadas.',
                         '3. Gosto de fazer palavras cruzadas e jogar jogos no meu celular.',
-                        '4. Gosto de exposições e museus',
-                        '5. Posso localizar cidades com facilidade, se eu tiver um mapa',
+                        '4. Gosto de exposições e museus.',
+                        '5. Posso localizar cidades com facilidade, se eu tiver um mapa.',
                         '6. Gosto de assistir a filmes e vídeos.',
-                        '7. Tenho uma boa impressão de alguém se estiver bem vestido',
-                        '8. Gosto de observar as pessoas',
-                        '9. Acho que flores, realmente embelezam a casa e o ambiente de trabalho',
-                        '10. Sempre mando consertar os arranhões do meu carro o mais rápido possível'
+                        '7. Tenho uma boa impressão de alguém se estiver bem vestido.',
+                        '8. Gosto de observar as pessoas.',
+                        '9. Acho que flores, realmente embelezam a casa e o ambiente de trabalho.',
+                        '10. Sempre mando consertar os arranhões do meu carro o mais rápido possível.'
                         ];
 
                     $grupoB = [
-                        '1. Gosto de longas conversas',
+                        '1. Gosto de longas conversas.',
                         '2. Gosto de programas de entrevistas no rádio, na TV e nas mídias sociais.',
-                        '3. Sou bom ouvinte',
-                        '4. Prefiro informar-me através dos noticiários de rádio e TV a ler jornais e revistas',
-                        '5. Sinto-me mal quando meu carro faz algum barulho estranho',
-                        '6. Quando ouço música, presto atenção à letra',
-                        '7. Posso dizer muito sobre alguém somente pelo seu tom de voz',
-                        '8. Prefiro fazer uma palestra a escrever sobre o assunto',
-                        '9. As pessoas dizem que, às vezes, falo demais',
-                        '10. Costumo conversar comigo mesmo'
+                        '3. Sou bom ouvinte.',
+                        '4. Prefiro informar-me através dos noticiários de rádio e TV a ler jornais e revistas.',
+                        '5. Sinto-me mal quando meu carro faz algum barulho estranho.',
+                        '6. Quando ouço música, presto atenção à letra.',
+                        '7. Posso dizer muito sobre alguém somente pelo seu tom de voz.',
+                        '8. Prefiro fazer uma palestra a escrever sobre o assunto.',
+                        '9. As pessoas dizem que, às vezes, falo demais.',
+                        '10. Costumo conversar comigo mesmo.'
                         ];
 
                     $grupoC = [
                         '1. Quando ouço música, não consigo deixar de batucar com os pés e as mãos.',
-                        '2. Gosto muito de estar ao ar livre',
-                        '3. Tenho boa coordenação motora',
-                        '4. Gosto de sentir o cheiro das flores',
-                        '5. Gosto de criar animais de estimação',
-                        '6. Toco as pessoas quando falo',
-                        '7. Gosto mais de praticar esportes do que de assistir a eles',
-                        '8. Adoro banho, piscina e/ou sauna',
-                        '9. Gosto de espreguiçar-me com freqüência quando levanto',
-                        '10. Posso dizer muito sobre uma pessoa simplesmente pelo seu aperto de mão'
+                        '2. Gosto muito de estar ao ar livre.',
+                        '3. Tenho boa coordenação motora.',
+                        '4. Gosto de sentir o cheiro das flores.',
+                        '5. Gosto de criar animais de estimação.',
+                        '6. Toco as pessoas quando falo.',
+                        '7. Gosto mais de praticar esportes do que de assistir a eles.',
+                        '8. Adoro banho, piscina e/ou sauna.',
+                        '9. Gosto de espreguiçar-me com freqüência quando levanto.',
+                        '10. Posso dizer muito sobre uma pessoa simplesmente pelo seu aperto de mão.'
                         ];
                     @endphp
 

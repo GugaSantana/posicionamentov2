@@ -146,9 +146,9 @@
                         <p class="fonte18">Responda em que medida você implementa as sete atividades seguintes quando desenvolve Planos de Ação para alcançar seus Objetivos de Vendas.</p>
                         <p class="fonte18">Na escala seguinte de 10 graus são definidas as posições extremas 1 e 10, onde:</p>
 
-                        <p class="fonte18">1: (Eu não levo em consideração esta atividade); e<br>
+                        <p class="fonte18">1: (Eu não levo em consideração esta atividade);<br>e<br>
                         10: (Eu defino e implemento corretamente esta atividade quando desenvolvo um Plano de Ação).</p>
-                        <p class="fonte18">Leve em consideração essas duas definições extremas e coloque um (X) no intervalo da escala que melhor representa como você age, em relação a cada uma das 7 atividades quando elabora um Plano de Ação na área de Vendas.</p>
+                        <p class="fonte18">Leve em consideração essas duas definições extremas e coloque um (X) no intervalo da escala que melhor representa como você age em relação a cada uma das 7 atividades quando elabora um Plano de Ação na área de Vendas.</p>
 
                         @php
                             $questions = [

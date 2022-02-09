@@ -177,7 +177,7 @@ Exemplo: "você pagará em dinheiro ou com cartão?”, "o cadastro será em seu
 <br>
 Eu crio "senso de urgência" no cliente, do tipo agora ou nunca, porque o ser humano é muito motivado pelo medo de perder.
 <br>
-Eu mostro os prejuízos que lhe podem acontecer ao cliente se no fecha a compra agora.
+Eu mostro os prejuízos que podem acontecer ao cliente se ele não fechar a compra agora.
 <br>
 Exemplo: “o estoque está acabando e você não poderá se beneficiar da utilização do produto.”'
 ],[
@@ -202,7 +202,7 @@ Exemplo: "vamos experimentar o produto, nada mais prático para decidir!"'
 Exemplo: "valor é benefício menos custo e não tenho dúvidas que os benefícios que você terá supera em muito o preço que você pagará!"'
 ],[
 '8- FECHAMENTO EXPERIMENTAL',
-'Para fechar, apresento primeiro o produto mais caro, depois um produto cujo preço é meu objetivo da venda, e se houver resistência, finalmente apresento uma opção mais barata, para que a compra aconteça.
+'Para fechar, apresento primeiro o produto mais caro e depois um produto cujo preço é meu objetivo da venda e se houver resistência, finalmente apresento uma opção mais barata para que a compra aconteça.
 <br>
 Exemplo: "você fez a melhor opção e ficará muito satisfeito com a compra!"'
 ],[
@@ -217,9 +217,9 @@ Exemplo: "sendo assim, quando posso lhe entregar o produto?"'
 Exemplo: "você tem alguma dúvida que meu produto não resolveria sua necessidade?"'
 ],[
 '11- FECHAMENTO POR SINAIS DE LINGUAGEM CORPORAL',
-'Para fechar a venda, eu escuto ativamente e observo sinais e gestos para perceber se o cliente está realmente interessado em comprar o produto que lhe estou oferecendo.
+'Para fechar a venda eu escuto ativamente e observo sinais e gestos para perceber se o cliente está realmente interessado em comprar o produto que estou oferecendo.
 <br>
-Exemplo: "utilizando as técnicas do Gerenciamento de Campo Psicológico, observo o comportamento do cliente e então, no momento oportuno, passo a utilizar algumas das outras 11 técnicas apresentadas.'
+Exemplo: "utilizando as técnicas do <b>Gerenciamento de Campo Psicológico</b>, observo o comportamento do cliente e então, no momento oportuno, passo a utilizar algumas das outras 11 técnicas apresentadas.'
 ],[
 '12- FECHAMENTO NATURAL',
 'Eu conduzo a reunião focado nas técnicas de Vendas Consultivas e o fechamento é tão natural que parece que “eu não vendo” e sim que o “cliente compra”.'

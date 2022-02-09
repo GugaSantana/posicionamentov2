@@ -78,13 +78,13 @@
 
 <p>- Você fará a <b>Autogestão da Metodologia</b> através de uma planilha que permitirá registrar e gerenciar o avanço na assimilação da Metodologia.</p>
 
-<p>Temos consciência que, implementar as Recomendações para melhorar os resultados do seu Diagnóstico, em alguns casos, pode não ser algo simples.</p>
+<p>Temos consciência que implementar as Recomendações para melhorar os resultados do seu Diagnóstico pode, em alguns casos, não ser algo simples.</p>
 
 <p>Talvez esta seja a primeira vez que você realizará um trabalho realmente analítico e instrumental para desenvolver suas Competências, com método e com técnicas valiosas, tendo por objetivo melhorar o resultado do seu trabalho e aumentar o seu faturamento.</p>
 
 <p>As Recomendações podem requerer um mínimo de esforço para compreendê-las e a seguir, implementá-las.</p>
 
-<p>Se você aceitar este fato, você será extraordinariamente recompensado pela implementação esta Metodologia.</p>
+<p>Se você aceitar este fato, você será extraordinariamente recompensado pela implementação desta Metodologia.</p>
 
 <p>No final, você comprovará os resultados no seu próprio bolso!</p>
 

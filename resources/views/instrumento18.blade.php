@@ -83,12 +83,12 @@
                         </h4>
 
                         <p class="fonte18">Este é o primeiro dos três Instrumentos que foram desenvolvidos para que você possa Gerenciar de maneira profissional as etapas das Vendas Consultivas, que lhe foram transferidas na etapa anterior da Metodologia.</p>
-                        <p class="fonte18">O Funil de Vendas é um modelo e uma técnica que acompanha as fases da jornada do cliente, desde o primeiro contato com ele, até o Fechamento da Venda.</p>
+                        <p class="fonte18">O Funil de Vendas é um modelo e uma técnica que acompanha as fases da jornada do cliente, desde o primeiro contato com ele até o Fechamento da Venda.</p>
                         <p class="fonte18">Reconhecidamente, o Funil de Vendas é a técnica mais eficaz para gerenciar o processo de Vendas Consultivas.</p>
-                        <p class="fonte18">Ele permite acompanhar e gerenciar por objetivos, o Processo da Venda, ao longo das cinco etapas das Vendas Consultivas:</p>
+                        <p class="fonte18">Ele permite acompanhar e gerenciar por objetivos o Processo da Venda, ao longo das cinco etapas das Vendas Consultivas:</p>
                         <p class="fonte18" style="color: #35408f; font-size: 21px">PROSPECÇÃO – QUALIFICAÇÃO – APRESENTAÇÃO – NEGOCIAÇÃO – FECHAMENTO</p>
-                        <p class="fonte18">Para todas estas 5 etapas, foram apresentados Instrumentos nesta Metodologia.</p>
-                        <p class="fonte18">O Funil vai se estreitando, na medida em que avançamos de uma etapa para a seguinte, até chegar ao Fechamento e, portanto, à realização da Venda.</p>
+                        <p class="fonte18">Para todas estas 5 etapas foram apresentados Instrumentos através da Metodologia.</p>
+                        <p class="fonte18">O Funil vai se estreitando na medida em que avançamos de uma etapa para a seguinte, até chegar ao Fechamento e portanto, à realização da Venda.</p>
 
                        
                         <!-- <center><img src="../img/inst5_1.png"></center> -->
@@ -102,8 +102,8 @@
                         <p class="fonte18">Você deve responder este Instrumento avaliando percentualmente os índices de avanço atual dos Clientes Potenciais, ao longo das 5 etapas da Venda Consultiva.</p>
                         <p class="fonte18">Chamamos este índice de Avanço da Taxa de Conversão.</p>
                         <p class="fonte18">O Instrumento consiste em definir qual é seu nível atual de Conversão (Taxa de Conversão), ou seja, o percentual de passagem dos Clientes Potenciais de uma etapa da venda para outra.</p>
-                        <p class="fonte18">No quadro a seguir, no qual você registrará suas respostas, apresenta um exemplo que ilustra como se deve proceder para preencher o Instrumento.</p>
-                        <p class="fonte18">Para isto, defina e registre no quadro, conforme sua prática atual, que percentual de Clientes Potenciais avança de uma etapa para a seguinte do Funil.</p>
+                        <p class="fonte18">No quadro a seguir, no qual você registrará suas respostas, apresentamos um exemplo que ilustra como se deve proceder para preencher o Instrumento.</p>
+                        <p class="fonte18">Para isto, você deve definir e registrar no quadro abaixo, conforme sua prática atual, que percentual de Clientes Potenciais avança de uma etapa para a seguinte do Funil.</p>
                         <p class="fonte18">O exemplo que apresentamos lhe permitirá compreender plenamente como responder.</p>
                         <p class="fonte18">Imaginemos que os índices de conversão de cada etapa sejam os seguintes:</p>
                         <p class="fonte18">- 40% das prospecções se tornam Clientes Potenciais.</p>

@@ -134,10 +134,10 @@
                             <p class="fonte18">Com este Instrumento chegamos ao final da Metodologia.</p>
                             <p class="fonte18">É o terceiro Instrumento da série para você fazer a Gestão de Vendas Consultivas.</p>
                             <p class="fonte18">Ele complementa o Instrumento anterior (Planos de Ação Quantitativos) e representa o mecanismo para garantir que seus Planos de Ação efetivamente se realizem.</p>
-                            <p class="fonte18">Partimos do princípio de que “o que não se pode medir não se pode gerenciar”.</p>
+                            <p class="fonte18">Partimos do princípio de que <b>“o que não se pode medir não se pode gerenciar”</b>.</p>
                             <p class="fonte18">Este é o princípio básico e fundamental para uma Gestão Profissional da Atividade de Vendas.</p>
                             <p class="fonte18">O Relatório do Progresso é o Instrumento desenvolvido para atender este princípio.</p>
-                            <p class="fonte18">Este Instrumento constitui o sistema de controle e ajuste, para que você acompanhe o andamento do Plano de Ação do Instrumento 19 e é fundamental para alcançar suas Metas de Vendas.</p>
+                            <p class="fonte18">Este Instrumento constitui o sistema de controle e ajuste para que você acompanhe o andamento do Plano de Ação do Instrumento 19 e é fundamental para alcançar suas Metas de Vendas.</p>
                     </div>
                     <br>
                     <div class="col-12">
@@ -146,11 +146,11 @@
 
                         <p class="fonte18">Para saber como hoje você lida com as cinco atividades do Relatório do Progresso, responda em que medida você realiza cada uma das atividades desse Instrumento.</p>
                         <p class="fonte18">O Relatório do Progresso foi desenvolvido para avaliar o progresso de seu Plano de Ação (Instrumento 19 da Metodologia).</p>
-                        <p class="fonte18">Na escala seguinte, são definidos três pontos e partindo de suas definições, coloque um (X) no intervalo da escala que melhor representa como você trabalha cada uma das 5 atividades do Relatório do Progresso.</p>
+                        <p class="fonte18">Na escala seguinte são definidos três pontos e partindo de suas definições, coloque um (X) no intervalo da escala que melhor representa como você trabalha cada uma das 5 atividades do Relatório do Progresso.</p>
 
                         <p class="fonte18">ESCALA:</p>
 
-                        <p class="fonte18" style="margin-left: 2%">- <b>1:</b> Eu não levo em consideração esta atividade</p>
+                        <p class="fonte18" style="margin-left: 2%">- <b>1:</b> Eu não levo em consideração esta atividade.</p>
 
                         <p class="fonte18" style="margin-left: 2%">- <b>3:</b> No máximo, faço esta atividade de maneira intuitiva, sem maiores referências técnicas.</p>
 
@@ -158,7 +158,7 @@
 
                         @php
                             $questions = [
-                                '<b>1 – Planejado:</b> Em que medida eu levo em conta o que foi planejado como ponto de partida para medir o progresso do meu trabalho (o que foi planejado corresponde a atividade 1 do Instrumento 19)?',
+                                '<b>1 – Planejado:</b> Em que medida eu levo em conta o que foi planejado como ponto de partida para medir o progresso do meu trabalho? (o que foi planejado corresponde a atividade 1 do Instrumento 19)',
                                 '<b>2 – Executado:</b> Avalio com objetividade o que já foi executado do Plano de Ação apresentado no Instrumento 19?',
                                 '<b>3 – Resultados:</b> Posso apresentar os resultados até agora alcançados de maneira objetiva e fundamentada?',
                                 '<b>4 – Pontos Problemáticos:</b> Tenho conhecimento de quais são os problemas (desvios de causa desconhecida) que hoje apresenta meu Plano de Ação?',

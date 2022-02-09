@@ -294,7 +294,7 @@
                             <br>
                             
                             <p class="fonte18"><b>6 – Concorrência</b></p>
-                            <p class="fonte18">A concorrência nestes clientes, como fator que complica o processo de Vendas é:</p>
+                            <p class="fonte18">A concorrência nestes clientes, como fator que complica o Processo de Vendas é:</p>
 
                             <!-- Questionário 6 -->
                             <div class="row">

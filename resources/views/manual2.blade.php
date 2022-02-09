@@ -82,7 +82,7 @@
 			<td>
 			1 - Meu Nível de Empreendedorismo<br>
 			2 - Meus problemas prioritários para Aumentar as Vendas<br>
-			3 - Meu perfil como profissional de vendas<br>
+			3 - Meu perfil como Profissional de Vendas<br>
 			4 - Meu conhecimento da linha de produtos que vendo<br>
 			5 - Meu conhecimento dos produtos concorrentes<br>
 			6 - Matriz para aumentar minha Produtividade nas Vendas<br>
@@ -130,7 +130,7 @@
 			4 - Aumento da Eficácia da Apresentação para os clientes
 			</td>
 			<td>
-			15 - Desenvolvimento da Quantidade e Qualidade dos meus argumentos de vendas (Forças Propulsoras)
+			15 - Desenvolvimento da Quantidade e Qualidade dos meus Argumentos de Vendas (Forças Propulsoras)
 			</td>
 		</tr>
 		<tr>
@@ -146,7 +146,7 @@
 			6 - Aumento da Eficácia do Fechamento das Vendas
 			</td>
 			<td>
-			17 - Técnicas de Fechamento de vendas
+			17 - Técnicas de Fechamento de Vendas
 			</td>
 		</tr>
 		<tr>
@@ -154,9 +154,9 @@
 			<strong>C - A GESTÃO DAS VENDAS UTILIZANDO ESTA METODOLOGIA</strong>
 			</td>
 			<td>
-			18 - O Funil de Vendas, com objetivos e m&eacute;tricas de avan&ccedil;o.&nbsp;<br>
-			19 - Planos de A&ccedil;&atilde;o quantitativos&nbsp;para&nbsp;alcan&ccedil;ar as metas de vendas<br>
-			20 - O Relat&oacute;rio de Progresso
+			18 - O Funil de Vendas, com objetivos e métricas de avanço<br>
+			19 - Planos de Ação quantitativos para alcançar as Metas de Vendas<br>
+			20 - O Relatório de Progresso
 
 			</td>
 		</tr>
