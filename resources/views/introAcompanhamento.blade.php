@@ -170,37 +170,54 @@
       <p><b>2- CADASTRAMENTO NO ChatGPT</b></p>
       <p>Para se cadastrar no ChatGPT você deve entrar no site da empresa OpenAI. Siga os seguintes passos:</p>
 
-      <p><b>2.1 – Entre na internet e digite o endereço:</b></p>
-      <p><a href="https://chat.openai.com/auth/login" targe="_blank">https://chat.openai.com/auth/login</a></p>
+      <p><b>2.1 – Clique no link abaixou para acessar o site:</b></p>
+      <p><a href="https://chat.openai.com/auth/login" target="_blank">https://chat.openai.com/auth/login</a></p>
       <p>e então você entrará na tela abaixo com duas alternativas: <br>
       <b>Conecte-se</b> ou <b>Inscrever-se</b><br>
       Se a tela estiver em inglês, clique em “Login”, caso já tenha cadastro na plataforma, ou em “Sign up”, para criar uma conta.
       <br>Use o recurso do seu computador para traduzir ao português.</p>
 
-      <h1>IMAGEM AQUI DA TELA DE LOGIN</h1>
+      <div style="text-align: center; border: 6px double #0f9e7b;">
+        <img src="{{ asset('img/chatgpt/1.png') }}" alt="">
+      </div>
 
       <br>
-      <p><b>2.2 – Conectar-se ou Inscrever-s</b></p>
-      <p>Se você está entrando pela primeira vez no ChatGPT, clique em <b>Inscrever-se</b> e será direcionado para uma página na qual deverá criar uma conta, o que poderá ser feito através de uma conta que você já tenha do google/gmail, Microsoft ou Apple ou criar uma conta própria na plataforma.</p>
+      <p><b>2.2 – Conectar-se ou Inscrever-se</b></p>
+      <p>Se você está entrando pela primeira vez no ChatGPT, clique em <b>Inscrever-se (Sign up)</b> e será direcionado para uma página na qual deverá criar uma conta, o que poderá ser feito através de uma conta que você já tenha do google/gmail, Microsoft ou Apple ou criar uma conta própria na plataforma.</p>
 
-      <h1>IMAGEM AQUI DA TELA DE CRIAÇÃO DE CONTA</h1>
+      <div style="text-align: center; border: 6px double #0f9e7b;">
+        <img src="{{ asset('img/chatgpt/2.png') }}" alt="">
+      </div>
+      <br>
 
       <p>Escolha sua opção e siga os passos que forem sendo apresentados.</p>
-      <p>O sistema vai apresentar a tela “Fale nos sobre você “ (Tell us about you) onde irá pedir o seu nome/sobrenome.</p>
+      <p>O sistema vai apresentar a tela “Fale nos sobre você “ (Tell us about you) onde irá pedir o seu nome/sobrenome e data de nascimento.</p>
 
-      <h1>IMAGEM AQUI DA TELA DE NOME E SOBRENOME</h1>
+      <div style="text-align: center; border: 6px double #0f9e7b;">
+        <img src="{{ asset('img/chatgpt/3.png') }}" alt="">
+      </div>
+      <br>
 
       <p>Continuando, o sistema pedirá seu número de telefone para validação. Escreva seu número de telefone e clique em “Enviar Código” e você receberá um código por SMS.</p>
 
-      <h1>IMAGEM AQUI DA TELA DE VERIFICAR TELEFONE</h1>
+      <div style="text-align: center; border: 6px double #0f9e7b;">
+        <img src="{{ asset('img/chatgpt/4.png') }}" alt="">
+      </div>
+      <br>
 
       <p>Após receber o código em SMS no seu celular, coloque-o no site do ChatGPT</p>
 
-      <h1>IMAGEM AQUI DA TELA DE INSERIR O CODIGO</h1>
+      <div style="text-align: center; border: 6px double #0f9e7b;">
+        <img src="{{ asset('img/chatgpt/5.png') }}" alt="">
+      </div>
+      <br>
 
       <p>Na sequência vai aparecer um pequeno tutorial (3 telas abaixo) do próprio ChatGPT sobre como funciona e alguns avisos são dados (This is a free research preview) é só clicar em “próximo” e seguir em frente</p>
 
-      <h1>IMAGEM AQUI DA TELA DE INICIO COM OS AVISOS</h1>
+      <div style="text-align: center; border: 6px double #0f9e7b;">
+        <img src="{{ asset('img/chatgpt/6.png') }}" alt="" style="max-width: 100%;">
+      </div>
+      <br>
 
       <p><font style="color: #35408f;">Pronto! A sua conta no ChatGPT estará ativa.</font></p>
 
@@ -210,7 +227,10 @@
       <p>Após o cadastramento você terá acesso a tela abaixo que é a principal página do ChatGPT</p>
       <p>É nesta tela que você fará suas pesquisas para elaborar os Planos de Ação do TOPSELLER.</p>
 
-      <h1>IMAGEM AQUI DA TELA DE CHAT COM OS NUMEROS PARA DESCRIÇÃO</h1>
+      <div style="text-align: center; border: 6px double #0f9e7b;">
+        <img src="{{ asset('img/chatgpt/7.png') }}" alt="" style="max-width: 100%;">
+      </div>
+      <br>
 
       <p>(1) – No rodapé da página apresenta um campo onde você formulará (digitará) suas perguntas.<br>
       Na mesma pesquisa você pode formular quantas perguntas forem necessárias para atender suas necessidades de informação sobre o assunto. Aguarde as respostas do ChatGPT. Dê um tempo, eventualmente, por uma questão de trafego a resposta pode não ser instantânea. A partir dos resultados obtidos você estará em condições de formular seu <b>Plano de Ação</b> e de levar à pratica (implementar) as <b>Recomendações</b> feitas nos instrumentos<br>
