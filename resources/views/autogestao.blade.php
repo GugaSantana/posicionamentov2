@@ -112,11 +112,10 @@ $inst = [
 
 @php
 $titles = [
-	'A - Analisei e estudei o Diagnóstico e as Recomendações deste Instrumento.',
-	'B - Desenvolvi o Plano de Ação (PA) para implementar as Recomendações deste Instrumento.',
-	'C - Comecei a implementar as Recomendações deste Instrumento.',
-	'D - Estou implementando as Recomendações deste Instrumento.',
-	'E - Concluí a implementação das Recomendações deste Instrumento. Sinto que tenho novas Competências.'
+	'<b>ETAPA A</b><br>Analisei e estudei o Diagnóstico e as Recomendações deste Instrumento.',
+	'<b>ETAPA B</b><br>Desenvolvi o Plano de Ação (PA) para implementar as Recomendações deste Instrumento.',
+	'<b>ETAPA C</b><br>Estou implementando as Recomendações deste Instrumento.',
+	'<b>ETAPA D</b><br>Concluí a implementação das Recomendações deste Instrumento.'
 	];
 @endphp
 
@@ -128,9 +127,9 @@ $titles = [
 										<p><strong>INSTRUMENTOS</strong></p>
 									</td>
 
-									@for($i = 0; $i < 5; $i++)
+									@for($i = 0; $i < 4; $i++)
 									<td style="vertical-align: middle; text-align: center">
-										<p">{{$titles[$i]}}</p>
+										<p>{!! $titles[$i] !!}</p>
 									</td>
 									@endfor
 								</tr>
@@ -184,7 +183,7 @@ $titles = [
 												@endif
 											@endif
 									</td>
-									<td id="E{{$i}}" style="text-align: center;vertical-align: middle;">
+									{{-- <td id="E{{$i}}" style="text-align: center;vertical-align: middle;">
 									@if($autogestao->where('d', true)->contains('instrumento', $i+1))
 												@if($autogestao->where('e', false)->contains('instrumento', $i+1))
 												<p><a href="/planoacao/{{$i+1}}"><img src="../posicionamento/public/img/book-pa.png" style="width: 40%; cursor: pointer; margin-right: 2%" /></a>
@@ -194,7 +193,7 @@ $titles = [
 												<img src="../posicionamento/public/img/check.png" style="width: 20%;">
 												@endif
 											@endif
-									</td>
+									</td> --}}
 								</tr>
 								@endif
 								@endfor

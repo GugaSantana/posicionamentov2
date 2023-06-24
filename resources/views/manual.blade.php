@@ -46,7 +46,7 @@
 
 <h2 style="color: #35408f;text-align: center;margin-top: 10%;">GUIA DO PROGRAMA TOP SELLER</h2>
 <br>
-<p>O objetivo deste Guia é que você tenha uma visão clara do contexto no qual se situam os 20 Instrumentos da Metodologia que você vai responder.</p>
+<p>O objetivo deste Guia é que você tenha uma visão clara do contexto no qual se situam os 20 Instrumentos da Metodologia que você vai aplicar.</p>
 <p>O guia está composto por estas quatro seções:</p>
 
 <br>

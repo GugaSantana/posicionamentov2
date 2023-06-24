@@ -186,24 +186,35 @@
     }
 
     table {
-table-layout: fixed;
-}
+      table-layout: fixed;
+    }
 
-td.resize-col {
-    padding: 0;
-    vertical-align: middle;
-    cursor: col-resize;
-    user-select: none;
-    background-color: #f5f5f5;
-    color: #a9a9a9;
-  }
-  .resize-width {
-    display: flex;
-    vertical-align: middle;
-    height: 100%;
-  }
+    td.resize-col {
+      padding: 0;
+      vertical-align: middle;
+      cursor: col-resize;
+      user-select: none;
+      background-color: #f5f5f5;
+      color: #a9a9a9;
+    }
+
+    .resize-width {
+      display: flex;
+      vertical-align: middle;
+      height: 100%;
+    }
+
     .resize-width i{
       transform: rotate(90deg);
+    }
+
+    .zoom {
+      transition: transform 0.3s ease;
+    }
+
+    .zoom:hover {
+      transform: scale(1.05);
+      cursor: pointer;
     }
     
   </style>
@@ -235,9 +246,18 @@ td.resize-col {
             {!! csrf_field() !!}
 
           @if($instrumento[0] != 19)
-            <div class="row">
-              <div class="title" style="text-align: center"><p>PLANO DE AÇÃO PARA IMPLANTAR AS RECOMENDAÇÕES</p></div>
+          <div class="row">
+            <div class="title" style="text-align: center">
+              <p style="display: inline-block;">PLANO DE AÇÃO PARA IMPLANTAR AS RECOMENDAÇÕES</p>
             </div>
+            <a href="/chatgpt" target="_blank" style="float:right;">
+              <img src="{{ asset('img/chatgpt/button_tutorial.png') }}" alt="" style="width: 60px; display: inline-block; margin-right: 10px;" class="zoom">
+            </a>
+            <a href="https://chat.openai.com/auth/login" target="_blank" style="float:right;">
+              <img src="{{ asset('img/chatgpt/button_chatgpt.png') }}" alt="" style="width: 60px; display: inline-block; margin-right: 10px;" class="zoom">
+            </a>
+          </div>
+          
             
             <br>
             <!-- 1 -->

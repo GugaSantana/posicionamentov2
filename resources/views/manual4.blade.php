@@ -54,42 +54,24 @@
 <br>
 
 
-<p>A Metodologia cumpre a seguinte série de atividades para a sua implementação:</p>
-
-<p>- Você responderá os 20 Instrumentos por meio digital (internet, smartphone) para poder realizar seus Diagnósticos.</p>
-
-<p>- Os resultados dos Instrumentos aplicados serão processados pela <b>Posicionamento Consultoria</b>, conforme princípios técnicos da Metodologia.</p>
-
+<p>A Metodologia será desenvolvida através das atividades:</p>
+<p>- Você responderá os 20 Instrumentos por meio digital (internet, smartphone) para contribuir com as informações necessárias para poder realizar seus Diagnósticos.</p>
+<p>- Os resultados dos Instrumentos aplicados serão processados pela <b>Posicionamento Consultores de Empresas</b>, conforme os princípios técnicos da Metodologia.</p>
 <p>- Você receberá um relatório para cada um dos 20 Instrumentos contendo:</p>
-
 <p>- Os Conceitos para contextualizar o Instrumento no processo de Vendas Consultivas.</p>
-
 <p>- Um Gráfico dos Resultados de suas respostas.</p>
-
 <p>- Um Diagnóstico que interpreta o Gráfico dos Resultados.</p>
-
-<p>- Recomendações específicas e personalizadas, que lhe permitirão elaborar um Plano de Ação para desenvolver as Competências do tema abordado por cada Instrumento.</p>
-
-<p>- Serão disponibilizados para você responder 2 Instrumentos por semana, portanto a Metodologia lhe será integralmente transferida em 2 meses e meio.</p>
-
-<p>Após o envio à <b>Posicionamento Consultoria</b> das respostas do Instrumento que lhe foi enviado, você receberá o próximo Instrumento da Metodologia.</p>
-
-<p>Este intervalo foi estabelecido para não precipitar a implementação da Metodologia e para garantir sua melhor assimilação.</p>
-
+<p>- Recomendações específicas e personalizadas, que lhe permitirão elaborar um Plano de Ação com o suporte da Inteligência Artificial para desenvolver as Competências do tema abordado por cada Instrumento.</p>
 <p>- Você fará a <b>Autogestão da Metodologia</b> através de uma planilha que permitirá registrar e gerenciar o avanço na assimilação da Metodologia.</p>
-
-<p>Temos consciência que implementar as Recomendações para melhorar os resultados do seu Diagnóstico pode, em alguns casos, não ser algo simples.</p>
-
-<p>Talvez esta seja a primeira vez que você realizará um trabalho realmente analítico e instrumental para desenvolver suas Competências, com método e com técnicas valiosas, tendo por objetivo melhorar o resultado do seu trabalho e aumentar o seu faturamento.</p>
-
-<p>As Recomendações podem requerer um mínimo de esforço para compreendê-las e a seguir, implementá-las.</p>
-
+<p>Temos consciência que implementar as Recomendações para melhorar os resultados do seu Diagnóstico através dos Planos de Ação pode, em alguns casos, não ser algo simples.</p>
+<p>Para facilitar e, ao mesmo tempo, obter máxima eficácia nos resultados, você utilizará técnicas de Inteligência Artificial.</p>
+<p>Na Autogestão da Metodologia se apresentarão as orientações, passo a passo, para habilitá-lo a utilizar os instrumentos de Inteligência Artificial que foram incorporados ao TOPSELLER.</p>
+<p>Talvez esta seja a primeira vez que você realizará um trabalho realmente analítico e instrumental para desenvolver suas Competências em Vendas, com método e com técnicas valiosas e de vanguarda mundial, tendo por objetivo melhorar o resultado do seu trabalho e aumentar o seu faturamento.</p>
+<p>As análises das Recomendações podem requerer atenção para compreendê-las e a seguir, implementá-las.</p>
 <p>Se você aceitar este fato, você será extraordinariamente recompensado pela implementação desta Metodologia.</p>
-
 <p>No final, você comprovará os resultados no seu próprio bolso!</p>
-
-<p>Algumas Recomendações são mais simples do que outras, assim como alguns remédios são menos amargos do que outros. Mas se seu objetivo é a CURA, todos os remédios indicados serão bem-vindos e apreciados.</p>
-
+<p>Algumas Recomendações são mais simples do que outras para serem implementadas, assim como alguns remédios são menos amargos do que outros. Mas se seu objetivo é a CURA, todos os remédios indicados serão bem-vindos e apreciados.</p>
+<p>Você contará com a inestimável ajuda da Inteligência Artificial para facilitar seu trabalho e melhorar significativamente seus resultados.</p>
 <p>Esta Metodologia mudará sua prática profissional e o habilitará a implementar as Vendas Consultivas e desenvolver sua Produtividade de maneira objetiva e mensurável.</p>
 
 <center><p style="color: #35408f">DESEJAMOS SUCESSO NESTA NOVA ETAPA DE SUA VIDA<br>

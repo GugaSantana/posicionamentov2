@@ -61,7 +61,7 @@
 <br>
 
 <p>Apresentamos a seguir, a Estrutura da Metodologia que lhe será transferida.</p>
-<p>Mostrar a Estrutura da Metodologia de maneira gráfica no começo deste documento é importante para você visualizar as etapas da Metodologia. É onde se situam os Instrumentos que integram esta Metodologia e que vão lhe transferir à distância, as Competências exigidas para implementar as Vendas Consultivas.</p>
+<p>Mostrar a Estrutura da Metodologia de maneira gráfica neste começo do Programa é importante para você contextualizar os Instrumentos que integram esta Metodologia e através dos quais lhe será transferida à distância, as Competências exigidas para implementar as Vendas Consultivas.</p>
 
 <br>
 <div class="table-responsive">
@@ -169,7 +169,7 @@
 <!-- <center><h3 style="color: #35408f">CONTRIBUIÇÃO DOS INSTRUMENTOS DA METODOLOGIA PARA SUA VIDA PESSOAL<h3></center> -->
 
 
-<p>Nove dos 20 Instrumentos, portanto 45% deles, contribuem também para o seu Desenvolvimento Pessoal, não apenas profissional. Isto porque suas contribuições você poderá utilizar para atender outros interesses além dos interesses profissionais.</p>
+<p>Nove dos 20 Instrumentos, portanto 45% deles, contribuem também para o seu Desenvolvimento Pessoal, não apenas profissional. Isto porque você poderá utilizar suas contribuições para atender outros interesses além dos interesses profissionais.</p>
 
 <br>
 <!--

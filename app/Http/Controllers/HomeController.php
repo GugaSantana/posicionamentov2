@@ -359,6 +359,10 @@ class HomeController extends Controller
     public function introAcompanhamento(){
         return view('introAcompanhamento');
     }
+    public function chatgpt(){
+        return view('chatgpt');
+    }
+
     public function autogestao($instrum = null){
         // dd($inst);
         $instrumentosFinalizados = Auth::user()->getInstrumentos();
