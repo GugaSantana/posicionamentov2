@@ -39,7 +39,7 @@
       }
     </script>
 
-    <!-- Google tag (gtag.js) -->
+    <!-- Google tag (gtag.js) Ads -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11264814598"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
@@ -47,6 +47,17 @@
       gtag('js', new Date());
 
       gtag('config', 'AW-11264814598');
+    </script>
+
+
+    <!-- Google tag (gtag.js) Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ED58Z8HKFD"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-ED58Z8HKFD');
     </script>
 
     @yield('site.js')
