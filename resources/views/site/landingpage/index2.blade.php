@@ -23,12 +23,24 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="left-content">
-                                    <h4>COMO ESTÁ ORGANIZADO O <font style="color: #ffde66">TOPSELLER</font></h4>
+                                    
+                                    <div class="row">
+                                        <div class="col-6" style="align-self: center;">
+                                            <h4 class="text-right">COMO ESTÁ ORGANIZADO O <font style="color: #ffde66">TOPSELLER</font></h4>
+                                            </h4>
 
-                                    <p class="mt-4"> O <font style="color: #ffde66">TOPSELLER</font> está constituído por 20 instrumentos quantitativos e analíticos que você responderá pela internet </p>
+                                            <p class="mt-4"> O <font style="color: #ffde66">TOPSELLER</font> está constituído por 20 instrumentos quantitativos e analíticos que você responderá pela internet </p>
 
-                                    <p>Os 20 instrumentos seguem uma sequência lógica.<br>
-                                        Você vai montar um quebra-cabeças de facílima compreensão.</p>
+                                            <p>Os 20 instrumentos seguem uma sequência lógica.<br>
+                                            Você vai montar um quebra-cabeças de facílima compreensão.</p>
+                                        </div>
+                                        <div class="col-6" style="align-self: center;">
+                                            <img src="{{ asset('images/logo_topseller.png') }}" alt="" style="width: 10em; margin-top: -16em;">
+                                            <img src="{{ asset('images/landingpage-img-1.png') }}" alt="" style="width: 20em; border-radius: 1em;">
+                                        </div>
+                                    </div>
+
+                                    
 
                                     <p>Através de questionários, matrizes, escalas e outros meios você apresentará as informações necessárias para realizar seu diagnóstico das 20 competências de vendas essenciais para a nova realidade do mercado, receberá as Recomendações de melhoria personalizadas e também receberá os modelos de Planos de Ação para melhorar as 20 competências, além de aprender a utilizar a Inteligência Artificial para ajudá-lo na elaboração destes Planos.</p>
                                     <p>Tudo num formato extremamente simples.</p>
@@ -106,15 +118,15 @@
                                     
                                     <h4 class="mb-4">.....e passando por todas as etapas do <font style="color: #ffde66">TOPSELLER</font> Você será imbatível</h4>
 
-                                    (((IMAGEM)))
+                                    <img src="{{ asset('images/landingpage-img-5.png') }}" alt="" style="width: 100%; border-radius: 1em;">
 
-                                    <p>SE VOCÊ <font style="color: green">QUER</font> AUMENTAR SEU FATURAMENTO E FAZ SEU TRABALHO DO MESMO JEITO QUE SEMPRE FEZ...</p>
+                                    <p class="mt-4">SE VOCÊ <font style="color: green">QUER</font> AUMENTAR SEU FATURAMENTO E FAZ SEU TRABALHO DO MESMO JEITO QUE SEMPRE FEZ...</p>
 
                                     <h4 class="mb-4">NUNCA ALCANÇARÁ SEUS SONHOS ....... <font style="color: green">AUMENTE SEUS GANHOS, FAÇA DIFERENTE....</font></h4>
 
-                                    (((IMAGEM)))
+                                    <center><img src="{{ asset('images/landingpage-img-6.png') }}" alt="" style="width: 50%; border-radius: 1em;"></center>
                                     
-                                    <center><button type="button" class="btn btn-danger btn-bigger" data-toggle="modal" data-target="#cadastroModal">QUERO COMPRAR</button></center>
+                                    <center><button type="button" class="btn btn-danger btn-bigger mt-4" data-toggle="modal" data-target="#cadastroModal">QUERO COMPRAR</button></center>
                                 </div>
                             </div>
                         </div>

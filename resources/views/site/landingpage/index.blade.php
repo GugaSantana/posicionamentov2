@@ -27,8 +27,18 @@
                                     <h4 class="text-center">DOMINE AS MELHORES E MAIS MODERNAS FERRAMENTAS DE VENDAS E FIQUE
                                         RICO</h4>
 
-                                    <h4 class="text-center mt-4">Descubra o <font style="color: #ffde66">TOPSELLER</font>
-                                    </h4>
+                                    <div class="row">
+                                        <div class="col-6" style="align-self: center;">
+                                            <h4 class="text-right mt-4">Descubra o <font style="color: #ffde66">TOPSELLER</font>
+                                            </h4>
+                                        </div>
+                                        <div class="col-6" style="align-self: center;">
+                                            <img src="{{ asset('images/logo_topseller.png') }}" alt="" style="width: 10em">
+                                            <img src="{{ asset('images/landingpage-img-1.png') }}" alt="" style="width: 20em; border-radius: 1em;">
+                                        </div>
+                                    </div>
+
+
 
                                     <p class="text-center mt-4">Você conhecerá técnicas surpreendentes para aumentar sua
                                         receita....</p>
@@ -82,7 +92,7 @@
                             </div>
                             <div class="col-md-6 align-self-center">
                                 <div class="right-image">
-                                    <img src="{{ asset('images/slide1.png') }}" alt="">
+                                    <img src="{{ asset('images/landingpage-img-2.png') }}" alt="" style="width: 100%; border-radius: 1em;">
                                 </div>
                             </div>
                         </div>
@@ -157,7 +167,7 @@
                                     <h4 class="text-center mb-4" style="color: #ffde66">Vendas Transacionais</h4>
                                     <p class="text-center" style="color: green">OFERTA MENOR - DEMANDA MAIOR</p>
 
-                                    <img src="{{ asset('images/slide1.png') }}" alt="">
+                                    <img src="{{ asset('images/landingpage-img-3.png') }}" alt="" style="width: 100%; border-radius: 1em;">
 
                                     <p class="text-center" style="color: green">VENDER ERA FÁCIL</p>
                                 </div>
@@ -182,7 +192,7 @@
                                     <h4 class="text-center mb-4" style="color: #ffde66">Vendas Consultivas</h4>
                                     <p class="text-center" style="color: green">OFERTA MAIOR - DEMANDA MENOR</p>
 
-                                    <img src="{{ asset('images/slide1.png') }}" alt="">
+                                    <img src="{{ asset('images/landingpage-img-4.png') }}" alt="" style="width: 100%; border-radius: 1em;">
 
                                     <p class="text-center" style="color: green">VENDER FICOU COMPLICADO</p>
                                 </div>
