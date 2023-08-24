@@ -2946,3 +2946,65 @@ footer .contact-form button.filled-button:hover {
         position: relative;
     }
 }
+
+.slide1-landing {
+    /* margin-top: 40px; */
+    background-image: url(../images/fundo_landingpage.png);
+    background-color: #000;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px 0px;
+    color: #fff;
+}
+
+.slide1-landing .right-image img {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+/* .slide1-landing .slide1-landing-content {
+	background-image: url(../images/fundo_consultoria2.png);
+} */
+
+.about-info .slide1-landing-content {
+    background-color: transparent;
+}
+
+.about-info .left-content {
+    padding: 0px!important;
+    margin-left: 30px;
+}
+
+.slide1-landing .left-content {
+    padding: 45px 45px 45px 30px;
+}
+
+.slide1-landing .left-content span {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #fff;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+.slide1-landing .left-content h2 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #fff
+}
+
+.slide1-landing .left-content em {
+    font-style: normal;
+    color: #00008B;
+}
+
+.slide1-landing .left-content p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    color: #fff
+}

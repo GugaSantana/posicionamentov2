@@ -199,6 +199,10 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 	//SITE
 
 	Route::get('/', 'SiteController@index')->name('site');
+	
+	Route::get('/landingpage', 'SiteController@landingpage')->name('landingpage');
+	Route::get('/landingpage2', 'SiteController@landingpage2')->name('landingpage2');
+	
 	Route::get('/empresa', 'SiteController@about');
 	Route::get('/servicos', 'SiteController@services');
 	Route::get('/programatopseller', 'SiteController@topseller');

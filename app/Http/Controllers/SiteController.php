@@ -10,6 +10,14 @@ class SiteController extends Controller
         return view('site.index')->with('menu_page', 1);
     }
 
+    public function landingpage(){
+        return view('site.landingpage.index')->with('menu_page', 1);
+    }
+
+    public function landingpage2(){
+        return view('site.landingpage.index2')->with('menu_page', 1);
+    }
+
     public function about(){
         return view('site.about')->with('menu_page', 2);;
     }
