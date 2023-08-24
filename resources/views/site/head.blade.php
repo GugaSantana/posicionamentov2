@@ -11,7 +11,7 @@
 
     <!-- Additional CSS Files -->
     <link rel="stylesheet" href="../css/fontawesome.css">
-    <link rel="stylesheet" href="../css/templatemo-finance-business.css?v={{time()}}">
+    <link rel="stylesheet" href="../css/templatemo-finance-business.css?version={{time()}}">
     <link rel="stylesheet" href="../css/owl.css">
 
     <!-- <link rel="stylesheet" href="{{ asset('vendor/icheck-bootstrap/icheck-bootstrap.min.css') }}"> -->
