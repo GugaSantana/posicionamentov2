@@ -200,9 +200,14 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 
 	Route::get('/', 'SiteController@index')->name('site');
 	
+	/* LANDING PAGE */
 	Route::get('/landingpage', 'SiteController@landingpage')->name('landingpage');
-	Route::get('/landingpage2', 'SiteController@landingpage2')->name('landingpage2');
+	Route::post('/landingpage/registrar', 'FormController@create')->name('landingpage_register');
+	Route::post('/landingpage/comprar', 'PaymentController@checkout_landingpage')->name('landingpage_buy');
+	//Route::get('/landingpage2', 'SiteController@landingpage2')->name('landingpage2');
 	
+	/* FIM LANDING PAGE */
+
 	Route::get('/empresa', 'SiteController@about');
 	Route::get('/servicos', 'SiteController@services');
 	Route::get('/programatopseller', 'SiteController@topseller');

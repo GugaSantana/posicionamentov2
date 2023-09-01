@@ -47,7 +47,11 @@
 
                                     <h4 class="mb-4" style="color: #ffde66"> O objetivo é facilitar e melhorar sua vida e não complicar.</h4>
 
-                                    <center><button type="button" class="btn btn-danger btn-bigger" data-toggle="modal" data-target="#cadastroModal">QUERO COMPRAR</button></center>
+                                    <form action="{{ route('landingpage_buy') }}" method="post">
+                                        {!! csrf_field() !!}
+                                        <center><button type="submit" class="btn btn-danger btn-bigger">QUERO COMPRAR</button></center>
+                                    </form>
+
                                 </div>
                             </div>
                         </div>
@@ -126,7 +130,11 @@
 
                                     <center><img src="{{ asset('images/landingpage-img-6.png') }}" alt="" style="width: 50%; border-radius: 1em;"></center>
                                     
-                                    <center><button type="button" class="btn btn-danger btn-bigger mt-4" data-toggle="modal" data-target="#cadastroModal">QUERO COMPRAR</button></center>
+                                    <form action="{{ route('landingpage_buy') }}" method="post">
+                                        {!! csrf_field() !!}
+                                        <center><button type="submit" class="btn btn-danger btn-bigger mt-4">QUERO COMPRAR</button></center>
+                                    </form>
+
                                 </div>
                             </div>
                         </div>

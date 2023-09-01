@@ -272,18 +272,19 @@
                     </button>
                 </div>
                 <div class="modal-body">
-                    <form id="cadastroForm">
+                    <form id="cadastroForm" action="{{ route('landingpage_register') }}" method="post">
+                        {!! csrf_field() !!}
                         <div class="form-group">
                             <label for="nome">Nome Completo *</label>
-                            <input type="text" class="form-control" id="nome" name="nome" placeholder="Digite seu nome" required>
+                            <input type="text" class="form-control" id="name" name="name" placeholder="Digite seu nome" required>
                         </div>
                         <div class="form-group">
                             <label for="email">Email *</label>
                             <input type="email" class="form-control" id="email" name="email" placeholder="Digite seu email" required>
                         </div>
                         <div class="form-group">
-                            <label for="telefone">Whatsapp *</label>
-                            <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(99) 99999-9999" data-inputmask="'mask': '(99) 99999-9999'">
+                            <label for="phone">Whatsapp *</label>
+                            <input type="tel" class="form-control" id="phone" name="phone" placeholder="(99) 99999-9999" data-inputmask="'mask': '(99) 99999-9999'">
                         </div>
                         <button type="submit" class="btn btn-primary btn-block" id="submitBtn">Enviar</button>
                         <p style="font-size: 10px !important; line-height: 1.5" class='mt-4'>Utilizaremos seus dados unicamente para efeitos de marketing, para darmos informações adicionais de nossos serviços.</p>
@@ -300,13 +301,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.inputmask/5.0.6/jquery.inputmask.min.js"></script>
 <script>
     $(document).ready(function() {
-        $('#telefone').inputmask('(99) 99999-9999');
+        $('#phone').inputmask('(99) 99999-9999');
 
         $('#submitBtn').click(function(event) {
-            const telefoneInput = $('#telefone');
-            const telefoneValue = telefoneInput.inputmask('unmaskedvalue');
+            const phoneInput = $('#phone');
+            const phoneValue = phoneInput.inputmask('unmaskedvalue');
 
-            if (telefoneValue.length !== 11) {
+            if (phoneValue.length !== 11) {
                 alert("Digite um telefone válido completo.");
                 event.preventDefault();
             }

@@ -101,10 +101,27 @@ class PaymentController extends Controller
         ]);
     }
 
+    public function checkout_landingpage(){
+        // Busca o voucher no banco
+        $product = Product::orderby('id', 'desc')->first();
+        
+        $session = json_decode($this->createSession());
+
+        // dd($session);
+        // dd('oi');
+        return view('site.landingpage.buy')->with([
+            'menu_page' => 4,
+            'session' => $session->id,
+            'pagseguro_email' => $this->email,
+            'pagseguro_token' => $this->token,
+            'product' => $product
+        ]);
+    }
+
     /**
      * Criar uma sessão
      *
-     * @return void
+     * @return String
      */
     public function createSession()
     {
