@@ -52,7 +52,7 @@
                                     <p class="text-center mt-4">Você conhecerá técnicas surpreendentes para aumentar sua
                                         receita....</p>
 
-                                    <center><button type="button" class="btn btn-danger btn-bigger btn-block" data-toggle="modal" data-target="#cadastroModal">QUERO SABER MAIS</button>
+                                    <center><button type="button" class="btn btn-danger btn-bigger" data-toggle="modal" data-target="#cadastroModal">QUERO SABER MAIS</button>
                                     </center>
 
                                     <p class="text-center mt-4">Você colocará em prática, de maneira automática, uma nova
@@ -63,7 +63,7 @@
                                     <p class="text-center">Estas técnicas serão <font style="font-size: 22px">“O sangue de
                                             sua Profissão”</font>
                                     </p>
-                                    <div class="col-3" style="
+                                    <div class="col-md-3" style="
                                         font-size: 10px;
                                         float: right;
                                         margin-right: -43px;
@@ -232,7 +232,7 @@
 
                                     <p>Mostramos a causa principal dos seus problemas.......<font style="color:red">VOCÊ AINDA TEM DUVIDAS?</font></p>
                                     
-                                    <center><button type="button" class="btn btn-danger btn-bigger btn-block"  style="white-space: normal" data-toggle="modal" data-target="#cadastroModal">QUERO CONHECER ESTAS TÉCNICAS</button></center>
+                                    <center><button type="button" class="btn btn-danger btn-bigger"  style="white-space: normal" data-toggle="modal" data-target="#cadastroModal">QUERO CONHECER ESTAS TÉCNICAS</button></center>
                                 </div>
                             </div>
                         </div>
@@ -267,8 +267,8 @@
 
                                     <p>Com o <font style="color: #ffde66">TOPSELLER</font> <b>você</b> será imbatível </p>
                                     
-                                    <center><button type="button" class="btn btn-danger btn-bigger btn-block"  style="white-space: normal" data-toggle="modal" data-target="#cadastroModal">QUERO CONHECER ESTAS TÉCNICAS</button></center>
-                                    <div class="col-3 mt-4" style="
+                                    <center><button type="button" class="btn btn-danger btn-bigger"  style="white-space: normal" data-toggle="modal" data-target="#cadastroModal">QUERO CONHECER ESTAS TÉCNICAS</button></center>
+                                    <div class="col-md-3 mt-4" style="
                                         font-size: 10px;
                                         float: right;
                                         margin-right: -43px;
@@ -313,7 +313,7 @@
                             <label for="phone">Whatsapp *</label>
                             <input type="tel" class="form-control" id="phone" name="phone" placeholder="(99) 99999-9999" data-inputmask="'mask': '(99) 99999-9999'">
                         </div>
-                        <button type="submit" class="btn btn-primary btn-block" id="submitBtn">Enviar</button>
+                        <button type="submit" class="btn btn-primary" id="submitBtn">Enviar</button>
                         <p style="font-size: 10px !important; line-height: 1.5" class='mt-4'>Utilizaremos seus dados unicamente para efeitos de marketing, para darmos informações adicionais de nossos serviços.</p>
                     </form>                    
                 </div>
