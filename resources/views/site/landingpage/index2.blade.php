@@ -135,6 +135,16 @@
                                         <center><button type="submit" class="btn btn-danger btn-bigger mt-4">QUERO COMPRAR</button></center>
                                     </form>
 
+                                    <div class="col-3 mt-4 mb-4" style="
+                                        font-size: 10px;
+                                        float: right;
+                                        margin-right: -43px;
+                                        padding-right: 1px;
+                                    ">
+                                        <font>DESENVOLVIDO POR</font><br>
+                                        <img id="sus" class="navbar-brand" src="/img/LogoAjusteBranco.png" style="width: 10em;">
+                                    </div>
+
                                 </div>
                             </div>
                         </div>

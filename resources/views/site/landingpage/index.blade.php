@@ -9,6 +9,15 @@
         .btn-bigger {
             font-size: 24px !important;
         }
+
+        .image-landing-mobile {
+            width: 20em;
+            border-radius: 1em;
+            /* Defina a largura para 10em quando a largura da tela for menor que 768px (por exemplo, dispositivos móveis) */
+            @media (max-width: 768px) {
+                width: 10em;
+            }
+        }
     </style>
 @endsection
 
@@ -34,7 +43,7 @@
                                         </div>
                                         <div class="col-6" style="align-self: center;">
                                             <img src="{{ asset('images/logo_topseller.png') }}" alt="" style="width: 10em">
-                                            <img src="{{ asset('images/landingpage-img-1.png') }}" alt="" style="width: 20em; border-radius: 1em;">
+                                            <img src="{{ asset('images/landingpage-img-1.png') }}" class="image-landing-mobile" alt="">
                                         </div>
                                     </div>
 
@@ -43,7 +52,7 @@
                                     <p class="text-center mt-4">Você conhecerá técnicas surpreendentes para aumentar sua
                                         receita....</p>
 
-                                    <center><button type="button" class="btn btn-danger btn-bigger" data-toggle="modal" data-target="#cadastroModal">QUERO CONHECER ESTAS TÉCNICAS</button>
+                                    <center><button type="button" class="btn btn-danger btn-bigger btn-block" data-toggle="modal" data-target="#cadastroModal">QUERO SABER MAIS</button>
                                     </center>
 
                                     <p class="text-center mt-4">Você colocará em prática, de maneira automática, uma nova
@@ -54,6 +63,15 @@
                                     <p class="text-center">Estas técnicas serão <font style="font-size: 22px">“O sangue de
                                             sua Profissão”</font>
                                     </p>
+                                    <div class="col-3" style="
+                                        font-size: 10px;
+                                        float: right;
+                                        margin-right: -43px;
+                                        padding-right: 1px;
+                                    ">
+                                        <font>DESENVOLVIDO POR</font><br>
+                                        <img id="sus" class="navbar-brand" src="/img/LogoAjusteBranco.png" style="width: 10em;">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -214,10 +232,8 @@
 
                                     <p>Mostramos a causa principal dos seus problemas.......<font style="color:red">VOCÊ AINDA TEM DUVIDAS?</font></p>
                                     
+                                    <center><button type="button" class="btn btn-danger btn-bigger btn-block"  style="white-space: normal" data-toggle="modal" data-target="#cadastroModal">QUERO CONHECER ESTAS TÉCNICAS</button></center>
                                 </div>
-                            </div>
-                            <div class="col-md-12 mb-4">
-                                <center><button type="button" class="btn btn-danger btn-bigger" data-toggle="modal" data-target="#cadastroModal">QUERO CONHECER ESTAS TÉCNICAS</button></center>
                             </div>
                         </div>
                     </div>
@@ -251,7 +267,16 @@
 
                                     <p>Com o <font style="color: #ffde66">TOPSELLER</font> <b>você</b> será imbatível </p>
                                     
-                                    <center><button type="button" class="btn btn-danger btn-bigger" data-toggle="modal" data-target="#cadastroModal">QUERO CONHECER ESTAS TÉCNICAS</button></center>
+                                    <center><button type="button" class="btn btn-danger btn-bigger btn-block"  style="white-space: normal" data-toggle="modal" data-target="#cadastroModal">QUERO CONHECER ESTAS TÉCNICAS</button></center>
+                                    <div class="col-3 mt-4" style="
+                                        font-size: 10px;
+                                        float: right;
+                                        margin-right: -43px;
+                                        padding-right: 1px;
+                                    ">
+                                        <font>DESENVOLVIDO POR</font><br>
+                                        <img id="sus" class="navbar-brand" src="/img/LogoAjusteBranco.png" style="width: 10em;">
+                                    </div>
                                 </div>
                                 
                             </div>
@@ -261,6 +286,8 @@
             </div>
         </div>
     </div>
+
+    <div class="barra-dourada-divisao"></div>
 
     <div class="modal fade" id="cadastroModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
