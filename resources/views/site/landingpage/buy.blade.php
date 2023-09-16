@@ -9,6 +9,18 @@
         .btn-bigger {
             font-size: 24px !important;
         }
+        
+        .text-with-line {
+            display: flex;
+            align-items: center;
+        }
+
+        .text-with-line hr {
+            flex-grow: 1;
+            border: none;
+            height: 1px;
+            background-color: #fff; /* Cor da linha */
+        }
     </style>
 @endsection
 
@@ -34,7 +46,7 @@
 
                                     {{-- FORMULARIO AQUI --}}
                                     {{-- INICIO DE FORMULARIO DE INTEGRAÇÃO --}}
-                                    <form id="formulario" method="post" action="{{ route('finalizar_pagamento') }}">
+                                    <form id="formulario" method="post" action="{{ route('finalizar_pagamento_landing') }}">
                                         {{-- <div class="text-center"> --}}
                                         {{-- <img src="https://assets.pagseguro.com.br/ps-website-assets/v13.13.22/img/for-your-business/online/checkout/banner-image.png" class="img-fluid" alt="Responsive image"> --}}
                                         {{-- <h1 class="text-center"></h1>
@@ -65,13 +77,20 @@
                                                         <div class="row col-12" style="place-items: center;place-content: center;">
                                                             <img src="{{ asset('images/pagseguro.png') }}" style="width: 30%" alt=""> <font class="ml-2"></font>|<font class="ml-2" style="font-size: 18px">Website 100% seguro.</font>
                                                         </div>
+                                                        
+                                                        <div class="text-with-line">
+                                                            <span style="flex-grow: 0; padding: 0 10px">Cadastro</span>
+                                                            <hr>
+                                                        </div>
+
+                                                        {{-- COMEÇA --}}
                                                         <div class="row">
-                                                            <div class="col-sm-6">
-                                                                <label class="mt-2 mb-0" for="nameHolder" <b>Nome no Cartão:</b></label>
-                                                                <input type="text" class="form-control" id="nameHolder"
-                                                                    class="creditcard" name="nameHolder">
+                                                            <div class="col-sm-4">
+                                                                <label class="mt-2 mb-0" for="nameCustomer" <b>Nome:</b></label>
+                                                                <input type="text" class="form-control" id="nameCustomer"
+                                                                    class="creditcard" name="nameCustomer">
                                                             </div>
-                                                            <div class="col-sm-6">
+                                                            <div class="col-sm-4">
                                                                 <label class="mt-2 mb-0" for="nameHolder" <b>Email:</b></label>
                                                                 <input class="form-control" type="text" id="user_email" class="creditcard" name="user_email" required>
                                                             </div>
@@ -90,12 +109,72 @@
                                                                 <input type="text" class="form-control" id="birthdayHolder"
                                                                     class="creditcard" name="birthdayHolder" size="2"> &nbsp;
                                                             </div>
-                                                        </div>
-                                                        <div class="row mt-2">
                                                             <div class="col-sm-4">
+                                                                <label class="mt-2 mb-0" for="password" <b>Senha:</b></label>
+                                                                <input type="password" class="form-control" id="password"
+                                                                    class="creditcard" name="password" size="2"> &nbsp;
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <div class="col-sm-3">
+                                                                <label class="mt-2 mb-0" for="cep" <b>Cep:</b></label>
+                                                                <input type="text" class="form-control" id="cep"
+                                                                    class="creditcard" name="cep" onblur="pesquisacep();">
+                                                            </div>
+                                                            <div class="col-sm-6">
+                                                                <label class="mt-2 mb-0" for="address" <b>Rua:</b></label>
+                                                                <input class="form-control" type="text" id="address" class="creditcard" name="address" required>
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                <label class="mt-2 mb-0" for="quarter" <b>Bairro:</b></label>
+                                                                <input type="text" class="form-control" id="quarter"
+                                                                    class="creditcard" name="quarter">
+                                                            </div>
+                                                            <div class="col-sm-4">
+                                                                <label class="mt-2 mb-0" for="city" <b>Cidade:</b></label>
+                                                                <input type="text" class="form-control" id="city" class="creditcard"
+                                                                    name="city" size="4">
+                                                            </div>
+                                                            <div class="col-sm-2">
+                                                                <label class="mt-2 mb-0" for="state" <b>UF</b></label>
+                                                                <input type="text" class="form-control" id="state"
+                                                                    class="creditcard" name="state" size="2"> &nbsp;
+                                                            </div>
+                                                            <div class="col-sm-2">
+                                                                <label class="mt-2 mb-0" for="number" <b>Nº</b></label>
+                                                                <input type="text" class="form-control" id="number"
+                                                                    class="creditcard" name="number" size="2"> &nbsp;
+                                                            </div>
+                                                            <div class="col-sm-4">
+                                                                <label class="mt-2 mb-0" for="complement" <b>Complemento</b></label>
+                                                                <input type="text" class="form-control" id="complement"
+                                                                    class="creditcard" name="complement" size="2"> &nbsp;
+                                                            </div>
+                                                        </div>
+                                                        {{-- TERMINA --}}
+
+                                                        <div class="text-with-line">
+                                                            <span style="flex-grow: 0; padding: 0 10px">Pagamento</span>
+                                                            <hr>
+                                                        </div>
+
+                                                        <div class="row">
+                                                            <div class="col-sm-7">
+                                                                <label class="mt-2 mb-0" for="nameHolder" <b>Nome no Cartão:</b></label>
+                                                                <input type="text" class="form-control" id="nameHolder"
+                                                                    class="creditcard" name="nameHolder">
+                                                            </div>
+                                                        
+                                                            <div class="col-sm-5">
                                                                 <label class="mt-2 mb-0" for="creditCardNumber" <b>Número do cartão:</b></label>
                                                                 <input type="text" class="form-control" id="creditCardNumber"
                                                                     class="creditcard" name="creditCardNumber">
+                                                            </div>
+                                                            <div class="col-sm-4">
+                                                                <label class="mt-2 mb-0" for="creditCardBrand" <b>Bandeira:</b></label>
+                                                                    <input tabindex="-1" type="text" class="form-control"
+                                                                        id="creditCardBrand" class="creditcard" name="creditCardBrand"
+                                                                        readonly>
                                                             </div>
                                                             <div class="col-sm-3">
                                                                 <label class="mt-2 mb-0" for="creditCardExpMonth" <b>Validade Mês (mm):</b></label>
@@ -116,13 +195,6 @@
                                                                 <input type="text" id="creditCardToken" class="form-control"
                                                                     name="creditCardToken" hidden>
                                                                 {{-- <button class="btn btn-info" id="generateCreditCardToken">Gerar Token</button> --}}
-                                                            </div>
-
-                                                            <div class="col-sm-4">
-                                                                <label class="mt-2 mb-0" for="creditCardBrand" <b>Bandeira:</b></label>
-                                                                    <input tabindex="-1" type="text" class="form-control"
-                                                                        id="creditCardBrand" class="creditcard" name="creditCardBrand"
-                                                                        readonly>
                                                             </div>
 
                                                             <div id="diverror" class="col-12 mt-2">
@@ -252,8 +324,73 @@
                 clearMaskOnLostFocus: true
             });
 
+            $("#cep").inputmask2('99999-999', {
+                showMaskOnFocus: false,
+                showMaskOnHover: false,
+                clearMaskOnLostFocus: true
+            });
+
         })
 
+    </script>
+
+    <script>
+        function meu_callback(conteudo) {
+            if (!("erro" in conteudo)) {
+                //Atualiza os campos com os valores.
+                document.getElementById('address').value=(conteudo.logradouro);
+                document.getElementById('quarter').value=(conteudo.bairro);
+                document.getElementById('city').value=(conteudo.localidade);
+                document.getElementById('state').value=(conteudo.uf);
+                //document.getElementById('ibge').value=(conteudo.ibge);
+            } //end if.
+            else {
+                //CEP não Encontrado.
+                alert("CEP não encontrado.");
+            }
+        }
+            
+        function pesquisacep() {
+            valor = document.getElementById('cep').value;
+            //Nova variável "cep" somente com dígitos.
+
+            var cep = valor.replace(/\D/g, '');
+
+            //Verifica se campo cep possui valor informado.
+            if (cep != "") {
+                //Expressão regular para validar o CEP.
+                var validacep = /^[0-9]{8}$/;
+                //Valida o formato do CEP.
+                if(validacep.test(cep)) {
+                    //Preenche os campos com "..." enquanto consulta webservice.
+                    document.getElementById('address').value="...";
+                    document.getElementById('quarter').value="...";
+                    document.getElementById('city').value="...";
+                    document.getElementById('state').value="...";
+                    //document.getElementById('ibge').value="...";
+
+                    //Cria um elemento javascript.
+                    var script = document.createElement('script');
+
+                    //Sincroniza com o callback.
+                    script.src = 'https://viacep.com.br/ws/'+ cep + '/json/?callback=meu_callback';
+
+                    //Insere script no documento e carrega o conteúdo.
+                    document.body.appendChild(script);
+                    document.getElementById('number').focus();
+
+                } //end if.
+                else {
+                    //cep é inválido.
+                    //limpa_formulário_cep();
+                    alert("Formato de CEP inválido.");
+                }
+            } //end if.
+            else {
+                //cep sem valor, limpa formulário.
+                //limpa_formulário_cep();
+            }
+        };
     </script>
 
     <!-- Funcionalidade do JS PAGSEGURO -->
@@ -444,6 +581,14 @@
             var installmentCombo = $("select[name=installmentCombo]").val();
             var product_name = $("#product_name").val();
             var user_email = $("#user_email").val();
+            var cep = $("#cep").val();
+            var address = $("#address").val();
+            var quarter = $("#quarter").val();
+            var city = $("#city").val();
+            var state = $("#state").val();
+            var number = $("#number").val();
+            var complement = $("#complement").val();
+            var nameCustomer = $("#nameCustomer").val();
 
             if (senderHash == '0' || senderHash == '' || senderHash == 'undefined' || senderHash == null) {
                 $("#senderHash").focus();
@@ -452,7 +597,7 @@
 
             if (nameHolder == '0' || nameHolder == '' || nameHolder == 'undefined' || nameHolder == null) {
                 $("#nameHolder").focus();
-                alerta('error', 'Validação', 'Preencha o seu nome');
+                alerta('error', 'Validação', 'Preencha o seu nome no cartão');
                 return false;
             }
 
@@ -488,11 +633,52 @@
                 return false;
             }
 
+            if (cep == '0' || cep == '' || cep == 'undefined' || cep == null) {
+                $("#cep").focus();
+                alerta('error', 'Validação', 'Preencha o cep');
+                return false;
+            }
+
+            if (address == '0' || address == '' || address == 'undefined' || address == null) {
+                $("#address").focus();
+                alerta('error', 'Validação', 'Preencha o endereço');
+                return false;
+            }
+
+            if (quarter == '0' || quarter == '' || quarter == 'undefined' || quarter == null) {
+                $("#quarter").focus();
+                alerta('error', 'Validação', 'Preencha o bairro');
+                return false;
+            }
+
+            if (city == '0' || city == '' || city == 'undefined' || city == null) {
+                $("#city").focus();
+                alerta('error', 'Validação', 'Preencha a cidade');
+                return false;
+            }
+
+            if (state == '0' || state == '' || state == 'undefined' || state == null) {
+                $("#state").focus();
+                alerta('error', 'Validação', 'Preencha o UF');
+                return false;
+            }
+
+            if (number == '0' || number == '' || number == 'undefined' || number == null) {
+                $("#number").focus();
+                alerta('error', 'Validação', 'Preencha o número');
+                return false;
+            }
+
+            if (nameCustomer == '0' || nameCustomer == '' || nameCustomer == 'undefined' || nameCustomer == null) {
+                $("#nameCustomer").focus();
+                alerta('error', 'Validação', 'Preencha o seu Nome');
+                return false;
+            }
 
 
             $.ajax({
                 type: 'POST',
-                url: "{{ route('finalizar_pagamento') }}",
+                url: "{{ route('finalizar_pagamento_landing') }}",
                 data: {
                     senderHash: senderHash,
                     nameHolder: nameHolder,
@@ -503,6 +689,14 @@
                     installmentCombo: installmentCombo,
                     product_name: product_name,
                     user_email: user_email,
+                    cep: cep,
+                    address: address,
+                    quarter: quarter,
+                    city: city,
+                    state: state,
+                    number: number,
+                    complement: complement,
+                    nameCustomer: nameCustomer
                 },
 
                 beforeSend: function() {

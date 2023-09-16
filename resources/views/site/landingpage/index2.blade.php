@@ -9,6 +9,24 @@
         .btn-bigger {
             font-size: 24px !important;
         }
+
+        .image-landing-mobile {
+            width: 20em;
+            border-radius: 1em;
+            /* Defina a largura para 10em quando a largura da tela for menor que 768px (por exemplo, dispositivos móveis) */
+            @media (max-width: 768px) {
+                width: 10em;
+            }
+        }
+
+        .img-mobile {
+            width: 50%;
+            border-radius: 1em;
+            /* Defina a largura para 10em quando a largura da tela for menor que 768px (por exemplo, dispositivos móveis) */
+            @media (max-width: 768px) {
+                width: 100%;
+            }
+        }
     </style>
 @endsection
 
@@ -36,7 +54,7 @@
                                         </div>
                                         <div class="col-6" style="align-self: center;">
                                             <img src="{{ asset('images/logo_topseller.png') }}" alt="" style="width: 10em; margin-top: -16em;">
-                                            <img src="{{ asset('images/landingpage-img-1.png') }}" alt="" style="width: 20em; border-radius: 1em;">
+                                            <img src="{{ asset('images/landingpage-img-1.png') }}" alt="" class="image-landing-mobile">
                                         </div>
                                     </div>
 
@@ -128,21 +146,19 @@
 
                                     <h4 class="mb-4">NUNCA ALCANÇARÁ SEUS SONHOS ....... <font style="color: green">AUMENTE SEUS GANHOS, FAÇA DIFERENTE....</font></h4>
 
-                                    <center><img src="{{ asset('images/landingpage-img-6.png') }}" alt="" style="width: 50%; border-radius: 1em;"></center>
+                                    <center><img src="{{ asset('images/landingpage-img-6.png') }}" alt="" class="img-mobile"></center>
                                     
                                     <form action="{{ route('landingpage_buy') }}" method="post">
                                         {!! csrf_field() !!}
                                         <center><button type="submit" class="btn btn-danger btn-bigger mt-4">QUERO COMPRAR</button></center>
                                     </form>
 
-                                    <div class="col-3 mt-4 mb-4" style="
-                                        font-size: 10px;
+                                    <div class="col-md-3 mt-4" style="
                                         float: right;
                                         margin-right: -43px;
                                         padding-right: 1px;
                                     ">
-                                        <font>DESENVOLVIDO POR</font><br>
-                                        <img id="sus" class="navbar-brand" src="/img/LogoAjusteBranco.png" style="width: 10em;">
+                                        <img id="sus" class="navbar-brand" src="/img/LogoDesenvolvidoPor.png" style="width: 10em;">
                                     </div>
 
                                 </div>

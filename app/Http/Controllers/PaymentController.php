@@ -11,6 +11,7 @@ use App\Stock;
 use App\User;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\URL;
 
@@ -205,6 +206,100 @@ class PaymentController extends Controller
             return [
                 "success" => 0,
                 "message" => $result['error']['message']
+            ];
+        }
+    }
+
+    public function finishPaymentLanding(Request $request)
+    {
+                // dd($request);
+        // code de pagamento  = 07399B55-5871-48DB-8418-042954715D00;
+        $senderHash = $request["senderHash"];
+        $nameHolder = $request["nameHolder"];
+        $cpfHolder = $request["cpfHolder"];
+        $birthdayHolder = $request["birthdayHolder"];
+        $phoneHolder = $request["phoneHolder"];
+        // $creditCardNumber = $request["creditCardNumber"];
+        // $creditCardBrand = $request["creditCardBrand"];
+        // $creditCardExpMonth = $request["creditCardExpMonth"];
+        // $creditCardExpYear = $request["creditCardExpYear"];
+        // $creditCardCvv = $request["creditCardCvv"];
+        $creditCardToken = $request["creditCardToken"];
+        $installmentCombo = $request["installmentCombo"];
+        $product_name = $request['product_name'];
+        $user_email = $request['user_email'];
+
+        $nameCustomer = $request['nameCustomer'];
+        $cep = $request['cep'];
+        $address = $request['address'];
+        $quarter = $request['quarter'];
+        $city = $request['city'];
+        $state = $request['state'];
+        $number = $request['number'];
+        $complement = $request['complement'];
+
+        $product = Product::with('stock')->where('name', $product_name)->first();
+
+        $user = User::where('email', $user_email)->first();
+        if(empty($user)){
+            //Cria um usuario fake
+            $user = User::create([
+                'name' => $nameCustomer,
+                'gender' => 'n/a',
+                'nascimento' => $birthdayHolder,
+                'schooling' => '',
+                'course' => '',
+                'email' => $user_email,  
+                'cpf' =>$cpfHolder,
+                'password' => Hash::make($request['password']),
+                'fone' =>$phoneHolder,
+                'cellphone' =>'',
+                'cep' =>$cep,
+                'address' =>$address,
+                'quarter' =>$quarter,
+                'city' =>$city,
+                'state' =>$state,
+                'number' =>$number ?? 0,
+                'complement' => $complement ?? '',
+                'company_id' => 6,
+                'branch' =>'',
+                'activity' =>'',
+                'office' =>'',
+                'role_id' => null,
+            ]);
+        }
+
+        $data = $this->prepareDataTransaction($user, $product, $senderHash, $creditCardToken, $phoneHolder, $cpfHolder, $installmentCombo, $nameHolder, $birthdayHolder);
+
+        // dd($data);
+
+        $transaction = $this->sendTransaction($data);
+        
+        $result = $this->formatXml($transaction[1]);
+
+        if (!isset($result['error'])) {
+            $order = Order::where('user_id', $user->id)->orderby('id', 'desc')->first();
+            $order->payment_code = $result['code'];
+            $order->save();
+
+            // Atualiza o estoque
+            Stock::create(
+                [
+                    "product_id" => $product->id,
+                    "movement" => 1,
+                    "total" => $product->stock->total - 1
+                ]
+            );
+
+            return [
+                "success" => 1,
+                "message" => $result['code']
+            ];
+        } else {
+            // ERROR
+            return [
+                "success" => 0,
+                "message" => $result
             ];
         }
     }

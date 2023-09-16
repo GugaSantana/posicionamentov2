@@ -16,6 +16,7 @@ class VerifyCsrfToken extends Middleware
         '/planoacao/*',
         '/payment/session',
         '/payment/finish',
+        '/payment/finish_landing',
         '/payment/callback',
     ];
 }

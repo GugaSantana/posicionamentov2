@@ -64,13 +64,11 @@
                                             sua Profissão”</font>
                                     </p>
                                     <div class="col-md-3" style="
-                                        font-size: 10px;
                                         float: right;
                                         margin-right: -43px;
                                         padding-right: 1px;
                                     ">
-                                        <font>DESENVOLVIDO POR</font><br>
-                                        <img id="sus" class="navbar-brand" src="/img/LogoAjusteBranco.png" style="width: 10em;">
+                                        <img id="sus" class="navbar-brand" src="/img/LogoDesenvolvidoPor.png" style="width: 10em;">
                                     </div>
                                 </div>
                             </div>
@@ -269,13 +267,11 @@
                                     
                                     <center><button type="button" class="btn btn-danger btn-bigger"  style="white-space: normal" data-toggle="modal" data-target="#cadastroModal">QUERO CONHECER ESTAS TÉCNICAS</button></center>
                                     <div class="col-md-3 mt-4" style="
-                                        font-size: 10px;
                                         float: right;
                                         margin-right: -43px;
                                         padding-right: 1px;
                                     ">
-                                        <font>DESENVOLVIDO POR</font><br>
-                                        <img id="sus" class="navbar-brand" src="/img/LogoAjusteBranco.png" style="width: 10em;">
+                                        <img id="sus" class="navbar-brand" src="/img/LogoDesenvolvidoPor.png" style="width: 10em;">
                                     </div>
                                 </div>
                                 
