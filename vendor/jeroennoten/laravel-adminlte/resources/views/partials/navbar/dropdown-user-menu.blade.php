@@ -127,6 +127,13 @@
                 Pedidos
             </a>
             @endif
+            @if(Auth::User()->role_id == 1)
+            <a class="btn btn-default btn-flat float-right @if(!$profile_url) btn-block @endif"
+               href="/user/subslanding">
+                <i class="fa fa-user"></i>
+                Inscritos LandingPage
+            </a>
+            @endif
             
             <a class="btn btn-default btn-flat float-right @if(!$profile_url) btn-block @endif"
                href="#" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">

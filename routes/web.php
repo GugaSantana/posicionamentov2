@@ -141,6 +141,8 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 		Route::get('/autogestao', 'UserController@autogestao');
 		
 		Route::get('/report', 'UserController@reportUsers');
+		Route::get('/subslanding', 'UserController@subsLanding');
+		
 		
 	});
 

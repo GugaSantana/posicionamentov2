@@ -748,7 +748,7 @@
                     } else {
                         var classe = "bg-teal-400"
                         const wrapper = document.createElement('div');
-                        wrapper.innerHTML = "Aguarde a aprovação do pagamento para a liberação do seu acesso <br><br> Código de pagamento do Pagseguro: <br>" + e.message;
+                        wrapper.innerHTML = "Iremos te enviar um email com a confirmação do seu pagamento. Aguarde para a liberação do seu acesso <br><br> Código de pagamento do Pagseguro: <br>" + e.message;
                         swal({
                             title: 'Pagamento enviado!',
                             content: wrapper,

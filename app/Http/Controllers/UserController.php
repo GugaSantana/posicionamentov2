@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Company;
+use App\Form;
 use App\Roles;
 use App\User;
 use Carbon\Carbon;
@@ -141,5 +142,11 @@ class UserController extends Controller
         }
 
         return view('report_users')->with(compact('users','companies','company'));
+    }
+
+    public function subsLanding(Request $request){
+        $forms = Form::orderby('id', 'desc')->paginate(30);
+
+        return view('subs_landing')->with(compact('forms'));
     }
 }
