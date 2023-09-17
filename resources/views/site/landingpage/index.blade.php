@@ -68,7 +68,7 @@
                                         margin-right: -43px;
                                         padding-right: 1px;
                                     ">
-                                        <img id="sus" class="navbar-brand" src="/img/LogoDesenvolvidoPor.png" style="width: 10em;">
+                                        <img id="sus" class="navbar-brand" src="{{ asset('/img/LogoDesenvolvidoPor.png') }}" style="width: 10em;">
                                     </div>
                                 </div>
                             </div>
@@ -271,7 +271,7 @@
                                         margin-right: -43px;
                                         padding-right: 1px;
                                     ">
-                                        <img id="sus" class="navbar-brand" src="/img/LogoDesenvolvidoPor.png" style="width: 10em;">
+                                        <img id="sus" class="navbar-brand" src="{{ asset('/img/LogoDesenvolvidoPor.png') }}" style="width: 10em;">
                                     </div>
                                 </div>
                                 
