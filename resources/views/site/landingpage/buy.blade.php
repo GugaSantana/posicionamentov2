@@ -99,20 +99,25 @@
                                                                 <input type="text" class="form-control" id="cpfHolder"
                                                                     class="creditcard" name="cpfHolder">
                                                             </div>
-                                                            <div class="col-sm-4">
+                                                            <div class="col-sm-3">
                                                                 <label class="mt-2 mb-0" for="phoneHolder" <b>Celular:</b></label>
                                                                 <input type="text" class="form-control" id="phoneHolder" class="creditcard"
                                                                     name="phoneHolder" size="4">
                                                             </div>
-                                                            <div class="col-sm-4">
+                                                            <div class="col-sm-3">
                                                                 <label class="mt-2 mb-0" for="birthdayHolder" <b>Data de Nascimento</b></label>
                                                                 <input type="text" class="form-control" id="birthdayHolder"
                                                                     class="creditcard" name="birthdayHolder" size="2"> &nbsp;
                                                             </div>
-                                                            <div class="col-sm-4">
+                                                            <div class="col-sm-3">
                                                                 <label class="mt-2 mb-0" for="password" <b>Senha:</b></label>
                                                                 <input type="password" class="form-control" id="password"
                                                                     class="creditcard" name="password" size="2"> &nbsp;
+                                                            </div>
+                                                            <div class="col-sm-3">
+                                                                <label class="mt-2 mb-0" for="password2" <b>Confirmar Senha:</b></label>
+                                                                <input type="password" class="form-control" id="password2"
+                                                                    class="creditcard" name="password2" size="2"> &nbsp;
                                                             </div>
                                                         </div>
                                                         <div class="row">
@@ -589,15 +594,18 @@
             var number = $("#number").val();
             var complement = $("#complement").val();
             var nameCustomer = $("#nameCustomer").val();
+            var password = $("#password").val();
+            var password2 = $("#password2").val();
 
-            if (senderHash == '0' || senderHash == '' || senderHash == 'undefined' || senderHash == null) {
-                $("#senderHash").focus();
+            if (nameCustomer == '0' || nameCustomer == '' || nameCustomer == 'undefined' || nameCustomer == null) {
+                $("#nameCustomer").focus();
+                alerta('error', 'Validação', 'Preencha o seu Nome');
                 return false;
             }
 
-            if (nameHolder == '0' || nameHolder == '' || nameHolder == 'undefined' || nameHolder == null) {
-                $("#nameHolder").focus();
-                alerta('error', 'Validação', 'Preencha o seu nome no cartão');
+            if (user_email == '0' || user_email == '' || user_email == 'undefined' || user_email == null) {
+                $("#user_email").focus();
+                alerta('error', 'Validação', 'Preencha o seu Email');
                 return false;
             }
 
@@ -607,31 +615,39 @@
                 return false;
             }
 
-            if (birthdayHolder == '0' || birthdayHolder == '' || birthdayHolder == 'undefined' || birthdayHolder == null) {
-                $("#birthdayHolder").focus();
-                alerta('error', 'Validação', 'Preencha sua data de nascimento');
-                return false;
-            }
-
             if (phoneHolder == '0' || phoneHolder == '' || phoneHolder == 'undefined' || phoneHolder == null) {
                 $("#phoneHolder").focus();
                 alerta('error', 'Validação', 'Preencha o seu Telefone')
                 return false;
             }
 
-            if (creditCardToken == '0' || creditCardToken == '' || creditCardToken == 'undefined' || creditCardToken ==
-                null) {
-                $("#creditCardNumber").focus();
-                alerta('error', 'Validação', 'Dados do cartão de crédito estão incorretos');
+            if (birthdayHolder == '0' || birthdayHolder == '' || birthdayHolder == 'undefined' || birthdayHolder == null) {
+                $("#birthdayHolder").focus();
+                alerta('error', 'Validação', 'Preencha sua data de nascimento');
                 return false;
             }
 
-            if (installmentCombo == '0' || installmentCombo == '' || installmentCombo == 'undefined' || installmentCombo ==
-                null) {
-                $("#installmentCombo").focus();
-                alerta('error', 'Validação', 'Selecione uma forma de pagamento');
+            /* Senha */
+            if (password == '0' || password == '' || password == 'undefined' || password == null) {
+                $("#password").focus();
+                alerta('error', 'Validação', 'Preencha sua senha');
                 return false;
             }
+
+            if (password2 == '0' || password2 == '' || password2 == 'undefined' || password2 == null) {
+                $("#password2").focus();
+                alerta('error', 'Validação', 'Preencha sua confirmação de senha');
+                return false;
+            }
+
+            if(password != password2){
+                $("#password").val('');
+                $("#password2").val('');
+                $("#password").focus();
+                alerta('error', 'Validação', 'As senhas não conferem, preencha novamente');
+                return false;
+            }
+            /* Fim Senha */
 
             if (cep == '0' || cep == '' || cep == 'undefined' || cep == null) {
                 $("#cep").focus();
@@ -669,9 +685,28 @@
                 return false;
             }
 
-            if (nameCustomer == '0' || nameCustomer == '' || nameCustomer == 'undefined' || nameCustomer == null) {
-                $("#nameCustomer").focus();
-                alerta('error', 'Validação', 'Preencha o seu Nome');
+            if (nameHolder == '0' || nameHolder == '' || nameHolder == 'undefined' || nameHolder == null) {
+                $("#nameHolder").focus();
+                alerta('error', 'Validação', 'Preencha o seu nome no cartão');
+                return false;
+            }
+            
+            if (senderHash == '0' || senderHash == '' || senderHash == 'undefined' || senderHash == null) {
+                $("#senderHash").focus();
+                return false;
+            }
+
+            if (creditCardToken == '0' || creditCardToken == '' || creditCardToken == 'undefined' || creditCardToken ==
+                null) {
+                $("#creditCardNumber").focus();
+                alerta('error', 'Validação', 'Dados do cartão de crédito estão incorretos');
+                return false;
+            }
+
+            if (installmentCombo == '0' || installmentCombo == '' || installmentCombo == 'undefined' || installmentCombo ==
+                null) {
+                $("#installmentCombo").focus();
+                alerta('error', 'Validação', 'Selecione uma forma de pagamento');
                 return false;
             }
 
