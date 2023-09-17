@@ -104,7 +104,7 @@ class PaymentController extends Controller
 
     public function checkout_landingpage(){
         // Busca o voucher no banco
-        $product = Product::orderby('id', 'desc')->first();
+        $product = Product::find(15);
         
         $session = json_decode($this->createSession());
 
