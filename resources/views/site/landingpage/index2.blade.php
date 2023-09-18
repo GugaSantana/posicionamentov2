@@ -146,7 +146,7 @@
 
                                     <h4 class="mb-4">NUNCA ALCANÇARÁ SEUS SONHOS ....... <font style="color: green">AUMENTE SEUS GANHOS, FAÇA DIFERENTE....</font></h4>
 
-                                    <center><img src="{{ asset('images/landingpage-img-6.png') }}" alt="" class="img-mobile"></center>
+                                    <center><img src="{{ asset('images/landingpage-img-6-1.png') }}" alt="" class="img-mobile"></center>
                                     
                                     <form action="{{ route('landingpage_buy') }}" method="post">
                                         {!! csrf_field() !!}
