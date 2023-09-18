@@ -158,7 +158,7 @@
                                         margin-right: -43px;
                                         padding-right: 1px;
                                     ">
-                                        <img id="sus" class="navbar-brand" src="{{ asset('/img/LogoDesenvolvidoPor.png') }}" style="width: 10em;">
+                                        <a href="https://posicionamento.com.br" target="_blank"><img id="sus" class="navbar-brand" src="{{ asset('/img/LogoDesenvolvidoPor.png') }}" style="width: 10em;"></a>
                                     </div>
 
                                 </div>
