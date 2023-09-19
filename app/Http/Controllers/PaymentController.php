@@ -212,7 +212,7 @@ class PaymentController extends Controller
 
     public function finishPaymentLanding(Request $request)
     {
-                // dd($request);
+        // dd($request);
         // code de pagamento  = 07399B55-5871-48DB-8418-042954715D00;
         $senderHash = $request["senderHash"];
         $nameHolder = $request["nameHolder"];
@@ -375,8 +375,7 @@ class PaymentController extends Controller
         }
 
         // Info do cartao
-        $name = explode(' ', $nameHolder);
-        $data['creditCardHolderName'] = $name[0] . ' ' . $name[1];
+        $data['creditCardHolderName'] = $nameHolder;
         $data['creditCardHolderCPF'] = str_replace(['.', '-'], '', $cpfHolder);
         $data['creditCardHolderBirthDate'] = $birthdayHolder;
         $data['creditCardHolderAreaCode'] = substr($phoneHolder, 1, 2);
