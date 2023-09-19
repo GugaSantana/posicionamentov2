@@ -245,10 +245,11 @@
                                                         </div>
                                                         <div class="row mt-5">
                                                             <div class="col-sm-12">
-                                                                <a onclick="finishPayment()" class="btn btn-success btn-block"
-                                                                    id="installmentCheck">Finalizar Pagamento</a>
+                                                                <button type="button" onclick="finishPayment()" class="btn btn-success btn-block"
+                                                                    id="installmentCheck">Finalizar Pagamento</button>
                                                             </div>
                                                         </div>
+
                                                     </div>
                                                 </div>
                                         </fieldset>
@@ -577,6 +578,7 @@
 
         // Envio para o backend
         function finishPayment() {
+            
             var senderHash = $("#senderHash").val();
             var nameHolder = $("#nameHolder").val();
             var cpfHolder = $("#cpfHolder").val();
@@ -710,6 +712,8 @@
                 return false;
             }
 
+            document.getElementById("installmentCheck").disabled = true;
+            document.getElementById('installmentCheck').innerHTML = '<i class="fa fa-spinner fa-spin fa-2x" aria-hidden="true"></i>';
 
             $.ajax({
                 type: 'POST',
@@ -745,6 +749,9 @@
                         console.log(e);
                         alerta('error', 'Falha ao enviar pagamento', e.message +
                             "<br>Corriga os dados e tente novamente");
+                        
+                        document.getElementById("installmentCheck").disabled = false;
+                        document.getElementById('installmentCheck').innerHTML = 'Finalizar Pagamento';
                     } else {
                         var classe = "bg-teal-400"
                         const wrapper = document.createElement('div');
