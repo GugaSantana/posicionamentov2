@@ -748,7 +748,7 @@
                     if (e.success == 0) {
                         console.log(e);
                         alerta('error', 'Falha ao enviar pagamento', e.message +
-                            "<br>Corriga os dados e tente novamente");
+                            "<br>Corrija os dados e tente novamente");
                         
                         document.getElementById("installmentCheck").disabled = false;
                         document.getElementById('installmentCheck').innerHTML = 'Finalizar Pagamento';
