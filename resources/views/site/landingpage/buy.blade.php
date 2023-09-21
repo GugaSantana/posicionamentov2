@@ -766,7 +766,7 @@
                                 className: classe
                             }
                         }).then(function() {
-                            window.location = "{{ route('site') }}";
+                            window.location = "{{ route('completed_buy') }}";
                         });
                     }
                 },
