@@ -35,15 +35,31 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="left-content">
-                                    <h4 class="text-center mb-4">VALOR DO INVESTIMENTO: O VALOR DO <font style="color: #ffde66">PROGRAMA TOPSELLER</font> É DE R$ 2.350,00</h4>
+                                    <h4 class="text-center mb-4">O VALOR DO <font style="color: #ffde66">PROGRAMA TOPSELLER</font> É DE R$ 2.350,00</h4>
 
-                                    <p>Mas..... nesta primeira campanha para pessoas físicas vamos dar um <font style="color:red">SUPER DESCONTO</font> de __% através do voucher TS500</p>
+                                    <p>Mas..... nesta primeira campanha para pessoas físicas vamos dar um <font style="border-style: solid;border-radius: 28px;padding: 10px;"><font style="color:red">SUPER DESCONTO</font> de <font style="font-size: 24px !important; color: greenyellow">57,7%</font></font></p>
                                     
-                                    <p class="text-center">PROGRAMA TOPSELLER: R$ <font style="text-decoration: line-through;">2.350,00</font><br>
-                                    <font style="color: red">SUPER DESCONTO: </font>R$ _______<br>
-                                    TOTAL: </font>R$ _______ em até 12 vezes
-                                    </p>
+                                    <center>
+                                        <table>
+                                            <tr>
+                                                <td class="text-right"><p class="mb-1">PROGRAMA TOPSELLER:</p></td>
+                                                <td><p class="ml-2 mb-1">R$ <font style="text-decoration: line-through;">2.350,00</font></p></td>
+                                            </tr>
+                                            <tr class="mt-1">
+                                                <td class="text-right"><p class="mb-1"><font style="color: red">SUPER DESCONTO: </font></p></td>
+                                                <td><p class="ml-2 mb-1">R$ 1.355,00</p></td>
+                                            </tr>
+                                            <tr class="mt-1">
+                                                <td class="text-right"><p class="mb-1" style="font-size: 24px !important; color:greenyellow">VALOR TOTAL DO INVESTIMENTO:</p></td>
+                                                <td><p class="ml-2 mb-1" style="font-size: 24px !important; color:greenyellow">R$ 995,00</p></td>
+                                            </tr>
+                                            <tr>
+                                                <td colspan="2"><p class="ml-2 mb-1 text-center">(você pode parcelar em até 12 vezes)</p></td>
+                                            </tr>
+                                        </table>
+                                    </center>
 
+                                    <br>
                                     {{-- FORMULARIO AQUI --}}
                                     {{-- INICIO DE FORMULARIO DE INTEGRAÇÃO --}}
                                     <form id="formulario" method="post" action="{{ route('finalizar_pagamento_landing') }}">
