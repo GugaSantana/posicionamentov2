@@ -21,6 +21,33 @@
             height: 1px;
             background-color: #fff; /* Cor da linha */
         }
+
+        .preco-mobile {
+            /* Defina a largura para 10em quando a largura da tela for menor que 768px (por exemplo, dispositivos móveis) */
+            
+            @media (max-width: 768px) {
+                font-size: 18px !important;
+            }
+        }
+
+        .borda-mobile {
+            border-style: solid;
+            border-radius: 28px;
+            padding: 10px;
+            @media (max-width: 768px) {
+                border-style: none;
+                border-radius: 28px;
+                padding: 10px;
+            }
+        }
+
+        .preco-total-mobile {
+            /* Defina a largura para 10em quando a largura da tela for menor que 768px (por exemplo, dispositivos móveis) */
+            font-size: 24px !important;
+            @media (max-width: 768px) {
+                font-size: 18px !important;
+            }
+        }
     </style>
 @endsection
 
@@ -35,23 +62,23 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="left-content">
-                                    <h4 class="text-center mb-4">O VALOR DO <font style="color: #ffde66">PROGRAMA TOPSELLER</font> É DE R$ 2.350,00</h4>
+                                    <h4 class="text-center mb-4">O VALOR DO <font style="color: #ffde66">PROGRAMA TOPSELLER</font> É DE R$2.350,00</h4>
 
-                                    <p>Mas..... nesta primeira campanha para pessoas físicas vamos dar um <font style="border-style: solid;border-radius: 28px;padding: 10px;"><font style="color:red">SUPER DESCONTO</font> de <font style="font-size: 24px !important; color: greenyellow">57,7%</font></font></p>
+                                    <p class="text-center">Mas..... nesta primeira campanha para pessoas físicas vamos dar um <font class="borda-mobile"><font style="color:red">SUPER DESCONTO</font> de <font style="font-size: 24px !important; color: greenyellow">57,7%</font></font></p>
                                     
                                     <center>
                                         <table>
                                             <tr>
-                                                <td class="text-right"><p class="mb-1">PROGRAMA TOPSELLER:</p></td>
-                                                <td><p class="ml-2 mb-1">R$ <font style="text-decoration: line-through;">2.350,00</font></p></td>
+                                                <td class="text-md-right text-center"><p class="preco-mobile mb-1">PROGRAMA TOPSELLER:</p></td>
+                                                <td class="align-bottom"><p class="preco-mobile ml-2 mb-1">R$<font style="text-decoration: line-through;">2.350,00</font></p></td>
                                             </tr>
                                             <tr class="mt-1">
-                                                <td class="text-right"><p class="mb-1"><font style="color: red">SUPER DESCONTO: </font></p></td>
-                                                <td><p class="ml-2 mb-1">R$ 1.355,00</p></td>
+                                                <td class="text-md-right text-center"><p class="preco-mobile mb-1"><font style="color: red">SUPER DESCONTO: </font></p></td>
+                                                <td class="align-bottom"><p class="preco-mobile ml-2 mb-1">R$1.355,00</p></td>
                                             </tr>
                                             <tr class="mt-1">
-                                                <td class="text-right"><p class="mb-1" style="font-size: 24px !important; color:greenyellow">VALOR TOTAL DO INVESTIMENTO:</p></td>
-                                                <td><p class="ml-2 mb-1" style="font-size: 24px !important; color:greenyellow">R$ 995,00</p></td>
+                                                <td class="text-md-right text-center"><p class="preco-total-mobile mb-1" style="color:greenyellow">VALOR TOTAL DO INVESTIMENTO:</p></td>
+                                                <td class="align-bottom"><p class="preco-total-mobile ml-2 mb-1" style="color:greenyellow">R$995,00</p></td>
                                             </tr>
                                             <tr>
                                                 <td colspan="2"><p class="ml-2 mb-1 text-center">(você pode parcelar em até 12 vezes)</p></td>

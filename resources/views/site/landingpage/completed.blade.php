@@ -57,7 +57,7 @@
 
 
 
-                                    <p class="text-center mt-4">Recebemos o seu pagamento, assim que for aprovado você receberá um email de confirmação com as instruções para fazer o seu acesso ao Top Seller</p>
+                                    <p class="text-center mt-4">Recebemos o seu pagamento, assim que for aprovado você receberá um email de confirmação com as instruções para fazer o seu acesso ao TOPSELLER</p>
 
                                     <div class="col-md-3" style="
                                         float: right;
