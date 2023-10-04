@@ -40,10 +40,22 @@ class PaymentCanceled extends Notification
      */
     public function toMail($notifiable)
     {
+        $text = 'O status de sua compra do <font style="color: #c2a94d">PROGRAMA TOPSELLER</font> deu “não autorizado” pela sua operadora.
+        <br><br>
+        Por favor, entre em contato com a operadora do seu cartão para verificar o que houve. Ao solucionar o ocorrido entre no link abaixo e realize a compra novamente.
+        <br>
+        <a href="https://posicionamento.com.br/landingpage">https://posicionamento.com.br/landingpage</a>
+        <br><br>
+        Em caso de dúvida entre contato: <a href="https://posicionamento.com.br/contato">https://posicionamento.com.br/contato</a>
+        <br><br>
+        Aguardamos por você
+        <br>
+        <font style="color: #c2a94d">EQUIPE TOPSELLER</font>';
+
         return (new MailMessage)
-                ->subject('Seu pagamento foi cancelado!')
+                ->subject('Falha no pagamento - Pedido TopSeller #'.$notifiable->id)
                 ->greeting('Olá '.explode(' ', $notifiable->name)[0].',')
-                ->line('O seu pagamento foi cancelado pelo Pagseguro, consulte sua operadora de cartão e tente novamente!')
+                ->line($text)
                 ->from('noreply@posicionamento.com.br', 'Posicionamento');
                 //->action('Notification Action', url('/'))
                 //->line('Thank you for using our application!');
