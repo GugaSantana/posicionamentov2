@@ -787,7 +787,8 @@
                     state: state,
                     number: number,
                     complement: complement,
-                    nameCustomer: nameCustomer
+                    nameCustomer: nameCustomer,
+                    password: password
                 },
 
                 beforeSend: function() {

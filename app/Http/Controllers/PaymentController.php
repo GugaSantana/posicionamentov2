@@ -498,6 +498,7 @@ class PaymentController extends Controller
 
         if($order->product->id == 12 && $order->status == 'Paga'){
             $order->user->enable = 1;
+            $order->user->role_id = 2;
             $order->user->save();
         }
 
