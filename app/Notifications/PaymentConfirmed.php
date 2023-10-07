@@ -63,7 +63,7 @@ class PaymentConfirmed extends Notification
         <br><br>
         Esperamos que sua experiência no <font style="color: #c2a94d">PROGRAMA TOPSELLER</font> seja proveitosa e positiva.
         <br>
-        <b><center><font style="color: #c2a94d">MUDE PARA GANHAR SEJA UM TOPSELLER</font></center></b>
+        <b><center><font style="color: #c2a94d">MUDE PARA GANHAR &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; SEJA UM TOPSELLER</font></center></b>
         <br><br>
         Em caso de dúvida entre contato: <a href="https://posicionamento.com.br/contato">https://posicionamento.com.br/contato</a>
         <br>
