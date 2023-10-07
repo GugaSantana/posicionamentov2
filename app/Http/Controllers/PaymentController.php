@@ -495,6 +495,12 @@ class PaymentController extends Controller
         $order = Order::where('payment_code', $paymentCode)->first();
         $order->status = $status;
         $order->save();
+
+        if($order->product->id == 12 && $order->status == 'Paga'){
+            $order->user->enable = 1;
+            $order->user->save();
+        }
+
         return $order;
     }
 
