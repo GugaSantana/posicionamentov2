@@ -155,12 +155,12 @@
                                                             <div class="col-sm-3">
                                                                 <label class="mt-2 mb-0" for="password" <b>Senha:</b></label>
                                                                 <input type="password" class="form-control" id="password"
-                                                                    class="creditcard" name="password" size="2"> &nbsp;
+                                                                    class="creditcard" name="password" size="2" placeholder="Mínimo 8 caracteres"> &nbsp;
                                                             </div>
                                                             <div class="col-sm-3">
                                                                 <label class="mt-2 mb-0" for="password2" <b>Confirmar Senha:</b></label>
                                                                 <input type="password" class="form-control" id="password2"
-                                                                    class="creditcard" name="password2" size="2"> &nbsp;
+                                                                    class="creditcard" name="password2" size="2" placeholder="Mínimo 8 caracteres"> &nbsp;
                                                             </div>
                                                         </div>
                                                         <div class="row">
@@ -692,6 +692,15 @@
                 alerta('error', 'Validação', 'As senhas não conferem, preencha novamente');
                 return false;
             }
+
+            if (password.length < 8) {
+                $("#password").val('');
+                $("#password2").val('');
+                $("#password").focus();
+                alerta('error', 'Validação', 'A senha deve ter pelo menos 8 caracteres');
+                return false;
+            }
+
             /* Fim Senha */
 
             if (cep == '0' || cep == '' || cep == 'undefined' || cep == null) {
@@ -726,7 +735,7 @@
 
             if (number == '0' || number == '' || number == 'undefined' || number == null) {
                 $("#number").focus();
-                alerta('error', 'Validação', 'Preencha o número');
+                alerta('error', 'Validação', 'Preencha o número do endereço');
                 return false;
             }
 

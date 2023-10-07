@@ -44,7 +44,7 @@
 {!! $salutation !!}
 @else
 @lang('Agradecemos o contato'),<br>
-Posicionamento Consultoria.
+Posicionamento Consultores de Empresas.
 @endif
 
     {{-- Subcopy --}}
