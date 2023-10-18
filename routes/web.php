@@ -203,7 +203,7 @@ Route::group(['prefix' => 'instrumento', 'middleware' => 'auth'], function () {
 	Route::get('/', 'SiteController@index')->name('site');
 	
 	/* LANDING PAGE */
-	Route::get('/landingpage', 'SiteController@landingpage')->name('landingpage');
+	Route::get('/programa-topseller', 'SiteController@landingpage')->name('landingpage');
 	Route::post('/landingpage/registrar', 'FormController@create')->name('landingpage_register');
 	Route::post('/landingpage/comprar', 'PaymentController@checkout_landingpage')->name('landingpage_buy');
 	Route::get('/landingpage/completed', 'SiteController@landingpageCompleted')->name('completed_buy');
