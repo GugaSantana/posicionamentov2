@@ -44,7 +44,7 @@ class PaymentCanceled extends Notification
         <br><br>
         Por favor, entre em contato com a operadora do seu cartão para verificar o que houve. Ao solucionar o ocorrido entre no link abaixo e realize a compra novamente.
         <br>
-        <a href="https://posicionamento.com.br/landingpage">https://posicionamento.com.br/landingpage</a>
+        <a href="https://posicionamento.com.br/programa-topseller">https://posicionamento.com.br/programa-topseller</a>
         <br><br>
         Em caso de dúvida entre contato: <a href="https://posicionamento.com.br/contato">https://posicionamento.com.br/contato</a>
         <br><br>
