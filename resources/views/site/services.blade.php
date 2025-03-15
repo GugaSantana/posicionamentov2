@@ -26,7 +26,7 @@
         <div class="row" id="tabs">
           <div class="col-md-4">
             <ul>
-              <li><a href='#tabs-1'>Diagnóstico Sistêmico da Empresa <i class="fa fa-angle-right"></i></a></li>
+              <li><a href='#tabs-1'>Desenvolvimento Organizacional Sistêmico <i class="fa fa-angle-right"></i></a></li>
               <li><a href='#tabs-2'>Formulação da Organização  Requerida e Modelo de Gestão <i class="fa fa-angle-right"></i></a></li>
               <li><a href='#tabs-3'>Desenvolvimento Gerencial <i class="fa fa-angle-right"></i></a></li>
               <li><a href='#tabs-4'>Operacionalização Técnica da Atividade de Liderança <i class="fa fa-angle-right"></i></a></li>
@@ -37,11 +37,15 @@
           <div class="col-md-8">
             <section class='tabs-content'>
               <article id='tabs-1'>
-                <img src="../posicionamento/public/images/service_01_01.jpg" alt="">
-                <h4>Diagnóstico Sistêmico da Empresa</h4>
-                <p>Por meio desse programa, diagnosticamos a situação dos cinco  pilares de competitividade da empresa, definido o nível  de fortaleza de cada um deles e também das próprias interfaces entre eles. Contando com a participação intensa dos executivos da  empresa, são aplicados instrumentos especialmente estruturados,  que classificam os pilares, do mais fraco ao mais forte, definindo  as prioridades para uma ação consultiva.</p>
+                <img src="../posicionamento/public/images/service_01_01_new.png" alt="">
+                <h4>Desenvolvimento Organizacional Sistêmico</h4>
+                <p>Trata-se de uma análise organizacional sistêmica profunda e fundamentada em resultados de pesquisas realizadas em vários países. (baseado no Modelo de Tavistock)
+                  Modelo de grande valor instrumental, identifica dois subsistemas em qualquer empresa ou instituição:<br>
+                  O <b>Subsistema Organizacional</b> – que compreende as demandas da tarefa, implantação física e os equipamentos e instalações existentes.<br>
+                  O <b>Subsistema Psicossocial</b> – que compreende as relações sociais entre os indivíduos encarregados da execução da tarefa. </p>
                 <h4>Benefícios do programa</h4>
-                <p>Gera recomendações de ações corretivas para cada pilar de  competitividade, apontando uma direção segura para que a  empresa chegue aos seus objetivos com  mais rapidez e economia.</p>
+                <p>Gera recomendações de ações corretivas para o subsistema organizacional, responsável pela eficiência potencial da organização e,
+                  para o subsistema psicossocial, que transforma a eficiência potencial em eficiência real. </p>
               </article>
               <article id='tabs-2'>
                 <img src="../posicionamento/public/images/organizacao_requerida.jpg" alt="">
