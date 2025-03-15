@@ -82,56 +82,60 @@
 
       <p><b>2.1 – Clique no link abaixo para acessar o site:</b></p>
       <p><a href="https://chat.openai.com/auth/login" target="_blank">https://chat.openai.com/auth/login</a></p>
-      <p>e então você entrará na tela abaixo com duas alternativas: <br>
-      <b>Conecte-se</b> ou <b>Inscrever-se</b><br>
-      Se a tela estiver em inglês, clique em “Login”, caso já tenha cadastro na plataforma, ou em “Sign up”, para criar uma conta.
-      <br>Use o recurso do seu computador para traduzir ao português.</p>
-
+      <p>e então você entrará na tela abaixo<br>
+    
       <div style="text-align: center; border: 6px double #0f9e7b;">
-        <img src="{{ asset('img/chatgpt/1-1.png') }}" alt="" style="width: 300px">
+        <img src="{{ asset('img/chatgpt/1-1_new.png') }}" alt="" style="width: 100%">
       </div>
+      
+      <br>
+      <p>Acessando esta tela você já poderá formular uma pergunta no campo central “mensagem ChatGPT” ou clicar no campo superior direito “crie conta grátis”: o ideal é criar uma conta - é grátis, rápido e facilita os futuros acessos.</p>
 
       <br>
-      <p><b>2.2 – Conectar-se ou Inscrever-se</b></p>
-      <p>Se você está entrando pela primeira vez no ChatGPT, clique em <b>Inscrever-se (Sign up)</b> e será direcionado para uma página na qual deverá criar uma conta, o que poderá ser feito através de uma conta que você já tenha do google/gmail, Microsoft ou Apple ou criar uma conta própria na plataforma.</p>
+      <p><b>2.2 – Crie sua conta</b></p>
+      <p>Ao clicar em “criar conta grátis” você será direcionado para a tela abaixo, onde se apresenta algumas opções para entrar</p>
 
       <div style="text-align: center; border: 6px double #0f9e7b;">
-        <img src="{{ asset('img/chatgpt/2-2.png') }}" alt="" style="width: 300px">
+        <img src="{{ asset('img/chatgpt/2-2_new.png') }}" alt="" style="width: 30%">
       </div>
       <br>
 
-      <p>Escolha sua opção e siga os passos que forem sendo apresentados.</p>
+      <p>Ao preencher o campo, o ChatGPT vai lhe pedir uma confirmação por seu e-mail. Entre no seu e-mail e após a confirmação você retorna ao ChatGPT na tela seguinte.</p>
+
+      <br>
+      <p><b>2.3 – Fale nos sobre você</b></p>
+      
       <p>O sistema vai apresentar a tela “Fale nos sobre você “ (Tell us about you) onde irá pedir o seu nome/sobrenome e data de nascimento.</p>
 
       <div style="text-align: center; border: 6px double #0f9e7b;">
-        <img src="{{ asset('img/chatgpt/3-3.png') }}" alt="" style="width: 250px">
+        <img src="{{ asset('img/chatgpt/3-3_new.png') }}" alt="" style="width: 30%">
       </div>
       <br>
-
-      <p>Continuando, o sistema pedirá seu número de telefone para validação. Escreva seu número de telefone e clique em “Enviar Código” e você receberá um código por SMS.</p>
-
-      <div style="text-align: center; border: 6px double #0f9e7b;">
-        <img src="{{ asset('img/chatgpt/4-4.png') }}" alt="" style="width: 250px">
-      </div>
-      <br>
-
-      <p>Após receber o código em SMS no seu celular, coloque-o no site do ChatGPT</p>
-
-      <div style="text-align: center; border: 6px double #0f9e7b;">
-        <img src="{{ asset('img/chatgpt/5-5.png') }}" alt="" style="width: 250px">
-      </div>
-      <br>
-
-      <p>Na sequência vai aparecer um pequeno tutorial (3 telas abaixo) do próprio ChatGPT sobre como funciona e alguns avisos são dados (This is a free research preview) é só clicar em “próximo” e seguir em frente</p>
-
-      <div style="text-align: center; border: 6px double #0f9e7b;">
-        <img src="{{ asset('img/chatgpt/6-6.png') }}" alt="" style="width: 250px">
-      </div>
-      <br>
-
-      <p><font style="color: #35408f;">Pronto! A sua conta no ChatGPT estará ativa.</font></p>
-
       
+      <p><b>2.4 – Conta Ativada</b></p>
+
+      <p>Pronto! A sua conta no Chat GPT estará ativa.</p>
+      
+      <div style="text-align: center; border: 6px double #0f9e7b;">
+        <img src="{{ asset('img/chatgpt/4-4_new.png') }}" alt="" style="width: 100%">
+      </div>
+      <br>
+
+      <p>Agora você poderá iniciar o seu trabalho de forma gratuita a IA do ChatGPT</p>
+
+      <br>
+      <p><b>2.5 – Informações Complementares</b></p>
+
+      <p>Depois de utilizar por algum tempo o atual GPT 4o gratuitamente você poderá exceder o tempo de uso da plataforma nesta versão e aparecerá na tela acima uma mensagem informando em quantas horas você poderá voltar a utilizar o GPT 4o.</p>
+      <p>Enquanto isso você poderá continuar utilizando o ChatGPT na versão 4 (que atende muito bem também). Para isso clique no botão “novo Chat” que aparecerá na tela e continue utilizado a Inteligência Artificial.</p>
+      <p>Ao termino do tempo especificado no GPT 4o você retorna ao uso desta versão normalmente.</p>
+      
+
+
+
+
+
+{{--       
       <br>
       <p><b>3 - DESCRIÇÃO DA ESTRUTURA DO ChatGPT</b></p>
       <p>Após o cadastramento você terá acesso a tela abaixo que é a principal página do ChatGPT</p>
@@ -149,11 +153,11 @@
       Quando quiser apagar alguma pesquisa é só clicar na lixeira que tem ao lado.<br>
       (4) – Exemplos de aplicações<br>
       (5) – Capacidades do sistema.<br>
-      (6) – Limitações de uso do sistema.</p>
+      (6) – Limitações de uso do sistema.</p> --}}
 
 
       <br>
-      <p><b>4 - COMO USAR O ChatGPT</b></p>
+      <p><b>3 - COMO USAR O ChatGPT</b></p>
       
       <p>Neste capítulo apresentaremos, passo a passo, como interagir da maneira mais produtiva com o ChatGPT de Inteligência Artificial com o objetivo de extrair os melhores resultados de suas respostas.</p>
       <p>Dividimos este capítulo em duas seções: <b>SOBRE O QUE PERGUNTAR</b> e <b>COMO PERGUNTAR.</b></p>
