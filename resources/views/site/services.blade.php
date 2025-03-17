@@ -37,7 +37,7 @@
           <div class="col-md-8">
             <section class='tabs-content'>
               <article id='tabs-1'>
-                <img src="../posicionamento/public/images/service_01_01_new.png" alt="">
+                <img src="../posicionamento/public/images/service_01_01_new2.png" alt="">
                 <h4>Desenvolvimento Organizacional Sistêmico</h4>
                 <p>Trata-se de uma análise organizacional sistêmica profunda e fundamentada em resultados de pesquisas realizadas em vários países. (baseado no Modelo de Tavistock)
                   Modelo de grande valor instrumental, identifica dois subsistemas em qualquer empresa ou instituição:<br>
